@@ -35,7 +35,7 @@
     - **Nombre corto:** LOMLOE
     - **Ámbito:** estatal
     - **Autoridad:** Jefatura del Estado
-    - **Fuente oficial:** [FTE-006](../../01_fuentes/boe/FTE-006-lomloe.md)
+    - **Fuente oficial:** [FTE-006](../../../01_fuentes/boe/FTE-006-lomloe.md)
     - **Fecha de consulta:** 2026-04-25
     - **Estado de vigencia:** Vigente
 
@@ -81,4 +81,4 @@
 
     ## 11. Fuentes
 
-    - [FTE-006](../../01_fuentes/boe/FTE-006-lomloe.md)
+    - [FTE-006](../../../01_fuentes/boe/FTE-006-lomloe.md)

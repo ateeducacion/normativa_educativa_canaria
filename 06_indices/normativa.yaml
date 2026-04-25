@@ -6,7 +6,7 @@ NOR-001:
   estado_vigencia: "Vigente con modificaciones"
   fuente_principal: FTE-005
   ruta: "02_normativa/estatal/leyes-organicas/NOR-001-loe.md"
-  temas: [sistema-educativo, curriculo, evaluacion]
+  temas: [curriculo, evaluacion, organizacion-centros]
   etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
 
 NOR-002:

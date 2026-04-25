@@ -14,7 +14,7 @@
     fuente_principal: FTE-005
     url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899"
     etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
-    temas: [sistema-educativo, curriculo, evaluacion]
+    temas: [curriculo, evaluacion, organizacion-centros]
     relaciones:
   desarrolla_a: []
   modificada_por: [NOR-002]
@@ -35,7 +35,7 @@
     - **Nombre corto:** LOE
     - **Ámbito:** estatal
     - **Autoridad:** Jefatura del Estado
-    - **Fuente oficial:** [FTE-005](../../01_fuentes/boe/FTE-005-loe-texto-consolidado.md)
+    - **Fuente oficial:** [FTE-005](../../../01_fuentes/boe/FTE-005-loe-texto-consolidado.md)
     - **Fecha de consulta:** 2026-04-25
     - **Estado de vigencia:** Vigente con modificaciones
 
@@ -81,4 +81,4 @@
 
     ## 11. Fuentes
 
-    - [FTE-005](../../01_fuentes/boe/FTE-005-loe-texto-consolidado.md)
+    - [FTE-005](../../../01_fuentes/boe/FTE-005-loe-texto-consolidado.md)

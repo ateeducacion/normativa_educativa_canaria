@@ -35,7 +35,7 @@
     - **Nombre corto:** Ley Canaria 6/2014
     - **Ámbito:** canarias
     - **Autoridad:** Comunidad Autónoma de Canarias
-    - **Fuente oficial:** [FTE-008](../../01_fuentes/boe/FTE-008-ley-canaria-6-2014.md)
+    - **Fuente oficial:** [FTE-008](../../../01_fuentes/boe/FTE-008-ley-canaria-6-2014.md)
     - **Fecha de consulta:** 2026-04-25
     - **Estado de vigencia:** Vigente
 
@@ -81,4 +81,4 @@
 
     ## 11. Fuentes
 
-    - [FTE-008](../../01_fuentes/boe/FTE-008-ley-canaria-6-2014.md)
+    - [FTE-008](../../../01_fuentes/boe/FTE-008-ley-canaria-6-2014.md)
