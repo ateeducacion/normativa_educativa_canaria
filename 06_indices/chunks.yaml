@@ -1,0 +1,24 @@
+CHUNK-00001:
+  origen_id: NOR-001
+  titulo: "LOE — objeto general"
+  ruta: "07_corpus_ia/chunks/CHUNK-00001-loe-objeto-general.yaml"
+
+CHUNK-00002:
+  origen_id: NOR-002
+  titulo: "LOMLOE — modifica la LOE"
+  ruta: "07_corpus_ia/chunks/CHUNK-00002-lomloe-modifica-la-loe.yaml"
+
+CHUNK-00003:
+  origen_id: NOR-003
+  titulo: "RD 217/2022 — enseñanzas mínimas ESO"
+  ruta: "07_corpus_ia/chunks/CHUNK-00003-rd-217-2022-ensenanzas-minimas-eso.yaml"
+
+CHUNK-00004:
+  origen_id: NOR-004
+  titulo: "Ley Canaria 6/2014 — marco autonómico"
+  ruta: "07_corpus_ia/chunks/CHUNK-00004-ley-canaria-6-2014-marco-autonomico.yaml"
+
+CHUNK-00005:
+  origen_id: AN-002
+  titulo: "Currículos ESO Canarias — inventario inicial"
+  ruta: "07_corpus_ia/chunks/CHUNK-00005-curriculos-eso-canarias-inventario-inicial.yaml"

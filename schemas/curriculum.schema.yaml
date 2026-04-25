@@ -1,0 +1,60 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+additionalProperties: false
+
+type: object
+required: [id, titulo, etapa, materia, cursos, norma_base, fuente, url_oficial, fecha_consulta, fecha_analisis, estado_extraccion, estado_vigencia, elementos, relaciones, resumen_ia, observaciones]
+properties:
+  id:
+    type: string
+    pattern: '^CUR-[0-9]{3}$'
+  titulo:
+    type: string
+  etapa:
+    type: string
+    enum: [infantil, primaria, eso, bachillerato, formacion-profesional, regimen-especial]
+  materia:
+    type: string
+  ambito:
+    type: [string, 'null']
+  cursos:
+    type: array
+    items:
+      type: string
+  norma_base:
+    type: [string, 'null']
+  fuente:
+    type: string
+    pattern: '^FTE-[0-9]{3}$'
+  url_oficial:
+    type: string
+  fecha_consulta:
+    type: string
+  fecha_analisis:
+    type: [string, 'null']
+  estado_extraccion:
+    type: string
+    enum: [Pendiente, En análisis, Extraído parcialmente, Extraído, Revisado, Obsoleto]
+  estado_vigencia:
+    type: string
+    enum: [Vigente, Vigente con modificaciones, Parcialmente vigente, Derogada, Derogada parcialmente, Sustituida, Histórica, Pendiente de verificación, No normativa]
+  elementos:
+    type: object
+    additionalProperties: false
+    required: [competencias_especificas, criterios_evaluacion, saberes_basicos, descriptores_operativos, situaciones_aprendizaje]
+    properties:
+      competencias_especificas: {type: array, items: {type: string}}
+      criterios_evaluacion: {type: array, items: {type: string}}
+      saberes_basicos: {type: array, items: {type: string}}
+      descriptores_operativos: {type: array, items: {type: string}}
+      situaciones_aprendizaje: {type: array, items: {type: string}}
+  relaciones:
+    type: object
+    additionalProperties: false
+    required: [desarrolla_a, relacionada_con]
+    properties:
+      desarrolla_a: {type: array, items: {type: string}}
+      relacionada_con: {type: array, items: {type: string}}
+  resumen_ia:
+    type: string
+  observaciones:
+    type: [string, 'null']

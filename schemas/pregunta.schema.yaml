@@ -1,0 +1,22 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+additionalProperties: false
+
+type: object
+required: [id, titulo, estado, fecha_registro, relacionadas, descripcion]
+properties:
+  id:
+    type: string
+    pattern: '^PREG-[0-9]{3}$'
+  titulo:
+    type: string
+  estado:
+    type: string
+    enum: [Abierta, En revisión, Resuelta, Cerrada]
+  fecha_registro:
+    type: string
+  relacionadas:
+    type: array
+    items:
+      type: string
+  descripcion:
+    type: string

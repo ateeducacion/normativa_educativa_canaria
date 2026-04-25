@@ -1,0 +1,43 @@
+NOR-001:
+  titulo: "Ley Orgánica 2/2006, de 3 de mayo, de Educación"
+  nombre_corto: "LOE"
+  tipo_norma: "ley-organica"
+  ambito: "estatal"
+  estado_vigencia: "Vigente con modificaciones"
+  fuente_principal: FTE-005
+  ruta: "02_normativa/estatal/leyes-organicas/NOR-001-loe.md"
+  temas: [sistema-educativo, curriculo, evaluacion]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-002:
+  titulo: "Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de Educación"
+  nombre_corto: "LOMLOE"
+  tipo_norma: "ley-organica"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fuente_principal: FTE-006
+  ruta: "02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md"
+  temas: [curriculo, evaluacion, inclusion]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-003:
+  titulo: "Real Decreto 217/2022, de 29 de marzo, por el que se establece la ordenación y las enseñanzas mínimas de la Educación Secundaria Obligatoria"
+  nombre_corto: "RD 217/2022"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fuente_principal: FTE-007
+  ruta: "02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md"
+  temas: [curriculo, ordenacion, evaluacion, promocion, titulacion]
+  etapas_afectadas: [eso]
+
+NOR-004:
+  titulo: "Ley 6/2014, de 25 de julio, Canaria de Educación no Universitaria"
+  nombre_corto: "Ley Canaria 6/2014"
+  tipo_norma: "ley-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fuente_principal: FTE-008
+  ruta: "02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md"
+  temas: [curriculo, organizacion-centros, funcion-docente, inclusion]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]

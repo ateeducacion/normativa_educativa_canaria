@@ -1,0 +1,20 @@
+REL-001:
+  tipo_relacion: "modifica"
+  origen: NOR-002
+  destino: NOR-001
+  fuente: FTE-006
+  ruta: "05_relaciones/normativa/REL-001-lomloe-modifica-loe.yaml"
+
+REL-002:
+  tipo_relacion: "desarrolla"
+  origen: NOR-003
+  destino: NOR-001
+  fuente: FTE-007
+  ruta: "05_relaciones/normativa/REL-002-rd-217-2022-desarrolla-eso.yaml"
+
+REL-003:
+  tipo_relacion: "relaciona"
+  origen: NOR-004
+  destino: NOR-001
+  fuente: FTE-008
+  ruta: "05_relaciones/normativa/REL-003-ley-canaria-6-2014-relacion-loe-lomloe.yaml"

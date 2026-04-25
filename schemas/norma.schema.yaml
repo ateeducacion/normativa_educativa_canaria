@@ -1,0 +1,74 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+additionalProperties: false
+
+type: object
+required: [id, titulo, nombre_corto, tipo_norma, ambito, autoridad, fecha_consulta, fecha_analisis, estado_vigencia, fuente_principal, url_oficial, etapas_afectadas, temas, relaciones, nivel_evidencia]
+properties:
+  id:
+    type: string
+    pattern: '^NOR-[0-9]{3}$'
+  titulo:
+    type: string
+  nombre_corto:
+    type: string
+  tipo_norma:
+    type: string
+  ambito:
+    type: string
+    enum: [estatal, canarias, europeo, municipal, otro]
+  autoridad:
+    type: string
+  fecha_disposicion:
+    type: [string, 'null']
+  fecha_publicacion:
+    type: [string, 'null']
+  fecha_entrada_vigor:
+    type: [string, 'null']
+  fecha_consulta:
+    type: string
+  fecha_analisis:
+    type: string
+  estado_vigencia:
+    type: string
+    enum: [Vigente, Vigente con modificaciones, Parcialmente vigente, Derogada, Derogada parcialmente, Sustituida, Histórica, Pendiente de verificación, No normativa]
+  fuente_principal:
+    type: string
+    pattern: '^FTE-[0-9]{3}$'
+  url_oficial:
+    type: string
+  etapas_afectadas:
+    type: array
+    items:
+      type: string
+      enum: [infantil, primaria, eso, bachillerato, formacion-profesional, educacion-adultos, regimen-especial, transversal]
+  temas:
+    type: array
+    items:
+      type: string
+      enum: [curriculo, ordenacion, evaluacion, promocion, titulacion, atencion-diversidad, inclusion, admision, escolarizacion, convivencia, organizacion-centros, funcion-docente, inspeccion, digitalizacion, familias, becas-ayudas, calendario-escolar, transporte-comedor]
+  relaciones:
+    type: object
+    additionalProperties: false
+    required: [desarrolla_a, modificada_por, modifica_a, deroga_a, derogada_por, relacionada_con]
+    properties:
+      desarrolla_a:
+        type: array
+        items: {type: string}
+      modificada_por:
+        type: array
+        items: {type: string}
+      modifica_a:
+        type: array
+        items: {type: string}
+      deroga_a:
+        type: array
+        items: {type: string}
+      derogada_por:
+        type: array
+        items: {type: string}
+      relacionada_con:
+        type: array
+        items: {type: string}
+  nivel_evidencia:
+    type: string
+    enum: [confirmado-fuente-primaria, confirmado-fuente-secundaria-oficial, inferido, hipotesis, opinion-experta]

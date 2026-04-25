@@ -1,0 +1,31 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+additionalProperties: false
+
+type: object
+required: [id, titulo, estado, prioridad, tipo, responsable, fecha_creacion, fecha_actualizacion, relacionadas, siguiente_accion]
+properties:
+  id:
+    type: string
+    pattern: '^TAREA-[0-9]{3}$'
+  titulo:
+    type: string
+  estado:
+    type: string
+    enum: [Pendiente, En curso, Hecha, Bloqueada]
+  prioridad:
+    type: string
+    enum: [Crítica, Alta, Media, Baja]
+  tipo:
+    type: string
+  responsable:
+    type: string
+  fecha_creacion:
+    type: string
+  fecha_actualizacion:
+    type: string
+  relacionadas:
+    type: array
+    items:
+      type: string
+  siguiente_accion:
+    type: [string, 'null']
