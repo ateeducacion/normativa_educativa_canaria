@@ -1,0 +1,65 @@
+TAREA-001:
+  titulo: "Bootstrap del repositorio"
+  estado: "Hecha"
+  prioridad: "Crítica"
+  tipo: "bootstrap"
+  responsable: "@.agents/skills/catalogacion-fuentes"
+  fecha_creacion: 2026-04-25
+  fecha_actualizacion: 2026-04-25
+  relacionadas: [DEC-0001]
+  ruta: "08_tareas/backlog/TAREA-001-bootstrap-del-repositorio.md"
+
+TAREA-002:
+  titulo: "Catalogar fuentes iniciales"
+  estado: "En curso"
+  prioridad: "Alta"
+  tipo: "catalogacion"
+  responsable: "@.agents/skills/catalogacion-fuentes"
+  fecha_creacion: 2026-04-25
+  fecha_actualizacion: 2026-04-25
+  relacionadas: [FTE-001, FTE-002, FTE-003, FTE-004]
+  ruta: "08_tareas/backlog/TAREA-002-catalogar-fuentes-iniciales.md"
+
+TAREA-003:
+  titulo: "Crear fichas normativas iniciales"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "analisis"
+  responsable: "@.agents/skills/analisis-normativo"
+  fecha_creacion: 2026-04-25
+  fecha_actualizacion: 2026-04-25
+  relacionadas: [NOR-001, NOR-002, NOR-003, NOR-004]
+  ruta: "08_tareas/backlog/TAREA-003-crear-fichas-normativas-iniciales.md"
+
+TAREA-004:
+  titulo: "Crear índice inicial de currículos ESO"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/analisis-curricular"
+  fecha_creacion: 2026-04-25
+  fecha_actualizacion: 2026-04-25
+  relacionadas: [CUR-001, CUR-002, CUR-003, CUR-004, CUR-005, CUR-006, CUR-007, CUR-008, CUR-009, CUR-010, CUR-011, CUR-012, CUR-013, CUR-014, CUR-015, CUR-016, CUR-017, CUR-018, CUR-019, CUR-020, CUR-021, CUR-022, CUR-023]
+  ruta: "08_tareas/backlog/TAREA-004-crear-indice-inicial-de-curriculos-eso.md"
+
+TAREA-005:
+  titulo: "Preparar primeros chunks IA"
+  estado: "Hecha"
+  prioridad: "Media"
+  tipo: "corpus-ia"
+  responsable: "@.agents/skills/preparacion-corpus-ia"
+  fecha_creacion: 2026-04-25
+  fecha_actualizacion: 2026-04-25
+  relacionadas: [CHUNK-00001, CHUNK-00002, CHUNK-00003, CHUNK-00004, CHUNK-00005]
+  ruta: "08_tareas/backlog/TAREA-005-preparar-primeros-chunks-ia.md"
+
+TAREA-006:
+  titulo: "Revisar vigencia de normas iniciales"
+  estado: "Pendiente"
+  prioridad: "Alta"
+  tipo: "vigencia"
+  responsable: "@.agents/skills/control-vigencia"
+  fecha_creacion: 2026-04-25
+  fecha_actualizacion: 2026-04-25
+  relacionadas: [NOR-001, NOR-002, NOR-003, NOR-004]
+  ruta: "08_tareas/backlog/TAREA-006-revisar-vigencia-de-normas-iniciales.md"

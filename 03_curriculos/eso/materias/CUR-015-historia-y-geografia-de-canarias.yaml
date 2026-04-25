@@ -1,0 +1,24 @@
+id: CUR-015
+titulo: "Historia y Geografía de Canarias — ESO Canarias"
+etapa: "eso"
+materia: "Historia y Geografía de Canarias"
+ambito: null
+cursos: []
+norma_base: null
+fuente: FTE-002
+url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
+fecha_consulta: 2026-04-25
+fecha_analisis: null
+estado_extraccion: "Pendiente"
+estado_vigencia: "Pendiente de verificación"
+elementos:
+  competencias_especificas: []
+  criterios_evaluacion: []
+  saberes_basicos: []
+  descriptores_operativos: []
+  situaciones_aprendizaje: []
+relaciones:
+  desarrolla_a: []
+  relacionada_con: [NOR-003]
+resumen_ia: "Currículo de Historia y Geografía de Canarias en ESO localizado desde el portal oficial de Canarias; extracción pendiente de detalle y confirmación de norma base autonómica final."
+observaciones: "Pendiente de confirmar la fuente normativa autonómica final del currículo; ver PREG-001."

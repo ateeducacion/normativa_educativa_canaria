@@ -1,0 +1,71 @@
+FTE-001:
+  titulo: "Normativa educativa — Gobierno de Canarias"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/normativa/"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/portales-oficiales/FTE-001-normativa-educativa-gobierno-canarias.md"
+  estado_fuente: "Activa"
+
+FTE-002:
+  titulo: "Currículos de Educación Secundaria Obligatoria — Gobierno de Canarias"
+  tipo_fuente: "portal-curricular"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/portales-oficiales/FTE-002-curriculos-eso-canarias.md"
+  estado_fuente: "Activa"
+
+FTE-003:
+  titulo: "Ordenación y currículo — Educación Secundaria — Gobierno de Canarias"
+  tipo_fuente: "portal-curricular"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/portales-oficiales/FTE-003-ordenacion-curriculo-secundaria-canarias.md"
+  estado_fuente: "Activa"
+
+FTE-004:
+  titulo: "Ordenación de la Educación Secundaria Obligatoria — Gobierno de Canarias"
+  tipo_fuente: "portal-curricular"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/ordenacion-de-la-educacion-secundaria-obligatoria-eso/index.html"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/portales-oficiales/FTE-004-ordenacion-eso-canarias.md"
+  estado_fuente: "Activa"
+
+FTE-005:
+  titulo: "Ley Orgánica 2/2006, de Educación — texto consolidado BOE"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/boe/FTE-005-loe-texto-consolidado.md"
+  estado_fuente: "Activa"
+
+FTE-006:
+  titulo: "Ley Orgánica 3/2020, LOMLOE"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17264"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/boe/FTE-006-lomloe.md"
+  estado_fuente: "Activa"
+
+FTE-007:
+  titulo: "Real Decreto 217/2022, enseñanzas mínimas de ESO"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/boe/FTE-007-rd-217-2022.md"
+  estado_fuente: "Activa"
+
+FTE-008:
+  titulo: "Ley 6/2014, Canaria de Educación no Universitaria"
+  tipo_fuente: "normativa-autonomica"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2014-9901"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/boe/FTE-008-ley-canaria-6-2014.md"
+  estado_fuente: "Activa"

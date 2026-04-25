@@ -1,0 +1,31 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+additionalProperties: false
+
+type: object
+required: [id, titulo, tipo_fuente, autoridad, url_oficial, fecha_consulta, estado_fuente, nivel_evidencia, relacionadas]
+properties:
+  id:
+    type: string
+    pattern: '^FTE-[0-9]{3}$'
+  titulo:
+    type: string
+  tipo_fuente:
+    type: string
+  autoridad:
+    type: string
+  url_oficial:
+    type: string
+  fecha_consulta:
+    type: string
+  fecha_analisis:
+    type: [string, 'null']
+  estado_fuente:
+    type: string
+    enum: [Activa, Histórica, Pendiente de verificación]
+  nivel_evidencia:
+    type: string
+    enum: [confirmado-fuente-primaria, confirmado-fuente-secundaria-oficial, inferido, hipotesis, opinion-experta]
+  relacionadas:
+    type: array
+    items:
+      type: string

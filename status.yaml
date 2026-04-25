@@ -1,0 +1,83 @@
+metadata:
+  proyecto: "Normativa Educativa Canarias"
+  repositorio: "ateeducacion/normativa_educativa"
+  objetivo: "Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML"
+  fase_actual: "Fase 0 — Bootstrap"
+  fecha_actualizacion: 2026-04-25
+  agente_actual: "@.agents/skills/catalogacion-fuentes"
+
+tareas:
+  TAREA-001:
+    titulo: "Bootstrap del repositorio"
+    estado: "Hecha"
+    prioridad: "Crítica"
+    tipo: "bootstrap"
+    responsable: "@.agents/skills/catalogacion-fuentes"
+    fecha_creacion: 2026-04-25
+    fecha_actualizacion: 2026-04-25
+    relacionadas: [DEC-0001, DEC-0002, DEC-0003]
+    siguiente_accion: null
+
+  TAREA-002:
+    titulo: "Catalogar fuentes iniciales"
+    estado: "En curso"
+    prioridad: "Alta"
+    tipo: "catalogacion"
+    responsable: "@.agents/skills/catalogacion-fuentes"
+    fecha_creacion: 2026-04-25
+    fecha_actualizacion: 2026-04-25
+    relacionadas: [FTE-001, FTE-002, FTE-003, FTE-004, PREG-001]
+    siguiente_accion: "Completar fuentes BOE, BOC o Juriscan finales enlazadas desde portales canarios"
+
+  TAREA-003:
+    titulo: "Crear fichas normativas iniciales"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "analisis"
+    responsable: "@.agents/skills/analisis-normativo"
+    fecha_creacion: 2026-04-25
+    fecha_actualizacion: 2026-04-25
+    relacionadas: [NOR-001, NOR-002, NOR-003, NOR-004]
+    siguiente_accion: null
+
+  TAREA-004:
+    titulo: "Crear índice inicial de currículos ESO"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/analisis-curricular"
+    fecha_creacion: 2026-04-25
+    fecha_actualizacion: 2026-04-25
+    relacionadas: [CUR-001, CUR-023, PREG-001, PREG-002]
+    siguiente_accion: "Definir alcance de extracción y confirmar norma base autonómica"
+
+  TAREA-005:
+    titulo: "Preparar primeros chunks IA"
+    estado: "Hecha"
+    prioridad: "Media"
+    tipo: "corpus-ia"
+    responsable: "@.agents/skills/preparacion-corpus-ia"
+    fecha_creacion: 2026-04-25
+    fecha_actualizacion: 2026-04-25
+    relacionadas: [CHUNK-00001, CHUNK-00002, CHUNK-00003, CHUNK-00004, CHUNK-00005]
+    siguiente_accion: null
+
+  TAREA-006:
+    titulo: "Revisar vigencia de normas iniciales"
+    estado: "Pendiente"
+    prioridad: "Alta"
+    tipo: "vigencia"
+    responsable: "@.agents/skills/control-vigencia"
+    fecha_creacion: 2026-04-25
+    fecha_actualizacion: 2026-04-25
+    relacionadas: [NOR-001, NOR-002, NOR-003, NOR-004]
+    siguiente_accion: "Contrastar cada ficha con su fuente oficial consolidada actualizada"
+
+bloqueos:
+  - PREG-001
+
+reglas:
+  - "No crear contenido normativo sin fuente oficial."
+  - "No borrar historial."
+  - "Actualizar índices YAML con cada nueva entidad."
+  - "Marcar toda duda como PREG-NNN."

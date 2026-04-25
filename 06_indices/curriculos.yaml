@@ -1,0 +1,252 @@
+CUR-001:
+  titulo: "Biología y Geología — ESO Canarias"
+  etapa: "eso"
+  materia: "Biología y Geología"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-002:
+  titulo: "Cultura Clásica — ESO Canarias"
+  etapa: "eso"
+  materia: "Cultura Clásica"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-002-cultura-clasica.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-002-cultura-clasica.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-003:
+  titulo: "Cultura y Ciudadanía Digital — ESO Canarias"
+  etapa: "eso"
+  materia: "Cultura y Ciudadanía Digital"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-003-cultura-y-ciudadania-digital.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-003-cultura-y-ciudadania-digital.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-004:
+  titulo: "Digitalización — ESO Canarias"
+  etapa: "eso"
+  materia: "Digitalización"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-004-digitalizacion.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-004-digitalizacion.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-005:
+  titulo: "Economía Personal y Social — ESO Canarias"
+  etapa: "eso"
+  materia: "Economía Personal y Social"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-005-economia-personal-y-social.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-005-economia-personal-y-social.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-006:
+  titulo: "Economía y Emprendimiento — ESO Canarias"
+  etapa: "eso"
+  materia: "Economía y Emprendimiento"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-006-economia-y-emprendimiento.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-006-economia-y-emprendimiento.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-007:
+  titulo: "Educación en Valores Cívicos y Éticos — ESO Canarias"
+  etapa: "eso"
+  materia: "Educación en Valores Cívicos y Éticos"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-007-educacion-en-valores-civicos-y-eticos.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-007-educacion-en-valores-civicos-y-eticos.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-008:
+  titulo: "Educación Física — ESO Canarias"
+  etapa: "eso"
+  materia: "Educación Física"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-008-educacion-fisica.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-008-educacion-fisica.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-009:
+  titulo: "Educación Plástica, Visual y Audiovisual — ESO Canarias"
+  etapa: "eso"
+  materia: "Educación Plástica, Visual y Audiovisual"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-009-educacion-plastica-visual-y-audiovisual.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-009-educacion-plastica-visual-y-audiovisual.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-010:
+  titulo: "Expresión Artística — ESO Canarias"
+  etapa: "eso"
+  materia: "Expresión Artística"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-010-expresion-artistica.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-010-expresion-artistica.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-011:
+  titulo: "Filosofía — ESO Canarias"
+  etapa: "eso"
+  materia: "Filosofía"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-011-filosofia.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-011-filosofia.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-012:
+  titulo: "Física y Química — ESO Canarias"
+  etapa: "eso"
+  materia: "Física y Química"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-012-fisica-y-quimica.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-012-fisica-y-quimica.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-013:
+  titulo: "Formación y Orientación Personal y Profesional — ESO Canarias"
+  etapa: "eso"
+  materia: "Formación y Orientación Personal y Profesional"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-014:
+  titulo: "Geografía e Historia — ESO Canarias"
+  etapa: "eso"
+  materia: "Geografía e Historia"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-014-geografia-e-historia.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-014-geografia-e-historia.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-015:
+  titulo: "Historia y Geografía de Canarias — ESO Canarias"
+  etapa: "eso"
+  materia: "Historia y Geografía de Canarias"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-016:
+  titulo: "Latín — ESO Canarias"
+  etapa: "eso"
+  materia: "Latín"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-016-latin.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-016-latin.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-017:
+  titulo: "Lengua Castellana y Literatura — ESO Canarias"
+  etapa: "eso"
+  materia: "Lengua Castellana y Literatura"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-018:
+  titulo: "Lengua Extranjera — ESO Canarias"
+  etapa: "eso"
+  materia: "Lengua Extranjera"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-018-lengua-extranjera.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-018-lengua-extranjera.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-019:
+  titulo: "Matemáticas — ESO Canarias"
+  etapa: "eso"
+  materia: "Matemáticas"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-019-matematicas.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-019-matematicas.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-020:
+  titulo: "Música — ESO Canarias"
+  etapa: "eso"
+  materia: "Música"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-020-musica.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-020-musica.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-021:
+  titulo: "Segunda Lengua Extranjera — ESO Canarias"
+  etapa: "eso"
+  materia: "Segunda Lengua Extranjera"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-022:
+  titulo: "Tecnología — ESO Canarias"
+  etapa: "eso"
+  materia: "Tecnología"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-022-tecnologia.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-022-tecnologia.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+
+CUR-023:
+  titulo: "Tecnología y Digitalización — ESO Canarias"
+  etapa: "eso"
+  materia: "Tecnología y Digitalización"
+  norma_base: null
+  fuente: FTE-002
+  ruta_yaml: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.yaml"
+  ruta_md: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
