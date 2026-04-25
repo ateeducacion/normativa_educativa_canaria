@@ -1450,6 +1450,3 @@ Si dudas entre copiar mucho texto o resumir con fuente, **resume con fuente**.
 Si dudas entre borrar o marcar, **marca**.
 
 Este repositorio existe para tener la normativa educativa de Canarias bien analizada, ordenada, enlazada e indexada para sistemas de inteligencia artificial.
-
-```
-```
