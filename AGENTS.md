@@ -119,7 +119,7 @@ Verifica siempre en fuente oficial. Si no se puede confirmar, usa `Pendiente de 
 - `preparacion-corpus-ia`: resúmenes, chunks y exports.
 - `control-calidad-documental`: validación de estructura y trazabilidad.
 - `experto-lomloe-loe`: normativa básica estatal.
-- `experto-normativa-canaria`: normativa autonómica canaria.
+- `experto-normativa-canaria`: normativa autonómica Canaria.
 - `experto-eso`: currículo y ordenación de ESO.
 - `experto-primaria`: Infantil y Primaria.
 - `experto-bachillerato`: Bachillerato.
