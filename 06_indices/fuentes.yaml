@@ -69,3 +69,21 @@ FTE-008:
   fecha_consulta: 2026-04-25
   ruta: "01_fuentes/boe/FTE-008-ley-canaria-6-2014.md"
   estado_fuente: "Activa"
+
+FTE-009:
+  titulo: "Decreto 30/2023, de 16 de marzo, ordenación y currículo de ESO y Bachillerato en Canarias"
+  tipo_fuente: "normativa-autonomica"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md"
+  estado_fuente: "Activa"
+
+FTE-010:
+  titulo: "Decreto 86/2025, de 30 de junio, currículo de los ámbitos de los Programas de Diversificación Curricular en Canarias"
+  tipo_fuente: "normativa-autonomica"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2025/133/2484.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-010-decreto-86-2025-pdc-eso.md"
+  estado_fuente: "Activa"

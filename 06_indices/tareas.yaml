@@ -11,13 +11,13 @@ TAREA-001:
 
 TAREA-002:
   titulo: "Catalogar fuentes iniciales"
-  estado: "En curso"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "catalogacion"
   responsable: "@.agents/skills/catalogacion-fuentes"
   fecha_creacion: 2026-04-25
-  fecha_actualizacion: 2026-04-25
-  relacionadas: [FTE-001, FTE-002, FTE-003, FTE-004]
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [FTE-001, FTE-002, FTE-003, FTE-004, FTE-009, FTE-010, PREG-001]
   ruta: "08_tareas/backlog/TAREA-002-catalogar-fuentes-iniciales.md"
 
 TAREA-003:

@@ -1,8 +1,8 @@
 PREG-001:
   titulo: "Fuente oficial final del decreto autonómico de currículo ESO/Bachillerato"
-  estado: "Abierta"
+  estado: "Resuelta"
   fecha_registro: 2026-04-25
-  relacionadas: [FTE-002, FTE-003, FTE-004]
+  relacionadas: [FTE-002, FTE-003, FTE-004, FTE-009]
   ruta: "08_tareas/preguntas/PREG-001-fuente-oficial-final-decreto-curriculo-eso-bachillerato.md"
 
 PREG-002:
