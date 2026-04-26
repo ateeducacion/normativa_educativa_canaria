@@ -405,7 +405,7 @@ tareas:
 
   TAREA-037:
     titulo: "Catalogar RD de títulos FP más comunes en Canarias (fase acotada)"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: "@.agents/skills/experto-formacion-profesional"
