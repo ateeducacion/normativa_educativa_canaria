@@ -548,14 +548,14 @@ tareas:
 
   TAREA-050:
     titulo: "Completar CEs pendientes de CUR-050 y CUR-051 — DAM y DAW"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: "@.agents/skills/experto-formacion-profesional"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [CUR-050, CUR-051, NOR-055, NOR-056]
-    siguiente_accion: "Extraer CEs módulos pendientes desde BOE-A-2010-8067 y BOE-A-2010-9269"
+    siguiente_accion: null
 
   TAREA-051:
     titulo: "Completar módulos comunes de CUR-053 — Integración Social"

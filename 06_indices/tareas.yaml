@@ -539,7 +539,7 @@ TAREA-049:
 
 TAREA-050:
   titulo: "Completar CEs pendientes de CUR-050 y CUR-051 — DAM y DAW (módulos 2.º año)"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: "@.agents/skills/experto-formacion-profesional"
