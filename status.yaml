@@ -84,6 +84,39 @@ tareas:
     relacionadas: [FTE-009, NOR-002, NOR-003, NOR-004, NOR-005, REL-004, REL-005, PREG-001]
     siguiente_accion: null
 
+  TAREA-008:
+    titulo: "Normalizar el frontmatter YAML de NOR-001 a NOR-004"
+    estado: "Hecha"
+    prioridad: "Media"
+    tipo: "calidad-documental"
+    responsable: "@.agents/skills/control-calidad-documental"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [NOR-001, NOR-002, NOR-003, NOR-004]
+    siguiente_accion: null
+
+  TAREA-009:
+    titulo: "Redactar ficha normativa NOR-006 (RD 243/2022, Bachillerato)"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "analisis"
+    responsable: "@.agents/skills/analisis-normativo"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [FTE-011, NOR-001, NOR-002, NOR-005, NOR-006, REL-006, REL-007]
+    siguiente_accion: null
+
+  TAREA-010:
+    titulo: "Iniciar extracción curricular de CUR-001 (Biología y Geología, ESO Canarias)"
+    estado: "En progreso"
+    prioridad: "Alta"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/analisis-curricular"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [CUR-001, NOR-005, NOR-003, FTE-009, DEC-0004]
+    siguiente_accion: "Volcar criterios de evaluación, descriptores operativos y enunciados literales contra el anexo del Decreto 30/2023 publicado en BOC"
+
 bloqueos: []
 
 reglas:

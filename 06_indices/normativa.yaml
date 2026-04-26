@@ -72,3 +72,18 @@ NOR-005:
   ruta: "02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md"
   temas: [curriculo, ordenacion, evaluacion, promocion, titulacion]
   etapas_afectadas: [eso, bachillerato]
+
+NOR-006:
+  titulo: "Real Decreto 243/2022, de 5 de abril, por el que se establecen la ordenación y las enseñanzas mínimas del Bachillerato"
+  nombre_corto: "RD 243/2022"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-04-05
+  fecha_publicacion: 2022-04-06
+  fecha_entrada_vigor: 2022-04-07
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-011
+  ruta: "02_normativa/estatal/reales-decretos/NOR-006-rd-243-2022.md"
+  temas: [curriculo, ordenacion, evaluacion, promocion, titulacion, modalidades]
+  etapas_afectadas: [bachillerato]

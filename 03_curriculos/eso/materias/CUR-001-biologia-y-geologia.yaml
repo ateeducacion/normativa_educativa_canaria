@@ -3,22 +3,60 @@ titulo: "Biología y Geología — ESO Canarias"
 etapa: "eso"
 materia: "Biología y Geología"
 ambito: null
-cursos: []
-norma_base: null
-fuente: FTE-002
-url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-fecha_consulta: 2026-04-25
-fecha_analisis: null
+cursos: ["1.º ESO", "3.º ESO", "4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
 estado_extraccion: "Pendiente"
-estado_vigencia: "Pendiente de verificación"
+estado_vigencia: "Vigente"
 elementos:
-  competencias_especificas: []
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Interpretar y evaluar críticamente información biológica y geológica, comunicar conclusiones y representar fenómenos mediante modelos."
+      enunciado_oficial: null
+    - codigo: "C2"
+      enunciado_resumido: "Desarrollar el sentido crítico para evaluar y clasificar información en contextos personales y profesionales, distinguiendo fuentes veraces de pseudociencias o bulos."
+      enunciado_oficial: null
+    - codigo: "C3"
+      enunciado_resumido: "Aplicar las metodologías científicas en proyectos de investigación, hipótesis, experimentación y análisis de resultados, valorando el trabajo cooperativo."
+      enunciado_oficial: null
+    - codigo: "C4"
+      enunciado_resumido: "Resolver problemas biológicos o geológicos en distintas situaciones analizando soluciones y su impacto en el entorno."
+      enunciado_oficial: null
+    - codigo: "C5"
+      enunciado_resumido: "Relacionar la preservación de la biodiversidad y el medioambiente con el desarrollo sostenible, adoptando hábitos saludables y ecosocialmente responsables."
+      enunciado_oficial: null
+    - codigo: "C6"
+      enunciado_resumido: "Reconocer el valor del patrimonio natural y el riesgo geológico, proponiendo medidas de preservación frente a las acciones humanas."
+      enunciado_oficial: null
   criterios_evaluacion: []
-  saberes_basicos: []
+  saberes_basicos:
+    - bloque: "Bloque I — Proyecto científico"
+      cursos: ["1.º ESO", "3.º ESO", "4.º ESO"]
+    - bloque: "Bloque II — Geología"
+      cursos: ["1.º ESO", "3.º ESO", "4.º ESO"]
+    - bloque: "Bloque III — La célula"
+      cursos: ["1.º ESO", "3.º ESO", "4.º ESO"]
+    - bloque: "Bloque IV — Seres vivos"
+      cursos: ["1.º ESO"]
+    - bloque: "Bloque V — Ecología y sostenibilidad"
+      cursos: ["1.º ESO", "3.º ESO"]
+    - bloque: "Bloque VI — Cuerpo humano"
+      cursos: ["3.º ESO"]
+    - bloque: "Bloque VII — Hábitos saludables"
+      cursos: ["3.º ESO"]
+    - bloque: "Bloque VIII — Salud y enfermedad"
+      cursos: ["3.º ESO"]
+    - bloque: "Bloque IX — Genética y evolución"
+      cursos: ["4.º ESO"]
+    - bloque: "Bloque X — La Tierra en el universo"
+      cursos: ["4.º ESO"]
   descriptores_operativos: []
   situaciones_aprendizaje: []
 relaciones:
-  desarrolla_a: []
-  relacionada_con: [NOR-003]
-resumen_ia: "Currículo de Biología y Geología en ESO localizado desde el portal oficial de Canarias; extracción pendiente de detalle y confirmación de norma base autonómica final."
-observaciones: "Pendiente de confirmar la fuente normativa autonómica final del currículo; ver PREG-001."
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Biología y Geología en ESO Canarias (1.º, 3.º y 4.º) con seis competencias específicas (C1-C6) y una organización en bloques de saberes que combinan tres bloques comunes a toda la etapa con bloques específicos por curso. Marco autonómico: Decreto 30/2023; marco estatal: RD 217/2022."
+observaciones: "Extracción inicial parcial. Las competencias específicas se han resumido a partir del documento publicado en el portal autonómico (`borrador_curriculo_2022/Biologia_geologia_ESO.pdf`); el enunciado oficial literal y los criterios de evaluación deben verificarse contra los anexos del Decreto 30/2023 publicado en BOC (FTE-009). Estado de extracción se mantiene Pendiente conforme a DEC-0004 hasta volcar los cuatro elementos obligatorios."

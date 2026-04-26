@@ -2,12 +2,12 @@ CUR-001:
   titulo: "Biología y Geología — ESO Canarias"
   etapa: "eso"
   materia: "Biología y Geología"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md"
   estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  observaciones: "Extracción inicial parcial completada el 2026-04-26 (competencias específicas resumidas y estructura de saberes básicos por bloque). Resta volcar criterios de evaluación, descriptores y enunciados literales contra el BOC; ver TAREA-010."
 
 CUR-002:
   titulo: "Cultura Clásica — ESO Canarias"

@@ -87,3 +87,12 @@ FTE-010:
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/boc/FTE-010-decreto-86-2025-pdc-eso.md"
   estado_fuente: "Activa"
+
+FTE-011:
+  titulo: "Real Decreto 243/2022, ordenación y enseñanzas mínimas de Bachillerato"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5521"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boe/FTE-011-rd-243-2022.md"
+  estado_fuente: "Activa"

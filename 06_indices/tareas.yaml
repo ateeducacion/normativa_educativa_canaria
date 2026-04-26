@@ -74,3 +74,36 @@ TAREA-007:
   fecha_actualizacion: 2026-04-26
   relacionadas: [FTE-009, NOR-002, NOR-003, NOR-004, NOR-005, REL-004, REL-005, PREG-001]
   ruta: "08_tareas/backlog/TAREA-007-redactar-ficha-normativa-nor-005-decreto-30-2023.md"
+
+TAREA-008:
+  titulo: "Normalizar el frontmatter YAML de NOR-001 a NOR-004"
+  estado: "Hecha"
+  prioridad: "Media"
+  tipo: "calidad-documental"
+  responsable: "@.agents/skills/control-calidad-documental"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [NOR-001, NOR-002, NOR-003, NOR-004]
+  ruta: "08_tareas/backlog/TAREA-008-normalizar-frontmatter-nor-001-a-004.md"
+
+TAREA-009:
+  titulo: "Redactar ficha normativa NOR-006 (RD 243/2022, Bachillerato)"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "analisis"
+  responsable: "@.agents/skills/analisis-normativo"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [FTE-011, NOR-001, NOR-002, NOR-005, NOR-006, REL-006, REL-007]
+  ruta: "08_tareas/backlog/TAREA-009-redactar-ficha-normativa-nor-006-rd-243-2022.md"
+
+TAREA-010:
+  titulo: "Iniciar extracción curricular de CUR-001 (Biología y Geología, ESO Canarias)"
+  estado: "En progreso"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/analisis-curricular"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-001, NOR-005, NOR-003, FTE-009, DEC-0004]
+  ruta: "08_tareas/backlog/TAREA-010-iniciar-extraccion-curricular-cur-001.md"

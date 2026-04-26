@@ -32,3 +32,17 @@ REL-005:
   destino: NOR-004
   fuente: FTE-009
   ruta: "05_relaciones/normativa/REL-005-decreto-30-2023-marco-canario.yaml"
+
+REL-006:
+  tipo_relacion: "desarrolla"
+  origen: NOR-006
+  destino: NOR-002
+  fuente: FTE-011
+  ruta: "05_relaciones/normativa/REL-006-rd-243-2022-desarrolla-loe-lomloe.yaml"
+
+REL-007:
+  tipo_relacion: "desarrolla"
+  origen: NOR-005
+  destino: NOR-006
+  fuente: FTE-009
+  ruta: "05_relaciones/normativa/REL-007-decreto-30-2023-desarrolla-rd-243-2022.yaml"

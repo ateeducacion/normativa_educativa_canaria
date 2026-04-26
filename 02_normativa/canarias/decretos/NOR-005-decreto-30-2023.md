@@ -16,7 +16,7 @@ url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
 etapas_afectadas: [eso, bachillerato]
 temas: [curriculo, ordenacion, evaluacion, promocion, titulacion]
 relaciones:
-  desarrolla_a: [NOR-002, NOR-003]
+  desarrolla_a: [NOR-002, NOR-003, NOR-006]
   modificada_por: []
   modifica_a: []
   deroga_a: []
