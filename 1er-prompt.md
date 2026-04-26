@@ -1,8 +1,8 @@
-# 1er prompt — Bootstrap del repositorio IA-friendly **Normativa Educativa Canarias**
+# 1er prompt — Puesta en marcha del repositorio preparado para IA **Normativa Educativa Canarias**
 
 > Este archivo es el **prompt inicial** que debe ejecutarse en una sesión limpia con un agente capaz de crear ficheros y carpetas.
 >
-> Al terminar, el repositorio `ateeducacion/normativa_educativa` debe quedar preparado para recopilar, analizar, resumir, indexar y relacionar normativa educativa estatal y autonómica aplicable a Canarias, junto con currículos oficiales, en formatos **Markdown** y **YAML** fáciles de consultar por personas y por sistemas de inteligencia artificial.
+> Al terminar, el repositorio `ateeducacion/normativa_educativa_canaria` debe quedar preparado para recopilar, analizar, resumir, indexar y relacionar normativa educativa estatal y autonómica aplicable a Canarias, junto con currículos oficiales, en formatos **Markdown** y **YAML** fáciles de consultar por personas y por sistemas de inteligencia artificial.
 >
 > **No describas lo que harías. Hazlo.** Crea el repositorio, sus carpetas, plantillas, ejemplos, índices, schemas y `AGENTS.md`.
 
@@ -10,7 +10,7 @@
 
 ## 0. Objetivo real del repositorio
 
-El repositorio `normativa_educativa` existe para tener una base documental **sencilla, rigurosa e IA-friendly** de normativa educativa y currículos.
+El repositorio `normativa_educativa_canaria` existe para tener una base documental **sencilla, rigurosa y preparada para IA** de normativa educativa y currículos.
 
 Debe servir para:
 
@@ -92,7 +92,7 @@ Marcadores obligatorios:
 
 ## 3. Fuentes iniciales
 
-Durante el bootstrap deben registrarse estas fuentes iniciales.
+Durante la puesta en marcha deben registrarse estas fuentes iniciales.
 
 ```yaml
 fuentes_iniciales:
@@ -1150,7 +1150,7 @@ PREG-003 Tratamiento de orientaciones y recursos no normativos.
 ### Tareas
 
 ```text
-TAREA-001 Bootstrap del repositorio
+TAREA-001 Puesta en marcha del repositorio
 TAREA-002 Catalogar fuentes iniciales
 TAREA-003 Crear fichas normativas iniciales
 TAREA-004 Crear índice inicial de currículos ESO
@@ -1167,18 +1167,18 @@ Crea este estado inicial:
 ```yaml
 metadata:
   proyecto: "Normativa Educativa Canarias"
-  repositorio: "ateeducacion/normativa_educativa"
+  repositorio: "ateeducacion/normativa_educativa_canaria"
   objetivo: "Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML"
-  fase_actual: "Fase 0 — Bootstrap"
+  fase_actual: "Fase 0 — Puesta en marcha"
   fecha_actualizacion: 2026-04-25
   agente_actual: "@.agents/skills/catalogacion-fuentes"
 
 tareas:
   TAREA-001:
-    titulo: "Bootstrap del repositorio"
+    titulo: "Puesta en marcha del repositorio"
     estado: "Hecha"
     prioridad: "Crítica"
-    tipo: "bootstrap"
+    tipo: "puesta-en-marcha"
     responsable: "@.agents/skills/catalogacion-fuentes"
     fecha_creacion: 2026-04-25
     fecha_actualizacion: 2026-04-25
@@ -1220,7 +1220,7 @@ reglas:
 
 ## 19. `index.md`
 
-Crea un índice principal en Markdown, no hace falta dashboard HTML complejo.
+Crea un índice principal en Markdown, no hace falta panel HTML complejo.
 
 Debe tener:
 

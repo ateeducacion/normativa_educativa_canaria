@@ -15,7 +15,7 @@ Este directorio contiene la versión estática y mantenible del panel público d
 
 1. Abra la configuración del repositorio en GitHub.
 2. Entre en **Pages**.
-3. Seleccione **Deploy from a branch**.
+3. Seleccione **Publicar desde una rama**.
 4. Elija la rama `main`.
 5. Seleccione la carpeta `/docs` como origen.
 6. Guarde los cambios.
@@ -23,15 +23,15 @@ Este directorio contiene la versión estática y mantenible del panel público d
 
 ## URLs públicas esperadas
 
-- `https://ateeducacion.github.io/normativa_educativa/`
-- `https://ateeducacion.github.io/normativa_educativa/llms.txt`
-- `https://ateeducacion.github.io/normativa_educativa/llms-full.txt`
-- `https://ateeducacion.github.io/normativa_educativa/mcp.html`
+- `https://ateeducacion.github.io/normativa_educativa_canaria/`
+- `https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt`
+- `https://ateeducacion.github.io/normativa_educativa_canaria/llms-full.txt`
+- `https://ateeducacion.github.io/normativa_educativa_canaria/mcp.html`
 
 ## Notas de mantenimiento
 
-- Se prefiere la publicación directa desde `/docs` porque no requiere build ni GitHub Actions.
-- Si en el futuro hiciera falta un proceso de generación, entonces podría añadirse un workflow de Pages.
+- Se prefiere la publicación directa desde `/docs` porque no requiere compilación ni GitHub Actions.
+- Si en el futuro hiciera falta un proceso de generación, entonces podría añadirse un flujo de trabajo de Pages.
 - `docs/llms.txt` y `docs/llms-full.txt` deben mantenerse consistentes con sus equivalentes en la raíz del repositorio.
 - Proceso recomendado de sincronización manual: editar primero `llms.txt` o `llms-full.txt` en la raíz y después copiar la versión final a `docs/` antes de cerrar la tarea.
 - Comprobación mínima recomendada: verificar que `llms.txt` coincida con `docs/llms.txt` y que `llms-full.txt` coincida con `docs/llms-full.txt`.

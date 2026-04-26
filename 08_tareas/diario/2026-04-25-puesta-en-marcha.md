@@ -1,6 +1,6 @@
 # Diario — 2026-04-25
 
-- TAREA-001: bootstrap completado con estructura, archivos raíz, plantillas, esquemas y skills.
+- TAREA-001: puesta en marcha completada con estructura, archivos raíz, plantillas, esquemas y skills.
 - TAREA-002: fuentes iniciales catalogadas; queda pendiente confirmar fuentes finales enlazadas desde portales canarios.
 - TAREA-003: fichas `NOR-001` a `NOR-004` creadas.
 - TAREA-004: inventario inicial `CUR-001` a `CUR-023` creado en estado `Pendiente`.
