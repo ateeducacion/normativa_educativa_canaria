@@ -129,3 +129,59 @@ Verifica siempre en fuente oficial. Si no se puede confirmar, usa `Pendiente de 
 ## 15. Criterios de cierre de tarea
 
 Una tarea solo pasa a `Hecha` si tiene fuente oficial, fecha de consulta, formato válido, entrada en índice, ID correcto, relaciones si aplica, estado de vigencia si es norma, resumen IA si corresponde, preguntas abiertas si hay dudas y registro en el diario.
+
+## 16. Trabajo en paralelo (varios agentes a la vez)
+
+Asume siempre que **otra IA u otra persona puede estar trabajando en el repositorio al mismo tiempo**. Sigue este procedimiento para evitar pisarte con su trabajo y para no romper la regla R10 (IDs estables y no reutilizables).
+
+### 16.1 Antes de empezar (pre-flight obligatorio)
+
+1. `git fetch origin main && git pull --rebase origin main` — sincroniza con remoto.
+2. Lee `status.yaml` para ver qué `TAREA-NNN` están en estado `En progreso`. **No toques los archivos asociados a una tarea ajena en curso** (revisa su campo `relacionadas` y la ficha en `08_tareas/backlog/`).
+3. Calcula los siguientes IDs libres ejecutando, desde la raíz del repo:
+
+   ```bash
+   for p in FTE NOR REL CUR CHUNK PREG TAREA DEC; do
+     last=$(grep -rhoE "${p}-[0-9]{3,5}" 06_indices 02_normativa 03_curriculos 05_relaciones 07_corpus_ia 08_tareas 09_decisiones-editoriales 01_fuentes 2>/dev/null \
+            | sort -V | tail -1)
+     echo "$p siguiente libre tras $last"
+   done
+   ```
+
+   Anota los IDs que vas a usar en tu plan **antes** de crear ficheros.
+
+### 16.2 Reserva temprana de IDs
+
+- En cuanto sepas qué `NOR-NNN`/`FTE-NNN`/`TAREA-NNN` necesitas, **regístralos cuanto antes en su índice YAML** (`06_indices/normativa.yaml`, `06_indices/fuentes.yaml`, `06_indices/tareas.yaml`, etc.) y haz commit + push pronto. El push publica tu reserva y bloquea ese ID frente a otros agentes.
+- No agrupes muchas TAREA en un único commit gigante: divide en commits pequeños (uno por bloque lógico) y empuja cada uno en cuanto valide. Cuanto antes empujes, antes ven los demás agentes lo que has reservado.
+
+### 16.3 Antes de cada commit
+
+1. `git fetch origin main` — comprueba si hay nuevos commits.
+2. Si los hay, `git pull --rebase origin main` y resuelve cualquier conflicto antes de continuar.
+3. Vuelve a comprobar IDs libres por si el rebase ha incorporado nuevas reservas.
+4. `python3 -c "import yaml,pathlib; [yaml.safe_load(pathlib.Path(p).read_text()) for p in ['status.yaml','06_indices/tareas.yaml','06_indices/normativa.yaml','06_indices/fuentes.yaml','06_indices/relaciones.yaml','06_indices/curriculos.yaml','06_indices/preguntas.yaml']]; print('OK')"` — valida que todos los índices YAML parsean limpios.
+
+### 16.4 Selección de archivos a `git add`
+
+- **Solo añade los archivos que tú has tocado en esta tarea.** No incluyas archivos `?? untracked` que pertenezcan a otra tarea ajena (suelen verse en `git status` como creados por otra rama de trabajo).
+- En `status.yaml` y `06_indices/tareas.yaml` toca **solo los bloques de tu propia TAREA**, no los del trabajo paralelo.
+- No incluyas `.omc/` ni otros artefactos de tooling.
+
+### 16.5 Manejo de colisiones de ID y de path
+
+Si al hacer `git fetch`/`git pull` o al crear ficheros descubres que el ID que ibas a usar ya existe:
+
+1. **No reutilices el ID** (R10). Renumera tu trabajo al siguiente ID libre.
+2. Renombra ficheros (Markdown y YAML), actualiza el frontmatter (`id:`), las cabeceras (`# NOR-XXX — ...`), las referencias internas (otros `NOR-`, `REL-`, `relacionadas:` en TAREA, etc.) y los enlaces relativos en otras fichas que ya apunten al ID antiguo.
+3. Actualiza la entrada del índice YAML correspondiente.
+4. Documenta el cambio en el diario y en la sección «Coordinación con trabajo paralelo» de la ficha de TAREA.
+5. Vuelve a validar YAML antes del commit.
+
+### 16.6 Reglas de oro
+
+- **Sincroniza pronto, sincroniza a menudo**: `git fetch` antes de iniciar bloque, antes de validar y antes de commit.
+- **Commits pequeños** centrados en una sola TAREA: facilitan el merge y minimizan colisiones.
+- **No edites ficheros de la TAREA de otra IA mientras esté `En progreso`**: ni `CUR-NNN` ni `NOR-NNN` ni su `TAREA-NNN.md`. Si necesitas cruzar referencia, hazlo desde tu lado.
+- **Tras un push exitoso, anuncia en el diario** los IDs que has consumido para que el siguiente agente los vea de un vistazo.
+- **Si sospechas que tu árbol local tiene ediciones de otro agente** (ficheros modificados que tú no has tocado), no los `git add`: déjalos para que la otra IA los empuje en su commit.
