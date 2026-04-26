@@ -10,7 +10,7 @@ relacionadas: [FTE-002, FTE-003, FTE-004, FTE-009]
 
 ## Contexto
 
-La sesión de bootstrap no pudo confirmar externamente la disposición autonómica final desde la que derivan los currículos de ESO/Bachillerato en Canarias.
+La sesión de puesta en marcha no pudo confirmar externamente la disposición autonómica final desde la que derivan los currículos de ESO/Bachillerato en Canarias.
 
 ## Qué falta confirmar
 

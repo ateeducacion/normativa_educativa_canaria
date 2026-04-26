@@ -1,4 +1,4 @@
-# Normativa Educativa Canarias — Full Context
+# Normativa Educativa Canarias — Contexto ampliado
 
 > Mapa ampliado del corpus Markdown/YAML de normativa educativa aplicable a Canarias para uso con LLM, GitHub Pages y clientes compatibles con GitHub MCP Server. No sustituye la consulta de las fuentes oficiales ni constituye asesoramiento jurídico.
 
@@ -8,7 +8,7 @@ Siempre priorice la fuente oficial citada en cada ficha. Si el corpus y la fuent
 
 ## Propósito del proyecto
 
-El repositorio `ateeducacion/normativa_educativa` reúne fuentes oficiales, fichas normativas, currículos, relaciones, análisis y chunks IA sobre normativa educativa con relevancia para Canarias.
+El repositorio `ateeducacion/normativa_educativa_canaria` reúne fuentes oficiales, fichas normativas, currículos, relaciones, análisis y chunks IA sobre normativa educativa con relevancia para Canarias.
 
 Su finalidad es facilitar:
 
@@ -19,20 +19,20 @@ Su finalidad es facilitar:
 
 ## Estructura del repositorio
 
-- [README.md](https://github.com/ateeducacion/normativa_educativa/blob/main/README.md): presentación general del proyecto.
-- [index.md](https://github.com/ateeducacion/normativa_educativa/blob/main/index.md): accesos rápidos al corpus.
-- [status.yaml](https://github.com/ateeducacion/normativa_educativa/blob/main/status.yaml): fase del repositorio, tareas y bloqueos.
-- [01_fuentes/](https://github.com/ateeducacion/normativa_educativa/tree/main/01_fuentes): fichas `FTE-NNN` de portales, BOE, BOC y otras fuentes oficiales.
-- [02_normativa/](https://github.com/ateeducacion/normativa_educativa/tree/main/02_normativa): fichas `NOR-NNN` de normas estatales y autonómicas.
-- [03_curriculos/](https://github.com/ateeducacion/normativa_educativa/tree/main/03_curriculos): fichas `CUR-NNN` en Markdown y YAML.
-- [04_analisis/](https://github.com/ateeducacion/normativa_educativa/tree/main/04_analisis): notas y análisis editoriales.
-- [05_relaciones/](https://github.com/ateeducacion/normativa_educativa/tree/main/05_relaciones): relaciones `REL-NNN` entre normas, currículos y evidencias.
-- [06_indices/](https://github.com/ateeducacion/normativa_educativa/tree/main/06_indices): índices YAML usados como puerta de entrada del corpus.
-- [07_corpus_ia/](https://github.com/ateeducacion/normativa_educativa/tree/main/07_corpus_ia): resúmenes y chunks IA.
-- [08_tareas/](https://github.com/ateeducacion/normativa_educativa/tree/main/08_tareas): backlog, diario y preguntas abiertas.
-- [09_decisiones-editoriales/](https://github.com/ateeducacion/normativa_educativa/tree/main/09_decisiones-editoriales): ADR y decisiones de modelado.
-- [10_plantillas/](https://github.com/ateeducacion/normativa_educativa/tree/main/10_plantillas): plantillas Markdown y YAML.
-- [11_calidad/](https://github.com/ateeducacion/normativa_educativa/tree/main/11_calidad): validación, enlaces y vigencia.
+- [README.md](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/README.md): presentación general del proyecto.
+- [index.md](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/index.md): accesos rápidos al corpus.
+- [status.yaml](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/status.yaml): fase del repositorio, tareas y bloqueos.
+- [01_fuentes/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/01_fuentes): fichas `FTE-NNN` de portales, BOE, BOC y otras fuentes oficiales.
+- [02_normativa/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/02_normativa): fichas `NOR-NNN` de normas estatales y autonómicas.
+- [03_curriculos/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos): fichas `CUR-NNN` en Markdown y YAML.
+- [04_analisis/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/04_analisis): notas y análisis editoriales.
+- [05_relaciones/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/05_relaciones): relaciones `REL-NNN` entre normas, currículos y evidencias.
+- [06_indices/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/06_indices): índices YAML usados como puerta de entrada del corpus.
+- [07_corpus_ia/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia): resúmenes y chunks IA.
+- [08_tareas/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/08_tareas): backlog, diario y preguntas abiertas.
+- [09_decisiones-editoriales/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/09_decisiones-editoriales): ADR y decisiones de modelado.
+- [10_plantillas/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/10_plantillas): plantillas Markdown y YAML.
+- [11_calidad/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/11_calidad): validación, enlaces y vigencia.
 
 ## Modelo de datos y trazabilidad
 
@@ -49,12 +49,12 @@ El corpus usa IDs internos estables para enlazar entidades, pero esos IDs no son
 
 Índices clave:
 
-- [06_indices/normativa.yaml](https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/normativa.yaml)
-- [06_indices/curriculos.yaml](https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/curriculos.yaml)
-- [06_indices/fuentes.yaml](https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/fuentes.yaml)
-- [06_indices/relaciones.yaml](https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/relaciones.yaml)
-- [06_indices/chunks.yaml](https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/chunks.yaml)
-- [docs/esquema-datos/README.md](https://github.com/ateeducacion/normativa_educativa/blob/main/docs/esquema-datos/README.md)
+- [06_indices/normativa.yaml](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/normativa.yaml)
+- [06_indices/curriculos.yaml](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/curriculos.yaml)
+- [06_indices/fuentes.yaml](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/fuentes.yaml)
+- [06_indices/relaciones.yaml](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/relaciones.yaml)
+- [06_indices/chunks.yaml](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/chunks.yaml)
+- [docs/esquema-datos/README.md](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/esquema-datos/README.md)
 
 ## Reglas de fiabilidad de fuentes
 
@@ -71,9 +71,9 @@ Reglas operativas principales:
 
 Referencias:
 
-- [AGENTS.md](https://github.com/ateeducacion/normativa_educativa/blob/main/AGENTS.md)
-- [docs/metodologia/disciplina-evidencia.md](https://github.com/ateeducacion/normativa_educativa/blob/main/docs/metodologia/disciplina-evidencia.md)
-- [docs/guias/validacion.md](https://github.com/ateeducacion/normativa_educativa/blob/main/docs/guias/validacion.md)
+- [AGENTS.md](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/AGENTS.md)
+- [docs/metodologia/disciplina-evidencia.md](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/metodologia/disciplina-evidencia.md)
+- [docs/guias/validacion.md](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/guias/validacion.md)
 
 ## Reglas de cita jurídica para España
 
@@ -100,8 +100,8 @@ Si quiere añadir trazabilidad interna, hágalo en segundo plano, por ejemplo: `
 
 Flujo recomendado:
 
-1. Lea primero [llms.txt](https://ateeducacion.github.io/normativa_educativa/llms.txt).
-2. Use [llms-full.txt](https://ateeducacion.github.io/normativa_educativa/llms-full.txt) si necesita más contexto.
+1. Lea primero [llms.txt](https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt).
+2. Use [llms-full.txt](https://ateeducacion.github.io/normativa_educativa_canaria/llms-full.txt) si necesita más contexto.
 3. Revise los índices YAML antes de responder.
 4. Busque la ficha o fuente oficial correspondiente.
 5. Cite al usuario por la denominación jurídica oficial, no por el ID interno.
@@ -133,13 +133,13 @@ Formato preferido para preguntas educativas:
 
 ## Publicación y acceso
 
-- [Panel de GitHub Pages](https://ateeducacion.github.io/normativa_educativa/): dashboard estático del proyecto.
-- [Guía MCP publicada](https://ateeducacion.github.io/normativa_educativa/mcp.html): uso desde clientes MCP.
-- [Documento MCP del repositorio](https://github.com/ateeducacion/normativa_educativa/blob/main/MCP.md): configuración, seguridad y ejemplos completos.
-- [Repositorio GitHub](https://github.com/ateeducacion/normativa_educativa): acceso completo al corpus.
+- [Panel de GitHub Pages](https://ateeducacion.github.io/normativa_educativa_canaria/): panel estático del proyecto.
+- [Guía MCP publicada](https://ateeducacion.github.io/normativa_educativa_canaria/mcp.html): uso desde clientes MCP.
+- [Documento MCP del repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/MCP.md): configuración, seguridad y ejemplos completos.
+- [Repositorio GitHub](https://github.com/ateeducacion/normativa_educativa_canaria): acceso completo al corpus.
 
-## Optional
+## Opcional
 
-- [Fuentes oficiales catalogadas](https://github.com/ateeducacion/normativa_educativa/tree/main/01_fuentes): detalle de portales y boletines.
-- [Relaciones normativas](https://github.com/ateeducacion/normativa_educativa/tree/main/05_relaciones): enlaces entre normas y evidencias.
-- [Corpus IA](https://github.com/ateeducacion/normativa_educativa/tree/main/07_corpus_ia): resúmenes y chunks para RAG o asistentes.
+- [Fuentes oficiales catalogadas](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/01_fuentes): detalle de portales y boletines.
+- [Relaciones normativas](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/05_relaciones): enlaces entre normas y evidencias.
+- [Corpus IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia): resúmenes y chunks para RAG o asistentes.

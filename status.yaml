@@ -1,17 +1,17 @@
 metadata:
   proyecto: "Normativa Educativa Canarias"
-  repositorio: "ateeducacion/normativa_educativa"
+  repositorio: "ateeducacion/normativa_educativa_canaria"
   objetivo: "Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML"
-  fase_actual: "Fase 0 — Bootstrap"
+  fase_actual: "Fase 0 — Puesta en marcha"
   fecha_actualizacion: 2026-04-26
   agente_actual: "@.agents/skills/catalogacion-fuentes"
 
 tareas:
   TAREA-001:
-    titulo: "Bootstrap del repositorio"
+    titulo: "Puesta en marcha del repositorio"
     estado: "Hecha"
     prioridad: "Crítica"
-    tipo: "bootstrap"
+    tipo: "puesta-en-marcha"
     responsable: "@.agents/skills/catalogacion-fuentes"
     fecha_creacion: 2026-04-25
     fecha_actualizacion: 2026-04-25

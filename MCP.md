@@ -14,7 +14,7 @@ Este repositorio está pensado para ayudar a localizar, relacionar y resumir nor
 
 ## Flujo recomendado
 
-1. Abra el repositorio `ateeducacion/normativa_educativa`.
+1. Abra el repositorio `ateeducacion/normativa_educativa_canaria`.
 2. Lea primero `llms.txt`.
 3. Si hace falta más detalle, lea `llms-full.txt`.
 4. Revise los índices YAML de `06_indices`.
@@ -46,7 +46,7 @@ Si necesita trazabilidad interna, añádala solo como información secundaria.
       "command": "npx",
       "args": ["-y", "@github/github-mcp-server"],
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_TOKEN_HERE"
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "TU_TOKEN_AQUI"
       }
     }
   }
@@ -63,7 +63,7 @@ Si necesita trazabilidad interna, añádala solo como información secundaria.
       "transport": "stdio",
       "command": "github-mcp-server",
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_TOKEN_HERE"
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "TU_TOKEN_AQUI"
       }
     }
   ]
@@ -74,7 +74,7 @@ Si necesita trazabilidad interna, añádala solo como información secundaria.
 
 ```bash
 docker run --rm -i \
-  -e GITHUB_PERSONAL_ACCESS_TOKEN=YOUR_TOKEN_HERE \
+  -e GITHUB_PERSONAL_ACCESS_TOKEN=TU_TOKEN_AQUI \
   ghcr.io/github/github-mcp-server:latest
 ```
 
@@ -91,15 +91,15 @@ docker run --rm -i \
 ## Prompts recomendados
 
 ```text
-Open the repository ateeducacion/normativa_educativa. Read llms.txt first. Then answer my question using the repository files as context. When citing regulations, use the official legal citation format used in Spain, not internal repository IDs.
+Abre el repositorio ateeducacion/normativa_educativa_canaria. Lee primero llms.txt. Después responde usando los archivos del repositorio como contexto. Al citar normas, usa la cita jurídica oficial habitual en España y no los IDs internos del repositorio.
 ```
 
 ```text
-Search the repository ateeducacion/normativa_educativa for current regulations about assessment and promotion in Educación Secundaria Obligatoria in Canarias. Use official legal titles, articles, and publication references when available.
+Busca en el repositorio ateeducacion/normativa_educativa_canaria la normativa vigente sobre evaluación y promoción en Educación Secundaria Obligatoria en Canarias. Usa títulos oficiales, artículos y referencias de publicación cuando estén disponibles.
 ```
 
 ```text
-Inspect the YAML indexes in 06_indices before answering. Use internal IDs only to locate files, not as the public citation format.
+Inspecciona los índices YAML de 06_indices antes de responder. Usa los IDs internos solo para localizar archivos, no como formato público de cita.
 ```
 
 ## Recordatorio final

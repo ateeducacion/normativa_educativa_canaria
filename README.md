@@ -53,7 +53,7 @@ Repositorio IA-friendly para recopilar, analizar, resumir, indexar y relacionar 
 - Relaciones: [06_indices/relaciones.yaml](06_indices/relaciones.yaml)
 - Preguntas abiertas: [06_indices/preguntas.yaml](06_indices/preguntas.yaml)
 
-## Estado del bootstrap
+## Estado de la puesta en marcha
 
 - Fuentes iniciales `FTE-001` a `FTE-008` creadas.
 - Normas iniciales `NOR-001` a `NOR-004` creadas.

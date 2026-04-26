@@ -10,7 +10,7 @@ relacionadas: [CUR-001, CUR-023]
 
 ## Contexto
 
-El bootstrap ha creado fichas curriculares pendientes pero no fija todavía si se extraerán todos los elementos curriculares o solo un subconjunto.
+La puesta en marcha ha creado fichas curriculares pendientes pero no fija todavía si se extraerán todos los elementos curriculares o solo un subconjunto.
 
 ## Qué falta confirmar
 
