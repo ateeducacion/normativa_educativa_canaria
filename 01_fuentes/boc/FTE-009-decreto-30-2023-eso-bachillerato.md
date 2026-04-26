@@ -5,10 +5,10 @@ tipo_fuente: "normativa-autonomica"
 autoridad: "Boletín Oficial de Canarias"
 url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
 fecha_consulta: 2026-04-26
-fecha_analisis: null
+fecha_analisis: 2026-04-26
 estado_fuente: "Activa"
 nivel_evidencia: "confirmado-fuente-primaria"
-relacionadas: [FTE-002, FTE-004, PREG-001]
+relacionadas: [FTE-002, FTE-004, PREG-001, NOR-005]
 ---
 
 # FTE-009 — Decreto 30/2023, de 16 de marzo, ordenación y currículo de ESO y Bachillerato en Canarias

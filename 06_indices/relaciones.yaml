@@ -18,3 +18,17 @@ REL-003:
   destino: NOR-001
   fuente: FTE-008
   ruta: "05_relaciones/normativa/REL-003-ley-canaria-6-2014-relacion-loe-lomloe.yaml"
+
+REL-004:
+  tipo_relacion: "desarrolla"
+  origen: NOR-005
+  destino: NOR-003
+  fuente: FTE-009
+  ruta: "05_relaciones/normativa/REL-004-decreto-30-2023-desarrolla-rd-217-2022.yaml"
+
+REL-005:
+  tipo_relacion: "relaciona"
+  origen: NOR-005
+  destino: NOR-004
+  fuente: FTE-009
+  ruta: "05_relaciones/normativa/REL-005-decreto-30-2023-marco-canario.yaml"

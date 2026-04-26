@@ -57,3 +57,18 @@ NOR-004:
   ruta: "02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md"
   temas: [curriculo, organizacion-centros, funcion-docente, inclusion]
   etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-005:
+  titulo: "Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Decreto 30/2023 (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2023-03-16
+  fecha_publicacion: 2023-03-23
+  fecha_entrada_vigor: null
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-009
+  ruta: "02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md"
+  temas: [curriculo, ordenacion, evaluacion, promocion, titulacion]
+  etapas_afectadas: [eso, bachillerato]

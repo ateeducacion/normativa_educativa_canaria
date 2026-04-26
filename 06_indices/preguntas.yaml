@@ -7,14 +7,16 @@ PREG-001:
 
 PREG-002:
   titulo: "Nivel de detalle que se extraerá de cada currículo"
-  estado: "Abierta"
+  estado: "Resuelta"
   fecha_registro: 2026-04-25
-  relacionadas: [CUR-001, CUR-023]
+  fecha_resolucion: 2026-04-26
+  relacionadas: [CUR-001, CUR-023, DEC-0004]
   ruta: "08_tareas/preguntas/PREG-002-nivel-detalle-extraccion-curriculos.md"
 
 PREG-003:
   titulo: "Tratamiento de orientaciones y recursos no normativos"
-  estado: "Abierta"
+  estado: "Resuelta"
   fecha_registro: 2026-04-25
-  relacionadas: [FTE-001, AN-003]
+  fecha_resolucion: 2026-04-26
+  relacionadas: [FTE-001, AN-003, DEC-0005]
   ruta: "08_tareas/preguntas/PREG-003-tratamiento-orientaciones-recursos-no-normativos.md"

@@ -55,11 +55,22 @@ TAREA-005:
 
 TAREA-006:
   titulo: "Revisar vigencia de normas iniciales"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "vigencia"
   responsable: "@.agents/skills/control-vigencia"
   fecha_creacion: 2026-04-25
-  fecha_actualizacion: 2026-04-25
+  fecha_actualizacion: 2026-04-26
   relacionadas: [NOR-001, NOR-002, NOR-003, NOR-004]
   ruta: "08_tareas/backlog/TAREA-006-revisar-vigencia-de-normas-iniciales.md"
+
+TAREA-007:
+  titulo: "Redactar ficha normativa NOR-005 (Decreto 30/2023, Canarias)"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "analisis"
+  responsable: "@.agents/skills/analisis-normativo"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [FTE-009, NOR-002, NOR-003, NOR-004, NOR-005, REL-004, REL-005, PREG-001]
+  ruta: "08_tareas/backlog/TAREA-007-redactar-ficha-normativa-nor-005-decreto-30-2023.md"
