@@ -8,12 +8,12 @@ Use este repositorio como mapa de contexto, no como sustituto de la fuente jurí
 
 Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo entidades registradas en `06_indices/`; no incorpora borradores locales, archivos sin seguimiento ni fichas aún no indexadas.
 
-- 55 fuentes catalogadas (`FTE-001` a `FTE-055`).
+- 56 fuentes catalogadas (`FTE-001` a `FTE-056`).
 - 60 fichas normativas indexadas (`NOR-001` a `NOR-060`, con huecos reservados/no reutilizados).
 - 58 currículos registrados (`CUR-001` a `CUR-058`): 23 de ESO, 10 de Primaria, 3 de Infantil, 14 de Bachillerato y 8 de FP.
 - 45 relaciones normativas y curriculares (`REL-001` a `REL-048`, con huecos reservados/no reutilizados).
 - 22 chunks IA (`CHUNK-00001` a `CHUNK-00022`).
-- 45 tareas registradas; 41 hechas y 4 en progreso (`TAREA-042` a `TAREA-045`) para correcciones y extracción avanzada de FP.
+- 52 tareas registradas; 47 hechas y 5 en progreso (`TAREA-048` a `TAREA-052`) para extracción avanzada de FP.
 
 ## Cobertura Principal
 
@@ -25,6 +25,7 @@ Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo e
 - Personal docente: función pública, TREBEP, interinos, función directiva, permisos y licencias, incluida la actualización de 2026 (`NOR-019` a `NOR-023`, `NOR-042`).
 - Currículos ya extraídos: todas las materias ESO `CUR-001` a `CUR-023`, Primaria `CUR-024` a `CUR-033`, Infantil `CUR-034` a `CUR-036` y Bachillerato `CUR-037` a `CUR-045` más `CUR-054` a `CUR-058`.
 - Formación Profesional: 8 ciclos registrados (`CUR-046` a `CUR-053`); `CUR-052` está completado y el resto figura como extracción parcial, con tareas abiertas para correcciones y criterios de evaluación completos.
+- Códigos administrativos de áreas y materias: catálogo transversal en `03_curriculos/codigos-materias-canarias.md`, trazado a `FTE-056`.
 
 ## Estilo De Respuesta Y Rigor Jurídico
 
@@ -61,6 +62,7 @@ Formato de respuesta preferido para consultas educativas:
 - [Índice de fuentes](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/fuentes.yaml)
 - [Índice de relaciones](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/relaciones.yaml)
 - [Índice de chunks IA](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/chunks.yaml)
+- [Códigos administrativos de áreas y materias](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/03_curriculos/codigos-materias-canarias.md)
 - [Carpeta de normativa](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/02_normativa)
 - [Carpeta de currículos](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos)
 - [Corpus para IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia)

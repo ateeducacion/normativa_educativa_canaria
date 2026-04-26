@@ -52,6 +52,7 @@ Repositorio IA-friendly para recopilar, analizar, resumir, indexar y relacionar 
 - Fuentes: [06_indices/fuentes.yaml](06_indices/fuentes.yaml)
 - Normativa: [06_indices/normativa.yaml](06_indices/normativa.yaml)
 - Currículos: [06_indices/curriculos.yaml](06_indices/curriculos.yaml)
+- Códigos administrativos de áreas y materias: [03_curriculos/codigos-materias-canarias.md](03_curriculos/codigos-materias-canarias.md)
 - Relaciones: [06_indices/relaciones.yaml](06_indices/relaciones.yaml)
 - Preguntas abiertas: [06_indices/preguntas.yaml](06_indices/preguntas.yaml)
 
@@ -80,8 +81,8 @@ Detalle completo, alternativas con Docker y guía de seguridad: [`MCP.md`](MCP.m
 
 ## Estado actual del corpus
 
-- Fuentes catalogadas hasta `FTE-055`.
-- Normativa indexada hasta `NOR-059`.
+- Fuentes catalogadas hasta `FTE-056`.
+- Normativa indexada hasta `NOR-060`.
 - Currículos registrados hasta `CUR-058`: Infantil, Primaria, ESO, Bachillerato y primeros ciclos FP.
 - Chunks IA registrados hasta `CHUNK-00022`.
-- La extracción FP sigue abierta en `TAREA-042` a `TAREA-045` para correcciones de Sanidad, completar Integración Social y extraer criterios de evaluación completos en Administración e Informática.
+- La extracción FP sigue abierta en `TAREA-048` a `TAREA-052` para completar RAs, CEs, módulos comunes y capacidades terminales pendientes.

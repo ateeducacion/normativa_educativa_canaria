@@ -12,12 +12,12 @@ Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo e
 
 | Índice | Cobertura actual |
 | --- | --- |
-| Fuentes | 55 entradas, `FTE-001` a `FTE-055` |
+| Fuentes | 56 entradas, `FTE-001` a `FTE-056` |
 | Normativa | 60 entradas, `NOR-001` a `NOR-060`, con huecos reservados/no reutilizados |
 | Currículos | 58 entradas, `CUR-001` a `CUR-058` |
 | Relaciones | 45 entradas, `REL-001` a `REL-048`, con huecos reservados/no reutilizados |
 | Chunks IA | 22 entradas, `CHUNK-00001` a `CHUNK-00022` |
-| Tareas | 45 entradas; `TAREA-042` a `TAREA-045` están en progreso |
+| Tareas | 52 entradas; `TAREA-048` a `TAREA-052` están en progreso |
 
 Distribución de currículos extraídos:
 
@@ -26,6 +26,7 @@ Distribución de currículos extraídos:
 - Infantil: 3 fichas (`CUR-034` a `CUR-036`).
 - Bachillerato: 14 fichas (`CUR-037` a `CUR-045` y `CUR-054` a `CUR-058`).
 - Formación Profesional: 8 fichas (`CUR-046` a `CUR-053`), con 1 completada y 7 parciales.
+- Catálogo transversal de códigos administrativos de áreas y materias: `03_curriculos/codigos-materias-canarias.md` y `.yaml`, trazado a `FTE-056`.
 
 Estados de vigencia en normativa indexada:
 
@@ -56,6 +57,7 @@ Su finalidad es facilitar:
 - [01_fuentes/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/01_fuentes): fichas `FTE-NNN` de portales, BOE, BOC y otras fuentes oficiales.
 - [02_normativa/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/02_normativa): fichas `NOR-NNN` de normas estatales y autonómicas.
 - [03_curriculos/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos): fichas `CUR-NNN` en Markdown y YAML.
+- [03_curriculos/codigos-materias-canarias.md](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/03_curriculos/codigos-materias-canarias.md): códigos administrativos del buscador oficial por etapa y nivel.
 - [04_analisis/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/04_analisis): notas y análisis editoriales.
 - [05_relaciones/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/05_relaciones): relaciones `REL-NNN` entre normas, currículos y evidencias.
 - [06_indices/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/06_indices): índices YAML usados como puerta de entrada del corpus.
@@ -86,7 +88,7 @@ Marco estatal y autonómico básico:
 - Marco administrativo, igualdad, menores, comedores, transporte y residencias: `NOR-031` a `NOR-036`.
 - Primaria: currículo (`NOR-043`), evaluación/promoción (`NOR-044`), rúbricas (`NOR-045`) e instrucciones de organización y funcionamiento (`NOR-046`).
 - Infantil: currículo (`NOR-047`), evaluación (`NOR-048`) e instrucciones de organización y funcionamiento (`NOR-049`).
-- Formación Profesional en fase ampliada: títulos y ciclos más comunes catalogados hasta `NOR-058`, ajustes autonómicos FP en `NOR-059`; quedan abiertas correcciones y extracción avanzada en `TAREA-042` a `TAREA-045`.
+- Formación Profesional en fase ampliada: títulos y ciclos más comunes catalogados hasta `NOR-060`; quedan abiertas correcciones y extracción avanzada en `TAREA-048` a `TAREA-052`.
 
 ## Cobertura Curricular
 
@@ -210,7 +212,7 @@ Formato preferido para preguntas educativas:
 
 - El corpus no pretende reproducir íntegramente todas las normas aplicables.
 - Hay huecos de numeración por coordinación de trabajo paralelo; no deben reutilizarse IDs.
-- `TAREA-042` a `TAREA-045` figuran en progreso para correcciones y extracción avanzada de FP.
+- `TAREA-048` a `TAREA-052` figuran en progreso para correcciones y extracción avanzada de FP.
 - Las fichas FP `CUR-046` a `CUR-053` no tienen todas el mismo estado: `CUR-052` está completada y las demás figuran como parciales.
 - Los borradores u otras fichas que existan localmente pero no figuren en `06_indices/` no forman parte del corpus indexado.
 - Algunas normas siguen con estado `Pendiente de verificación`, `Superada`, `Histórica` o vigencia condicionada; respete el metadato de cada ficha.

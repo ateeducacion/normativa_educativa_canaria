@@ -8,6 +8,7 @@ Repositorio IA-friendly de normativa educativa y currículos.
 - [Fuentes](06_indices/fuentes.yaml)
 - [Normativa](06_indices/normativa.yaml)
 - [Currículos](06_indices/curriculos.yaml)
+- [Códigos administrativos de áreas y materias](03_curriculos/codigos-materias-canarias.md)
 - [Relaciones](06_indices/relaciones.yaml)
 - [Chunks IA](06_indices/chunks.yaml)
 - [Preguntas abiertas](06_indices/preguntas.yaml)

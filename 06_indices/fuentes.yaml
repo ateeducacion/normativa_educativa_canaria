@@ -492,3 +492,12 @@ FTE-055:
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/boc/FTE-055-boc-2025-249-modificacion-evaluacion-fp.md"
   estado_fuente: "Activa"
+
+FTE-056:
+  titulo: "Buscador de enseñanzas del Gobierno de Canarias"
+  tipo_fuente: "catalogo-administrativo"
+  autoridad: "Consejería de Educación, Formación Profesional, Actividad Física y Deportes - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/centroseducativos/buscador-ensenanzas/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-056-buscador-ensenanzas-codigos-materias.md"
+  estado_fuente: "Activa"
