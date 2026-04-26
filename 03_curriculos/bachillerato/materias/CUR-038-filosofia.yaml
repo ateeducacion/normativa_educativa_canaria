@@ -1,0 +1,43 @@
+id: CUR-038
+titulo: "Filosofía — 1.º Bachillerato Canarias"
+etapa: "bachillerato"
+materia: "Filosofía"
+norma_base: NOR-005
+fuente: FTE-009
+competencias_especificas:
+  - id: C1
+    descripcion: "Identificar problemas y formular preguntas acerca del fundamento, valor y sentido de la realidad y la existencia humana."
+  - id: C2
+    descripcion: "Buscar, gestionar e interpretar información relativa a cuestiones filosóficas a partir del empleo contrastado de fuentes."
+  - id: C3
+    descripcion: "Usar y valorar adecuadamente argumentos y estructuras argumentales para producir discurso riguroso y evitar falacias."
+  - id: C4
+    descripcion: "Practicar el ejercicio del diálogo filosófico de manera rigurosa, crítica, tolerante y empática."
+  - id: C5
+    descripcion: "Reconocer el carácter plural de las concepciones e ideas en torno a los problemas fundamentales de la filosofía."
+  - id: C6
+    descripcion: "Comprender las principales ideas y teorías de los más importantes pensadores y pensadoras."
+  - id: C7
+    descripcion: "Adquirir una perspectiva global, sistémica y transdisciplinar en el planteamiento de cuestiones fundamentales."
+  - id: C8
+    descripcion: "Analizar problemas éticos y políticos fundamentales y de actualidad para desarrollar el juicio propio."
+  - id: C9
+    descripcion: "Desarrollar la sensibilidad y la comprensión crítica del arte y otras manifestaciones con valor estético."
+bloques_saberes:
+  - id: la-filosofia
+    nombre: "La filosofía y el ser humano"
+    descripcion: "Naturaleza de la filosofía, el problema del conocimiento, la verdad y la realidad."
+  - id: etica-politica
+    nombre: "Ética y Política"
+    descripcion: "La acción humana, teorías éticas, el Estado, la democracia y los derechos humanos."
+  - id: estetica-creatividad
+    nombre: "Estética y creatividad"
+    descripcion: "Teorías de la belleza, la creación artística y la experiencia estética."
+criterios_evaluacion:
+  - id: 1.1
+    texto: "Identificar problemas y formular preguntas acerca del fundamento, valor y sentido de la realidad y la existencia humana."
+  - id: 3.1
+    texto: "Usar y valorar adecuadamente argumentos y estructuras argumentales, a partir de su análisis tanto formal como informal."
+  - id: 8.1
+    texto: "Analizar problemas éticos y políticos fundamentales y de actualidad, mediante la exposición crítica de distintas posiciones."
+observaciones: "Materia común de 1.º de Bachillerato. Extracción literal Decreto 30/2023."

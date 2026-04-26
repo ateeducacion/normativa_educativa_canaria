@@ -1,0 +1,43 @@
+id: CUR-042
+titulo: "Matemáticas I y II — Bachillerato Ciencias y Tecnología"
+etapa: "bachillerato"
+materia: "Matemáticas"
+norma_base: NOR-005
+fuente: FTE-009
+competencias_especificas:
+  - id: C1
+    descripcion: "Modelizar y resolver problemas de la vida cotidiana y de la ciencia aplicando diversas estrategias."
+  - id: C2
+    descripcion: "Verificar y realizar conjeturas formulando argumentos y utilizando razonamiento lógico."
+  - id: C3
+    descripcion: "Utilizar el pensamiento computacional para modelizar y automatizar situaciones."
+  - id: C4
+    descripcion: "Establecer conexiones entre conceptos matemáticos y otras áreas o la realidad."
+  - id: C5
+    descripcion: "Comunicar y representar conceptos y resultados matemáticos con lenguaje y terminología apropiada."
+  - id: C6
+    descripcion: "Desarrollar destrezas personales y socioafectivas para afrontar retos con actitud positiva."
+  - id: C7
+    descripcion: "Utilizar el sentido numérico y de la medida para interpretar y producir información precisa."
+  - id: C8
+    descripcion: "Utilizar el sentido espacial y geométrico para resolver problemas de medida y posición."
+  - id: C9
+    descripcion: "Utilizar el sentido estocástico para analizar datos y situaciones de incertidumbre."
+bloques_saberes:
+  - id: algebra-geometria
+    nombre: "Álgebra y Geometría"
+    descripcion: "Resolución de sistemas, geometría analítica y trigonometría."
+  - id: analisis
+    nombre: "Análisis"
+    descripcion: "Funciones, límites, continuidad y cálculo diferencial e integral."
+  - id: estadistica-probabilidad
+    nombre: "Estadística y Probabilidad"
+    descripcion: "Distribuciones de probabilidad y análisis de datos."
+criterios_evaluacion:
+  - id: 1.1
+    texto: "Interpretar problemas de la vida cotidiana y de la ciencia comparando diferentes formas de representación."
+  - id: 3.1
+    texto: "Descomponer problemas en partes más sencillas y reconocer patrones para facilitar su resolución."
+  - id: 7.1
+    texto: "Realizar cálculos y estimaciones de forma fluida seleccionando la técnica más adecuada."
+observaciones: "Materia de modalidad en Ciencias y Tecnología. Extracción literal Decreto 30/2023."

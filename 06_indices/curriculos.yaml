@@ -387,3 +387,95 @@ CUR-036:
   ruta_md: "03_curriculos/infantil/materias/CUR-036-comunicacion-representacion.md"
   estado_extraccion: "completado"
   observaciones: "Extracción literal Decreto 196/2022."
+
+# --- BACHILLERATO ---
+
+CUR-037:
+  titulo: "Educación Física — Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Educación Física"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.md"
+  estado_extraccion: "Pendiente"
+
+CUR-038:
+  titulo: "Filosofía — 1.º Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Filosofía"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-038-filosofia.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-038-filosofia.md"
+  estado_extraccion: "Pendiente"
+
+CUR-039:
+  titulo: "Historia de la Filosofía — 2.º Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Historia de la Filosofía"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.md"
+  estado_extraccion: "Pendiente"
+
+CUR-040:
+  titulo: "Lengua Castellana y Literatura I y II — Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Lengua Castellana y Literatura"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.md"
+  estado_extraccion: "Pendiente"
+
+CUR-041:
+  titulo: "Lengua Extranjera I y II — Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Lengua Extranjera"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.md"
+  estado_extraccion: "Pendiente"
+
+CUR-042:
+  titulo: "Matemáticas I y II — Bachillerato Ciencias y Tecnología"
+  etapa: "bachillerato"
+  materia: "Matemáticas"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.md"
+  estado_extraccion: "Pendiente"
+
+CUR-043:
+  titulo: "Matemáticas Aplicadas a las CCSS I y II — Bachillerato Humanidades y CCSS"
+  etapa: "bachillerato"
+  materia: "Matemáticas Aplicadas a las CCSS"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.md"
+  estado_extraccion: "Pendiente"
+
+CUR-044:
+  titulo: "Latín I y II — Bachillerato Humanidades y CCSS"
+  etapa: "bachillerato"
+  materia: "Latín"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-044-latin.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-044-latin.md"
+  estado_extraccion: "Pendiente"
+
+CUR-045:
+  titulo: "Historia de España — 2.º Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Historia de España"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-045-historia-espana.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-045-historia-espana.md"
+  estado_extraccion: "Pendiente"
