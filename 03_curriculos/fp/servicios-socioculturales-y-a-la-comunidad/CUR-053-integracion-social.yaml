@@ -13,7 +13,7 @@ fuente: FTE-054
 url_oficial: https://www.boe.es/buscar/doc.php?id=BOE-A-2023-10395
 fecha_consulta: '2026-04-26'
 fecha_analisis: '2026-04-26'
-estado_extraccion: parcial
+estado_extraccion: completo
 estado_vigencia: Vigente
 elementos:
   modulos_profesionales:
@@ -510,35 +510,405 @@ elementos:
       - h) Se han marcado las pautas a seguir en la mejora.
       - i) Se ha realizado una autoevaluación final del proceso trabajado por el profesional.
   modulos_comunes_base:
-  - codigo: 'NA01'
-    nombre: Formación y Orientación Laboral (FOL)
-    horas_totales: 90
+  - codigo: '0020'
+    nombre: Primeros auxilios
+    horas_totales: 35
+    ects: 3
     fuente: NOR-060
-    nota: '[PENDIENTE] Horas exactas pendientes de verificación en BOE-A del RD 1074/2012.'
-  - codigo: 'NA02'
-    nombre: Empresa e Iniciativa Emprendedora (EIE)
-    horas_totales: 60
+    fecha_consulta: '2026-04-26'
+    url_fuente: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-10866
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Realiza la valoración inicial de la asistencia en una urgencia, describiendo riesgos, recursos disponibles
+        y tipo de ayuda necesaria.
+      criterios_evaluacion:
+      - a) Se ha asegurado la zona según el procedimiento oportuno.
+      - b) Se han identificado las técnicas de autoprotección en la manipulación de personas accidentadas.
+      - c) Se ha descrito el contenido mínimo de un botiquín de urgencias y las indicaciones de los productos y medicamentos.
+      - d) Se han establecido las prioridades de actuación en múltiples víctimas.
+      - e) Se han descrito los procedimientos para verificar la permeabilidad de las vías aéreas.
+      - f) Se han identificado las condiciones de funcionamiento adecuadas de la ventilación-oxigenación.
+      - g) Se han descrito y ejecutado los procedimientos de actuación en caso de hemorragias.
+      - h) Se han descrito procedimientos para comprobar el nivel de consciencia.
+      - i) Se han tomado las constantes vitales.
+      - j) Se ha identificado la secuencia de actuación según protocolo establecido por el ILCOR (Comité de Coordinación
+        Internacional sobre la Resucitación).
+    - numero: 2
+      enunciado: Aplica técnicas de soporte vital básico, describiéndolas y relacionándolas con el objetivo que se quiere
+        conseguir.
+      criterios_evaluacion:
+      - a) Se han descrito los fundamentos de la resucitación cardio-pulmonar.
+      - b) Se han aplicado técnicas de apertura de la vía aérea.
+      - c) Se han aplicado técnicas de soporte ventilatorio y circulatorio.
+      - d) Se ha realizado desfibrilación externa semiautomática (DEA).
+      - e) Se han aplicado medidas post-reanimación.
+      - f) Se han indicado las lesiones, patologías o traumatismos más frecuentes.
+      - g) Se ha descrito la valoración primaria y secundaria del accidentado.
+      - h) Se han aplicado primeros auxilios ante lesiones por agentes físicos, químicos y biológicos.
+      - i) Se han aplicado primeros auxilios ante patologías orgánicas de urgencia.
+      - j) Se han especificado casos o circunstancias en los que no se debe intervenir.
+    - numero: 3
+      enunciado: Aplica procedimientos de inmovilización y movilización de víctimas, seleccionando los medios materiales
+        y las técnicas.
+      criterios_evaluacion:
+      - a) Se han efectuado las maniobras necesarias para acceder a la víctima.
+      - b) Se han identificado los medios materiales de inmovilización y movilización.
+      - c) Se han caracterizado las medidas posturales ante un lesionado.
+      - d) Se han descrito las repercusiones de una movilización y traslado inadecuados.
+      - e) Se han confeccionado sistemas para la inmovilización y movilización de enfermos/accidentados con materiales
+        convencionales e inespecíficos o medios de fortuna.
+      - f) Se han aplicado normas y protocolos de seguridad y de autoprotección personal.
+    - numero: 4
+      enunciado: Aplica técnicas de apoyo psicológico y de autocontrol al accidentado y acompañantes, describiendo y aplicando
+        las estrategias de comunicación adecuadas.
+      criterios_evaluacion:
+      - a) Se han descrito las estrategias básicas de comunicación con el accidentado y sus acompañantes.
+      - b) Se han detectado las necesidades psicológicas del accidentado.
+      - c) Se han aplicado técnicas básicas de soporte psicológico para mejorar el estado emocional del accidentado.
+      - d) Se ha valorado la importancia de infundir confianza y optimismo al accidentado durante toda la actuación.
+      - e) Se han identificado los factores que predisponen a la ansiedad en las situaciones de accidente, emergencia y duelo.
+      - f) Se han especificado las técnicas a emplear para controlar una situación de duelo, ansiedad y angustia o agresividad.
+      - g) Se han especificado las técnicas a emplear para superar psicológicamente el fracaso en la prestación del auxilio.
+      - h) Se ha valorado la importancia de autocontrolarse ante situaciones de estrés.
+  - codigo: '0345'
+    nombre: Proyecto de integración social
+    horas_totales: 25
+    ects: 5
     fuente: NOR-060
-    nota: '[PENDIENTE] Horas exactas pendientes de verificación en BOE-A del RD 1074/2012.'
-  - codigo: 'NA03'
-    nombre: Primeros Auxilios
-    horas_totales: 60
+    fecha_consulta: '2026-04-26'
+    url_fuente: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-10866
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Identifica necesidades del sector productivo, relacionándolas con proyectos tipo que las puedan satisfacer.
+      criterios_evaluacion:
+      - a) Se han clasificado las empresas del sector por sus características organizativas y el tipo de producto o servicio
+        que ofrecen.
+      - b) Se han caracterizado las empresas tipo, indicando la estructura organizativa y las funciones de cada departamento.
+      - c) Se han identificado las necesidades más demandadas a las empresas.
+      - d) Se han valorado las oportunidades de negocio previsibles en el sector.
+      - e) Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas.
+      - f) Se han determinado las características específicas requeridas en el proyecto.
+      - g) Se han determinado las obligaciones fiscales, laborales y de prevención de riesgos, y sus condiciones de aplicación.
+      - h) Se han identificado posibles ayudas o subvenciones para la incorporación de las nuevas tecnologías de producción
+        o de servicio que se proponen.
+      - i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto.
+    - numero: 2
+      enunciado: Diseña proyectos relacionados con las competencias expresadas en el título, incluyendo y desarrollando
+        las fases que lo componen.
+      criterios_evaluacion:
+      - a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto.
+      - b) Se ha realizado el estudio de viabilidad técnica del mismo.
+      - c) Se han identificado las fases o partes que componen el proyecto y su contenido.
+      - d) Se han establecido los objetivos que se pretenden conseguir, identificando su alcance.
+      - e) Se han previsto los recursos materiales y personales necesarios para realizarlo.
+      - f) Se ha realizado el presupuesto económico correspondiente.
+      - g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo.
+      - h) Se ha definido y elaborado la documentación necesaria para su diseño.
+      - i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto.
+    - numero: 3
+      enunciado: Planifica la ejecución del proyecto, determinando el plan de intervención y la documentación asociada.
+      criterios_evaluacion:
+      - a) Se han secuenciado las actividades ordenándolas en función de las necesidades de desarrollo.
+      - b) Se han determinado los recursos y la logística necesaria para cada actividad.
+      - c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades.
+      - d) Se han determinado los procedimientos de actuación o ejecución de las actividades.
+      - e) Se han identificado los riesgos inherentes a la implementación definiendo el plan de prevención de riesgos y
+        los medios y equipos necesarios.
+      - f) Se ha planificado la asignación de recursos materiales y humanos y los tiempos de ejecución.
+      - g) Se ha hecho la valoración económica que da respuesta a las condiciones de su puesta en marcha.
+      - h) Se ha definido y elaborado la documentación necesaria para la ejecución.
+    - numero: 4
+      enunciado: Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la
+        selección de variables e instrumentos empleados.
+      criterios_evaluacion:
+      - a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones.
+      - b) Se han definido los indicadores de calidad para realizar la evaluación.
+      - c) Se ha definido el procedimiento para la evaluación de las incidencias que puedan presentarse durante la realización
+        de las actividades, su posible solución y registro.
+      - d) Se ha definido el procedimiento para gestionar los posibles cambios en los recursos y en las actividades,
+        incluyendo el sistema de registro de los mismos.
+      - e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto.
+      - f) Se ha establecido el procedimiento para la participación de los usuarios o clientes en la evaluación y se han
+        elaborado los documentos específicos.
+      - g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de condiciones del proyecto, cuando
+        este existe.
+  - codigo: '0346'
+    nombre: Formación y orientación laboral
+    horas_totales: 50
+    ects: 5
     fuente: NOR-060
-    nota: '[PENDIENTE] Horas exactas pendientes de verificación en BOE-A del RD 1074/2012.'
-  - codigo: 'NA04'
-    nombre: Proyecto de Integración Social
-    horas_totales: 30
+    fecha_consulta: '2026-04-26'
+    url_fuente: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-10866
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Selecciona oportunidades de empleo, identificando las diferentes posibilidades de inserción y las alternativas
+        de aprendizaje a lo largo de la vida.
+      criterios_evaluacion:
+      - a) Se ha valorado la importancia de la formación permanente como factor clave para la empleabilidad y la adaptación
+        a las exigencias del proceso productivo.
+      - b) Se han identificado los itinerarios formativo-profesionales relacionados con el perfil profesional del técnico
+        superior en Integración Social.
+      - c) Se han determinado las aptitudes y actitudes requeridas para la actividad profesional relacionada con el perfil
+        del título.
+      - d) Se han identificado los principales yacimientos de empleo y de inserción laboral para el técnico superior en
+        Integración Social.
+      - e) Se han determinado las técnicas utilizadas en el proceso de búsqueda de empleo.
+      - f) Se han previsto las alternativas de autoempleo en los sectores profesionales relacionados con el título.
+      - g) Se ha realizado la valoración de la personalidad, aspiraciones, actitudes y formación propia para la toma de
+        decisiones.
+    - numero: 2
+      enunciado: Aplica las estrategias del trabajo en equipo, valorando su eficacia y eficiencia para la consecución de
+        los objetivos de la organización.
+      criterios_evaluacion:
+      - a) Se han valorado las ventajas del trabajo en equipo en situaciones de trabajo relacionadas con el perfil del
+        técnico superior en Integración Social.
+      - b) Se han identificado los equipos de trabajo que pueden constituirse en una situación real de trabajo.
+      - c) Se han determinado las características del equipo de trabajo eficaz frente a los equipos ineficaces.
+      - d) Se ha valorado positivamente la necesaria existencia de diversidad de roles y opiniones asumidos por los miembros
+        de un equipo.
+      - e) Se ha reconocido la posible existencia de conflicto entre los miembros de un grupo como un aspecto característico
+        de las organizaciones.
+      - f) Se han identificado los tipos de conflictos y sus fuentes.
+      - g) Se han determinado procedimientos para la resolución del conflicto.
+    - numero: 3
+      enunciado: Ejerce los derechos y cumple las obligaciones que se derivan de las relaciones laborales, reconociéndolas
+        en los diferentes contratos de trabajo.
+      criterios_evaluacion:
+      - a) Se han identificado los conceptos básicos del derecho del trabajo.
+      - b) Se han distinguido los principales organismos que intervienen en las relaciones entre empresarios y trabajadores.
+      - c) Se han determinado los derechos y obligaciones derivados de la relación laboral.
+      - d) Se han clasificado las principales modalidades de contratación, identificando las medidas de fomento de la
+        contratación para determinados colectivos.
+      - e) Se han valorado las medidas establecidas por la legislación vigente para la conciliación de la vida laboral y
+        familiar.
+      - f) Se han identificado las causas y efectos de la modificación, suspensión y extinción de la relación laboral.
+      - g) Se ha analizado el recibo de salarios, identificando los principales elementos que lo integran.
+      - h) Se han analizado las diferentes medidas de conflicto colectivo y los procedimientos de solución de conflictos.
+      - i) Se han determinado las condiciones de trabajo pactadas en un convenio colectivo aplicable a un sector profesional
+        relacionado con el título de Técnico Superior en Integración Social.
+      - j) Se han identificado las características definitorias de los nuevos entornos de organización del trabajo.
+    - numero: 4
+      enunciado: Determina la acción protectora del sistema de la Seguridad Social ante las distintas contingencias cubiertas,
+        identificando las distintas clases de prestaciones.
+      criterios_evaluacion:
+      - a) Se ha valorado el papel de la Seguridad Social como pilar esencial para la mejora de la calidad de vida de los
+        ciudadanos.
+      - b) Se han enumerado las diversas contingencias que cubre el sistema de Seguridad Social.
+      - c) Se han identificado los regímenes existentes en el sistema de Seguridad Social.
+      - d) Se han identificado las obligaciones de empresario y trabajador dentro del sistema de Seguridad Social.
+      - e) Se han identificado, en un supuesto sencillo, las bases de cotización de un trabajador y las cuotas correspondientes
+        a trabajador y empresario.
+      - f) Se han clasificado las prestaciones del sistema de Seguridad Social, identificando los requisitos.
+      - g) Se han determinado las posibles situaciones legales de desempleo.
+      - h) Se ha realizado el cálculo de la duración y cuantía de una prestación por desempleo de nivel contributivo básico.
+    - numero: 5
+      enunciado: Evalúa los riesgos derivados de su actividad, analizando las condiciones de trabajo y los factores de
+        riesgo presentes en su entorno laboral.
+      criterios_evaluacion:
+      - a) Se ha valorado la importancia de la cultura preventiva en todos los ámbitos y actividades de la empresa.
+      - b) Se han relacionado las condiciones laborales con la salud del trabajador.
+      - c) Se han clasificado los factores de riesgo en la actividad y los daños derivados de los mismos.
+      - d) Se han identificado las situaciones de riesgo más habituales en los entornos de trabajo del técnico superior
+        en Integración Social.
+      - e) Se ha determinado la evaluación de riesgos en la empresa.
+      - f) Se han determinado las condiciones de trabajo con significación para la prevención en los entornos de trabajo
+        relacionados con el perfil profesional del técnico superior en Integración Social.
+      - g) Se han clasificado y descrito los tipos de daños profesionales, con especial referencia a accidentes de trabajo
+        y enfermedades profesionales, relacionados con el perfil profesional del técnico superior en Integración Social.
+    - numero: 6
+      enunciado: Participa en la elaboración de un plan de prevención de riesgos en una pequeña empresa, identificando
+        las responsabilidades de todos los agentes implicados.
+      criterios_evaluacion:
+      - a) Se ha valorado la importancia de la cultura preventiva en todos los ámbitos y actividades de la empresa.
+      - b) Se han clasificado las distintas formas de gestión de la prevención en la empresa, en función de los distintos
+        criterios establecidos en la normativa sobre prevención de riesgos laborales.
+      - c) Se han determinado las formas de representación de los trabajadores en la empresa en materia de prevención de
+        riesgos.
+      - d) Se han identificado los organismos públicos relacionados con la prevención de riesgos laborales.
+      - e) Se ha valorado la importancia de la existencia de un plan preventivo en la empresa que incluya la secuenciación
+        de actuaciones que se deben realizar en caso de emergencia.
+      - f) Se ha definido el contenido del plan de prevención en un centro de trabajo relacionado con el sector profesional
+        del técnico superior en Integración Social.
+      - g) Se ha proyectado un plan de emergencia y evacuación de una empresa del sector.
+    - numero: 7
+      enunciado: Aplica las medidas de prevención y protección, analizando las situaciones de riesgo en el entorno laboral
+        del técnico superior en Integración Social.
+      criterios_evaluacion:
+      - a) Se ha definido la técnica de prevención y de protección que se debe aplicar en la situación de riesgo detectada.
+      - b) Se ha analizado el significado y alcance de los distintos tipos de señalización de seguridad.
+      - c) Se han analizado los protocolos de actuación en caso de emergencia.
+      - d) Se han identificado las técnicas de clasificación de heridos en caso de emergencia donde existan víctimas de
+        diversa gravedad.
+      - e) Se han determinado los requisitos y condiciones para la vigilancia de la salud del trabajador y su importancia
+        como medida de prevención.
+  - codigo: '0347'
+    nombre: Empresa e iniciativa emprendedora
+    horas_totales: 35
+    ects: 4
     fuente: NOR-060
-    nota: '[PENDIENTE] Horas exactas pendientes de verificación en BOE-A del RD 1074/2012.'
-  - codigo: 'NA05'
-    nombre: Formación en Centros de Trabajo (FCT)
-    horas_totales: 370
+    fecha_consulta: '2026-04-26'
+    url_fuente: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-10866
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Reconoce las capacidades asociadas a la iniciativa emprendedora, analizando los requerimientos derivados
+        de los puestos de trabajo y de las actividades empresariales.
+      criterios_evaluacion:
+      - a) Se ha identificado el concepto de innovación y su relación con el progreso de la sociedad y el aumento en el
+        bienestar de los individuos.
+      - b) Se ha analizado el concepto de cultura emprendedora y su importancia como fuente de creación de empleo y bienestar
+        social.
+      - c) Se ha valorado la importancia de la iniciativa individual, la creatividad, la formación y la colaboración como
+        requisitos indispensables para tener éxito en la actividad emprendedora.
+      - d) Se ha analizado la capacidad de iniciativa en el trabajo de una persona empleada en una pequeña y mediana empresa
+        relacionada con la integración social.
+      - e) Se ha analizado el desarrollo de la actividad emprendedora de un empresario que se inicie en el sector de la
+        integración social.
+      - f) Se ha analizado el concepto de riesgo como elemento inevitable de toda actividad emprendedora.
+      - g) Se ha analizado el concepto de empresario y los requisitos y actitudes necesarios para desarrollar la actividad
+        empresarial.
+      - h) Se ha descrito la estrategia empresarial, relacionándola con los objetivos de la empresa.
+      - i) Se ha definido una determinada idea de negocio, en el ámbito de la integración social, que sirva de punto de
+        partida para la elaboración de un plan de empresa.
+    - numero: 2
+      enunciado: Define la oportunidad de creación de una pequeña empresa, valorando el impacto sobre el entorno de actuación
+        e incorporando valores éticos.
+      criterios_evaluacion:
+      - a) Se han descrito las funciones básicas que se realizan en una empresa y se ha analizado el concepto de sistema
+        aplicado a la empresa.
+      - b) Se han identificado los principales componentes del entorno general que rodea a la empresa, en especial el entorno
+        económico, social, demográfico y cultural.
+      - c) Se ha analizado la influencia en la actividad empresarial de las relaciones con los clientes, con los proveedores
+        y con la competencia, como principales integrantes del entorno específico.
+      - d) Se han identificado los elementos del entorno de una pyme relacionada con la integración social.
+      - e) Se han analizado los conceptos de cultura empresarial e imagen corporativa y su relación con los objetivos
+        empresariales.
+      - f) Se ha analizado el fenómeno de la responsabilidad social de las empresas y su importancia como un elemento de
+        la estrategia empresarial.
+      - g) Se ha elaborado el balance social de una empresa relacionada con la integración social y se han descrito los
+        principales costes sociales en que incurren estas empresas, así como los beneficios sociales que producen.
+      - h) Se han identificado, en empresas relacionadas con la integración social, prácticas que incorporan valores éticos
+        y sociales.
+      - i) Se ha llevado a cabo un estudio de viabilidad económica y financiera de una pyme relacionada con la integración
+        social.
+    - numero: 3
+      enunciado: Realiza actividades para la constitución y puesta en marcha de una empresa, seleccionando la forma jurídica
+        e identificando las obligaciones legales asociadas.
+      criterios_evaluacion:
+      - a) Se han analizado las diferentes formas jurídicas de la empresa.
+      - b) Se ha especificado el grado de responsabilidad legal de los propietarios de la empresa, en función de la forma
+        jurídica elegida.
+      - c) Se ha diferenciado el tratamiento fiscal establecido para las diferentes formas jurídicas de la empresa.
+      - d) Se han analizado los trámites exigidos por la legislación vigente para la constitución de una empresa.
+      - e) Se ha realizado una búsqueda exhaustiva de las diferentes ayudas para la creación de empresas relacionadas con
+        la integración social en la localidad de referencia.
+      - f) Se ha incluido en el plan de empresa todo lo relativo a la elección de la forma jurídica, estudio de viabilidad
+        económico-financiera, trámites administrativos, ayudas y subvenciones.
+      - g) Se han identificado las vías de asesoramiento y gestión de las diferentes opciones existentes para la constitución
+        de la pequeña empresa.
+    - numero: 4
+      enunciado: Realiza actividades de gestión administrativa y financiera de una pyme, identificando las principales
+        obligaciones contables y fiscales y cumplimentando la documentación.
+      criterios_evaluacion:
+      - a) Se han analizado los conceptos básicos de contabilidad, así como las técnicas de registro de la información
+        contable.
+      - b) Se han descrito las técnicas básicas de análisis de la información contable, en especial en lo referente a la
+        solvencia, liquidez y rentabilidad de la empresa.
+      - c) Se han definido las obligaciones fiscales de una empresa relacionada con la integración social.
+      - d) Se han diferenciado los tipos de impuestos en el calendario fiscal.
+      - e) Se ha cumplimentado la documentación básica de carácter comercial y contable (facturas, albaranes, notas de
+        pedido, letras de cambio y cheques, entre otros) para una pyme de integración social y se han descrito los circuitos
+        que dicha documentación recorre en la empresa.
+      - f) Se han identificado los principales instrumentos de financiación bancaria.
+      - g) Se ha incluido toda la documentación citada en el plan de empresa.
+  - codigo: '0348'
+    nombre: Formación en centros de trabajo
+    horas_totales: 220
+    ects: 22
     fuente: NOR-060
-    nota: '[PENDIENTE] Horas exactas pendientes de verificación en BOE-A del RD 1074/2012.'
-  nota: 'Los 7 módulos específicos del RD 289/2023 (550h aprox.) están completamente extraídos con RAs y CEs. Los módulos
-    comunes del RD 1074/2012 (FOL, EIE, Primeros Auxilios, FCT, Proyecto) se incluyen con datos aproximados: verificar
-    horas exactas en el texto del BOE-A del RD 1074/2012. [INTERPRETACIÓN] Distribución horaria estimada según estructura
-    típica de GS LOE (2000h totales).'
+    fecha_consulta: '2026-04-26'
+    url_fuente: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-10866
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Identifica la estructura y organización de la empresa, relacionándolas con el tipo de servicio que presta.
+      criterios_evaluacion:
+      - a) Se ha identificado la estructura organizativa de la empresa y las funciones de cada área de la misma.
+      - b) Se ha comparado la estructura de la empresa con las organizaciones empresariales tipo existentes en el sector.
+      - c) Se han relacionado las características del servicio y el tipo de clientes con el desarrollo de la actividad
+        empresarial.
+      - d) Se han identificado los procedimientos de trabajo en el desarrollo de la prestación de servicio.
+      - e) Se han valorado las competencias necesarias de los recursos humanos para el desarrollo óptimo de la actividad.
+      - f) Se ha valorado la idoneidad de los canales de difusión más frecuentes en esta actividad.
+    - numero: 2
+      enunciado: Aplica hábitos éticos y laborales en el desarrollo de su actividad profesional, de acuerdo con las
+        características del puesto de trabajo y con los procedimientos establecidos en la empresa.
+      criterios_evaluacion:
+      - b) Se han identificado las normas de prevención de riesgos laborales y los aspectos fundamentales de la Ley de
+        Prevención de Riesgos Laborales de aplicación en la actividad profesional.
+      - c) Se han aplicado los equipos de protección individual según los riesgos de la actividad profesional y las normas
+        de la empresa.
+      - d) Se ha mantenido una actitud de respeto al medio ambiente en las actividades desarrolladas.
+      - e) Se ha mantenido organizado, limpio y libre de obstáculos el puesto de trabajo o el área correspondiente al
+        desarrollo de la actividad.
+      - f) Se ha responsabilizado del trabajo asignado, interpretando y cumpliendo las instrucciones recibidas.
+      - g) Se ha establecido una comunicación eficaz con la persona responsable en cada situación y con los miembros del
+        equipo.
+      - h) Se ha coordinado con el resto del equipo, comunicando las incidencias relevantes que se presenten.
+      - i) Se ha valorado la importancia de su actividad y la necesidad de adaptación a los cambios de tareas.
+      - j) Se ha responsabilizado de la aplicación de las normas y procedimientos en el desarrollo de su trabajo.
+    - numero: 3
+      enunciado: Realiza operaciones de preparación de la actividad laboral, aplicando técnicas y procedimientos, de acuerdo
+        con las instrucciones y normas establecidas.
+      criterios_evaluacion:
+      - a) Se han interpretado las instrucciones recibidas para la preparación de la actividad laboral.
+      - b) Se ha identificado la documentación asociada a la preparación de los procesos laborales que se tienen que
+        desarrollar.
+      - c) Se han utilizado los procedimientos de control de acuerdo con las instrucciones o normas establecidas.
+      - d) Se han identificado las necesidades de acondicionamiento de los espacios en los que se va a realizar la actividad
+        laboral.
+      - e) Se han aplicado correctamente los criterios para el inicio de la actividad laboral.
+    - numero: 4
+      enunciado: Lleva a cabo las actividades previstas en el plan de trabajo, relacionando las instrucciones y normas
+        establecidas con la aplicación de procedimientos y técnicas inherentes a las actividades que hay que desarrollar.
+      criterios_evaluacion:
+      - a) Se han interpretado las instrucciones para la realización de las actividades laborales.
+      - b) Se ha identificado la documentación asociada a los procesos laborales que se tienen que desarrollar.
+      - c) Se han realizado las tareas siguiendo los procedimientos establecidos.
+      - d) Se han realizado todas las actividades laborales teniendo en cuenta los criterios deontológicos de la profesión.
+      - e) Se ha respetado la confidencialidad de la información relativa a las personas usuarias con las que se tiene
+        relación.
+      - f) Se han empleado las actitudes adecuadas al tipo de persona usuaria, situación o tarea.
+      - g) Se han empleado los recursos técnicos apropiados a la actividad.
+      - h) Se han seguido los procedimientos establecidos en la utilización de los recursos técnicos.
+      - i) Se han relacionado las técnicas empleadas con las necesidades de las personas destinatarias del servicio.
+    - numero: 5
+      enunciado: Cumple criterios de seguridad e higiene, actuando según normas higiénico-sanitarias, de seguridad laboral
+        y de protección ambiental.
+      criterios_evaluacion:
+      - a) Se han reconocido las normas higiénico-sanitarias de obligado cumplimiento relacionadas con la actividad.
+      - b) Se han aplicado los procedimientos de higiene personal y de los materiales empleados en la actividad.
+      - c) Se ha comprobado que las condiciones ambientales del lugar de trabajo y el estado de los útiles, materiales y
+        equipos de trabajo están dentro de los parámetros exigidos.
+      - d) Se han identificado las condiciones que pueden generar situaciones de riesgo o de no cumplimiento de la normativa
+        medioambiental.
+      - e) Se han aplicado las medidas preventivas acordes con los riesgos identificados.
+      - f) Se ha actuado de acuerdo con el plan de emergencia del lugar de trabajo.
+      - g) Se han aplicado las operaciones de recogida, selección, clasificación y eliminación o vertido de residuos.
+    - numero: 6
+      enunciado: Analiza el servicio prestado, relacionándolo con los criterios de calidad del procedimiento de intervención.
+      criterios_evaluacion:
+      - a) Se han identificado los procedimientos e instrumentos de gestión de la calidad.
+      - b) Se han utilizado adecuadamente los canales de transmisión de la información establecidos en la empresa o institución.
+      - c) Se ha valorado el grado de cumplimiento de las instrucciones recibidas para la realización de la actividad
+        laboral.
+      - d) Se ha identificado la documentación asociada a los procesos de control y seguimiento de su actividad.
+      - e) Se ha mostrado una actitud crítica en la realización de las actividades.
+      - f) Se ha comprobado que se ha seguido el procedimiento establecido para la realización de las tareas.
+      - g) Se han aplicado los criterios deontológicos de la profesión en la realización de las actividades profesionales.
+      - h) Se ha argumentado la adecuación de las técnicas y recursos empleados.
+  nota: 'Los 7 módulos específicos del RD 289/2023 (550h aprox.) están completamente extraídos con RAs y CEs. Los 5
+    módulos comunes del RD 1074/2012 (FOL 50h, EIE 35h, Primeros Auxilios 35h, FCT 220h, Proyecto 25h) han sido extraídos
+    con RAs y CEs completos de BOE-A-2012-10866 (fecha consulta: 2026-04-26). Total horas RD base: FOL+EIE+PA+FCT+Proyecto
+    = 365h. Ciclo completo: 12 módulos, 2000h totales.'
 relaciones:
   desarrolla_a:
   - NOR-060

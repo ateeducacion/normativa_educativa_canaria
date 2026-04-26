@@ -3,463 +3,189 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Normativa Educativa Canaria</title>
-    <meta name="description" content="Panel estático del corpus de normativa educativa y currículos aplicables a Canarias.">
+    <title>Normativa Educativa Canaria — Contexto para IA</title>
+    <meta name="description" content="Corpus integral de normativa y currículos de Canarias optimizado para asistentes de IA.">
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/site.css">
     <style>
+      :root { --brand-color: #0056b3; }
+      .hero { background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); }
+      .tree-view ul { list-style: none; padding-left: 1.5rem; border-left: 1px solid #dee2e6; }
+      .tree-view li { margin-bottom: 0.5rem; position: relative; }
+      .tree-view li::before { content: "—"; position: absolute; left: -1.2rem; color: #adb5bd; }
+      .folder-name { font-weight: 600; color: var(--brand-color); }
+      .file-id { font-family: monospace; font-size: 0.85em; background: #f1f3f5; padding: 2px 4px; border-radius: 4px; }
       .copy-block { position: relative; }
-      .copy-block .btn-copy { position: absolute; top: .5rem; right: .5rem; z-index: 2; }
-      .copy-block pre { padding-top: 2.5rem; }
-      pre code { white-space: pre-wrap; }
-      .compare-card pre { white-space: pre-wrap; font-size: .825rem; }
+      .btn-copy { position: absolute; top: 0.5rem; right: 0.5rem; }
+      pre { background: #212529; color: #f8f9fa; padding: 1.5rem; border-radius: 8px; font-size: 0.9rem; }
+      .prompt-box { border-left: 4px solid var(--brand-color); background: #fdfdfe; }
     </style>
   </head>
   <body>
-    <a class="visually-hidden-focusable skip-link" href="#contenido">Saltar al contenido principal</a>
-    <header class="site-header border-bottom">
-      <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
-        <div class="container py-2">
-          <a class="navbar-brand fw-semibold" href="index.html">Normativa Educativa Canaria</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Mostrar navegación">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mainNav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link" href="#panel">Panel</a></li>
-              <li class="nav-item"><a class="nav-link" href="explore.html">Explorador</a></li>
-              <li class="nav-item"><a class="nav-link" href="#flujo-ia">Flujo IA</a></li>
-              <li class="nav-item"><a class="nav-link" href="#preguntas">Cómo preguntar</a></li>
-              <li class="nav-item"><a class="nav-link" href="#comparativa">Sin/con contexto</a></li>
-              <li class="nav-item"><a class="nav-link" href="skill.html">Skill</a></li>
-              <li class="nav-item"><a class="nav-link" href="mcp.html">MCP</a></li>
-            </ul>
+    <header class="site-header border-bottom sticky-top bg-white">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand fw-bold text-primary" href="index.html">Normativa Canaria <span class="text-dark">Contexto IA</span></a>
+          <div class="ms-auto d-flex gap-2">
+            <a class="btn btn-sm btn-outline-primary" href="skill.html">Ver Skill</a>
+            <a class="btn btn-sm btn-dark" href="https://github.com/ateeducacion/normativa_educativa_canaria">GitHub</a>
           </div>
         </div>
       </nav>
     </header>
 
     <main id="contenido">
-      <section class="hero py-5 border-bottom">
-        <div class="container">
-          <div class="row g-4 align-items-center">
-            <div class="col-lg-8">
-              <p class="eyebrow mb-2">Corpus documental para consulta humana y uso por IA</p>
-              <h1 class="display-5 mb-3">Normativa educativa y currículos de Canarias</h1>
-              <p class="lead mb-3">Cobertura integral de todas las etapas: **Infantil, Primaria, ESO, Bachillerato y FP**. Corpus Markdown/YAML preparado para búsqueda, revisión documental y contexto de asistentes de IA.</p>
-              <div class="alert alert-warning mb-4" role="alert">
-                La validez jurídica debe comprobarse siempre en la fuente oficial correspondiente (BOE, BOC o portal institucional competente).
-              </div>
-              <div class="d-flex flex-wrap gap-2">
-                <a class="btn btn-primary" href="https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms.txt">Abrir llms.txt</a>
-                <a class="btn btn-outline-primary" href="https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms-full.txt">Abrir llms-full.txt</a>
-                <a class="btn btn-outline-success" href="explore.html">Abrir explorador</a>
-                <a class="btn btn-outline-secondary" href="https://github.com/ateeducacion/normativa_educativa_canaria">Ver repositorio en GitHub</a>
-                <a class="btn btn-outline-primary" href="skill.html">Skill copiable (sin MCP)</a>
-                <a class="btn btn-outline-secondary" href="mcp.html">Instrucciones MCP</a>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="info-panel p-4 rounded-3 shadow-sm h-100">
-                <h2 class="h5">Uso recomendado</h2>
-                <ol class="mb-0 ps-3 small">
-                  <li>Lea <code>llms.txt</code>.</li>
-                  <li>Amplíe con <code>llms-full.txt</code>.</li>
-                  <li>Revise índices YAML antes de responder.</li>
-                  <li>Cite normas por su denominación oficial.</li>
-                  <li>Si falta evidencia, indíquelo.</li>
-                </ol>
-              </div>
-            </div>
+      <!-- HERO: Simple y atractivo -->
+      <section class="hero py-5">
+        <div class="container text-center">
+          <h1 class="display-4 fw-bold mb-3">Dale contexto real a tu IA</h1>
+          <p class="lead mx-auto mb-4" style="max-width: 800px;">
+            El corpus definitivo de **normativa y currículos de Canarias** (Infantil, Primaria, ESO, Bachillerato y FP). 
+            Datos literales, actualizados a 2026 y listos para copiar y pegar en ChatGPT, Claude o Gemini.
+          </p>
+          <div class="d-flex justify-content-center gap-3">
+            <a href="#usar" class="btn btn-primary btn-lg px-4">¿Cómo usarlo?</a>
+            <a href="#explorar" class="btn btn-outline-dark btn-lg px-4">Explorar contenido</a>
           </div>
         </div>
       </section>
 
-      <section id="panel" class="py-5">
+      <!-- SECCIÓN: CÓMO USAR -->
+      <section id="usar" class="py-5">
         <div class="container">
-          <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-3 mb-4">
-            <div>
-              <h2 class="h3 mb-2">Panel del corpus</h2>
-              <p class="text-secondary mb-0">Filtre las tarjetas por etapa, tipo de contenido o palabra clave.</p>
-            </div>
-            <div class="search-box">
-              <label class="form-label visually-hidden" for="cardFilter">Buscar secciones</label>
-              <input id="cardFilter" class="form-control" type="search" placeholder="Buscar: normativa, currículos, fuentes, YAML..." autocomplete="off">
-            </div>
-          </div>
-
-          <div id="filterStatus" class="visually-hidden" role="status" aria-live="polite"></div>
-          <div id="noResults" class="alert alert-light border d-none" role="status" aria-live="polite">No hay tarjetas que coincidan con la búsqueda.</div>
-
-          <div class="row g-4" id="cardGrid">
-            <div class="col-md-6 col-xl-4 filter-item" data-search="normativa estatal boe ley orgánica real decreto secundaria evaluación promoción">
-              <article class="card h-100 shadow-sm resource-card">
-                <div class="card-body">
-                  <h3 class="h5 card-title">Normativa estatal</h3>
-                  <p class="card-text">Leyes orgánicas y reales decretos estatales con impacto curricular y organizativo.</p>
-                  <ul class="small ps-3 mb-0">
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/02_normativa/estatal">Carpeta de normativa estatal</a></li>
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/normativa.yaml">Índice de normativa</a></li>
-                  </ul>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-xl-4 filter-item" data-search="normativa autonómica Canaria boc decreto ley canaria currículo ordenación">
-              <article class="card h-100 shadow-sm resource-card">
-                <div class="card-body">
-                  <h3 class="h5 card-title">Normativa autonómica Canaria</h3>
-                  <p class="card-text">Normas de la Comunidad Autónoma de Canarias y referencias publicadas en el BOC.</p>
-                  <ul class="small ps-3 mb-0">
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/02_normativa/canarias">Carpeta de normativa canaria</a></li>
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md">Fuente BOC destacada</a></li>
-                  </ul>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-xl-4 filter-item" data-search="currículos infantil primaria eso bachillerato materias etapa extracción yaml markdown">
-              <article class="card h-100 shadow-sm resource-card">
-                <div class="card-body">
-                  <h3 class="h5 card-title">Currículos</h3>
-                  <p class="card-text">Fichas curriculares por materia y etapa, con rutas YAML/Markdown y estado de extracción.</p>
-                  <ul class="small ps-3 mb-0">
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos">Carpeta de currículos</a></li>
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/curriculos.yaml">Índice de currículos</a></li>
-                  </ul>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-xl-4 filter-item" data-search="fuentes oficiales boe boc portales gobierno canarias consulta">
-              <article class="card h-100 shadow-sm resource-card">
-                <div class="card-body">
-                  <h3 class="h5 card-title">Fuentes oficiales</h3>
-                  <p class="card-text">Portales y boletines oficiales usados para documentar el corpus y verificar vigencia.</p>
-                  <ul class="small ps-3 mb-0">
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/01_fuentes">Carpeta de fuentes</a></li>
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/fuentes.yaml">Índice de fuentes</a></li>
-                  </ul>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-xl-4 filter-item" data-search="relaciones normativas evidencias desarrolla modifica relaciona yaml">
-              <article class="card h-100 shadow-sm resource-card">
-                <div class="card-body">
-                  <h3 class="h5 card-title">Relaciones normativas</h3>
-                  <p class="card-text">Vínculos trazables entre normas, currículos y evidencias documentales.</p>
-                  <ul class="small ps-3 mb-0">
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/05_relaciones">Carpeta de relaciones</a></li>
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/relaciones.yaml">Índice de relaciones</a></li>
-                  </ul>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-xl-4 filter-item" data-search="corpus ia chunks resumenes rag contexto llm">
-              <article class="card h-100 shadow-sm resource-card">
-                <div class="card-body">
-                  <h3 class="h5 card-title">Corpus para IA</h3>
-                  <p class="card-text">Resúmenes y chunks breves preparados para recuperación de contexto y asistentes.</p>
-                  <ul class="small ps-3 mb-0">
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia">Carpeta de corpus IA</a></li>
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/chunks.yaml">Índice de chunks</a></li>
-                  </ul>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-xl-4 filter-item" data-search="índices yaml puertas entrada normativa currículos fuentes relaciones chunks">
-              <article class="card h-100 shadow-sm resource-card">
-                <div class="card-body">
-                  <h3 class="h5 card-title">Índices YAML</h3>
-                  <p class="card-text">Puerta de entrada recomendada para clientes MCP, agentes y herramientas de búsqueda.</p>
-                  <ul class="small ps-3 mb-0">
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/06_indices">Directorio de índices</a></li>
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/status.yaml">Estado del repositorio</a></li>
-                  </ul>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-xl-4 filter-item" data-search="llms txt llms-full contexto instrucciones ai citas legales">
-              <article class="card h-100 shadow-sm resource-card">
-                <div class="card-body">
-                  <h3 class="h5 card-title">Contexto para LLM</h3>
-                  <p class="card-text">Puntos de entrada rápidos y ampliados para IA que use este repositorio como contexto.</p>
-                  <ul class="small ps-3 mb-0">
-                    <li><a href="https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms.txt">llms.txt</a></li>
-                    <li><a href="https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms-full.txt">llms-full.txt</a></li>
-                  </ul>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-xl-4 filter-item" data-search="mcp github copilot vscode docker configuración búsqueda repositorio">
-              <article class="card h-100 shadow-sm resource-card">
-                <div class="card-body">
-                  <h3 class="h5 card-title">Uso con GitHub MCP</h3>
-                  <p class="card-text">Guía para abrir el repositorio desde clientes compatibles con MCP y consultar el corpus.</p>
-                  <ul class="small ps-3 mb-0">
-                    <li><a href="mcp.html">Guía MCP publicada</a></li>
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/MCP.md">Documento MCP en GitHub</a></li>
-                  </ul>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6 col-xl-4 filter-item" data-search="explorador archivo markdown yaml visor repositorio busca abre archivos">
-              <article class="card h-100 shadow-sm resource-card">
-                <div class="card-body">
-                  <h3 class="h5 card-title">Explorador del corpus</h3>
-                  <p class="card-text">Visor para abrir archivos Markdown, YAML, texto y HTML directamente desde la web con búsqueda y panel de lectura.</p>
-                  <ul class="small ps-3 mb-0">
-                    <li><a href="explore.html">Abrir explorador</a></li>
-                    <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria">Repo en GitHub</a></li>
-                  </ul>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="flujo-ia" class="py-5 border-top bg-light-subtle">
-        <div class="container">
-          <div class="row g-4">
+          <div class="row g-5">
             <div class="col-lg-6">
-              <h2 class="h3 mb-3">Flujo de trabajo recomendado para IA</h2>
-              <ol class="ps-3 mb-0">
-                <li>Leer <a href="https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms.txt">llms.txt</a>.</li>
-                <li>Usar <a href="https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms-full.txt">llms-full.txt</a> para contexto más profundo.</li>
-                <li>Buscar en el repositorio con GitHub MCP Server o búsqueda de GitHub.</li>
-                <li>Antes de responder, revisar <a href="https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/06_indices">los índices YAML de <code>06_indices</code></a>.</li>
-                <li>Citar leyes, reales decretos, decretos, órdenes o resoluciones por su denominación oficial y con artículos o anexos cuando proceda.</li>
-                <li>Si el corpus es incompleto, si falta consolidación o si la vigencia no es segura, decirlo expresamente.</li>
-              </ol>
+              <h2 class="h3 mb-4">Opción 1: Usa la Skill (Recomendado)</h2>
+              <p>Instruye a tu IA para que actúe como un experto. Pega este contenido en las "instrucciones personalizadas" o "instrucciones de sistema".</p>
+              <div class="copy-block">
+                <button class="btn btn-sm btn-light border btn-copy" data-target="skill-url">Copiar URL</button>
+                <pre><code id="skill-url">https://ateeducacion.github.io/normativa_educativa_canaria/skill.html</code></pre>
+              </div>
+              <p class="small text-secondary mt-2">La IA sabrá que debe citar artículos, diferenciar etapas y priorizar fuentes oficiales de Canarias.</p>
             </div>
             <div class="col-lg-6">
-              <h2 class="h3 mb-3">Criterio de cita jurídica visible al usuario</h2>
-              <p>La cita principal debe seguir el formato jurídico habitual en España:</p>
-              <ul class="ps-3 mb-0">
-                <li><strong>Correcto:</strong> Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación.</li>
-                <li><strong>Correcto:</strong> Decreto 211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de Canarias.</li>
-                <li><strong>No como cita principal:</strong> <code>NOR-002</code> o <code>CUR-001</code>.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="preguntas" class="py-5 border-top">
-        <div class="container">
-          <h2 class="h3 mb-3">Cómo pedir ayuda a una IA con este repositorio</h2>
-          <p class="small text-secondary mb-4">Dos rutas, ambas son <strong>copiar y pegar</strong>: la skill cargada como rol, o la URL del repo directamente como contexto. Las plantillas usan una pregunta de ejemplo real; pulsa <em>↻ Otra pregunta</em> para rotar entre varios casos donde el corpus marca diferencia.</p>
-
-          <article class="prompt-card mb-4" aria-live="polite">
-            <div class="d-flex flex-column flex-md-row align-items-md-center gap-2 mb-2">
-              <p class="mb-0 small fw-semibold flex-shrink-0">Pregunta de ejemplo:</p>
-              <p class="mb-0 small fst-italic flex-grow-1" id="ejemplo-pregunta-label">…</p>
-              <button class="btn btn-sm btn-outline-secondary flex-shrink-0" type="button" id="otra-pregunta">↻ Otra pregunta</button>
-            </div>
-            <p class="small text-secondary mb-0">Esta pregunta se inserta automáticamente en las dos plantillas de abajo, lista para que las copies completas.</p>
-          </article>
-
-          <div class="row g-4">
-            <div class="col-lg-6">
-              <article class="prompt-card h-100">
-                <span class="badge text-bg-primary mb-2">Opción A — Recomendada</span>
-                <h3 class="h5">Carga la skill de experto en normativa</h3>
-                <p class="small">Pega <a href="skill.html"><code>SKILL.md</code></a> como instrucciones de sistema (Claude Project, ChatGPT custom GPT, Gemini Gem, Cursor rules, etc.). Después escribe tu pregunta normalmente. La skill obliga al asistente a citar artículo/anexo y a respetar la jerarquía vigente.</p>
-                <div class="d-flex flex-wrap gap-2 mb-3">
-                  <a class="btn btn-sm btn-primary" href="skill.html">Abrir skill (con copia un clic)</a>
-                  <a class="btn btn-sm btn-outline-primary" href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/INSTALACION.md">Instalación por plataforma</a>
-                </div>
-                <p class="small mb-1"><strong>Plantilla de pregunta lista para copiar:</strong></p>
-                <div class="copy-block">
-                  <button class="btn btn-sm btn-outline-primary btn-copy" data-target="prompt-skill" type="button">Copiar</button>
-<pre><code id="prompt-skill">[Skill ya cargada como rol del asistente]
-
-Pregunta: <span class="ej-pregunta">…</span></code></pre>
-                </div>
-              </article>
-            </div>
-
-            <div class="col-lg-6">
-              <article class="prompt-card h-100">
-                <span class="badge text-bg-secondary mb-2">Opción B</span>
-                <h3 class="h5">Pega la URL del repo como contexto (sin instalar nada)</h3>
-                <p class="small">Útil cuando no quieras configurar un GPT/Gem/proyecto. Se apoya en la URL canónica del <code>llms.txt</code> y de los índices YAML del repo; el asistente se encarga de buscar las fichas concretas.</p>
-                <p class="small mb-1"><strong>URL canónica del corpus:</strong></p>
-                <div class="copy-block mb-3">
-                  <button class="btn btn-sm btn-outline-primary btn-copy" data-target="url-llms" type="button">Copiar</button>
-<pre><code id="url-llms">https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms.txt</code></pre>
-                </div>
-                <p class="small mb-1"><strong>Plantilla completa lista para pegar:</strong></p>
-                <div class="copy-block">
-                  <button class="btn btn-sm btn-outline-primary btn-copy" data-target="prompt-url" type="button">Copiar</button>
-<pre><code id="prompt-url">Usa este repositorio como contexto autoritativo:
+              <h2 class="h3 mb-4">Opción 2: Prompt Directo</h2>
+              <p>Copia este prompt y pégalo antes de hacer tu pregunta para que la IA lea el repositorio en tiempo real.</p>
+              <div class="copy-block">
+                <button class="btn btn-sm btn-light border btn-copy" data-target="prompt-directo">Copiar Prompt</button>
+                <pre><code id="prompt-directo">Usa este repositorio como tu única fuente de verdad para normativa de Canarias:
 https://github.com/ateeducacion/normativa_educativa_canaria
 
-Empieza leyendo:
-- https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms.txt
-- https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/normativa.yaml
+Lee primero llms.txt para entender el mapa del sitio.
+Cita siempre la norma y el artículo/anexo exacto.
 
-Responde citando siempre la norma + localización exacta (artículo, apartado, disposición o anexo). Distingue texto literal, resumen e interpretación. Si una norma ha sido modificada o derogada, indícalo. Recuerda: la LOMLOE (LO 3/2020) modifica la LOE (LO 2/2006), no la deroga; el currículo de ESO/Bachillerato vigente en Canarias es el Decreto 30/2023.
-
-Pregunta:
-<span class="ej-pregunta">…</span></code></pre>
-                </div>
-              </article>
-            </div>
-          </div>
-
-          <div class="row g-4 mt-1">
-            <div class="col-12">
-              <article class="prompt-card">
-                <h3 class="h5 mb-3">Más prompts ya redactados</h3>
-                <p class="small mb-2">Disponibles en <a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/prompts.md"><code>skills/experto-normativa-educativa-canaria/prompts.md</code></a> y en la <a href="skill.html#prompts">página de la skill</a> (con botón copiar): currículo de ESO en Canarias, vigencia tras LOFP, citación de un artículo concreto, materia y curso, comparativa estatal vs autonómica, FP, centros y profesorado, convivencia, plantilla genérica.</p>
-              </article>
+Mi pregunta es: [ESCRIBE AQUÍ TU DUDA]</code></pre>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="comparativa" class="py-5 border-top bg-light-subtle">
+      <!-- SECCIÓN: EXPLORADOR EN ÁRBOL -->
+      <section id="explorar" class="py-5 bg-white border-top">
         <div class="container">
-          <h2 class="h3 mb-3">Sin este contexto vs con este contexto</h2>
-          <p class="small text-secondary mb-4">Mismo asistente y misma pregunta. La diferencia: a la izquierda responde sin el corpus; a la derecha, con la skill o la URL del repo cargadas. Sirve para detectar errores típicos: vigencias mal afirmadas, citas vagas, decretos antiguos, falta de localización exacta.</p>
-
-          <div class="row g-4 align-items-stretch">
-            <div class="col-12">
-              <article class="prompt-card">
-                <p class="small mb-1"><strong>Pregunta de prueba</strong> (úsala con o sin contexto y compara):</p>
-                <div class="copy-block">
-                  <button class="btn btn-sm btn-outline-primary btn-copy" data-target="pregunta-prueba" type="button">Copiar</button>
-<pre><code id="pregunta-prueba">¿Cuál es la norma autonómica vigente que regula el currículo de ESO en Canarias y qué real decreto estatal desarrolla? Aclara si la LOMLOE deroga o modifica la LOE.</code></pre>
-                </div>
-              </article>
-            </div>
-
-            <div class="col-md-6">
-              <article class="prompt-card compare-card h-100 border-danger-subtle">
-                <span class="badge text-bg-danger mb-2">Sin contexto del repositorio</span>
-                <h3 class="h5">Respuesta típica de una IA «desnuda»</h3>
-                <p class="small mb-2 text-secondary">(síntesis ilustrativa de errores frecuentes observados en respuestas sin corpus)</p>
-                <pre class="small mb-0"><code>El currículo de ESO en Canarias está regulado por un decreto autonómico que desarrolla la LOMLOE. La LOMLOE deroga la LOE y establece el nuevo marco educativo. El real decreto estatal aplicable es el RD que desarrolla la LOMLOE para Secundaria.
-
-Para detalles concretos consulte el BOC.</code></pre>
-                <p class="small mt-3 mb-0"><strong>Problemas:</strong></p>
-                <ul class="small mb-0">
-                  <li>Cita vaga: «un decreto autonómico», «el RD que desarrolla la LOMLOE» (sin nombre, sin número, sin fecha).</li>
-                  <li>Error grave: dice que la <strong>LOMLOE deroga la LOE</strong>; en realidad la <strong>modifica</strong>.</li>
-                  <li>No localiza ningún artículo o anexo.</li>
-                  <li>Remite a la fuente oficial sin haber aportado nada útil.</li>
+          <div class="row">
+            <div class="col-lg-5">
+              <h2 class="h3 mb-4">¿Qué contiene el corpus?</h2>
+              <p class="text-secondary">Estructura organizada por etapas y tipos de documentos. Cada elemento tiene un ID único para facilitar la búsqueda.</p>
+              <div class="tree-view mt-4">
+                <ul>
+                  <li><span class="folder-name">01_fuentes/</span> <small class="text-muted">(BOE, BOC, Portales)</small></li>
+                  <li><span class="folder-name">02_normativa/</span>
+                    <ul>
+                      <li><span class="file-id">NOR-005</span> Decreto 30/2023 (ESO/Bach)</li>
+                      <li><span class="file-id">NOR-043</span> Decreto 211/2022 (Primaria)</li>
+                      <li><span class="file-id">NOR-047</span> Decreto 196/2022 (Infantil)</li>
+                      <li><span class="file-id">NOR-042</span> Permisos Docentes 2026</li>
+                    </ul>
+                  </li>
+                  <li><span class="folder-name">03_curriculos/</span>
+                    <ul>
+                      <li><span class="folder-name">infantil/</span> <small class="text-muted">(CUR-034 a 036)</small></li>
+                      <li><span class="folder-name">primaria/</span> <small class="text-muted">(CUR-024 a 033)</small></li>
+                      <li><span class="folder-name">eso/</span> <small class="text-muted">(CUR-001 a 023)</small></li>
+                      <li><span class="folder-name">bachillerato/</span> <small class="text-muted">(CUR-037 a 045 + Optativas)</small></li>
+                    </ul>
+                  </li>
+                  <li><span class="folder-name">05_relaciones/</span> <small class="text-muted">(REL-NNN: Derogaciones/Desarrollos)</small></li>
+                  <li><span class="folder-name">07_corpus_ia/</span> <small class="text-muted">(Resúmenes y Chunks RAG)</small></li>
                 </ul>
-              </article>
+              </div>
             </div>
-
-            <div class="col-md-6">
-              <article class="prompt-card compare-card h-100 border-success-subtle">
-                <span class="badge text-bg-success mb-2">Con la skill o el repo como contexto</span>
-                <h3 class="h5">Respuesta esperada con este corpus</h3>
-                <pre class="small mb-0"><code>### Respuesta breve
-El currículo vigente de ESO en Canarias está regulado por el Decreto 30/2023, de 16 de marzo, que desarrolla en el ámbito autonómico el Real Decreto 217/2022. La LOMLOE no deroga la LOE: la modifica.
-
-### Fundamento normativo
-- Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de ESO y Bachillerato en la Comunidad Autónoma de Canarias (BOC n.º 58, de 23-03-2023). Sustituye a los Decretos 315/2015 y 83/2016 (disposición transitoria 2.ª y derogatoria única).
-- Real Decreto 217/2022, de 29 de marzo, por el que se establecen la ordenación y las enseñanzas mínimas de la ESO (BOE n.º 76, de 30-03-2022).
-- Ley Orgánica 3/2020, de 29 de diciembre (LOMLOE), que modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE). La LOE permanece vigente en su redacción dada por la LOMLOE.
-
-### Aplicación práctica en Canarias
-El Decreto 30/2023 organiza ESO en tres capítulos y nueve anexos curriculares por materia, vigentes en todos los centros canarios públicos y privados.
-
-### Límites o aspectos a verificar
-- Las modificaciones posteriores al Decreto 30/2023 deben verificarse en el texto consolidado del BOC.
-- La fecha exacta de entrada en vigor figura en la disposición final segunda.</code></pre>
-                <p class="small mt-3 mb-0"><strong>Mejoras visibles:</strong> nombre y fecha exactos del decreto autonómico y del real decreto estatal, BOC y BOE con número y fecha, jerarquía LOE/LOMLOE correcta, sección de límites con qué verificar.</p>
-              </article>
+            <div class="col-lg-7">
+              <div class="prompt-box p-4 rounded shadow-sm border h-100">
+                <h3 class="h5 mb-4">Ejemplos de lo que puedes preguntar</h3>
+                <div id="ejemplos-lista" class="list-group list-group-flush">
+                  <!-- Se rellena por JS -->
+                </div>
+                <button class="btn btn-sm btn-link mt-3 p-0 text-decoration-none" id="ver-mas-ejemplos">Ver otros ejemplos ↻</button>
+              </div>
             </div>
           </div>
-
-          <p class="small text-secondary mt-3 mb-0">¿Quieres reproducirlo? Copia la pregunta de prueba y pruébala primero en un chat «desnudo», después con la <a href="skill.html">skill</a> cargada o con la URL del repositorio como contexto.</p>
         </div>
       </section>
     </main>
 
-    <footer class="py-4 border-top">
-      <div class="container d-flex flex-column flex-md-row justify-content-between gap-2 small text-secondary">
-        <p class="mb-0">Repositorio para consulta y contexto de IA. No sustituye las fuentes oficiales.</p>
-        <p class="mb-0"><a href="https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms.txt">https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms.txt</a></p>
+    <footer class="py-4 border-top bg-light">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 small text-secondary">
+        <p class="mb-0">Proyecto de transparencia y apoyo al profesorado de Canarias.</p>
+        <div class="d-flex gap-3">
+          <a href="https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt" class="text-decoration-none">llms.txt</a>
+          <a href="explore.html" class="text-decoration-none">Explorador de Archivos</a>
+        </div>
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="assets/js/site.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-      // Preguntas de ejemplo donde el corpus marca diferencia
-      var ejemploPreguntas = [
-        '¿Cuántas competencias específicas tiene la materia de Biología y Geología en ESO en Canarias y en qué cursos se imparte? Cita el anexo del Decreto 30/2023 que aplica.',
-        '¿Cuáles son las modalidades de Bachillerato vigentes en Canarias y qué Real Decreto estatal las define? Cita el artículo correspondiente.',
-        'Para 3.º de ESO en Canarias, ¿qué bloques de saberes básicos tiene la materia de Biología y Geología? Indica la fuente oficial.',
-        '¿Está derogada la Ley Orgánica 5/2002 de las Cualificaciones y de la Formación Profesional? Si lo está, cita la norma que la deroga, su fecha y el precepto exacto.',
-        '¿Qué decreto autonómico canario aprueba el Reglamento Orgánico de los centros públicos no universitarios y a qué etapas afecta?',
-        '¿Qué establece el Decreto 114/2011 de Canarias sobre convivencia en los centros educativos? Cita los principales aspectos y enlace al BOC.',
-        '¿Cuál es la norma básica estatal vigente para el currículo de ESO y desde qué fecha? Aclara si la LOMLOE deroga o modifica la LOE.',
-        'Compara las competencias específicas de Biología y Geología en 1.º y 4.º de ESO según el Decreto 30/2023, citando los enunciados literales.',
-        '¿Qué normativa regula la inspección educativa en Canarias y qué orden la desarrolla? Cita decreto, orden y BOC.',
-        'Para acceder a la Formación Profesional del sistema educativo en Canarias, ¿qué orden autonómica regula los procedimientos de acceso? ¿Está vigente tras la LOFP?'
+      const ejemplos = [
+        "¿Cuáles son los permisos de conciliación para docentes en 2026?",
+        "¿Qué criterios de baremo se usan para la admisión de alumnos?",
+        "Dime las competencias específicas de Matemáticas en 3º de Primaria.",
+        "¿Está vigente el Decreto de convivencia 114/2011?",
+        "Extrae el currículo de Literatura Canaria en Bachillerato.",
+        "¿Cómo se evalúa al alumnado en las Aulas Enclave?",
+        "¿Qué dice la LOMLOE sobre la promoción en Primaria?",
+        "Dime el horario y funciones de la inspección educativa.",
+        "¿Qué ratio hay en las escuelas infantiles de 0 a 3 años?",
+        "¿Cómo se accede a la FP superior desde el mundo laboral?"
       ];
 
-      var labelEl = document.getElementById('ejemplo-pregunta-label');
-      var spans = document.querySelectorAll('.ej-pregunta');
-      var btnRotate = document.getElementById('otra-pregunta');
-      var idx = -1;
-
-      function pickQuestion() {
-        if (ejemploPreguntas.length <= 1) return ejemploPreguntas[0];
-        var n;
-        do { n = Math.floor(Math.random() * ejemploPreguntas.length); } while (n === idx);
-        idx = n;
-        return ejemploPreguntas[n];
+      function renderEjemplos() {
+        const container = document.getElementById('ejemplos-lista');
+        const shuffled = ejemplos.sort(() => 0.5 - Math.random());
+        const selected = shuffled.slice(0, 5);
+        container.innerHTML = selected.map(q => `
+          <div class="list-group-item d-flex justify-content-between align-items-start bg-transparent px-0">
+            <span class="me-auto fst-italic">"${q}"</span>
+            <button class="btn btn-link btn-sm p-0 ms-2 text-primary btn-copy-text" data-text="${q}">Copiar</button>
+          </div>
+        `).join('');
       }
 
-      function applyQuestion(q) {
-        if (labelEl) labelEl.textContent = '«' + q + '»';
-        spans.forEach(function (s) { s.textContent = q; });
-      }
+      renderEjemplos();
+      document.getElementById('ver-mas-ejemplos').addEventListener('click', renderEjemplos);
 
-      if (labelEl || spans.length) {
-        applyQuestion(pickQuestion());
-      }
-      if (btnRotate) {
-        btnRotate.addEventListener('click', function () {
-          applyQuestion(pickQuestion());
-          var prev = btnRotate.textContent;
-          btnRotate.textContent = '↻ Cambiada';
-          setTimeout(function () { btnRotate.textContent = prev; }, 900);
-        });
-      }
-
-      document.querySelectorAll('.btn-copy').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          var id = btn.getAttribute('data-target');
-          var el = document.getElementById(id);
-          if (!el) return;
-          var text = el.innerText;
-          var done = function () {
-            var prev = btn.textContent;
-            btn.textContent = 'Copiado';
-            btn.disabled = true;
-            setTimeout(function () { btn.textContent = prev; btn.disabled = false; }, 1500);
-          };
-          if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(text).then(done).catch(function () {
-              var ta = document.createElement('textarea');
-              ta.value = text; document.body.appendChild(ta); ta.select();
-              try { document.execCommand('copy'); done(); } catch (e) { /* noop */ }
-              document.body.removeChild(ta);
-            });
-          } else {
-            var ta = document.createElement('textarea');
-            ta.value = text; document.body.appendChild(ta); ta.select();
-            try { document.execCommand('copy'); done(); } catch (e) { /* noop */ }
-            document.body.removeChild(ta);
+      // Lógica de copia genérica
+      document.addEventListener('click', e => {
+        if (e.target.classList.contains('btn-copy') || e.target.classList.contains('btn-copy-text')) {
+          const btn = e.target;
+          let text = "";
+          
+          if (btn.dataset.target) {
+            const el = document.getElementById(btn.dataset.target);
+            text = el.innerText || el.textContent;
+          } else if (btn.dataset.text) {
+            text = btn.dataset.text;
           }
-        });
+
+          navigator.clipboard.writeText(text).then(() => {
+            const prev = btn.innerText;
+            btn.innerText = "¡Copiado!";
+            setTimeout(() => btn.innerText = prev, 1500);
+          });
+        }
       });
     </script>
   </body>
