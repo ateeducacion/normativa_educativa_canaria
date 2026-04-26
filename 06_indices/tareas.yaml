@@ -306,6 +306,17 @@ TAREA-028:
   relacionadas: [CUR-011, CUR-012, CUR-013, CUR-014, NOR-005, FTE-009]
   ruta: "08_tareas/backlog/TAREA-028-cotejo-curricular-cur-011-a-014.md"
 
+TAREA-029:
+  titulo: "Cotejo curricular ESO: CUR-015 a CUR-018 (segunda pasada)"
+  estado: "En progreso"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/analisis-curricular"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-015, CUR-016, CUR-017, CUR-018, NOR-005, FTE-009]
+  ruta: "08_tareas/backlog/TAREA-029-cotejo-curricular-cur-015-a-018.md"
+
 TAREA-030:
   titulo: "Cotejo curricular ESO: CUR-019 a CUR-023 (segunda pasada)"
   estado: "Hecha"

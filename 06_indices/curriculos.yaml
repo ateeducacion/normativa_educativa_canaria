@@ -160,8 +160,8 @@ CUR-015:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.md"
-  estado_extraccion: "parcial"
-  observaciones: "Materia propia canaria de 3.º ESO (artículo 23.5 del Decreto 30/2023). Sin equivalente directo en el RD 217/2022. Articulado confirmado en BOC n.º 58 de 23-3-2023; competencias específicas y saberes básicos pendientes de cotejo del anexo. Ver TAREA-026."
+  estado_extraccion: "completado"
+  observaciones: "Materia propia canaria de 3.º ESO (artículo 23.5 del Decreto 30/2023). 6 CE literales, 25 criterios de evaluación y 3 bloques de saberes básicos extraídos del PDF oficial (Historia_geografia_de_Canarias_ESO.pdf). Ver TAREA-029."
 
 CUR-016:
   titulo: "Latín — ESO Canarias"
@@ -171,8 +171,8 @@ CUR-016:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-016-latin.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-016-latin.md"
-  estado_extraccion: "parcial"
-  observaciones: "Materia optativa de 4.º ESO (artículo 25.2.g del Decreto 30/2023, opción D). Articulado confirmado en BOC n.º 58 de 23-3-2023; competencias específicas y saberes básicos pendientes de cotejo del anexo. Ver TAREA-026."
+  estado_extraccion: "completado"
+  observaciones: "Materia optativa de 4.º ESO (artículo 25.2.g del Decreto 30/2023, opción D). 5 CE literales, 14 criterios de evaluación y 4 bloques de saberes básicos extraídos del PDF oficial (Latin_ESO.pdf). Ver TAREA-029."
 
 CUR-017:
   titulo: "Lengua Castellana y Literatura — ESO Canarias"
@@ -183,7 +183,7 @@ CUR-017:
   ruta_yaml: "03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.md"
   estado_extraccion: "parcial"
-  observaciones: "Materia troncal en 1.º a 4.º ESO (artículos 23.1.f y 25.1.c del Decreto 30/2023). Articulado confirmado en BOC n.º 58 de 23-3-2023; competencias específicas y saberes básicos pendientes de cotejo del anexo. Ver TAREA-026."
+  observaciones: "Materia troncal en 1.º a 4.º ESO (artículos 23.1.f y 25.1.c del Decreto 30/2023). CE C1-C7 literales y criterios de 1.º ESO extraídos; C8-C10 y criterios de 2.º-4.º ESO pendientes. Ver TAREA-029."
 
 CUR-018:
   titulo: "Lengua Extranjera — ESO Canarias"
@@ -194,7 +194,7 @@ CUR-018:
   ruta_yaml: "03_curriculos/eso/materias/CUR-018-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-018-lengua-extranjera.md"
   estado_extraccion: "parcial"
-  observaciones: "Materia troncal en 1.º a 4.º ESO (artículos 23.1.i y 25.1.d del Decreto 30/2023). Articulado confirmado en BOC n.º 58 de 23-3-2023; competencias específicas y saberes básicos pendientes de cotejo del anexo. Ver TAREA-026."
+  observaciones: "Materia troncal en 1.º a 4.º ESO (artículos 23.1.i y 25.1.d del Decreto 30/2023). CE C2-C6 literales, criterios de 1.º ESO para C2-C6 y 4 bloques de saberes básicos extraídos; CE C1 y criterios de 2.º-4.º ESO pendientes. Ver TAREA-029."
 
 CUR-019:
   titulo: "Matemáticas — ESO Canarias"
