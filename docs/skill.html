@@ -18,21 +18,13 @@
   </head>
   <body>
     <a class="visually-hidden-focusable skip-link" href="#contenido">Saltar al contenido principal</a>
-    <header class="site-header border-bottom">
-      <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
-        <div class="container py-2">
-          <a class="navbar-brand fw-semibold" href="index.html">Normativa Educativa Canaria</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Mostrar navegación">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mainNav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link" href="index.html#panel">Panel</a></li>
-              <li class="nav-item"><a class="nav-link" href="index.html#flujo-ia">Flujo IA</a></li>
-              <li class="nav-item"><a class="nav-link" href="explore.html">Explorador</a></li>
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="skill.html">Skill</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://github.com/ateeducacion/normativa_educativa_canaria">GitHub</a></li>
-            </ul>
+    <header class="site-header border-bottom sticky-top bg-white">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand fw-bold text-primary" href="index.html">Normativa Educativa Canaria</a>
+          <div class="ms-auto d-flex gap-2">
+            <a class="btn btn-sm btn-outline-primary" href="skill.html">Ver skill</a>
+            <a class="btn btn-sm btn-dark" href="https://github.com/ateeducacion/normativa_educativa_canaria">GitHub</a>
           </div>
         </div>
       </nav>
@@ -256,10 +248,12 @@ Reglas de respuesta:
       </section>
     </main>
 
-    <footer class="py-4 border-top">
-      <div class="container d-flex flex-column flex-md-row justify-content-between gap-2 small text-secondary">
-        <p class="mb-0">Repositorio para consulta y contexto de IA. No sustituye las fuentes oficiales.</p>
-        <p class="mb-0"><a href="https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms.txt">https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms.txt</a></p>
+    <footer class="py-4 border-top bg-light">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 small text-secondary">
+        <p class="mb-0">Este repositorio no sustituye las fuentes oficiales.</p>
+        <div class="d-flex gap-3">
+          <a href="https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt" class="text-decoration-none">llms.txt</a>
+        </div>
       </div>
     </footer>
 

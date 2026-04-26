@@ -11,11 +11,6 @@
     <style>
       :root { --brand-color: #0056b3; }
       .hero { background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); }
-      .tree-view ul { list-style: none; padding-left: 1.5rem; border-left: 1px solid #dee2e6; }
-      .tree-view li { margin-bottom: 0.5rem; position: relative; }
-      .tree-view li::before { content: "—"; position: absolute; left: -1.2rem; color: #adb5bd; }
-      .folder-name { font-weight: 600; color: var(--brand-color); }
-      .file-id { font-family: monospace; font-size: 0.85em; background: #f1f3f5; padding: 2px 4px; border-radius: 4px; }
       .copy-block { position: relative; }
       /* Corrección de iconos de copia */
       .btn-copy-icon { 
@@ -57,7 +52,7 @@
         <div class="container">
           <a class="navbar-brand fw-bold text-primary" href="index.html">Normativa Educativa Canaria</a>
           <div class="ms-auto d-flex gap-2">
-            <a class="btn btn-sm btn-outline-primary" href="skill.html">Ver Skill</a>
+            <a class="btn btn-sm btn-outline-primary" href="skill.html">Ver skill</a>
             <a class="btn btn-sm btn-dark" href="https://github.com/ateeducacion/normativa_educativa_canaria">GitHub</a>
           </div>
         </div>
@@ -77,7 +72,7 @@
           </div>
           <div class="d-flex justify-content-center gap-3">
             <a href="#usar" class="btn btn-primary btn-lg px-4 shadow-sm">¿Cómo usarlo?</a>
-            <a href="#explorar" class="btn btn-outline-dark btn-lg px-4">Explorar contenido</a>
+            <a href="skill.html" class="btn btn-outline-dark btn-lg px-4">Ver skill</a>
           </div>
         </div>
       </section>
@@ -117,51 +112,6 @@ Mi pregunta es: [ESCRIBE AQUÍ TU DUDA]</code></pre>
           </div>
         </div>
       </section>
-
-      <!-- SECCIÓN: EXPLORADOR EN ÁRBOL -->
-      <section id="explorar" class="py-5 bg-white border-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <h2 class="h3 mb-4">¿Qué contiene el corpus?</h2>
-              <p class="text-secondary small">Toda la normativa está indexada y relacionada para garantizar la trazabilidad.</p>
-              <div class="tree-view mt-4">
-                <ul>
-                  <li><span class="folder-name">01_fuentes/</span> <small class="text-muted">(BOE, BOC, Portales)</small></li>
-                  <li><span class="folder-name">02_normativa/</span>
-                    <ul>
-                      <li><span class="file-id">NOR-005</span> Decreto 30/2023 (ESO/Bach)</li>
-                      <li><span class="file-id">NOR-043</span> Decreto 211/2022 (Primaria)</li>
-                      <li><span class="file-id">NOR-047</span> Decreto 196/2022 (Infantil)</li>
-                      <li><span class="file-id">NOR-042</span> Permisos Docentes 2026</li>
-                      <li><span class="file-id">NOR-050</span> Procedimientos NEAE 2023</li>
-                    </ul>
-                  </li>
-                  <li><span class="folder-name">03_curriculos/</span>
-                    <ul>
-                      <li><span class="folder-name">infantil/</span> <small class="text-muted">(CUR-034 a 036)</small></li>
-                      <li><span class="folder-name">primaria/</span> <small class="text-muted">(CUR-024 a 033)</small></li>
-                      <li><span class="folder-name">eso/</span> <small class="text-muted">(CUR-001 a 023)</small></li>
-                      <li><span class="folder-name">bachillerato/</span> <small class="text-muted">(CUR-037 a 045 + Optativas)</small></li>
-                    </ul>
-                  </li>
-                  <li><span class="folder-name">05_relaciones/</span> <small class="text-muted">(Vínculos entre normas)</small></li>
-                  <li><span class="folder-name">07_corpus_ia/</span> <small class="text-muted">(Resúmenes y Chunks RAG)</small></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-7">
-              <div class="prompt-box p-4 rounded shadow-sm border h-100">
-                <h3 class="h5 mb-4">Ejemplos de lo que puedes preguntar</h3>
-                <div id="ejemplos-lista" class="list-group list-group-flush">
-                  <!-- Se rellena por JS -->
-                </div>
-                <button class="btn btn-sm btn-link mt-3 p-0 text-decoration-none" id="ver-mas-ejemplos">Ver otros ejemplos ↻</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
 
     <footer class="py-4 border-top bg-light">
@@ -169,43 +119,12 @@ Mi pregunta es: [ESCRIBE AQUÍ TU DUDA]</code></pre>
         <p class="mb-0">Este repositorio no sustituye las fuentes oficiales.</p>
         <div class="d-flex gap-3">
           <a href="https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt" class="text-decoration-none">llms.txt</a>
-          <a href="explore.html" class="text-decoration-none">Explorador de Archivos</a>
         </div>
       </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-      const ejemplos = [
-        "¿Cuáles son los permisos de conciliación para docentes en 2026?",
-        "¿Qué criterios de baremo se usan para la admisión de alumnos?",
-        "Dime las competencias específicas de Matemáticas en 3º de Primaria.",
-        "¿Está vigente el Decreto de convivencia 114/2011?",
-        "Extrae el currículo de Literatura Canaria en Bachillerato.",
-        "¿Cómo se evalúa al alumnado en las Aulas Enclave?",
-        "¿Qué dice la LOMLOE sobre la promoción en Primaria?",
-        "Dime el horario y funciones de la inspección educativa.",
-        "¿Qué ratio hay en las escuelas infantiles de 0 a 3 años?",
-        "¿Cómo se accede a la FP superior desde el mundo laboral?"
-      ];
-
-      function renderEjemplos() {
-        const container = document.getElementById('ejemplos-lista');
-        const shuffled = ejemplos.sort(() => 0.5 - Math.random());
-        const selected = shuffled.slice(0, 5);
-        container.innerHTML = selected.map(q => `
-          <div class="list-group-item d-flex justify-content-between align-items-start bg-transparent px-0 border-0 mb-2">
-            <span class="me-auto fst-italic">"${q}"</span>
-            <button class="btn btn-link btn-sm p-0 ms-2 text-primary btn-copy-icon-inline" data-text="${q}" title="Copiar pregunta">
-              <svg style="width:16px; height:16px; fill:currentColor;"><use href="#icon-copy"></use></svg>
-            </button>
-          </div>
-        `).join('');
-      }
-
-      renderEjemplos();
-      document.getElementById('ver-mas-ejemplos').addEventListener('click', renderEjemplos);
-
       // Lógica de copia con iconos
       document.addEventListener('click', e => {
         const btn = e.target.closest('.btn-copy-icon, .btn-copy-icon-inline');
