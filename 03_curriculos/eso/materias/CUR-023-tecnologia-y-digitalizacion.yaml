@@ -12,13 +12,57 @@ fecha_analisis: 2026-04-26
 estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
-  competencias_especificas: []
-  criterios_evaluacion: []
-  saberes_basicos: []
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "[PENDIENTE] de extracción literal."
+      enunciado_oficial: "[PENDIENTE] de cotejar con el anexo II del Decreto 30/2023, materia Tecnología y Digitalización. El marco estatal RD 217/2022 establece para 1.º-3.º ESO una primera competencia específica orientada a buscar y seleccionar información sobre la evolución de la tecnología, su impacto en la sociedad y el entorno y su contribución al cambio climático y la sostenibilidad. Ver TAREA-031 para extracción literal posterior."
+      descriptores: []
+    - codigo: "C2"
+      enunciado_resumido: "[PENDIENTE] de extracción literal."
+      enunciado_oficial: "[PENDIENTE] de cotejar con el anexo II del Decreto 30/2023. El marco estatal apunta a la resolución de problemas tecnológicos mediante la aplicación de procesos creativos e iterativos, prototipado rápido y trabajo colaborativo. Ver TAREA-031."
+      descriptores: []
+    - codigo: "C3"
+      enunciado_resumido: "[PENDIENTE] de extracción literal."
+      enunciado_oficial: "[PENDIENTE] de cotejar con el anexo II del Decreto 30/2023. El marco estatal incluye una competencia centrada en el pensamiento computacional, la programación y la robótica para diseñar soluciones a problemas. Ver TAREA-031."
+      descriptores: []
+    - codigo: "C4"
+      enunciado_resumido: "[PENDIENTE] de extracción literal."
+      enunciado_oficial: "[PENDIENTE] de cotejar con el anexo II del Decreto 30/2023. El marco estatal establece la competencia de comunicación técnica con representaciones gráficas, simbología, herramientas digitales y vocabulario técnico. Ver TAREA-031."
+      descriptores: []
+    - codigo: "C5"
+      enunciado_resumido: "[PENDIENTE] de extracción literal."
+      enunciado_oficial: "[PENDIENTE] de cotejar con el anexo II del Decreto 30/2023. El marco estatal incluye la competencia de uso responsable y sostenible de las herramientas digitales, gestión de información y ciudadanía digital. Ver TAREA-031."
+      descriptores: []
+  criterios_evaluacion:
+    - curso: "1.º ESO"
+      criterios: ["[PENDIENTE] de extracción literal por curso desde el anexo II del Decreto 30/2023. Ver TAREA-031."]
+    - curso: "2.º ESO"
+      criterios: ["[PENDIENTE] de extracción literal por curso desde el anexo II del Decreto 30/2023. Ver TAREA-031."]
+    - curso: "3.º ESO"
+      criterios: ["[PENDIENTE] de extracción literal por curso desde el anexo II del Decreto 30/2023. Ver TAREA-031."]
+  saberes_basicos:
+    - bloque: "[HIPÓTESIS] I. Proceso de resolución de problemas"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "[HIPÓTESIS] sobre la base del marco estatal LOMLOE y de la materia Tecnología (4.º ESO, CUR-022) que actúa como continuidad: estrategias de gestión de proyectos colaborativos, técnicas iterativas de resolución de problemas e ideación de soluciones, observación y análisis de necesidades del entorno, productos y materiales con criterios de sostenibilidad, fabricación con herramientas CAD 2D/3D, técnicas manuales, mecánicas y digitales, y difusión con lenguaje inclusivo. [PENDIENTE] de cotejo literal con el anexo II del Decreto 30/2023."
+    - bloque: "[HIPÓTESIS] II. Comunicación y difusión de ideas"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "[HIPÓTESIS] sobre la base del marco estatal LOMLOE: representaciones gráficas y normalizadas, simbología técnica, vocabulario y herramientas digitales para presentar y difundir proyectos. [PENDIENTE] de cotejo literal."
+    - bloque: "[HIPÓTESIS] III. Pensamiento computacional, programación y robótica"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "[HIPÓTESIS] sobre la base del marco estatal LOMLOE: pensamiento computacional, programación por bloques y/o textual, sistemas de control con sensores y actuadores, robótica educativa y simulación. [PENDIENTE] de cotejo literal."
+    - bloque: "[HIPÓTESIS] IV. Digitalización del entorno personal de aprendizaje"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "[HIPÓTESIS]: alfabetización digital, plataformas y servicios en la nube, herramientas colaborativas, identidad y huella digital, etiqueta digital y propiedad intelectual. [PENDIENTE] de cotejo literal."
+    - bloque: "[HIPÓTESIS] V. Tecnología sostenible"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "[HIPÓTESIS]: sostenibilidad y ciclo de vida de productos, energías renovables y consumo responsable, atención a la fragmentación territorial canaria. [PENDIENTE] de cotejo literal."
+    - bloque: "[HIPÓTESIS] VI. Cultura digital"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO"]
+      detalles: "[HIPÓTESIS]: ciudadanía digital, ética en el uso de la tecnología, evolución tecnológica y su impacto social. Conexión natural con CUR-003 (Cultura y Ciudadanía Digital). [PENDIENTE] de cotejo literal."
   descriptores_operativos: []
   situaciones_aprendizaje: []
 relaciones:
   desarrolla_a: [NOR-003]
   relacionada_con: [NOR-005, NOR-003]
-resumen_ia: "Currículo de Tecnología y Digitalización en ESO Canarias regulado por el Decreto 30/2023 (NOR-005). La materia se imparte como obligatoria en 1.º y 2.º de ESO y como optativa en 3.º de ESO (artículo 23.1.k). En 4.º de ESO la continuidad se ofrece a través de las materias de oferta 'Tecnología' (CUR-022) y 'Digitalización' (CUR-004). Marco estatal: RD 217/2022 (NOR-003). [PENDIENTE] de cotejo del detalle de competencias específicas, criterios de evaluación y saberes básicos con el anexo II del Decreto 30/2023."
-observaciones: "Extracción parcial: la metadata (norma base autonómica, cursos y fuente) queda confirmada contra el articulado del Decreto 30/2023 publicado en el BOC n.º 58, de 23 de marzo de 2023 (FTE-009). 'Tecnología y Digitalización' es la denominación oficial LOMLOE para 1.º-3.º ESO; en 4.º se desdobla en 'Tecnología' (CUR-022) y 'Digitalización' (CUR-004). El detalle curricular (competencias específicas, criterios de evaluación y saberes básicos por bloque) queda como [PENDIENTE] hasta poder consultar el anexo II del Decreto 30/2023 con la materia desarrollada. Ver TAREA-027."
+resumen_ia: "Currículo de Tecnología y Digitalización en ESO Canarias regulado por el Decreto 30/2023 (NOR-005). La materia se imparte como obligatoria en 1.º y 2.º de ESO y como optativa en 3.º de ESO (artículo 23.1.k). En 4.º de ESO la continuidad se ofrece a través de las materias de oferta 'Tecnología' (CUR-022) y 'Digitalización' (CUR-004). Marco estatal: RD 217/2022 (NOR-003). [PENDIENTE] de cotejo del detalle de competencias específicas, criterios de evaluación y saberes básicos con el anexo II del Decreto 30/2023; el PDF específico de la materia no estaba disponible en la URL del portal de currículos en la fecha de consulta (2026-04-26). Ver TAREA-031 para extracción literal posterior."
+observaciones: "Extracción parcial (segunda pasada, TAREA-030): la metadata (norma base autonómica, cursos y fuente) queda confirmada contra el articulado del Decreto 30/2023 (FTE-009). El PDF específico del anexo II para esta materia (Tecnología_y_Digitalizacion_ESO.pdf) devolvió 404 en el portal en la fecha de consulta. Se proporciona estructura de competencias (5) y de bloques de saberes (6) marcada como [HIPÓTESIS]/[PENDIENTE] sobre la base del marco estatal RD 217/2022 y de la materia continuadora Tecnología (CUR-022, 4.º ESO) cotejada en esta pasada. Se recomienda crear TAREA-031 para descargar el PDF correcto (probar nombres alternativos en la URL, descarga directa del BOC PDF de 1953 págs.) y completar la extracción literal."

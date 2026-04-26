@@ -8,7 +8,7 @@ norma_base: NOR-005
 fuente: FTE-009
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_extraccion: "parcial"
+estado_extraccion: "completado"
 ---
 
 # CUR-022 — Tecnología — ESO Canarias
@@ -24,7 +24,7 @@ estado_extraccion: "parcial"
 - **Marco estatal:** [NOR-003](../../../02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md) (RD 217/2022)
 - **Fuente principal:** [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md)
 - **Fecha de consulta:** 2026-04-26
-- **Estado de extracción:** parcial.
+- **Estado de extracción:** completado.
 
 ## 2. Norma base
 
@@ -36,19 +36,31 @@ estado_extraccion: "parcial"
 
 ## 4. Competencias específicas
 
-[PENDIENTE] de cotejar literalmente con el anexo II del Decreto 30/2023 (PDF oficial del BOC, 1953 páginas). El marco estatal `NOR-003` (RD 217/2022) establece para Tecnología un conjunto de competencias específicas centradas en proceso de resolución de problemas técnicos, comunicación técnica, programación y robótica, sostenibilidad y digitalización responsable.
+El currículo establece **seis competencias específicas (C1–C6)** concretadas en **trece criterios de evaluación**:
+
+- **C1.** Identificar y proponer problemas tecnológicos con iniciativa y creatividad, planificando soluciones eficientes, accesibles, sostenibles e innovadoras.
+- **C2.** Aplicar técnicas y conocimientos interdisciplinares analizando el ciclo de vida de productos para fabricar soluciones tecnológicas accesibles y sostenibles.
+- **C3.** Expresar, comunicar y difundir ideas, propuestas o soluciones tecnológicas con lenguaje inclusivo y no sexista.
+- **C4.** Desarrollar soluciones automatizadas con sistemas de control programables y robóticos incorporando tecnologías emergentes.
+- **C5.** Aprovechar y emplear de manera responsable las herramientas digitales del entorno personal.
+- **C6.** Analizar procesos tecnológicos con criterios de sostenibilidad y accesibilidad para hacer un uso ético y ecosocialmente responsable.
 
 ## 5. Criterios de evaluación
 
-[PENDIENTE] de extracción literal desde el anexo II del Decreto 30/2023 para 4.º de ESO.
+Los trece criterios literales para 4.º ESO se recogen en el YAML asociado, agrupados por competencia (1.1-1.3, 2.1-2.2, 3.1-3.2, 4.1-4.2, 5.1, 6.1-6.3).
 
 ## 6. Saberes básicos
 
-[PENDIENTE] de extracción literal por bloque desde el anexo II del Decreto 30/2023. El marco estatal organiza los saberes básicos en bloques tipo «Proceso de resolución de problemas», «Comunicación y difusión de ideas», «Pensamiento computacional, programación y robótica», «Digitalización del entorno personal de aprendizaje», «Tecnología sostenible» y «Cultura digital».
+Los saberes se organizan en cuatro bloques:
+
+- **I. Proceso de resolución de problemas** — estrategias y técnicas, productos y materiales (ciclo de vida, sostenibilidad), fabricación (CAD 3D, impresión 3D y corte), difusión con lenguaje inclusivo.
+- **II. Operadores tecnológicos** — sistemas mecánicos, electrónicos y neumáticos aplicados a la robótica.
+- **III. Pensamiento computacional, automatización y robótica** — controladores, sensores, actuadores, simuladores digitales, IA, big data, internet de las cosas, robots sencillos.
+- **IV. Tecnología sostenible** — criterios de sostenibilidad, arquitectura bioclimática, ecotransporte y desarrollo sostenible de Canarias, comunidades abiertas y voluntariado tecnológico.
 
 ## 7. Resumen IA-friendly
 
-Currículo de Tecnología en ESO Canarias regulado por el Decreto 30/2023 (`NOR-005`), materia ofertable en 4.º de ESO. En 1.º-3.º los aprendizajes tecnológicos se desarrollan a través de «Tecnología y Digitalización» (`CUR-023`). Marco estatal: RD 217/2022 (`NOR-003`). El detalle de competencias específicas, criterios de evaluación y saberes básicos queda pendiente del cotejo con el anexo II del Decreto 30/2023.
+Currículo de Tecnología en ESO Canarias (`NOR-005`), materia ofertable en 4.º de ESO. Seis competencias específicas (C1-C6) y trece criterios de evaluación. Saberes básicos en cuatro bloques: resolución de problemas, operadores tecnológicos, pensamiento computacional con automatización y robótica, y tecnología sostenible con atención al territorio canario (insularidad, arquitectura bioclimática, ecotransporte). En 1.º-3.º los aprendizajes se desarrollan a través de «Tecnología y Digitalización» (`CUR-023`). Marco estatal: RD 217/2022 (`NOR-003`).
 
 ## 8. Relaciones
 
@@ -59,5 +71,6 @@ Currículo de Tecnología en ESO Canarias regulado por el Decreto 30/2023 (`NOR-
 ## 9. Fuente oficial
 
 - [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md) — Decreto 30/2023, BOC n.º 58, de 23 de marzo de 2023.
+- PDF oficial Anexo II — Tecnología: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_ESO.pdf
 - PDF oficial completo (1953 págs.): https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf
 - Fecha de consulta: 2026-04-26.

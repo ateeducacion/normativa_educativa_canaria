@@ -6,19 +6,74 @@ ambito: null
 cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
 norma_base: NOR-005
 fuente: FTE-009
-url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+url_oficial: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Segunda_lengua_extranjera_ESO.pdf"
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
-  competencias_especificas: []
-  criterios_evaluacion: []
-  saberes_basicos: []
-  descriptores_operativos: []
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Comprender e interpretar textos buscando fuentes fiables."
+      enunciado_oficial: "Comprender e interpretar el sentido general y los detalles más relevantes de textos expresados de forma clara y en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias como la inferencia de significados, para responder a necesidades comunicativas concretas."
+      descriptores: ["CCL2", "CCL3", "CP1", "CP2", "STEM1", "CD1", "CPSAA4"]
+    - codigo: "C2"
+      enunciado_resumido: "Producir textos originales con creatividad y coherencia."
+      enunciado_oficial: "Producir textos originales, de extensión media, sencillos y con una organización clara, usando estrategias tales como la planificación, la compensación o la autorreparación, para expresar de forma creativa, adecuada y coherente mensajes relevantes y responder a propósitos comunicativos concretos."
+      descriptores: ["CCL1", "CP1", "CP2", "STEM1", "CD2", "CPSAA5", "CCEC3"]
+    - codigo: "C3"
+      enunciado_resumido: "Interactuar con autonomía usando estrategias de cooperación."
+      enunciado_oficial: "Interactuar con otras personas con creciente autonomía, usando estrategias de cooperación y empleando recursos analógicos y digitales, para responder a propósitos comunicativos concretos en intercambios respetuosos con las normas de cortesía."
+      descriptores: ["CCL1", "CCL5", "CP1", "CP2", "STEM1", "CD3", "CPSAA3", "CC3"]
+    - codigo: "C4"
+      enunciado_resumido: "Mediar entre lenguas en situaciones cotidianas."
+      enunciado_oficial: "Mediar en situaciones cotidianas entre distintas lenguas, usando estrategias y conocimientos sencillos orientados a explicar conceptos o simplificar mensajes, para transmitir información de manera eficaz, clara y responsable."
+      descriptores: ["CCL5", "CP1", "CP2", "CP3", "CD2", "CPSAA1"]
+    - codigo: "C5"
+      enunciado_resumido: "Ampliar y usar repertorios lingüísticos personales entre lenguas."
+      enunciado_oficial: "Ampliar y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando de forma crítica sobre su funcionamiento y tomando conciencia de las estrategias y conocimientos propios, para mejorar la respuesta a necesidades comunicativas concretas."
+      descriptores: ["CCL5", "CP3", "CPSAA1", "CC2", "CC3", "CE1", "CCEC1"]
+    - codigo: "C6"
+      enunciado_resumido: "Apreciar y respetar la diversidad lingüística, cultural y artística."
+      enunciado_oficial: "Apreciar y respetar la diversidad lingüística, cultural y artística, analizando y contrastando situaciones y experiencias, para reconocer la importancia de la pluralidad y para desarrollar una cultura compartida y una ciudadanía comprometida con la sostenibilidad y los valores democráticos."
+      descriptores: ["CCL5", "CP3", "CPSAA3", "CC3", "CCEC1"]
+  criterios_evaluacion:
+    - curso: "1.º ESO"
+      criterios:
+        - "1.1. Localizar información pertinente, identificar el sentido global y las ideas principales, e interpretar el contenido de textos orales muy breves y sencillos sobre temas frecuentes y cotidianos, de relevancia personal y próximos a su experiencia, expresados de forma muy clara y sencilla a través de diversos soportes, utilizando una o más lenguas además de las familiares con el fin de construir conocimiento y responder a necesidades comunicativas concretas."
+        - "1.2. Localizar información pertinente, identificar el sentido global y las ideas principales, e interpretar el contenido y los rasgos discursivos de textos escritos y multimodales muy breves y sencillos sobre temas frecuentes y cotidianos, de relevancia personal y próximos a su experiencia, expresados de forma clara a través de diversos soportes, así como de textos literarios adaptados al nivel de madurez del alumnado, aplicando criterios de validez y utilizando una o más lenguas además de las familiares con el fin de construir conocimiento y responder a necesidades comunicativas concretas."
+        - "1.3. Aplicar de manera guiada los conocimientos y las estrategias elementales más adecuadas en cada situación comunicativa, para comprender el sentido general, la información esencial y los detalles más relevantes de textos sencillos; interpretar elementos no verbales; así como realizar búsquedas para seleccionar información y enriquecer su repertorio lingüístico individual."
+        - "2.1. Expresar oralmente de forma guiada y en diferentes soportes textos muy breves y sencillos, estructurados, comprensibles y adecuados a la situación comunicativa, que versen sobre asuntos cotidianos de relevancia e interés para el alumnado, haciéndolo con cierta creatividad, y mostrando empatía por los interlocutores y las interlocutoras y aprecio por las producciones de los demás, con el fin de describir, narrar e informar sobre temas concretos cercanos a su experiencia."
+        - "2.2. Organizar y redactar de forma guiada textos propios muy sencillos, breves y comprensibles que versen sobre asuntos cotidianos y frecuentes, haciéndolo con claridad, coherencia y adecuación a la situación comunicativa propuesta, siguiendo pautas establecidas y mostrando aprecio por las producciones de los demás, así como empleando herramientas analógicas y digitales, con el fin de responder a propósitos comunicativos concretos."
+        - "2.3. Seleccionar y aplicar de manera guiada conocimientos y estrategias elementales en la elaboración de textos muy sencillos, comprensibles, coherentes, haciendo uso de su repertorio lingüístico y usando, con ayuda, los recursos físicos o digitales más adecuados en función de la tarea y las necesidades de cada momento, para planificar, producir y seguir progresando en el proceso de aprendizaje."
+        - "3.1. Planificar y participar de manera guiada, a través de diversos soportes, en situaciones interactivas, orales y escritas predecibles, breves y sencillas sobre temas cotidianos, de relevancia personal y cercanos a su experiencia, haciendo uso de la cortesía lingüística, así como mostrando proactividad, empatía y respeto por las diferentes necesidades, ideas y motivaciones de los interlocutores y las interlocutoras, con el fin de responder a propósitos comunicativos concretos y construir vínculos personales."
+        - "3.2. Seleccionar, organizar y utilizar, de forma guiada y en entornos próximos, estrategias elementales que le permitan, haciendo uso de su repertorio lingüístico, iniciar, mantener y terminar la comunicación; tomar y ceder la palabra; así como solicitar aclaraciones y explicaciones, con el fin de desenvolverse de manera simple pero efectiva en situaciones interactivas predecibles, breves y sencillas en la lengua extranjera a través de diferentes soportes."
+        - "4.1. Comprender y explicar de forma guiada textos, conceptos y comunicaciones muy breves y sencillas, de forma oral o escrita, en situaciones cotidianas, mostrando empatía por los interlocutores y las interlocutoras y respeto por las lenguas empleadas, apoyándose en diversos recursos y soportes, para así transmitir información de manera clara."
+        - "4.2. Aplicar, de forma guiada y con una aceptable gestión emocional, estrategias elementales que ayuden a crear puentes y faciliten la comprensión y producción de información y la comunicación, y que sean adecuadas a las intenciones comunicativas, haciendo uso de su repertorio lingüístico, así como usando recursos y apoyos físicos o digitales en función de las necesidades de cada momento, con la finalidad de simplificar textos, conceptos y mensajes."
+        - "[PENDIENTE] Criterios 5.1, 5.2, 6.1 y 6.2 de 1.º ESO: extracción literal queda como [PENDIENTE] tras la TAREA-030 al no haberse podido cotejar los bloques 5 y 6 completos en esta pasada. Ver TAREA-031."
+    - curso: "2.º ESO"
+      criterios: ["[PENDIENTE] de cotejar literalmente con el bloque específico de 2.º ESO del anexo II del Decreto 30/2023 (Segunda Lengua Extranjera). Las competencias específicas C1-C6 son comunes para toda la etapa pero los criterios se gradúan por curso. Ver TAREA-031."]
+    - curso: "3.º ESO"
+      criterios: ["[PENDIENTE] de cotejar literalmente con el bloque específico de 3.º ESO. Ver TAREA-031."]
+    - curso: "4.º ESO"
+      criterios: ["[PENDIENTE] de cotejar literalmente con el bloque específico de 4.º ESO (opción D «Latín y Segunda Lengua Extranjera»). Ver TAREA-031."]
+  saberes_basicos:
+    - bloque: "I. Comunicación"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Funciones comunicativas junto a modelos contextuales y géneros discursivos, además del reconocimiento del contexto (participantes y situación). Léxico común y de interés para el alumnado. Patrones sonoros, acentuales, rítmicos y de entonación básicos. Convenciones ortográficas básicas. Estrategias para comprensión, producción y coproducción de textos orales, escritos y multimodales. Mediación en situaciones cotidianas sencillas. Recursos para el aprendizaje y estrategias básicas de búsqueda de información, identificación de la autoría de las fuentes consultadas y los contenidos utilizados, herramientas analógicas y digitales básicas y plataformas virtuales de interacción y colaboración (aulas virtuales, videoconferencias, herramientas digitales colaborativas) para el aprendizaje, la comunicación y el desarrollo de proyectos con hablantes o estudiantes de la lengua extranjera."
+    - bloque: "II. Plurilingüismo"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Estrategias y técnicas para responder eficazmente a necesidades comunicativas. Estrategias para identificar, organizar, retener, recuperar y utilizar creativamente unidades lingüísticas a partir de la comparación de las lenguas y variedades del repertorio personal. Estrategias y herramientas básicas de autoevaluación y coevaluación. Léxico y expresiones para comprender enunciados sobre la comunicación, la lengua y el aprendizaje (metalenguaje). Comparación básica entre lenguas. Tratamiento del error como instrumento de mejora."
+    - bloque: "III. Interculturalidad"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "La lengua extranjera como medio de comunicación interpersonal e internacional, fuente de información y herramienta para el enriquecimiento personal. Interés e iniciativa en intercambios comunicativos con hablantes o estudiantes de la lengua extranjera. Aspectos socioculturales y sociolingüísticos básicos relativos a la vida cotidiana, las condiciones de vida y las relaciones interpersonales. Convenciones sociales básicas; lenguaje no verbal, cortesía lingüística y etiqueta digital. Cultura, costumbres y valores propios de los países donde se habla la lengua extranjera. Estrategias básicas para entender y apreciar la diversidad lingüística, cultural y artística, atendiendo a valores ecosociales y democráticos. Conexiones con el patrimonio canario."
+    - bloque: "IV. Dimensiones interpersonal e intrapersonal"
+      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+      detalles: "Saberes relativos a factores internos y sociales que actúan como catalizadores indispensables para un crecimiento personal y social óptimo, en el desarrollo de vínculos con los demás y de relación personal."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP1", "CP2", "CP3", "STEM1", "CD1", "CD2", "CD3", "CPSAA1", "CPSAA3", "CPSAA4", "CPSAA5", "CC2", "CC3", "CE1", "CCEC1", "CCEC3"]
   situaciones_aprendizaje: []
 relaciones:
   desarrolla_a: [NOR-003]
   relacionada_con: [NOR-005]
-resumen_ia: "Currículo de Segunda Lengua Extranjera en ESO Canarias regulado por el Decreto 30/2023 (NOR-005). La materia se ofrece con carácter optativo en 1.º, 2.º y 3.º de ESO (artículo 23.1.j) y, en 4.º de ESO, dentro de la opción D «Latín y Segunda Lengua Extranjera» (artículo 25.3). Marco estatal: RD 217/2022 (NOR-003). [PENDIENTE] de cotejo del detalle de competencias específicas, criterios de evaluación y saberes básicos con el anexo II del Decreto 30/2023."
-observaciones: "Extracción parcial: la metadata (norma base autonómica, cursos y fuente) queda confirmada contra el articulado del Decreto 30/2023 publicado en el BOC n.º 58, de 23 de marzo de 2023 (FTE-009). El detalle curricular (competencias específicas, criterios de evaluación y saberes básicos por bloque) queda como [PENDIENTE] hasta poder consultar el anexo II del Decreto 30/2023 con la materia desarrollada. Ver TAREA-027."
+resumen_ia: "Currículo de Segunda Lengua Extranjera en ESO Canarias (Decreto 30/2023, NOR-005). Materia optativa en 1.º-3.º y, en 4.º, integrada en la opción D «Latín y Segunda Lengua Extranjera». Seis competencias específicas (C1-C6) alineadas con el Marco Común Europeo de Referencia para las Lenguas (MCER): comprensión, producción, interacción, mediación, plurilingüismo e interculturalidad. Saberes básicos en cuatro bloques: comunicación, plurilingüismo, interculturalidad y dimensiones interpersonal e intrapersonal. Marco estatal: RD 217/2022 (NOR-003)."
+observaciones: "Extracción cotejada el 2026-04-26 contra el PDF oficial publicado por la Consejería de Educación de Canarias (Anexo II del Decreto 30/2023, materia Segunda Lengua Extranjera). Se han incorporado los enunciados literales de las seis competencias específicas con sus descriptores del Perfil de salida y los primeros diez criterios de 1.º ESO (1.1, 1.2, 1.3, 2.1, 2.2, 2.3, 3.1, 3.2, 4.1, 4.2). Los criterios 5.1, 5.2, 6.1 y 6.2 de 1.º y todos los criterios de 2.º, 3.º y 4.º ESO quedan como [PENDIENTE] al no haberse podido cotejar literalmente en esta pasada. Saberes básicos sintetizados por bloque siguiendo la estructura oficial."

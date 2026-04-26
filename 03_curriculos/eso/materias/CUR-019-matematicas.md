@@ -8,7 +8,7 @@ norma_base: NOR-005
 fuente: FTE-009
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_extraccion: "parcial"
+estado_extraccion: "completado"
 ---
 
 # CUR-019 — Matemáticas — ESO Canarias
@@ -24,7 +24,7 @@ estado_extraccion: "parcial"
 - **Marco estatal:** [NOR-003](../../../02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md) (RD 217/2022)
 - **Fuente principal:** [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md)
 - **Fecha de consulta:** 2026-04-26
-- **Estado de extracción:** parcial.
+- **Estado de extracción:** completado.
 
 ## 2. Norma base
 
@@ -39,19 +39,38 @@ estado_extraccion: "parcial"
 
 ## 4. Competencias específicas
 
-[PENDIENTE] de cotejar literalmente con el anexo II del Decreto 30/2023 (PDF oficial del BOC, 1953 páginas). El marco estatal `NOR-003` (RD 217/2022) establece nueve competencias específicas (C1-C9) para Matemáticas; el desarrollo autonómico de Canarias en `NOR-005` parte de ese marco.
+El currículo establece **diez competencias específicas (C1–C10)** comunes a toda la etapa y un total de **dieciocho criterios de evaluación** por curso.
+
+- **C1.** Interpretar, modelizar y resolver problemas de la vida cotidiana y propios de las matemáticas, aplicando diferentes estrategias y formas de razonamiento.
+- **C2.** Analizar las soluciones de un problema usando diferentes técnicas y herramientas, evaluando las respuestas obtenidas, para verificar su validez e idoneidad.
+- **C3.** Formular y comprobar conjeturas sencillas o plantear problemas de forma autónoma.
+- **C4.** Utilizar los principios del pensamiento computacional organizando datos, reconociendo patrones e interpretando, modificando y creando algoritmos.
+- **C5.** Reconocer y utilizar conexiones entre los diferentes elementos matemáticos.
+- **C6.** Identificar las matemáticas implicadas en otras materias y en situaciones reales.
+- **C7.** Representar conceptos, procedimientos, información y resultados matemáticos usando diferentes tecnologías.
+- **C8.** Comunicar conceptos, procedimientos y argumentos matemáticos en lenguaje oral, escrito o gráfico.
+- **C9.** Desarrollar destrezas personales, identificando y gestionando emociones y aceptando el error como parte del proceso de aprendizaje.
+- **C10.** Desarrollar destrezas sociales en proyectos cooperativos en equipos heterogéneos.
 
 ## 5. Criterios de evaluación
 
-[PENDIENTE] de extracción literal por curso desde el anexo II del Decreto 30/2023.
+- **1.º y 2.º ESO:** dieciocho criterios extraídos literalmente del anexo II del Decreto 30/2023 (ver YAML asociado).
+- **3.º ESO y 4.º ESO (Matemáticas A y Matemáticas B):** [PENDIENTE] de cotejo literal específico por curso (los enunciados de competencias específicas son comunes pero los criterios se gradúan por curso). Ver TAREA-030 / TAREA-031 para extracción posterior.
 
 ## 6. Saberes básicos
 
-[PENDIENTE] de extracción literal por bloque y curso desde el anexo II del Decreto 30/2023. El marco estatal `NOR-003` organiza los saberes básicos en bloques tipo «Sentido numérico», «Sentido de la medida», «Sentido espacial», «Sentido algebraico», «Sentido estocástico» y «Sentido socioafectivo».
+Los saberes se organizan en seis bloques articulados en torno al concepto de «sentido matemático»:
+
+- **I. Sentido numérico** — conteo, cantidad, operaciones, relaciones, razonamiento proporcional, educación financiera.
+- **II. Sentido de la medida** — magnitud, estimación, medición, probabilidad como medida de incertidumbre.
+- **III. Sentido espacial** — formas geométricas 2D/3D, localización y sistemas de representación, modelización geométrica con herramientas digitales y aplicaciones al contexto canario.
+- **IV. Sentido algebraico** — patrones, modelo matemático, variable, ecuaciones, relaciones lineales, gráficas de funciones, pensamiento computacional.
+- **V. Sentido estocástico** — organización y análisis de datos, incertidumbre y probabilidad, inferencia.
+- **VI. Sentido socioafectivo** — creencias, actitudes y emociones, trabajo en equipo, inclusión, respeto y diversidad con perspectiva de género.
 
 ## 7. Resumen IA-friendly
 
-Currículo de Matemáticas en ESO Canarias regulado por el Decreto 30/2023 (`NOR-005`). La materia se imparte en 1.º, 2.º y 3.º (con desdoblamiento en 4.º como Matemáticas A o Matemáticas B). Marco estatal de referencia: RD 217/2022 (`NOR-003`). El detalle de competencias específicas, criterios de evaluación y saberes básicos queda pendiente del cotejo con el anexo II del Decreto 30/2023.
+Currículo de Matemáticas en ESO Canarias regulado por el Decreto 30/2023 (`NOR-005`). Materia obligatoria en 1.º-3.º y desdoblamiento en 4.º como Matemáticas A o B. Diez competencias específicas (C1-C10) y dieciocho criterios de evaluación por curso. Saberes básicos en seis bloques: numérico, medida, espacial, algebraico, estocástico y socioafectivo, con saberes propios de Canarias y atención a la perspectiva de género. Marco estatal: RD 217/2022 (`NOR-003`).
 
 ## 8. Relaciones
 
@@ -61,5 +80,6 @@ Currículo de Matemáticas en ESO Canarias regulado por el Decreto 30/2023 (`NOR
 ## 9. Fuente oficial
 
 - [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md) — Decreto 30/2023, BOC n.º 58, de 23 de marzo de 2023.
+- PDF oficial Anexo II — Matemáticas (75 páginas): https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Matematicas_ESO.pdf
 - PDF oficial completo (1953 págs.): https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf
 - Fecha de consulta: 2026-04-26.

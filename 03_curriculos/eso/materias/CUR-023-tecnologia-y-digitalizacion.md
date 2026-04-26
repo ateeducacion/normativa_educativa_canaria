@@ -38,7 +38,9 @@ estado_extraccion: "parcial"
 
 ## 4. Competencias específicas
 
-[PENDIENTE] de cotejar literalmente con el anexo II del Decreto 30/2023 (PDF oficial del BOC, 1953 páginas). El marco estatal `NOR-003` (RD 217/2022) establece para Tecnología y Digitalización un conjunto de competencias específicas que articulan resolución de problemas, pensamiento computacional, programación y robótica, comunicación técnica, sostenibilidad y ciudadanía digital.
+[PENDIENTE] de cotejar literalmente con el anexo II del Decreto 30/2023. En la fecha de consulta (2026-04-26) el PDF específico para esta materia (`Tecnologia_y_Digitalizacion_ESO.pdf`) en el portal de la Consejería devolvió 404; se requiere completar en una nueva tarea (TAREA-031) descargando el PDF correcto o consultando la página correspondiente del BOC (PDF completo de 1953 páginas).
+
+Sobre la base del marco estatal `NOR-003` (RD 217/2022), la materia presenta cinco competencias específicas que articulan: 1) búsqueda de información sobre la evolución de la tecnología y su impacto socioambiental; 2) resolución de problemas tecnológicos con procesos creativos e iterativos; 3) pensamiento computacional, programación y robótica; 4) comunicación técnica con representaciones gráficas y simbología; 5) uso responsable de las herramientas digitales y ciudadanía digital. Estas referencias se incluyen marcadas como `[HIPÓTESIS]` en el YAML.
 
 ## 5. Criterios de evaluación
 
@@ -46,11 +48,11 @@ estado_extraccion: "parcial"
 
 ## 6. Saberes básicos
 
-[PENDIENTE] de extracción literal por bloque y curso desde el anexo II del Decreto 30/2023. El marco estatal organiza los saberes básicos en bloques tipo «Proceso de resolución de problemas», «Comunicación y difusión de ideas», «Pensamiento computacional, programación y robótica», «Digitalización del entorno personal de aprendizaje», «Tecnología sostenible» y «Cultura digital».
+[PENDIENTE] de extracción literal por bloque y curso. La estructura recogida en el YAML (`[HIPÓTESIS]`) sigue el patrón de bloques del marco estatal: «Proceso de resolución de problemas», «Comunicación y difusión de ideas», «Pensamiento computacional, programación y robótica», «Digitalización del entorno personal de aprendizaje», «Tecnología sostenible» y «Cultura digital». Estos bloques se solapan en gran medida con los de `CUR-022` (Tecnología, 4.º ESO) y con los de `CUR-003` (Cultura y Ciudadanía Digital, 3.º ESO).
 
 ## 7. Resumen IA-friendly
 
-Currículo de Tecnología y Digitalización en ESO Canarias regulado por el Decreto 30/2023 (`NOR-005`). La materia es obligatoria en 1.º y 2.º y optativa en 3.º; en 4.º se sustituye por «Tecnología» (`CUR-022`) y/o «Digitalización» (`CUR-004`). Marco estatal: RD 217/2022 (`NOR-003`). El detalle de competencias específicas, criterios de evaluación y saberes básicos queda pendiente del cotejo con el anexo II del Decreto 30/2023.
+Currículo de Tecnología y Digitalización en ESO Canarias regulado por el Decreto 30/2023 (`NOR-005`). La materia es obligatoria en 1.º y 2.º y optativa en 3.º; en 4.º se sustituye por «Tecnología» (`CUR-022`) y/o «Digitalización» (`CUR-004`). Marco estatal: RD 217/2022 (`NOR-003`). Detalle de competencias específicas, criterios de evaluación y saberes básicos pendiente de cotejo literal con el anexo II del Decreto 30/2023 (PDF específico no disponible en la URL del portal en la fecha de consulta).
 
 ## 8. Relaciones
 
@@ -61,5 +63,6 @@ Currículo de Tecnología y Digitalización en ESO Canarias regulado por el Decr
 ## 9. Fuente oficial
 
 - [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md) — Decreto 30/2023, BOC n.º 58, de 23 de marzo de 2023.
+- PDF específico del anexo II para esta materia: no disponible en `https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/` en la fecha de consulta (404). [PENDIENTE]
 - PDF oficial completo (1953 págs.): https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf
 - Fecha de consulta: 2026-04-26.
