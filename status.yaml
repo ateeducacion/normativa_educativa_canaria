@@ -412,7 +412,7 @@ tareas:
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [NOR-007, FTE-015, FTE-016, FTE-054, NOR-051, NOR-058, CUR-046, CUR-053]
-    siguiente_accion: "Investigar RD de cada título desde BOE y crear fichas NOR + CUR placeholder."
+    siguiente_accion: null
 
 bloqueos: []
 
@@ -421,14 +421,3 @@ reglas:
   - "No borrar historial."
   - "Actualizar índices YAML con cada nueva entidad."
   - "Marcar toda duda como PREG-NNN."
-
-  TAREA-037:
-    titulo: "Catalogar currículos de títulos comunes de Formación Profesional"
-    estado: "En progreso"
-    prioridad: "Media"
-    tipo: "analisis"
-    responsable: "@.agents/skills/experto-formacion-profesional"
-    fecha_creacion: 2026-04-26
-    fecha_actualizacion: 2026-04-26
-    relacionadas: [NOR-007]
-    siguiente_accion: "Identificar Decretos de currículo de Sanidad y Administración en Canarias."

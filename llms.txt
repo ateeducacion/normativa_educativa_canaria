@@ -1,27 +1,75 @@
 # Normativa Educativa Canaria
 
-> Corpus Markdown/YAML para localizar, relacionar y resumir normativa educativa y currículos aplicables a Canarias, preparado para consulta humana y uso por IA. **Incluye etapas de Infantil, Primaria, ESO y Bachillerato, además del marco actualizado de 2026.**
+> Corpus Markdown/YAML para localizar, relacionar y resumir normativa educativa y currículos aplicables a Canarias, preparado para consulta humana y uso por IA, sin sustituir nunca las fuentes oficiales publicadas en BOE, BOC y portales institucionales.
 
-## Estructura del Repositorio
+Use este repositorio como mapa de contexto, no como sustituto de la fuente jurídica oficial. Empiece por este archivo y continúe con `llms-full.txt` si necesita más detalle estructural, reglas de uso o modelo de datos.
 
-- `01_fuentes/`: Fuentes oficiales (BOC, BOE, portales institucionales).
-- `02_normativa/`: Fichas de normas (`NOR-NNN`) con resumen, vigencia y relaciones.
-- `03_curriculos/`: Currículos por etapa y materia (`CUR-NNN`) con competencias y criterios literales.
-- `04_analisis/`: Notas transversales y pirámide normativa.
-- `05_relaciones/`: Relaciones explícitas (`REL-NNN`) entre entidades.
-- `06_indices/`: Índices YAML maestros de todo el corpus.
-- `07_corpus_ia/`: Chunks y resúmenes optimizados para RAG.
+## Foto Indexada
 
-## Resumen de Cobertura (Fase 1 y 2 completadas)
+Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo entidades registradas en `06_indices/`; no incorpora borradores locales, archivos sin seguimiento ni fichas aún no indexadas.
 
-- **Educación Infantil (0-6 años):** Currículo Decreto 196/2022 y evaluación.
-- **Educación Primaria (6-12 años):** Currículo Decreto 211/2022 y evaluación por rúbricas.
-- **ESO y Bachillerato:** Currículo Decreto 30/2023, evaluación y promoción.
-- **Formación Profesional:** Marco integrado LOFP 3/2022 y normativa autonómica de evaluación (2025).
-- **Personal Docente:** Régimen de permisos y licencias actualizado a **marzo de 2026** (`NOR-042`).
-- **Inclusión y Diversidad:** Marco completo Decreto 25/2018 y procedimientos de mayo de 2023.
+- 53 fuentes catalogadas (`FTE-001` a `FTE-053`).
+- 48 fichas normativas indexadas (`NOR-001` a `NOR-050`, con huecos reservados/no reutilizados).
+- 45 currículos extraídos (`CUR-001` a `CUR-045`): 23 de ESO, 10 de Primaria, 3 de Infantil y 9 de Bachillerato.
+- 45 relaciones normativas y curriculares (`REL-001` a `REL-048`, con huecos reservados/no reutilizados).
+- 13 chunks IA (`CHUNK-00001` a `CHUNK-00013`).
+- 37 tareas registradas; `TAREA-037` figura en progreso para títulos de FP.
 
-## Cómo usar este corpus
-1. Use los archivos `llms.txt` y `llms-full.txt` para obtener el mapa de navegación.
-2. Consulte `06_indices/` para localizar IDs de normas o materias.
-3. Priorice siempre la literalidad de las fichas `CUR` y `NOR`.
+## Cobertura Principal
+
+- Marco estatal: LOE (`NOR-001`), LOMLOE (`NOR-002`), RD 217/2022 para ESO (`NOR-003`), RD 243/2022 para Bachillerato (`NOR-006`) y Ley Orgánica 3/2022 de FP (`NOR-007`).
+- Marco autonómico general: Ley Canaria 6/2014 (`NOR-004`), Decreto 30/2023 para ESO y Bachillerato (`NOR-005`), Decreto 211/2022 para Primaria (`NOR-043`) y Decreto 196/2022 para Infantil (`NOR-047`).
+- Organización y convivencia: ROC de centros públicos (`NOR-009`), convivencia escolar (`NOR-010`), inspección educativa (`NOR-011`, `NOR-013`) y CIFP (`NOR-012`).
+- Atención a la diversidad y NEAE: Decreto 25/2018 (`NOR-024`), Orden de 13 de diciembre de 2010 (`NOR-025`), instrucciones anuales 2024-2027 (`NOR-039` a `NOR-041`) y procedimientos NEAE (`NOR-050`).
+- Alumnado, servicios y administración: admisión (`NOR-029`, `NOR-038`), comedores (`NOR-034`), transporte (`NOR-035`), residencias (`NOR-036`) y Reglamento Orgánico de la Consejería (`NOR-033`).
+- Personal docente: función pública, TREBEP, interinos, función directiva, permisos y licencias, incluida la actualización de 2026 (`NOR-019` a `NOR-023`, `NOR-042`).
+- Currículos ya extraídos: todas las materias ESO `CUR-001` a `CUR-023`, Primaria `CUR-024` a `CUR-033`, Infantil `CUR-034` a `CUR-036` y una primera selección de Bachillerato `CUR-037` a `CUR-045`.
+- Formación Profesional sigue en ampliación: `TAREA-037` está en progreso y cualquier ficha de FP no presente en `06_indices/normativa.yaml` debe tratarse como borrador no indexado.
+
+## Estilo De Respuesta Y Rigor Jurídico
+
+Al responder consultas, sea rigurosamente trazable: toda afirmación normativa debe ir acompañada de la cita exacta del precepto que la sustenta. No hay afirmación sin cita.
+
+- Cite siempre norma + localización concreta: artículo, apartado, disposición o anexo aplicable.
+- Use la denominación oficial completa en la primera mención. En menciones posteriores puede abreviar: LOE, LOMLOE, RD 217/2022, Decreto 30/2023, etc.
+- Distinga explícitamente entre texto literal, resumen, interpretación y orientación práctica. Nunca presente una paráfrasis como cita.
+- Use IDs internos (`NOR-001`, `CUR-002`, `REL-004`) solo como trazabilidad secundaria, junto a la cita oficial, no en su lugar.
+- Si el corpus no aporta evidencia suficiente, si la vigencia no está confirmada o si falta una fuente consolidada, dígalo expresamente y remita a BOE/BOC.
+- Cuando un precepto haya sido modificado, derogado o superado, indíquelo y cite tanto la norma original como la modificadora, derogatoria o sustituta.
+
+Formato de respuesta preferido para consultas educativas:
+
+- `### Respuesta breve`
+- `### Fundamento normativo`
+- `### Aplicación práctica en Canarias`
+- `### Límites o aspectos a verificar`
+
+## Accesos Rápidos
+
+- [Endpoint público de `llms.txt`](https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt)
+- [Mapa ampliado de contexto](https://ateeducacion.github.io/normativa_educativa_canaria/llms-full.txt)
+- [Panel público del repositorio](https://ateeducacion.github.io/normativa_educativa_canaria/)
+- [README del proyecto](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/README.md)
+- [Índice raíz](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/index.md)
+- [Estado del repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/status.yaml)
+
+## Índices Y Corpus
+
+- [Índice de normativa](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/normativa.yaml)
+- [Índice de currículos](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/curriculos.yaml)
+- [Índice de fuentes](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/fuentes.yaml)
+- [Índice de relaciones](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/relaciones.yaml)
+- [Índice de chunks IA](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/chunks.yaml)
+- [Carpeta de normativa](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/02_normativa)
+- [Carpeta de currículos](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos)
+- [Corpus para IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia)
+
+## Reglas De Uso Para IA
+
+- [Skill copiable "Experto en normativa educativa de Canarias"](https://ateeducacion.github.io/normativa_educativa_canaria/skill.html)
+- [Skill canónica en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/skills/experto-normativa-educativa-canaria)
+- [Disciplina de evidencia](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/metodologia/disciplina-evidencia.md)
+- [Guía de validación](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/guias/validacion.md)
+- [Guía MCP publicada](https://ateeducacion.github.io/normativa_educativa_canaria/mcp.html)
+- [Documento MCP en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/MCP.md)
+- [ADR y decisiones editoriales](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/09_decisiones-editoriales)

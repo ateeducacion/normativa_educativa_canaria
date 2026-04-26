@@ -82,3 +82,23 @@ CHUNK-00017:
   origen_id: NOR-009
   titulo: "Organización de Centros (ROC) e Instrucciones IOF"
   ruta: "07_corpus_ia/chunks/CHUNK-00017-organizacion-centros-iof.yaml"
+
+CHUNK-00018:
+  origen_id: NOR-028
+  titulo: "Currículo adaptado para Aulas Enclave y CEE (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00018-curriculo-adaptado-ae-cee.yaml"
+
+CHUNK-00019:
+  origen_id: NOR-034
+  titulo: "Servicios Complementarios: Comedor y Transporte (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00019-servicios-complementarios.yaml"
+
+CHUNK-00020:
+  origen_id: NOR-008
+  titulo: "FP en Canarias: Acceso y Evaluación Autonómica"
+  ruta: "07_corpus_ia/chunks/CHUNK-00020-fp-canarias-acceso-evaluacion.yaml"
+
+CHUNK-00021:
+  origen_id: NOR-031
+  titulo: "Protección del Menor y Bienestar en Centros Educativos"
+  ruta: "07_corpus_ia/chunks/CHUNK-00021-proteccion-menor-bienestar.yaml"
