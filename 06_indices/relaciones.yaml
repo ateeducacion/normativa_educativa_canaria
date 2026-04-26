@@ -242,3 +242,52 @@ REL-038:
   destino: NOR-024
   fuente: FTE-043
   ruta: "05_relaciones/normativa/REL-038-instrucciones-diversidad-25-26.yaml"
+
+REL-039:
+  tipo_relacion: "relaciona"
+  origen: NOR-012
+  destino: NOR-007
+  fuente: FTE-020
+  ruta: "05_relaciones/normativa/REL-039-roc-cifp-relaciona-lofp.yaml"
+
+REL-040:
+  tipo_relacion: "desarrolla"
+  origen: NOR-024
+  destino: NOR-004
+  fuente: FTE-027
+  ruta: "05_relaciones/normativa/REL-040-decreto-25-2018-desarrolla-ley-canaria.yaml"
+
+REL-041:
+  tipo_relacion: "relaciona"
+  origen: NOR-028
+  destino: NOR-024
+  fuente: FTE-031
+  ruta: "05_relaciones/normativa/REL-041-aulas-enclave-relaciona-decreto-diversidad.yaml"
+
+REL-042:
+  tipo_relacion: "desarrolla"
+  origen: NOR-041
+  destino: NOR-024
+  fuente: FTE-044
+  ruta: "05_relaciones/normativa/REL-042-instrucciones-26-27-desarrolla-decreto-diversidad.yaml"
+
+REL-043:
+  tipo_relacion: "relaciona"
+  origen: NOR-014
+  destino: NOR-007
+  fuente: FTE-015
+  ruta: "05_relaciones/normativa/REL-043-acceso-fp-relaciona-lofp.yaml"
+
+REL-044:
+  tipo_relacion: "relaciona"
+  origen: NOR-015
+  destino: NOR-007
+  fuente: FTE-015
+  ruta: "05_relaciones/normativa/REL-044-evaluacion-fp-relaciona-lofp.yaml"
+
+REL-045:
+  tipo_relacion: "desarrolla"
+  origen: NOR-008
+  destino: NOR-004
+  fuente: FTE-015
+  ruta: "05_relaciones/normativa/REL-045-decreto-fp-desarrolla-ley-canaria.yaml"

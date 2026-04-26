@@ -183,8 +183,8 @@
   "hotPaths": [
     {
       "path": "status.yaml",
-      "accessCount": 14,
-      "lastAccessed": 1777196720086,
+      "accessCount": 15,
+      "lastAccessed": 1777204981224,
       "type": "file"
     },
     {
@@ -254,6 +254,18 @@
       "type": "file"
     },
     {
+      "path": "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md",
+      "accessCount": 3,
+      "lastAccessed": 1777204980632,
+      "type": "file"
+    },
+    {
+      "path": "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml",
+      "accessCount": 3,
+      "lastAccessed": 1777204981125,
+      "type": "file"
+    },
+    {
       "path": "docs/mcp.html",
       "accessCount": 2,
       "lastAccessed": 1777192547259,
@@ -311,18 +323,6 @@
       "path": "08_tareas/backlog/TAREA-007-redactar-ficha-normativa-nor-005-decreto-30-2023.md",
       "accessCount": 2,
       "lastAccessed": 1777193356136,
-      "type": "file"
-    },
-    {
-      "path": "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml",
-      "accessCount": 2,
-      "lastAccessed": 1777193972268,
-      "type": "file"
-    },
-    {
-      "path": "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md",
-      "accessCount": 2,
-      "lastAccessed": 1777193993401,
       "type": "file"
     },
     {

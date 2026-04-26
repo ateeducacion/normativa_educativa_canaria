@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"ls /Users/ernesto/Downloads/git/normativa_educativa_canaria/scripts/ 2>&1\",\"description\":\"Check if scripts directory exists\"}",
-  "error": "Exit code 1\nls: /Users/ernesto/Downloads/git/normativa_educativa_canaria/scripts/: No such file or directory",
-  "timestamp": "2026-04-26T09:49:03.511Z",
+  "tool_input_preview": "{\"command\":\"git checkout -- .omc/state/hud-state.json .omc/state/hud-stdin-cache.json .omc/state/last-tool-error.json && git pull --rebase origin main && git stash pop 2>&1\",\"description\":\"Reset track...",
+  "error": "Exit code 1\nFrom github.com:ateeducacion/normativa_educativa_canaria\n * branch            main       -> FETCH_HEAD\nAlready up to date.\nerror: Your local changes to the following files would be overwritten by merge:\n\t.omc/state/hud-state.json\n\t.omc/state/hud-stdin-cache.json\nPlease commit your changes or stash them before you merge.\nAborting\nOn branch main\nYour branch is up to date with 'origin/main'.\n\nChanges not staged for commit:\n  (use \"git add <file>...\" to update what will be committed)\n  (...",
+  "timestamp": "2026-04-26T12:02:29.938Z",
   "retry_count": 1
 }
