@@ -1,0 +1,138 @@
+id: CUR-029
+titulo: "Matemáticas — Primaria Canarias"
+etapa: "primaria"
+materia: "Matemáticas"
+norma_base: NOR-043
+fuente: FTE-046
+competencias_especificas:
+  - id: C1
+    descripcion: "Interpretar problemas de la vida cotidiana comprendiendo las preguntas planteadas."
+  - id: C2
+    descripcion: "Resolver situaciones problematizadas aplicando diferentes estrategias y formas de razonamiento."
+  - id: C3
+    descripcion: "Explorar, formular y comprobar conjeturas sencillas o plantear problemas matemáticos."
+  - id: C4
+    descripcion: "Utilizar el pensamiento computacional (organizar datos, reconocer patrones, algoritmos) para modelizar situaciones."
+  - id: C5
+    descripcion: "Reconocer y utilizar conexiones entre diferentes ideas matemáticas y con otras áreas o la vida cotidiana (incluyendo el patrimonio de Canarias)."
+  - id: C6
+    descripcion: "Comunicar y representar conceptos y resultados matemáticos de forma individual y colectiva."
+  - id: C7
+    descripcion: "Desarrollar destrezas para gestionar emociones ante retos matemáticos (socioafectiva)."
+  - id: C8
+    descripcion: "Desarrollar destrezas sociales, respetando las emociones de los demás y el valor de la diversidad."
+bloques_saberes:
+  - id: sentido-numerico
+    nombre: "Sentido numérico"
+    descripcion: "Estrategias de conteo, estimación, operaciones con números naturales, decimales y fracciones, y pensamiento proporcional."
+  - id: sentido-medida
+    nombre: "Sentido de la medida"
+    descripcion: "Magnitudes (longitud, masa, capacidad, tiempo, ángulo), unidades de medida y herramientas de medición."
+  - id: sentido-espacial
+    nombre: "Sentido espacial"
+    descripcion: "Figuras geométricas de dos y tres dimensiones, localización, orientación y movimientos en el espacio."
+  - id: sentido-algebraico
+    nombre: "Sentido algebraico y pensamiento computacional"
+    descripcion: "Patrones, relaciones, variables y algoritmos sencillos (programación básica/robótica)."
+  - id: sentido-estocastico
+    nombre: "Sentido estocástico"
+    descripcion: "Recogida y organización de datos, gráficos estadísticos, probabilidad y azar."
+  - id: sentido-socioafectivo
+    nombre: "Sentido socioafectivo"
+    descripcion: "Manejo de las emociones ante las matemáticas, trabajo en equipo, persistencia y eliminación de estereotipos de género."
+criterios_evaluacion:
+  - ciclo: 1
+    criterios:
+      - id: 1.1
+        texto: "Interpretar problemas cotidianos mediante representaciones gráficas."
+      - id: 2.1
+        texto: "Aplicar estrategias para resolver problemas aritméticos y lógicos."
+      - id: 2.2
+        texto: "Utilizar operaciones y representaciones gráficas para resolver problemas."
+      - id: 2.3
+        texto: "Revisar la validez y coherencia de las soluciones a problemas."
+      - id: 3.1
+        texto: "Realizar conjeturas matemáticas mediante la investigación de patrones."
+      - id: 3.2
+        texto: "Identificar y resolver problemas matemáticos en situaciones cotidianas."
+      - id: 4.1
+        texto: "Describir y reorganizar rutinas cotidianas mediante patrones y algoritmos."
+      - id: 4.2
+        texto: "Resolver problemas que impliquen secuencias y patrones."
+      - id: 5.1
+        texto: "Reconocer conexiones entre matemáticas y otras áreas de aprendizaje."
+      - id: 5.2
+        texto: "Conectar las matemáticas con situaciones de la vida cotidiana."
+      - id: 6.1
+        texto: "Reconocer lenguaje matemático sencillo en situaciones cotidianas."
+      - id: 6.2
+        texto: "Explicar ideas y procesos matemáticos sencillos de forma verbal o gráfica."
+      - id: 7.1
+        texto: "Identificar emociones básicas al abordar retos matemáticos."
+      - id: 8.1
+        texto: "Participar en el trabajo en equipo de forma respetuosa."
+  - ciclo: 2
+    criterios:
+      - id: 1.1
+        texto: "Interpretar, de forma verbal o gráfica, problemas de la vida cotidiana, comprendiendo las preguntas planteadas a través de diferentes estrategias o herramientas, incluidas las tecnológicas."
+      - id: 1.2
+        texto: "Producir representaciones matemáticas a través de esquemas o diagramas que ayuden en la resolución de una situación problematizada."
+      - id: 2.1
+        texto: "Comparar entre diferentes estrategias para resolver un problema de forma pautada."
+      - id: 2.2
+        texto: "Obtener posibles soluciones de un problema siguiendo alguna estrategia conocida."
+      - id: 2.3
+        texto: "Demostrar la corrección matemática de las soluciones de un problema y su coherencia en el contexto planteado."
+      - id: 3.1
+        texto: "Realizar conjeturas matemáticas sencillas, investigando patrones, propiedades y relaciones de forma guiada."
+      - id: 3.2
+        texto: "Dar ejemplos de problemas a partir de situaciones cotidianas que se resuelven matemáticamente."
+      - id: 4.1
+        texto: "Automatizar situaciones sencillas de la vida cotidiana que se realicen paso a paso o sigan una rutina, utilizando de forma pautada principios básicos del pensamiento computacional."
+      - id: 4.2
+        texto: "Emplear herramientas tecnológicas adecuadas en el proceso de resolución de problemas."
+      - id: 5.1
+        texto: "Realizar conexiones entre los diferentes elementos matemáticos, aplicando conocimientos y experiencias propios."
+      - id: 5.2
+        texto: "Interpretar situaciones en contextos diversos, reconociendo las conexiones entre las matemáticas y la vida cotidiana."
+      - id: 6.1
+        texto: "Reconocer lenguaje matemático sencillo presente en la vida cotidiana, adquiriendo vocabulario específico básico."
+      - id: 6.2
+        texto: "Explicar ideas y procesos matemáticos sencillos, los pasos seguidos en la resolución de un problema o los resultados matemáticos, de forma verbal o gráfica."
+      - id: 7.1
+        texto: "Reconocer las emociones básicas propias al abordar retos matemáticos, pidiendo ayuda cuando sea necesario y desarrollando el autoconcepto positivo."
+      - id: 8.1
+        texto: "Participar en el trabajo en equipo, respetando las responsabilidades individuales y asignadas, y empleando estrategias de comunicación asertiva."
+  - ciclo: 3
+    criterios:
+      - id: 1.1
+        texto: "Comprender problemas de la vida cotidiana a través de la reformulación de la pregunta, de forma verbal y gráfica."
+      - id: 1.2
+        texto: "Elaborar representaciones matemáticas que ayuden en la búsqueda y elección de estrategias y herramientas, incluidas las tecnológicas, para la resolución de una situación problematizada."
+      - id: 2.1
+        texto: "Seleccionar entre diferentes estrategias para resolver un problema, justificando la elección."
+      - id: 2.2
+        texto: "Obtener posibles soluciones de un problema, seleccionando entre varias estrategias conocidas de forma autónoma."
+      - id: 2.3
+        texto: "Comprobar la corrección matemática de las soluciones de un problema y su coherencia en el contexto planteado."
+      - id: 3.1
+        texto: "Formular conjeturas matemáticas sencillas investigando patrones, propiedades y relaciones de forma guiada."
+      - id: 3.2
+        texto: "Plantear nuevos problemas sobre situaciones cotidianas que se resuelven matemáticamente."
+      - id: 4.1
+        texto: "Modelizar situaciones de la vida cotidiana utilizando, de forma pautada, principios básicos del pensamiento computacional."
+      - id: 4.2
+        texto: "Emplear herramientas tecnológicas adecuadas en la investigación y resolución de problemas."
+      - id: 5.1
+        texto: "Realizar conexiones entre los diferentes elementos matemáticos, aplicando conocimientos y experiencias propios."
+      - id: 5.2
+        texto: "Interpretar situaciones en contextos diversos, reconociendo las conexiones entre las matemáticas y la vida cotidiana."
+      - id: 6.1
+        texto: "Reconocer el lenguaje matemático presente en la vida cotidiana, adquiriendo vocabulario específico y mostrando la comprensión del mensaje."
+      - id: 6.2
+        texto: "Explicar los procesos e ideas matemáticas, los pasos seguidos en la resolución de un problema o los resultados obtenidos, utilizando un lenguaje matemático sencillo en diferentes formatos."
+      - id: 7.1
+        texto: "Identificar las emociones propias al abordar retos matemáticos, pidiendo ayuda solo cuando sea necesario y desarrollando la autoconfianza."
+      - id: 8.1
+        texto: "Trabajar en equipo activa y respetuosamente, comunicándose adecuadamente y asumiendo responsabilidades."
+observaciones: "Extracción literal completada el 2026-04-26 tras consulta al BOC (Decreto 211/2022)."

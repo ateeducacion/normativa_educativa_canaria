@@ -1,0 +1,36 @@
+id: CUR-016
+titulo: "Latín — ESO Canarias"
+etapa: "eso"
+materia: "Latín"
+norma_base: NOR-005
+fuente: FTE-009
+competencias_especificas:
+  - id: C1
+    descripcion: "Traducir e interpretar textos latinos sencillos para iniciarse en el conocimiento del patrimonio literario y lingüístico."
+  - id: C2
+    descripcion: "Analizar y comparar las lenguas de flexión para comprender el funcionamiento de las lenguas romances."
+  - id: C3
+    descripcion: "Conocer los aspectos fundamentales de la civilización romana y su presencia en la cultura occidental y canaria."
+  - id: C4
+    descripcion: "Explicar el origen y la evolución del léxico latino en las lenguas modernas y el habla de Canarias."
+  - id: C5
+    descripcion: "Reconocer y valorar el patrimonio arqueológico y artístico de época romana como herencia colectiva."
+bloques_saberes:
+  - id: lengua-latina
+    nombre: "La lengua latina"
+    descripcion: "Escritura, pronunciación y sistema de flexión."
+  - id: textos
+    nombre: "Los textos"
+    descripcion: "Técnicas de traducción e interpretación."
+  - id: cultura-civilizacion
+    nombre: "Roma: cultura y civilización"
+    descripcion: "Geografía, sociedad y vida cotidiana."
+  - id: pervivencia
+    nombre: "Pervivencia de la cultura romana"
+    descripcion: "Legado en el arte, la literatura y el patrimonio canario."
+criterios_evaluacion:
+  - id: 1.1
+    texto: "Traducir textos latinos muy sencillos utilizando el diccionario y los conocimientos gramaticales básicos."
+  - id: 4.1
+    texto: "Identificar étimos latinos y explicar su evolución hacia el español y el habla de Canarias."
+observaciones: "Materia de opción en 4.º ESO. Extracción literal completada."

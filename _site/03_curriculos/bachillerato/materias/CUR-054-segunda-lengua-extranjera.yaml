@@ -1,0 +1,43 @@
+id: CUR-054
+titulo: "Segunda Lengua Extranjera I y II — Bachillerato Canarias"
+etapa: "bachillerato"
+materia: "Segunda Lengua Extranjera"
+norma_base: NOR-005
+fuente: FTE-009
+competencias_especificas:
+  - id: C1
+    descripcion: "Comprensión: Interpretar el sentido general y los detalles más relevantes de textos claros y en lengua estándar."
+  - id: C2
+    descripcion: "Producción: Producir textos coherentes, cohesionados y adecuados a la situación comunicativa."
+  - id: C3
+    descripcion: "Interacción: Interactuar con otras personas con creciente autonomía utilizando estrategias de cooperación."
+  - id: C4
+    descripcion: "Mediación: Mediar entre distintas lenguas o registros para explicar conceptos o simplificar mensajes."
+  - id: C5
+    descripcion: "Plurilingüismo: Ampliar y usar los repertorios lingüísticos personales reflexionando sobre su funcionamiento."
+  - id: C6
+    descripcion: "Interculturalidad: Valorar críticamente la diversidad lingüística, cultural y artística para actuar de forma empática."
+bloques_saberes:
+  - id: comunicacion
+    nombre: "I. Comunicación"
+    descripcion: "Estrategias de comprensión, producción, interacción y mediación."
+  - id: plurilinguismo
+    nombre: "II. Plurilingüismo"
+    descripcion: "Reflexión sobre las lenguas y estrategias de aprendizaje autónomo."
+  - id: interculturalidad
+    nombre: "III. Interculturalidad"
+    descripcion: "Valoración de la diversidad cultural y rechazo a estereotipos."
+criterios_evaluacion:
+  - curso: "1.º Bachillerato"
+    criterios:
+      - id: 1.1
+        texto: "Extraer y analizar el sentido global y las ideas principales de textos sobre temas de relevancia personal o interés público."
+      - id: 6.1
+        texto: "Identificar y valorar críticamente la diversidad cultural y lingüística actuando con respeto en contextos interculturales."
+  - curso: "2.º Bachillerato"
+    criterios:
+      - id: 1.1
+        texto: "Extraer, analizar e interpretar el sentido global y las ideas principales de textos complejos sobre temas diversos."
+      - id: 4.1
+        texto: "Mediar con eficacia entre textos, adaptando el registro y el estilo para transmitir información de forma clara."
+observaciones: "Materia de oferta obligatoria en 1.º y 2.º de Bachillerato (Alemán, Francés o Italiano). Extracción literal Decreto 30/2023."

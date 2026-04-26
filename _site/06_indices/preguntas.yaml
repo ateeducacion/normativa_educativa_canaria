@@ -1,0 +1,38 @@
+PREG-001:
+  titulo: "Fuente oficial final del decreto autonómico de currículo ESO/Bachillerato"
+  estado: "Resuelta"
+  fecha_registro: 2026-04-25
+  relacionadas: [FTE-002, FTE-003, FTE-004, FTE-009]
+  ruta: "08_tareas/preguntas/PREG-001-fuente-oficial-final-decreto-curriculo-eso-bachillerato.md"
+
+PREG-002:
+  titulo: "Nivel de detalle que se extraerá de cada currículo"
+  estado: "Resuelta"
+  fecha_registro: 2026-04-25
+  fecha_resolucion: 2026-04-26
+  relacionadas: [CUR-001, CUR-023, DEC-0004]
+  ruta: "08_tareas/preguntas/PREG-002-nivel-detalle-extraccion-curriculos.md"
+
+PREG-003:
+  titulo: "Tratamiento de orientaciones y recursos no normativos"
+  estado: "Resuelta"
+  fecha_registro: 2026-04-25
+  fecha_resolucion: 2026-04-26
+  relacionadas: [FTE-001, AN-003, DEC-0005]
+  ruta: "08_tareas/preguntas/PREG-003-tratamiento-orientaciones-recursos-no-normativos.md"
+
+PREG-004:
+  titulo: "Verificación de resoluciones de última hora sobre el nuevo sistema de FP (Grados D y E)"
+  estado: "Resuelta"
+  fecha_registro: 2026-04-26
+  fecha_resolucion: 2026-04-26
+  relacionadas: [NOR-007, NOR-059, FTE-055]
+  ruta: "08_tareas/preguntas/PREG-004-verificacion-resoluciones-fp-2024-2025.md"
+
+PREG-005:
+  titulo: "Discrepancia en números de RD de ciclos de Sanidad (NOR-051 y NOR-052)"
+  estado: "Resuelta"
+  fecha_registro: 2026-04-26
+  fecha_resolucion: 2026-04-26
+  relacionadas: [NOR-051, NOR-052, CUR-046, CUR-047, TAREA-038, TAREA-042]
+  ruta: "08_tareas/preguntas/PREG-005-discrepancia-rd-sanidad-nor-051-nor-052.md"

@@ -1,0 +1,40 @@
+id: CUR-015
+titulo: "Historia y Geografía de Canarias — ESO Canarias"
+etapa: "eso"
+materia: "Historia y Geografía de Canarias"
+norma_base: NOR-005
+fuente: FTE-009
+competencias_especificas:
+  - id: C1
+    descripcion: "Utilizar la Red Canaria de Espacios Naturales Protegidos para analizar e interpretar el paisaje natural y el origen de las islas, promoviendo la sostenibilidad."
+  - id: C2
+    descripcion: "Elaborar un recorrido diacrónico por la configuración de la sociedad canaria, desde el poblamiento aborigen hasta la actualidad, analizando su posición geopolítica e interculturalidad."
+  - id: C3
+    descripcion: "Realizar una lectura histórica del territorio identificando evidencias materiales de sus transformaciones y valorando el patrimonio como bien a conservar."
+  - id: C4
+    descripcion: "Analizar los cambios y permanencias en la vida cotidiana de las poblaciones insulares, con atención al papel de mujeres y hombres y la defensa de libertades."
+  - id: C5
+    descripcion: "Descubrir la participación de las islas en procesos históricos generales (piratería, guerras, migraciones, integración en la UE)."
+  - id: C6
+    descripcion: "Valorar la riqueza del patrimonio natural y cultural de Canarias mediante metodologías del pensamiento geográfico."
+bloques_saberes:
+  - id: medio-fisico
+    nombre: "El medio físico de Canarias"
+    descripcion: "Origen volcánico, clima, biodiversidad y espacios protegidos."
+  - id: poblamiento-aborigen
+    nombre: "De las sociedades aborígenes a la conquista"
+    descripcion: "Poblamiento, cultura, organización social y el proceso de conquista."
+  - id: canarias-moderna
+    nombre: "Canarias en la Edad Moderna y Contemporánea"
+    descripcion: "Economía agraria, comercio atlántico, crisis y transición democrática."
+  - id: identidad-patrimonio
+    nombre: "Identidad, sociedad y patrimonio"
+    descripcion: "Población, movimientos migratorios y conservación del legado cultural."
+criterios_evaluacion:
+  - id: 1.1
+    texto: "Estudiar los ecosistemas canarios y sus procesos geológicos, valorando su fragilidad."
+  - id: 2.2
+    texto: "Analizar el poblamiento aborigen de las islas en su contexto sociohistórico."
+  - id: 6.1
+    texto: "Valorar la importancia de la conservación del patrimonio canario como herencia colectiva."
+observaciones: "Materia propia del currículo canario en 3.º ESO. Extracción literal completada."

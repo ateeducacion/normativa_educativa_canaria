@@ -1,0 +1,503 @@
+FTE-001:
+  titulo: "Normativa educativa — Gobierno de Canarias"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/normativa/"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/portales-oficiales/FTE-001-normativa-educativa-gobierno-canarias.md"
+  estado_fuente: "Activa"
+
+FTE-002:
+  titulo: "Currículos de Educación Secundaria Obligatoria — Gobierno de Canarias"
+  tipo_fuente: "portal-curricular"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/portales-oficiales/FTE-002-curriculos-eso-canarias.md"
+  estado_fuente: "Activa"
+
+FTE-003:
+  titulo: "Ordenación y currículo — Educación Secundaria — Gobierno de Canarias"
+  tipo_fuente: "portal-curricular"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/portales-oficiales/FTE-003-ordenacion-curriculo-secundaria-canarias.md"
+  estado_fuente: "Activa"
+
+FTE-004:
+  titulo: "Ordenación de la Educación Secundaria Obligatoria — Gobierno de Canarias"
+  tipo_fuente: "portal-curricular"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/ordenacion-de-la-educacion-secundaria-obligatoria-eso/index.html"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/portales-oficiales/FTE-004-ordenacion-eso-canarias.md"
+  estado_fuente: "Activa"
+
+FTE-005:
+  titulo: "Ley Orgánica 2/2006, de Educación — texto consolidado BOE"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/boe/FTE-005-loe-texto-consolidado.md"
+  estado_fuente: "Activa"
+
+FTE-006:
+  titulo: "Ley Orgánica 3/2020, LOMLOE"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17264"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/boe/FTE-006-lomloe.md"
+  estado_fuente: "Activa"
+
+FTE-007:
+  titulo: "Real Decreto 217/2022, enseñanzas mínimas de ESO"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/boe/FTE-007-rd-217-2022.md"
+  estado_fuente: "Activa"
+
+FTE-008:
+  titulo: "Ley 6/2014, Canaria de Educación no Universitaria"
+  tipo_fuente: "normativa-autonomica"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2014-9901"
+  fecha_consulta: 2026-04-25
+  ruta: "01_fuentes/boe/FTE-008-ley-canaria-6-2014.md"
+  estado_fuente: "Activa"
+
+FTE-009:
+  titulo: "Decreto 30/2023, de 16 de marzo, ordenación y currículo de ESO y Bachillerato en Canarias"
+  tipo_fuente: "normativa-autonomica"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md"
+  estado_fuente: "Activa"
+
+FTE-010:
+  titulo: "Decreto 86/2025, de 30 de junio, currículo de los ámbitos de los Programas de Diversificación Curricular en Canarias"
+  tipo_fuente: "normativa-autonomica"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2025/133/2484.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-010-decreto-86-2025-pdc-eso.md"
+  estado_fuente: "Activa"
+
+FTE-011:
+  titulo: "Real Decreto 243/2022, ordenación y enseñanzas mínimas de Bachillerato"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5521"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boe/FTE-011-rd-243-2022.md"
+  estado_fuente: "Activa"
+
+FTE-012:
+  titulo: "Centro de Desarrollo Curricular (CDC) — Gobierno de Canarias"
+  tipo_fuente: "portal-curricular"
+  autoridad: "Gobierno de Canarias - Consejería de Educación, Universidades, Cultura y Deportes"
+  url_oficial: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-012-centro-desarrollo-curricular-canarias.md"
+  estado_fuente: "Activa"
+
+FTE-013:
+  titulo: "Normativa clasificada por temas — Inspección Educativa de Canarias"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Inspección General de Educación"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-013-inspeccion-educativa-normativa-clasificada.md"
+  estado_fuente: "Activa"
+
+FTE-014:
+  titulo: "Normativa clasificada — Enseñanzas — Inspección Educativa de Canarias"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Inspección General de Educación"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-014-inspeccion-educativa-ensenanzas.md"
+  estado_fuente: "Activa"
+
+FTE-015:
+  titulo: "Normativa clasificada — Formación Profesional — Inspección Educativa de Canarias"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Inspección General de Educación"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-015-inspeccion-educativa-fp.md"
+  estado_fuente: "Activa"
+
+FTE-016:
+  titulo: "Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5139"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boe/FTE-016-ley-organica-3-2022-fp.md"
+  estado_fuente: "Activa"
+
+FTE-017:
+  titulo: "BOC n.º 143 (2010): Decreto 81/2010, de 8 de julio (Reglamento Orgánico de Centros)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2010/143/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-017-boc-2010-143.md"
+  estado_fuente: "Activa"
+
+FTE-018:
+  titulo: "BOC n.º 108 (2011): Decreto 114/2011, de 11 de mayo (Convivencia)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2011/108/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-018-boc-2011-108.md"
+  estado_fuente: "Activa"
+
+FTE-019:
+  titulo: "BOC n.º 97 (2009): Decreto 52/2009, de 12 de mayo (Inspección)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2009/097/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-019-boc-2009-097.md"
+  estado_fuente: "Activa"
+
+FTE-020:
+  titulo: "BOC n.º 104 (2011): Decreto 112/2011, de 11 de mayo (CIFP)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2011/104/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-020-boc-2011-104.md"
+  estado_fuente: "Activa"
+
+FTE-021:
+  titulo: "BOC n.º 107 (2011): Orden de 22 de mayo de 2011 (Inspección)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2011/107/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-021-boc-2011-107.md"
+  estado_fuente: "Activa"
+
+FTE-022:
+  titulo: "Ley 2/1987, de 30 de marzo, de la Función Pública Canaria"
+  tipo_fuente: "normativa-autonomica"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-1987-11119"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boe/FTE-022-ley-canaria-funcion-publica.md"
+  estado_fuente: "Activa"
+
+FTE-023:
+  titulo: "Real Decreto Legislativo 5/2015, de 30 de octubre (TREBEP)"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Jefatura del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boe/FTE-023-trebep.md"
+  estado_fuente: "Activa"
+
+FTE-024:
+  titulo: "BOC n.º 136 (2010): Decreto 74/2010, de 1 de julio (Personal Interino Docente)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2010/136/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-024-boc-2010-136-interinos.md"
+  estado_fuente: "Activa"
+
+FTE-025:
+  titulo: "BOC n.º 155 (2009): Decreto 106/2009, de 28 de julio (Función Directiva)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2009/155/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-025-boc-2009-155-direccion.md"
+  estado_fuente: "Activa"
+
+FTE-026:
+  titulo: "BOC n.º 131 (2020): Resolución de 16 de junio de 2020 (Permisos y Licencias)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Dirección General de Personal"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2020/131/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-026-boc-2020-131-permisos.md"
+  estado_fuente: "Activa"
+
+FTE-027:
+  titulo: "BOC n.º 46 (2018): Decreto 25/2018, de 26 de febrero (Atención a la diversidad)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2018/046/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-027-boc-2018-046-decreto-25-2018-diversidad.md"
+  estado_fuente: "Activa"
+
+FTE-028:
+  titulo: "BOC n.º 250 (2010): Orden de 13 de diciembre de 2010 (NEAE)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2010/250/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-028-boc-2010-250-orden-neae.md"
+  estado_fuente: "Activa"
+
+FTE-029:
+  titulo: "BOC n.º 40 (2011): Resolución de 9 de febrero de 2011 (procedimientos NEAE)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2011/040/005.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-029-boc-2011-040-resolucion-neae.md"
+  estado_fuente: "Activa"
+
+FTE-030:
+  titulo: "BOC n.º 90 (2019): Ley 12/2019, de 25 de abril (Atención temprana)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2019/090/003.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-030-boc-2019-090-ley-12-2019-atencion-temprana.md"
+  estado_fuente: "Activa"
+
+FTE-031:
+  titulo: "BOC n.º 33 (2016): Orden de 10 de febrero de 2016 (aulas enclave y centros de educación especial)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2016/033/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-031-boc-2016-033-orden-aulas-enclave.md"
+  estado_fuente: "Activa"
+
+FTE-032:
+  titulo: "BOC n.º 20 (2022): Decreto 9/2022, de 20 de enero (admisión del alumnado)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2022/020/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-032-boc-2022-admision-alumnado.md"
+  estado_fuente: "Activa"
+
+FTE-033:
+  titulo: "BOC n.º 49 (2022): Orden de 3 de marzo de 2022 (admisión del alumnado)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2022/049/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-033-boc-2022-049-orden-admision.md"
+  estado_fuente: "Activa"
+
+FTE-034:
+  titulo: "BOC n.º 23 (1997): Ley 1/1997, de 7 de febrero (Atención Integral a los Menores)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/1997/023/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-034-boc-1997-023-ley-menores.md"
+  estado_fuente: "Activa"
+
+FTE-035:
+  titulo: "Ley 2/2021, de 7 de junio, de igualdad social y no discriminación por razón de identidad de género, expresión de género y características sexuales"
+  tipo_fuente: "normativa-autonomica"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2021-11382"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boe/FTE-035-ley-2-2021-igualdad-identidad-genero.md"
+  estado_fuente: "Activa"
+
+FTE-036:
+  titulo: "BOC n.º 117 (2024): Decreto 84/2024, de 10 de junio (Reglamento Orgánico de la Consejería)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2024/117/002.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-036-boc-2024-117-decreto-84-2024-reglamento-organico.md"
+  estado_fuente: "Activa"
+
+FTE-037:
+  titulo: "BOC n.º 84 (2009): Orden de 24 de abril de 2009 (comedores escolares)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2009/084/004.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-037-boc-2009-084-orden-comedores.md"
+  estado_fuente: "Activa"
+
+FTE-038:
+  titulo: "BOC n.º 165 (2006): Orden de 2 de agosto de 2006 (transporte escolar)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/archivo/2006/165/pda/008.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-038-boc-2006-165-orden-transporte-escolar.md"
+  estado_fuente: "Activa"
+
+FTE-039:
+  titulo: "BOC n.º 61 (2005): Decreto 40/2005, de 16 de marzo (Residencias Escolares)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2005/061/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-039-boc-2005-061-decreto-residencias.md"
+  estado_fuente: "Activa"
+
+FTE-040:
+  titulo: "Orden de 7 de junio de 2007, medidas de atención a la diversidad en enseñanza básica"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2007/124/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-040-orden-7-junio-2007-diversidad-basica.md"
+  estado_fuente: "Activa"
+
+FTE-041:
+  titulo: "Resolución de 5 de febrero de 2026, convocatoria de admisión 2026-2027"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/031/pda/498.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-041-resolucion-5-febrero-2026-admision-26-27.md"
+  estado_fuente: "Activa"
+
+FTE-042:
+  titulo: "Resolución n.º 261/2024, instrucciones atención diversidad 2024-2025"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "DGOEII - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/atencion_diversidad/medidas-atencion-a-la-diversidad/index.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-042-resolucion-instrucciones-diversidad-24-25.md"
+  estado_fuente: "Histórica"
+
+FTE-043:
+  titulo: "Resolución n.º 327/2025, instrucciones atención diversidad 2025-2026"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "DGOEII - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/centros/gestion_centros/centros_privados_concertados/normativa/?educa_etiquetas_es=Concertados%2C+concertados&page=17"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-043-resolucion-instrucciones-diversidad-25-26.md"
+  estado_fuente: "Superada"
+
+FTE-044:
+  titulo: "Resolución n.º 584/2026, instrucciones atención diversidad 2026-2027"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "DGOEII - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/personal/docente/?fi=cen_cor_vacan&sfi=cen_cor_vacan&t=centros_concertados"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-044-resolucion-instrucciones-diversidad-26-27.md"
+  estado_fuente: "Activa"
+
+FTE-045:
+  titulo: "Resolución de 24 de febrero de 2026, permisos y licencias"
+  tipo_fuente: "disposicion-general"
+  autoridad: "Dirección General de Personal - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/046/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-045-boc-2026-046-permisos.md"
+  estado_fuente: "Activa"
+
+FTE-046:
+  titulo: "Decreto 211/2022, currículo Educación Primaria Canarias"
+  tipo_fuente: "disposicion-general"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2022/231/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-046-boc-2022-231-curriculo-primaria.md"
+  estado_fuente: "Activa"
+
+FTE-047:
+  titulo: "Orden de 31 de mayo de 2023, evaluación y promoción"
+  tipo_fuente: "disposicion-general"
+  autoridad: "Consejería de Educación - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2023/110/002.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-047-boc-2023-110-evaluacion-primaria.md"
+  estado_fuente: "Activa"
+
+FTE-048:
+  titulo: "Resolución de 15 de mayo de 2025, rúbricas de evaluación Primaria"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "Dirección General de Ordenación - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2025/107/005.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-048-boc-2025-107-rubricas-primaria.md"
+  estado_fuente: "Activa"
+
+FTE-049:
+  titulo: "Resolución de instrucciones organización y funcionamiento 25-26"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "Viceconsejería de Educación - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/centros/organizacion_funcionamiento/instrucciones_organizacion_funcionamiento/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-049-instrucciones-iof-25-26.md"
+  estado_fuente: "Activa"
+
+FTE-050:
+  titulo: "Decreto 196/2022, currículo Educación Infantil Canarias"
+  tipo_fuente: "disposicion-general"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2022/212/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-050-boc-2022-212-curriculo-infantil.md"
+  estado_fuente: "Activa"
+
+FTE-051:
+  titulo: "Resolución de 20 de junio de 2025, IOF Escuelas Infantiles"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "Viceconsejería de Educación - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/centros/organizacion_funcionamiento/instrucciones_organizacion_funcionamiento/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-051-instrucciones-iof-infantil-25-26.md"
+  estado_fuente: "Activa"
+
+FTE-052:
+  titulo: "Decreto 201/2008, requisitos centros primer ciclo Infantil"
+  tipo_fuente: "disposicion-general"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2008/203/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-052-boc-2008-203-requisitos-infantil.md"
+  estado_fuente: "Activa"
+
+FTE-053:
+  titulo: "Orden de 29 de mayo de 2023, procedimientos de atención a la diversidad"
+  tipo_fuente: "disposicion-general"
+  autoridad: "Consejería de Educación - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2023/105/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-053-boc-2023-105-procedimientos-diversidad.md"
+  estado_fuente: "Activa"
+
+FTE-054:
+  titulo: "BOE — Reales Decretos de títulos de Formación Profesional (TAREA-037)"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boe/FTE-054-boe-fp-titulos.md"
+  estado_fuente: "Activa"
+
+FTE-055:
+  titulo: "Resolución de 3 de diciembre de 2025, modifica evaluación FP"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "Dirección General de FP - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2025/249/005.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-055-boc-2025-249-modificacion-evaluacion-fp.md"
+  estado_fuente: "Activa"
+
+FTE-056:
+  titulo: "Buscador de enseñanzas del Gobierno de Canarias"
+  tipo_fuente: "catalogo-administrativo"
+  autoridad: "Consejería de Educación, Formación Profesional, Actividad Física y Deportes - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/centroseducativos/buscador-ensenanzas/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-056-buscador-ensenanzas-codigos-materias.md"
+  estado_fuente: "Activa"

@@ -1,0 +1,48 @@
+id: CUR-040
+titulo: "Lengua Castellana y Literatura I y II — Bachillerato Canarias"
+etapa: "bachillerato"
+materia: "Lengua Castellana y Literatura"
+norma_base: NOR-005
+fuente: FTE-009
+competencias_especificas:
+  - id: C1
+    descripcion: "Valorar la diversidad lingüística del mundo y la riqueza de la variedad dialectal canaria."
+  - id: C2
+    descripcion: "Comprender e interpretar textos orales y multimodales valorando críticamente forma y contenido."
+  - id: C3
+    descripcion: "Producir textos orales y multimodales con fluidez, coherencia y registro adecuado."
+  - id: C4
+    descripcion: "Comprender, interpretar y valorar textos escritos de diversos ámbitos con sentido crítico."
+  - id: C5
+    descripcion: "Producir textos escritos y multimodales coherentes y cohesionados atendiendo a las convenciones del género."
+  - id: C6
+    descripcion: "Seleccionar y contrastar información de diferentes fuentes de manera autónoma y ética."
+  - id: C7
+    descripcion: "Seleccionar y leer obras diversas de forma autónoma para fomentar el hábito lector y autoconocimiento."
+  - id: C8
+    descripcion: "Leer, interpretar y valorar obras literarias del patrimonio nacional y universal en su contexto."
+  - id: C9
+    descripcion: "Reflexionar sobre el funcionamiento de la lengua a partir del análisis y la comparación."
+  - id: C10
+    descripcion: "Utilizar el lenguaje de manera ética y democrática rechazando usos discriminatorios."
+bloques_saberes:
+  - id: lenguas-hablantes
+    nombre: "Las lenguas y sus hablantes"
+    descripcion: "Variedad dialectal canaria como elemento de identidad cultural."
+  - id: comunicacion
+    nombre: "Comunicación"
+    descripcion: "Procesos de comprensión y producción de textos en diversos ámbitos."
+  - id: educacion-literaria
+    nombre: "Educación literaria"
+    descripcion: "Estudio de las grandes obras y autores desde una perspectiva crítica."
+  - id: reflexion-lengua
+    nombre: "Reflexión sobre la lengua"
+    descripcion: "Análisis gramatical, textual y léxico."
+criterios_evaluacion:
+  - id: 1.1
+    texto: "Reconocer y valorar la diversidad lingüística de España y la variedad dialectal canaria como fuente de riqueza."
+  - id: 9.1
+    texto: "Revisar y mejorar los propios textos utilizando el conocimiento metalingüístico y gramatical."
+  - id: 10.1
+    texto: "Identificar y rechazar usos lingüísticos que supongan discriminación (sexismo, racismo, etc.)."
+observaciones: "Materia común en 1.º y 2.º de Bachillerato. Foco en la identidad lingüística de Canarias."

@@ -1,0 +1,35 @@
+id: CUR-057
+titulo: "Literatura Canaria — 2.º Bachillerato"
+etapa: "bachillerato"
+materia: "Literatura Canaria"
+norma_base: NOR-005
+fuente: FTE-009
+competencias_especificas:
+  - id: C1
+    descripcion: "Análisis y valoración crítica: Desarrollar estrategias de análisis e interpretación de obras de la literatura canaria en sus contextos de producción y recepción."
+  - id: C2
+    descripcion: "Hábito lector e identidad: Fomentar la lectura autónoma de textos de diversos géneros y épocas, con atención a las escritoras canarias, consolidando la identidad lectora."
+  - id: C3
+    descripcion: "Creación literaria: Crear textos con intención literaria y conciencia de estilo a partir del análisis de modelos de la literatura canaria."
+  - id: C4
+    descripcion: "Análisis interdisciplinar: Relacionar la literatura canaria con otras manifestaciones artísticas y culturales del patrimonio canario."
+  - id: C5
+    descripcion: "Alfabetización informacional: Desarrollar habilidades de búsqueda y tratamiento crítico de información sobre la literatura canaria en soporte digital y analógico."
+bloques_saberes:
+  - id: itinerarios-lectores
+    nombre: "I. Itinerarios lectores"
+    descripcion: "Lectura guiada de obras clave y autores/as de Canarias; temas recurrentes (insularidad, emigración, identidad)."
+  - id: patrimonio-literario
+    nombre: "II. El patrimonio literario canario"
+    descripcion: "Evolución histórica, movimientos literarios en las islas y singularidad de las voces canarias."
+  - id: creacion-literaria
+    nombre: "III. Creación y experimentación"
+    descripcion: "Talleres de escritura creativa basados en la tradición literaria de las islas."
+criterios_evaluacion:
+  - id: 1.1
+    texto: "Explicar y argumentar la interpretación de obras de la literatura canaria analizando su contexto sociohistórico y valores culturales."
+  - id: 2.1
+    texto: "Desarrollar un itinerario lector propio, seleccionando y leyendo obras de la literatura canaria de manera autónoma."
+  - id: 4.2
+    texto: "Valorar la importancia de la literatura canaria como parte esencial del patrimonio cultural de las islas y su proyección universal."
+observaciones: "Materia de oferta obligatoria en 2.º de Bachillerato en Canarias. Extracción literal Decreto 30/2023."
