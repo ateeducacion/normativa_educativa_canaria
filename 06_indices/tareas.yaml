@@ -99,7 +99,7 @@ TAREA-009:
 
 TAREA-010:
   titulo: "Iniciar extracción curricular de CUR-001 (Biología y Geología, ESO Canarias)"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "curriculo"
   responsable: "@.agents/skills/analisis-curricular"
@@ -110,7 +110,7 @@ TAREA-010:
 
 TAREA-011:
   titulo: "Cotejar el anexo de Biología y Geología del Decreto 30/2023 contra la extracción inicial de CUR-001"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "curriculo"
   responsable: "@.agents/skills/analisis-curricular"

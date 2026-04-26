@@ -117,3 +117,78 @@ NOR-008:
   ruta: "02_normativa/canarias/decretos/NOR-008-decreto-156-1996-fp.md"
   temas: [formacion-profesional, ordenacion, ensenanzas-especificas]
   etapas_afectadas: [formacion-profesional]
+
+NOR-009:
+  titulo: "Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias"
+  nombre_corto: "ROC (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2010-07-08
+  fecha_publicacion: 2010-07-22
+  fecha_entrada_vigor: 2010-07-23
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-017
+  ruta: "02_normativa/canarias/decretos/NOR-009-decreto-81-2010-roc.md"
+  temas: [centros, organizacion, funcionamiento]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-010:
+  titulo: "Decreto 114/2011, de 11 de mayo, por el que se regula la convivencia en el ámbito educativo de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Convivencia (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2011-05-11
+  fecha_publicacion: 2011-06-02
+  fecha_entrada_vigor: 2011-06-03
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-018
+  ruta: "02_normativa/canarias/decretos/NOR-010-decreto-114-2011-convivencia.md"
+  temas: [convivencia, disciplina]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-011:
+  titulo: "Decreto 52/2009, de 12 de mayo, por el que se aprueba el Reglamento de Ordenación de la Inspección de Educación de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Inspección (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2009-05-12
+  fecha_publicacion: 2009-05-22
+  fecha_entrada_vigor: 2009-05-23
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-019
+  ruta: "02_normativa/canarias/decretos/NOR-011-decreto-52-2009-inspeccion.md"
+  temas: [inspeccion, supervision]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-012:
+  titulo: "Decreto 112/2011, de 11 de mayo, por el que se aprueba el Reglamento Orgánico de los Centros Integrados de Formación Profesional"
+  nombre_corto: "ROC CIFP (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2011-05-11
+  fecha_publicacion: 2011-05-26
+  fecha_entrada_vigor: 2011-05-27
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-020
+  ruta: "02_normativa/canarias/decretos/NOR-012-decreto-112-2011-roc-cifp.md"
+  temas: [centros, formacion-profesional]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-013:
+  titulo: "Orden de 22 de mayo de 2011, por la que se desarrolla la organización y el funcionamiento de la Inspección de Educación de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Orden Inspección (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2011-05-22
+  fecha_publicacion: 2011-06-01
+  fecha_entrada_vigor: 2011-06-02
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-021
+  ruta: "02_normativa/canarias/ordenes/NOR-013-orden-22-mayo-2011-inspeccion.md"
+  temas: [inspeccion, organizacion]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]

@@ -141,3 +141,48 @@ FTE-016:
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/boe/FTE-016-ley-organica-3-2022-fp.md"
   estado_fuente: "Activa"
+
+FTE-017:
+  titulo: "BOC n.º 143 (2010): Decreto 81/2010, de 8 de julio (Reglamento Orgánico de Centros)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2010/143/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-017-boc-2010-143.md"
+  estado_fuente: "Activa"
+
+FTE-018:
+  titulo: "BOC n.º 108 (2011): Decreto 114/2011, de 11 de mayo (Convivencia)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2011/108/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-018-boc-2011-108.md"
+  estado_fuente: "Activa"
+
+FTE-019:
+  titulo: "BOC n.º 97 (2009): Decreto 52/2009, de 12 de mayo (Inspección)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2009/097/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-019-boc-2009-097.md"
+  estado_fuente: "Activa"
+
+FTE-020:
+  titulo: "BOC n.º 104 (2011): Decreto 112/2011, de 11 de mayo (CIFP)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2011/104/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-020-boc-2011-104.md"
+  estado_fuente: "Activa"
+
+FTE-021:
+  titulo: "BOC n.º 107 (2011): Orden de 22 de mayo de 2011 (Inspección)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2011/107/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-021-boc-2011-107.md"
+  estado_fuente: "Activa"

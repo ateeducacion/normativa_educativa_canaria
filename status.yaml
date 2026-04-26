@@ -4,7 +4,7 @@ metadata:
   objetivo: "Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML"
   fase_actual: "Fase 0 — Puesta en marcha"
   fecha_actualizacion: 2026-04-26
-  agente_actual: "@.agents/skills/analisis-normativo"
+  agente_actual: "@.agents/skills/experto-normativa-canaria"
 
 tareas:
   TAREA-001:
@@ -108,25 +108,25 @@ tareas:
 
   TAREA-010:
     titulo: "Iniciar extracción curricular de CUR-001 (Biología y Geología, ESO Canarias)"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Alta"
     tipo: "curriculo"
     responsable: "@.agents/skills/analisis-curricular"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [CUR-001, NOR-005, NOR-003, FTE-009, DEC-0004]
-    siguiente_accion: "Volcar criterios de evaluación, descriptores operativos y enunciados literales contra el anexo del Decreto 30/2023 publicado en BOC (TAREA-011)"
+    siguiente_accion: null
 
   TAREA-011:
     titulo: "Cotejar el anexo de Biología y Geología del Decreto 30/2023 contra la extracción inicial de CUR-001"
-    estado: "Pendiente"
+    estado: "Hecha"
     prioridad: "Alta"
     tipo: "curriculo"
     responsable: "@.agents/skills/analisis-curricular"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [CUR-001, NOR-005, FTE-009, TAREA-010, DEC-0004]
-    siguiente_accion: "Localizar el PDF/HTML oficial del anexo de Biología y Geología en BOC y volcar competencias, criterios y descriptores literales"
+    siguiente_accion: null
 
   TAREA-012:
     titulo: "Normalizar el frontmatter YAML de FTE-001 a FTE-008"

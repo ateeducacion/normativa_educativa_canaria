@@ -53,3 +53,24 @@ REL-008:
   destino: NOR-002
   fuente: FTE-016
   ruta: "05_relaciones/normativa/REL-008-lofp-relaciona-loe-lomloe.yaml"
+
+REL-009:
+  tipo_relacion: "desarrolla"
+  origen: NOR-009
+  destino: NOR-004
+  fuente: FTE-017
+  ruta: "05_relaciones/normativa/REL-009-roc-desarrolla-ley-canaria.yaml"
+
+REL-010:
+  tipo_relacion: "desarrolla"
+  origen: NOR-010
+  destino: NOR-004
+  fuente: FTE-018
+  ruta: "05_relaciones/normativa/REL-010-convivencia-desarrolla-ley-canaria.yaml"
+
+REL-011:
+  tipo_relacion: "desarrolla"
+  origen: NOR-013
+  destino: NOR-011
+  fuente: FTE-021
+  ruta: "05_relaciones/normativa/REL-011-orden-inspeccion-desarrolla-decreto.yaml"
