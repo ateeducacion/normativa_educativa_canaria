@@ -473,7 +473,7 @@ TAREA-043:
 
 TAREA-044:
   titulo: "Extraer CEs completos — Familia Administración y Gestión (CUR-048, CUR-049)"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: "@.agents/skills/experto-formacion-profesional"

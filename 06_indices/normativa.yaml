@@ -149,19 +149,19 @@ NOR-010:
   etapas_afectadas: [todas]
 
 NOR-011:
-  titulo: "Orden de 20 de mayo de 2009, por la que se regula la organización y funcionamiento de las residencias escolares dependientes de la Comunidad Autónoma de Canarias"
-  nombre_corto: "Funcionamiento Residencias (Canarias)"
-  tipo_norma: "orden-autonomica"
+  titulo: "Decreto 52/2009, de 12 de mayo, por el que se aprueba el Reglamento de la Inspección de Educación de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Reglamento Inspección (Canarias)"
+  tipo_norma: "decreto-autonomico"
   ambito: "canarias"
   estado_vigencia: "Vigente"
-  fecha_disposicion: 2009-05-20
-  fecha_publicacion: 2009-05-27
-  fecha_entrada_vigor: 2009-05-28
+  fecha_disposicion: 2009-05-12
+  fecha_publicacion: 2009-05-20
+  fecha_entrada_vigor: 2009-05-21
   fecha_consulta: 2026-04-26
-  fuente_principal: FTE-019
-  ruta: "02_normativa/canarias/ordenes/NOR-011-orden-20-mayo-2009-residencias.md"
-  temas: [centros, residencias, organizacion]
-  etapas_afectadas: [primaria, eso, bachillerato, formacion-profesional]
+  fuente_principal: FTE-013
+  ruta: "02_normativa/canarias/decretos/NOR-011-decreto-52-2009-inspeccion.md"
+  temas: [inspeccion, organizacion, centros]
+  etapas_afectadas: [todas]
 
 NOR-012:
   titulo: "Decreto 112/2011, de 11 de mayo, por el que se aprueba el Reglamento Orgánico de los Centros Integrados de Formación Profesional"
@@ -174,7 +174,7 @@ NOR-012:
   fecha_entrada_vigor: 2011-05-31
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-020
-  ruta: "02_normativa/canarias/decretos/NOR-012-decreto-112-2011-cifp.md"
+  ruta: "02_normativa/canarias/decretos/NOR-012-decreto-112-2011-roc-cifp.md"
   temas: [formacion-profesional, organizacion, centros]
   etapas_afectadas: [formacion-profesional]
 
