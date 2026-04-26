@@ -37,4 +37,5 @@ Es el marco autonómico general para el sistema educativo canario.
 
 ## Observaciones
 
-[PENDIENTE] Completar en futuras revisiones la fuente autonómica consolidada equivalente si procede.
+- **Consolidación Autonómica (JURISCAN):** [Ficha de la Ley 6/2014 en Juriscan](https://www.gobiernodecanarias.org/juriscan/ficha.jsp?id=63969)
+- **BOC Original:** [BOC 2014/152](http://www.gobiernodecanarias.org/boc/2014/152/002.html)

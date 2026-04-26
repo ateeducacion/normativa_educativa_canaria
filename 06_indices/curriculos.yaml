@@ -489,8 +489,8 @@ CUR-046:
   norma_base: NOR-051
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/sanidad/CUR-046-cuidados-auxiliares-de-enfermeria.yaml"
-  estado_extraccion: "pendiente"
-  observaciones: "Placeholder creado en TAREA-037. RD 1538/1995 (LOGSE). Referencia BOE pendiente de verificación."
+  estado_extraccion: "parcial"
+  observaciones: "Módulos extraídos en TAREA-038 (2026-04-26): 8 módulos, 1.400h. Discrepancia RD: ver PREG-005. RAs y CEs pendientes."
 
 CUR-047:
   titulo: "Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear — FP Canarias"
@@ -501,8 +501,8 @@ CUR-047:
   norma_base: NOR-052
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/sanidad/CUR-047-imagen-para-el-diagnostico-y-medicina-nuclear.yaml"
-  estado_extraccion: "pendiente"
-  observaciones: "Placeholder creado en TAREA-037. RD 772/2014. Referencia BOE-A pendiente de verificación."
+  estado_extraccion: "parcial"
+  observaciones: "Módulos extraídos en TAREA-038 (2026-04-26): 14 módulos, 2.000h / 120 ECTS. Discrepancia RD: ver PREG-005. RAs y CEs pendientes."
 
 CUR-048:
   titulo: "Técnico en Gestión Administrativa — FP Canarias"

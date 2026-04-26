@@ -8,17 +8,71 @@ ambito: null
 cursos: ["1.º", "2.º"]
 norma_base: NOR-052
 fuente: FTE-054
-url_oficial: "[PENDIENTE: verificar URL BOE del RD 772/2014]"
+url_oficial: "[PENDIENTE: discrepancia RD — ver PREG-005 y NOR-052]"
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_extraccion: "pendiente"
+estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
-  resultados_aprendizaje: []
-  criterios_evaluacion: []
-  contenidos: []
+  modulos_profesionales:
+    - codigo: "1345"
+      nombre: "Atención al paciente"
+      horas_totales: 80
+      ects: 9
+    - codigo: "1346"
+      nombre: "Fundamentos físicos y equipos"
+      horas_totales: 135
+      ects: 13
+    - codigo: "1347"
+      nombre: "Anatomía por la imagen"
+      horas_totales: 135
+      ects: 13
+    - codigo: "1348"
+      nombre: "Protección radiológica"
+      horas_totales: 80
+      ects: 9
+    - codigo: "1349"
+      nombre: "Técnicas de radiología simple"
+      horas_totales: 65
+      ects: 8
+    - codigo: "1350"
+      nombre: "Técnicas de radiología especial"
+      horas_totales: 50
+      ects: 6
+    - codigo: "1351"
+      nombre: "Técnicas de tomografía computarizada y ecografía"
+      horas_totales: 60
+      ects: 7
+    - codigo: "1352"
+      nombre: "Técnicas de imagen por resonancia magnética"
+      horas_totales: 55
+      ects: 6
+    - codigo: "1353"
+      nombre: "Técnicas de imagen en medicina nuclear"
+      horas_totales: 60
+      ects: 7
+    - codigo: "1354"
+      nombre: "Técnicas de radiofarmacia"
+      horas_totales: 50
+      ects: 6
+    - codigo: "1355"
+      nombre: "Proyecto de imagen para el diagnóstico y medicina nuclear"
+      horas_totales: 25
+      ects: 5
+    - codigo: "1356"
+      nombre: "Formación y orientación laboral"
+      horas_totales: 50
+      ects: 5
+    - codigo: "1357"
+      nombre: "Empresa e iniciativa emprendedora"
+      horas_totales: 35
+      ects: 4
+    - codigo: "1358"
+      nombre: "Formación en centros de trabajo"
+      horas_totales: 220
+      ects: 22
 relaciones:
   desarrolla_a: [NOR-052]
   relacionada_con: [NOR-007]
-resumen_ia: "[PENDIENTE: completar tras extraer RA y criterios del RD 772/2014]"
-observaciones: "Ficha placeholder creada en TAREA-037 (2026-04-26). Referencia BOE-A del RD 772/2014 pendiente de verificación (posible BOE-A-2014-10067). Extracción pendiente para una fase posterior."
+resumen_ia: "Ciclo formativo de Grado Superior de la familia Sanidad. Contiene 14 módulos profesionales (incluyendo FCT y proyecto) con una duración total de 2.000 horas (120 ECTS). Los módulos cubren radiodiagnóstico, TC, ecografía, RM, medicina nuclear, radiofarmacia y protección radiológica. Este resumen no sustituye la fuente oficial."
+observaciones: "Módulos extraídos el 2026-04-26. AVISO: el número de RD catalogado en NOR-052 (772/2014) puede ser incorrecto — el agente encontró que BOE-A-2014-10067 corresponde al RD 770/2014, y que RD 772/2014 corresponde a Radioterapia y Dosimetría. Ver PREG-005 y NOR-052 para aclaración. Estado parcial: módulos con horas y ECTS; resultados de aprendizaje y criterios de evaluación completos pendientes para fase posterior. Placeholder creado en TAREA-037."

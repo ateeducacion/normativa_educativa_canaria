@@ -8,17 +8,39 @@ ambito: null
 cursos: ["1.º", "2.º"]
 norma_base: NOR-051
 fuente: FTE-054
-url_oficial: "[PENDIENTE: verificar URL BOE del RD 1538/1995]"
+url_oficial: "[PENDIENTE: discrepancia RD — ver PREG-005 y NOR-051]"
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_extraccion: "pendiente"
+estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
-  resultados_aprendizaje: []
-  criterios_evaluacion: []
-  contenidos: []
+  modulos_profesionales:
+    - codigo: "M01"
+      nombre: "Operaciones administrativas y documentación sanitaria"
+      horas_totales: 65
+    - codigo: "M02"
+      nombre: "Técnicas básicas de enfermería"
+      horas_totales: 350
+    - codigo: "M03"
+      nombre: "Higiene del medio hospitalario y limpieza de material"
+      horas_totales: 155
+    - codigo: "M04"
+      nombre: "Promoción de la salud y apoyo psicológico al paciente"
+      horas_totales: 130
+    - codigo: "M05"
+      nombre: "Técnicas de ayuda odontológica/estomatológica"
+      horas_totales: 130
+    - codigo: "M06"
+      nombre: "Relaciones en el equipo de trabajo"
+      horas_totales: 65
+    - codigo: "M07"
+      nombre: "Formación y orientación laboral"
+      horas_totales: 65
+    - codigo: "FCT"
+      nombre: "Formación en centros de trabajo"
+      horas_totales: 440
 relaciones:
   desarrolla_a: [NOR-051]
   relacionada_con: [NOR-007]
-resumen_ia: "[PENDIENTE: completar tras extraer RA y criterios del RD 1538/1995]"
-observaciones: "Ficha placeholder creada en TAREA-037 (2026-04-26). RD de época LOGSE pendiente de actualización bajo LOFP. Extracción de módulos profesionales y resultados de aprendizaje pendiente para una fase posterior."
+resumen_ia: "Ciclo formativo de Grado Medio de la familia Sanidad. Contiene 8 módulos profesionales (incluyendo FCT) con una duración total de 1.400 horas. Regulado bajo el marco LOGSE — emplea capacidades terminales en lugar de resultados de aprendizaje LOE. Los módulos cubren técnicas básicas de enfermería, higiene hospitalaria, documentación sanitaria, promoción de la salud y técnicas odontológicas. Este resumen no sustituye la fuente oficial."
+observaciones: "Módulos extraídos el 2026-04-26. AVISO: el número de RD catalogado en NOR-051 (1538/1995) puede ser incorrecto — el RD que establece el título en el BOE podría ser el 546/1995. Ver PREG-005 y NOR-051 para aclaración. Estado parcial: módulos con horas totales; capacidades terminales y criterios de evaluación completos pendientes para fase posterior. Placeholder creado en TAREA-037."

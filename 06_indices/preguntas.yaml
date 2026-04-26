@@ -28,3 +28,11 @@ PREG-004:
   fecha_resolucion: 2026-04-26
   relacionadas: [NOR-007, NOR-059, FTE-055]
   ruta: "08_tareas/preguntas/PREG-004-verificacion-resoluciones-fp-2024-2025.md"
+
+PREG-005:
+  titulo: "Discrepancia en números de RD de ciclos de Sanidad (NOR-051 y NOR-052)"
+  estado: "Abierta"
+  fecha_registro: 2026-04-26
+  fecha_resolucion: null
+  relacionadas: [NOR-051, NOR-052, CUR-046, CUR-047, TAREA-038]
+  ruta: "08_tareas/preguntas/PREG-005-discrepancia-rd-sanidad-nor-051-nor-052.md"

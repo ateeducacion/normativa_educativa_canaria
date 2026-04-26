@@ -5,10 +5,10 @@ nombre_corto: "RD 772/2014 — T.S. Imagen para el Diagnóstico y Medicina Nucle
 tipo_norma: "real-decreto"
 ambito: "estatal"
 organismo_emisor: "Ministerio de Educación, Cultura y Deporte"
-fecha_publicacion: "[PENDIENTE: verificar fecha BOE — septiembre/octubre 2014]"
+fecha_publicacion: "[PENDIENTE: discrepancia — ver PREG-005]"
 fecha_entrada_vigor: "[PENDIENTE: verificar]"
-boe_referencia: "[PENDIENTE: verificar — posible BOE-A-2014-10067 pero no confirmado]"
-url_oficial: "[PENDIENTE: verificar URL BOE]"
+boe_referencia: "[PENDIENTE: discrepancia — BOE-A-2014-10067 es RD 770/2014; RD 772/2014 puede ser BOE-A-2014-10069 (Radioterapia) — ver PREG-005]"
+url_oficial: "[PENDIENTE: verificar — ver PREG-005]"
 estado_vigencia: "Vigente"
 fuente_principal: FTE-054
 fecha_consulta: 2026-04-26
@@ -43,7 +43,7 @@ Las comunidades autónomas completan el currículo dentro de los márgenes estab
 
 ## Notas
 
-- El RD 772/2014 procede del catálogo todofp.es. La referencia BOE-A está pendiente de verificación directa (posible conflicto con BOE-A-2014-10067 que podría corresponder a otro RD de la misma serie). Ver TAREA-037.
+- Verificación BOE realizada el 2026-04-26: BOE-A-2014-10067 corresponde al RD 770/2014 (no 772/2014) publicado el 4 de octubre de 2014 en BOE núm. 241. El nombre del archivo NOR usa el número 772/2014, pero el RD correcto es el 770/2014. El RD 772/2014 (BOE-A-2014-10069) corresponde al título de Radioterapia y Dosimetría. Pendiente de corrección del número de RD en esta ficha NOR. Ver TAREA-038.
 
 ## Fuentes
 

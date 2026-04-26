@@ -416,14 +416,14 @@ tareas:
 
   TAREA-038:
     titulo: "Extraer módulos profesionales FP — Familia Sanidad (CUR-046, CUR-047)"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: "@.agents/skills/experto-formacion-profesional"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
-    relacionadas: [NOR-051, NOR-052, CUR-046, CUR-047]
-    siguiente_accion: "Extraer módulos de RD 1538/1995 y RD 772/2014 desde BOE."
+    relacionadas: [NOR-051, NOR-052, CUR-046, CUR-047, PREG-005]
+    siguiente_accion: null
 
   TAREA-039:
     titulo: "Extraer módulos profesionales FP — Familia Administración y Gestión (CUR-048, CUR-049)"
