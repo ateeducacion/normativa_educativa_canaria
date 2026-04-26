@@ -11,14 +11,79 @@ fuente: FTE-054
 url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19533"
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_extraccion: "pendiente"
+estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
-  resultados_aprendizaje: []
-  criterios_evaluacion: []
-  contenidos: []
+  modulos_profesionales:
+    - codigo: "0647"
+      nombre: "Gestión de la documentación jurídica y empresarial"
+      horas_totales: 50
+      ects: 6
+    - codigo: "0648"
+      nombre: "Recursos humanos y responsabilidad social corporativa"
+      horas_totales: 50
+      ects: 6
+    - codigo: "0649"
+      nombre: "Ofimática y proceso de la información"
+      horas_totales: 115
+      ects: 12
+    - codigo: "0650"
+      nombre: "Proceso integral de la actividad comercial"
+      horas_totales: 100
+      ects: 11
+    - codigo: "0651"
+      nombre: "Comunicación y atención al cliente"
+      horas_totales: 115
+      ects: 12
+    - codigo: "0179"
+      nombre: "Inglés"
+      horas_totales: 70
+      ects: 7
+    - codigo: "0652"
+      nombre: "Gestión de recursos humanos"
+      horas_totales: 50
+      ects: 6
+    - codigo: "0653"
+      nombre: "Gestión financiera"
+      horas_totales: 65
+      ects: 7
+    - codigo: "0654"
+      nombre: "Contabilidad y fiscalidad"
+      horas_totales: 65
+      ects: 7
+    - codigo: "0655"
+      nombre: "Gestión logística y comercial"
+      horas_totales: 50
+      ects: 6
+    - codigo: "0656"
+      nombre: "Simulación empresarial"
+      horas_totales: 75
+      ects: 8
+    - codigo: "0657"
+      nombre: "Proyecto de administración y finanzas"
+      horas_totales: 25
+      ects: 5
+    - codigo: "0658"
+      nombre: "Formación y orientación laboral"
+      horas_totales: 50
+      ects: 5
+    - codigo: "0660"
+      nombre: "Formación en centros de trabajo"
+      horas_totales: 220
+      ects: 22
 relaciones:
   desarrolla_a: [NOR-054]
   relacionada_con: [NOR-007, CUR-048]
-resumen_ia: "[PENDIENTE: completar tras extraer RA y criterios del RD 1584/2011]"
-observaciones: "Ficha placeholder creada en TAREA-037 (2026-04-26). Extracción de módulos profesionales y resultados de aprendizaje pendiente para una fase posterior."
+resumen_ia: >
+  Ciclo formativo de Grado Superior de Técnico Superior en Administración y Finanzas, regulado por
+  el RD 1584/2011 (BOE-A-2011-19533). Duración total: 2.000 horas. Comprende 14 módulos
+  profesionales que cubren documentación jurídica y empresarial, recursos humanos, ofimática,
+  actividad comercial, comunicación, Inglés, gestión financiera, contabilidad y fiscalidad, logística
+  comercial, simulación empresarial, proyecto integrador y FCT. Fuente: BOE-A-2011-19533.
+  Este resumen no sustituye la fuente oficial.
+observaciones: >
+  Extracción parcial completada el 2026-04-26 a partir del HTML del BOE (BOE-A-2011-19533,
+  RD 1584/2011). Se han extraído los 14 módulos con nombre, código, horas totales y créditos ECTS.
+  Los resultados de aprendizaje y criterios de evaluación completos están en el Anexo I del RD pero
+  no se han volcado en esta fase; quedan como [PENDIENTE] para una extracción posterior. Nota: el RD
+  fue modificado por RD 500/2024 (BOE-A-2024-10685); conviene verificar si afecta a los módulos.

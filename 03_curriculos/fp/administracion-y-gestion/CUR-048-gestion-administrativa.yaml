@@ -11,14 +11,58 @@ fuente: FTE-054
 url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-19148"
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_extraccion: "pendiente"
+estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
-  resultados_aprendizaje: []
-  criterios_evaluacion: []
-  contenidos: []
+  modulos_profesionales:
+    - codigo: "0437"
+      nombre: "Comunicación empresarial y atención al cliente"
+      horas_totales: 70
+    - codigo: "0438"
+      nombre: "Operaciones administrativas de compra-venta"
+      horas_totales: 70
+    - codigo: "0439"
+      nombre: "Empresa y Administración"
+      horas_totales: 60
+    - codigo: "0440"
+      nombre: "Tratamiento informático de la información"
+      horas_totales: 180
+    - codigo: "0441"
+      nombre: "Técnica contable"
+      horas_totales: 55
+    - codigo: "0442"
+      nombre: "Operaciones administrativas de recursos humanos"
+      horas_totales: 70
+    - codigo: "0443"
+      nombre: "Tratamiento de la documentación contable"
+      horas_totales: 60
+    - codigo: "0444"
+      nombre: "Inglés"
+      horas_totales: 50
+    - codigo: "0446"
+      nombre: "Empresa en el aula"
+      horas_totales: 90
+    - codigo: "0448"
+      nombre: "Operaciones auxiliares de gestión de tesorería"
+      horas_totales: 85
+    - codigo: "0449"
+      nombre: "Formación y orientación laboral"
+      horas_totales: 50
+    - codigo: "0451"
+      nombre: "Formación en centros de trabajo"
+      horas_totales: 220
 relaciones:
   desarrolla_a: [NOR-053]
   relacionada_con: [NOR-007, CUR-049]
-resumen_ia: "[PENDIENTE: completar tras extraer RA y criterios del RD 1631/2009]"
-observaciones: "Ficha placeholder creada en TAREA-037 (2026-04-26). Extracción de módulos profesionales y resultados de aprendizaje pendiente para una fase posterior."
+resumen_ia: >
+  Ciclo formativo de Grado Medio de Técnico en Gestión Administrativa, regulado por el RD 1631/2009
+  (BOE-A-2009-19148). Duración total: 2.000 horas. Comprende 12 módulos profesionales que abarcan
+  comunicación empresarial, operaciones de compra-venta, tratamiento informático, contabilidad,
+  recursos humanos, tesorería, Inglés, simulación empresarial («Empresa en el aula») y FCT.
+  Fuente: BOE-A-2009-19148. Este resumen no sustituye la fuente oficial.
+observaciones: >
+  Extracción parcial completada el 2026-04-26 a partir del HTML del BOE (BOE-A-2009-19148,
+  RD 1631/2009). Se han extraído los 12 módulos con nombre, código y horas totales. Los resultados
+  de aprendizaje y criterios de evaluación completos están en el Anexo I del RD pero no se han
+  volcado en esta fase; quedan como [PENDIENTE] para una extracción posterior. Nota: el RD fue
+  modificado por RD 499/2024 (BOE-A-2024-10684); conviene verificar si afecta a los módulos.

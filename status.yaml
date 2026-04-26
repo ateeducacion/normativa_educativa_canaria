@@ -427,14 +427,14 @@ tareas:
 
   TAREA-039:
     titulo: "Extraer módulos profesionales FP — Familia Administración y Gestión (CUR-048, CUR-049)"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: "@.agents/skills/experto-formacion-profesional"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [NOR-053, NOR-054, CUR-048, CUR-049]
-    siguiente_accion: "Extraer módulos de RD 1631/2009 y RD 1584/2011 desde BOE."
+    siguiente_accion: null
 
   TAREA-040:
     titulo: "Extraer módulos profesionales FP — Familia Informática y Comunicaciones (CUR-050, CUR-051)"

@@ -418,7 +418,7 @@ TAREA-038:
 
 TAREA-039:
   titulo: "Extraer módulos profesionales FP — Familia Administración y Gestión (CUR-048, CUR-049)"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: "@.agents/skills/experto-formacion-profesional"

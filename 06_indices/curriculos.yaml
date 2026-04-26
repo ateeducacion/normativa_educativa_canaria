@@ -513,8 +513,8 @@ CUR-048:
   norma_base: NOR-053
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/administracion-y-gestion/CUR-048-gestion-administrativa.yaml"
-  estado_extraccion: "pendiente"
-  observaciones: "Placeholder creado en TAREA-037. RD 1631/2009, BOE-A-2009-19148."
+  estado_extraccion: "parcial"
+  observaciones: "12 módulos extraídos (código, nombre, horas) desde BOE-A-2009-19148 en TAREA-039 (2026-04-26). RAs y CEs pendientes."
 
 CUR-049:
   titulo: "Técnico Superior en Administración y Finanzas — FP Canarias"
@@ -525,8 +525,8 @@ CUR-049:
   norma_base: NOR-054
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/administracion-y-gestion/CUR-049-administracion-y-finanzas.yaml"
-  estado_extraccion: "pendiente"
-  observaciones: "Placeholder creado en TAREA-037. RD 1584/2011, BOE-A-2011-19533."
+  estado_extraccion: "parcial"
+  observaciones: "14 módulos extraídos (código, nombre, horas, ECTS) desde BOE-A-2011-19533 en TAREA-039 (2026-04-26). RAs y CEs pendientes."
 
 CUR-050:
   titulo: "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) — FP Canarias"
