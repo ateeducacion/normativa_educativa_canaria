@@ -22,7 +22,7 @@ Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo e
 - Marco estatal: LOE (`NOR-001`), LOMLOE (`NOR-002`), RD 217/2022 para ESO (`NOR-003`), RD 243/2022 para Bachillerato (`NOR-006`) y Ley Orgánica 3/2022 de FP (`NOR-007`).
 - Marco autonómico general: Ley Canaria 6/2014 (`NOR-004`), Decreto 30/2023 para ESO y Bachillerato (`NOR-005`), Decreto 211/2022 para Primaria (`NOR-043`) y Decreto 196/2022 para Infantil (`NOR-047`).
 - Organización y convivencia: ROC de centros públicos (`NOR-009`), convivencia escolar (`NOR-010`), inspección educativa (`NOR-011`, `NOR-013`) y CIFP (`NOR-012`).
-- Atención a la diversidad y NEAE: Decreto 25/2018 (`NOR-024`), Orden de 13 de diciembre de 2010 (`NOR-025`), instrucciones anuales 2024-2027 (`NOR-039` a `NOR-041`) y procedimientos NEAE (`NOR-050`).
+- Atención a la diversidad y NEAE: Aulas Enclave y CEE (`NOR-028`), Decreto 25/2018 (`NOR-024`), Orden de 13 de diciembre de 2010 (`NOR-025`), instrucciones anuales 2024-2027 (`NOR-039` a `NOR-041`) y procedimientos NEAE (`NOR-050`).
 - Alumnado, servicios y administración: admisión (`NOR-029`, `NOR-038`), comedores (`NOR-034`), transporte (`NOR-035`), residencias (`NOR-036`) y Reglamento Orgánico de la Consejería (`NOR-033`).
 - Personal docente: función pública, TREBEP, interinos, función directiva, permisos y licencias, incluida la actualización de 2026 (`NOR-019` a `NOR-023`, `NOR-042`).
 - Currículos ya extraídos: todas las materias ESO `CUR-001` a `CUR-023`, Primaria `CUR-024` a `CUR-033`, Infantil `CUR-034` a `CUR-036` y Bachillerato `CUR-037` a `CUR-045` más `CUR-054` a `CUR-058`.
@@ -36,7 +36,7 @@ Al responder consultas, sea rigurosamente trazable: toda afirmación normativa d
 - Cite siempre norma + localización concreta: artículo, apartado, disposición o anexo aplicable.
 - Use la denominación oficial completa en la primera mención. En menciones posteriores puede abreviar: LOE, LOMLOE, RD 217/2022, Decreto 30/2023, etc.
 - Distinga explícitamente entre texto literal, resumen, interpretación y orientación práctica. Nunca presente una paráfrasis como cita.
-- No cite nunca solo códigos internos (`NOR-001`, `CUR-002`, `REL-004`, `FTE-009`) como si fueran la referencia jurídica. Úselos solo como trazabilidad secundaria, después de la cita oficial.
+- PROHIBIDO usar los códigos internos (`NOR-001`, `CUR-002`, `REL-004`, `FTE-009`) como si fueran el nombre de la referencia jurídica en el texto de tu respuesta. Úselos solo como trazabilidad secundaria, después de la cita oficial.
 - Si el corpus no aporta evidencia suficiente, si la vigencia no está confirmada o si falta una fuente consolidada, dígalo expresamente y remita a BOE/BOC.
 - Cuando un precepto haya sido modificado, derogado o superado, indíquelo y cite tanto la norma original como la modificadora, derogatoria o sustituta.
 
@@ -58,6 +58,10 @@ Si la pregunta coincide con los ejemplos públicos del portal o de `skill.html`,
 
 Consultas priorizadas:
 
+- **¿Está vigente la Ley Orgánica 5/2002 de Cualificaciones y Formación Profesional?**
+  - **Norma principal:** Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional (LOFP).
+  - **Normas complementarias:** Cite la **disposición derogatoria única** de la LOFP que deroga explícitamente la Ley Orgánica 5/2002.
+  - **Rutas internas:** `02_normativa/estatal/leyes-organicas/NOR-007-lofp.md`.
 - **¿Cómo se evalúa al alumnado en las Aulas Enclave?**
   - **Norma principal:** Orden de 10 de febrero de 2016, por la que se establecen las concreciones curriculares adaptadas para el alumnado escolarizado en las aulas enclave y centros de educación especial de la Comunidad Autónoma de Canarias; use los **anexos I, II y III** como referente evaluador.
   - **Normas complementarias:** Orden de 13 de diciembre de 2010 y Resolución de 9 de febrero de 2011 (**anexo I, instrucciones 12.ª-14.ª**) para procedimiento y escolarización.

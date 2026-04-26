@@ -86,7 +86,7 @@ Marco estatal y autonómico básico:
 - Centros, organización, funcionamiento, convivencia e inspección: `NOR-009` a `NOR-013`.
 - Formación Profesional: `NOR-008`, `NOR-014` a `NOR-016` y relaciones con `NOR-007`.
 - Función pública, personal docente, interinos, dirección, permisos y licencias: `NOR-019` a `NOR-023`, `NOR-042`.
-- Atención a la diversidad, NEAE, admisión y alumnado: `NOR-024` a `NOR-030`, `NOR-037` a `NOR-041`, `NOR-050`.
+- Atención a la diversidad, NEAE, admisión y alumnado: Aulas Enclave y CEE (`NOR-028`), `NOR-024` a `NOR-030`, `NOR-037` a `NOR-041`, `NOR-050`.
 - Marco administrativo, igualdad, menores, comedores, transporte y residencias: `NOR-031` a `NOR-036`.
 - Primaria: currículo (`NOR-043`), evaluación/promoción (`NOR-044`), rúbricas (`NOR-045`) e instrucciones de organización y funcionamiento (`NOR-046`).
 - Infantil: currículo (`NOR-047`), evaluación (`NOR-048`) e instrucciones de organización y funcionamiento (`NOR-049`).
