@@ -11,7 +11,7 @@ fuente: FTE-054
 url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-8067"
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_extraccion: "parcial"
+estado_extraccion: "completado"
 estado_vigencia: "Vigente"
 elementos:
   modulos_profesionales:
@@ -878,42 +878,137 @@ elementos:
             - "f) Se han determinado los requisitos y condiciones para la vigilancia de la salud del trabajador y su importancia como medida de prevención."
     - codigo: "0494"
       nombre: "Empresa e Iniciativa Emprendedora"
-      horas_totales: 60
+      horas_totales: 35
       creditos_ects: 4
       resultados_aprendizaje:
         - numero: 1
-          enunciado: "Desarrolla su espíritu emprendedor identificando las capacidades asociadas al mismo y definiendo ideas emprendedoras caracterizadas por la innovación y la creatividad."
+          enunciado: "Reconoce las capacidades asociadas a la iniciativa emprendedora, analizando los requerimientos derivados de los puestos de trabajo y de las actividades empresariales."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-8067]"
+            - "a) Se ha identificado el concepto de innovación y su relación con el progreso de la sociedad y el aumento en el bienestar de los individuos."
+            - "b) Se ha analizado el concepto de cultura emprendedora y su importancia como fuente de creación de empleo y bienestar social."
+            - "c) Se ha valorado la importancia de la iniciativa individual, la creatividad, la formación y la colaboración como requisitos indispensables para tener éxito en la actividad emprendedora."
+            - "d) Se ha analizado la capacidad de iniciativa en el trabajo de una persona empleada en una pyme dedicada al desarrollo de aplicaciones multiplataforma."
+            - "e) Se ha analizado el desarrollo de la actividad emprendedora de un empresario que se inicie en el sector de la informática."
+            - "f) Se ha analizado el concepto de riesgo como elemento inevitable de toda actividad emprendedora."
+            - "g) Se ha analizado el concepto de empresario y los requisitos y actitudes necesarios para desarrollar la actividad empresarial."
+            - "h) Se ha descrito la estrategia empresarial relacionándola con los objetivos de la empresa."
+            - "i) Se ha definido una determinada idea de negocio del ámbito del desarrollo de aplicaciones multiplataforma, que servirá de punto de partida para la elaboración de un plan de empresa."
         - numero: 2
-          enunciado: "Decide la oportunidad de creación de una pequeña empresa para el desarrollo de la actividad emprendedora, analizando el mercado y valorando formas de inserción."
+          enunciado: "Define la oportunidad de creación de una pequeña empresa, valorando el impacto sobre el entorno de actuación e incorporando valores éticos."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-8067]"
+            - "a) Se han descrito las funciones básicas que se realizan en una empresa y se ha analizado el concepto de sistema aplicado a la empresa."
+            - "b) Se han identificado los principales componentes del entorno general que rodea a la empresa, en especial el entorno económico, social, demográfico y cultural."
+            - "c) Se ha analizado la influencia en la actividad empresarial de las relaciones con los clientes, con los proveedores y con la competencia como principales integrantes del entorno específico."
+            - "d) Se han identificado los elementos del entorno de una pyme de informática."
+            - "e) Se han analizado los conceptos de cultura empresarial e imagen corporativa y su relación con los objetivos empresariales."
+            - "f) Se ha analizado el fenómeno de la responsabilidad social de las empresas y su importancia como un elemento de la estrategia empresarial."
+            - "g) Se ha elaborado el balance social de una empresa de informática, y se han descrito los principales costes sociales en que incurren estas empresas, así como los beneficios sociales que producen."
+            - "h) Se han identificado, en empresas de informática, prácticas que incorporan valores éticos y sociales."
+            - "i) Se ha llevado a cabo un estudio de viabilidad económica y financiera de una pyme de Desarrollo de aplicaciones multiplataforma."
         - numero: 3
-          enunciado: "Realiza las actividades para la constitución y puesta en marcha de una empresa determinando la forma jurídica e identificando las obligaciones legales asociadas."
+          enunciado: "Realiza actividades para la constitución y puesta en marcha de una empresa, seleccionando la forma jurídica e identificando las obligaciones legales asociadas."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-8067]"
+            - "a) Se han analizado las diferentes formas jurídicas de la empresa."
+            - "b) Se ha especificado el grado de responsabilidad legal de los propietarios de la empresa en función de la forma jurídica elegida."
+            - "c) Se ha diferenciado el tratamiento fiscal establecido para las diferentes formas jurídicas de la empresa."
+            - "d) Se han analizado los trámites exigidos por la legislación vigente para la constitución de una pyme."
+            - "e) Se ha realizado una búsqueda exhaustiva de las diferentes ayudas para la creación de empresas de informática en la localidad de referencia."
+            - "f) Se ha incluido en el plan de empresa todo lo relativo a la elección de la forma jurídica, estudio de viabilidad económico-financiera, trámites administrativos, ayudas y subvenciones."
+            - "g) Se han identificado las vías de asesoramiento y gestión administrativa externas existentes a la hora de poner en marcha una pyme."
         - numero: 4
-          enunciado: "Realiza actividades de gestión administrativa y financiera básica de una pyme, identificando las principales obligaciones contables y fiscales."
+          enunciado: "Realiza actividades de gestión administrativa y financiera de una pyme, identificando las principales obligaciones contables y fiscales y cumplimentando la documentación."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-8067]"
+            - "a) Se han analizado los conceptos básicos de contabilidad, así como las técnicas de registro de la información contable."
+            - "b) Se han descrito las técnicas básicas de análisis de la información contable, en especial en lo referente a la solvencia, liquidez y rentabilidad de la empresa."
+            - "c) Se han definido las obligaciones fiscales de una empresa de informática."
+            - "d) Se han diferenciado los tipos de impuestos en el calendario fiscal."
+            - "e) Se ha cumplimentado la documentación básica de carácter comercial y contable (facturas, albaranes, notas de pedido, letras de cambio, cheques y otros) para una pyme de informática, y se han descrito los circuitos que dicha documentación recorre en la empresa."
+            - "f) Se han identificado los principales instrumentos de financiación bancaria."
+            - "g) Se ha incluido la anterior documentación en el plan de empresa."
     - codigo: "0495"
       nombre: "Formación en Centros de Trabajo"
-      horas_totales: 360
+      horas_totales: 220
       creditos_ects: 22
       resultados_aprendizaje:
         - numero: 1
-          enunciado: "Identifica la estructura y organización de la empresa relacionándola con la producción y comercialización de los productos y servicios que ofrece."
+          enunciado: "Identifica la estructura y organización de la empresa relacionándola con el desarrollo y comercialización de los productos que obtiene."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-8067]"
+            - "a) Se ha identificado la estructura organizativa de la empresa y las funciones de cada área de la misma."
+            - "b) Se han reconocido las relaciones organizativas y funcionales del departamento de control de calidad con los demás departamentos de la empresa."
+            - "c) Se han identificado los elementos que constituyen la red logística de la empresa: proveedores, clientes, sistemas de producción, almacenaje y otros."
+            - "d) Se han identificado los procedimientos de trabajo en el desarrollo del proceso productivo."
+            - "e) Se han relacionado las competencias profesionales, personales y sociales de los recursos humanos con el desarrollo de la actividad productiva."
+            - "f) Se han relacionado características del mercado, tipos de clientes y proveedores y su posible influencia en el desarrollo de la actividad empresarial."
+            - "g) Se han identificado los canales de comercialización más frecuentes en esta actividad."
+            - "h) Se han valorado las ventajas e inconvenientes de la estructura de la empresa frente a otro tipo de organizaciones empresariales."
         - numero: 2
-          enunciado: "Aplica hábitos éticos y laborales en el desarrollo de su actividad profesional de acuerdo con las características del puesto de trabajo y con los procedimientos establecidos por la empresa."
+          enunciado: "Ejerce la actividad profesional aplicando hábitos éticos y laborales acordes con las características del puesto de trabajo y los procedimientos establecidos en la empresa."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-8067]"
+            - "a) Se han reconocido y justificado: la disposición personal y temporal que necesita el puesto de trabajo; las actitudes personales (puntualidad, empatía, entre otras) y profesionales (orden, seguridad e higiene en el puesto de trabajo, responsabilidad, entre otras); los requerimientos actitudinales ante la prevención de riesgos en la actividad profesional y las medidas de protección personal; los requerimientos actitudinales referidos a la calidad en la actividad profesional; la dinámica relacional con respecto al equipo de trabajo y a la estructura jerárquica establecida en la empresa; las actitudes relacionadas con la documentación de las actividades realizadas en el ámbito laboral; las necesidades formativas específicas para la inserción y reinserción laboral."
+            - "b) Se han identificado las normas de prevención de riesgos laborales que hay que aplicar en la actividad profesional y los aspectos fundamentales de la Ley de Prevención de Riesgos Laborales."
+            - "c) Se han utilizado equipos de protección individual adecuados a los riesgos de la actividad profesional y a las normas de la empresa."
+            - "d) Se ha mantenido una actitud clara de respeto al medio ambiente en las actividades desarrolladas y aplicado las normas internas y externas al respecto."
+            - "e) Se ha mantenido organizado, limpio y libre de obstáculos el puesto de trabajo o área correspondiente al desarrollo de la actividad."
+            - "f) Se han interpretado y cumplido las instrucciones recibidas, responsabilizándose del trabajo asignado."
+            - "g) Se ha establecido una comunicación y relación eficaz con la persona responsable en cada situación y miembros de su equipo, manteniendo un trato fluido y correcto."
+            - "h) Se ha valorado la importancia de su actividad y la adaptación a los cambios de tareas asignadas en el desarrollo de los procesos productivos de la empresa, integrándose en las nuevas funciones."
+            - "i) Se ha comprometido responsablemente en la aplicación de las normas y procedimientos en el desarrollo de cualquier actividad o tarea."
         - numero: 3
-          enunciado: "Realiza las operaciones de desarrollo de software siguiendo los procedimientos de la empresa y con la calidad definida."
+          enunciado: "Organiza los trabajos a desarrollar, identificando las tareas asignadas a partir de la planificación de proyectos e interpretando documentación específica."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-8067]"
+            - "a) Se ha interpretado la normativa o bibliografía adecuada al tipo de tarea a desarrollar."
+            - "b) Se ha reconocido en que fases del proceso o proyecto se encuadran las tareas a realizar."
+            - "c) Se ha planificado el trabajo para cada tarea, secuenciando y priorizando sus fases."
+            - "d) Se han identificado los equipos y servicios auxiliares necesarios para el desarrollo de la tarea encomendada."
+            - "e) Se ha organizado el aprovisionamiento y almacenaje de los recursos necesarios."
+            - "f) Se ha valorado el orden y el método en la realización de las tareas."
+            - "g) Se han identificado las normativas que sea preciso observar según cada tarea."
+        - numero: 4
+          enunciado: "Gestiona y utiliza sistemas informáticos y entornos de desarrollo, evaluando sus requerimientos y características en función del propósito de uso."
+          criterios_evaluacion:
+            - "a) Se ha trabajado sobre diferentes sistemas informáticos, identificando en cada caso su hardware, sistemas operativos y aplicaciones instaladas y las restricciones o condiciones específicas de uso."
+            - "b) Se ha gestionado la información en diferentes sistemas, aplicando medidas que aseguren la integridad y disponibilidad de los datos."
+            - "c) Se ha participado en la gestión de recursos en red identificando las restricciones de seguridad existentes."
+            - "d) Se han utilizado aplicaciones informáticas para elaborar, distribuir y mantener documentación técnica y de asistencia a usuarios."
+            - "e) Se han utilizado entornos de desarrollo para editar, depurar, probar y documentar código, además de generar ejecutables."
+            - "f) Se han gestionado entornos de desarrollo añadiendo y empleando complementos específicos en las distintas fases de proyectos de desarrollo."
+        - numero: 5
+          enunciado: "Participa en el desarrollo de aplicaciones con acceso a datos planificando la estructura de la base de datos y evaluando el alcance y la repercusión de las transacciones."
+          criterios_evaluacion:
+            - "a) Se ha interpretado el diseño lógico de bases de datos que aseguran la accesibilidad a los datos."
+            - "b) Se ha participado en la materialización del diseño lógico sobre algún sistema gestor de bases de datos."
+            - "c) Se han utilizado bases de datos aplicando técnicas para mantener la persistencia de la información."
+            - "d) Se han ejecutado consultas directas y procedimientos capaces de gestionar y almacenar objetos y datos de la base de datos."
+            - "e) Se han establecido conexiones con bases de datos para ejecutar consultas y recuperar los resultados en objetos de acceso a datos."
+            - "f) Se han desarrollado formularios e informes como parte de aplicaciones que gestionan de forma integral la información almacenada en una base de datos."
+            - "g) Se ha comprobado la configuración de los servicios de red para garantizar la ejecución segura de las aplicaciones Cliente-Servidor."
+            - "h) Se ha elaborado la documentación asociada a la gestión de las bases de datos empleadas y las aplicaciones desarrolladas."
+        - numero: 6
+          enunciado: "Interviene en el desarrollo de juegos, aplicaciones multimedia y aplicaciones para dispositivos móviles empleando las herramientas y lenguajes específicos y cumpliendo el guión y las especificaciones establecidas."
+          criterios_evaluacion:
+            - "a) Se ha manipulado material multimedia en múltiples formatos, analizando y utilizando librerías específicas para la conversión entre formatos y para la integración de contenidos multimedia en una aplicación."
+            - "b) Se ha participado en la preparación e integración de materiales multimedia en una aplicación, siguiendo las instrucciones del equipo de diseño."
+            - "c) Se han utilizado y gestionado entornos de desarrollo específicos para aplicaciones destinadas a dispositivos móviles, así como entornos y motores para el desarrollo de juegos."
+            - "d) Se ha colaborado en el desarrollo de aplicaciones interactivas para dispositivos móviles, basadas en el manejo de eventos y en la integración de elementos interactivos y animaciones."
+            - "e) Se ha verificado la usabilidad de las aplicaciones desarrolladas, colaborando en los cambios y medidas necesarias para cumplir los niveles exigidos."
+            - "f) Se ha participado en el desarrollo de juegos y aplicaciones en el ámbito del entretenimiento empleando distintas técnicas, motores y entornos de desarrollo."
+        - numero: 7
+          enunciado: "Colabora en el desarrollo y prueba de aplicaciones multiplataforma, desde la interfaz hasta la programación de procesos y servicios, incluyendo su empaquetado y distribución así como todas las ayudas y documentación asociadas."
+          criterios_evaluacion:
+            - "a) Se ha participado en el desarrollo de la interfaz para aplicaciones multiplataforma empleando componentes visuales estándar o definiendo componentes personalizados."
+            - "b) Se han creado ayudas generales y ayudas sensibles al contexto para las aplicaciones desarrolladas, empleando herramientas específicas."
+            - "c) Se han creado tutoriales, manuales de usuario, de instalación y de configuración de las aplicaciones desarrolladas."
+            - "d) Se han empaquetado aplicaciones para su distribución preparando paquetes auto instalables con la aplicación y todos sus elementos de ayuda y asistencia incorporados."
+            - "e) Se han aplicado técnicas de programación multihilo y mecanismos de comunicación habitualmente empleados para desarrollar aplicaciones en red, valorando su repercusión."
+            - "f) Se ha participado en la definición y elaboración de la documentación y del resto de componentes empleados en los protocolos de asistencia al usuario de la aplicación."
+        - numero: 8
+          enunciado: "Participa en el proceso de implantación y adaptación de sistemas de gestión de recursos y de planificación empresarial (ERP-CRM) analizando sus características y valorando los cambios realizados."
+          criterios_evaluacion:
+            - "a) Se ha reconocido la funcionalidad de los sistemas ERP-CRM en un supuesto empresarial real, evaluando la utilidad de cada uno de sus módulos."
+            - "b) Se ha participado en la instalación y configuración de sistemas ERP-CRM."
+            - "c) Se ha valorado y analizado el proceso de adaptación de un sistema ERP-CRM a los requerimientos de un supuesto empresarial real."
+            - "d) Se ha intervenido en la gestión de la información almacenada en sistemas ERP-CRM garantizando su integridad."
+            - "e) Se ha colaborado en el desarrollo de componentes personalizados para un sistema ERP-CRM, utilizando el lenguaje de programación proporcionado por el sistema."
 relaciones:
   desarrolla_a: [NOR-055]
   relacionada_con: [NOR-007, CUR-051]
@@ -927,9 +1022,8 @@ resumen_ia: >
   y Procesos, Sistemas de Gestión Empresarial, FOL, EIE, el Proyecto y la FCT (360 h).
   Título de la familia Informática y Comunicaciones. No sustituye a la fuente oficial.
 observaciones: >
-  Extracción parcial completada en TAREA-045 (2026-04-26). Criterios de evaluación (CEs)
+  Extracción completada en TAREA-050 (2026-04-26). Criterios de evaluación (CEs)
   extraídos del HTML oficial del BOE (BOE-A-2010-8067) para los módulos 0483, 0484, 0485,
-  0373, 0487, 0486 y 0488. El documento HTML está truncado a partir del módulo 0489
-  (Programación Multimedia y Dispositivos Móviles), por lo que los módulos 0489, 0490,
-  0491, 0492, 0493, 0494 y 0495 quedan con criterios de evaluación marcados como
-  [PENDIENTE], pendientes de extracción desde el PDF oficial del RD 450/2010.
+  0373, 0487, 0486 y 0488 (TAREA-045). Módulos 0489, 0490, 0491, 0492, 0493, 0494 y 0495
+  completados desde el texto del PDF oficial del RD 450/2010 (TAREA-050, 2026-04-26).
+  Todos los módulos tienen criterios de evaluación completos según el RD 450/2010.

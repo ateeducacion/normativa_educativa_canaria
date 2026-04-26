@@ -917,13 +917,16 @@ relaciones:
   - NOR-007
   - CUR-052
 resumen_ia: 'Ciclo formativo de Grado Superior de Técnico en Integración Social. Título establecido por RD 1074/2012
-  (NOR-060, BOE 3-ago-2012), modificado en 7 módulos por RD 289/2023 (NOR-058). Total 2000 horas. Módulos extraídos
-  con RAs y CEs completos: Contexto de la intervención social (70h), Inserción sociolaboral (115h), Atención a las unidades
-  de convivencia (80h), Mediación comunitaria (80h), Apoyo a la intervención educativa (65h), Sistemas aumentativos y
-  alternativos de comunicación (80h), Habilidades sociales (60h) — 7 módulos, 34 RAs, 249 CEs. Módulos comunes incluidos
-  con horas aproximadas [PENDIENTE verificar]: FOL (90h), EIE (60h), Primeros Auxilios (60h), FCT (370h), Proyecto (30h).
-  Total 12 módulos. Este resumen no sustituye la fuente oficial.'
+  (NOR-060, BOE-A-2012-10866, 15-ago-2012), modificado en 7 módulos por RD 289/2023 (NOR-058). Total 2000 horas.
+  Módulos específicos extraídos con RAs y CEs completos: Contexto de la intervención social (70h), Inserción sociolaboral
+  (115h), Atención a las unidades de convivencia (80h), Mediación comunitaria (80h), Apoyo a la intervención educativa
+  (65h), Sistemas aumentativos y alternativos de comunicación (80h), Habilidades sociales (60h) — 7 módulos, 34 RAs,
+  249 CEs. Módulos comunes extraídos con RAs y CEs completos de BOE-A-2012-10866: Primeros auxilios (0020, 35h, 4 RAs),
+  Proyecto de integración social (0345, 25h, 4 RAs), Formación y orientación laboral (0346, 50h, 7 RAs), Empresa e
+  iniciativa emprendedora (0347, 35h, 4 RAs), Formación en centros de trabajo (0348, 220h, 6 RAs). Total: 12 módulos,
+  365h comunes + 550h específicos + FCT 220h. Este resumen no sustituye la fuente oficial.'
 observaciones: 'TAREA-041 (2026-04-26): extraídos 7 módulos actualizados por RD 289/2023, con 34 RAs y 249 CEs.
   TAREA-043 (2026-04-26): catalogado NOR-060 (RD 1074/2012, título base). Añadidos 5 módulos comunes con horas
-  aproximadas [PENDIENTE verificar en BOE-A del RD 1074/2012]. El ciclo completo suma 12 módulos y aprox. 2000h.
-  RD 289/2023 también modifica el título de Mediación Comunicativa (no incluido aquí). Norma base: RD 1074/2012 (NOR-060).'
+  aproximadas [PENDIENTE]. TAREA-051 (2026-04-26): completados 5 módulos comunes con códigos, horas y RAs/CEs
+  verificados en BOE-A-2012-10866: 0020 Primeros auxilios (35h), 0345 Proyecto integración social (25h), 0346 FOL
+  (50h), 0347 EIE (35h), 0348 FCT (220h). Estado extracción actualizado a completo. Norma base: RD 1074/2012 (NOR-060).'

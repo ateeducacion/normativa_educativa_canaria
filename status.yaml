@@ -526,25 +526,25 @@ tareas:
 
   TAREA-048:
     titulo: "Completar RAs y CEs de CUR-047 — Imagen para el Diagnóstico y Medicina Nuclear"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: "@.agents/skills/experto-formacion-profesional"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [CUR-047, NOR-052]
-    siguiente_accion: "Extraer RAs y CEs desde BOE-A-2014-10067 (RD 770/2014)"
+    siguiente_accion: null
 
   TAREA-049:
     titulo: "Completar RAs y CEs pendientes de CUR-049 — Administración y Finanzas (2.º año)"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: "@.agents/skills/experto-formacion-profesional"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [CUR-049, NOR-054]
-    siguiente_accion: "Extraer módulos 2.º año desde BOE-A-2011-19533 (RD 1584/2011)"
+    siguiente_accion: null
 
   TAREA-050:
     titulo: "Completar CEs pendientes de CUR-050 y CUR-051 — DAM y DAW"
@@ -559,14 +559,14 @@ tareas:
 
   TAREA-051:
     titulo: "Completar módulos comunes de CUR-053 — Integración Social"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: "@.agents/skills/experto-formacion-profesional"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [CUR-053, NOR-060]
-    siguiente_accion: "Verificar horas módulos comunes en BOE-A-2012-10338 (RD 1074/2012)"
+    siguiente_accion: "Completada. 5 módulos comunes (0020, 0345, 0346, 0347, 0348) verificados en BOE-A-2012-10866."
 
   TAREA-052:
     titulo: "Extraer capacidades terminales de CUR-046 — Cuidados Auxiliares de Enfermería (LOGSE)"

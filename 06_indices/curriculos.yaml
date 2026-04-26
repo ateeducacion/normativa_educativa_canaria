@@ -501,8 +501,8 @@ CUR-047:
   norma_base: NOR-052
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/sanidad/CUR-047-imagen-para-el-diagnostico-y-medicina-nuclear.yaml"
-  estado_extraccion: "parcial"
-  observaciones: "Módulos extraídos en TAREA-038 (2026-04-26): 14 módulos, 2.000h / 120 ECTS. Discrepancia RD: ver PREG-005. RAs y CEs pendientes."
+  estado_extraccion: "completado"
+  observaciones: "14 módulos con RAs y CEs completos extraídos de BOE-A-2014-10067 en TAREA-048 (2026-04-26). RD 770/2014 verificado. Ver PREG-005 (resuelta)."
 
 CUR-048:
   titulo: "Técnico en Gestión Administrativa — FP Canarias"
@@ -525,8 +525,8 @@ CUR-049:
   norma_base: NOR-054
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/administracion-y-gestion/CUR-049-administracion-y-finanzas.yaml"
-  estado_extraccion: "parcial"
-  observaciones: "14 módulos. RAs y CEs completos para 0647-0651 (1.er año). Módulos 0179 y 0652-0660 con [PENDIENTE]: HTML del BOE truncado. Ver TAREA-044 (2026-04-26)."
+  estado_extraccion: "completado"
+  observaciones: "14 módulos. RAs y CEs completos para todos los módulos (0647-0651, 0179, 0652-0658, 0660). Extracción completada el 2026-04-26 desde /tmp/boe_1584_2011.txt (RD 1584/2011)."
 
 CUR-050:
   titulo: "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) — FP Canarias"
