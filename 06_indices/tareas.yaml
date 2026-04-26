@@ -107,3 +107,25 @@ TAREA-010:
   fecha_actualizacion: 2026-04-26
   relacionadas: [CUR-001, NOR-005, NOR-003, FTE-009, DEC-0004]
   ruta: "08_tareas/backlog/TAREA-010-iniciar-extraccion-curricular-cur-001.md"
+
+TAREA-011:
+  titulo: "Cotejar el anexo de Biología y Geología del Decreto 30/2023 contra la extracción inicial de CUR-001"
+  estado: "Pendiente"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/analisis-curricular"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-001, NOR-005, FTE-009, TAREA-010, DEC-0004]
+  ruta: "08_tareas/backlog/TAREA-011-cotejo-boc-anexo-biologia-y-geologia.md"
+
+TAREA-012:
+  titulo: "Normalizar el frontmatter YAML de FTE-001 a FTE-008"
+  estado: "Hecha"
+  prioridad: "Media"
+  tipo: "calidad-documental"
+  responsable: "@.agents/skills/control-calidad-documental"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [FTE-001, FTE-002, FTE-003, FTE-004, FTE-005, FTE-006, FTE-007, FTE-008, TAREA-008]
+  ruta: "08_tareas/backlog/TAREA-012-normalizar-frontmatter-fte-001-a-008.md"

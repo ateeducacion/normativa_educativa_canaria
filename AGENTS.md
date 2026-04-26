@@ -52,6 +52,15 @@ Todo dato normativo debe poder rastrearse hasta una fuente oficial con nombre de
 
 Usa frontmatter YAML, títulos con ID estable, secciones breves y trazables, y la advertencia de que el contenido no sustituye la fuente oficial.
 
+### 5.1 Frontmatter YAML — formato obligatorio
+
+- Las claves de primer nivel del frontmatter empiezan **en la columna 0**, sin sangría inicial. No uses 4 espacios ni tabuladores delante de `id:`, `titulo:`, etc.
+- Los bloques anidados (por ejemplo `relaciones:` en una ficha normativa) usan **dos espacios** de indentación para sus claves hijas, y todas comparten el mismo nivel.
+- Los delimitadores `---` van también en la columna 0, sin sangría. El delimitador de cierre debe coincidir con el de apertura.
+- El cuerpo Markdown que sigue al frontmatter **no debe llevar sangría inicial**: encabezados, párrafos y tablas comienzan en la columna 0.
+- Antes de subir cambios, valida que `yaml.safe_load` parsea el frontmatter sin errores.
+- Cuando crees nuevas fichas, parte siempre de la plantilla correspondiente en `10_plantillas/markdown/` o `10_plantillas/yaml/`. Si encuentras una ficha existente que no cumpla esta regla (por ejemplo con sangría heredada), normalízala junto con tu cambio o abre una `TAREA-NNN` específica.
+
 ## 6. Formato YAML
 
 Usa claves explícitas, estados controlados, arrays para relaciones múltiples y `additionalProperties: false` en schemas. Los índices se guardan como mapas por ID, no listas anónimas.
