@@ -251,13 +251,46 @@ TAREA-023:
   relacionadas: [NOR-009, NOR-010, NOR-011, NOR-012, NOR-013, NOR-019, NOR-020, NOR-021, NOR-022, NOR-023, NOR-034, NOR-035, NOR-036]
   ruta: "08_tareas/backlog/TAREA-023-completar-fichas-normativas-centros-personal.md"
 
-TAREA-025:
-  titulo: "Extracción curricular ESO: CUR-011 a CUR-014"
+TAREA-024:
+  titulo: "Extracción curricular ESO: CUR-007 a CUR-010"
   estado: "Hecha"
   prioridad: "Alta"
   tipo: "curriculo"
   responsable: "@.agents/skills/analisis-curricular"
   fecha_creacion: 2026-04-26
   fecha_actualizacion: 2026-04-26
-  relacionadas: [CUR-011, CUR-012, CUR-013, CUR-014, NOR-005, FTE-009]
-  ruta: "08_tareas/backlog/TAREA-025-extraccion-cur-011-a-014.md"
+  relacionadas: [CUR-007, CUR-008, CUR-009, CUR-010, NOR-005, FTE-009]
+  ruta: "08_tareas/backlog/TAREA-024-extraccion-cur-007-a-010.md"
+
+TAREA-025:
+  titulo: "Extracción curricular ESO: CUR-003 a CUR-006 y CUR-011 a CUR-014"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/analisis-curricular"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-003, CUR-004, CUR-005, CUR-006, CUR-011, CUR-012, CUR-013, CUR-014, NOR-005, FTE-009]
+  ruta: "08_tareas/backlog/TAREA-025-extraccion-cur-003-a-014.md"
+
+TAREA-026:
+  titulo: "Extracción curricular ESO: CUR-015 a CUR-018"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/analisis-curricular"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-015, CUR-016, CUR-017, CUR-018, NOR-005, FTE-009]
+  ruta: "08_tareas/backlog/TAREA-026-extraccion-cur-015-cur-018.md"
+
+TAREA-027:
+  titulo: "Extracción curricular ESO: CUR-019 a CUR-023"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/analisis-curricular"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-019, CUR-020, CUR-021, CUR-022, CUR-023, NOR-005, FTE-009]
+  ruta: "08_tareas/backlog/TAREA-027-extraccion-cur-019-a-cur-023.md"
