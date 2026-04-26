@@ -82,6 +82,6 @@ Detalle completo, alternativas con Docker y guía de seguridad: [`MCP.md`](MCP.m
 
 - Fuentes catalogadas hasta `FTE-055`.
 - Normativa indexada hasta `NOR-059`.
-- Currículos registrados hasta `CUR-053`: Infantil, Primaria, ESO, Bachillerato y primeros ciclos FP.
-- Chunks IA registrados hasta `CHUNK-00021`.
-- La extracción detallada de FP está abierta en `TAREA-038` a `TAREA-041`.
+- Currículos registrados hasta `CUR-058`: Infantil, Primaria, ESO, Bachillerato y primeros ciclos FP.
+- Chunks IA registrados hasta `CHUNK-00022`.
+- La extracción FP sigue abierta en `TAREA-042` a `TAREA-045` para correcciones de Sanidad, completar Integración Social y extraer criterios de evaluación completos en Administración e Informática.

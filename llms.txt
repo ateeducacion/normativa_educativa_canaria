@@ -9,11 +9,11 @@ Use este repositorio como mapa de contexto, no como sustituto de la fuente jurí
 Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo entidades registradas en `06_indices/`; no incorpora borradores locales, archivos sin seguimiento ni fichas aún no indexadas.
 
 - 55 fuentes catalogadas (`FTE-001` a `FTE-055`).
-- 57 fichas normativas indexadas (`NOR-001` a `NOR-059`, con huecos reservados/no reutilizados).
-- 53 currículos registrados (`CUR-001` a `CUR-053`): 23 de ESO, 10 de Primaria, 3 de Infantil, 9 de Bachillerato y 8 de FP.
+- 59 fichas normativas indexadas (`NOR-001` a `NOR-059`, con huecos reservados/no reutilizados).
+- 58 currículos registrados (`CUR-001` a `CUR-058`): 23 de ESO, 10 de Primaria, 3 de Infantil, 14 de Bachillerato y 8 de FP.
 - 45 relaciones normativas y curriculares (`REL-001` a `REL-048`, con huecos reservados/no reutilizados).
-- 21 chunks IA (`CHUNK-00001` a `CHUNK-00021`).
-- 41 tareas registradas; 37 hechas y 4 en progreso (`TAREA-038` a `TAREA-041`) para extracción de FP.
+- 22 chunks IA (`CHUNK-00001` a `CHUNK-00022`).
+- 45 tareas registradas; 41 hechas y 4 en progreso (`TAREA-042` a `TAREA-045`) para correcciones y extracción avanzada de FP.
 
 ## Cobertura Principal
 
@@ -23,8 +23,8 @@ Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo e
 - Atención a la diversidad y NEAE: Decreto 25/2018 (`NOR-024`), Orden de 13 de diciembre de 2010 (`NOR-025`), instrucciones anuales 2024-2027 (`NOR-039` a `NOR-041`) y procedimientos NEAE (`NOR-050`).
 - Alumnado, servicios y administración: admisión (`NOR-029`, `NOR-038`), comedores (`NOR-034`), transporte (`NOR-035`), residencias (`NOR-036`) y Reglamento Orgánico de la Consejería (`NOR-033`).
 - Personal docente: función pública, TREBEP, interinos, función directiva, permisos y licencias, incluida la actualización de 2026 (`NOR-019` a `NOR-023`, `NOR-042`).
-- Currículos ya extraídos: todas las materias ESO `CUR-001` a `CUR-023`, Primaria `CUR-024` a `CUR-033`, Infantil `CUR-034` a `CUR-036` y una primera selección de Bachillerato `CUR-037` a `CUR-045`.
-- Formación Profesional: 8 ciclos registrados como placeholders `CUR-046` a `CUR-053`, con extracción pendiente de módulos, resultados de aprendizaje y criterios de evaluación en `TAREA-038` a `TAREA-041`.
+- Currículos ya extraídos: todas las materias ESO `CUR-001` a `CUR-023`, Primaria `CUR-024` a `CUR-033`, Infantil `CUR-034` a `CUR-036` y Bachillerato `CUR-037` a `CUR-045` más `CUR-054` a `CUR-058`.
+- Formación Profesional: 8 ciclos registrados (`CUR-046` a `CUR-053`); `CUR-052` está completado y el resto figura como extracción parcial, con tareas abiertas para correcciones y criterios de evaluación completos.
 
 ## Estilo De Respuesta Y Rigor Jurídico
 

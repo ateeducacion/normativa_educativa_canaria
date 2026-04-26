@@ -1,0 +1,35 @@
+id: CUR-055
+titulo: "Historia de Canarias — 1.º Bachillerato"
+etapa: "bachillerato"
+materia: "Historia de Canarias"
+norma_base: NOR-005
+fuente: FTE-009
+competencias_especificas:
+  - id: C1
+    descripcion: "Indagación y fuentes: Seleccionar y analizar fuentes de información para reconstruir el pasado de Canarias con rigor metodológico."
+  - id: C2
+    descripcion: "Configuración histórica: Analizar diacrónicamente los procesos que han conformado la realidad canaria actual, valorando su singularidad."
+  - id: C3
+    descripcion: "Patrimonio e Identidad: Interpretar el patrimonio natural, cultural e histórico como expresión de la identidad canaria y compromiso con su conservación."
+  - id: C4
+    descripcion: "Contexto Atlántico: Comprender la posición estratégica de las islas en el Atlántico y sus vínculos históricos con Europa, África y América."
+  - id: C5
+    descripcion: "Diversidad y Ciudadanía: Valorar la pluralidad social de Canarias a lo largo del tiempo para fomentar actitudes de tolerancia e igualdad."
+bloques_saberes:
+  - id: raices-conquista
+    nombre: "I. De las raíces aborígenes al fin de la conquista"
+    descripcion: "Poblamiento, mundo simbólico, procesos de conquista y nuevo orden colonial."
+  - id: sociedad-atlantica
+    nombre: "II. La formación de una sociedad atlántica (Siglos XVI-XVIII)"
+    descripcion: "Economía de exportación, instituciones, piratería y el papel de la Iglesia."
+  - id: modernidad-contemporaneidad
+    nombre: "III. Canarias en la edad contemporánea (Siglos XIX-XXI)"
+    descripcion: "Pleito insular, desarrollo turístico, Transición, Estatuto de Autonomía y retos del siglo XXI."
+criterios_evaluacion:
+  - id: 1.1
+    texto: "Contrastar diversas fuentes históricas para analizar hechos relevantes de la historia de Canarias."
+  - id: 3.2
+    texto: "Identificar y valorar elementos del patrimonio arqueológico y cultural canario en su contexto."
+  - id: 4.1
+    texto: "Explicar las relaciones de Canarias con el entorno tricontinental (América, África, Europa)."
+observaciones: "Materia optativa de oferta obligatoria en 1.º de Bachillerato en Canarias. Extracción literal Decreto 30/2023."

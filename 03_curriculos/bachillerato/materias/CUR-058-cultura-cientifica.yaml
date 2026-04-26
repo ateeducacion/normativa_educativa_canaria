@@ -1,0 +1,35 @@
+id: CUR-058
+titulo: "Cultura Científica — 1.º Bachillerato"
+etapa: "bachillerato"
+materia: "Cultura Científica"
+norma_base: NOR-005
+fuente: FTE-009
+competencias_especificas:
+  - id: C1
+    descripcion: "Gestión de información científica: Utilizar fuentes fiables para obtener y organizar conocimiento, distinguiendo ciencia de pseudociencia."
+  - id: C2
+    descripcion: "Análisis de retos actuales: Evaluar problemas científicos, ambientales y éticos de la sociedad contemporánea con razonamiento crítico."
+  - id: C3
+    descripcion: "Trabajo científico: Aplicar estrategias de investigación y experimentación para resolver problemas y comunicar resultados."
+  - id: C4
+    descripcion: "Naturaleza de la ciencia: Reconocer la ciencia como un proceso dinámico y su papel en el progreso y la calidad de vida de la humanidad."
+  - id: C5
+    descripcion: "Hábitos saludables y sostenibilidad: Adoptar conductas basadas en la ciencia para el bienestar personal y el cuidado del medio canario."
+bloques_saberes:
+  - id: cultura-cientifica-base
+    nombre: "I. Cultura científica y sociedad"
+    descripcion: "Método científico, ética en la investigación y comunicación de la ciencia."
+  - id: salud-medioambiente
+    nombre: "II. Salud y medio ambiente"
+    descripcion: "Grandes retos de la salud, biotecnología, cambio climático y ecosistemas de Canarias."
+  - id: tecnologia-futuro
+    nombre: "III. Tecnología y futuro"
+    descripcion: "Nuevos materiales, exploración espacial, IA y sostenibilidad en el archipiélago."
+criterios_evaluacion:
+  - id: 1.2
+    texto: "Evaluar la fiabilidad de la información científica obtenida, distinguiendo entre datos basados en evidencias, opiniones y pseudociencias."
+  - id: 4.3
+    texto: "Identificar y valorar el papel de la investigación científica en Canarias (universidades e institutos de investigación)."
+  - id: 5.3
+    texto: "Participar activamente en acciones de protección del patrimonio natural y científico de Canarias."
+observaciones: "Materia optativa de 1.º de Bachillerato en Canarias. Extracción literal Decreto 30/2023."

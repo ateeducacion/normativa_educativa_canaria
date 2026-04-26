@@ -13,19 +13,19 @@ Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo e
 | Índice | Cobertura actual |
 | --- | --- |
 | Fuentes | 55 entradas, `FTE-001` a `FTE-055` |
-| Normativa | 57 entradas, `NOR-001` a `NOR-059`, con huecos reservados/no reutilizados |
-| Currículos | 53 entradas, `CUR-001` a `CUR-053` |
+| Normativa | 59 entradas, `NOR-001` a `NOR-059`, con huecos reservados/no reutilizados |
+| Currículos | 58 entradas, `CUR-001` a `CUR-058` |
 | Relaciones | 45 entradas, `REL-001` a `REL-048`, con huecos reservados/no reutilizados |
-| Chunks IA | 21 entradas, `CHUNK-00001` a `CHUNK-00021` |
-| Tareas | 41 entradas; `TAREA-038` a `TAREA-041` están en progreso |
+| Chunks IA | 22 entradas, `CHUNK-00001` a `CHUNK-00022` |
+| Tareas | 45 entradas; `TAREA-042` a `TAREA-045` están en progreso |
 
 Distribución de currículos extraídos:
 
 - ESO: 23 fichas (`CUR-001` a `CUR-023`).
 - Primaria: 10 fichas (`CUR-024` a `CUR-033`).
 - Infantil: 3 fichas (`CUR-034` a `CUR-036`).
-- Bachillerato: 9 fichas (`CUR-037` a `CUR-045`).
-- Formación Profesional: 8 fichas placeholder (`CUR-046` a `CUR-053`) con `estado_extraccion: pendiente`.
+- Bachillerato: 14 fichas (`CUR-037` a `CUR-045` y `CUR-054` a `CUR-058`).
+- Formación Profesional: 8 fichas (`CUR-046` a `CUR-053`), con 1 completada y 7 parciales.
 
 Estados de vigencia en normativa indexada:
 
@@ -86,7 +86,7 @@ Marco estatal y autonómico básico:
 - Marco administrativo, igualdad, menores, comedores, transporte y residencias: `NOR-031` a `NOR-036`.
 - Primaria: currículo (`NOR-043`), evaluación/promoción (`NOR-044`), rúbricas (`NOR-045`) e instrucciones de organización y funcionamiento (`NOR-046`).
 - Infantil: currículo (`NOR-047`), evaluación (`NOR-048`) e instrucciones de organización y funcionamiento (`NOR-049`).
-- Formación Profesional en fase ampliada: títulos y ciclos más comunes catalogados hasta `NOR-058`, ajustes autonómicos FP en `NOR-059` y extracción curricular detallada abierta en `TAREA-038` a `TAREA-041`.
+- Formación Profesional en fase ampliada: títulos y ciclos más comunes catalogados hasta `NOR-058`, ajustes autonómicos FP en `NOR-059`; quedan abiertas correcciones y extracción avanzada en `TAREA-042` a `TAREA-045`.
 
 ## Cobertura Curricular
 
@@ -106,9 +106,13 @@ Bachillerato (`CUR-037` a `CUR-045`):
 
 - Educación Física; Filosofía; Historia de la Filosofía; Lengua Castellana y Literatura I y II; Lengua Extranjera I y II; Matemáticas I y II; Matemáticas Aplicadas a las Ciencias Sociales I y II; Latín I y II; Historia de España.
 
+Bachillerato ampliado (`CUR-054` a `CUR-058`):
+
+- Segunda Lengua Extranjera I y II; Historia de Canarias; Psicología; Literatura Canaria; Cultura Científica.
+
 Formación Profesional (`CUR-046` a `CUR-053`):
 
-- Cuidados Auxiliares de Enfermería; Imagen para el Diagnóstico y Medicina Nuclear; Gestión Administrativa; Administración y Finanzas; Desarrollo de Aplicaciones Multiplataforma; Desarrollo de Aplicaciones Web; Educación Infantil; Integración Social. Estas fichas están registradas como placeholders pendientes de extracción de módulos, resultados de aprendizaje y criterios de evaluación.
+- Cuidados Auxiliares de Enfermería; Imagen para el Diagnóstico y Medicina Nuclear; Gestión Administrativa; Administración y Finanzas; Desarrollo de Aplicaciones Multiplataforma; Desarrollo de Aplicaciones Web; Educación Infantil; Integración Social. `CUR-052` está completado y el resto figura como parcial; quedan abiertas tareas para correcciones y criterios de evaluación completos.
 
 ## Modelo De Datos Y Trazabilidad
 
@@ -206,8 +210,8 @@ Formato preferido para preguntas educativas:
 
 - El corpus no pretende reproducir íntegramente todas las normas aplicables.
 - Hay huecos de numeración por coordinación de trabajo paralelo; no deben reutilizarse IDs.
-- `TAREA-038` a `TAREA-041` figuran en progreso para extracción de módulos profesionales FP.
-- Las fichas FP `CUR-046` a `CUR-053` son placeholders indexados; no deben tratarse como extracción completa.
+- `TAREA-042` a `TAREA-045` figuran en progreso para correcciones y extracción avanzada de FP.
+- Las fichas FP `CUR-046` a `CUR-053` no tienen todas el mismo estado: `CUR-052` está completada y las demás figuran como parciales.
 - Los borradores u otras fichas que existan localmente pero no figuren en `06_indices/` no forman parte del corpus indexado.
 - Algunas normas siguen con estado `Pendiente de verificación`, `Superada`, `Histórica` o vigencia condicionada; respete el metadato de cada ficha.
 - Las respuestas de IA basadas en este repositorio deben considerarse apoyo documental, no dictamen jurídico oficial.

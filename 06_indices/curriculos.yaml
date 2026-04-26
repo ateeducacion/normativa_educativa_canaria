@@ -575,3 +575,55 @@ CUR-053:
   ruta_yaml: "03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-053-integracion-social.yaml"
   estado_extraccion: "parcial"
   observaciones: "Extracción parcial completada en TAREA-041 (2026-04-26). 7 módulos actualizados por RD 289/2023 (BOE-A-2023-10395), 34 RAs y 249 CEs. Módulos comunes (FOL, EIE, FCT, Proyecto) pendientes. Modificado por RD 500/2024."
+
+# --- BACHILLERATO (OPTATIVAS) ---
+
+CUR-054:
+  titulo: "Segunda Lengua Extranjera I y II — Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Segunda Lengua Extranjera"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-054-segunda-lengua-extranjera.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-054-segunda-lengua-extranjera.md"
+  estado_extraccion: "completado"
+
+CUR-055:
+  titulo: "Historia de Canarias — 1.º Bachillerato"
+  etapa: "bachillerato"
+  materia: "Historia de Canarias"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-055-historia-canarias.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-055-historia-canarias.md"
+  estado_extraccion: "completado"
+
+CUR-056:
+  titulo: "Psicología — 2.º Bachillerato Canarias"
+  etapa: "bachillerato"
+  materia: "Psicología"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-056-psicologia.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-056-psicologia.md"
+  estado_extraccion: "completado"
+
+CUR-057:
+  titulo: "Literatura Canaria — 2.º Bachillerato"
+  etapa: "bachillerato"
+  materia: "Literatura Canaria"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.md"
+  estado_extraccion: "completado"
+
+CUR-058:
+  titulo: "Cultura Científica — 1.º Bachillerato"
+  etapa: "bachillerato"
+  materia: "Cultura Científica"
+  norma_base: NOR-005
+  fuente: FTE-009
+  ruta_yaml: "03_curriculos/bachillerato/materias/CUR-058-cultura-cientifica.yaml"
+  ruta_md: "03_curriculos/bachillerato/materias/CUR-058-cultura-cientifica.md"
+  estado_extraccion: "completado"
