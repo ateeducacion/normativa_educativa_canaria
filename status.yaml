@@ -394,7 +394,7 @@ tareas:
 
   TAREA-036:
     titulo: "Finalizar extracciones ESO: CUR-023 y remanentes"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Alta"
     tipo: "curriculo"
     responsable: "@.agents/skills/analisis-curricular"
