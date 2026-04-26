@@ -3,7 +3,7 @@ metadata:
   repositorio: "ateeducacion/normativa_educativa"
   objetivo: "Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML"
   fase_actual: "Fase 0 — Bootstrap"
-  fecha_actualizacion: 2026-04-25
+  fecha_actualizacion: 2026-04-26
   agente_actual: "@.agents/skills/catalogacion-fuentes"
 
 tareas:
@@ -20,14 +20,14 @@ tareas:
 
   TAREA-002:
     titulo: "Catalogar fuentes iniciales"
-    estado: "En curso"
+    estado: "Hecha"
     prioridad: "Alta"
     tipo: "catalogacion"
     responsable: "@.agents/skills/catalogacion-fuentes"
     fecha_creacion: 2026-04-25
-    fecha_actualizacion: 2026-04-25
-    relacionadas: [FTE-001, FTE-002, FTE-003, FTE-004, PREG-001]
-    siguiente_accion: "Completar fuentes BOE, BOC o Juriscan finales enlazadas desde portales canarios"
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [FTE-001, FTE-002, FTE-003, FTE-004, FTE-009, FTE-010, PREG-001]
+    siguiente_accion: null
 
   TAREA-003:
     titulo: "Crear fichas normativas iniciales"
@@ -73,8 +73,7 @@ tareas:
     relacionadas: [NOR-001, NOR-002, NOR-003, NOR-004]
     siguiente_accion: "Contrastar cada ficha con su fuente oficial consolidada actualizada"
 
-bloqueos:
-  - PREG-001
+bloqueos: []
 
 reglas:
   - "No crear contenido normativo sin fuente oficial."

@@ -4,11 +4,11 @@
     tipo_fuente: "portal-oficial"
     autoridad: "Gobierno de Canarias"
     url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/normativa/"
-    fecha_consulta: 2026-04-25
+    fecha_consulta: 2026-04-26
     fecha_analisis: null
     estado_fuente: "Activa"
     nivel_evidencia: "confirmado-fuente-primaria"
-    relacionadas: [FTE-002, FTE-003, FTE-004]
+    relacionadas: [FTE-002, FTE-003, FTE-004, FTE-009, FTE-010]
     ---
 
     # FTE-001 — Normativa educativa — Gobierno de Canarias
@@ -19,7 +19,7 @@
 
     - **Autoridad:** Gobierno de Canarias
     - **URL oficial:** https://www.gobiernodecanarias.org/educacion/web/servicios/normativa/
-    - **Fecha de consulta:** 2026-04-25
+    - **Fecha de consulta:** 2026-04-26
     - **Tipo de fuente:** portal-oficial
 
     ## Qué contiene
@@ -35,7 +35,9 @@
     - `FTE-002`
 - `FTE-003`
 - `FTE-004`
+- `FTE-009`
+- `FTE-010`
 
     ## Observaciones
 
-    [PENDIENTE] Confirmar y registrar las fuentes finales enlazadas desde este portal.
+    Revisados los portales enlazados de ESO; registradas las fuentes finales `FTE-009` y `FTE-010`.
