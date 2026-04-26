@@ -17,8 +17,9 @@ Este directorio contiene la versión estática y mantenible del panel público d
 El sitio se construye y despliega con `.github/workflows/pages.yml`. El flujo:
 
 1. Toma todo el contenido de `docs/`.
-2. Copia `llms.txt`, `llms-full.txt` y la skill canónica al artefacto Pages.
-3. Sube el artefacto y lo despliega en GitHub Pages.
+2. Copia al artefacto Pages los ficheros Markdown/YAML públicos del corpus (`README.md`, `index.md`, `status.yaml`, `AGENTS.md`, `00_gobierno-repositorio/`, `01_fuentes/`, `02_normativa/`, `03_curriculos/`, `05_relaciones/`, `06_indices/`, `07_corpus_ia/` y `09_decisiones-editoriales/`).
+3. Copia `llms.txt`, `llms-full.txt` y la skill canónica al artefacto Pages.
+4. Sube el artefacto y lo despliega en GitHub Pages.
 
 Para activar la publicación una vez:
 
@@ -34,9 +35,12 @@ Para activar la publicación una vez:
 - `https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt`
 - `https://ateeducacion.github.io/normativa_educativa_canaria/llms-full.txt`
 - `https://ateeducacion.github.io/normativa_educativa_canaria/skill.md`
+- `https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml`
+- `https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md`
+- `https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml`
 
 ## Notas de mantenimiento
 
-- Edite `llms.txt` y `llms-full.txt` solo en la raíz del repositorio, y la skill solo en `skills/experto-normativa-educativa-canaria/SKILL.md`. No existe copia en `docs/`. El despliegue las añade automáticamente al sitio publicado.
+- Edite `llms.txt` y `llms-full.txt` solo en la raíz del repositorio, y la skill solo en `skills/experto-normativa-educativa-canaria/SKILL.md`. No existe copia en `docs/`. El despliegue las añade automáticamente al sitio publicado junto con el corpus Markdown/YAML expuesto en GitHub Pages.
 - Si necesita previsualizar el sitio en local, copie temporalmente esos dos archivos a `docs/` o use el mismo procedimiento que el workflow.
 - Para añadir páginas nuevas al sitio, añada el archivo dentro de `docs/` y actualice la navegación de `index.html` si procede.
