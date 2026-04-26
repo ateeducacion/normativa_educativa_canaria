@@ -414,6 +414,50 @@ tareas:
     relacionadas: [NOR-007, FTE-015, FTE-016, FTE-054, NOR-051, NOR-058, CUR-046, CUR-053]
     siguiente_accion: null
 
+  TAREA-038:
+    titulo: "Extraer módulos profesionales FP — Familia Sanidad (CUR-046, CUR-047)"
+    estado: "En progreso"
+    prioridad: "Media"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/experto-formacion-profesional"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [NOR-051, NOR-052, CUR-046, CUR-047]
+    siguiente_accion: "Extraer módulos de RD 1538/1995 y RD 772/2014 desde BOE."
+
+  TAREA-039:
+    titulo: "Extraer módulos profesionales FP — Familia Administración y Gestión (CUR-048, CUR-049)"
+    estado: "En progreso"
+    prioridad: "Media"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/experto-formacion-profesional"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [NOR-053, NOR-054, CUR-048, CUR-049]
+    siguiente_accion: "Extraer módulos de RD 1631/2009 y RD 1584/2011 desde BOE."
+
+  TAREA-040:
+    titulo: "Extraer módulos profesionales FP — Familia Informática y Comunicaciones (CUR-050, CUR-051)"
+    estado: "En progreso"
+    prioridad: "Media"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/experto-formacion-profesional"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [NOR-055, NOR-056, CUR-050, CUR-051]
+    siguiente_accion: "Extraer módulos de RD 450/2010 y RD 686/2010 desde BOE."
+
+  TAREA-041:
+    titulo: "Extraer módulos profesionales FP — Familia Servicios Socioculturales y a la Comunidad (CUR-052, CUR-053)"
+    estado: "En progreso"
+    prioridad: "Media"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/experto-formacion-profesional"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [NOR-057, NOR-058, CUR-052, CUR-053]
+    siguiente_accion: "Extraer módulos de RD 1394/2007 y RD 289/2023 desde BOE."
+
 bloqueos: []
 
 reglas:
