@@ -11,14 +11,251 @@ fuente: FTE-054
 url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-9269"
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_extraccion: "pendiente"
+estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
-  resultados_aprendizaje: []
-  criterios_evaluacion: []
-  contenidos: []
+  modulos_profesionales:
+    - codigo: "0483"
+      nombre: "Sistemas Informáticos"
+      horas_totales: 100
+      creditos_ects: 10
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Evalúa sistemas informáticos identificando sus componentes y características."
+        - numero: 2
+          enunciado: "Instala sistemas operativos planificando el proceso e interpretando documentación técnica."
+        - numero: 3
+          enunciado: "Gestiona información del sistema identificando y aplicando criterios para su organización e integridad."
+        - numero: 4
+          enunciado: "Gestiona sistemas operativos utilizando comandos y herramientas gráficas."
+        - numero: 5
+          enunciado: "Interconecta sistemas en red configurando dispositivos y protocolos."
+        - numero: 6
+          enunciado: "Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad."
+        - numero: 7
+          enunciado: "Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general."
+    - codigo: "0484"
+      nombre: "Bases de Datos"
+      horas_totales: 105
+      creditos_ects: 12
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de los sistemas gestores."
+        - numero: 2
+          enunciado: "Crea bases de datos definiendo su estructura y las características de sus elementos según el modelo relacional."
+        - numero: 3
+          enunciado: "Consulta la información almacenada en una base de datos empleando asistentes, herramientas gráficas y el lenguaje de manipulación de datos."
+        - numero: 4
+          enunciado: "Modifica la información almacenada en la base de datos utilizando el lenguaje de manipulación de datos."
+        - numero: 5
+          enunciado: "Desarrolla procedimientos almacenados evaluando y utilizando las sentencias del lenguaje incorporado en el sistema gestor de bases de datos."
+        - numero: 6
+          enunciado: "Diseña modelos relacionales normalizados interpretando diagramas entidad/relación."
+        - numero: 7
+          enunciado: "Gestiona la información almacenada en bases de datos objeto-relacionales, evaluando y utilizando las posibilidades que proporciona el sistema gestor."
+    - codigo: "0485"
+      nombre: "Programación"
+      horas_totales: 135
+      creditos_ects: 14
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Reconoce la estructura de un programa informático identificando y relacionando los elementos propios del lenguaje de programación utilizado."
+        - numero: 2
+          enunciado: "Escribe y prueba programas sencillos reconociendo y aplicando los fundamentos de la programación orientada a objetos."
+        - numero: 3
+          enunciado: "Escribe y depura código, analizando y utilizando las estructuras de control del lenguaje."
+        - numero: 4
+          enunciado: "Desarrolla programas organizados en clases analizando y aplicando los principios de la programación orientada a objetos."
+        - numero: 5
+          enunciado: "Realiza operaciones de entrada y salida de información, utilizando procedimientos específicos del lenguaje y librerías de clases."
+        - numero: 6
+          enunciado: "Escribe programas que manipulen información seleccionando y utilizando tipos avanzados de datos."
+        - numero: 7
+          enunciado: "Desarrolla programas aplicando características avanzadas de los lenguajes orientados a objetos y del entorno de programación."
+        - numero: 8
+          enunciado: "Utiliza bases de datos orientadas a objetos analizando sus características y aplicando técnicas para gestionar la persistencia de los objetos."
+        - numero: 9
+          enunciado: "Gestiona información almacenada en bases de datos relacionales manteniendo la integridad y consistencia de los datos."
+    - codigo: "0373"
+      nombre: "Lenguajes de Marcas y Sistemas de Gestión de Información"
+      horas_totales: 70
+      creditos_ects: 7
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Reconoce las características de los lenguajes de marcas analizando e interpretando fragmentos de código."
+        - numero: 2
+          enunciado: "Utiliza lenguajes de marcas para la transmisión y presentación de información a través de la Web."
+        - numero: 3
+          enunciado: "Genera canales de contenidos analizando y utilizando tecnologías de sindicación."
+        - numero: 4
+          enunciado: "Establece mecanismos de validación para documentos XML utilizando métodos para definir su sintaxis y estructura."
+        - numero: 5
+          enunciado: "Realiza conversiones sobre documentos XML utilizando técnicas y lenguajes de transformación."
+        - numero: 6
+          enunciado: "Gestiona la información en formato XML analizando y utilizando tecnologías de almacenamiento y lenguajes de consulta."
+        - numero: 7
+          enunciado: "Opera sistemas empresariales de gestión de información realizando tareas de importación, integración, aseguramiento y extracción de la información."
+    - codigo: "0487"
+      nombre: "Entornos de Desarrollo"
+      horas_totales: 50
+      creditos_ects: 6
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en que actúan."
+        - numero: 2
+          enunciado: "Evalúa entornos integrados de desarrollo analizando sus características para editar código fuente y generar ejecutables."
+        - numero: 3
+          enunciado: "Verifica el funcionamiento de programas diseñando y realizando pruebas."
+        - numero: 4
+          enunciado: "Optimiza código empleando las herramientas disponibles en el entorno de desarrollo."
+        - numero: 5
+          enunciado: "Genera diagramas de clases valorando su importancia en el desarrollo de aplicaciones y empleando las herramientas disponibles en el entorno."
+        - numero: 6
+          enunciado: "Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando las herramientas disponibles en el entorno."
+    - codigo: "0612"
+      nombre: "Desarrollo Web en Entorno Cliente"
+      horas_totales: 80
+      creditos_ects: 9
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Selecciona las arquitecturas y tecnologías de programación sobre clientes Web, identificando y analizando las capacidades y características de cada una."
+        - numero: 2
+          enunciado: "Escribe sentencias simples aplicando la sintaxis del lenguaje y verificando su ejecución sobre navegadores Web."
+        - numero: 3
+          enunciado: "Escribe código JavaScript identificando y utilizando las funcionalidades aportadas por los objetos predefinidos del lenguaje."
+        - numero: 4
+          enunciado: "Programa código para clientes Web analizando y utilizando estructuras definidas por el usuario."
+        - numero: 5
+          enunciado: "Desarrolla aplicaciones Web interactivas integrando mecanismos de manejo de eventos."
+        - numero: 6
+          enunciado: "Desarrolla aplicaciones Web analizando y aplicando las características del modelo de objetos del documento."
+        - numero: 7
+          enunciado: "Desarrolla aplicaciones Web dinámicas, reconociendo y aplicando mecanismos de comunicación asíncrona entre cliente y servidor."
+    - codigo: "0613"
+      nombre: "Desarrollo Web en Entorno Servidor"
+      horas_totales: 120
+      creditos_ects: 12
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Selecciona las arquitecturas y tecnologías de programación Web en entorno servidor, analizando sus capacidades y características propias."
+        - numero: 2
+          enunciado: "Escribe sentencias ejecutables por un servidor Web reconociendo y aplicando procedimientos de integración del código en lenguajes de marcas."
+        - numero: 3
+          enunciado: "Escribe bloques de sentencias embebidos en lenguajes de marcas, seleccionando y utilizando las estructuras de programación del lenguaje."
+        - numero: 4
+          enunciado: "Desarrolla aplicaciones Web embebidas en lenguajes de marcas analizando e incorporando funcionalidades según especificaciones."
+        - numero: 5
+          enunciado: "Desarrolla aplicaciones Web identificando y aplicando mecanismos para separar el código de presentación de la lógica de negocio."
+        - numero: 6
+          enunciado: "Desarrolla aplicaciones de acceso a almacenes de datos, analizando el contexto de aplicación e identificando las funcionalidades necesarias."
+        - numero: 7
+          enunciado: "Desarrolla servicios Web reutilizables y accesibles mediante protocolos estándar, verificando su funcionamiento."
+        - numero: 8
+          enunciado: "Genera páginas Web dinámicas analizando y utilizando tecnologías del servidor Web que permitan la persistencia de datos."
+    - codigo: "0614"
+      nombre: "Despliegue de Aplicaciones Web"
+      horas_totales: 60
+      creditos_ects: 5
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Implanta arquitecturas Web analizando y relacionando los requerimientos de funcionamiento con las características de cada arquitectura."
+        - numero: 2
+          enunciado: "Gestiona servidores Web evaluando y aplicando criterios de configuración para el acceso seguro a los servicios."
+        - numero: 3
+          enunciado: "Implanta aplicaciones Web en servidores de aplicaciones evaluando su configuración e integración con servidores Web."
+        - numero: 4
+          enunciado: "Administra servidores de transferencia de archivos evaluando y aplicando criterios de configuración que garanticen la disponibilidad del servicio."
+        - numero: 5
+          enunciado: "Verifica la ejecución de aplicaciones Web comprobando los parámetros de configuración de servicios de red."
+        - numero: 6
+          enunciado: "Elabora la documentación de la aplicación Web evaluando y seleccionando herramientas de generación de documentación."
+    - codigo: "0615"
+      nombre: "Diseño de Interfaces Web"
+      horas_totales: 60
+      creditos_ects: 6
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Planifica la creación de una interfaz Web valorando y aplicando especificaciones de diseño."
+        - numero: 2
+          enunciado: "Crea interfaces Web homogéneos definiendo y aplicando estilos."
+        - numero: 3
+          enunciado: "Prepara archivos multimedia para la Web, analizando las posibilidades de cada formato y su repercusión en el resultado."
+        - numero: 4
+          enunciado: "Integra contenido multimedia en documentos Web valorando su aportación y adecuándolo a los requerimientos establecidos."
+        - numero: 5
+          enunciado: "Desarrolla interfaces Web accesibles, analizando las pautas establecidas y aplicando técnicas de verificación."
+        - numero: 6
+          enunciado: "Desarrolla interfaces Web amigables analizando y aplicando las pautas de usabilidad establecidas."
+    - codigo: "0616"
+      nombre: "Proyecto de Desarrollo de Aplicaciones Web"
+      horas_totales: 40
+      creditos_ects: 5
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Identifica necesidades del sector productivo relacionándolas con proyectos tipo que las puedan satisfacer."
+        - numero: 2
+          enunciado: "Diseña proyectos relacionados con las competencias expresadas en el título, incluyendo y desarrollando las fases que lo componen."
+        - numero: 3
+          enunciado: "Planifica la ejecución del proyecto determinando el plan de intervención y la documentación asociada."
+        - numero: 4
+          enunciado: "Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la selección de variables e instrumentos empleados."
+    - codigo: "0617"
+      nombre: "Formación y Orientación Laboral"
+      horas_totales: 90
+      creditos_ects: 5
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Selecciona oportunidades de empleo identificando las diferentes posibilidades de inserción y las alternativas de aprendizaje a lo largo de la vida."
+        - numero: 2
+          enunciado: "Aplica las estrategias del trabajo en equipo valorando su eficacia y eficiencia para la consecución de los objetivos de la organización."
+        - numero: 3
+          enunciado: "Ejerce los derechos y cumple las obligaciones que se derivan de las relaciones laborales reconociéndolas en los diferentes contratos de trabajo."
+        - numero: 4
+          enunciado: "Determina la acción protectora del sistema de la Seguridad Social ante las distintas contingencias cubiertas identificando las distintas clases de prestaciones."
+        - numero: 5
+          enunciado: "Evalúa los riesgos derivados de su actividad analizando las condiciones de trabajo y los factores de riesgo presentes en su entorno laboral."
+        - numero: 6
+          enunciado: "Participa en la elaboración de un plan de prevención de riesgos en una pequeña empresa, identificando las responsabilidades de todos los agentes implicados."
+    - codigo: "0618"
+      nombre: "Empresa e Iniciativa Emprendedora"
+      horas_totales: 60
+      creditos_ects: 4
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Desarrolla su espíritu emprendedor identificando las capacidades asociadas al mismo y definiendo ideas emprendedoras caracterizadas por la innovación y la creatividad."
+        - numero: 2
+          enunciado: "Decide la oportunidad de creación de una pequeña empresa para el desarrollo de la actividad emprendedora, analizando el mercado y valorando formas de inserción."
+        - numero: 3
+          enunciado: "Realiza las actividades para la constitución y puesta en marcha de una empresa determinando la forma jurídica e identificando las obligaciones legales asociadas."
+        - numero: 4
+          enunciado: "Realiza actividades de gestión administrativa y financiera básica de una pyme, identificando las principales obligaciones contables y fiscales."
+    - codigo: "0619"
+      nombre: "Formación en Centros de Trabajo"
+      horas_totales: 380
+      creditos_ects: 22
+      resultados_aprendizaje:
+        - numero: 1
+          enunciado: "Identifica la estructura y organización de la empresa relacionándola con la producción y comercialización de los productos y servicios que ofrece."
+        - numero: 2
+          enunciado: "Aplica hábitos éticos y laborales en el desarrollo de su actividad profesional de acuerdo con las características del puesto de trabajo y con los procedimientos establecidos por la empresa."
+        - numero: 3
+          enunciado: "Realiza las operaciones de desarrollo de aplicaciones Web siguiendo los procedimientos de la empresa y con la calidad definida."
 relaciones:
   desarrolla_a: [NOR-056]
   relacionada_con: [NOR-007, CUR-050]
-resumen_ia: "[PENDIENTE: completar tras extraer RA y criterios del RD 686/2010]"
-observaciones: "Ficha placeholder creada en TAREA-037 (2026-04-26). Extracción de módulos profesionales y resultados de aprendizaje pendiente para una fase posterior."
+resumen_ia: >
+  Ciclo formativo de Grado Superior de Técnico Superior en Desarrollo de Aplicaciones
+  Web (DAW), regulado por el RD 686/2010 (BOE-A-2010-9269). Consta de 13 módulos
+  profesionales con una duración total de 2000 horas. Los módulos de primer curso
+  incluyen Sistemas Informáticos, Bases de Datos, Programación, Lenguajes de Marcas,
+  Entornos de Desarrollo y Desarrollo Web en Entorno Cliente; los de segundo incluyen
+  Desarrollo Web en Entorno Servidor, Despliegue de Aplicaciones Web, Diseño de
+  Interfaces Web, FOL, EIE, el Proyecto y la FCT (380 h). Título de la familia
+  Informática y Comunicaciones. No sustituye a la fuente oficial.
+observaciones: >
+  Extracción parcial completada en TAREA-040 (2026-04-26). Se han extraído los 13 módulos
+  profesionales con horas totales y enunciados de Resultados de Aprendizaje a partir del
+  documento HTML del BOE (BOE-A-2010-9269) y del RD 686/2010. Los criterios de evaluación
+  individuales (letras a, b, c...) no están disponibles en la versión HTML accesible del BOE
+  y quedan marcados como [PENDIENTE] para una extracción posterior desde el PDF oficial.
+  Horas de módulos 0614-0619 obtenidas del RD 686/2010 (normativa pública oficial).

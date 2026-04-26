@@ -429,7 +429,7 @@ TAREA-039:
 
 TAREA-040:
   titulo: "Extraer módulos profesionales FP — Familia Informática y Comunicaciones (CUR-050, CUR-051)"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: "@.agents/skills/experto-formacion-profesional"
