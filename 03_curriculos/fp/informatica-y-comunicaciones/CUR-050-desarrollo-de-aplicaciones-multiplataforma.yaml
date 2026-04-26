@@ -1,0 +1,24 @@
+id: CUR-050
+titulo: "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) — FP Canarias"
+etapa: "fp"
+familia_profesional: "Informática y Comunicaciones"
+grado: "gs"
+materia: "Desarrollo de Aplicaciones Multiplataforma"
+ambito: null
+cursos: ["1.º", "2.º"]
+norma_base: NOR-055
+fuente: FTE-054
+url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-8067"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "pendiente"
+estado_vigencia: "Vigente"
+elementos:
+  resultados_aprendizaje: []
+  criterios_evaluacion: []
+  contenidos: []
+relaciones:
+  desarrolla_a: [NOR-055]
+  relacionada_con: [NOR-007, CUR-051]
+resumen_ia: "[PENDIENTE: completar tras extraer RA y criterios del RD 450/2010]"
+observaciones: "Ficha placeholder creada en TAREA-037 (2026-04-26). Extracción de módulos profesionales y resultados de aprendizaje pendiente para una fase posterior."

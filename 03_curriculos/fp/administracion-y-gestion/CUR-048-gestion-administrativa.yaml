@@ -1,0 +1,24 @@
+id: CUR-048
+titulo: "Técnico en Gestión Administrativa — FP Canarias"
+etapa: "fp"
+familia_profesional: "Administración y Gestión"
+grado: "gm"
+materia: "Gestión Administrativa"
+ambito: null
+cursos: ["1.º", "2.º"]
+norma_base: NOR-053
+fuente: FTE-054
+url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-19148"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "pendiente"
+estado_vigencia: "Vigente"
+elementos:
+  resultados_aprendizaje: []
+  criterios_evaluacion: []
+  contenidos: []
+relaciones:
+  desarrolla_a: [NOR-053]
+  relacionada_con: [NOR-007, CUR-049]
+resumen_ia: "[PENDIENTE: completar tras extraer RA y criterios del RD 1631/2009]"
+observaciones: "Ficha placeholder creada en TAREA-037 (2026-04-26). Extracción de módulos profesionales y resultados de aprendizaje pendiente para una fase posterior."

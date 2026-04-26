@@ -717,3 +717,131 @@ NOR-050:
   ruta: "02_normativa/canarias/ordenes/NOR-050-orden-procedimientos-neae-2023.md"
   temas: [neae, inclusion, procedimientos, evaluacion-psicopedagogica]
   etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-051:
+  titulo: "Real Decreto 1538/1995, por el que se establece el título de Técnico en Cuidados Auxiliares de Enfermería y las correspondientes enseñanzas mínimas."
+  nombre_corto: "RD 1538/1995 — Técnico en Cuidados Auxiliares de Enfermería"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: "[PENDIENTE]"
+  fecha_publicacion: "[PENDIENTE]"
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  ruta: "02_normativa/estatal/reales-decretos/NOR-051-rd-1538-1995-cuidados-auxiliares-enfermeria.md"
+  temas: [formacion-profesional, titulo, sanidad, grado-medio]
+  etapas_afectadas: [formacion-profesional]
+  familia_profesional: "Sanidad"
+  grado: "GM"
+
+NOR-052:
+  titulo: "Real Decreto 772/2014, por el que se establece el título de Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear y se fijan sus enseñanzas mínimas."
+  nombre_corto: "RD 772/2014 — T.S. Imagen para el Diagnóstico y Medicina Nuclear"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: "[PENDIENTE: septiembre 2014]"
+  fecha_publicacion: "[PENDIENTE]"
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  ruta: "02_normativa/estatal/reales-decretos/NOR-052-rd-772-2014-imagen-diagnostico-medicina-nuclear.md"
+  temas: [formacion-profesional, titulo, sanidad, grado-superior]
+  etapas_afectadas: [formacion-profesional]
+  familia_profesional: "Sanidad"
+  grado: "GS"
+
+NOR-053:
+  titulo: "Real Decreto 1631/2009, de 30 de octubre, por el que se establece el título de Técnico en Gestión Administrativa y se fijan sus enseñanzas mínimas."
+  nombre_corto: "RD 1631/2009 — Técnico en Gestión Administrativa"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2009-10-30
+  fecha_publicacion: 2009-11-17
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  ruta: "02_normativa/estatal/reales-decretos/NOR-053-rd-1631-2009-gestion-administrativa.md"
+  temas: [formacion-profesional, titulo, administracion-y-gestion, grado-medio]
+  etapas_afectadas: [formacion-profesional]
+  familia_profesional: "Administración y Gestión"
+  grado: "GM"
+
+NOR-054:
+  titulo: "Real Decreto 1584/2011, de 4 de noviembre, por el que se establece el título de Técnico Superior en Administración y Finanzas y se fijan sus enseñanzas mínimas."
+  nombre_corto: "RD 1584/2011 — T.S. Administración y Finanzas"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2011-11-04
+  fecha_publicacion: 2011-12-15
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  ruta: "02_normativa/estatal/reales-decretos/NOR-054-rd-1584-2011-administracion-y-finanzas.md"
+  temas: [formacion-profesional, titulo, administracion-y-gestion, grado-superior]
+  etapas_afectadas: [formacion-profesional]
+  familia_profesional: "Administración y Gestión"
+  grado: "GS"
+
+NOR-055:
+  titulo: "Real Decreto 450/2010, de 16 de abril, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan sus enseñanzas mínimas."
+  nombre_corto: "RD 450/2010 — T.S. Desarrollo de Aplicaciones Multiplataforma (DAM)"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2010-04-16
+  fecha_publicacion: 2010-04-16
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  ruta: "02_normativa/estatal/reales-decretos/NOR-055-rd-450-2010-desarrollo-aplicaciones-multiplataforma.md"
+  temas: [formacion-profesional, titulo, informatica-y-comunicaciones, grado-superior]
+  etapas_afectadas: [formacion-profesional]
+  familia_profesional: "Informática y Comunicaciones"
+  grado: "GS"
+
+NOR-056:
+  titulo: "Real Decreto 686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Web y se fijan sus enseñanzas mínimas."
+  nombre_corto: "RD 686/2010 — T.S. Desarrollo de Aplicaciones Web (DAW)"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2010-05-20
+  fecha_publicacion: 2010-05-20
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  ruta: "02_normativa/estatal/reales-decretos/NOR-056-rd-686-2010-desarrollo-aplicaciones-web.md"
+  temas: [formacion-profesional, titulo, informatica-y-comunicaciones, grado-superior]
+  etapas_afectadas: [formacion-profesional]
+  familia_profesional: "Informática y Comunicaciones"
+  grado: "GS"
+
+NOR-057:
+  titulo: "Real Decreto 1394/2007, de 29 de octubre, por el que se establece el título de Técnico Superior en Educación Infantil y se fijan sus enseñanzas mínimas."
+  nombre_corto: "RD 1394/2007 — T.S. Educación Infantil"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2007-10-29
+  fecha_publicacion: "[PENDIENTE: probable noviembre 2007]"
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  ruta: "02_normativa/estatal/reales-decretos/NOR-057-rd-1394-2007-educacion-infantil.md"
+  temas: [formacion-profesional, titulo, servicios-socioculturales, grado-superior]
+  etapas_afectadas: [formacion-profesional]
+  familia_profesional: "Servicios Socioculturales y a la Comunidad"
+  grado: "GS"
+
+NOR-058:
+  titulo: "Real Decreto 289/2023, de 18 de abril, por el que se establece el título de Técnico Superior en Integración Social y se fijan sus enseñanzas mínimas."
+  nombre_corto: "RD 289/2023 — T.S. Integración Social"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2023-04-18
+  fecha_publicacion: "[PENDIENTE]"
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  ruta: "02_normativa/estatal/reales-decretos/NOR-058-rd-289-2023-integracion-social.md"
+  temas: [formacion-profesional, titulo, servicios-socioculturales, grado-superior, lofp]
+  etapas_afectadas: [formacion-profesional]
+  familia_profesional: "Servicios Socioculturales y a la Comunidad"
+  grado: "GS"

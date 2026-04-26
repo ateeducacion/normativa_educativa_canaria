@@ -1,0 +1,24 @@
+id: CUR-049
+titulo: "Técnico Superior en Administración y Finanzas — FP Canarias"
+etapa: "fp"
+familia_profesional: "Administración y Gestión"
+grado: "gs"
+materia: "Administración y Finanzas"
+ambito: null
+cursos: ["1.º", "2.º"]
+norma_base: NOR-054
+fuente: FTE-054
+url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19533"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "pendiente"
+estado_vigencia: "Vigente"
+elementos:
+  resultados_aprendizaje: []
+  criterios_evaluacion: []
+  contenidos: []
+relaciones:
+  desarrolla_a: [NOR-054]
+  relacionada_con: [NOR-007, CUR-048]
+resumen_ia: "[PENDIENTE: completar tras extraer RA y criterios del RD 1584/2011]"
+observaciones: "Ficha placeholder creada en TAREA-037 (2026-04-26). Extracción de módulos profesionales y resultados de aprendizaje pendiente para una fase posterior."

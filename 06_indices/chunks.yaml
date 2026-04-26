@@ -62,3 +62,23 @@ CHUNK-00013:
   origen_id: NOR-047
   titulo: "Resumen del Currículo de Educación Infantil (Canarias)"
   ruta: "07_corpus_ia/chunks/CHUNK-00013-curriculo-infantil-resumen.yaml"
+
+CHUNK-00014:
+  origen_id: NOR-050
+  titulo: "Procedimientos de Atención a la Diversidad y NEAE (Canarias 2023)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00014-procedimientos-neae-2023.yaml"
+
+CHUNK-00015:
+  origen_id: TRANSVERSAL
+  titulo: "Identidad lingüística canaria en el currículo (Infantil a Bachillerato)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00015-identidad-linguistica-canaria.yaml"
+
+CHUNK-00016:
+  origen_id: NOR-021
+  titulo: "Gestión de Listas de Empleo y Personal Interino (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00016-listas-interinos-resumen.yaml"
+
+CHUNK-00017:
+  origen_id: NOR-009
+  titulo: "Organización de Centros (ROC) e Instrucciones IOF"
+  ruta: "07_corpus_ia/chunks/CHUNK-00017-organizacion-centros-iof.yaml"

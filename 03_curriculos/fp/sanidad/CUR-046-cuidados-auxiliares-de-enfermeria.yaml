@@ -1,0 +1,24 @@
+id: CUR-046
+titulo: "Técnico en Cuidados Auxiliares de Enfermería — FP Canarias"
+etapa: "fp"
+familia_profesional: "Sanidad"
+grado: "gm"
+materia: "Cuidados Auxiliares de Enfermería"
+ambito: null
+cursos: ["1.º", "2.º"]
+norma_base: NOR-051
+fuente: FTE-054
+url_oficial: "[PENDIENTE: verificar URL BOE del RD 1538/1995]"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "pendiente"
+estado_vigencia: "Vigente"
+elementos:
+  resultados_aprendizaje: []
+  criterios_evaluacion: []
+  contenidos: []
+relaciones:
+  desarrolla_a: [NOR-051]
+  relacionada_con: [NOR-007]
+resumen_ia: "[PENDIENTE: completar tras extraer RA y criterios del RD 1538/1995]"
+observaciones: "Ficha placeholder creada en TAREA-037 (2026-04-26). RD de época LOGSE pendiente de actualización bajo LOFP. Extracción de módulos profesionales y resultados de aprendizaje pendiente para una fase posterior."

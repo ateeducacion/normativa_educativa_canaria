@@ -474,3 +474,12 @@ FTE-053:
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/boc/FTE-053-boc-2023-105-procedimientos-diversidad.md"
   estado_fuente: "Activa"
+
+FTE-054:
+  titulo: "BOE — Reales Decretos de títulos de Formación Profesional (TAREA-037)"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boe/FTE-054-boe-fp-titulos.md"
+  estado_fuente: "Activa"

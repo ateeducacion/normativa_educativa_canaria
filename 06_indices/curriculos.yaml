@@ -479,3 +479,99 @@ CUR-045:
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-045-historia-espana.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-045-historia-espana.md"
   estado_extraccion: "completado"
+
+CUR-046:
+  titulo: "Técnico en Cuidados Auxiliares de Enfermería — FP Canarias"
+  etapa: "fp"
+  familia_profesional: "Sanidad"
+  grado: "gm"
+  materia: "Cuidados Auxiliares de Enfermería"
+  norma_base: NOR-051
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/sanidad/CUR-046-cuidados-auxiliares-de-enfermeria.yaml"
+  estado_extraccion: "pendiente"
+  observaciones: "Placeholder creado en TAREA-037. RD 1538/1995 (LOGSE). Referencia BOE pendiente de verificación."
+
+CUR-047:
+  titulo: "Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear — FP Canarias"
+  etapa: "fp"
+  familia_profesional: "Sanidad"
+  grado: "gs"
+  materia: "Imagen para el Diagnóstico y Medicina Nuclear"
+  norma_base: NOR-052
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/sanidad/CUR-047-imagen-para-el-diagnostico-y-medicina-nuclear.yaml"
+  estado_extraccion: "pendiente"
+  observaciones: "Placeholder creado en TAREA-037. RD 772/2014. Referencia BOE-A pendiente de verificación."
+
+CUR-048:
+  titulo: "Técnico en Gestión Administrativa — FP Canarias"
+  etapa: "fp"
+  familia_profesional: "Administración y Gestión"
+  grado: "gm"
+  materia: "Gestión Administrativa"
+  norma_base: NOR-053
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/administracion-y-gestion/CUR-048-gestion-administrativa.yaml"
+  estado_extraccion: "pendiente"
+  observaciones: "Placeholder creado en TAREA-037. RD 1631/2009, BOE-A-2009-19148."
+
+CUR-049:
+  titulo: "Técnico Superior en Administración y Finanzas — FP Canarias"
+  etapa: "fp"
+  familia_profesional: "Administración y Gestión"
+  grado: "gs"
+  materia: "Administración y Finanzas"
+  norma_base: NOR-054
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/administracion-y-gestion/CUR-049-administracion-y-finanzas.yaml"
+  estado_extraccion: "pendiente"
+  observaciones: "Placeholder creado en TAREA-037. RD 1584/2011, BOE-A-2011-19533."
+
+CUR-050:
+  titulo: "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) — FP Canarias"
+  etapa: "fp"
+  familia_profesional: "Informática y Comunicaciones"
+  grado: "gs"
+  materia: "Desarrollo de Aplicaciones Multiplataforma"
+  norma_base: NOR-055
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/informatica-y-comunicaciones/CUR-050-desarrollo-de-aplicaciones-multiplataforma.yaml"
+  estado_extraccion: "pendiente"
+  observaciones: "Placeholder creado en TAREA-037. RD 450/2010, BOE-A-2010-8067."
+
+CUR-051:
+  titulo: "Técnico Superior en Desarrollo de Aplicaciones Web (DAW) — FP Canarias"
+  etapa: "fp"
+  familia_profesional: "Informática y Comunicaciones"
+  grado: "gs"
+  materia: "Desarrollo de Aplicaciones Web"
+  norma_base: NOR-056
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/informatica-y-comunicaciones/CUR-051-desarrollo-de-aplicaciones-web.yaml"
+  estado_extraccion: "pendiente"
+  observaciones: "Placeholder creado en TAREA-037. RD 686/2010, BOE-A-2010-9269."
+
+CUR-052:
+  titulo: "Técnico Superior en Educación Infantil — FP Canarias"
+  etapa: "fp"
+  familia_profesional: "Servicios Socioculturales y a la Comunidad"
+  grado: "gs"
+  materia: "Educación Infantil"
+  norma_base: NOR-057
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-052-educacion-infantil.yaml"
+  estado_extraccion: "pendiente"
+  observaciones: "Placeholder creado en TAREA-037. RD 1394/2007, BOE-A-2007-20201. Modificado por RD 498/2024."
+
+CUR-053:
+  titulo: "Técnico Superior en Integración Social — FP Canarias"
+  etapa: "fp"
+  familia_profesional: "Servicios Socioculturales y a la Comunidad"
+  grado: "gs"
+  materia: "Integración Social"
+  norma_base: NOR-058
+  fuente: FTE-054
+  ruta_yaml: "03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-053-integracion-social.yaml"
+  estado_extraccion: "pendiente"
+  observaciones: "Placeholder creado en TAREA-037. RD 289/2023, BOE-A-2023-7234. Título actualizado bajo LOFP. Modificado por RD 500/2024."
