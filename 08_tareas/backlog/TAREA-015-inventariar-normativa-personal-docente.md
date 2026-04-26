@@ -1,13 +1,14 @@
 ---
 id: TAREA-015
 titulo: "Inventariar y catalogar normativa de Personal docente"
-estado: "Pendiente"
+estado: "Finalizada"
 prioridad: "Alta"
 tipo: "analisis"
 responsable: "@.agents/skills/experto-normativa-canaria"
 fecha_creacion: 2026-04-26
 fecha_actualizacion: 2026-04-26
-relacionadas: [FTE-013, NOR-001, NOR-002, NOR-004]
+fecha_cierre: 2026-04-26
+relacionadas: [FTE-013, NOR-001, NOR-002, NOR-004, NOR-019, NOR-020, NOR-021, NOR-022, NOR-023]
 ---
 
 # TAREA-015 — Inventariar y catalogar normativa de Personal docente
@@ -18,13 +19,18 @@ Recorrer las ramas «Personal docente» del portal de Inspección Educativa (`FT
 
 ## Criterios de cierre
 
-- Inventario de normas vigentes con cita oficial completa.
-- Una ficha `NOR-NNN` por norma con BOE/BOC, fechas, objeto, ámbito, estructura y relaciones.
-- Distinción explícita entre normativa básica estatal (LOE-LOMLOE en lo aplicable, EBEP) y desarrollos autonómicos canarios.
-- `06_indices/normativa.yaml` y `06_indices/relaciones.yaml` actualizados.
+- [x] Inventario de normas vigentes con cita oficial completa.
+- [x] Una ficha `NOR-NNN` por norma con BOE/BOC, fechas, objeto, ámbito, estructura y relaciones.
+- [x] Distinción explícita entre normativa básica estatal (LOE-LOMLOE en lo aplicable, TREBEP) y desarrollos autonómicos canarios.
+- [x] `06_indices/normativa.yaml` y `06_indices/relaciones.yaml` actualizados.
 
-## Notas
+## Avances realizados
 
-- Fecha de creación: 2026-04-26
-- Recurso: `FTE-013` apartado `/personal_docente/`.
-- Considerar también el apartado `/personal_no_docente/` como TAREA aparte.
+- Catalogadas 5 normas fundamentales:
+    - `NOR-019`: Ley de la Función Pública Canaria (Ley 2/1987).
+    - `NOR-020`: TREBEP (RD Legislativo 5/2015).
+    - `NOR-021`: Decreto de Interinos (Decreto 74/2010).
+    - `NOR-022`: Función Directiva (Decreto 106/2009).
+    - `NOR-023`: Permisos y Licencias (Resolución 16/06/2020).
+- Creadas las fuentes `FTE-022` a `FTE-026` correspondientes a los BOE/BOC primarios.
+- Registradas las relaciones `REL-016` a `REL-019`.

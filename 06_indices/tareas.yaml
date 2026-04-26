@@ -143,24 +143,24 @@ TAREA-013:
 
 TAREA-014:
   titulo: "Inventariar y catalogar normativa de Centros y Organización y funcionamiento"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "analisis"
   responsable: "@.agents/skills/experto-normativa-canaria"
   fecha_creacion: 2026-04-26
   fecha_actualizacion: 2026-04-26
-  relacionadas: [FTE-013, NOR-004]
+  relacionadas: [FTE-013, NOR-004, NOR-009, NOR-010, NOR-011, NOR-012, NOR-013]
   ruta: "08_tareas/backlog/TAREA-014-inventariar-normativa-centros.md"
 
 TAREA-015:
   titulo: "Inventariar y catalogar normativa de Personal docente"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "analisis"
   responsable: "@.agents/skills/experto-normativa-canaria"
   fecha_creacion: 2026-04-26
   fecha_actualizacion: 2026-04-26
-  relacionadas: [FTE-013, NOR-001, NOR-002, NOR-004]
+  relacionadas: [FTE-013, NOR-001, NOR-002, NOR-004, NOR-019, NOR-020, NOR-021, NOR-022, NOR-023]
   ruta: "08_tareas/backlog/TAREA-015-inventariar-normativa-personal-docente.md"
 
 TAREA-016:

@@ -193,36 +193,6 @@ NOR-013:
   temas: [inspeccion, organizacion]
   etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
 
-NOR-014:
-  titulo: "Orden de 22 de febrero de 2008, por la que se regula el acceso a la formación profesional del sistema educativo y a las enseñanzas deportivas de régimen especial"
-  nombre_corto: "Orden 22-02-2008 (acceso FP Canarias)"
-  tipo_norma: "orden-autonomica"
-  ambito: "canarias"
-  estado_vigencia: "Pendiente de verificación"
-  fecha_disposicion: 2008-02-22
-  fecha_publicacion: null
-  fecha_entrada_vigor: null
-  fecha_consulta: 2026-04-26
-  fuente_principal: FTE-015
-  ruta: "02_normativa/canarias/ordenes/NOR-014-orden-22-02-2008-acceso-fp.md"
-  temas: [formacion-profesional, acceso, ensenanzas-deportivas]
-  etapas_afectadas: [formacion-profesional, ensenanzas-deportivas]
-
-NOR-015:
-  titulo: "Orden de 20 de octubre de 2000, por la que se regulan los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias"
-  nombre_corto: "Orden 20-10-2000 (evaluación FP Canarias)"
-  tipo_norma: "orden-autonomica"
-  ambito: "canarias"
-  estado_vigencia: "Pendiente de verificación"
-  fecha_disposicion: 2000-10-20
-  fecha_publicacion: null
-  fecha_entrada_vigor: null
-  fecha_consulta: 2026-04-26
-  fuente_principal: FTE-015
-  ruta: "02_normativa/canarias/ordenes/NOR-015-orden-20-10-2000-evaluacion-fp.md"
-  temas: [formacion-profesional, evaluacion, ensenanzas-especificas]
-  etapas_afectadas: [formacion-profesional]
-
 NOR-016:
   titulo: "Orden de 3 de diciembre de 2003, por la que se modifica y amplía la Orden de 20 de octubre de 2000, que regula los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias"
   nombre_corto: "Orden 03-12-2003 (modifica orden evaluación FP)"
@@ -237,3 +207,78 @@ NOR-016:
   ruta: "02_normativa/canarias/ordenes/NOR-016-orden-03-12-2003-evaluacion-fp.md"
   temas: [formacion-profesional, evaluacion, ensenanzas-especificas]
   etapas_afectadas: [formacion-profesional]
+
+NOR-019:
+  titulo: "Ley 2/1987, de 30 de marzo, de la Función Pública Canaria"
+  nombre_corto: "Ley Función Pública (Canarias)"
+  tipo_norma: "ley-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 1987-03-30
+  fecha_publicacion: 1987-04-03
+  fecha_entrada_vigor: 1987-04-04
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-022
+  ruta: "02_normativa/canarias/leyes/NOR-019-ley-canaria-funcion-publica.md"
+  temas: [funcion-publica, regimen-juridico]
+  etapas_afectadas: [todas]
+
+NOR-020:
+  titulo: "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público"
+  nombre_corto: "TREBEP"
+  tipo_norma: "real-decreto-legislativo"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2015-10-30
+  fecha_publicacion: 2015-10-31
+  fecha_entrada_vigor: 2015-11-01
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-023
+  ruta: "02_normativa/estatal/reales-decretos/NOR-020-trebep.md"
+  temas: [empleo-publico, derechos-deberes]
+  etapas_afectadas: [todas]
+
+NOR-021:
+  titulo: "Decreto 74/2010, de 1 de julio, por el que se establece el procedimiento de constitución de listas de empleo para el nombramiento de funcionarios interinos en los cuerpos docentes no universitarios"
+  nombre_corto: "Decreto de Interinos (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2010-07-01
+  fecha_publicacion: 2010-07-13
+  fecha_entrada_vigor: 2010-07-14
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-024
+  ruta: "02_normativa/canarias/decretos/NOR-021-decreto-74-2010-interinos.md"
+  temas: [personal-interino, seleccion]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-022:
+  titulo: "Decreto 106/2009, de 28 de julio, por el que se regula la función directiva en los centros docentes públicos no universitarios dependientes de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Función Directiva (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2009-07-28
+  fecha_publicacion: 2009-08-11
+  fecha_entrada_vigor: 2009-08-12
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-025
+  ruta: "02_normativa/canarias/decretos/NOR-022-decreto-106-2009-direccion.md"
+  temas: [funcion-directiva, directores]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-023:
+  titulo: "Resolución de 16 de junio de 2020, por la que se regula el periodo vacacional y el régimen de permisos y licencias del personal docente no universitario"
+  nombre_corto: "Permisos y Licencias (Canarias)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2020-06-16
+  fecha_publicacion: 2020-07-02
+  fecha_entrada_vigor: 2020-07-03
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-026
+  ruta: "02_normativa/canarias/resoluciones/NOR-023-resolucion-2020-permisos.md"
+  temas: [permisos, licencias, vacaciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]

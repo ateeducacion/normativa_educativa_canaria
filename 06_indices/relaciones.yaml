@@ -81,3 +81,31 @@ REL-012:
   destino: NOR-015
   fuente: FTE-015
   ruta: "05_relaciones/normativa/REL-012-orden-03-12-2003-modifica-orden-20-10-2000.yaml"
+
+REL-016:
+  tipo_relacion: "relaciona"
+  origen: NOR-019
+  destino: NOR-020
+  fuente: FTE-022
+  ruta: "05_relaciones/normativa/REL-016-ley-canaria-relaciona-trebep.yaml"
+
+REL-017:
+  tipo_relacion: "desarrolla"
+  origen: NOR-021
+  destino: NOR-019
+  fuente: FTE-024
+  ruta: "05_relaciones/normativa/REL-017-interinos-desarrolla-ley-canaria.yaml"
+
+REL-018:
+  tipo_relacion: "relaciona"
+  origen: NOR-022
+  destino: NOR-020
+  fuente: FTE-025
+  ruta: "05_relaciones/normativa/REL-018-direccion-relaciona-trebep.yaml"
+
+REL-019:
+  tipo_relacion: "relaciona"
+  origen: NOR-023
+  destino: NOR-020
+  fuente: FTE-026
+  ruta: "05_relaciones/normativa/REL-019-permisos-relaciona-trebep.yaml"
