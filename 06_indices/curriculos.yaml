@@ -6,8 +6,8 @@ CUR-001:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Extracción inicial parcial completada el 2026-04-26 (competencias específicas resumidas y estructura de saberes básicos por bloque). Resta volcar criterios de evaluación, descriptores y enunciados literales contra el BOC; ver TAREA-010."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 tras cotejo con el BOC (Decreto 30/2023). Se han incorporado enunciados literales, criterios de evaluación por curso y vinculación con descriptores operativos."
 
 CUR-002:
   titulo: "Cultura Clásica — ESO Canarias"

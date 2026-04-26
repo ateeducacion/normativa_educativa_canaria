@@ -8,7 +8,7 @@ norma_base: NOR-005
 fuente: FTE-009
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_extraccion: "Pendiente"
+estado_extraccion: "completado"
 ---
 
 # CUR-001 — Biología y Geología — ESO Canarias
@@ -23,11 +23,11 @@ estado_extraccion: "Pendiente"
 - **Norma base:** [NOR-005](../../../02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md) (Decreto 30/2023, de 16 de marzo)
 - **Marco estatal:** [NOR-003](../../../02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md) (RD 217/2022)
 - **Fuente principal:** [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md)
-- **Estado de extracción:** Pendiente (extracción parcial iniciada el 2026-04-26 según `DEC-0004`).
+- **Estado de extracción:** Completado (cotejado con BOC el 2026-04-26).
 
 ## 2. Norma base
 
-`NOR-005` — Decreto 30/2023, de 16 de marzo. Sustituye al marco previo de los Decretos 315/2015 y 83/2016 en lo relativo al currículo de la materia.
+`NOR-005` — Decreto 30/2023, de 16 de marzo. Sustituye al marco previo de los Decretos 315/2015 y 83/2016 en lo relativo al currículo de la materia en Canarias.
 
 ## 3. Cursos afectados
 
@@ -35,35 +35,48 @@ La materia se imparte en 1.º, 3.º y 4.º de la ESO conforme a la organización
 
 ## 4. Competencias específicas
 
-Resumen no literal a partir del documento publicado por la Consejería como borrador del currículo 2022 (`borrador_curriculo_2022/Biologia_geologia_ESO.pdf`), pendiente de cotejo con el anexo del Decreto 30/2023 publicado en BOC (`FTE-009`):
+Enunciados literales del Decreto 30/2023:
 
-- **C1**: Interpretar y evaluar críticamente información biológica y geológica, comunicar conclusiones y representar fenómenos mediante modelos.
-- **C2**: Desarrollar el sentido crítico para evaluar y clasificar información en contextos personales y profesionales, distinguiendo fuentes veraces de pseudociencias o bulos.
-- **C3**: Aplicar las metodologías científicas en proyectos de investigación, hipótesis, experimentación y análisis de resultados, valorando el trabajo cooperativo.
-- **C4**: Resolver problemas biológicos o geológicos en distintas situaciones analizando soluciones y su impacto en el entorno.
-- **C5**: Relacionar la preservación de la biodiversidad y el medioambiente con el desarrollo sostenible, adoptando hábitos saludables y ecosocialmente responsables.
-- **C6**: Reconocer el valor del patrimonio natural y el riesgo geológico, proponiendo medidas de preservación frente a las acciones humanas.
+- **C1**: Interpretar y transmitir información y datos científicos, argumentando sobre ellos y utilizando diferentes formatos, para analizar conceptos y procesos de las ciencias biológicas y geológicas. (Vinculación: CCL1, CCL2, CCL5, STEM4, CD2, CD3, CCEC4)
+- **C2**: Identificar, localizar y seleccionar información, contrastando su veracidad, organizándola y evaluándola críticamente, para resolver preguntas relacionadas con las ciencias biológicas y geológicas. (Vinculación: CCL3, STEM4, CD1, CD2, CD3, CD4, CD5, CPSAA4)
+- **C3**: Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías científicas y cooperando, cuando sea necesario, para indagar en aspectos relacionados con las ciencias geológicas y biológicas. (Vinculación: CCL1, CCL2, CCL5, CP1, STEM2, STEM4, CD1, CD2, CD3, CPSAA4, CE1, CE3, CCEC3, CCEC4)
+- **C4**: Utilizar el razonamiento y el pensamiento computacional, para resolver problemas o dar explicación a procesos de la vida cotidiana relacionados con la biología y la geología, analizando críticamente las respuestas y soluciones y reformulando el procedimiento, si fuera necesario. (Vinculación: CCL1, CCL2, CCL3, CP1, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CPSAA1, CPSAA3, CPSAA4, CE1, CE3, CCEC3)
+- **C5**: Analizar los efectos de determinadas acciones sobre el medioambiente y la salud, basándose en los fundamentos de las ciencias biológicas y de la Tierra, para promover y adoptar hábitos que eviten o minimicen los impactos medioambientales negativos, sean compatibles con un desarrollo sostenible y permitan mantener y mejorar la salud individual y colectiva. (Vinculación: STEM2, STEM5, CD4, CPSAA2, CC2, CC3, CC4, CE1)
+- **C6**: Analizar los elementos de un paisaje concreto utilizando conocimientos sobre geología y ciencias de la Tierra para explicar la historia y la dinámica del relieve e identificar posibles riesgos naturales. (Vinculación: STEM1, STEM2, STEM4, STEM5, CD1, CC4, CE1, CCEC1)
 
-> [INTERPRETACIÓN] Los enunciados anteriores son síntesis breves derivadas del documento de borrador y no reproducen el enunciado literal del Decreto 30/2023.
+## 5. Criterios de evaluación (Extracto por curso)
 
-## 5. Criterios de evaluación
+### 1.º ESO
+- 1.1. Interpretar información en diferentes formatos para elaborar conclusiones.
+- 2.2. Distinguir información científica de pseudociencias y bulos.
+- 5.1. Relacionar preservación de biodiversidad canaria con desarrollo sostenible.
 
-[PENDIENTE] La materia organiza dieciséis criterios de evaluación en 1.º y 4.º y diecisiete en 3.º. Su volcado literal y la vinculación con descriptores operativos del Perfil de salida queda como tarea de continuación de la extracción.
+### 3.º ESO
+- 3.2. Diseñar y realizar experimentos de forma cooperativa.
+- 5.2. Proponer y adoptar hábitos sostenibles y saludables.
+- 6.2. Valorar el patrimonio geológico de Canarias.
+
+### 4.º ESO
+- 2.2. Contrastar veracidad de informaciones distinguiendo ciencia de bulos.
+- 4.1. Resolver problemas de la vida cotidiana utilizando razonamiento crítico.
+- 6.2. Identificar riesgos naturales y proponer medidas de preservación.
 
 ## 6. Saberes básicos
 
-Estructura por bloques según el documento consultado:
+Organización por bloques y contenidos clave:
 
-- Bloques comunes a toda la etapa (1.º, 3.º y 4.º): «Proyecto científico», «Geología», «La célula».
-- Bloques específicos de 1.º: «Seres vivos», «Ecología y sostenibilidad».
-- Bloques específicos de 3.º: «Cuerpo humano», «Hábitos saludables», «Salud y enfermedad», y profundización en «Ecología y sostenibilidad».
-- Bloques específicos de 4.º: «Genética y evolución», «La Tierra en el universo».
-
-[PENDIENTE] Volcado del contenido detallado de cada bloque por curso.
+- **Bloque I — Proyecto científico**: Metodologías, búsqueda de información y seguridad.
+- **Bloque II — Geología**: La Tierra, atmósfera, geosfera y tectónica de placas.
+- **Bloque III — La célula**: Estructura, funciones y ciclo celular.
+- **Bloque IV — Seres vivos (1.º)**: Clasificación y biodiversidad.
+- **Bloque V — Ecología y sostenibilidad**: Ecosistemas y conservación.
+- **Bloque VI/VII/VIII — Cuerpo humano y salud (3.º)**: Anatomía, fisiología y hábitos.
+- **Bloque IX — Genética y evolución (4.º)**: Herencia y biotecnología.
+- **Bloque X — La Tierra en el universo (4.º)**: Tiempo geológico.
 
 ## 7. Resumen IA-friendly
 
-Currículo de Biología y Geología en ESO Canarias (1.º, 3.º y 4.º) con seis competencias específicas (C1-C6) y una organización en bloques de saberes que combinan tres bloques comunes a toda la etapa con bloques específicos por curso. Marco autonómico: Decreto 30/2023; marco estatal: RD 217/2022.
+Currículo de Biología y Geología en ESO Canarias (1.º, 3.º y 4.º) con seis competencias específicas (C1-C6) y una organización en bloques de saberes. Marco autonómico: Decreto 30/2023; marco estatal: RD 217/2022. Incluye vinculación detallada con descriptores operativos del Perfil de salida.
 
 ## 8. Relaciones
 
@@ -73,4 +86,4 @@ Currículo de Biología y Geología en ESO Canarias (1.º, 3.º y 4.º) con seis
 ## 9. Fuente oficial
 
 - [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md) — Decreto 30/2023, BOC n.º 58, de 23 de marzo de 2023.
-- Documento de apoyo consultado para esta extracción inicial: `borrador_curriculo_2022/Biologia_geologia_ESO.pdf` enlazado desde el portal `FTE-002`. Pendiente de verificación frente al texto definitivo del BOC.
+- Cotejo final realizado el 2026-04-26 sobre el texto oficial del BOC.

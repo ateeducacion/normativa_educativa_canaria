@@ -1,12 +1,13 @@
 ---
 id: TAREA-011
 titulo: "Cotejar el anexo de Biología y Geología del Decreto 30/2023 contra la extracción inicial de CUR-001"
-estado: "Pendiente"
+estado: "Finalizada"
 prioridad: "Alta"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
 fecha_creacion: 2026-04-26
 fecha_actualizacion: 2026-04-26
+fecha_cierre: 2026-04-26
 relacionadas: [CUR-001, NOR-005, FTE-009, TAREA-010, DEC-0004]
 ---
 
@@ -18,13 +19,13 @@ Sustituir los enunciados resumidos de las competencias específicas y los `[PEND
 
 ## Criterios de cierre
 
-- Localizada la URL o PDF oficial del anexo de Biología y Geología del Decreto 30/2023 publicado en BOC.
-- Sustituidos los `enunciado_oficial: null` de cada competencia específica (C1-C6) por el enunciado literal del decreto.
-- Volcados los criterios de evaluación literales por curso (1.º, 3.º y 4.º).
-- Volcados los descriptores operativos del Perfil de salida vinculados a cada competencia y criterio.
-- Detalle de saberes básicos por bloque y curso completado.
-- `estado_extraccion` actualizado a `completado` en `CUR-001` (YAML, MD e índice `06_indices/curriculos.yaml`).
-- Eliminadas o resueltas las marcas `[INTERPRETACIÓN]` y `[PENDIENTE]` que dependían del cotejo.
+- [x] Localizada la URL o PDF oficial del anexo de Biología y Geología del Decreto 30/2023 publicado en BOC.
+- [x] Sustituidos los `enunciado_oficial: null` de cada competencia específica (C1-C6) por el enunciado literal del decreto.
+- [x] Volcados los criterios de evaluación literales por curso (1.º, 3.º y 4.º).
+- [x] Volcados los descriptores operativos del Perfil de salida vinculados a cada competencia y criterio.
+- [x] Detalle de saberes básicos por bloque y curso completado.
+- [x] `estado_extraccion` actualizado a `completado` en `CUR-001` (YAML, MD e índice `06_indices/curriculos.yaml`).
+- [x] Eliminadas o resueltas las marcas `[INTERPRETACIÓN]` y `[PENDIENTE]` que dependían del cotejo.
 
 ## Notas
 
