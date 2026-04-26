@@ -9,7 +9,7 @@ Use este repositorio como mapa de contexto, no como sustituto de la fuente jurí
 Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo entidades registradas en `06_indices/`; no incorpora borradores locales, archivos sin seguimiento ni fichas aún no indexadas.
 
 - 55 fuentes catalogadas (`FTE-001` a `FTE-055`).
-- 59 fichas normativas indexadas (`NOR-001` a `NOR-059`, con huecos reservados/no reutilizados).
+- 60 fichas normativas indexadas (`NOR-001` a `NOR-060`, con huecos reservados/no reutilizados).
 - 58 currículos registrados (`CUR-001` a `CUR-058`): 23 de ESO, 10 de Primaria, 3 de Infantil, 14 de Bachillerato y 8 de FP.
 - 45 relaciones normativas y curriculares (`REL-001` a `REL-048`, con huecos reservados/no reutilizados).
 - 22 chunks IA (`CHUNK-00001` a `CHUNK-00022`).

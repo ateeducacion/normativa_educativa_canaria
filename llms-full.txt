@@ -13,7 +13,7 @@ Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo e
 | Índice | Cobertura actual |
 | --- | --- |
 | Fuentes | 55 entradas, `FTE-001` a `FTE-055` |
-| Normativa | 59 entradas, `NOR-001` a `NOR-059`, con huecos reservados/no reutilizados |
+| Normativa | 60 entradas, `NOR-001` a `NOR-060`, con huecos reservados/no reutilizados |
 | Currículos | 58 entradas, `CUR-001` a `CUR-058` |
 | Relaciones | 45 entradas, `REL-001` a `REL-048`, con huecos reservados/no reutilizados |
 | Chunks IA | 22 entradas, `CHUNK-00001` a `CHUNK-00022` |
