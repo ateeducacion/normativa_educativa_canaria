@@ -7,6 +7,7 @@ on:
       - "docs/**"
       - "llms.txt"
       - "llms-full.txt"
+      - "skills/experto-normativa-educativa-canaria/SKILL.md"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -34,12 +35,14 @@ jobs:
           cp -R docs/. _site/
           cp llms.txt _site/llms.txt
           cp llms-full.txt _site/llms-full.txt
+          cp skills/experto-normativa-educativa-canaria/SKILL.md _site/skill.md
 
-      - name: Verificar que llms.txt y llms-full.txt están en el artefacto
+      - name: Verificar artefacto público
         run: |
           set -euo pipefail
           test -f _site/llms.txt
           test -f _site/llms-full.txt
+          test -f _site/skill.md
           test -f _site/index.html
 
       - name: Subir artefacto Pages
