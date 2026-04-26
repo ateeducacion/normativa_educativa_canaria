@@ -212,7 +212,7 @@ REL-034:
   tipo_relacion: "desarrolla"
   origen: NOR-037
   destino: NOR-024
-  fuente: FTE-013
+  fuente: FTE-040
   ruta: "05_relaciones/normativa/REL-034-orden-diversidad-desarrolla-decreto.yaml"
 
 REL-035:
@@ -228,3 +228,17 @@ REL-036:
   destino: NOR-029
   fuente: FTE-041
   ruta: "05_relaciones/normativa/REL-036-resolucion-admision.yaml"
+
+REL-037:
+  tipo_relacion: "desarrolla"
+  origen: NOR-039
+  destino: NOR-024
+  fuente: FTE-042
+  ruta: "05_relaciones/normativa/REL-037-instrucciones-diversidad-24-25.yaml"
+
+REL-038:
+  tipo_relacion: "desarrolla"
+  origen: NOR-040
+  destino: NOR-024
+  fuente: FTE-043
+  ruta: "05_relaciones/normativa/REL-038-instrucciones-diversidad-25-26.yaml"

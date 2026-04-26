@@ -5,14 +5,14 @@ nombre_corto: "Instrucciones Diversidad 25/26"
 tipo_norma: "resolucion-administrativa"
 ambito: "canarias"
 autoridad: "DGOEII - Gobierno de Canarias"
-fecha_disposicion: 2025-06-12
-fecha_publicacion: 2025-06-18
+fecha_disposicion: 2025-04-23
+fecha_publicacion: null
 fecha_entrada_vigor: 2025-09-01
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_vigencia: "Superada"
 fuente_principal: FTE-043
-url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/atencion_diversidad/instrucciones-25-26/"
+url_oficial: "https://www.gobiernodecanarias.org/educacion/web/centros/gestion_centros/centros_privados_concertados/normativa/?educa_etiquetas_es=Concertados%2C+concertados&page=17"
 etapas_afectadas: [infantil, primaria, eso, bachillerato]
 temas: [diversidad, instrucciones]
 relaciones:

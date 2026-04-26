@@ -5,14 +5,14 @@ nombre_corto: "Instrucciones Diversidad 24/25"
 tipo_norma: "resolucion-administrativa"
 ambito: "canarias"
 autoridad: "DGOEII - Gobierno de Canarias"
-fecha_disposicion: 2024-06-15
-fecha_publicacion: 2024-06-20
+fecha_disposicion: 2024-04-18
+fecha_publicacion: null
 fecha_entrada_vigor: 2024-09-01
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_vigencia: "Histórica"
 fuente_principal: FTE-042
-url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/atencion_diversidad/instrucciones-24-25/"
+url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/atencion_diversidad/medidas-atencion-a-la-diversidad/index.html"
 etapas_afectadas: [infantil, primaria, eso, bachillerato]
 temas: [diversidad, instrucciones]
 relaciones:
@@ -31,7 +31,7 @@ nivel_evidencia: "confirmado-fuente-primaria"
 
 ## 1. Identificación
 
-- **Norma:** Resolución n.º 261/2024.
+- **Norma:** Resolución n.º 261/2024, de 18 de abril de 2024.
 - **Nombre corto:** Instrucciones Diversidad 24/25.
 - **Ámbito:** Canarias.
 - **Autoridad:** DGOEII - Gobierno de Canarias.

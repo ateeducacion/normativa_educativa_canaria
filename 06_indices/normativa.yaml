@@ -514,8 +514,8 @@ NOR-039:
   tipo_norma: "resolucion-administrativa"
   ambito: "canarias"
   estado_vigencia: "Histórica"
-  fecha_disposicion: 2024-06-15
-  fecha_publicacion: 2024-06-20
+  fecha_disposicion: 2024-04-18
+  fecha_publicacion: null
   fecha_entrada_vigor: 2024-09-01
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-042
@@ -529,8 +529,8 @@ NOR-040:
   tipo_norma: "resolucion-administrativa"
   ambito: "canarias"
   estado_vigencia: "Superada"
-  fecha_disposicion: 2025-06-12
-  fecha_publicacion: 2025-06-18
+  fecha_disposicion: 2025-04-23
+  fecha_publicacion: null
   fecha_entrada_vigor: 2025-09-01
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-043
@@ -544,8 +544,8 @@ NOR-041:
   tipo_norma: "resolucion-administrativa"
   ambito: "canarias"
   estado_vigencia: "Vigente"
-  fecha_disposicion: 2026-06-10
-  fecha_publicacion: 2026-06-16
+  fecha_disposicion: 2026-04-24
+  fecha_publicacion: null
   fecha_entrada_vigor: 2026-09-01
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-044

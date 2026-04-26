@@ -180,7 +180,7 @@ tareas:
     responsable: "@.agents/skills/experto-normativa-canaria"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
-    relacionadas: [FTE-013, FTE-027, FTE-028, FTE-029, FTE-030, FTE-031, FTE-032, FTE-033, NOR-002, NOR-004, NOR-010, NOR-024, NOR-025, NOR-026, NOR-027, NOR-028, NOR-029, NOR-030, REL-020, REL-021, REL-022, REL-023, REL-024, REL-025, REL-026, REL-027]
+    relacionadas: [FTE-013, FTE-027, FTE-028, FTE-029, FTE-030, FTE-031, FTE-032, FTE-033, FTE-040, FTE-041, FTE-042, FTE-043, FTE-044, NOR-002, NOR-004, NOR-010, NOR-024, NOR-025, NOR-026, NOR-027, NOR-028, NOR-029, NOR-030, NOR-037, NOR-038, NOR-039, NOR-040, NOR-041, REL-020, REL-021, REL-022, REL-023, REL-024, REL-025, REL-026, REL-027, REL-034, REL-035, REL-036, REL-037, REL-038]
     siguiente_accion: null
 
   TAREA-017:
@@ -236,6 +236,17 @@ tareas:
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [TAREA-014, TAREA-015, TAREA-016, TAREA-017, TAREA-018, TAREA-019]
+    siguiente_accion: null
+
+  TAREA-022:
+    titulo: "Consolidar cambios de agentes paralelos"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "calidad-documental"
+    responsable: "@.agents/skills/control-calidad-documental"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [TAREA-016, TAREA-021, FTE-027, FTE-028, FTE-029, FTE-030, FTE-040, FTE-041, FTE-042, FTE-043, FTE-044, NOR-037, NOR-038, NOR-039, NOR-040, NOR-041, REL-034, REL-035, REL-036, REL-037, REL-038]
     siguiente_accion: null
 
 bloqueos: []

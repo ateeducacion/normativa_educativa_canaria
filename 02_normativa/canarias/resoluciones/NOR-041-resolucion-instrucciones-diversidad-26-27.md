@@ -5,14 +5,14 @@ nombre_corto: "Instrucciones Diversidad 26/27"
 tipo_norma: "resolucion-administrativa"
 ambito: "canarias"
 autoridad: "DGOEII - Gobierno de Canarias"
-fecha_disposicion: 2026-06-10
-fecha_publicacion: 2026-06-16
+fecha_disposicion: 2026-04-24
+fecha_publicacion: null
 fecha_entrada_vigor: 2026-09-01
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-044
-url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/atencion_diversidad/instrucciones-26-27/"
+url_oficial: "https://www.gobiernodecanarias.org/educacion/web/personal/docente/?fi=cen_cor_vacan&sfi=cen_cor_vacan&t=centros_concertados"
 etapas_afectadas: [infantil, primaria, eso, bachillerato]
 temas: [diversidad, instrucciones]
 relaciones:
@@ -31,7 +31,7 @@ nivel_evidencia: "confirmado-fuente-primaria"
 
 ## 1. Identificación
 
-- **Norma:** Resolución n.º 584/2026.
+- **Norma:** Resolución n.º 584/2026, de 24 de abril de 2026.
 - **Nombre corto:** Instrucciones Diversidad 26/27.
 - **Ámbito:** Canarias.
 - **Autoridad:** DGOEII - Gobierno de Canarias.

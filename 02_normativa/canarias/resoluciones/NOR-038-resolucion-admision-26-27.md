@@ -12,7 +12,7 @@ fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-041
-url_oficial: "https://www.gobiernodecanarias.org/boc/2026/031/001.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2026/031/pda/498.html"
 etapas_afectadas: [infantil, primaria, eso, bachillerato]
 temas: [admision, escolarizacion]
 relaciones:
@@ -21,7 +21,7 @@ relaciones:
   modifica_a: []
   deroga_a: []
   derogada_por: []
-  relacionada_con: []
+  relacionada_con: [NOR-029]
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 

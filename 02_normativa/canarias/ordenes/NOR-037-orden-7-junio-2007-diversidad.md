@@ -12,11 +12,11 @@ fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-040
-url_oficial: "https://www.gobiernodecanarias.org/boc/2007/124/005.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2007/124/001.html"
 etapas_afectadas: [primaria, eso]
 temas: [diversidad, inclusion, eso, primaria]
 relaciones:
-  desarrolla_a: []
+  desarrolla_a: [NOR-024]
   modificada_por: []
   modifica_a: []
   deroga_a: []
