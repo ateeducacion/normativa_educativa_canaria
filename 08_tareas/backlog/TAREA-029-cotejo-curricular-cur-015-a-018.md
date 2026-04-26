@@ -43,14 +43,14 @@ Completar el cotejo literal de competencias específicas, criterios de evaluaci�
 ### CUR-017 — Lengua Castellana y Literatura
 - Estado: **parcial**
 - Fuente: `Lengua_castellana_y_Literatura_ESO.pdf`
-- Extraídas: 7 CE (C1-C7) literales; criterios de 1.º ESO para C1-C7 (11 criterios).
-- Pendiente: CE C8-C10 literales; criterios de 2.º, 3.º y 4.º ESO; saberes básicos (bloques I-IV).
+- Extraídas: 10 CE (C1-C10) literales; criterios de 1.º ESO completos (criterios 1.1-10.2, 21 criterios en total).
+- Pendiente: texto literal de saberes básicos (bloques I. La lengua y sus hablantes, II. Comunicación, III. Educación literaria, IV. Reflexión sobre la lengua); criterios de 2.º, 3.º y 4.º ESO.
 
 ### CUR-018 — Lengua Extranjera
 - Estado: **parcial**
 - Fuente: `Lengua_extranjera_ESO.pdf`
-- Extraídas: 6 CE (C1-C6; enunciado_oficial de C1 pendiente); criterios de 1.º ESO para C2-C6; 4 bloques de saberes básicos completos.
-- Pendiente: enunciado_oficial literal de CE C1; criterio 1.1 (texto truncado en página 10-11 del PDF); criterios de 2.º, 3.º y 4.º ESO.
+- Extraídas: 6 CE (C1-C6) literales; criterios de 1.º ESO completos (criterios 1.1-6.1); 4 bloques de saberes básicos completos.
+- Pendiente: criterios de 2.º, 3.º y 4.º ESO.
 
 ## Coordinación con trabajo paralelo
 
