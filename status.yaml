@@ -272,14 +272,14 @@ tareas:
     siguiente_accion: null
 
   TAREA-025:
-    titulo: "Extracción curricular ESO: CUR-003 a CUR-006"
+    titulo: "Extracción curricular ESO: CUR-003 a CUR-014"
     estado: "Hecha"
     prioridad: "Alta"
     tipo: "curriculo"
     responsable: "@.agents/skills/analisis-curricular"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
-    relacionadas: [CUR-003, CUR-004, CUR-005, CUR-006, NOR-005, FTE-009]
+    relacionadas: [CUR-003, CUR-004, CUR-005, CUR-006, CUR-011, CUR-012, CUR-013, CUR-014, NOR-005, FTE-009]
     siguiente_accion: null
 
   TAREA-026:

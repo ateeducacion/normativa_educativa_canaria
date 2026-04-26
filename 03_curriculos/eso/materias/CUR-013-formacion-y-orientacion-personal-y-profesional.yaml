@@ -3,14 +3,14 @@ titulo: "Formación y Orientación Personal y Profesional — ESO Canarias"
 etapa: "eso"
 materia: "Formación y Orientación Personal y Profesional"
 ambito: null
-cursos: []
-norma_base: null
-fuente: FTE-002
-url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-fecha_consulta: 2026-04-25
-fecha_analisis: null
-estado_extraccion: "Pendiente"
-estado_vigencia: "Pendiente de verificación"
+cursos: ["4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "iniciado"
+estado_vigencia: "Vigente"
 elementos:
   competencias_especificas: []
   criterios_evaluacion: []
@@ -18,7 +18,7 @@ elementos:
   descriptores_operativos: []
   situaciones_aprendizaje: []
 relaciones:
-  desarrolla_a: []
-  relacionada_con: [NOR-003]
-resumen_ia: "Currículo de Formación y Orientación Personal y Profesional en ESO localizado desde el portal oficial de Canarias; extracción pendiente de detalle y confirmación de norma base autonómica final."
-observaciones: "Pendiente de confirmar la fuente normativa autonómica final del currículo; ver PREG-001."
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Formación y Orientación Personal y Profesional en 4.º de ESO Canarias, materia disponible en el elenco del artículo 25 del Decreto 30/2023 con orientación al carácter orientador del último curso de la etapa. Extracción inicial: norma base confirmada en BOC; competencias específicas, criterios de evaluación y saberes básicos pendientes de cotejo con el anexo correspondiente del Decreto 30/2023."
+observaciones: "Encuadre normativo confirmado el 2026-04-26 mediante consulta del índice del BOC n.º 58/2023: Formación y Orientación Personal y Profesional figura entre las materias de 4.º ESO previstas en el artículo 25 del Decreto 30/2023, alineada con el carácter orientador del último curso de la etapa. Pendiente de cotejo el detalle curricular del anexo correspondiente del propio decreto. Ver TAREA-025."
