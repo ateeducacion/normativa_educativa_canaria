@@ -514,3 +514,58 @@ TAREA-047:
   fecha_actualizacion: 2026-04-26
   relacionadas: [DEC-0006, PREG-004, NOR-059, FTE-055]
   ruta: "08_tareas/backlog/TAREA-047-consolidacion-final.md"
+
+TAREA-048:
+  titulo: "Completar RAs y CEs de CUR-047 — Imagen para el Diagnóstico y Medicina Nuclear"
+  estado: "En progreso"
+  prioridad: "Media"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/experto-formacion-profesional"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-047, NOR-052, TAREA-038]
+  ruta: "08_tareas/backlog/TAREA-048-completar-ces-cur047-imagen-diagnostico.md"
+
+TAREA-049:
+  titulo: "Completar RAs y CEs pendientes de CUR-049 — Administración y Finanzas (2.º año)"
+  estado: "En progreso"
+  prioridad: "Media"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/experto-formacion-profesional"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-049, NOR-054, TAREA-044]
+  ruta: "08_tareas/backlog/TAREA-049-completar-ces-cur049-administracion-finanzas.md"
+
+TAREA-050:
+  titulo: "Completar CEs pendientes de CUR-050 y CUR-051 — DAM y DAW (módulos 2.º año)"
+  estado: "En progreso"
+  prioridad: "Media"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/experto-formacion-profesional"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-050, CUR-051, NOR-055, NOR-056, TAREA-045]
+  ruta: "08_tareas/backlog/TAREA-050-completar-ces-cur050-cur051-informatica.md"
+
+TAREA-051:
+  titulo: "Completar módulos comunes de CUR-053 — Integración Social (horas RD 1074/2012)"
+  estado: "En progreso"
+  prioridad: "Media"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/experto-formacion-profesional"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-053, NOR-060, TAREA-043]
+  ruta: "08_tareas/backlog/TAREA-051-completar-cur053-modulos-comunes.md"
+
+TAREA-052:
+  titulo: "Extraer capacidades terminales de CUR-046 — Cuidados Auxiliares de Enfermería (LOGSE)"
+  estado: "En progreso"
+  prioridad: "Baja"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/experto-formacion-profesional"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-046, NOR-051, TAREA-038]
+  ruta: "08_tareas/backlog/TAREA-052-extraer-capacidades-terminales-cur046-logse.md"
