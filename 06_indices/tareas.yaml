@@ -217,3 +217,14 @@ TAREA-020:
   fecha_actualizacion: 2026-04-26
   relacionadas: [FTE-015, NOR-007, NOR-008, NOR-014, NOR-015, NOR-016, REL-012, TAREA-017]
   ruta: "08_tareas/backlog/TAREA-020-catalogar-ordenes-resoluciones-fp-canarias.md"
+
+TAREA-021:
+  titulo: "Validar calidad documental tras el inventario normativo inicial"
+  estado: "Hecha"
+  prioridad: "Media"
+  tipo: "calidad-documental"
+  responsable: "@.agents/skills/control-calidad-documental"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [TAREA-014, TAREA-015, TAREA-016, TAREA-017, TAREA-018, TAREA-019]
+  ruta: "08_tareas/backlog/TAREA-021-validacion-calidad-post-inventario.md"

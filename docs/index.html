@@ -233,24 +233,33 @@
       <section id="preguntas" class="py-5 border-top">
         <div class="container">
           <h2 class="h3 mb-3">Cómo pedir ayuda a una IA con este repositorio</h2>
-          <p class="small text-secondary mb-4">Dos rutas, ambas son <strong>copiar y pegar</strong>: la skill cargada como rol, o la URL del repo directamente como contexto.</p>
+          <p class="small text-secondary mb-4">Dos rutas, ambas son <strong>copiar y pegar</strong>: la skill cargada como rol, o la URL del repo directamente como contexto. Las plantillas usan una pregunta de ejemplo real; pulsa <em>↻ Otra pregunta</em> para rotar entre varios casos donde el corpus marca diferencia.</p>
+
+          <article class="prompt-card mb-4" aria-live="polite">
+            <div class="d-flex flex-column flex-md-row align-items-md-center gap-2 mb-2">
+              <p class="mb-0 small fw-semibold flex-shrink-0">Pregunta de ejemplo:</p>
+              <p class="mb-0 small fst-italic flex-grow-1" id="ejemplo-pregunta-label">…</p>
+              <button class="btn btn-sm btn-outline-secondary flex-shrink-0" type="button" id="otra-pregunta">↻ Otra pregunta</button>
+            </div>
+            <p class="small text-secondary mb-0">Esta pregunta se inserta automáticamente en las dos plantillas de abajo, lista para que las copies completas.</p>
+          </article>
 
           <div class="row g-4">
             <div class="col-lg-6">
               <article class="prompt-card h-100">
                 <span class="badge text-bg-primary mb-2">Opción A — Recomendada</span>
-                <h3 class="h5">Con la skill cargada como rol</h3>
+                <h3 class="h5">Carga la skill de experto en normativa</h3>
                 <p class="small">Pega <a href="skill.html"><code>SKILL.md</code></a> como instrucciones de sistema (Claude Project, ChatGPT custom GPT, Gemini Gem, Cursor rules, etc.). Después escribe tu pregunta normalmente. La skill obliga al asistente a citar artículo/anexo y a respetar la jerarquía vigente.</p>
                 <div class="d-flex flex-wrap gap-2 mb-3">
                   <a class="btn btn-sm btn-primary" href="skill.html">Abrir skill (con copia un clic)</a>
                   <a class="btn btn-sm btn-outline-primary" href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/INSTALACION.md">Instalación por plataforma</a>
                 </div>
-                <p class="small mb-1"><strong>Plantilla de pregunta:</strong></p>
+                <p class="small mb-1"><strong>Plantilla de pregunta lista para copiar:</strong></p>
                 <div class="copy-block">
                   <button class="btn btn-sm btn-outline-primary btn-copy" data-target="prompt-skill" type="button">Copiar</button>
 <pre><code id="prompt-skill">[Skill ya cargada como rol del asistente]
 
-Pregunta: <TU CONSULTA SOBRE NORMATIVA EDUCATIVA EN CANARIAS></code></pre>
+Pregunta: <span class="ej-pregunta">…</span></code></pre>
                 </div>
               </article>
             </div>
@@ -258,14 +267,14 @@ Pregunta: <TU CONSULTA SOBRE NORMATIVA EDUCATIVA EN CANARIAS></code></pre>
             <div class="col-lg-6">
               <article class="prompt-card h-100">
                 <span class="badge text-bg-secondary mb-2">Opción B</span>
-                <h3 class="h5">Sin instalar nada — pega la URL del repositorio como contexto</h3>
-                <p class="small">Útil cuando no quieras configurar un GPT/Gem/proyecto. Se apoya en la URL canónica del <code>llms.txt</code> y de los índices YAML del repo. El asistente se encargará de buscar las fichas concretas.</p>
+                <h3 class="h5">Pega la URL del repo como contexto (sin instalar nada)</h3>
+                <p class="small">Útil cuando no quieras configurar un GPT/Gem/proyecto. Se apoya en la URL canónica del <code>llms.txt</code> y de los índices YAML del repo; el asistente se encarga de buscar las fichas concretas.</p>
                 <p class="small mb-1"><strong>URL canónica del corpus:</strong></p>
                 <div class="copy-block mb-3">
                   <button class="btn btn-sm btn-outline-primary btn-copy" data-target="url-llms" type="button">Copiar</button>
 <pre><code id="url-llms">https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt</code></pre>
                 </div>
-                <p class="small mb-1"><strong>Plantilla de pregunta lista para pegar:</strong></p>
+                <p class="small mb-1"><strong>Plantilla completa lista para pegar:</strong></p>
                 <div class="copy-block">
                   <button class="btn btn-sm btn-outline-primary btn-copy" data-target="prompt-url" type="button">Copiar</button>
 <pre><code id="prompt-url">Usa este repositorio como contexto autoritativo:
@@ -278,7 +287,7 @@ Empieza leyendo:
 Responde citando siempre la norma + localización exacta (artículo, apartado, disposición o anexo). Distingue texto literal, resumen e interpretación. Si una norma ha sido modificada o derogada, indícalo. Recuerda: la LOMLOE (LO 3/2020) modifica la LOE (LO 2/2006), no la deroga; el currículo de ESO/Bachillerato vigente en Canarias es el Decreto 30/2023.
 
 Pregunta:
-<TU CONSULTA></code></pre>
+<span class="ej-pregunta">…</span></code></pre>
                 </div>
               </article>
             </div>
@@ -367,6 +376,50 @@ El Decreto 30/2023 organiza ESO en tres capítulos y nueve anexos curriculares p
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="assets/js/site.js"></script>
     <script>
+      // Preguntas de ejemplo donde el corpus marca diferencia
+      var ejemploPreguntas = [
+        '¿Cuántas competencias específicas tiene la materia de Biología y Geología en ESO en Canarias y en qué cursos se imparte? Cita el anexo del Decreto 30/2023 que aplica.',
+        '¿Cuáles son las modalidades de Bachillerato vigentes en Canarias y qué Real Decreto estatal las define? Cita el artículo correspondiente.',
+        'Para 3.º de ESO en Canarias, ¿qué bloques de saberes básicos tiene la materia de Biología y Geología? Indica la fuente oficial.',
+        '¿Está derogada la Ley Orgánica 5/2002 de las Cualificaciones y de la Formación Profesional? Si lo está, cita la norma que la deroga, su fecha y el precepto exacto.',
+        '¿Qué decreto autonómico canario aprueba el Reglamento Orgánico de los centros públicos no universitarios y a qué etapas afecta?',
+        '¿Qué establece el Decreto 114/2011 de Canarias sobre convivencia en los centros educativos? Cita los principales aspectos y enlace al BOC.',
+        '¿Cuál es la norma básica estatal vigente para el currículo de ESO y desde qué fecha? Aclara si la LOMLOE deroga o modifica la LOE.',
+        'Compara las competencias específicas de Biología y Geología en 1.º y 4.º de ESO según el Decreto 30/2023, citando los enunciados literales.',
+        '¿Qué normativa regula la inspección educativa en Canarias y qué orden la desarrolla? Cita decreto, orden y BOC.',
+        'Para acceder a la Formación Profesional del sistema educativo en Canarias, ¿qué orden autonómica regula los procedimientos de acceso? ¿Está vigente tras la LOFP?'
+      ];
+
+      var labelEl = document.getElementById('ejemplo-pregunta-label');
+      var spans = document.querySelectorAll('.ej-pregunta');
+      var btnRotate = document.getElementById('otra-pregunta');
+      var idx = -1;
+
+      function pickQuestion() {
+        if (ejemploPreguntas.length <= 1) return ejemploPreguntas[0];
+        var n;
+        do { n = Math.floor(Math.random() * ejemploPreguntas.length); } while (n === idx);
+        idx = n;
+        return ejemploPreguntas[n];
+      }
+
+      function applyQuestion(q) {
+        if (labelEl) labelEl.textContent = '«' + q + '»';
+        spans.forEach(function (s) { s.textContent = q; });
+      }
+
+      if (labelEl || spans.length) {
+        applyQuestion(pickQuestion());
+      }
+      if (btnRotate) {
+        btnRotate.addEventListener('click', function () {
+          applyQuestion(pickQuestion());
+          var prev = btnRotate.textContent;
+          btnRotate.textContent = '↻ Cambiada';
+          setTimeout(function () { btnRotate.textContent = prev; }, 900);
+        });
+      }
+
       document.querySelectorAll('.btn-copy').forEach(function (btn) {
         btn.addEventListener('click', function () {
           var id = btn.getAttribute('data-target');
