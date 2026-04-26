@@ -182,8 +182,8 @@ CUR-017:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.md"
-  estado_extraccion: "parcial"
-  observaciones: "Materia troncal en 1.º a 4.º ESO (artículos 23.1.f y 25.1.c del Decreto 30/2023). CE C1-C10 literales y criterios de 1.º ESO completos (1.1-10.2) extraídos; saberes básicos (bloques I-IV) y criterios de 2.º-4.º ESO pendientes. Ver TAREA-029."
+  estado_extraccion: "completado"
+  observaciones: "Materia troncal en 1.º a 4.º ESO (artículos 23.1.f y 25.1.c del Decreto 30/2023). CE C1-C10 literales, criterios de 1.º-4.º ESO completos (19 criterios por curso: 1.1-10.2) y saberes básicos de los cuatro bloques extraídos literalmente. Notas: 'preoncebidas' (crit. 1.2 de 3.º y 4.º ESO) y 'guada' (crit. 6.1 de 2.º ESO) son erratas literales del PDF. Ver TAREA-029."
 
 CUR-018:
   titulo: "Lengua Extranjera — ESO Canarias"
@@ -193,8 +193,8 @@ CUR-018:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-018-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-018-lengua-extranjera.md"
-  estado_extraccion: "parcial"
-  observaciones: "Materia troncal en 1.º a 4.º ESO (artículos 23.1.i y 25.1.d del Decreto 30/2023). CE C1-C6 literales, criterios de 1.º ESO completos (1.1-6.1) y 4 bloques de saberes básicos extraídos; criterios de 2.º-4.º ESO pendientes. Ver TAREA-029."
+  estado_extraccion: "completado"
+  observaciones: "Materia troncal en 1.º a 4.º ESO (artículos 23.1.i y 25.1.d del Decreto 30/2023). CE C1-C6 literales, criterios de 1.º-4.º ESO completos (12 criterios por curso: 1.1-6.1) y 4 bloques de saberes básicos extraídos literalmente. Nota: 'mostendimiento' en crit. 4.1 de 3.º ESO es errata literal del PDF. Ver TAREA-029."
 
 CUR-019:
   titulo: "Matemáticas — ESO Canarias"

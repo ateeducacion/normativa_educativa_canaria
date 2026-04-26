@@ -1,7 +1,7 @@
 ---
 id: TAREA-029
 titulo: "Cotejo curricular ESO: CUR-015 a CUR-018 (segunda pasada)"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
@@ -41,16 +41,16 @@ Completar el cotejo literal de competencias específicas, criterios de evaluaci�
 - Extraídas: 5 CE (C1-C5) literales; 14 criterios de evaluación de 4.º ESO (1.1–5.3); 4 bloques de saberes básicos completos.
 
 ### CUR-017 — Lengua Castellana y Literatura
-- Estado: **parcial**
+- Estado: **completado**
 - Fuente: `Lengua_castellana_y_Literatura_ESO.pdf`
-- Extraídas: 10 CE (C1-C10) literales; criterios de 1.º ESO completos (criterios 1.1-10.2, 21 criterios en total).
-- Pendiente: texto literal de saberes básicos (bloques I. La lengua y sus hablantes, II. Comunicación, III. Educación literaria, IV. Reflexión sobre la lengua); criterios de 2.º, 3.º y 4.º ESO.
+- Extraídas: 10 CE (C1-C10) literales; criterios de 1.º-4.º ESO completos (19 criterios por curso: 1.1-10.2); saberes básicos de los cuatro bloques (13 entradas con agrupación por cursos donde el contenido es idéntico).
+- Notas: 'preoncebidas' (crit. 1.2 de 3.º y 4.º ESO) y 'guada' (crit. 6.1 de 2.º ESO) son erratas literales del PDF.
 
 ### CUR-018 — Lengua Extranjera
-- Estado: **parcial**
+- Estado: **completado**
 - Fuente: `Lengua_extranjera_ESO.pdf`
-- Extraídas: 6 CE (C1-C6) literales; criterios de 1.º ESO completos (criterios 1.1-6.1); 4 bloques de saberes básicos completos.
-- Pendiente: criterios de 2.º, 3.º y 4.º ESO.
+- Extraídas: 6 CE (C1-C6) literales; criterios de 1.º-4.º ESO completos (12 criterios por curso: 1.1-6.1); 4 bloques de saberes básicos completos.
+- Nota: 'mostendimiento' en crit. 4.1 de 3.º ESO es errata literal del PDF.
 
 ## Coordinación con trabajo paralelo
 

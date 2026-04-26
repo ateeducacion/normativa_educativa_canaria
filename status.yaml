@@ -337,14 +337,6 @@ tareas:
     relacionadas: [CUR-019, CUR-020, CUR-021, CUR-022, CUR-023, NOR-005, FTE-009]
     siguiente_accion: null
 
-bloqueos: []
-
-reglas:
-  - "No crear contenido normativo sin fuente oficial."
-  - "No borrar historial."
-  - "Actualizar índices YAML con cada nueva entidad."
-  - "Marcar toda duda como PREG-NNN."
-
   TAREA-031:
     titulo: "Catalogar normativa de Educación Primaria e Infantil (NOR-043 a NOR-049)"
     estado: "Hecha"
@@ -410,3 +402,11 @@ reglas:
     fecha_actualizacion: 2026-04-26
     relacionadas: [CUR-023]
     siguiente_accion: "Localizar anexo literal de Tecnología y Digitalización (CUR-023)."
+
+bloqueos: []
+
+reglas:
+  - "No crear contenido normativo sin fuente oficial."
+  - "No borrar historial."
+  - "Actualizar índices YAML con cada nueva entidad."
+  - "Marcar toda duda como PREG-NNN."
