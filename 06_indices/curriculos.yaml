@@ -116,8 +116,8 @@ CUR-011:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-011-filosofia.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-011-filosofia.md"
-  estado_extraccion: "iniciado"
-  observaciones: "Encuadre normativo confirmado el 2026-04-26 (Decreto 30/2023, art. 25.5: Filosofía como optativa de 4.º ESO). Pendiente de cotejo el detalle del anexo correspondiente del decreto. Ver TAREA-025."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial Filosofia_ESO.pdf publicado por la Consejería de Educación. Tres competencias específicas, cinco criterios de evaluación y tres bloques de saberes. Materia optativa de 4.º ESO (art. 25.5 Decreto 30/2023). Ver TAREA-028."
 
 CUR-012:
   titulo: "Física y Química — ESO Canarias"
@@ -127,8 +127,8 @@ CUR-012:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-012-fisica-y-quimica.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-012-fisica-y-quimica.md"
-  estado_extraccion: "iniciado"
-  observaciones: "Encuadre normativo confirmado el 2026-04-26 (Decreto 30/2023, art. 23.1.d para 2.º y 3.º ESO; art. 24 para 4.º ESO). Pendiente de cotejo el detalle del anexo correspondiente del decreto. Ver TAREA-025."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial Fisica_quimica_ESO.pdf publicado por la Consejería de Educación. Seis competencias específicas, trece criterios de evaluación por curso (2.º, 3.º y 4.º ESO) y cinco bloques de saberes con integración de saberes científicos canarios (IAC, ITER, IUBO, IPNA-CSIC). Ver TAREA-028."
 
 CUR-013:
   titulo: "Formación y Orientación Personal y Profesional — ESO Canarias"
@@ -138,8 +138,8 @@ CUR-013:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.md"
-  estado_extraccion: "iniciado"
-  observaciones: "Encuadre normativo confirmado el 2026-04-26 (Decreto 30/2023, art. 25: materia del elenco de 4.º ESO alineada con el carácter orientador del último curso de la etapa). Pendiente de cotejo el detalle del anexo correspondiente del decreto. Ver TAREA-025."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial Formacion_orientacion_personal_profesional_ESO.pdf publicado por la Consejería de Educación. Cinco competencias específicas, catorce criterios de evaluación y tres bloques de saberes. Materia del elenco del artículo 25 de 4.º ESO. Ver TAREA-028."
 
 CUR-014:
   titulo: "Geografía e Historia — ESO Canarias"
@@ -149,8 +149,8 @@ CUR-014:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-014-geografia-e-historia.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-014-geografia-e-historia.md"
-  estado_extraccion: "iniciado"
-  observaciones: "Encuadre normativo confirmado el 2026-04-26 (Decreto 30/2023, art. 23.1.e: común en 1.º, 2.º y 3.º ESO; art. 24: obligatoria en 4.º ESO). Pendiente de cotejo el detalle del anexo correspondiente del decreto. Ver TAREA-025."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial Geografia_historia_ESO.pdf publicado por la Consejería de Educación. Nueve competencias específicas (C1-C9) en 1.º-3.º y siete en 4.º ESO; criterios de evaluación de 1.º ESO literales y de 2.º-4.º sintetizados por competencia; tres bloques de saberes con tratamiento específico canario por curso. Materia común en 1.º-3.º ESO (art. 23.1.e) y obligatoria en 4.º (art. 24). Ver TAREA-028."
 
 CUR-015:
   titulo: "Historia y Geografía de Canarias — ESO Canarias"
@@ -204,8 +204,8 @@ CUR-019:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-019-matematicas.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-019-matematicas.md"
-  estado_extraccion: "parcial"
-  observaciones: "Extracción parcial el 2026-04-26 (TAREA-027): metadata y cursos confirmados contra el articulado del Decreto 30/2023 (artículos 23.1.g y 25.1.e). Detalle de competencias específicas, criterios de evaluación y saberes básicos pendiente de cotejo con el anexo II del Decreto 30/2023."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 (TAREA-030, segunda pasada) cotejada con el PDF oficial Matematicas_ESO.pdf publicado por la Consejería de Educación. Diez competencias específicas (C1-C10) con descriptores del Perfil de salida y dieciocho criterios de evaluación literales para 1.º y 2.º ESO; criterios de 3.º y 4.º (Mat A y Mat B) marcados como [PENDIENTE] para futura tarea. Saberes básicos en seis bloques (sentido numérico, medida, espacial, algebraico, estocástico y socioafectivo) con saberes propios de Canarias. Ver TAREA-030."
 
 CUR-020:
   titulo: "Música — ESO Canarias"
@@ -215,8 +215,8 @@ CUR-020:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-020-musica.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-020-musica.md"
-  estado_extraccion: "parcial"
-  observaciones: "Extracción parcial el 2026-04-26 (TAREA-027): metadata y cursos confirmados contra el articulado del Decreto 30/2023 (artículo 23.1.h y 25.3, opción E). Detalle pendiente de cotejo con el anexo II del Decreto 30/2023."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 (TAREA-030, segunda pasada) cotejada con el PDF oficial Musica_ESO.pdf publicado por la Consejería de Educación. Cuatro competencias específicas (C1-C4) con descriptores del Perfil de salida; criterios de evaluación literales para 1.º (6), 2.º (7) y 3.º ESO (7). Saberes básicos en tres bloques: escucha y percepción, interpretación-improvisación-creación escénica y contextos y culturas, con tratamiento del patrimonio canario y perspectiva de género. Ver TAREA-030."
 
 CUR-021:
   titulo: "Segunda Lengua Extranjera — ESO Canarias"
@@ -227,7 +227,7 @@ CUR-021:
   ruta_yaml: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.md"
   estado_extraccion: "parcial"
-  observaciones: "Extracción parcial el 2026-04-26 (TAREA-027): metadata y cursos confirmados contra el articulado del Decreto 30/2023 (artículo 23.1.j y 25.3, opción D). Detalle pendiente de cotejo con el anexo II del Decreto 30/2023."
+  observaciones: "Extracción parcial el 2026-04-26 (TAREA-030, segunda pasada) cotejada con el PDF oficial Segunda_lengua_extranjera_ESO.pdf publicado por la Consejería de Educación. Seis competencias específicas (C1-C6) alineadas con el MCER y diez de los doce criterios de 1.º ESO extraídos literalmente; criterios 5.x y 6.x de 1.º y todos los criterios de 2.º, 3.º y 4.º ESO marcados como [PENDIENTE] para futura tarea. Saberes básicos en cuatro bloques: comunicación, plurilingüismo, interculturalidad y dimensiones interpersonal e intrapersonal. Ver TAREA-030."
 
 CUR-022:
   titulo: "Tecnología — ESO Canarias"
@@ -237,8 +237,8 @@ CUR-022:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-022-tecnologia.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-022-tecnologia.md"
-  estado_extraccion: "parcial"
-  observaciones: "Extracción parcial el 2026-04-26 (TAREA-027): metadata confirmada contra el articulado del Decreto 30/2023 (artículo 25.2.j). Materia ofertable de 4.º ESO; en 1.º-3.º se imparte 'Tecnología y Digitalización' (CUR-023). Detalle pendiente de cotejo con el anexo II del Decreto 30/2023."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 (TAREA-030, segunda pasada) cotejada con el PDF oficial Tecnologia_ESO.pdf publicado por la Consejería de Educación. Seis competencias específicas (C1-C6) con descriptores del Perfil de salida y trece criterios de evaluación literales para 4.º ESO. Saberes básicos en cuatro bloques: proceso de resolución de problemas, operadores tecnológicos, pensamiento computacional/automatización/robótica y tecnología sostenible (con atención a la fragmentación territorial canaria, arquitectura bioclimática y ecotransporte). Ver TAREA-030."
 
 CUR-023:
   titulo: "Tecnología y Digitalización — ESO Canarias"
@@ -249,4 +249,4 @@ CUR-023:
   ruta_yaml: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.md"
   estado_extraccion: "parcial"
-  observaciones: "Extracción parcial el 2026-04-26 (TAREA-027): metadata y cursos confirmados contra el articulado del Decreto 30/2023 (artículo 23.1.k). Materia obligatoria en 1.º-2.º y optativa en 3.º; en 4.º se desdobla en 'Tecnología' (CUR-022) y 'Digitalización' (CUR-004). Detalle pendiente de cotejo con el anexo II del Decreto 30/2023."
+  observaciones: "Extracción parcial el 2026-04-26 (TAREA-030, segunda pasada): el PDF específico Tecnologia_y_Digitalizacion_ESO.pdf no estaba disponible en el portal de la Consejería en la fecha de consulta (URL devolvía 404). Se ha proporcionado estructura de competencias específicas (5) y de bloques de saberes (6) marcada como [HIPÓTESIS]/[PENDIENTE] sobre la base del marco estatal RD 217/2022 y de la materia continuadora CUR-022 (Tecnología, 4.º ESO) cotejada en esta pasada. Ver TAREA-030 y TAREA-031 (extracción literal pendiente)."

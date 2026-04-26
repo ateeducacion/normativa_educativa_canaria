@@ -304,6 +304,28 @@ tareas:
     relacionadas: [CUR-019, CUR-020, CUR-021, CUR-022, CUR-023, NOR-005, FTE-009]
     siguiente_accion: null
 
+  TAREA-028:
+    titulo: "Cotejo curricular ESO: CUR-011 a CUR-014 (segunda pasada)"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/analisis-curricular"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [CUR-011, CUR-012, CUR-013, CUR-014, NOR-005, FTE-009]
+    siguiente_accion: null
+
+  TAREA-030:
+    titulo: "Cotejo curricular ESO: CUR-019 a CUR-023 (segunda pasada)"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/analisis-curricular"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [CUR-019, CUR-020, CUR-021, CUR-022, CUR-023, NOR-005, FTE-009]
+    siguiente_accion: null
+
 bloqueos: []
 
 reglas:
