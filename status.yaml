@@ -570,14 +570,14 @@ tareas:
 
   TAREA-052:
     titulo: "Extraer capacidades terminales de CUR-046 — Cuidados Auxiliares de Enfermería (LOGSE)"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Baja"
     tipo: "curriculo"
     responsable: "@.agents/skills/experto-formacion-profesional"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [CUR-046, NOR-051]
-    siguiente_accion: "Extraer capacidades terminales desde BOE-A-1995-13592 (RD 558/1995)"
+    siguiente_accion: null
 
 bloqueos: []
 

@@ -561,7 +561,7 @@ TAREA-051:
 
 TAREA-052:
   titulo: "Extraer capacidades terminales de CUR-046 — Cuidados Auxiliares de Enfermería (LOGSE)"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Baja"
   tipo: "curriculo"
   responsable: "@.agents/skills/experto-formacion-profesional"

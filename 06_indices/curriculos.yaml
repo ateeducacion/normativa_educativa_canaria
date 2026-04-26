@@ -489,8 +489,8 @@ CUR-046:
   norma_base: NOR-051
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/sanidad/CUR-046-cuidados-auxiliares-de-enfermeria.yaml"
-  estado_extraccion: "parcial"
-  observaciones: "Módulos extraídos en TAREA-038 (2026-04-26): 8 módulos, 1.400h. Discrepancia RD: ver PREG-005. RAs y CEs pendientes."
+  estado_extraccion: "completo"
+  observaciones: "Capacidades terminales y criterios de evaluacion extraidos el 2026-04-26 de RD 546/1995 (BOE-A-1995-13533). Ciclo LOGSE: usa capacidades terminales en lugar de RAs LOE. 8 modulos, 1.400 h. TAREA-052 completada."
 
 CUR-047:
   titulo: "Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear — FP Canarias"
@@ -574,8 +574,8 @@ CUR-053:
   norma_actualizacion: NOR-058
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-053-integracion-social.yaml"
-  estado_extraccion: "parcial"
-  observaciones: "TAREA-043 (2026-04-26): NOR-060 catalogada (RD 1074/2012). CUR-053 contiene los 7 módulos actualizados por RD 289/2023 (34 RAs, 249 CEs) y los módulos comunes del título base (FOL, EIE, Primeros Auxilios, FCT, Proyecto de Integración Social) con datos aproximados [PENDIENTE verificar horas exactas en BOE-A-2012]. Total título: ~2000h. Modificado también por RD 500/2024."
+  estado_extraccion: "completo"
+  observaciones: "TAREA-051 (2026-04-26): completados 5 módulos comunes con códigos, horas y RAs/CEs verificados en BOE-A-2012-10866: 0020 Primeros auxilios (35h, 4 RAs), 0345 Proyecto integración social (25h, 4 RAs), 0346 FOL (50h, 7 RAs), 0347 EIE (35h, 4 RAs), 0348 FCT (220h, 6 RAs). Total 12 módulos, extracción completa."
 
 # --- BACHILLERATO (OPTATIVAS) ---
 
