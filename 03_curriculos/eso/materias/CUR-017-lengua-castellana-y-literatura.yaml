@@ -14,33 +14,60 @@ estado_vigencia: "Vigente"
 elementos:
   competencias_especificas:
     - codigo: "C1"
-      enunciado_resumido: "[PENDIENTE] Pendiente de cotejo con el anexo del Decreto 30/2023; previsiblemente vinculada al reconocimiento de la diversidad lingüística y dialectal (incluida el habla canaria)."
-      enunciado_oficial: "[PENDIENTE] Texto literal del Anexo del Decreto 30/2023 a cotejar."
-      descriptores: []
+      enunciado_resumido: "Describir y apreciar la diversidad lingüística del mundo a partir del reconocimiento de las lenguas del alumnado y la realidad plurilingüe de España."
+      enunciado_oficial: "Describir y apreciar la diversidad lingüística del mundo a partir del reconocimiento de las lenguas del alumnado y la realidad plurilingüe y pluricultural de España, analizando el origen y desarrollo sociohistórico de sus lenguas y las características de las principales variedades dialectales del español, para favorecer la reflexión interlingüística, para combatir los estereotipos y prejuicios lingüísticos y para valorar dicha diversidad como fuente de riqueza cultural."
+      descriptores: ["CCL1", "CCL5", "CP2", "CP3", "CD1", "CC1", "CC2", "CC3", "CCEC1", "CCEC3"]
     - codigo: "C2"
-      enunciado_resumido: "[PENDIENTE] Pendiente de cotejo con el anexo del Decreto 30/2023; previsiblemente vinculada a la comprensión y producción oral en distintos contextos."
-      enunciado_oficial: "[PENDIENTE] Texto literal del Anexo del Decreto 30/2023 a cotejar."
-      descriptores: []
+      enunciado_resumido: "Comprender e interpretar textos orales y multimodales recogiendo el sentido general y la información más relevante."
+      enunciado_oficial: "Comprender e interpretar textos orales y multimodales recogiendo el sentido general y la información más relevante, identificando el punto de vista y la intención del emisor y valorando su fiabilidad, su forma y su contenido, para construir conocimiento, formarse opinión y ensanchar las posibilidades de disfrute y ocio."
+      descriptores: ["CCL2", "CCL5", "CP2", "STEM1", "CD1", "CD2", "CD3", "CPSAA4", "CC3"]
     - codigo: "C3"
-      enunciado_resumido: "[PENDIENTE] Pendiente de cotejo con el anexo del Decreto 30/2023; previsiblemente vinculada a la comprensión escrita y multimodal."
-      enunciado_oficial: "[PENDIENTE] Texto literal del Anexo del Decreto 30/2023 a cotejar."
-      descriptores: []
+      enunciado_resumido: "Producir textos orales y multimodales con coherencia, cohesión, fluidez y el registro adecuado, participando en interacciones orales con actitud cooperativa."
+      enunciado_oficial: "Producir textos orales y multimodales con coherencia, cohesión, fluidez y el registro adecuado, atendiendo a las convenciones propias de los diferentes géneros discursivos, y participar en interacciones orales con actitud cooperativa y respetuosa, tanto para construir conocimiento y establecer vínculos personales como para intervenir de manera activa e informada en diferentes contextos sociales."
+      descriptores: ["CCL1", "CCL3", "CCL5", "STEM1", "CD1", "CD2", "CD3", "CPSAA4", "CC2", "CE1"]
     - codigo: "C4"
-      enunciado_resumido: "[PENDIENTE] Pendiente de cotejo con el anexo del Decreto 30/2023; previsiblemente vinculada a la producción escrita."
-      enunciado_oficial: "[PENDIENTE] Texto literal del Anexo del Decreto 30/2023 a cotejar."
-      descriptores: []
+      enunciado_resumido: "Comprender, interpretar y valorar textos escritos, con sentido crítico y diferentes propósitos de lectura."
+      enunciado_oficial: "Comprender, interpretar y valorar textos escritos, con sentido crítico y diferentes propósitos de lectura, reconociendo el sentido global y las ideas principales y secundarias, identificando la intención del emisor, reflexionando sobre el contenido y la forma y evaluando su calidad y fiabilidad, para dar respuesta a necesidades e intereses comunicativos diversos y para construir conocimiento."
+      descriptores: ["CCL2", "CCL3", "CCL5", "STEM1", "CD1", "CPSAA4", "CC3"]
     - codigo: "C5"
-      enunciado_resumido: "[PENDIENTE] Pendiente de cotejo con el anexo del Decreto 30/2023; previsiblemente vinculada a la educación literaria."
+      enunciado_resumido: "Producir textos escritos y multimodales coherentes, cohesionados, adecuados y correctos atendiendo a las convenciones propias del género discursivo elegido."
+      enunciado_oficial: "Producir textos escritos y multimodales coherentes, cohesionados, adecuados y correctos atendiendo a las convenciones propias del género discursivo elegido, para construir conocimiento y dar respuesta de manera informada, eficaz y creativa a demandas comunicativas concretas."
+      descriptores: ["CCL1", "CCL3", "CCL5", "STEM1", "CD2", "CD3", "CPSAA4", "CPSAA5", "CC2"]
+    - codigo: "C6"
+      enunciado_resumido: "Seleccionar y contrastar información procedente de diferentes fuentes de manera progresivamente autónoma."
+      enunciado_oficial: "Seleccionar y contrastar información procedente de diferentes fuentes de manera progresivamente autónoma, evaluando su fiabilidad y pertinencia en función de los objetivos de lectura y evitando los riesgos de manipulación y desinformación, e integrarla y transformarla en conocimiento para comunicarla, adoptando un punto de vista crítico y personal a la par que respetuoso con la propiedad intelectual."
+      descriptores: ["CCL3", "CD1", "CD2", "CD3", "CD4", "CPSAA4", "CPSAA5", "CC2", "CE3"]
+    - codigo: "C7"
+      enunciado_resumido: "Seleccionar y leer de manera progresivamente autónoma obras diversas como fuente de placer y conocimiento."
+      enunciado_oficial: "Seleccionar y leer de manera progresivamente autónoma obras diversas como fuente de placer y conocimiento, configurando un itinerario lector que evolucione en cuanto a diversidad, complejidad y calidad de las obras, y compartir experiencias de lectura para construir la propia identidad lectora y disfrutar de la dimensión social de la lectura."
+      descriptores: ["CCL1", "CCL4", "CD3", "CPSAA1", "CCEC1", "CCEC2", "CCEC3"]
+    - codigo: "C8"
+      enunciado_resumido: "[PENDIENTE] Pendiente de cotejo con el anexo del Decreto 30/2023."
       enunciado_oficial: "[PENDIENTE] Texto literal del Anexo del Decreto 30/2023 a cotejar."
       descriptores: []
-    - codigo: "C6"
-      enunciado_resumido: "[PENDIENTE] Pendiente de cotejo con el anexo del Decreto 30/2023; previsiblemente vinculada a la reflexión sobre la lengua y sus usos."
+    - codigo: "C9"
+      enunciado_resumido: "[PENDIENTE] Pendiente de cotejo con el anexo del Decreto 30/2023."
+      enunciado_oficial: "[PENDIENTE] Texto literal del Anexo del Decreto 30/2023 a cotejar."
+      descriptores: []
+    - codigo: "C10"
+      enunciado_resumido: "[PENDIENTE] Pendiente de cotejo con el anexo del Decreto 30/2023."
       enunciado_oficial: "[PENDIENTE] Texto literal del Anexo del Decreto 30/2023 a cotejar."
       descriptores: []
   criterios_evaluacion:
     - curso: "1.º ESO"
       criterios:
-        - "[PENDIENTE] Criterios de evaluación pendientes de cotejo con el anexo del Decreto 30/2023."
+        - "1.1. Reconocer la diversidad lingüística de España, con especial atención a la variedad dialectal canaria, identificando, de manera guiada, algunas nociones básicas de las lenguas y dialectos de España presentes en el aula en manifestaciones orales, escritas, signadas y multimodales, para ampliar su repertorio lingüístico individual y adoptar una actitud de respeto hacia el español de Canarias como variedad de prestigio de la lengua española y fuente de riqueza lingüística y cultural."
+        - "1.2. Identificar prejuicios, estereotipos y usos discriminatorios de la lengua, así como abusos de poder a través de la misma, a partir de la interacción con los demás en contextos cercanos al alumnado y de la observación gradual de la diversidad lingüística del entorno para desarrollar un juicio propio, integrar la variedad lingüística en su desarrollo personal y favorecer un uso no solo eficaz sino también ético del lenguaje, en el que el diálogo sea una herramienta para la construcción de una sociedad democrática e igualitaria."
+        - "2.1. Comprender e identificar el sentido global del texto y relación entre sus partes y seleccionar y retener la información más relevante de textos orales o multimodales sencillos, aplicando métodos inductivos y deductivos e integrándolos en un proceso de aprendizaje continuo para desarrollar su conciencia crítica."
+        - "2.2. Analizar la forma y el contenido de textos orales, signados y multimodales sencillos, identificando mecanismos de referencia interna y distintos procedimientos lingüísticos para construir una opinión sobre la forma y el significado del mensaje."
+        - "3.1. Producir textos orales y multimodales sencillos, ajustándose a las convenciones propias de los diversos géneros discursivos, con especial atención a los dialogados y expositivos, respetando las características del español de Canarias, utilizando recursos verbales y no verbales, planificando de manera pautada las diferentes fases de creación del texto y aplicando técnicas de autoevaluación para comunicarse de manera informada en diferentes contextos sociales."
+        - "3.2. Participar de manera progresivamente activa y adecuada en interacciones comunicativas orales informales, con actitudes de escucha activa y estrategias de cooperación conversacional y cortesía lingüística, para reconocer la comunicación oral como medio para transmitir conocimientos e ideas, y para ejercer una ciudadanía activa."
+        - "4.1. Comprender y reconocer el sentido global, la estructura, el tipo de destinatario, el formato utilizado y la información más relevante de textos escritos o multimodales sencillos de diferentes ámbitos, identificando la intención comunicativa para entender diferentes propósitos de lectura que le permitan asumir de forma activa la responsabilidad de su aprendizaje continuo."
+        - "4.2. Valorar la forma y el contenido de textos escritos y multimodales sencillos, determinando si su contenido cumple con las expectativas de certeza y veracidad para favorecer el desarrollo personal y la participación social del alumnado."
+        - "5.1. Producir textos escritos y multimodales sencillos, con especial atención a los dialogados, expositivos, narrativos y descriptivos, analizando la situación comunicativa, el destinatario, su propósito y el canal, aplicando en sus producciones procedimientos discursivos, lingüísticos y de estilo básicos, con la debida atención al español de Canarias, para dar respuesta a demandas comunicativas concretas y para enriquecer los textos de manera pautada con la debida precisión léxica y corrección ortográfica y gramatical."
+        - "6.1. Elaborar trabajos o proyectos de investigación sencillos sobre diversos temas de interés académico, personal o social que impliquen localizar y seleccionar de manera guiada información procedente de diferentes fuentes, con criterios de fiabilidad y pertinencia en función de los objetivos de lectura; organizarla e integrarla gradualmente en esquemas propios, reelaborarla y comunicarla a partir de un guion, incorporando hábitos de uso seguro, sostenible y saludable de las tecnologías digitales, respetando los principios de propiedad intelectual y ejerciendo una ciudadanía digital activa que propicie el interés por un proceso de aprendizaje continuo y para toda la vida."
+        - "7.1. Leer de manera progresivamente autónoma textos variados a partir de preselecciones en función de los propios gustos, intereses y necesidades, de la literatura juvenil contemporánea, canaria, española y universal, y participar progresivamente en situaciones comunicativas culturales que favorezcan el intercambio abierto de la experiencia lectora con apoyo de ejemplos, para integrar en su vida la lectura como fuente de placer, dejar constancia de la construcción gradual de su propia identidad lectora y descubrir el encuentro cultural y artístico."
+        - "[PENDIENTE] Criterios de evaluación de C8 a C10 para 1.º ESO pendientes de cotejo con el anexo del Decreto 30/2023."
     - curso: "2.º ESO"
       criterios:
         - "[PENDIENTE] Criterios de evaluación pendientes de cotejo con el anexo del Decreto 30/2023."
@@ -53,11 +80,11 @@ elementos:
   saberes_basicos:
     - bloque: "[PENDIENTE] Bloques de saberes básicos pendientes de cotejo con el anexo del Decreto 30/2023."
       cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
-      detalles: "[PENDIENTE] Contenidos esperables: las lenguas y sus hablantes (con atención al habla canaria), comunicación oral, comprensión y producción escritas, educación literaria (con corpus de obras de la literatura española y de autoras y autores canarios), reflexión sobre la lengua. Cotejo literal pendiente."
-  descriptores_operativos: []
+      detalles: "[PENDIENTE] Estructurados en cuatro bloques: I. Las lenguas y sus hablantes, II. Comunicación, III. Educación literaria, IV. Reflexión sobre la lengua. Contenido literal pendiente de lectura de páginas 21 y siguientes del PDF oficial."
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL4", "CCL5", "CP2", "CP3", "STEM1", "CD1", "CD2", "CD3", "CD4", "CPSAA1", "CPSAA4", "CPSAA5", "CC1", "CC2", "CC3", "CE1", "CE3", "CCEC1", "CCEC2", "CCEC3"]
   situaciones_aprendizaje: []
 relaciones:
   desarrolla_a: [NOR-003]
   relacionada_con: [NOR-005]
-resumen_ia: "Currículo de Lengua Castellana y Literatura en ESO (1.º a 4.º) en Canarias, regulado por el Decreto 30/2023 (NOR-005) en desarrollo del RD 217/2022 (NOR-003). El artículo 23.1.f y el artículo 25.1.c del decreto incluyen la materia como troncal en todos los cursos de la ESO. La extracción literal del anexo (competencias específicas, criterios de evaluación y saberes básicos) está pendiente."
-observaciones: "Materia troncal de la ESO en todos los cursos según los artículos 23.1.f (1.º a 3.º) y 25.1.c (4.º) del Decreto 30/2023, confirmado en el articulado del BOC n.º 58 de 23-3-2023 (FTE-009). El contenido íntegro del anexo no se ha podido cotejar en esta extracción inicial; competencias específicas, criterios de evaluación, saberes básicos y descriptores operativos quedan marcados como [PENDIENTE] hasta una revisión sobre el PDF oficial del BOC. Ver TAREA-026 y PREG-001."
+resumen_ia: "Currículo de Lengua Castellana y Literatura en ESO (1.º a 4.º) en Canarias, regulado por el Decreto 30/2023 (NOR-005) en desarrollo del RD 217/2022 (NOR-003). Materia troncal en todos los cursos (arts. 23.1.f y 25.1.c). Se han extraído las 7 primeras competencias específicas (C1-C7) y los criterios de evaluación para 1.º ESO (C1-C7). Pendiente: C8-C10 y criterios de 2.º a 4.º ESO."
+observaciones: "Extracción parcial realizada el 2026-04-26 a partir del PDF oficial (Lengua_castellana_y_Literatura_ESO.pdf). Se han cotejado literalmente las competencias C1-C7 y los criterios de 1.º ESO para C1-C7. Pendiente completar C8-C10, criterios de 2.º, 3.º y 4.º ESO, y saberes básicos (bloques I-IV). Ver TAREA-029."

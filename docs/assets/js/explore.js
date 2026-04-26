@@ -54,6 +54,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let activeGroup = 'all';
   let activePath = '';
+  const repoRawBase = 'https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main';
+  const repoGitHubBase = 'https://github.com/ateeducacion/normativa_educativa_canaria/blob/main';
 
   const escapeHtml = (value) => value
     .replaceAll('&', '&amp;')
@@ -62,12 +64,13 @@ document.addEventListener('DOMContentLoaded', () => {
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#39;');
 
-  const resolveSitePath = (repoPath) => {
-    if (repoPath.startsWith('docs/')) {
-      return repoPath.slice('docs/'.length);
-    }
-    return `../${repoPath}`;
-  };
+  const toUrlPath = (repoPath) => repoPath
+    .split('/')
+    .map((segment) => encodeURIComponent(segment))
+    .join('/');
+
+  const resolveRawUrl = (repoPath) => `${repoRawBase}/${toUrlPath(repoPath)}`;
+  const resolveGitHubUrl = (repoPath) => `${repoGitHubBase}/${toUrlPath(repoPath)}`;
 
   const stripFrontmatter = (text) => {
     if (!text.startsWith('---')) return { frontmatter: '', body: text };
@@ -135,13 +138,14 @@ document.addEventListener('DOMContentLoaded', () => {
     activePathEl.textContent = cleanPath;
     activeTitleEl.textContent = item ? item.title : cleanPath.split('/').pop();
     activeMetaEl.textContent = item ? `${item.group} · ${item.kind}` : 'Ruta manual';
-    rawLink.href = resolveSitePath(cleanPath);
-    githubLink.href = `https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/${cleanPath}`;
+    const rawUrl = resolveRawUrl(cleanPath);
+    rawLink.href = rawUrl;
+    githubLink.href = resolveGitHubUrl(cleanPath);
     jumpEl.value = cleanPath;
     statusEl.textContent = `Abriendo ${cleanPath}`;
 
     try {
-      const response = await fetch(resolveSitePath(cleanPath), { cache: 'no-store' });
+      const response = await fetch(rawUrl, { cache: 'no-store' });
       if (!response.ok) {
         throw new Error(`No se pudo abrir ${cleanPath} (${response.status})`);
       }
@@ -155,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
         viewerBody.innerHTML = '';
         const frame = document.createElement('iframe');
         frame.title = cleanPath;
-        frame.srcdoc = text;
+        frame.src = rawUrl;
         viewerBody.appendChild(frame);
       } else if (ext === 'md' && window.marked) {
         const parts = stripFrontmatter(text);

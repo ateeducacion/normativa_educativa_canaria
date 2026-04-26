@@ -1,0 +1,33 @@
+id: CUR-031
+titulo: "Educación en Valores Cívicos y Éticos — Primaria Canarias"
+etapa: "primaria"
+materia: "Educación en Valores Cívicos y Éticos"
+norma_base: NOR-043
+fuente: FTE-046
+competencias_especificas:
+  - id: C1
+    descripcion: "Autoconocimiento y autonomía moral: Construir una identidad personal positiva y gestionar las emociones para una convivencia proactiva."
+  - id: C2
+    descripcion: "Sociedad, justicia y democracia: Promover una convivencia democrática y pacífica basada en valores éticos y cívicos."
+  - id: C3
+    descripcion: "Desarrollo sostenible y ética ambiental: Desarrollar una conciencia ecosocial y un compromiso con el desarrollo sostenible."
+bloques_saberes:
+  - id: autoconocimiento
+    nombre: "I. Autoconocimiento y autonomía moral"
+    descripcion: "Identidad personal, gestión emocional, autonomía moral y ética tecnológica."
+  - id: sociedad-democracia
+    nombre: "II. Sociedad, justicia y democracia"
+    descripcion: "Diálogo, resolución de conflictos, valores democráticos, Derechos Humanos e igualdad real."
+  - id: desarrollo-sostenible
+    nombre: "III. Desarrollo sostenible y ética ambiental"
+    descripcion: "Conciencia ecosocial, ética ambiental, retos globales y consumo responsable."
+criterios_evaluacion:
+  - ciclo: 3
+    criterios:
+      - id: 1.1
+        texto: "Construir una identidad personal positiva y gestionar las emociones para una convivencia proactiva, reconociendo las propias capacidades y limitaciones."
+      - id: 2.1
+        texto: "Promover una convivencia democrática y pacífica basada en valores éticos y cívicos, utilizando el diálogo y la mediación para la resolución de conflictos."
+      - id: 3.1
+        texto: "Desarrollar una conciencia ecosocial y un compromiso con el desarrollo sostenible, analizando el impacto de las acciones humanas en el entorno."
+observaciones: "Materia exclusiva del Tercer Ciclo (5.º y 6.º de Primaria) en Canarias. Extracción literal 2026-04-26."

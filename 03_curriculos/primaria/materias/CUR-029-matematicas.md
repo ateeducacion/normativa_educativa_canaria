@@ -18,7 +18,11 @@
 - Bienestar emocional en el aprendizaje matemático.
 
 ## 4. Evaluación
-Basada en 14 criterios de evaluación longitudinales que progresan en dificultad a través de los tres ciclos (1º-2º, 3º-4º, 5º-6º).
+Basada en los criterios de evaluación longitudinales extraídos literalmente del Decreto 211/2022 (BOC 2022/231). La progresión aumenta en complejidad a través de los tres ciclos (1º-2º, 3º-4º, 5º-6º).
+
+### Ejemplo de Criterios (Tercer Ciclo)
+- **1.1.** Comprender problemas de la vida cotidiana a través de la reformulación de la pregunta, de forma verbal y gráfica.
+- **2.3.** Comprobar la corrección matemática de las soluciones de un problema y su coherencia en el contexto planteado.
 
 ## 5. Vinculación Canaria
 Se utiliza el contexto del archipiélago (geografía, arquitectura, artesanía) como base para los planteamientos matemáticos.

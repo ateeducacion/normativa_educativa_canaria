@@ -1,0 +1,52 @@
+id: CUR-028
+titulo: "Lengua Extranjera — Primaria Canarias"
+etapa: "primaria"
+materia: "Lengua Extranjera"
+norma_base: NOR-043
+fuente: FTE-046
+competencias_especificas:
+  - id: C1
+    descripcion: "Comprender el sentido general e información específica y predecible de textos breves y sencillos."
+  - id: C2
+    descripcion: "Producir textos sencillos de manera comprensible y estructurada."
+  - id: C3
+    descripcion: "Interactuar con otras personas usando expresiones cotidianas."
+  - id: C4
+    descripcion: "Mediar en situaciones cotidianas para facilitar la comunicación."
+  - id: C5
+    descripcion: "Reconocer y usar los repertorios lingüísticos personales para mejorar el aprendizaje."
+  - id: C6
+    descripcion: "Valorar críticamente y apreciar la diversidad lingüística, cultural y artística."
+bloques_saberes:
+  - id: comunicacion
+    nombre: "I. Comunicación"
+    descripcion: "Estrategias de comprensión y producción, funciones comunicativas, léxico y estructuras sintácticas."
+  - id: plurilinguismo
+    nombre: "II. Plurilinguismo"
+    descripcion: "Estrategias de aprendizaje y reflexión sobre el funcionamiento de las lenguas."
+  - id: interculturalidad
+    nombre: "III. Interculturalidad"
+    descripcion: "La lengua como medio de comunicación, respeto por las normas de cortesía y conocimiento de otras culturas."
+  - id: dimensiones-personales
+    nombre: "IV. Dimensiones Interpersonal e Intrapersonal"
+    descripcion: "Empatía, respeto y gestión de emociones en el aprendizaje de lenguas."
+criterios_evaluacion:
+  - ciclo: 1
+    criterios:
+      - id: 1.1
+        texto: "Reconocer e interpretar el sentido global y palabras y frases muy sencillas en textos orales, escritos y multimodales breves y muy sencillos."
+      - id: 3.1
+        texto: "Planificar y participar en situaciones comunicativas cotidianas de forma guiada, utilizando expresiones elementales."
+  - ciclo: 2
+    criterios:
+      - id: 1.1
+        texto: "Reconocer e interpretar el sentido global y palabras y frases específicas en textos orales, escritos y multimodales breves y sencillos."
+      - id: 6.1
+        texto: "Mostrar aprecio por la diversidad lingüística y cultural, valorándola como fuente de riqueza."
+  - ciclo: 3
+    criterios:
+      - id: 1.1
+        texto: "Reconocer, interpretar y analizar el sentido global y frases específicas en textos orales, escritos y multimodales breves y sencillos."
+      - id: 6.1
+        texto: "Valorar críticamente la diversidad lingüística y cultural, apreciando el patrimonio de Canarias y de otros países."
+observaciones: "Extracción literal completada el 2026-04-26 tras consulta al BOC (Decreto 211/2022). Organizado en cuatro bloques de saberes específicos de Canarias."

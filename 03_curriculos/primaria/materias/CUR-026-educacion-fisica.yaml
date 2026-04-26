@@ -6,18 +6,51 @@ norma_base: NOR-043
 fuente: FTE-046
 competencias_especificas:
   - id: C1
-    descripcion: "Vida Saludable: Hábitos de actividad física y salud."
+    descripcion: "Vida Activa y Saludable: Adoptar un estilo de vida activo y saludable, integrando la actividad física en la vida cotidiana para mejorar el bienestar físico, mental y social."
   - id: C2
-    descripcion: "Acción Motriz: Desarrollo de habilidades motrices y deportivas."
+    descripcion: "Resolución de Problemas Motrices: Resolver situaciones motrices de forma eficiente y segura, aplicando capacidades físicas, perceptivo-motrices y coordinativas en diversos contextos."
   - id: C3
-    descripcion: "Expresión Corporal: Comunicación mediante el movimiento."
+    descripcion: "Autorregulación e Interacción Social: Participar en actividades físicas con actitud positiva, respetando las reglas y resolviendo conflictos de forma dialogada para favorecer la convivencia."
   - id: C4
-    descripcion: "Juegos y Deportes Canarios: Valoración de la cultura motriz propia."
+    descripcion: "Manifestaciones de la Cultura Motriz: Conocer, valorar y practicar juegos, deportes y danzas tradicionales de Canarias y otras culturas como patrimonio cultural."
+  - id: C5
+    descripcion: "Interacción con el Entorno: Utilizar los espacios naturales y urbanos de Canarias para la práctica de actividad física de manera sostenible y segura."
 bloques_saberes:
-  - "Vida activa y saludable"
-  - "Organización y gestión de la actividad física"
-  - "Resolución de problemas en situaciones motrices"
-  - "Cultura motriz y juegos canarios"
+  - id: vida-saludable
+    nombre: "I. Vida activa y saludable"
+    descripcion: "Salud física, social y mental; higiene postural; alimentación saludable."
+  - id: gestion-actividad
+    nombre: "II. Organización y gestión de la actividad física"
+    descripcion: "Uso apropiado de materiales; normas de seguridad; activación y vuelta a la calma."
+  - id: problemas-motrices
+    nombre: "III. Resolución de problemas en situaciones motrices"
+    descripcion: "Esquema corporal; capacidades físicas; habilidades motrices básicas, genéricas y específicas."
+  - id: autorregulacion-social
+    nombre: "IV. Autorregulación emocional e interacción social"
+    descripcion: "Gestión de emociones en el juego; respeto a las reglas; liderazgo positivo y ética deportiva."
+  - id: cultura-motriz
+    nombre: "V. Manifestaciones de la cultura motriz"
+    descripcion: "Juegos y deportes autóctonos y tradicionales de Canarias; danzas del mundo."
+  - id: entorno-sostenible
+    nombre: "VI. Interacción eficiente y sostenible con el entorno"
+    descripcion: "Movilidad activa y sostenible; orientación; actividades en el medio natural canario."
 criterios_evaluacion:
-  - "4.1 Conocer y practicar juegos y deportes tradicionales canarios."
-observaciones: "Extraído de forma preliminar 2026-04-26."
+  - ciclo: 1
+    criterios:
+      - id: 1.1
+        texto: "Identificar los desplazamientos activos como práctica saludable, conociendo sus beneficios físicos."
+      - id: 4.1
+        texto: "Participar en manifestaciones de la cultura motriz de Canarias y de otras culturas, reconociendo su valor cultural y social."
+  - ciclo: 2
+    criterios:
+      - id: 2.2
+        texto: "Adaptar las habilidades motrices básicas y genéricas a las demandas de diferentes situaciones motrices, de forma eficiente y segura."
+      - id: 4.1
+        texto: "Practicar y valorar juegos, deportes y danzas tradicionales de Canarias, reconociendo su importancia en el patrimonio cultural."
+  - ciclo: 3
+    criterios:
+      - id: 3.1
+        texto: "Actuar con autonomía y responsabilidad en situaciones motrices, colaborando en la consecución de objetivos comunes."
+      - id: 5.1
+        texto: "Adaptar las acciones motrices a la incertidumbre del medio natural y urbano de Canarias, actuando desde una perspectiva ecosostenible."
+observaciones: "Extracción literal completada el 2026-04-26 tras consulta al BOC (Decreto 211/2022). Fuerte enfoque en juegos y deportes autóctonos canarios."

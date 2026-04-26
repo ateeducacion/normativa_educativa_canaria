@@ -259,7 +259,7 @@ CUR-024:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-024-conocimiento-medio.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-024-conocimiento-medio.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
   observaciones: "Nueva catalogación 2026-04-26."
 
 CUR-025:
@@ -270,7 +270,7 @@ CUR-025:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-025-educacion-artistica.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-025-educacion-artistica.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
   observaciones: "Incluye Plástica y Música."
 
 CUR-026:
@@ -281,7 +281,7 @@ CUR-026:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-026-educacion-fisica.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-026-educacion-fisica.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-027:
   titulo: "Lengua Castellana y Literatura — Primaria Canarias"
@@ -291,7 +291,7 @@ CUR-027:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-027-lengua-castellana.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-027-lengua-castellana.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-028:
   titulo: "Lengua Extranjera — Primaria Canarias"
@@ -301,7 +301,7 @@ CUR-028:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-028-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-028-lengua-extranjera.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-029:
   titulo: "Matemáticas — Primaria Canarias"
@@ -311,7 +311,7 @@ CUR-029:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-029-matematicas.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-029-matematicas.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-030:
   titulo: "Educación Emocional y para la Creatividad — Primaria Canarias"
@@ -321,7 +321,7 @@ CUR-030:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-030-educacion-emocional.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-030-educacion-emocional.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
   observaciones: "Materia específica de Canarias."
 
 CUR-031:
@@ -332,7 +332,7 @@ CUR-031:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-031-valores-civicos.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-031-valores-civicos.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
   observaciones: "Impartida en Tercer Ciclo."
 
 CUR-032:
@@ -343,7 +343,7 @@ CUR-032:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-032-segunda-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-032-segunda-lengua-extranjera.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-033:
   titulo: "Religión — Primaria Canarias"
@@ -353,4 +353,4 @@ CUR-033:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-033-religion.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-033-religion.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"

@@ -1,0 +1,52 @@
+id: CUR-033
+titulo: "Religión — Primaria Canarias"
+etapa: "primaria"
+materia: "Religión"
+norma_base: NOR-043
+fuente: FTE-046
+competencias_especificas:
+  - id: C1
+    descripcion: "Identidad y Trascendencia: Descubrir y aceptar la propia identidad reconociendo la apertura a la trascendencia."
+  - id: C2
+    descripcion: "Diversidad y Convivencia: Reconocer la diversidad cultural y religiosa identificando elementos del mensaje cristiano."
+  - id: C3
+    descripcion: "Lenguajes de la Fe: Expresar la experiencia religiosa a través de diferentes lenguajes (artístico, simbólico...)."
+  - id: C4
+    descripcion: "Patrimonio Religioso: Identificar y valorar el patrimonio cultural y artístico de carácter religioso."
+  - id: C5
+    descripcion: "Solidaridad y Valores: Participar en la construcción de un mundo justo e inspirándose en el Evangelio."
+  - id: C6
+    descripcion: "Espiritualidad e Interioridad: Desarrollar la dimensión espiritual a través del silencio y la reflexión."
+bloques_saberes:
+  - id: sentido-vida
+    nombre: "Bloque A: El sentido de la vida"
+    descripcion: "La vida como regalo, la alegría de compartir y la dimensión social."
+  - id: biblia
+    nombre: "Bloque B: La Biblia"
+    descripcion: "Relatos del Antiguo y Nuevo Testamento, la Biblia como biblioteca de fe."
+  - id: jesus-iglesia
+    nombre: "Bloque C: Jesús y la Iglesia"
+    descripcion: "Vida de Jesús, las parábolas, los sacramentos y la labor social de la Iglesia."
+  - id: compromiso
+    nombre: "Bloque D: El compromiso"
+    descripcion: "Cuidado de la naturaleza, solidaridad, justicia y desarrollo sostenible (Laudato Si')."
+criterios_evaluacion:
+  - ciclo: 1
+    criterios:
+      - id: 1.1
+        texto: "Identificar y expresar las propias cualidades y limitaciones, aceptándose con confianza."
+      - id: 4.1
+        texto: "Reconocer elementos básicos del patrimonio religioso local (iglesias, fiestas, símbolos)."
+  - ciclo: 2
+    criterios:
+      - id: 2.1
+        texto: "Comparar diferentes tradiciones religiosas presentes en la sociedad, valorando el respeto."
+      - id: 3.1
+        texto: "Comunicar el mensaje de las parábolas de Jesús utilizando recursos creativos."
+  - ciclo: 3
+    criterios:
+      - id: 5.1
+        texto: "Participar activamente en iniciativas de transformación social y cuidado de la 'casa común' (Laudato Si')."
+      - id: 6.1
+        texto: "Consolidar hábitos de interioridad, discernimiento y compromiso ético."
+observaciones: "Currículo establecido por la jerarquía eclesiástica (BOE 24-06-2022) y aplicado en Canarias bajo el Decreto 211/2022."
