@@ -538,7 +538,7 @@ CUR-050:
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/informatica-y-comunicaciones/CUR-050-desarrollo-de-aplicaciones-multiplataforma.yaml"
   estado_extraccion: "parcial"
-  observaciones: "Extracción parcial completada en TAREA-040 (2026-04-26). 14 módulos con horas y RAs extraídos del RD 450/2010 (BOE-A-2010-8067). Criterios de evaluación individuales pendientes."
+  observaciones: "CEs extraídos en TAREA-045 (2026-04-26) para módulos 0483, 0484, 0485, 0373, 0487, 0486, 0488 desde HTML oficial BOE-A-2010-8067. Módulos 0489-0495 con CEs [PENDIENTE] por truncamiento del documento HTML."
 
 CUR-051:
   titulo: "Técnico Superior en Desarrollo de Aplicaciones Web (DAW) — FP Canarias"
@@ -550,7 +550,7 @@ CUR-051:
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/informatica-y-comunicaciones/CUR-051-desarrollo-de-aplicaciones-web.yaml"
   estado_extraccion: "parcial"
-  observaciones: "Extracción parcial completada en TAREA-040 (2026-04-26). 13 módulos con horas y RAs extraídos del RD 686/2010 (BOE-A-2010-9269). Criterios de evaluación individuales pendientes."
+  observaciones: "CEs extraídos en TAREA-045 (2026-04-26) para módulos 0483, 0484, 0485, 0373, 0487, 0612, 0613 (RAs 1-7) desde HTML oficial BOE-A-2010-9269. Módulos 0614-0619 y 0613-RA8 con CEs [PENDIENTE] por truncamiento del documento HTML."
 
 CUR-052:
   titulo: "Técnico Superior en Educación Infantil — FP Canarias"

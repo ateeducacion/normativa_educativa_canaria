@@ -493,14 +493,36 @@ tareas:
 
   TAREA-045:
     titulo: "Extraer CEs completos — Familia Informática y Comunicaciones (CUR-050, CUR-051)"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: "@.agents/skills/experto-formacion-profesional"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [NOR-055, NOR-056, CUR-050, CUR-051]
-    siguiente_accion: "Extraer RAs y CEs de cada módulo de RD 450/2010 y RD 686/2010."
+    siguiente_accion: null
+
+  TAREA-046:
+    titulo: "Extracción literal de materias optativas de Bachillerato (CUR-054 a CUR-058)"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/analisis-curricular"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [CUR-054, CUR-058]
+    siguiente_accion: null
+
+  TAREA-047:
+    titulo: "Consolidación final del repositorio multietapa y resolución de dudas"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "calidad-documental"
+    responsable: "@.agents/skills/control-calidad-documental"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [DEC-0006, PREG-004]
+    siguiente_accion: null
 
 bloqueos: []
 
