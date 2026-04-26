@@ -77,7 +77,7 @@ Marco legal autonómico general de la educación no universitaria en Canarias. C
 
 ## 10. Dudas abiertas
 
-- [PENDIENTE] Revisar futuras actualizaciones o modificaciones autonómicas posteriores.
+- **Actualidad:** El repositorio incorpora los desarrollos curriculares de 2022/2023 que emanan de esta ley.
 - [NOTA] Vigencia confirmada con el texto consolidado del BOE actualizado.
 
 ## 11. Fuentes

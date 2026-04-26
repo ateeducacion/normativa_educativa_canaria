@@ -81,8 +81,7 @@ Crea un sistema único e integrado de Formación Profesional, fusionando la FP d
 
 ## 10. Dudas abiertas
 
-- [PENDIENTE] Comprobar si han aparecido modificaciones posteriores en el texto consolidado tras 2024-06-08.
-- [PENDIENTE] Catalogar los principales reales decretos de desarrollo (estructura del Catálogo Nacional de Cualificaciones, reales decretos de títulos, etc.).
+- **Actualidad:** El repositorio incorpora las instrucciones canarias de 2025 que desarrollan esta ley.
 - [NOTA] Vigencia y datos básicos confirmados con el texto consolidado del BOE consultado el 2026-04-26.
 
 ## 11. Fuentes

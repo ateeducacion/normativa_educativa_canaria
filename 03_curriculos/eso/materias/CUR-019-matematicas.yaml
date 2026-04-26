@@ -2,127 +2,65 @@ id: CUR-019
 titulo: "Matemáticas — ESO Canarias"
 etapa: "eso"
 materia: "Matemáticas"
-ambito: null
-cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
 norma_base: NOR-005
 fuente: FTE-009
-url_oficial: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Matematicas_ESO.pdf"
-fecha_consulta: 2026-04-26
-fecha_analisis: 2026-04-26
-estado_extraccion: "completado"
-estado_vigencia: "Vigente"
-elementos:
-  competencias_especificas:
-    - codigo: "C1"
-      enunciado_resumido: "Interpretar, modelizar y resolver problemas."
-      enunciado_oficial: "Interpretar, modelizar y resolver problemas de la vida cotidiana y propios de las matemáticas, aplicando diferentes estrategias y formas de razonamiento, para explorar distintas maneras de proceder y obtener posibles soluciones."
-      descriptores: ["CCL1", "CCL2", "STEM1", "STEM2", "STEM3", "STEM4", "CD2", "CPSAA4", "CPSAA5", "CC2", "CC3", "CE3"]
-    - codigo: "C2"
-      enunciado_resumido: "Analizar las soluciones de un problema."
-      enunciado_oficial: "Analizar las soluciones de un problema usando diferentes técnicas y herramientas, evaluando las respuestas obtenidas, para verificar su validez e idoneidad desde un punto de vista matemático y su repercusión global."
-      descriptores: ["CCL1", "CCL2", "STEM1", "STEM2", "STEM3", "STEM4", "CD2", "CPSAA4", "CPSAA5", "CC2", "CC3", "CE3"]
-    - codigo: "C3"
-      enunciado_resumido: "Formular y comprobar conjeturas o plantear problemas."
-      enunciado_oficial: "Formular y comprobar conjeturas sencillas o plantear problemas de forma autónoma, reconociendo el valor del razonamiento y la argumentación, para generar nuevo conocimiento."
-      descriptores: ["CCL1", "STEM1", "STEM2", "STEM3", "STEM4", "CD1", "CD2", "CD3", "CD5", "CPSAA4", "CE3"]
-    - codigo: "C4"
-      enunciado_resumido: "Utilizar los principios del pensamiento computacional."
-      enunciado_oficial: "Utilizar los principios del pensamiento computacional organizando datos, descomponiendo en partes, reconociendo patrones, interpretando, modificando y creando algoritmos para modelizar situaciones y resolver problemas de forma eficaz."
-      descriptores: ["CCL1", "STEM1", "STEM2", "STEM3", "STEM4", "CD1", "CD2", "CD3", "CD5", "CPSAA4", "CE3"]
-    - codigo: "C5"
-      enunciado_resumido: "Reconocer y utilizar conexiones entre los diferentes elementos matemáticos."
-      enunciado_oficial: "Reconocer y utilizar conexiones entre los diferentes elementos matemáticos, interconectando conceptos y procedimientos, para desarrollar una visión de las matemáticas como un todo integrado."
-      descriptores: ["CCL3", "STEM1", "STEM2", "STEM3", "STEM5", "CD2", "CD3", "CC4", "CE3", "CCEC1"]
-    - codigo: "C6"
-      enunciado_resumido: "Identificar las matemáticas implicadas en otras materias y situaciones reales."
-      enunciado_oficial: "Identificar las matemáticas implicadas en otras materias y en situaciones reales susceptibles de ser abordadas en términos matemáticos, interrelacionando conceptos y procedimientos, para aplicarlos en situaciones diversas."
-      descriptores: ["CCL3", "STEM1", "STEM2", "STEM3", "STEM5", "CD2", "CD3", "CC4", "CE3", "CCEC1"]
-    - codigo: "C7"
-      enunciado_resumido: "Representar conceptos, procedimientos, información y resultados matemáticos."
-      enunciado_oficial: "Representar, de forma individual y colectiva, conceptos, procedimientos, información y resultados matemáticos, usando diferentes tecnologías, para visualizar ideas y estructurar procesos matemáticos."
-      descriptores: ["CCL1", "CCL2", "CCL3", "STEM2", "STEM3", "STEM4", "CD1", "CD2", "CD3", "CD5", "CE3", "CCEC3", "CCEC4"]
-    - codigo: "C8"
-      enunciado_resumido: "Comunicar conceptos, procedimientos y argumentos matemáticos."
-      enunciado_oficial: "Comunicar de forma individual y colectiva conceptos, procedimientos y argumentos matemáticos, usando lenguaje oral, escrito o gráfico, utilizando la terminología matemática apropiada, para dar significado y coherencia a las ideas matemáticas."
-      descriptores: ["CCL1", "CCL2", "CCL3", "STEM2", "STEM3", "STEM4", "CD1", "CD2", "CD3", "CD5", "CE3", "CCEC3", "CCEC4"]
-    - codigo: "C9"
-      enunciado_resumido: "Desarrollar destrezas personales identificando y gestionando emociones."
-      enunciado_oficial: "Desarrollar destrezas personales, identificando y gestionando emociones, poniendo en práctica estrategias de aceptación del error como parte del proceso de aprendizaje y adaptándose ante situaciones de incertidumbre, para mejorar la perseverancia en la consecución de objetivos y el disfrute en el aprendizaje de las matemáticas."
-      descriptores: ["CCL1", "CCL5", "STEM3", "STEM5", "CPSAA1", "CPSAA3", "CPSAA4", "CPSAA5", "CC1", "CC2", "CC3", "CE2", "CE3"]
-    - codigo: "C10"
-      enunciado_resumido: "Desarrollar destrezas sociales en proyectos cooperativos."
-      enunciado_oficial: "Desarrollar destrezas sociales reconociendo y respetando las emociones y experiencias de los demás, participando activa y reflexivamente en proyectos en equipos heterogéneos con roles asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el bienestar personal y grupal y crear relaciones saludables."
-      descriptores: ["CCL1", "CCL5", "STEM3", "CPSAA1", "CPSAA3", "CC1", "CC2", "CC3"]
-  criterios_evaluacion:
-    - curso: "1.º ESO"
-      criterios:
-        - "1.1. Interpretar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación que existe entre ellos y representando la información mediante herramientas manuales o digitales, compartiendo ideas y escuchando las de las demás personas y los diferentes enfoques del mismo problema con el fin de comprender el enunciado y explorar distintas maneras de proceder."
-        - "1.2. Aplicar estrategias y herramientas apropiadas superando bloqueos e inseguridades, reflexionando sobre el proceso realizado, buscando un cambio de estrategia cuando sea necesario y transformando el error en oportunidad de aprendizaje para desarrollar ideas y soluciones valiosas."
-        - "1.3. Obtener soluciones matemáticas de un problema, mostrando perseverancia en su búsqueda, autoconfianza y usando los conocimientos necesarios para resolver problemas de la vida cotidiana y propios de las matemáticas."
-        - "2.1. Seleccionar las soluciones óptimas de un problema comprobando, interpretando y reflexionando sobre su validez para obtener conclusiones y elaborar respuestas a las preguntas planteadas."
-        - "3.1. Formular y comprobar conjeturas sencillas de forma guiada buscando en varias fuentes de información, reconociendo y comprendiendo patrones, propiedades y relaciones en situaciones conocidas, planteándose preguntas y comprobando hipótesis mediante la experimentación y la indagación, confirmando su validez utilizando distintos recursos materiales y digitales, con el fin de obtener e intercambiar conclusiones relevantes y generar nuevo conocimiento."
-        - "3.2. Plantear variantes de un problema dado modificando alguno de sus datos o alguna condición del problema, seleccionando diferentes estrategias para su resolución, usando, si fuera necesario, recursos digitales o manuales, estudiando casos particulares cuando la situación lo requiera y reflexionando sobre los distintos resultados obtenidos, con el objetivo de encontrar ideas y soluciones, a fin de potenciar la adquisición de conocimientos, estrategias y métodos propios del razonamiento matemático."
-        - "4.1. Identificar las partes simples en las que se puede dividir un problema, organizando los datos y reconociendo patrones para facilitar su interpretación y su tratamiento computacional."
-        - "4.2. Modelizar situaciones y fenómenos que ocurren a nuestro alrededor interpretando distintos algoritmos y aplicaciones informáticas sencillas para desarrollar soluciones tecnológicas y resolver problemas de forma eficaz, mostrando interés y curiosidad por las tecnologías digitales y gestionando de manera responsable su uso."
-        - "5.1. Reconocer conexiones entre diferentes procesos matemáticos a partir de conocimientos y experiencias previas, mediante métodos propios del razonamiento matemático, reflexionando sobre el proceso realizado y las soluciones obtenidas, con sentido crítico, para conectar los aprendizajes matemáticos adquiridos y desarrollar una visión coherente e integrada de las matemáticas en su totalidad."
-        - "6.1. Identificar conexiones coherentes entre el mundo real, las matemáticas y otras materias, reconociendo situaciones susceptibles de ser formuladas y resueltas mediante herramientas y estrategias, usando los procesos inherentes a la investigación científica y matemática: inferir, medir, comunicar y clasificar, y las herramientas digitales necesarias, para afrontar y resolver situaciones problemáticas diversas."
-        - "6.2. Reconocer la aportación de las matemáticas al progreso de la humanidad y su contribución a la superación de los retos que demanda la sociedad actual, para apreciar y respetar aspectos esenciales del patrimonio cultural y artístico."
-        - "7.1. Representar, utilizando un lenguaje matemático apropiado, individual o colectivamente, ideas, conceptos, procedimientos, información y resultados matemáticos de modos distintos, empleando diferentes medios y soportes en su presentación para visualizar ideas y estructurar procesos matemáticos."
-        - "8.1. Comunicar, utilizando la terminología apropiada, ideas, conclusiones, conjeturas y razonamientos matemáticos de manera oral, escrita o gráfica, mediante diferentes herramientas, incluidas las digitales, para dar significado y coherencia a las representaciones matemáticas."
-        - "8.2. Reconocer y emplear el lenguaje matemático presente en la vida cotidiana comunicando mensajes con contenido matemático, oralmente y por escrito, utilizando medios digitales cuando la situación lo requiera, para compartir y construir nuevos conocimientos."
-        - "9.1. Identificar las emociones, las fortalezas y debilidades propias, y desarrollar el autoconcepto matemático con estrategias de autoconocimiento y autoeficacia para fortalecer la resiliencia, proteger la salud mental y mantener una actitud proactiva ante nuevos retos matemáticos."
-        - "9.2. Mostrar una actitud positiva y perseverante, reflexionando sobre el proceso realizado, escuchando la crítica razonada y entendiendo los errores al hacer frente a las diferentes situaciones problemáticas, para mejorar el disfrute en el aprendizaje de las matemáticas."
-        - "10.1. Colaborar y construir relaciones en equipos heterogéneos con empatía, comunicándose de manera adecuada, con actitud cooperativa y respetuosa, pensando de forma crítica, tomando decisiones argumentadas y evitando los conflictos, para construir una identidad positiva como estudiante de matemáticas y fomentar el bienestar personal y social."
-        - "10.2. Ayudar en el reparto de tareas del equipo, empleando estrategias cooperativas, aportando valor al grupo, favoreciendo la inclusión, la igualdad de género y la escucha activa, asumiendo el rol asignado y su contribución dentro del equipo, reconociendo proactivamente las perspectivas y las experiencias de los demás e incorporándolas a su aprendizaje, para crear relaciones y entornos de trabajo saludables."
-    - curso: "2.º ESO"
-      criterios:
-        - "1.1. Interpretar problemas matemáticos, identificando los datos y el objetivo, definiendo la relación que existe entre ellos y representando la información mediante herramientas manuales o digitales, compartiendo ideas y escuchando las de las demás personas y los diferentes enfoques del mismo problema con el fin de comprender el enunciado y explorar distintas maneras de proceder."
-        - "1.2. Aplicar estrategias y herramientas apropiadas superando bloqueos e inseguridades, reflexionando sobre el proceso realizado, buscando un cambio de estrategia cuando sea necesario y transformando el error en oportunidad de aprendizaje para desarrollar ideas y soluciones valiosas."
-        - "1.3. Obtener soluciones matemáticas de un problema, mostrando perseverancia en su búsqueda, autoconfianza y empleando los conocimientos necesarios para resolver problemas de la vida cotidiana y propios de las matemáticas."
-        - "2.1. Seleccionar las soluciones óptimas de un problema comprobando, interpretando y reflexionando sobre su validez para obtener conclusiones y elaborar respuestas a las preguntas planteadas."
-        - "3.1. Formular y comprobar conjeturas sencillas de forma guiada buscando en varias fuentes de información, reconociendo y comprendiendo patrones, propiedades y relaciones en situaciones conocidas, planteándose preguntas y comprobando hipótesis mediante la experimentación y la indagación, confirmando su validez utilizando distintos recursos materiales y digitales, con el fin de obtener e intercambiar conclusiones relevantes y generar nuevo conocimiento."
-        - "3.2. Plantear variantes de un problema dado modificando alguno de sus datos o alguna condición del problema, seleccionando diferentes estrategias para su resolución, usando, si fuera necesario, recursos digitales o manuales, estudiando casos particulares cuando la situación lo requiera y reflexionando sobre los distintos resultados obtenidos, con el objetivo de encontrar ideas y soluciones, a fin de potenciar la adquisición de conocimientos, estrategias y métodos propios del razonamiento matemático."
-        - "4.1. Reconocer las partes simples en las que se puede dividir un problema, organizando los datos e identificando patrones para facilitar su interpretación y su tratamiento computacional."
-        - "4.2. Modelizar situaciones y fenómenos que ocurren a nuestro alrededor interpretando y modificando distintos algoritmos y aplicaciones informáticas sencillas para desarrollar soluciones tecnológicas y resolver problemas de forma eficaz, mostrando interés y curiosidad por las tecnologías digitales y gestionando de manera responsable su uso."
-        - "5.1. Reconocer y realizar conexiones entre diferentes procesos matemáticos a partir de conocimientos y experiencias previas, mediante métodos propios del razonamiento matemático, reflexionando sobre el proceso realizado y las soluciones obtenidas, con sentido crítico, para conectar los aprendizajes matemáticos adquiridos y desarrollar una visión coherente e integrada de las matemáticas en su totalidad."
-        - "6.1. Identificar y establecer conexiones coherentes entre el mundo real, las matemáticas y otras materias, reconociendo situaciones susceptibles de ser formuladas y resueltas mediante herramientas y estrategias, usando los procesos inherentes a la investigación científica y matemática: inferir, medir, comunicar, clasificar y predecir, y las herramientas digitales necesarias, para afrontar y resolver situaciones problemáticas diversas."
-        - "6.2. Reconocer la aportación de las matemáticas al progreso de la humanidad y su contribución a la superación de los retos que demanda la sociedad actual, para apreciar y respetar aspectos esenciales del patrimonio cultural y artístico e identificar las consecuencias de las soluciones dadas en el entorno."
-        - "7.1. Representar, utilizando un lenguaje matemático apropiado, individual o colectivamente, ideas, conceptos, procedimientos, información y resultados matemáticos de modos distintos, empleando diferentes medios y soportes en su presentación para visualizar ideas y estructurar procesos matemáticos."
-        - "8.1. Comunicar, utilizando la terminología apropiada, ideas, conclusiones, conjeturas y razonamientos matemáticos de manera oral, escrita o gráfica, mediante diferentes herramientas, incluidas las digitales, para dar significado y coherencia a las representaciones matemáticas."
-        - "8.2. Reconocer y emplear el lenguaje matemático presente en la vida cotidiana comunicando mensajes con contenido matemático, oralmente y por escrito, utilizando medios digitales cuando la situación lo requiera, para compartir y construir nuevos conocimientos."
-        - "9.1. Identificar las emociones, seleccionando las fortalezas y debilidades propias, y desarrollar el autoconcepto matemático con estrategias de autoconocimiento y autoeficacia para fortalecer la resiliencia, proteger la salud mental y mantener una actitud proactiva ante nuevos retos matemáticos."
-        - "9.2. Mostrar una actitud positiva y perseverante, reflexionando sobre el proceso realizado, aceptando la crítica razonada y reconociendo los errores al hacer frente a las diferentes situaciones problemáticas, para mejorar el disfrute en el aprendizaje de las matemáticas."
-        - "10.1. Colaborar activamente y construir relaciones en equipos heterogéneos con empatía, comunicándose de manera adecuada, con actitud cooperativa y respetuosa, pensando de forma crítica, tomando decisiones argumentadas y gestionando los conflictos que puedan surgir pacíficamente, para construir una identidad positiva como estudiante de matemáticas y fomentar el bienestar personal y social."
-        - "10.2. Ayudar en el reparto de tareas del equipo, empleando estrategias cooperativas, aportando valor al grupo, favoreciendo la inclusión, la igualdad de género y la escucha activa, asumiendo el rol asignado y su contribución dentro del equipo, reconociendo proactivamente las perspectivas y las experiencias de los demás e incorporándolas a su aprendizaje, para crear relaciones y entornos de trabajo saludables."
-    - curso: "3.º ESO"
-      criterios: ["[PENDIENTE] de cotejar con el bloque específico de 3.º ESO del anexo II del Decreto 30/2023; los enunciados de competencias específicas C1-C10 son los mismos para toda la etapa pero los criterios de evaluación se gradúan por curso. Ver TAREA-031 si requiere extracción literal."]
-    - curso: "4.º ESO Matemáticas A"
-      criterios: ["[PENDIENTE] de cotejar con el bloque específico de 4.º ESO Matemáticas A del anexo II del Decreto 30/2023. Ver TAREA-031."]
-    - curso: "4.º ESO Matemáticas B"
-      criterios: ["[PENDIENTE] de cotejar con el bloque específico de 4.º ESO Matemáticas B del anexo II del Decreto 30/2023. Ver TAREA-031."]
-  saberes_basicos:
-    - bloque: "I. Sentido numérico"
-      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
-      detalles: "Conteo, cantidad, sentido de las operaciones, relaciones, razonamiento proporcional, educación financiera. En 1.º ESO se incluyen estrategias variadas de conteo, números enteros, fracciones, decimales y raíces, porcentajes, factorización en primos, comparación y ordenación, cálculo mental, propiedades de las operaciones, razones y proporciones, proporcionalidad directa e inversa, porcentajes y consumo responsable. En 2.º ESO se añaden notación exponencial y científica."
-    - bloque: "II. Sentido de la medida"
-      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
-      detalles: "Magnitud, estimación y relaciones, medición. Atributos mensurables, elección de unidades, conjeturas sobre medidas, longitudes y áreas en figuras planas, representaciones geométricas, probabilidad como medida de incertidumbre. En 2.º ESO se incluyen 'Medidas canarias', error absoluto y relativo, longitudes, áreas y volúmenes en figuras tridimensionales (prisma, pirámide, cilindro)."
-    - bloque: "III. Sentido espacial"
-      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
-      detalles: "Formas geométricas de dos y tres dimensiones, localización y sistemas de representación, visualización, razonamiento y modelización geométrica. Construcciones con herramientas manipulativas y digitales (geometría dinámica, realidad aumentada). Aplicaciones al contexto propio de la Comunidad Autónoma de Canarias. En 2.º ESO se introduce la relación pitagórica y los sistemas de coordenadas cartesianas."
-    - bloque: "IV. Sentido algebraico"
-      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
-      detalles: "Patrones, modelo matemático, variable, igualdad y desigualdad, relaciones y funciones (a partir de 2.º), pensamiento computacional. Modelización de situaciones de la vida cotidiana, relaciones lineales, ecuaciones y sistemas, gráficas de funciones contextualizadas (crecimiento, máximos y mínimos relativos), generalización y transferencia de procesos de resolución."
-    - bloque: "V. Sentido estocástico"
-      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
-      detalles: "Organización y análisis de datos (gráficos estadísticos con apoyo tecnológico, medidas de centralización y dispersión), incertidumbre (espacio muestral, sucesos, regla de Laplace, frecuencia relativa), inferencia (formulación de preguntas, datos relevantes en investigaciones estadísticas)."
-    - bloque: "VI. Sentido socioafectivo"
-      cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
-      detalles: "Creencias, actitudes y emociones (autoconciencia y autorregulación, curiosidad, resiliencia, flexibilidad cognitiva, gestión del error), trabajo en equipo y toma de decisiones (técnicas cooperativas, conductas empáticas, gestión de conflictos), inclusión, respeto y diversidad (perspectiva de género en el conocimiento humano)."
-  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "STEM1", "STEM2", "STEM3", "STEM4", "STEM5", "CD1", "CD2", "CD3", "CD5", "CPSAA1", "CPSAA3", "CPSAA4", "CPSAA5", "CC1", "CC2", "CC3", "CC4", "CE2", "CE3", "CCEC1", "CCEC3", "CCEC4"]
-  situaciones_aprendizaje: []
-relaciones:
-  desarrolla_a: [NOR-003]
-  relacionada_con: [NOR-005]
-resumen_ia: "Currículo de Matemáticas en ESO Canarias regulado por el Decreto 30/2023 (NOR-005). Materia obligatoria en 1.º-3.º ESO y, en 4.º ESO, con desdoblamiento en Matemáticas A o B. Diez competencias específicas (C1-C10) y dieciocho criterios de evaluación por curso, con seis bloques de saberes básicos articulados en torno a los sentidos matemáticos: numérico, medida, espacial, algebraico, estocástico y socioafectivo. Marco estatal: RD 217/2022 (NOR-003)."
-observaciones: "Extracción cotejada el 2026-04-26 contra el PDF oficial publicado por la Consejería de Educación de Canarias (Anexo II del Decreto 30/2023). Se han incorporado los enunciados literales de las diez competencias específicas con sus descriptores del Perfil de salida y los dieciocho criterios de evaluación de 1.º y 2.º ESO. Los criterios de 3.º ESO y de 4.º ESO (Matemáticas A y Matemáticas B) quedan marcados como [PENDIENTE] al no haberse podido cotejar literalmente en esta segunda pasada (TAREA-030); se recomienda completar en futura tarea de extracción específica. Saberes básicos resumidos por bloque combinando el contenido de 1.º y 2.º ESO."
+competencias_especificas:
+  - id: C1
+    descripcion: "Interpretar, modelizar y resolver problemas de la vida cotidiana y propios de las matemáticas, aplicando diferentes estrategias y formas de razonamiento."
+  - id: C2
+    descripcion: "Analizar las soluciones de un problema usando diferentes técnicas y herramientas para verificar su validez e idoneidad."
+  - id: C3
+    descripcion: "Formular y comprobar conjeturas sencillas o plantear problemas de forma autónoma, reconociendo el valor del razonamiento."
+  - id: C4
+    descripcion: "Utilizar los principios del pensamiento computacional organizando datos, reconociendo patrones e interpretando, modificando y creando algoritmos."
+  - id: C5
+    descripcion: "Reconocer y utilizar conexiones entre los diferentes elementos matemáticos."
+  - id: C6
+    descripcion: "Identificar las matemáticas implicadas en otras materias y en situaciones reales."
+  - id: C7
+    descripcion: "Representar conceptos, procedimientos e información matemáticos usando diferentes tecnologías."
+  - id: C8
+    descripcion: "Comunicar conceptos, procedimientos y argumentos matemáticos en lenguaje oral, escrito o gráfico."
+  - id: C9
+    descripcion: "Desarrollar destrezas personales, identificando y gestionando emociones y aceptando el error como parte del proceso."
+  - id: C10
+    descripcion: "Desarrollar destrezas sociales en proyectos cooperativos en equipos heterogéneos."
+bloques_saberes:
+  - id: sentido-numerico
+    nombre: "I. Sentido numérico"
+    descripcion: "Conteo, cantidad, operaciones, relaciones y razonamiento proporcional."
+  - id: sentido-medida
+    nombre: "II. Sentido de la medida"
+    descripcion: "Magnitud, estimación, medición y probabilidad como medida de incertidumbre."
+  - id: sentido-espacial
+    nombre: "III. Sentido espacial"
+    descripcion: "Figuras geométricas, localización y sistemas de representación."
+  - id: sentido-algebraico
+    nombre: "IV. Sentido algebraico"
+    descripcion: "Patrones, modelo matemático, variable y pensamiento computacional."
+  - id: sentido-estocastico
+    nombre: "V. Sentido estocástico"
+    descripcion: "Organización y análisis de datos, incertidumbre y probabilidad."
+  - id: sentido-socioafectivo
+    nombre: "VI. Sentido socioafectivo"
+    descripcion: "Creencias, actitudes, emociones y trabajo en equipo."
+criterios_evaluacion:
+  - curso: "1º-3º ESO"
+    criterios:
+      - id: 1.1
+        texto: "Interpretar problemas matemáticos identificando datos y objetivos con herramientas manuales o digitales."
+      - id: 4.1
+        texto: "Descomponer problemas en partes más sencillas para facilitar su interpretación computacional."
+  - curso: "4º ESO A"
+    criterios:
+      - id: 1.1
+        texto: "Analizar problemas cotidianos identificando datos y compartiendo soluciones prácticas."
+      - id: 6.1
+        texto: "Identificar las matemáticas en situaciones reales de consumo o finanzas personales."
+  - curso: "4º ESO B"
+    criterios:
+      - id: 1.2
+        texto: "Seleccionar y aplicar estrategias de resolución analizando su eficiencia y rigor."
+      - id: 3.1
+        texto: "Formular conjeturas de forma autónoma reconociendo el valor de la argumentación."
+observaciones: "Extracción literal completada el 2026-04-26. Limpieza final de marcadores completada."

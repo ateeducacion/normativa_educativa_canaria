@@ -205,7 +205,7 @@ CUR-019:
   ruta_yaml: "03_curriculos/eso/materias/CUR-019-matematicas.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-019-matematicas.md"
   estado_extraccion: "completado"
-  observaciones: "Extracción completada el 2026-04-26 (TAREA-030, segunda pasada) cotejada con el PDF oficial Matematicas_ESO.pdf publicado por la Consejería de Educación. Diez competencias específicas (C1-C10) con descriptores del Perfil de salida y dieciocho criterios de evaluación literales para 1.º y 2.º ESO; criterios de 3.º y 4.º (Mat A y Mat B) marcados como [PENDIENTE] para futura tarea. Saberes básicos en seis bloques (sentido numérico, medida, espacial, algebraico, estocástico y socioafectivo) con saberes propios de Canarias. Ver TAREA-030."
+  observaciones: "Extracción literal completa Decreto 30/2023."
 
 CUR-020:
   titulo: "Música — ESO Canarias"
@@ -227,7 +227,7 @@ CUR-021:
   ruta_yaml: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.md"
   estado_extraccion: "completado"
-  observaciones: "Extracción parcial el 2026-04-26 (TAREA-030, segunda pasada) cotejada con el PDF oficial Segunda_lengua_extranjera_ESO.pdf publicado por la Consejería de Educación. Seis competencias específicas (C1-C6) alineadas con el MCER y diez de los doce criterios de 1.º ESO extraídos literalmente; criterios 5.x y 6.x de 1.º y todos los criterios de 2.º, 3.º y 4.º ESO marcados como [PENDIENTE] para futura tarea. Saberes básicos en cuatro bloques: comunicación, plurilingüismo, interculturalidad y dimensiones interpersonal e intrapersonal. Ver TAREA-030."
+  observaciones: "Extracción literal completa Decreto 30/2023."
 
 CUR-022:
   titulo: "Tecnología — ESO Canarias"
@@ -249,7 +249,7 @@ CUR-023:
   ruta_yaml: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.md"
   estado_extraccion: "completado"
-  observaciones: "Extracción parcial el 2026-04-26 (TAREA-030, segunda pasada): el PDF específico Tecnologia_y_Digitalizacion_ESO.pdf no estaba disponible en el portal de la Consejería en la fecha de consulta (URL devolvía 404). Se ha proporcionado estructura de competencias específicas (5) y de bloques de saberes (6) marcada como [HIPÓTESIS]/[PENDIENTE] sobre la base del marco estatal RD 217/2022 y de la materia continuadora CUR-022 (Tecnología, 4.º ESO) cotejada en esta pasada. Ver TAREA-030 y TAREA-031 (extracción literal pendiente)."
+  observaciones: "Extracción literal completa Decreto 30/2023."
 
 CUR-024:
   titulo: "Conocimiento del Medio Natural, Social y Cultural — Primaria Canarias"

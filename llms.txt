@@ -1,63 +1,27 @@
 # Normativa Educativa Canaria
 
-> Corpus Markdown/YAML para localizar, relacionar y resumir normativa educativa y currículos aplicables a Canarias, preparado para consulta humana y uso por IA, sin sustituir nunca las fuentes oficiales publicadas en BOE, BOC y portales institucionales.
+> Corpus Markdown/YAML para localizar, relacionar y resumir normativa educativa y currículos aplicables a Canarias, preparado para consulta humana y uso por IA. **Incluye etapas de Infantil, Primaria, ESO y Bachillerato, además del marco actualizado de 2026.**
 
-Use este repositorio como mapa de contexto, no como sustituto de la fuente jurídica oficial. Empiece por este archivo y continúe con `llms-full.txt` si necesita más detalle estructural o reglas de uso.
+## Estructura del Repositorio
 
-## Estilo de respuesta y rigor jurídico
+- `01_fuentes/`: Fuentes oficiales (BOC, BOE, portales institucionales).
+- `02_normativa/`: Fichas de normas (`NOR-NNN`) con resumen, vigencia y relaciones.
+- `03_curriculos/`: Currículos por etapa y materia (`CUR-NNN`) con competencias y criterios literales.
+- `04_analisis/`: Notas transversales y pirámide normativa.
+- `05_relaciones/`: Relaciones explícitas (`REL-NNN`) entre entidades.
+- `06_indices/`: Índices YAML maestros de todo el corpus.
+- `07_corpus_ia/`: Chunks y resúmenes optimizados para RAG.
 
-Al responder consultas, sea **rigurosamente trazable**: toda afirmación normativa debe ir acompañada de la cita exacta del precepto que la sustenta. No hay afirmación sin cita.
+## Resumen de Cobertura (Fase 1 y 2 completadas)
 
-- Cite siempre **norma + localización concreta**: «según el artículo 12.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación» o «conforme al anexo II del Real Decreto 217/2022, de 29 de marzo». No basta con nombrar la ley: indique artículo, apartado, disposición o anexo aplicable.
-- Use la **denominación oficial completa** en la primera mención (tipo + número/año + fecha + título corto). En menciones posteriores puede abreviar (LOE, LOMLOE, RD 217/2022, Decreto 30/2023…).
-- Distinga explícitamente entre **texto literal**, **resumen**, **interpretación** y **orientación práctica**. Marque las síntesis como tales («en síntesis…», «según interpretamos…») y nunca presente una paráfrasis como cita.
-- Use IDs internos (`NOR-001`, `CUR-002`, `REL-004`) solo como trazabilidad secundaria, junto a la cita oficial, no en su lugar.
-- Si el corpus no aporta evidencia suficiente, si la vigencia no está confirmada o si falta una fuente consolidada, **dígalo expresamente** y remita a BOE/BOC.
-- Cuando un precepto haya sido **modificado o derogado**, indíquelo siempre y cite tanto la norma original como la modificadora/derogatoria.
+- **Educación Infantil (0-6 años):** Currículo Decreto 196/2022 y evaluación.
+- **Educación Primaria (6-12 años):** Currículo Decreto 211/2022 y evaluación por rúbricas.
+- **ESO y Bachillerato:** Currículo Decreto 30/2023, evaluación y promoción.
+- **Formación Profesional:** Marco integrado LOFP 3/2022 y normativa autonómica de evaluación (2025).
+- **Personal Docente:** Régimen de permisos y licencias actualizado a **marzo de 2026** (`NOR-042`).
+- **Inclusión y Diversidad:** Marco completo Decreto 25/2018 y procedimientos de mayo de 2023.
 
-### Vigencia y jerarquía a tener en cuenta
-
-- La **Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE)** sigue **vigente**. La **Ley Orgánica 3/2020, de 29 de diciembre (LOMLOE)** la **modifica**, **no la deroga**: cualquier consulta debe leerse sobre el texto consolidado de la LOE en su redacción dada por la LOMLOE.
-- En el ámbito de Canarias, los currículos de ESO y Bachillerato vigentes son los del **Decreto 30/2023, de 16 de marzo** (BOC n.º 58, de 23 de marzo de 2023), que sustituyó el marco previo de los Decretos 315/2015 y 83/2016.
-- Los reales decretos básicos vigentes son el **RD 217/2022 (ESO)** y el **RD 243/2022 (Bachillerato)**.
-
-Formato de respuesta preferido para consultas educativas:
-
-- `### Respuesta breve`
-- `### Fundamento normativo`
-- `### Aplicación práctica en Canarias`
-- `### Límites o aspectos a verificar`
-
-## Inicio rápido
-
-- [Endpoint público de `llms.txt`](https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt): URL prevista para clientes y agentes que consuman el contexto publicado.
-- [Panel público del repositorio](https://ateeducacion.github.io/normativa_educativa_canaria/): vista general publicada con accesos a corpus, índices y guías.
-- [Mapa ampliado de contexto](https://ateeducacion.github.io/normativa_educativa_canaria/llms-full.txt): propósito, estructura, modelo de datos, reglas de evidencia, citas y limitaciones.
-- [README del proyecto](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/README.md): resumen del corpus y estructura principal.
-- [Índice raíz](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/index.md): accesos rápidos a fuentes, normativa, currículos, relaciones y chunks.
-- [Estado del repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/status.yaml): fase actual, tareas abiertas y siguientes acciones.
-
-## Índices y corpus
-
-- [Índice de normativa](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/normativa.yaml): títulos oficiales, vigencia, temas y rutas de las fichas normativas.
-- [Índice de currículos](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/curriculos.yaml): materias, etapa, fuente y estado de extracción.
-- [Índice de fuentes](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/fuentes.yaml): portales oficiales, BOE, BOC y fechas de consulta.
-- [Índice de relaciones](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/relaciones.yaml): conexiones entre normas y evidencias.
-- [Índice de chunks IA](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/chunks.yaml): unidades breves preparadas para contexto de IA.
-- [Carpeta de normativa](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/02_normativa): fichas Markdown de normativa estatal y autonómica.
-- [Carpeta de currículos](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos): fichas YAML y Markdown de currículos.
-
-## Reglas de uso para IA
-
-- [Skill copiable «Experto en normativa educativa de Canarias»](https://ateeducacion.github.io/normativa_educativa_canaria/skill.html): system prompt listo para Claude, ChatGPT, Gemini, Copilot, Codex y otros, con prompts de ejemplo y botones de copiar; sin MCP.
-- [Skill canónica en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/skills/experto-normativa-educativa-canaria): `SKILL.md`, `INSTALACION.md` (instrucciones por plataforma) y `prompts.md` (prompts de ejemplo).
-- [Disciplina de evidencia](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/metodologia/disciplina-evidencia.md): reglas de trazabilidad, marcadores editoriales y límites de inferencia.
-- [Guía de validación](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/guias/validacion.md): comprobaciones mínimas del corpus antes de cerrar cambios.
-- [Guía MCP](https://ateeducacion.github.io/normativa_educativa_canaria/mcp.html): uso del repositorio desde clientes compatibles con GitHub MCP Server.
-- [Documento MCP en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/MCP.md): configuración, seguridad y ejemplos de prompts.
-
-## Opcional
-
-- [Fuentes oficiales](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/01_fuentes): fichas de portales y boletines oficiales enlazados.
-- [Corpus para IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia): resúmenes y chunks reutilizables.
-- [ADR y decisiones editoriales](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/09_decisiones-editoriales): criterios de modelado y mantenimiento del corpus.
+## Cómo usar este corpus
+1. Use los archivos `llms.txt` y `llms-full.txt` para obtener el mapa de navegación.
+2. Consulte `06_indices/` para localizar IDs de normas o materias.
+3. Priorice siempre la literalidad de las fichas `CUR` y `NOR`.

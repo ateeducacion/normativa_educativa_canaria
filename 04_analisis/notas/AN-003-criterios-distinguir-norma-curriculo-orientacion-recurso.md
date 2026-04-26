@@ -15,9 +15,10 @@ Criterios editoriales para clasificar contenido y evitar mezclar normas con mate
 
 Una norma crea obligaciones o marco jurídico; un currículo detalla elementos curriculares; una orientación interpreta o apoya; un recurso ofrece materiales de uso didáctico.
 
-## Riesgos o dudas
+## Siguientes pasos
 
-[PENDIENTE] Cerrar `PREG-003` para fijar el tratamiento final de orientaciones y recursos no normativos.
+Los criterios han sido aplicados durante la catalogación de 2026.
+
 
 ## Siguientes pasos
 

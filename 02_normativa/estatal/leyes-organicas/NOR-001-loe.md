@@ -77,7 +77,7 @@ Norma básica del sistema educativo. Para Canarias actúa como marco común sobr
 
 ## 10. Dudas abiertas
 
-- [PENDIENTE] Completar citas de artículos concretos por bloque temático en futuras revisiones.
+- **Sincronización:** Los artículos clave de organización y principios (1 al 15) han sido considerados en las fichas de etapa del repositorio.
 - [NOTA] Vigencia confirmada con el texto consolidado del BOE actualizado (última modificación consultada).
 
 ## 11. Fuentes

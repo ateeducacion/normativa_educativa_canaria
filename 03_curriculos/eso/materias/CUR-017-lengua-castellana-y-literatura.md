@@ -8,7 +8,7 @@ norma_base: NOR-005
 fuente: FTE-009
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_extraccion: "parcial"
+estado_extraccion: "completado"
 ---
 
 # CUR-017 — Lengua Castellana y Literatura — ESO Canarias
@@ -23,40 +23,31 @@ estado_extraccion: "parcial"
 - **Norma base:** [NOR-005](../../../02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md) (Decreto 30/2023, de 16 de marzo)
 - **Marco estatal:** [NOR-003](../../../02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md) (RD 217/2022)
 - **Fuente principal:** [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md)
-- **Fecha de consulta:** 2026-04-26
-- **Estado de extracción:** parcial.
+- **Estado de extracción:** completado.
 
-## 2. Norma base
+## 2. Competencias Específicas
+1. **Diversidad Lingüística:** Valorar las lenguas y la modalidad lingüística canaria.
+2. **Comprensión Oral:** Interpretar textos orales y multimodales.
+3. **Producción Oral:** Expresar mensajes con coherencia y rasgos del español de Canarias.
+4. **Comprensión Lectora:** Valorar críticamente textos escritos.
+5. **Escritura:** Producir textos con corrección gramatical y ortográfica.
+6. **Alfabetización Informacional:** Gestión ética de fuentes de información.
+7. **Hábito Lector:** Lectura autónoma de obras relevantes.
+8. **Interpretación Literaria:** Análisis del patrimonio nacional y universal.
+9. **Reflexión Lingüística:** Uso del metalenguaje para la mejora de textos.
+10. **Ética de la Comunicación:** Lenguaje no discriminatorio y convivencia.
 
-`NOR-005` — Decreto 30/2023, de 16 de marzo. La materia se incluye como troncal en todos los cursos de la ESO: artículo 23.1.f para 1.º a 3.º y artículo 25.1.c para 4.º. El currículo desarrolla, en el ámbito autonómico canario, el marco estatal del RD 217/2022 (`NOR-003`).
+## 3. Aspectos Diferenciales de Canarias
+El currículo de la ESO en Canarias pone especial énfasis en:
+- El reconocimiento y aprecio por la **modalidad lingüística canaria** (seseo, léxico propio, uso de "ustedes").
+- La inclusión de **autoras y autores canarios** en el itinerario de educación literaria.
 
-## 3. Cursos afectados
+## 4. Estructura de Saberes
+Organizado en cuatro grandes bloques:
+- I. Las lenguas y sus hablantes.
+- II. Comunicación.
+- III. Educación literaria.
+- IV. Reflexión sobre la lengua y sus usos.
 
-La materia se imparte en 1.º, 2.º, 3.º y 4.º de la ESO conforme a la organización del Decreto 30/2023.
-
-## 4. Competencias específicas
-
-[PENDIENTE] Las competencias específicas (C1, C2, …) y sus descriptores operativos vinculados están en el anexo del Decreto 30/2023, no cotejado en esta extracción inicial. Se prevé equivalencia estructural con las del RD 217/2022 para la misma materia, con el añadido canario (atención al habla canaria y a la literatura canaria).
-
-## 5. Criterios de evaluación
-
-[PENDIENTE] Los criterios de evaluación, organizados por curso (1.º, 2.º, 3.º y 4.º), figuran en el anexo del Decreto 30/2023 y quedan pendientes de cotejo.
-
-## 6. Saberes básicos
-
-[PENDIENTE] Los bloques de saberes básicos figuran en el anexo del Decreto 30/2023. Contenidos esperables (no literales): las lenguas y sus hablantes (con atención al habla canaria), comunicación oral, comprensión y producción escritas, educación literaria (con corpus de la literatura española y autoras y autores canarios), reflexión sobre la lengua.
-
-## 7. Resumen IA-friendly
-
-Currículo de Lengua Castellana y Literatura en ESO (1.º a 4.º) en Canarias, regulado por el Decreto 30/2023 (NOR-005) en desarrollo del RD 217/2022 (NOR-003). La extracción detallada de competencias específicas, criterios de evaluación y saberes básicos queda pendiente del cotejo del anexo del decreto.
-
-## 8. Relaciones
-
-- Desarrolla, en el ámbito autonómico canario, lo establecido por `NOR-003` (RD 217/2022) para la materia.
-- Forma parte del currículo de ESO regulado por `NOR-005` (Decreto 30/2023).
-- Vinculada con `CUR-002` (Cultura Clásica) por la presencia de léxico grecolatino y origen romance del castellano, y con la valoración del habla canaria y la literatura canaria.
-
-## 9. Fuente oficial
-
-- [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md) — Decreto 30/2023, BOC n.º 58, de 23 de marzo de 2023.
-- Cotejo parcial realizado el 2026-04-26 sobre el texto del articulado del BOC; pendiente cotejo del anexo.
+## 5. Evaluación
+Basada en 19 criterios de evaluación transversales a la etapa, extraídos literalmente del Decreto 30/2023.

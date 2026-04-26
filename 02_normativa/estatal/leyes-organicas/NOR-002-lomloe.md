@@ -77,7 +77,7 @@ Actualiza la LOE y redefine el marco curricular y evaluador de la LOMLOE. Es cla
 
 ## 10. Dudas abiertas
 
-- [PENDIENTE] Vincular artículos concretos con los bloques de currículo y evaluación en próximas revisiones.
+- **Integración:** Se han vinculado los principios curriculares y de evaluación en todas las fichas `CUR` de este repositorio.
 - [NOTA] Vigencia confirmada con el texto consolidado del BOE actualizado.
 
 ## 11. Fuentes

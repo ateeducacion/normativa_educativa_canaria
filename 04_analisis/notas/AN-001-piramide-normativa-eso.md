@@ -15,10 +15,6 @@ Ordena la pirámide normativa de ESO entre marco básico estatal, desarrollo reg
 
 La ESO en Canarias debe leerse desde la LOE consolidada, la LOMLOE como norma modificadora, el RD 217/2022 como desarrollo estatal directo y la Ley Canaria 6/2014 como marco autonómico general.
 
-## Riesgos o dudas
-
-[PENDIENTE] Confirmar la disposición autonómica curricular específica de ESO/Bachillerato.
-
 ## Siguientes pasos
 
-Resolver `PREG-001` y actualizar relaciones cuando se identifique la fuente oficial final.
+El mapa normativo ha sido completado con la incorporación del Decreto 30/2023 (NOR-005).

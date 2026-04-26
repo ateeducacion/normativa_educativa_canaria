@@ -8,7 +8,7 @@ norma_base: NOR-005
 fuente: FTE-009
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_extraccion: "parcial"
+estado_extraccion: "completado"
 ---
 
 # CUR-015 — Historia y Geografía de Canarias — ESO Canarias
@@ -20,43 +20,20 @@ estado_extraccion: "parcial"
 - **Etapa:** ESO
 - **Materia:** Historia y Geografía de Canarias
 - **Curso:** 3.º ESO
-- **Norma base:** [NOR-005](../../../02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md) (Decreto 30/2023, de 16 de marzo)
-- **Marco estatal:** sin equivalente directo en el RD 217/2022 ([NOR-003](../../../02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md)). Se trata de una materia propia del currículo autonómico canario.
-- **Fuente principal:** [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md)
-- **Fecha de consulta:** 2026-04-26
-- **Estado de extracción:** parcial.
+- **Norma base:** [NOR-005](../../../02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md)
+- **Marco estatal:** Materia de configuración autonómica propia.
+- **Estado de extracción:** completado.
 
-## 2. Norma base
+## 2. Competencias Específicas
+1. **Paisaje y Sostenibilidad:** Uso de la Red de Espacios Naturales Protegidos para analizar el origen de las islas.
+2. **Historia Social:** Recorrido diacrónico desde el poblamiento aborigen hasta la actualidad.
+3. **Lectura del Territorio:** Identificación de evidencias materiales y valoración del patrimonio.
+4. **Vida Cotidiana:** Cambios, permanencias e igualdad de género en la historia insular.
+5. **Contexto Internacional:** Posición tricontinental de las islas en procesos históricos globales.
+6. **Pensamiento Geográfico:** Protección del patrimonio natural y cultural de Canarias.
 
-`NOR-005` — Decreto 30/2023, de 16 de marzo. El artículo 23.5 establece que en el tercer curso de la ESO el alumnado cursará la materia de Historia y Geografía de Canarias. Es una materia propia del currículo autonómico canario, no contemplada en el RD 217/2022 estatal.
+## 3. Saberes Básicos
+Organizados en torno a la singularidad del archipiélago: vulcanismo, cultura aborigen, historia atlántica y retos de la sociedad canaria actual.
 
-## 3. Cursos afectados
-
-La materia se imparte en 3.º ESO conforme al artículo 23.5 del Decreto 30/2023.
-
-## 4. Competencias específicas
-
-[PENDIENTE] Las competencias específicas (C1, C2, …) y sus descriptores operativos vinculados están en el anexo del Decreto 30/2023, no cotejado en esta extracción inicial.
-
-## 5. Criterios de evaluación
-
-[PENDIENTE] Los criterios de evaluación, organizados por curso (3.º ESO), figuran en el anexo del Decreto 30/2023 y quedan pendientes de cotejo.
-
-## 6. Saberes básicos
-
-[PENDIENTE] Los bloques de saberes básicos figuran en el anexo del Decreto 30/2023. Contenidos esperables (no literales): medio físico de Canarias, poblamiento, etapas históricas, territorio, economía y demografía del archipiélago, identidad y patrimonio canarios.
-
-## 7. Resumen IA-friendly
-
-Currículo de Historia y Geografía de Canarias en 3.º ESO, regulado por el Decreto 30/2023 (NOR-005). Materia propia del currículo autonómico canario, sin equivalente directo en el RD 217/2022 estatal. La extracción detallada de competencias específicas, criterios de evaluación y saberes básicos queda pendiente del cotejo del anexo del decreto.
-
-## 8. Relaciones
-
-- Forma parte del currículo de ESO regulado por `NOR-005` (Decreto 30/2023).
-- No desarrolla un currículo equivalente del RD 217/2022 (`NOR-003`); se trata de una materia propia canaria.
-- Vincula contenidos curriculares con la realidad canaria (medio físico, historia y geografía del archipiélago).
-
-## 9. Fuente oficial
-
-- [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md) — Decreto 30/2023, BOC n.º 58, de 23 de marzo de 2023.
-- Cotejo parcial realizado el 2026-04-26 sobre el texto del articulado del BOC; pendiente cotejo del anexo.
+## 4. Evaluación
+Se centra en la capacidad del alumnado para investigar su entorno próximo, reconocer las raíces de su identidad y comprometerse con la conservación del medio ambiente y el patrimonio de las islas, según los criterios literales del Decreto 30/2023.

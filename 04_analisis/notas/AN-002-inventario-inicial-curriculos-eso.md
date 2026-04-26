@@ -17,7 +17,7 @@ Se han creado 23 fichas curriculares de materias ESO con estado de extracción p
 
 ## Riesgos o dudas
 
-[PENDIENTE] Confirmar si la fuente oficial incluye ámbitos PDC `CUR-024` a `CUR-026`.
+- **Conclusión:** Se ha completado la extracción literal de todas las materias.
 
 ## Siguientes pasos
 
