@@ -1,0 +1,37 @@
+id: CUR-027
+titulo: "Lengua Castellana y Literatura — Primaria Canarias"
+etapa: "primaria"
+materia: "Lengua Castellana y Literatura"
+norma_base: NOR-043
+fuente: FTE-046
+competencias_especificas:
+  - id: C1
+    descripcion: "Reconocer la diversidad lingüística, con énfasis en el español hablado en Canarias."
+  - id: C2
+    descripcion: "Comprender e interpretar textos orales y multimodales."
+  - id: C3
+    descripcion: "Producir textos orales y multimodales con coherencia y claridad."
+  - id: C4
+    descripcion: "Comprender e interpretar textos escritos y multimodales."
+  - id: C5
+    descripcion: "Producir textos escritos coherentes y cohesionados."
+  - id: C6
+    descripcion: "Buscar, seleccionar y gestionar información (alfabetización informacional)."
+  - id: C7
+    descripcion: "Desarrollar el hábito lector y la apreciación literaria."
+  - id: C8
+    descripcion: "Producir textos con intención literaria (creación)."
+  - id: C9
+    descripcion: "Reflexionar sobre el funcionamiento de la lengua (gramática y norma)."
+  - id: C10
+    descripcion: "Utilizar el lenguaje de forma ética y democrática."
+bloques_saberes:
+  - "Las lenguas y sus hablantes (vocalismo y léxico canario)"
+  - "Comunicación"
+  - "Educación Literaria"
+  - "Reflexión sobre la lengua"
+criterios_evaluacion:
+  - "1.1 Identificar variedades dialectales mostrando respeto."
+  - "9.1 Revisar producciones usando conocimientos gramaticales."
+  - "9.2 Reconocer rasgos del seseo y el uso de 'ustedes' en Canarias."
+observaciones: "Extracción inicial 2026-04-26. Foco en la identidad lingüística canaria."

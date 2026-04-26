@@ -1,0 +1,36 @@
+id: CUR-029
+titulo: "Matemáticas — Primaria Canarias"
+etapa: "primaria"
+materia: "Matemáticas"
+norma_base: NOR-043
+fuente: FTE-046
+competencias_especificas:
+  - id: C1
+    descripcion: "Interpretar problemas de la vida cotidiana comprendiendo las preguntas planteadas."
+  - id: C2
+    descripcion: "Resolver situaciones problematizadas aplicando diferentes estrategias y formas de razonamiento."
+  - id: C3
+    descripcion: "Explorar, formular y comprobar conjeturas sencillas o plantear problemas matemáticos."
+  - id: C4
+    descripcion: "Utilizar el pensamiento computacional (organizar datos, reconocer patrones, algoritmos) para modelizar situaciones."
+  - id: C5
+    descripcion: "Reconocer y utilizar conexiones entre diferentes ideas matemáticas y con otras áreas o la vida cotidiana (incluyendo el patrimonio de Canarias)."
+  - id: C6
+    descripcion: "Comunicar y representar conceptos y resultados matemáticos de forma individual y colectiva."
+  - id: C7
+    descripcion: "Desarrollar destrezas para gestionar emociones ante retos matemáticos (socioafectiva)."
+  - id: C8
+    descripcion: "Desarrollar destrezas sociales, respetando las emociones de los demás y el valor de la diversidad."
+bloques_saberes:
+  - "Sentido numérico"
+  - "Sentido de la medida"
+  - "Sentido espacial"
+  - "Sentido algebraico y pensamiento computacional"
+  - "Sentido estocástico"
+  - "Sentido socioafectivo"
+criterios_evaluacion:
+  - "1.1 Interpretar problemas de forma verbal o gráfica."
+  - "2.1 Comparar diferentes estrategias de resolución."
+  - "5.2 Reconocer las matemáticas en el patrimonio natural y cultural de Canarias."
+  - "7.1 Identificar emociones propias ante retos matemáticos."
+observaciones: "Extracción inicial 2026-04-26. Enfoque longitudinal en tres ciclos."

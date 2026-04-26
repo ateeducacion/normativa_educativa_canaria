@@ -1,0 +1,23 @@
+id: CUR-026
+titulo: "Educación Física — Primaria Canarias"
+etapa: "primaria"
+materia: "Educación Física"
+norma_base: NOR-043
+fuente: FTE-046
+competencias_especificas:
+  - id: C1
+    descripcion: "Vida Saludable: Hábitos de actividad física y salud."
+  - id: C2
+    descripcion: "Acción Motriz: Desarrollo de habilidades motrices y deportivas."
+  - id: C3
+    descripcion: "Expresión Corporal: Comunicación mediante el movimiento."
+  - id: C4
+    descripcion: "Juegos y Deportes Canarios: Valoración de la cultura motriz propia."
+bloques_saberes:
+  - "Vida activa y saludable"
+  - "Organización y gestión de la actividad física"
+  - "Resolución de problemas en situaciones motrices"
+  - "Cultura motriz y juegos canarios"
+criterios_evaluacion:
+  - "4.1 Conocer y practicar juegos y deportes tradicionales canarios."
+observaciones: "Extraído de forma preliminar 2026-04-26."

@@ -1,0 +1,35 @@
+id: CUR-024
+titulo: "Conocimiento del Medio Natural, Social y Cultural — Primaria Canarias"
+etapa: "primaria"
+materia: "Conocimiento del Medio Natural, Social y Cultural"
+norma_base: NOR-043
+fuente: FTE-046
+competencias_especificas:
+  - id: C1
+    descripcion: "Educación Digital: Uso seguro y eficiente de recursos digitales."
+  - id: C2
+    descripcion: "Pensamiento Científico: Observación y experimentación en la ciencia."
+  - id: C3
+    descripcion: "Proyectos de Diseño: Resolución de problemas mediante prototipos."
+  - id: C4
+    descripcion: "Conciencia Corporal y Salud: Hábitos de vida saludables y bienestar."
+  - id: C5
+    descripcion: "Patrimonio Natural y Cultural: Valoración del entorno de Canarias."
+  - id: C6
+    descripcion: "Conciencia Ecosocial: Sostenibilidad y protección de la biodiversidad."
+  - id: C7
+    descripcion: "Tiempo Histórico: Cambios y continuidades en la historia de Canarias."
+  - id: C8
+    descripcion: "Diversidad e Igualdad: Respeto cultural e igualdad de género."
+  - id: C9
+    descripcion: "Ciudadanía: Participación activa y valores democráticos."
+bloques_saberes:
+  - "Cultura científica"
+  - "La tecnología y digitalización"
+  - "Sociedades y territorios"
+  - "Conciencia ecosocial y patrimonio canario"
+criterios_evaluacion:
+  - "2.1 Plantear preguntas científicas sobre el entorno canario."
+  - "5.1 Identificar elementos del patrimonio natural de las islas."
+  - "7.1 Identificar personajes y hechos clave de la historia de Canarias."
+observaciones: "Extracción inicial 2026-04-26. Fuerte enfoque en educación patrimonial y sostenibilidad (Agenda Canaria 2030)."

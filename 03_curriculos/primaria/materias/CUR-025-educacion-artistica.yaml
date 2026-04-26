@@ -1,0 +1,20 @@
+id: CUR-025
+titulo: "Educación Artística — Primaria Canarias"
+etapa: "primaria"
+materia: "Educación Artística"
+norma_base: NOR-043
+fuente: FTE-046
+competencias_especificas:
+  - id: C1
+    descripcion: "Recepción y Análisis: Apreciar manifestaciones artísticas."
+  - id: C2
+    descripcion: "Creación e Interpretación: Expresión mediante el lenguaje plástico y musical."
+  - id: C3
+    descripcion: "Cultura Artística: Conocimiento del patrimonio artístico canario y universal."
+bloques_saberes:
+  - "Educación Plástica y Visual"
+  - "Educación Musical"
+  - "Artes Escénicas y Performance (transversal)"
+criterios_evaluacion:
+  - "3.1 Reconocer artistas canarios destacados (César Manrique, Martín Chirino, etc.)."
+observaciones: "Extraído de forma preliminar 2026-04-26. Integra Plástica y Música."

@@ -250,3 +250,107 @@ CUR-023:
   ruta_md: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.md"
   estado_extraccion: "parcial"
   observaciones: "Extracción parcial el 2026-04-26 (TAREA-030, segunda pasada): el PDF específico Tecnologia_y_Digitalizacion_ESO.pdf no estaba disponible en el portal de la Consejería en la fecha de consulta (URL devolvía 404). Se ha proporcionado estructura de competencias específicas (5) y de bloques de saberes (6) marcada como [HIPÓTESIS]/[PENDIENTE] sobre la base del marco estatal RD 217/2022 y de la materia continuadora CUR-022 (Tecnología, 4.º ESO) cotejada en esta pasada. Ver TAREA-030 y TAREA-031 (extracción literal pendiente)."
+
+CUR-024:
+  titulo: "Conocimiento del Medio Natural, Social y Cultural — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Conocimiento del Medio Natural, Social y Cultural"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-024-conocimiento-medio.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-024-conocimiento-medio.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Nueva catalogación 2026-04-26."
+
+CUR-025:
+  titulo: "Educación Artística — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Educación Artística"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-025-educacion-artistica.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-025-educacion-artistica.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Incluye Plástica y Música."
+
+CUR-026:
+  titulo: "Educación Física — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Educación Física"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-026-educacion-fisica.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-026-educacion-fisica.md"
+  estado_extraccion: "Pendiente"
+
+CUR-027:
+  titulo: "Lengua Castellana y Literatura — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Lengua Castellana y Literatura"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-027-lengua-castellana.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-027-lengua-castellana.md"
+  estado_extraccion: "Pendiente"
+
+CUR-028:
+  titulo: "Lengua Extranjera — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Lengua Extranjera"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-028-lengua-extranjera.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-028-lengua-extranjera.md"
+  estado_extraccion: "Pendiente"
+
+CUR-029:
+  titulo: "Matemáticas — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Matemáticas"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-029-matematicas.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-029-matematicas.md"
+  estado_extraccion: "Pendiente"
+
+CUR-030:
+  titulo: "Educación Emocional y para la Creatividad — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Educación Emocional y para la Creatividad"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-030-educacion-emocional.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-030-educacion-emocional.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Materia específica de Canarias."
+
+CUR-031:
+  titulo: "Educación en Valores Cívicos y Éticos — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Educación en Valores Cívicos y Éticos"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-031-valores-civicos.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-031-valores-civicos.md"
+  estado_extraccion: "Pendiente"
+  observaciones: "Impartida en Tercer Ciclo."
+
+CUR-032:
+  titulo: "Segunda Lengua Extranjera — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Segunda Lengua Extranjera"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-032-segunda-lengua-extranjera.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-032-segunda-lengua-extranjera.md"
+  estado_extraccion: "Pendiente"
+
+CUR-033:
+  titulo: "Religión — Primaria Canarias"
+  etapa: "primaria"
+  materia: "Religión"
+  norma_base: NOR-043
+  fuente: FTE-046
+  ruta_yaml: "03_curriculos/primaria/materias/CUR-033-religion.yaml"
+  ruta_md: "03_curriculos/primaria/materias/CUR-033-religion.md"
+  estado_extraccion: "Pendiente"
