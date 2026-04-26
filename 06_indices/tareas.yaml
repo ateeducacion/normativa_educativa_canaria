@@ -440,7 +440,7 @@ TAREA-040:
 
 TAREA-041:
   titulo: "Extraer módulos profesionales FP — Familia Servicios Socioculturales y a la Comunidad (CUR-052, CUR-053)"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: "@.agents/skills/experto-formacion-profesional"

@@ -1,24 +1,531 @@
 id: CUR-053
-titulo: "Técnico Superior en Integración Social — FP Canarias"
-etapa: "fp"
-familia_profesional: "Servicios Socioculturales y a la Comunidad"
-grado: "gs"
-materia: "Integración Social"
+titulo: Técnico Superior en Integración Social — FP Canarias
+etapa: fp
+familia_profesional: Servicios Socioculturales y a la Comunidad
+grado: gs
+materia: Integración Social
 ambito: null
-cursos: ["1.º", "2.º"]
+cursos:
+- 1.º
+- 2.º
 norma_base: NOR-058
 fuente: FTE-054
-url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-7234"
-fecha_consulta: 2026-04-26
-fecha_analisis: 2026-04-26
-estado_extraccion: "pendiente"
-estado_vigencia: "Vigente"
+url_oficial: https://www.boe.es/buscar/doc.php?id=BOE-A-2023-10395
+fecha_consulta: '2026-04-26'
+fecha_analisis: '2026-04-26'
+estado_extraccion: parcial
+estado_vigencia: Vigente
 elementos:
-  resultados_aprendizaje: []
-  criterios_evaluacion: []
-  contenidos: []
+  modulos_profesionales:
+  - codigo: '0337'
+    nombre: Contexto de la intervención social
+    horas_totales: 70
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Caracteriza la dinámica social, relacionándola con los conceptos y procesos psicológicos y sociológicos que
+        la sustentan.
+      criterios_evaluacion:
+      - b) Se han caracterizado los procesos que influyen en la conformación social de la conducta y las actitudes.
+      - c) Se han descrito los elementos que configuran la estructura social y las relaciones entre ellos.
+      - d) Se han descrito los procesos básicos que intervienen en la dinámica y el cambio social.
+      - e) Se han identificado los factores que favorecen o inhiben el cambio social.
+      - f) Se han identificado los factores que facilitan o dificultan la participación social y comunitaria.
+      - g) Se ha argumentado la necesidad de conocer los aspectos básicos de la dinámica social en el diseño de las intervenciones.
+      - h) Se ha explicado el papel de la perspectiva de género en la dinámica y el cambio social.
+    - numero: 2
+      enunciado: Caracteriza los procesos de integración y exclusión social, identificando los factores sociológicos y psicológicos
+        influyentes.
+      criterios_evaluacion:
+      - b) Se han explicado los procesos básicos asociados a la integración y exclusión social de personas y colectivos.
+      - c) Se han identificado las principales causas de la marginación y la exclusión social.
+      - d) Se han identificado los indicadores generales de marginación y exclusión social.
+      - e) Se han descrito las principales necesidades y demandas sociales según los distintos colectivos.
+      - f) Se ha diferenciado entre necesidad y demanda social.
+      - g) Se ha argumentado la influencia de las necesidades sociales en la marginación y exclusión social.
+      - h) Se han concretado los mecanismos y procesos generales de reinserción social.
+    - numero: 3
+      enunciado: Interpreta el marco de la intervención social, relacionando su estructura jurídica y administrativa con la
+        realidad en que se desarrolla.
+      criterios_evaluacion:
+      - b) Se ha descrito el actual marco jurídico y administrativo de la intervención social.
+      - c) Se ha relacionado el marco jurídico de los sistemas de protección social con la realidad en que se desarrollan.
+      - d) Se han concretado los distintos sectores de intervención social.
+      - e) Se ha justificado la necesidad de la protección social como un derecho de las personas.
+      - f) Se ha argumentado la importancia de los sistemas de protección social como elemento de integración y estabilidad
+        social.
+      - g) Se ha valorado la importancia de la discriminación positiva en los procesos de igualdad.
+      - h) Se ha descrito el papel del técnico superior en Integración Social en el marco de la intervención social.
+    - numero: 4
+      enunciado: Determina los ámbitos de intervención social, describiendo las características y necesidades de los colectivos
+        que los integran.
+      criterios_evaluacion:
+      - b) Se han identificado los colectivos que integran los diferentes ámbitos de intervención social.
+      - c) Se han explicado las características y necesidades de las personas y colectivos susceptibles de exclusión social.
+      - d) Se han identificado los factores influyentes en la situación o riesgo de exclusión social de los diferentes colectivos.
+      - e) Se han descrito las variables que influyen en las situaciones de necesidad en los sectores objeto de intervención.
+      - f) Se han relacionado las características de los sujetos y colectivos específicos con las demandas y necesidades de
+        intervención social.
+      - g) Sehanidentificadolasprincipalesfuentesdeinformaciónacercadeloscolectivos de intervención.
+      - h) Se ha valorado la importancia de fundamentar la intervención en las necesidades de los destinatarios.
+    - numero: 5
+      enunciado: Caracteriza servicios y programas de intervención social, relacionándolos con las necesidades personales
+        y sociales a las que dan respuesta.
+      criterios_evaluacion:
+      - b) Se han relacionado las principales organizaciones y servicios dirigidos a la intervención social con diferentes
+        colectivos.
+      - c) Se han descrito distintos contextos y sistemas organizativos de intervención.
+      - d) Se han explicado las líneas generales de los principales programas de intervención social y promoción de igualdad.
+      - e) Se han identificado los aspectos básicos de la intervención social con diferentes colectivos.
+      - f) Se han enumerado las principales prestaciones y ayudas a las que tienen derecho los diferentes colectivos.
+      - g) Se ha valorado la importancia del apoyo social en la integración de las personas.
+      - h) Se han concretado la importancia social, el ámbito de actuación y los límites del voluntariado en la intervención
+        social.
+  - codigo: 0338
+    nombre: Inserción sociolaboral
+    horas_totales: 115
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Caracteriza el contexto de la inserción sociolaboral, analizando el marco legal y los recursos existentes.
+      criterios_evaluacion:
+      - b) Se han descrito las principales modalidades de inserción sociolaboral.
+      - c) Se han identificado los recursos laborales y formativos para la inserción sociolaboral de las personas usuarias.
+      - d) Se han identificado las principales fuentes de información acerca de los recursos formativos y sociolaborales existentes.
+      - e) Se han enumerado técnicas para la elaboración de archivos con información sobre los recursos sociolaborales y formativos
+        existentes.
+      - f) Se han identificado técnicas para el estudio de igualdad de oportunidades que ofrecen los recursos sociolaborales
+        y formativos.
+      - g) Se han identificado los canales que permiten establecer y mantener relaciones de colaboración sistemática con empresas
+        e instituciones.
+      - h) Se ha argumentado la importancia del papel del técnico superior de Integración Social en el proyecto de inserción
+        sociolaboral.
+    - numero: 2
+      enunciado: Planifica la intervención en inserción sociolaboral, identificando las necesidades de las personas a las
+        que va dirigida.
+      criterios_evaluacion:
+      - b) Se han identificado las variables que contribuyen a determinar las competencias laborales de distintos colectivos
+        y personas usuarias.
+      - c) Se ha valorado la importancia de respetar el derecho de autodeterminación de las personas usuarias.
+      - d) Se han definido las principales fases y elementos del proceso de planificación de proyectos de inserción sociolaboral.
+      - e) Se han determinado itinerarios de inserción sociolaboral.
+      - f) Sehanidentificadolosdocumentoseinstrumentosdeplanificacióncaracterísticos de la inserción sociolaboral.
+      - g) Se han descrito estrategias propias de la intervención que garantizan una mayor implicación de las personas usuarias
+        y su entorno en la búsqueda activa de empleo.
+      - h) Se ha valorado la importancia de colaborar con el equipo interdisciplinar en el análisis del ajuste entre las personas
+        usuarias y el puesto de trabajo.
+    - numero: 3
+      enunciado: Aplica técnicas de entrenamiento en habilidades sociolaborales, relacionando las necesidades de las personas
+        usuarias con el entorno laboral.
+      criterios_evaluacion:
+      - b) Se han elaborado actividades para el desarrollo de habilidades sociolaborales dirigidas a la búsqueda activa de
+        empleo.
+      - c) Se han aplicado técnicas para mejorar las habilidades sociales de las personas usuarias en el entorno laboral.
+      - d) Se han seleccionado estrategias que favorecen el establecimiento de un buen clima laboral y evitan las situaciones
+        de crisis.
+      - e) Se han estructurado las tareas y funciones propias del puesto de trabajo de la persona usuaria.
+      - f) Se han secuenciado las actividades que favorecen el desempeño de la actividad laboral de forma independiente.
+      - g) Se han establecido las medidas que aseguran el cumplimiento de las normas de seguridad e higiene durante la jornada
+        laboral.
+      - h) Se ha valorado la importancia de la implicación de la persona usuaria y su familia en el proceso de inserción sociolaboral.
+    - numero: 4
+      enunciado: Planifica actividades de inserción sociolaboral de personas con discapacidad aplicando metodología de empleo
+        con apoyo.
+      criterios_evaluacion:
+      - b) Se han identificado las principales fuentes de información acerca de los recursos sociolaborales y formativos para
+        su inserción sociolaboral.
+      - c) Se han aplicado técnicas de entrenamiento en habilidades sociolaborales.
+      - d) Se han descrito los principios que rigen los proyectos de Empleo con Apoyo.
+      - e) Sehanaplicadoprocedimientosdepresentaciónyacompañamientoalaempresa.
+      - f) Se han determinado los apoyos externos y sus tareas en el proceso de inserción sociolaboral.
+      - g) Se han seleccionado estrategias para la implicación de los apoyos naturales en la adaptación de la persona usuaria
+        a su puesto de trabajo.
+      - h) Se han identificado las técnicas y recursos que favorecen la adaptación del entorno laboral a las necesidades de
+        la persona usuaria.
+      - i) Se han determinado productos de apoyo y adaptaciones del puesto de trabajo.
+      - j) Se han establecido vías de comunicación que favorezcan la coordinación entre la empresa y el equipo durante la
+        fase de apoyo.
+      - k) Se ha valorado la necesidad de cambiar de la fase de apoyo a la de seguimiento o mantenimiento mediante el análisis
+        de los indicadores establecidos.
+    - numero: 5
+      enunciado: Define procedimientos para el seguimiento y evaluación del proceso de inserción sociolaboral,justificandolaseleccióndelasestrategias,técnicaseinstrumentosdeevaluación.
+      criterios_evaluacion:
+      - b) Se han descrito técnicas de recogida de información para valorar el proceso de adaptación de la persona usuaria
+        al puesto de trabajo.
+      - c) Se han elaborado instrumentos de valoración y observación del mantenimiento de aprendizajes adquiridos.
+      - d) Se han descrito procedimientos de medición de la satisfacción y adaptación de los implicados en el proceso de inserción
+        laboral.
+      - e) Se ha valorado la importancia de mantener los canales de comunicación entre todos los elementos implicados en el
+        proceso de inserción sociolaboral.
+      - f) Se ha descrito el protocolo de coordinación con el equipo interdisciplinar durante la fase de seguimiento.
+      - g) Se han elaborado informes y memorias finales sobre el proyecto de inserción laboral.
+      - h) Se han registrado y organizado los resultados de la evaluación del proceso de inserción sociolaboral.
+  - codigo: 0339
+    nombre: Atención a las unidades de convivencia
+    horas_totales: 80
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Planifica la intervención en la unidad de convivencia, relacionando los modelos de intervención con los aspectos
+        generales de la metodología de intervención social.
+      criterios_evaluacion:
+      - b) Se han analizado los recursos destinados a la intervención en unidades de convivencia en el ámbito estatal y autonómico.
+      - c) Se han identificado las características de la intervención en el servicio de ayuda a domicilio, programa de familia,
+        teleasistencia y recursos residenciales para colectivos específicos.
+      - d) Se han definido los objetivos que hay que conseguir en una intervención en una unidad de convivencia.
+      - e) Se han descrito las principales estrategias y técnicas para la intervención en unidades de convivencia.
+      - f) Se han definido las actividades dentro del proyecto de intervención en la unidad de convivencia.
+      - g) Se han determinado las pautas para la intervención directa en las unidades de convivencia.
+      - h) Se ha valorado el trabajo en equipo para la planificación de la intervención.
+    - numero: 2
+      enunciado: Organiza la intervención en unidades de convivencia, analizando las necesidades de las mismas en el ámbito
+        doméstico, personal y relacional.
+      criterios_evaluacion:
+      - b) Se han identificado los niveles de autonomía en las distintas unidades de convivencia.
+      - c) Sehanidentificadolasnecesidadesycapacidadesdelasunidadesdeconvivencia en el ámbito doméstico, personal y relacional.
+      - d) Se han determinado las necesidades de formación, información, supervisión y acompañamiento de la unidad de convivencia.
+      - e) Se han relacionado los objetivos y estrategias de intervención social con las necesidades que presenta la unidad
+        de convivencia.
+      - f) Se han organizado el espacio, los recursos y los tiempos necesarios para la puesta en práctica de la intervención
+        en las unidades de convivencia, teniendo en cuenta la generación de entornos seguros.
+      - g) Se han relacionado las carencias y alteraciones en la vida cotidiana de las unidades de convivencia con la intervención
+        del técnico superior en Integración Social.
+      - h) Se ha argumentado la importancia de respetar las decisiones de cada miembro de la unidad de convivencia.
+    - numero: 3
+      enunciado: Diseña actividades del proyecto de intervención en las unidades de convivencia, analizando las estrategias
+        de intervención.
+      criterios_evaluacion:
+      - b) Sehanplanificadolasactividadesdeorganizacióndelastareasdemantenimiento del domicilio, teniendo en cuenta el proyecto
+        de intervención.
+      - c) Se han determinado estrategias y técnicas de apoyo social y emocional en la unidad de convivencia.
+      - d) Se ha previsto el apoyo a la gestión doméstica de la unidad de convivencia.
+      - e) Se han descrito los apoyos de comunicación y productos de apoyo necesarias en la unidad de convivencia.
+      - f) Se han diseñado procesos para la participación de las personas usuarias en los espacios y actividades de ocio y
+        tiempo libre.
+      - g) Se han establecido procesos y actividades de educación afectivo-sexual.
+      - h) Se ha definido el asesoramiento a la unidad de convivencia sobre las responsabilidades y acciones que deben asumir.
+      - i) Se ha simulado la resolución de las contingencias en la intervención en unidades de convivencia.
+      - j) Se ha valorado la importancia de que el trato dispensado a las personas de la unidad de convivencia se ajuste a
+        los criterios y normas de atención establecidas.
+    - numero: 4
+      enunciado: Organiza estrategias de intervención en el ámbito de la prevención de violencia doméstica, analizando los
+        factores personales y sociales.
+      criterios_evaluacion:
+      - b) Se han identificado los diferentes niveles de prevención en la intervención social.
+      - c) Se han descrito diferentes acciones preventivas para evitar que se produzcan o agraven situaciones de violencia
+        doméstica.
+      - d) Sehandiseñadoestrategiasquepromuevanlaprevencióndeaccionesviolentas.
+      - e) Se han seleccionado instrumentos y materiales que ofrezcan información y formación.
+      - f) Se han determinado acciones de sensibilización para las situaciones de violencia doméstica y el entorno de las
+        mismas.
+      - g) Se han elaborado actividades de sensibilización sobre el problema de la violencia doméstica para todos los sectores
+        de la población.
+      - h) Sehavaloradolautilizacióndelastecnologíasdelainformaciónylacomunicación en la realización de acciones preventivas.
+    - numero: 5
+      enunciado: Desarrolla estrategias de intervención en violencia doméstica, relacionando las características de la situación
+        con el protocolo establecido.
+      criterios_evaluacion:
+      - b) Se han descrito los factores de riesgo en situaciones de violencia doméstica.
+      - c) Se han analizado las prestaciones de los servicios existentes relacionados con la detección y atención de situaciones
+        de violencia.
+      - d) Se han seleccionado los indicadores de violencia doméstica.
+      - e) Se han identificado los protocolos existentes para actuar en situaciones de violencia doméstica.
+      - f) Se ha simulado el acompañamiento personal, social y emocional en situaciones de violencia doméstica.
+      - g) Se han aplicado técnicas de atención psicosocial para las personas que han sufrido una situación de violencia doméstica.
+      - h) Se ha valorado el cumplimiento de los criterios y las normas establecidas en el protocolo de actuación en cuanto
+        al trato dispensado a las personas que han sufrido violencia doméstica.
+    - numero: 6
+      enunciado: Realiza actividades para el control y seguimiento de la intervención en la unidad de convivencia, justificando
+        la selección de las estrategias, técnicas e instrumentos de evaluación.
+      criterios_evaluacion:
+      - b) Se han seleccionado las diferentes técnicas, instrumentos y protocolos para la realización del seguimiento de la
+        intervención en las unidades de convivencia.
+      - c) Se han elaborado los instrumentos de evaluación que valoren interna y externamente la intervención en la unidad
+        de convivencia.
+      - d) Se han aplicado técnicas y procedimientos de evaluación para valorar el nivel de satisfacción de las necesidades
+        de las unidades de convivencia.
+      - e) Se han registrado los datos en los soportes establecidos por el equipo interdisciplinar.
+      - f) Se ha transmitido la información a las personas implicadas en la intervención tanto directa como indirectamente.
+      - g) Se ha valorado la necesidad de que el técnico superior de Integración Social reflexione sobre sus propias intervenciones.
+      - h) Se ha justificado la toma de decisiones para modificar o adaptar la intervención en las unidades de convivencia.
+  - codigo: '0340'
+    nombre: Mediación comunitaria
+    horas_totales: 80
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Planifica intervenciones de mediación, relacionándolas con los contextos en los que se desarrollan.
+      criterios_evaluacion:
+      - b) Se han seleccionado los objetivos de la intervención, partiendo de las características del contexto social en el
+        que se desarrolla.
+      - c) Se ha valorado la importancia de la planificación en el proceso de intervención.
+      - d) Se han diseñado actividades o talleres favorecedores de la comunicación.
+      - e) Se han diseñado actividades de encuentro comunitario atendiendo a las necesidades detectadas en las potenciales
+        personas usuarias.
+      - f) Se ha identificado a los mediadores naturales como agentes posibilitadores de intercambio de comunicación.
+      - g) Se han creado o revitalizado espacios de encuentro entre los individuos, grupos y entidades cuyas relaciones sean
+        susceptibles de derivar en conflicto.
+      - h) Se ha valorado la coherencia de la planificación de las actividades con los objetivos previstos en la intervención.
+    - numero: 2
+      enunciado: Organiza actuaciones para la prevención de conflictos, seleccionando las estrategias de intervención.
+      criterios_evaluacion:
+      - b) Se han identificado las principales estrategias de intervención en la gestión de conflictos.
+      - c) Se han seleccionado los modelos y técnicas que se van a emplear en el proceso de prevención y/o resolución de conflictos
+        de acuerdo con el conocimiento de la situación previa.
+      - d) Se han seguido criterios de confidencialidad y respeto en el tratamiento de la información sobre el conflicto.
+      - e) Se ha planificado actividades apropiadas en los procesos mediación grupal o comunitaria, potenciando el diálogo
+        y la confianza.
+      - f) Se han seleccionado los espacios de encuentro atendiendo a las características de los participantes y del contexto.
+      - g) Se ha ofertado el servicio de mediación voluntaria como una opción en la gestión de conflictos.
+      - h) Se ha valorado el contraste de opiniones y el intercambio de experiencias de todos los participantes en la organización
+        de la intervención.
+    - numero: 3
+      enunciado: Realiza actividades que favorecen los procesos de mediación, describiendo el desarrollo de los mismos.
+      criterios_evaluacion:
+      - b) Se ha comunicado la localización del lugar de encuentro a todas las personas usuarias potenciales.
+      - c) Se han empleado las técnicas de comunicación, favoreciendo el diálogo y la relación de las partes implicadas.
+      - d) Se han aplicado técnicas para mantener un clima de serenidad en el proceso de mediación.
+      - e) Se ha informado a las partes implicadas en el proceso de mediación sobre las fases del mismo para su conocimiento
+        y aceptación.
+      - f) Se ha derivado, en caso preciso, a las partes en conflicto a otros servicios de la comunidad.
+      - g) Se han elaborado propuestas de trabajo para mediar en conflictos grupales y/o mejorar las relaciones de la comunidad.
+      - h) Se han redactado los acuerdos por escrito y se han facilitado a las partes para su posterior confirmación.
+      - i) Se ha mostrado iniciativa ante las situaciones surgidas en el desarrollo de la intervención.
+    - numero: 4
+      enunciado: Realiza actividades de evaluación, comparando los resultados de la intervención con los objetivos previstos.
+      criterios_evaluacion:
+      - b) Se han definido las estrategias para comprobar los resultados de la intervención realizada.
+      - c) Se han seleccionado las técnicas e instrumentos para evaluar la intervención realizada.
+      - d) Se ha comprobado sistemáticamente que la intervención se está realizando de manera correcta.
+      - e) Se ha comprobado la funcionalidad y adecuación de los espacios y recursos empleados.
+      - f) Se ha implicado a las personas que han participado en la intervención en la comprobación de los resultados de la
+        misma.
+      - g) Se ha comprobado el nivel de cumplimiento de los objetivos previstos.
+      - 'h) Se ha valorado la importancia de mantener una actitud permanente de mejora en la eficacia y calidad del servicio.
+        Duración 80 horas. Contenidos básicos: Planificación de las intervenciones de mediación comunitaria: – Orígenes y
+        evolución de la mediación comunitaria. – Principios de la mediación comunitaria. – Análisis de diferentes modelos
+        de mediación comunitaria. – Legislación relacionada con la mediación. – Valoración de la importancia de planificar
+        la mediación. Organización de las actuaciones para la prevención de conflictos: – Contextos socioculturales actuales
+        y mediación comunitaria. – Procesos sociológicos en torno a la mediación comunitaria y a la gestión de conflictos:
+        socialización, identidad y diversidad cultural. – Valores en la intervención social: caracterización, función social
+        y respeto a la diferencia. – El fenómeno migratorio. – Recursos de mediación comunitaria. – La intervención comunitaria
+        en contextos sociales heterogéneos. – Determinacióndeespaciosyactividadesdeencuentroenmediacióncomunitaria. – Desarrollo
+        de estrategias y habilidades para la prevención de conflictos en la comunidad. – Los mediadores. Realización de actividades
+        de los procesos de mediación comunitaria: – El conflicto. – Técnicas de gestión de conflictos. – Procesos de intervención
+        comunitaria en contextos sociales heterogéneos. – Gestióndeconflictosenlosprocesosdemediaciónpersonal,grupalocomunitaria.
+        – Etapas en el proceso de mediación.'
+  - codigo: '0341'
+    nombre: Apoyo a la intervención educativa
+    horas_totales: 65
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Caracteriza el apoyo a la intervención educativa, relacionándolo con las competencias y el ámbito de actuación
+        del técnico en el centro escolar.
+      criterios_evaluacion:
+      - b) Se han descrito las estructuras organizativas de los centros que atienden alumnado con necesidades específicas
+        de apoyo educativo.
+      - c) Se ha analizado la legislación vigente en relación con la atención a la diversidad en los centros educativos.
+      - d) Se han identificado los diferentes niveles de concreción curricular y los elementos básicos del currículo.
+      - e) Seharelacionadolaintervencióneducativadirigidaalalumnadoconnecesidades específicas de apoyo educativo, con el proyecto
+        educativo y los documentos de programación del centro.
+      - f) Se han identificado las características, objetivos, organización y funcionamiento de los programas de atención
+        a la diversidad.
+      - g) Se ha identificado la estructura organizativa y funcional del equipo interdisciplinar de atención al alumnado con
+        necesidades específicas de apoyo educativo.
+      - h) Se ha identificado el ámbito de actuación del técnico en el contexto de la atención a la diversidad en los centros
+        educativos.
+      - i) Se ha valorado la importancia de la planificación y el trabajo en equipo en el proceso de intervención educativa.
+    - numero: 2
+      enunciado: Organiza el apoyo a la intervención educativa, aplicando las directrices del equipo interdisciplinar y los
+        principios de inclusión e individualización.
+      criterios_evaluacion:
+      - b) Se han relacionado las necesidades educativas específicas de apoyo educativo con las adaptaciones curriculares
+        requeridas.
+      - c) Se han identificado las actividades que hay que realizar con el alumnado, analizando las adaptaciones curriculares
+        individuales.
+      - d) Se han aplicado técnicas para la programación de actividades de apoyo a la intervencióneducativa,atendiendoalosprincipiosdeinclusióneindividualización.
+      - e) Se han seleccionado criterios metodológicos de acuerdo con los objetivos de la institución, el marco curricular
+        y las necesidades e intereses del alumnado.
+      - f) Se han identificado las medidas de acceso al currículo establecidas en una adaptación curricular.
+      - g) Se ha valorado el papel de las actividades complementarias en la integración escolar.
+      - h) Se han descrito las funciones del técnico para promover la participación en las actividades complementarias de
+        las personas destinatarias.
+    - numero: 3
+      enunciado: Desarrolla actividades de apoyo a la intervención educativa, adecuando los materiales curriculares a las
+        directrices del equipo interdisciplinar y las necesidades del alumnado.
+      criterios_evaluacion:
+      - b) Se han seleccionado materiales curriculares acordes con las directrices establecidas por el equipo interdisciplinar.
+      - c) Se han adecuado los materiales curriculares a las características del alumno o alumna.
+      - d) Se han aplicado criterios de organización del espacio, de materiales y de mobiliario que garantizan la accesibilidad
+        y el cumplimiento de las normas de seguridad e higiene.
+      - e) Se han identificado productos de apoyo para favorecer la autonomía en el aula.
+      - f) Se ha valorado el uso de las tecnologías de la información y la comunicación en la adaptación de materiales curriculares
+        a las características del alumnado.
+      - g) Se ha sensibilizado a todos los que intervienen en el proceso educativo de la importancia de generar entornos seguros.
+    - numero: 4
+      enunciado: Realiza el seguimiento de los procesos de apoyo a la intervención educativa, transmitiendo la información
+        al equipo interdisciplinar o al tutor o tutora del alumnado por los cauces establecidos.
+      criterios_evaluacion:
+      - b) Se han identificado las actividades de evaluación del programa educativo.
+      - c) Se han seleccionado las estrategias y técnicas de evaluación de las actividades de apoyo a la intervención educativa.
+      - d) Se han identificado indicadores de evaluación en las adaptaciones curriculares de la intervención educativa.
+      - e) Se ha valorado la importancia de la evaluación en los diferentes momentos del proceso.
+      - f) Se han utilizado instrumentos de evaluación en la aplicación de técnicas de prevención de accidentes en el aula.
+      - g) Se ha interpretado la información obtenida de los diferentes instrumentos.
+      - h) Se ha argumentado sobre la importancia del proceso de seguimiento de la actividad del técnico y de la eficacia
+        de la intervención.
+  - codigo: '0343'
+    nombre: Sistemas aumentativos y alternativos de comunicación
+    horas_totales: 80
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Detecta las necesidades comunicativas del usuario, relacionándolas con los sistemas alternativos y aumentativos
+        de comunicación.
+      criterios_evaluacion:
+      - b) Se han identificado los recursos que favorecen el proceso de comunicación.
+      - c) Se ha valorado la influencia de la comunicación en el desenvolvimiento diario de las personas.
+      - d) Se han descrito y valorado los aspectos que determinan la elección de uno u otro sistema de comunicación en función
+        de las características motóricas, cognitivas, actitudinales y ambientales del usuario.
+      - e) Se han analizado las diferentes formas de interacción y las condiciones más favorables para que la comunicación
+        se establezca.
+      - f) Se han identificado elementos externos, que pueden afectar al correcto uso de los sistemas alternativos y aumentativos
+        de comunicación.
+      - g) Se han aplicado estrategias de fomento de la implicación familiar, escolar y de su entorno social, en la intervención
+        con sistemas alternativos y aumentativos de comunicación.
+    - numero: 2
+      enunciado: Organiza la intervención para potenciar la comunicación, interpretando las características del usuario y
+        del contexto.
+      criterios_evaluacion:
+      - b) Se han seleccionado las estrategias y la metodología comunicativa para las distintas propuestas de intervención.
+      - c) Se han identificado procedimientos de intervención adecuados.
+      - d) Se han seleccionado los sistemas alternativos y aumentativos de comunicación de acuerdo con los objetivos previstos.
+      - e) Se han identificado productos de apoyo adecuadas.
+      - f) Se ha valorado la importancia de organizar la intervención en el ámbito del apoyo a la comunicación.
+    - numero: 3
+      enunciado: Aplica programas de intervención en el ámbito de la comunicación, empleando sistemas alternativos y aumentativos
+        con ayuda.
+      criterios_evaluacion:
+      - b) Se han descrito los principales signos utilizados en las situaciones habituales de atención social y educativa.
+      - c) Se han comprendido mensajes expresados mediante sistemas de comunicación con ayuda.
+      - d) Se han realizado los ajustes necesarios en función de las características particulares de los usuarios.
+      - e) Se han identificado productos de apoyo que se podrían aplicar en casos prácticos caracterizados y los requisitos
+        de ubicación y uso que deberían mantenerse.
+      - f) Se han aplicado estrategias comunicativas analizando distintos contextos.
+      - g) Se ha analizado la importancia de incrementar el número de símbolos y pictogramas atendiendo a los intereses y
+        necesidades de la persona usuaria.
+      - h) Se ha comprobado el uso correcto de aquellos sistemas en los que sea precisa la participación de terceras personas.
+      - i) Se ha fomentado la implicación del entorno del alumno en el conocimiento y uso del sistema con ayuda.
+    - numero: 4
+      enunciado: Aplica programas de intervención en el ámbito de la comunicación, empleando lengua de signos y sistemas alternativos
+        y aumentativos sin ayuda.
+      criterios_evaluacion:
+      - b) Se han creado mensajes en lengua de signos y en diferentes sistemas de comunicación sin ayuda, facilitando la comunicación
+        y atención a las personas usuarias.
+      - c) Se han aplicado los ajustes necesarios en función de las características particulares de los usuarios.
+      - d) Se han comprendido mensajes expresados en lengua de signos y mediante sistemas de comunicación sin ayuda.
+      - e) Se han aplicado estrategias comunicativas, analizando distintos contextos comunicativos.
+      - f) Se ha analizado la importancia de aumentar el número de signos y su contenido atendiendo a los intereses y necesidades
+        de la persona usuaria.
+      - g) Se ha comprobado el uso correcto de aquellos sistemas en los que sea precisa la participación de terceras personas.
+      - h) Se ha fomentado la implicación del entorno del alumno en el conocimiento y uso del sistema sin ayuda.
+    - numero: 5
+      enunciado: Comprueba la eficacia de la intervención, detectando los aspectos susceptibles de mejora en el ámbito comunicativo.
+      criterios_evaluacion:
+      - b) Se ha comprobado la correcta utilización de los elementos que componen el sistema de comunicación elegido.
+      - c) Se han registrado elementos ajenos a los sistemas de comunicación aplicados, que pudieran interferir en el desarrollo
+        de la intervención en la comunicación.
+      - d) Se han identificado los desajustes entre la persona usuaria y el sistema de comunicación establecido.
+      - e) Se ha determinado el nivel de cumplimiento de los objetivos previstos.
+      - f) Se ha valorado la importancia de realizar registros comunicativos como medio de evaluación de la competencia comunicativa
+        de la persona usuaria.
+      - g) Se han analizado las principales informaciones y orientaciones ofrecidas a los cuidadores y cuidadoras, favoreciendo
+        la generalización de conductas comunicativas establecidas.
+  - codigo: '0017'
+    nombre: Habilidades sociales
+    horas_totales: 60
+    resultados_aprendizaje:
+    - numero: 1
+      enunciado: Implementa estrategias y técnicas para favorecer la comunicación y relación social con su entorno, relacionándolas
+        con los principios de la inteligencia emocional y social.
+      criterios_evaluacion:
+      - b) Se ha valorado la importancia de las habilidades sociales en el desempeño de la labor profesional.
+      - c) Se han caracterizado las distintas etapas de un proceso comunicativo.
+      - d) Se han identificado los diferentes estilos de comunicación, sus ventajas y limitaciones.
+      - e) Se ha valorado la importancia del uso de la comunicación tanto verbal como no verbal en las relaciones interpersonales.
+      - f) Se ha establecido una eficaz comunicación para asignar tareas, recibir instrucciones e intercambiar ideas o información.
+      - g) Se han utilizado las habilidades sociales adecuadas a la situación y atendiendo a la diversidad cultural.
+      - 'h) Se ha demostrado interés por no juzgar a las personas y respetar sus elementos diferenciadores personales: emociones,
+        sentimientos, personalidad.'
+      - i) Se ha demostrado una actitud positiva hacia el cambio y a aprender de todo lo que sucede.
+      - j) Sehavaloradolaimportanciadelaautocríticaylaautoevaluacióneneldesarrollo de habilidades de relación interpersonal
+        y de comunicación adecuadas.
+    - numero: 2
+      enunciado: Dinamiza el trabajo del grupo, aplicando las técnicas adecuadas y justificando su selección en función de
+        las características, situación y objetivos del grupo.
+      criterios_evaluacion:
+      - b) Se han analizado y seleccionado las diferentes técnicas de dinamización y funcionamiento de grupos.
+      - c) Se han explicado las ventajas del trabajo en equipo frente al individual.
+      - d) Se han diferenciado los diversos roles que pueden darse en un grupo y las relaciones entre ellos.
+      - e) Se han identificado las principales barreras de comunicación grupal.
+      - f) Se han planteado diferentes estrategias de actuación para aprovechar la función de liderazgo y los roles en la
+        estructura y funcionamiento del grupo.
+      - g) Se ha definido el reparto de tareas como procedimiento para el trabajo grupo.
+      - h) Se ha valorado la importancia de una actitud tolerante y de empatía para conseguir la confianza del grupo.
+      - i) Se ha logrado un ambiente de trabajo relajado y cooperativo.
+      - j) Se han respetado las opiniones diferentes a la propia y los acuerdos de grupo.
+    - numero: 3
+      enunciado: Conduce reuniones analizando las distintas formas o estilos de intervención y de organización en función
+        de las características de los destinatarios y el contexto.
+      criterios_evaluacion:
+      - b) Se han descrito las etapas del desarrollo de una reunión.
+      - c) Se han aplicado técnicas de moderación de reuniones, justificándolas.
+      - d) Se ha demostrado la importancia de la capacidad de exponer ideas de manera clara y concisa.
+      - e) Se han descrito los factores de riesgo, los sabotajes posibles de una reunión, justificando las estrategias de
+        resolución.
+      - f) Se ha valorado la necesidad de una buena y diversa información en la convocatoria de reuniones.
+      - g) Se ha descrito la importancia de la motivación y de las estrategias empleadas, para conseguir la participación
+        en las reuniones.
+      - h) Se han aplicado técnicas de recogida de información y evaluación de resultados de una reunión.
+      - i) Se han demostrado actitudes de respeto y tolerancia en la conducción de reuniones.
+    - numero: 4
+      enunciado: Implementa estrategias de gestión de conflictos y resolución de problemas, seleccionándolas en función de
+        las características del contexto y analizando los diferentes modelos.
+      criterios_evaluacion:
+      - b) Sehandescritolasprincipalestécnicasyestrategiasparalagestióndeconflictos.
+      - c) Se han identificado y descrito las estrategias más adecuadas para la búsqueda de soluciones y resolución de problemas.
+      - d) Se han descrito las diferentes fases del proceso de toma de decisiones.
+      - e) Se han resuelto problemas y conflictos aplicando los procedimientos adecuados a cada caso.
+      - f) Se han respetado las opiniones de los demás respecto a las posibles vías de solución de problemas y conflictos.
+      - g) Se han aplicado correctamente técnicas de mediación y negociación.
+      - h) Se ha tenido en cuenta a las personas (usuarios), sea cual sea su edad o condición física y mental, en el proceso
+        de toma de decisiones.
+      - i) Se ha planificado la tarea de toma de decisiones y la autoevaluación del proceso.
+      - j) Se ha valorado la importancia del intercambio comunicativo en la toma de decisiones.
+    - numero: 5
+      enunciado: Evalúa los procesos de grupo y la propia competencia social para el desarrollo de sus funciones profesionales,
+        identificando los aspectos susceptibles de mejora.
+      criterios_evaluacion:
+      - b) Se han aplicado técnicas de investigación social y sociométricas.
+      - c) Se ha autoevaluado la situación personal y social de partida del profesional.
+      - d) Se han diseñado instrumentos de recogida de información.
+      - e) Se han registrado los datos en soportes establecidos.
+      - f) Se ha interpretado los datos recogidos.
+      - g) Se han identificado las situaciones que necesiten mejorar.
+      - h) Se han marcado las pautas a seguir en la mejora.
+      - i) Se ha realizado una autoevaluación final del proceso trabajado por el profesional.
+  nota: '[PENDIENTE] Los módulos específicos del RD 289/2023 (7 módulos, 550h) están completamente extraídos. Los módulos
+    comunes y complementarios (FOL, EIE, FCT, Proyecto de Integración Social, Primeros Auxilios) se rigen por la normativa
+    base del título original (RD 1075/2012) y su currículo en Canarias. Extracción completa pendiente.'
 relaciones:
-  desarrolla_a: [NOR-058]
-  relacionada_con: [NOR-007, CUR-052]
-resumen_ia: "[PENDIENTE: completar tras extraer RA y criterios del RD 289/2023]"
-observaciones: "Ficha placeholder creada en TAREA-037 (2026-04-26). Título actualizado bajo LOFP. RD modificado por RD 500/2024. El anterior RD 1075/2012 quedó derogado. Extracción pendiente para una fase posterior."
+  desarrolla_a:
+  - NOR-058
+  relacionada_con:
+  - NOR-007
+  - CUR-052
+resumen_ia: 'Ciclo formativo de Grado Superior de Técnico en Integración Social, actualizado por RD 289/2023 (bajo LOFP/LOE)
+  que modifica 7 módulos del título anterior (RD 1075/2012). Total 2000 horas. Extraídos los 7 módulos actualizados: Contexto
+  de la intervención social (70h), Inserción sociolaboral (115h), Atención a las unidades de convivencia (80h), Mediación
+  comunitaria (80h), Apoyo a la intervención educativa (65h), Sistemas aumentativos y alternativos de comunicación (80h),
+  Habilidades sociales (60h). Total 34 RAs y 249 CEs extraídos. Los módulos comunes (FOL, EIE, FCT, Proyecto) están pendientes.
+  Este resumen no sustituye la fuente oficial.'
+observaciones: Extracción parcial completada el 2026-04-26 (TAREA-041). Se extrajeron los 7 módulos actualizados por RD 289/2023,
+  con 34 resultados de aprendizaje y 249 criterios de evaluación. El anterior RD 1075/2012 quedó parcialmente modificado;
+  el ciclo completo incluye módulos adicionales (FOL, EIE, FCT, Proyecto de Integración Social, Primeros Auxilios) que están
+  pendientes de extracción desde el RD 1075/2012 o el currículo canario. RD 289/2023 también modifica el título de Mediación
+  Comunicativa (no incluido aquí).

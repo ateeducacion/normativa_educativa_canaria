@@ -449,14 +449,14 @@ tareas:
 
   TAREA-041:
     titulo: "Extraer módulos profesionales FP — Familia Servicios Socioculturales y a la Comunidad (CUR-052, CUR-053)"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: "@.agents/skills/experto-formacion-profesional"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [NOR-057, NOR-058, CUR-052, CUR-053]
-    siguiente_accion: "Extraer módulos de RD 1394/2007 y RD 289/2023 desde BOE."
+    siguiente_accion: null
 
 bloqueos: []
 

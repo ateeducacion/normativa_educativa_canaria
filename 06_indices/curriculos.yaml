@@ -561,8 +561,8 @@ CUR-052:
   norma_base: NOR-057
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-052-educacion-infantil.yaml"
-  estado_extraccion: "pendiente"
-  observaciones: "Placeholder creado en TAREA-037. RD 1394/2007, BOE-A-2007-20201. Modificado por RD 498/2024."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada en TAREA-041 (2026-04-26). 13 módulos profesionales, 71 resultados de aprendizaje y 619 criterios de evaluación extraídos del Anexo I del RD 1394/2007 (BOE-A-2007-20201). Modificado por RD 498/2024."
 
 CUR-053:
   titulo: "Técnico Superior en Integración Social — FP Canarias"
@@ -573,5 +573,5 @@ CUR-053:
   norma_base: NOR-058
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-053-integracion-social.yaml"
-  estado_extraccion: "pendiente"
-  observaciones: "Placeholder creado en TAREA-037. RD 289/2023, BOE-A-2023-7234. Título actualizado bajo LOFP. Modificado por RD 500/2024."
+  estado_extraccion: "parcial"
+  observaciones: "Extracción parcial completada en TAREA-041 (2026-04-26). 7 módulos actualizados por RD 289/2023 (BOE-A-2023-10395), 34 RAs y 249 CEs. Módulos comunes (FOL, EIE, FCT, Proyecto) pendientes. Modificado por RD 500/2024."
