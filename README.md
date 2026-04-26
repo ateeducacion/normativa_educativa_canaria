@@ -31,6 +31,7 @@ Repositorio IA-friendly para recopilar, analizar, resumir, indexar y relacionar 
 
 ## Estructura principal
 
+- `00_gobierno-repositorio/`: metodología, criterios editoriales y glosario operativo.
 - `01_fuentes/`: fichas de fuentes oficiales.
 - `02_normativa/`: fichas Markdown de normas.
 - `03_curriculos/`: currículos en Markdown y YAML.
@@ -47,6 +48,7 @@ Repositorio IA-friendly para recopilar, analizar, resumir, indexar y relacionar 
 ## Arranque rápido
 
 - Índice principal: [index.md](index.md)
+- Gobierno del repositorio: [00_gobierno-repositorio/](00_gobierno-repositorio/)
 - Fuentes: [06_indices/fuentes.yaml](06_indices/fuentes.yaml)
 - Normativa: [06_indices/normativa.yaml](06_indices/normativa.yaml)
 - Currículos: [06_indices/curriculos.yaml](06_indices/curriculos.yaml)
@@ -76,9 +78,10 @@ Abre el repositorio ateeducacion/normativa_educativa_canaria. Lee primero llms.t
 
 Detalle completo, alternativas con Docker y guía de seguridad: [`MCP.md`](MCP.md).
 
-## Estado de la puesta en marcha
+## Estado actual del corpus
 
-- Fuentes iniciales `FTE-001` a `FTE-008` creadas.
-- Normas iniciales `NOR-001` a `NOR-004` creadas.
-- Currículos ESO `CUR-001` a `CUR-023` registrados con estado `Pendiente`.
-- `PREG-001` abierta por falta de confirmación externa de la fuente oficial final del decreto autonómico de currículo ESO/Bachillerato.
+- Fuentes catalogadas hasta `FTE-055`.
+- Normativa indexada hasta `NOR-059`.
+- Currículos registrados hasta `CUR-053`: Infantil, Primaria, ESO, Bachillerato y primeros ciclos FP.
+- Chunks IA registrados hasta `CHUNK-00021`.
+- La extracción detallada de FP está abierta en `TAREA-038` a `TAREA-041`.

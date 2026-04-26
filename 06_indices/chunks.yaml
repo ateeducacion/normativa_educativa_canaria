@@ -102,3 +102,8 @@ CHUNK-00021:
   origen_id: NOR-031
   titulo: "Protección del Menor y Bienestar en Centros Educativos"
   ruta: "07_corpus_ia/chunks/CHUNK-00021-proteccion-menor-bienestar.yaml"
+
+CHUNK-00022:
+  origen_id: NOR-046
+  titulo: "Calendario Escolar y Organización (Canarias 2025-2026)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00022-calendario-iof-25-26.yaml"

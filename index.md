@@ -4,6 +4,7 @@ Repositorio IA-friendly de normativa educativa y currículos.
 
 ## Accesos principales
 
+- [Gobierno del repositorio](00_gobierno-repositorio/)
 - [Fuentes](06_indices/fuentes.yaml)
 - [Normativa](06_indices/normativa.yaml)
 - [Currículos](06_indices/curriculos.yaml)
@@ -11,16 +12,18 @@ Repositorio IA-friendly de normativa educativa y currículos.
 - [Chunks IA](06_indices/chunks.yaml)
 - [Preguntas abiertas](06_indices/preguntas.yaml)
 
-## Normas iniciales
+## Cobertura principal
 
-- LOE
-- LOMLOE
-- RD 217/2022
-- Ley Canaria 6/2014
+- LOE, LOMLOE y normativa básica estatal.
+- Currículos de Infantil, Primaria, ESO y Bachillerato en Canarias.
+- Primer bloque de Formación Profesional: ciclos comunes catalogados y extracción en curso.
+- Organización, convivencia, atención a la diversidad, admisión, servicios y personal docente.
 
-## Currículos iniciales
+## Gobierno editorial
 
-- ESO Canarias
+- [Metodología](00_gobierno-repositorio/metodologia/)
+- [Criterios de cierre y validación](00_gobierno-repositorio/criterios/)
+- [Glosario operativo](00_gobierno-repositorio/glosario/)
 
 ## Advertencia
 

@@ -8,12 +8,12 @@ Use este repositorio como mapa de contexto, no como sustituto de la fuente jurí
 
 Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo entidades registradas en `06_indices/`; no incorpora borradores locales, archivos sin seguimiento ni fichas aún no indexadas.
 
-- 53 fuentes catalogadas (`FTE-001` a `FTE-053`).
-- 48 fichas normativas indexadas (`NOR-001` a `NOR-050`, con huecos reservados/no reutilizados).
-- 45 currículos extraídos (`CUR-001` a `CUR-045`): 23 de ESO, 10 de Primaria, 3 de Infantil y 9 de Bachillerato.
+- 55 fuentes catalogadas (`FTE-001` a `FTE-055`).
+- 57 fichas normativas indexadas (`NOR-001` a `NOR-059`, con huecos reservados/no reutilizados).
+- 53 currículos registrados (`CUR-001` a `CUR-053`): 23 de ESO, 10 de Primaria, 3 de Infantil, 9 de Bachillerato y 8 de FP.
 - 45 relaciones normativas y curriculares (`REL-001` a `REL-048`, con huecos reservados/no reutilizados).
-- 13 chunks IA (`CHUNK-00001` a `CHUNK-00013`).
-- 37 tareas registradas; `TAREA-037` figura en progreso para títulos de FP.
+- 21 chunks IA (`CHUNK-00001` a `CHUNK-00021`).
+- 41 tareas registradas; 37 hechas y 4 en progreso (`TAREA-038` a `TAREA-041`) para extracción de FP.
 
 ## Cobertura Principal
 
@@ -24,7 +24,7 @@ Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo e
 - Alumnado, servicios y administración: admisión (`NOR-029`, `NOR-038`), comedores (`NOR-034`), transporte (`NOR-035`), residencias (`NOR-036`) y Reglamento Orgánico de la Consejería (`NOR-033`).
 - Personal docente: función pública, TREBEP, interinos, función directiva, permisos y licencias, incluida la actualización de 2026 (`NOR-019` a `NOR-023`, `NOR-042`).
 - Currículos ya extraídos: todas las materias ESO `CUR-001` a `CUR-023`, Primaria `CUR-024` a `CUR-033`, Infantil `CUR-034` a `CUR-036` y una primera selección de Bachillerato `CUR-037` a `CUR-045`.
-- Formación Profesional sigue en ampliación: `TAREA-037` está en progreso y cualquier ficha de FP no presente en `06_indices/normativa.yaml` debe tratarse como borrador no indexado.
+- Formación Profesional: 8 ciclos registrados como placeholders `CUR-046` a `CUR-053`, con extracción pendiente de módulos, resultados de aprendizaje y criterios de evaluación en `TAREA-038` a `TAREA-041`.
 
 ## Estilo De Respuesta Y Rigor Jurídico
 
@@ -52,6 +52,7 @@ Formato de respuesta preferido para consultas educativas:
 - [README del proyecto](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/README.md)
 - [Índice raíz](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/index.md)
 - [Estado del repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/status.yaml)
+- [Gobierno del repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio)
 
 ## Índices Y Corpus
 
@@ -69,6 +70,7 @@ Formato de respuesta preferido para consultas educativas:
 - [Skill copiable "Experto en normativa educativa de Canarias"](https://ateeducacion.github.io/normativa_educativa_canaria/skill.html)
 - [Skill canónica en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/skills/experto-normativa-educativa-canaria)
 - [Disciplina de evidencia](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/metodologia/disciplina-evidencia.md)
+- [Metodología, criterios y glosario](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio)
 - [Guía de validación](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/guias/validacion.md)
 - [Guía MCP publicada](https://ateeducacion.github.io/normativa_educativa_canaria/mcp.html)
 - [Documento MCP en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/MCP.md)

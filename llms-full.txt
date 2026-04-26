@@ -12,12 +12,12 @@ Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo e
 
 | Índice | Cobertura actual |
 | --- | --- |
-| Fuentes | 53 entradas, `FTE-001` a `FTE-053` |
-| Normativa | 48 entradas, `NOR-001` a `NOR-050`, con huecos reservados/no reutilizados |
-| Currículos | 45 entradas, `CUR-001` a `CUR-045` |
+| Fuentes | 55 entradas, `FTE-001` a `FTE-055` |
+| Normativa | 57 entradas, `NOR-001` a `NOR-059`, con huecos reservados/no reutilizados |
+| Currículos | 53 entradas, `CUR-001` a `CUR-053` |
 | Relaciones | 45 entradas, `REL-001` a `REL-048`, con huecos reservados/no reutilizados |
-| Chunks IA | 13 entradas, `CHUNK-00001` a `CHUNK-00013` |
-| Tareas | 37 entradas; `TAREA-037` está en progreso |
+| Chunks IA | 21 entradas, `CHUNK-00001` a `CHUNK-00021` |
+| Tareas | 41 entradas; `TAREA-038` a `TAREA-041` están en progreso |
 
 Distribución de currículos extraídos:
 
@@ -25,6 +25,7 @@ Distribución de currículos extraídos:
 - Primaria: 10 fichas (`CUR-024` a `CUR-033`).
 - Infantil: 3 fichas (`CUR-034` a `CUR-036`).
 - Bachillerato: 9 fichas (`CUR-037` a `CUR-045`).
+- Formación Profesional: 8 fichas placeholder (`CUR-046` a `CUR-053`) con `estado_extraccion: pendiente`.
 
 Estados de vigencia en normativa indexada:
 
@@ -51,6 +52,7 @@ Su finalidad es facilitar:
 - [README.md](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/README.md): presentación general del proyecto.
 - [index.md](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/index.md): accesos rápidos al corpus.
 - [status.yaml](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/status.yaml): fase del repositorio, tareas y bloqueos.
+- [00_gobierno-repositorio/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio): metodología, criterios editoriales y glosario operativo.
 - [01_fuentes/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/01_fuentes): fichas `FTE-NNN` de portales, BOE, BOC y otras fuentes oficiales.
 - [02_normativa/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/02_normativa): fichas `NOR-NNN` de normas estatales y autonómicas.
 - [03_curriculos/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos): fichas `CUR-NNN` en Markdown y YAML.
@@ -84,6 +86,7 @@ Marco estatal y autonómico básico:
 - Marco administrativo, igualdad, menores, comedores, transporte y residencias: `NOR-031` a `NOR-036`.
 - Primaria: currículo (`NOR-043`), evaluación/promoción (`NOR-044`), rúbricas (`NOR-045`) e instrucciones de organización y funcionamiento (`NOR-046`).
 - Infantil: currículo (`NOR-047`), evaluación (`NOR-048`) e instrucciones de organización y funcionamiento (`NOR-049`).
+- Formación Profesional en fase ampliada: títulos y ciclos más comunes catalogados hasta `NOR-058`, ajustes autonómicos FP en `NOR-059` y extracción curricular detallada abierta en `TAREA-038` a `TAREA-041`.
 
 ## Cobertura Curricular
 
@@ -102,6 +105,10 @@ Infantil (`CUR-034` a `CUR-036`):
 Bachillerato (`CUR-037` a `CUR-045`):
 
 - Educación Física; Filosofía; Historia de la Filosofía; Lengua Castellana y Literatura I y II; Lengua Extranjera I y II; Matemáticas I y II; Matemáticas Aplicadas a las Ciencias Sociales I y II; Latín I y II; Historia de España.
+
+Formación Profesional (`CUR-046` a `CUR-053`):
+
+- Cuidados Auxiliares de Enfermería; Imagen para el Diagnóstico y Medicina Nuclear; Gestión Administrativa; Administración y Finanzas; Desarrollo de Aplicaciones Multiplataforma; Desarrollo de Aplicaciones Web; Educación Infantil; Integración Social. Estas fichas están registradas como placeholders pendientes de extracción de módulos, resultados de aprendizaje y criterios de evaluación.
 
 ## Modelo De Datos Y Trazabilidad
 
@@ -141,6 +148,7 @@ Reglas operativas principales:
 Referencias:
 
 - [AGENTS.md](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/AGENTS.md)
+- [00_gobierno-repositorio/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio)
 - [docs/metodologia/disciplina-evidencia.md](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/metodologia/disciplina-evidencia.md)
 - [docs/guias/validacion.md](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/guias/validacion.md)
 
@@ -198,8 +206,9 @@ Formato preferido para preguntas educativas:
 
 - El corpus no pretende reproducir íntegramente todas las normas aplicables.
 - Hay huecos de numeración por coordinación de trabajo paralelo; no deben reutilizarse IDs.
-- `TAREA-037` figura en progreso para catalogación acotada de reales decretos de títulos de FP.
-- Los borradores de FP u otras fichas que existan localmente pero no figuren en `06_indices/normativa.yaml` no forman parte del corpus indexado.
+- `TAREA-038` a `TAREA-041` figuran en progreso para extracción de módulos profesionales FP.
+- Las fichas FP `CUR-046` a `CUR-053` son placeholders indexados; no deben tratarse como extracción completa.
+- Los borradores u otras fichas que existan localmente pero no figuren en `06_indices/` no forman parte del corpus indexado.
 - Algunas normas siguen con estado `Pendiente de verificación`, `Superada`, `Histórica` o vigencia condicionada; respete el metadato de cada ficha.
 - Las respuestas de IA basadas en este repositorio deben considerarse apoyo documental, no dictamen jurídico oficial.
 
