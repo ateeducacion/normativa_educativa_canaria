@@ -470,15 +470,15 @@ tareas:
     siguiente_accion: null
 
   TAREA-043:
-    titulo: "Completar CUR-053 (Integración Social) con módulos del título base RD 1075/2012"
-    estado: "En progreso"
+    titulo: "Completar CUR-053 (Integración Social) con módulos del título base RD 1074/2012"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: "@.agents/skills/experto-formacion-profesional"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [CUR-053, NOR-058, NOR-060]
-    siguiente_accion: "Catalogar NOR-060 (RD 1075/2012) y extraer módulos base de Integración Social."
+    siguiente_accion: null
 
   TAREA-044:
     titulo: "Extraer CEs completos — Familia Administración y Gestión (CUR-048, CUR-049)"

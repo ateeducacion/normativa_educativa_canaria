@@ -570,11 +570,12 @@ CUR-053:
   familia_profesional: "Servicios Socioculturales y a la Comunidad"
   grado: "gs"
   materia: "Integración Social"
-  norma_base: NOR-058
+  norma_base: NOR-060
+  norma_actualizacion: NOR-058
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-053-integracion-social.yaml"
   estado_extraccion: "parcial"
-  observaciones: "Extracción parcial completada en TAREA-041 (2026-04-26). 7 módulos actualizados por RD 289/2023 (BOE-A-2023-10395), 34 RAs y 249 CEs. Módulos comunes (FOL, EIE, FCT, Proyecto) pendientes. Modificado por RD 500/2024."
+  observaciones: "TAREA-043 (2026-04-26): NOR-060 catalogada (RD 1074/2012). CUR-053 contiene los 7 módulos actualizados por RD 289/2023 (34 RAs, 249 CEs) y los módulos comunes del título base (FOL, EIE, Primeros Auxilios, FCT, Proyecto de Integración Social) con datos aproximados [PENDIENTE verificar horas exactas en BOE-A-2012]. Total título: ~2000h. Modificado también por RD 500/2024."
 
 # --- BACHILLERATO (OPTATIVAS) ---
 

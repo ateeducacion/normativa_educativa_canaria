@@ -461,8 +461,8 @@ TAREA-042:
   ruta: "08_tareas/backlog/TAREA-042-resolver-preg005-rd-sanidad.md"
 
 TAREA-043:
-  titulo: "Completar CUR-053 (Integración Social) con módulos del título base RD 1075/2012"
-  estado: "En progreso"
+  titulo: "Completar CUR-053 (Integración Social) con módulos del título base RD 1074/2012"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: "@.agents/skills/experto-formacion-profesional"

@@ -884,14 +884,16 @@ NOR-059:
   etapas_afectadas: [formacion-profesional]
 
 NOR-060:
-  titulo: "[PENDIENTE: RD 1075/2012 o sucesor — título base T.S. Integración Social — verificar en TAREA-043]"
-  nombre_corto: "RD base T.S. Integración Social (pre-2023)"
+  titulo: "Real Decreto 1074/2012, de 13 de julio, por el que se establece el título de Técnico Superior en Integración Social y se fijan sus enseñanzas mínimas"
+  nombre_corto: "RD 1074/2012 — Título base T.S. Integración Social"
   tipo_norma: "real-decreto"
   ambito: "estatal"
-  estado_vigencia: "[PENDIENTE: verificar — parcialmente derogado por RD 289/2023]"
+  estado_vigencia: "Parcialmente derogado (7 módulos modificados por RD 289/2023)"
+  fecha_disposicion: 2012-07-13
+  fecha_publicacion: 2012-08-03
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-054
-  ruta: "[PENDIENTE: crear ficha en TAREA-043]"
+  ruta: "02_normativa/estatal/reales-decretos/NOR-060-rd-1074-2012-integracion-social.md"
   temas: [formacion-profesional, titulo, curriculo-basico, servicios-socioculturales]
   familia_profesional: "Servicios Socioculturales y a la Comunidad"
   grado: "GS"
