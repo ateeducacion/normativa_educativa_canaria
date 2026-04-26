@@ -24,89 +24,89 @@ CUR-003:
   titulo: "Cultura y Ciudadanía Digital — ESO Canarias"
   etapa: "eso"
   materia: "Cultura y Ciudadanía Digital"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-003-cultura-y-ciudadania-digital.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-003-cultura-y-ciudadania-digital.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial publicado por la Consejería de Educación (Decreto 30/2023). Incluye seis competencias específicas, quince criterios de evaluación, descriptores operativos y síntesis de los seis bloques de saberes básicos. Materia optativa de 3.º ESO. Ver TAREA-023."
 
 CUR-004:
   titulo: "Digitalización — ESO Canarias"
   etapa: "eso"
   materia: "Digitalización"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-004-digitalizacion.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-004-digitalizacion.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial publicado por la Consejería de Educación (Decreto 30/2023). Incluye cuatro competencias específicas, catorce criterios de evaluación, descriptores operativos y síntesis de los cuatro bloques de saberes básicos. Materia opcional de 4.º ESO. Ver TAREA-023."
 
 CUR-005:
   titulo: "Economía Personal y Social — ESO Canarias"
   etapa: "eso"
   materia: "Economía Personal y Social"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-005-economia-personal-y-social.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-005-economia-personal-y-social.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial publicado por la Consejería de Educación (Decreto 30/2023). Incluye tres competencias específicas, nueve criterios de evaluación, descriptores operativos y síntesis de los tres bloques de saberes básicos. Materia optativa de 3.º ESO. Ver TAREA-023."
 
 CUR-006:
   titulo: "Economía y Emprendimiento — ESO Canarias"
   etapa: "eso"
   materia: "Economía y Emprendimiento"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-006-economia-y-emprendimiento.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-006-economia-y-emprendimiento.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 a partir del PDF oficial publicado por la Consejería de Educación (Decreto 30/2023). Incluye siete competencias específicas, diecisiete criterios de evaluación, descriptores operativos y síntesis de los cuatro bloques de saberes básicos. Materia obligatoria de la Opción C en 4.º ESO. Ver TAREA-023."
 
 CUR-007:
   titulo: "Educación en Valores Cívicos y Éticos — ESO Canarias"
   etapa: "eso"
   materia: "Educación en Valores Cívicos y Éticos"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-007-educacion-en-valores-civicos-y-eticos.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-007-educacion-en-valores-civicos-y-eticos.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. Materia obligatoria en 1.º ESO con cuatro competencias específicas y siete criterios de evaluación. Ver TAREA-024."
 
 CUR-008:
   titulo: "Educación Física — ESO Canarias"
   etapa: "eso"
   materia: "Educación Física"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-008-educacion-fisica.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-008-educacion-fisica.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. Materia obligatoria en 1.º a 4.º ESO con cinco competencias específicas (acrónimo «sONrisas») y seis bloques de saberes que integran la cultura motriz canaria. Ver TAREA-024."
 
 CUR-009:
   titulo: "Educación Plástica, Visual y Audiovisual — ESO Canarias"
   etapa: "eso"
   materia: "Educación Plástica, Visual y Audiovisual"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-009-educacion-plastica-visual-y-audiovisual.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-009-educacion-plastica-visual-y-audiovisual.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. Materia obligatoria en 1.º, 2.º y 3.º ESO con ocho competencias específicas y cuatro bloques de saberes que integran a artistas canarios (Cristino de Vera, José Aguiar, César Manrique, Maribel Nazco, Pedro González, Martín Chirino, etc.). Ver TAREA-024."
 
 CUR-010:
   titulo: "Expresión Artística — ESO Canarias"
   etapa: "eso"
   materia: "Expresión Artística"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-010-expresion-artistica.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-010-expresion-artistica.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. Materia optativa de 4.º ESO con cuatro competencias específicas, nueve criterios de evaluación y dos bloques de saberes; profundiza los aprendizajes de CUR-009 e integra el patrimonio canario (César Manrique, Manolo Blahnik). Ver TAREA-024."
 
 CUR-011:
   titulo: "Filosofía — ESO Canarias"

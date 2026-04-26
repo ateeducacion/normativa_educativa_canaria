@@ -10,7 +10,7 @@ fecha_publicacion: 2010-12-22
 fecha_entrada_vigor: 2010-12-23
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_vigencia: "Vigente hasta desarrollo del Decreto 25/2018"
+estado_vigencia: "Vigente (con desarrollo posterior Decreto 25/2018)"
 fuente_principal: FTE-028
 url_oficial: "https://www.gobiernodecanarias.org/boc/2010/250/001.html"
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
@@ -21,67 +21,65 @@ relaciones:
   modifica_a: []
   deroga_a: []
   derogada_por: []
-  relacionada_con: [NOR-001, NOR-002, NOR-004]
+  relacionada_con: [NOR-001, NOR-002, NOR-004, NOR-028]
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
-# NOR-025 — Orden de 13 de diciembre de 2010, por la que se regula la atención al alumnado con NEAE
+# NOR-025 — Orden de 13 de diciembre de 2010, regulación del alumnado con NEAE en Canarias
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 
 ## 1. Identificación
 
 - **Norma:** Orden de 13 de diciembre de 2010.
-- **Nombre corto:** Orden NEAE (Canarias).
-- **Ámbito:** Canarias.
-- **Autoridad:** Consejería de Educación, Universidades, Cultura y Deportes.
-- **Fuente oficial:** `FTE-028`.
-- **Fecha de consulta:** 2026-04-26.
-- **Estado de vigencia:** Vigente hasta desarrollo del Decreto 25/2018, según la clasificación oficial de Inspección Educativa.
+- **Publicación:** BOC n.º 250, de 22 de diciembre de 2010.
+- **Corrección de errores:** BOC n.º 258, de 1 de diciembre de 2000 (corresponde a la de 2010 según el portal oficial).
+- **Estado de vigencia:** Mantiene su vigencia técnica y procedimental en todo lo que no contradiga al Decreto 25/2018 (`NOR-024`).
 
 ## 2. Objeto de la norma
 
-Regula la atención educativa del alumnado con necesidades específicas de apoyo educativo y establece medios para su identificación temprana, respuesta educativa, adaptaciones curriculares y participación familiar.
+Regular la atención educativa del alumnado con necesidades específicas de apoyo educativo (NEAE) y establecer los procedimientos para su identificación y respuesta.
 
 ## 3. Ámbito de aplicación
 
-Centros docentes públicos y, en lo que afecte, privados concertados y privados que imparten enseñanzas no universitarias en Canarias.
+Todos los centros educativos no universitarios de la Comunidad Autónoma de Canarias.
 
 ## 4. Estructura
 
-Incluye disposiciones generales, destinatarios, detección e identificación, evaluación psicopedagógica, medidas ordinarias/extraordinarias/excepcionales, adaptaciones curriculares y anexos con criterios de identificación.
+Organizada en secciones que definen las categorías de alumnado, el proceso de detección temprana, la evaluación psicopedagógica (EOEP) y los niveles de respuesta educativa.
 
 ## 5. Artículos, disposiciones o anexos clave
 
-| Localización | Contenido | Relevancia |
-| --- | --- | --- |
-| Art. 1 | Objeto y ámbito | Define la regulación de la atención educativa al alumnado con NEAE |
-| Art. 5 | Evaluación e informe psicopedagógico | Remite a los EOEP para determinar necesidades |
-| Art. 7 | Medidas extraordinarias | Regula AAC, AC y ACUS |
-| Anexo I | Criterios de identificación | Base técnica para identificar NEAE |
+### Categorías de alumnado NEAE definidas:
+1. **Necesidades Educativas Especiales (NEE):** Discapacidad, Trastornos Graves de Conducta (TGC) o TEA.
+2. **Dificultades Específicas de Aprendizaje (DEA):** Dislexia, disgrafía, discalculia, lenguaje oral.
+3. **TDAH:** Trastorno por Déficit de Atención con o sin Hiperactividad.
+4. **ECOPHE:** Especiales Condiciones Personales o de Historia Escolar (desfase de 2+ cursos).
+5. **Integración Tardía:** Alumnado extranjero o incorporación rezagada.
+
+### Niveles de respuesta:
+- **Medidas Ordinarias:** Refuerzos y agrupamientos sin modificar objetivos.
+- **Medidas Extraordinarias:** Adaptaciones de Acceso (AAC) y Adaptaciones Curriculares (AC).
+- **Medidas Excepcionales:** Adaptaciones Curriculares Significativas (ACUS) y modalidades de escolarización no ordinaria.
 
 ## 6. Relación con otras normas
 
-Desarrolla el marco autonómico de atención a la diversidad y se mantiene relacionada con `NOR-024`. Es desarrollada operativamente por la Resolución de 9 de febrero de 2011 (`NOR-026`) y sirve de base para las concreciones curriculares adaptadas de `NOR-028`.
+- Desarrolla el marco de inclusión que hoy encabeza el **Decreto 25/2018** (`NOR-024`).
+- Base para las concreciones curriculares de **Aulas Enclave** (`NOR-028`).
 
 ## 7. Impacto en Canarias
 
-Ordena la respuesta educativa individualizada al alumnado con NEAE en los centros canarios, incluyendo adaptaciones curriculares, informes psicopedagógicos, participación familiar y organización de apoyos especializados.
+Es la herramienta administrativa diaria que utilizan los centros y los Equipos de Orientación (EOEP) para realizar dictámenes de escolarización y organizar los apoyos de PT y AL.
 
 ## 8. Resumen IA-friendly
 
-Orden autonómica que regula la atención al alumnado con NEAE en Canarias. Define destinatarios, detección temprana, evaluación psicopedagógica, adaptaciones curriculares y medidas educativas ordinarias, extraordinarias y excepcionales.
+Norma procedimental clave en Canarias para la atención a la diversidad. Define las categorías NEAE (NEE, DEA, TDAH, ECOPHE e Integración Tardía) y los niveles de respuesta (ordinaria, extraordinaria y excepcional). Establece la evaluación psicopedagógica como el paso obligatorio para la asignación de recursos especializados.
 
 ## 9. Preguntas frecuentes
 
-- **¿Está plenamente vigente?** El portal oficial la marca como vigente hasta desarrollo del Decreto 25/2018; por prudencia se conserva ese estado literal.
-- **¿Incluye altas capacidades?** La propia Orden remite altas capacidades a normativa específica.
-
-## 10. Dudas abiertas
-
-- [PENDIENTE] Confirmar si el desarrollo completo posterior del Decreto 25/2018 ha sustituido parcialmente algún anexo o procedimiento.
+- **¿Quién realiza la evaluación psicopedagógica?** Los Equipos de Orientación Educativa y Psicopedagógicos (EOEP).
+- **¿Qué es una ACUS?** Una Adaptación Curricular Significativa, medida excepcional para desfases de dos o más cursos.
 
 ## 11. Fuentes
 
-- [FTE-028](../../../01_fuentes/boc/FTE-028-boc-2010-250-orden-neae.md)
-- [FTE-013](../../../01_fuentes/portales-oficiales/FTE-013-inspeccion-educativa-normativa-clasificada.md)
+- [BOC 2010/250](https://www.gobiernodecanarias.org/boc/2010/250/001.html)

@@ -32,55 +32,44 @@ nivel_evidencia: "confirmado-fuente-primaria"
 ## 1. Identificación
 
 - **Norma:** Orden de 10 de febrero de 2016.
-- **Nombre corto:** Concreciones curriculares adaptadas (Canarias).
-- **Ámbito:** Canarias.
-- **Autoridad:** Consejería de Educación y Universidades.
-- **Fuente oficial:** `FTE-031`.
-- **Fecha de consulta:** 2026-04-26.
+- **Publicación:** BOC n.º 33, de 18 de febrero de 2016.
+- **Código BOC:** BOC-A-2016-033-547.
 - **Estado de vigencia:** Vigente.
 
 ## 2. Objeto de la norma
 
-Establece las concreciones curriculares adaptadas para alumnado con necesidades educativas especiales escolarizado en aulas enclave y centros de educación especial.
+Establecer un marco curricular oficial adaptado para el alumnado con NEE que, por la gravedad de su afectación, requiere ser escolarizado en Aulas Enclave o Centros de Educación Especial.
 
 ## 3. Ámbito de aplicación
 
-Centros sostenidos con fondos públicos de Canarias que escolarizan alumnado en aulas enclave o centros de educación especial en Educación Infantil, Primaria, ESO y tránsito a la vida adulta.
+Centros sostenidos con fondos públicos de Canarias que cuenten con estas modalidades de escolarización.
 
-## 4. Estructura
+## 4. Estructura y Anexos
 
-Contiene un articulado breve y anexos curriculares extensos para Educación Infantil, Educación Primaria y tránsito a la vida adulta.
+La orden define tres grandes bloques curriculares adaptados:
+- **Anexo I (Infantil):** Foco en autonomía personal y conocimiento del entorno.
+- **Anexo II (Primaria):** Prioriza aprendizajes funcionales para la integración.
+- **Anexo III (Tránsito a la Vida Adulta - ESO):** Enfoque práctico orientado a la autonomía y preparación social/laboral.
 
-## 5. Artículos, disposiciones o anexos clave
+## 5. Aspectos clave
 
-| Localización | Contenido | Relevancia |
-| --- | --- | --- |
-| Art. 1 | Objeto y ámbito | Delimita alumnado y centros afectados |
-| Art. 2 | Concreciones curriculares adaptadas | Establece carácter flexible y prescriptivo de primer nivel |
-| Anexos I-III | Currículo adaptado | Referencia para aulas enclave, CEE y tránsito a la vida adulta |
+- **Funcionalidad:** Los contenidos deben tener utilidad directa en la vida diaria del alumno.
+- **Flexibilidad:** Es el primer nivel de concreción; el docente debe desarrollar sobre esta base el **Plan de Trabajo Individualizado (PTI)**.
+- **Evaluación:** Estos anexos son el **referente legal** para calificar al alumnado, sustituyendo al currículo ordinario.
 
 ## 6. Relación con otras normas
 
-Desarrolla previsiones de la Orden NEAE (`NOR-025`) y se relaciona con el Decreto 25/2018 (`NOR-024`) por modalidades excepcionales de escolarización.
+- Complementa la **Orden NEAE de 2010** (`NOR-025`).
+- Se enmarca en la modalidad de escolarización excepcional del **Decreto 25/2018** (`NOR-024`).
 
 ## 7. Impacto en Canarias
 
-Proporciona el marco curricular adaptado para alumnado escolarizado en aulas enclave y centros de educación especial, orientando la respuesta educativa y el tránsito a la vida adulta.
+Garantiza que el alumnado con mayor discapacidad tenga un currículo oficial propio, evitando la subjetividad en las adaptaciones y proporcionando seguridad jurídica al profesorado de educación especial.
 
 ## 8. Resumen IA-friendly
 
-Orden autonómica vigente que establece concreciones curriculares adaptadas para alumnado con NEE escolarizado en aulas enclave y centros de educación especial en Canarias.
-
-## 9. Preguntas frecuentes
-
-- **¿Afecta a todo el alumnado con NEAE?** No. Se centra en alumnado escolarizado en aulas enclave y centros de educación especial.
-- **¿Tiene anexos curriculares?** Sí. Los anexos se publican en el PDF oficial del BOC.
-
-## 10. Dudas abiertas
-
-- [PENDIENTE] Contrastar los anexos con posibles desarrollos curriculares posteriores LOMLOE.
+Orden que regula el currículo adaptado oficial (concreciones curriculares) para centros de educación especial y aulas enclave en Canarias. Divide los contenidos en tres anexos (Infantil, Primaria y Tránsito a la Vida Adulta) y actúa como referente obligatorio para la evaluación de este alumnado.
 
 ## 11. Fuentes
 
-- [FTE-031](../../../01_fuentes/boc/FTE-031-boc-2016-033-orden-aulas-enclave.md)
-- [FTE-013](../../../01_fuentes/portales-oficiales/FTE-013-inspeccion-educativa-normativa-clasificada.md)
+- [BOC 2016/033](https://www.gobiernodecanarias.org/boc/2016/033/001.html)
