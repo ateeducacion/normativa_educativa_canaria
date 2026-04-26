@@ -8,7 +8,7 @@ ambito: null
 cursos: ["1.º", "2.º"]
 norma_base: NOR-051
 fuente: FTE-054
-url_oficial: "[PENDIENTE: discrepancia RD — ver PREG-005 y NOR-051]"
+url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-1995-13533"
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_extraccion: "parcial"
@@ -43,4 +43,4 @@ relaciones:
   desarrolla_a: [NOR-051]
   relacionada_con: [NOR-007]
 resumen_ia: "Ciclo formativo de Grado Medio de la familia Sanidad. Contiene 8 módulos profesionales (incluyendo FCT) con una duración total de 1.400 horas. Regulado bajo el marco LOGSE — emplea capacidades terminales en lugar de resultados de aprendizaje LOE. Los módulos cubren técnicas básicas de enfermería, higiene hospitalaria, documentación sanitaria, promoción de la salud y técnicas odontológicas. Este resumen no sustituye la fuente oficial."
-observaciones: "Módulos extraídos el 2026-04-26. AVISO: el número de RD catalogado en NOR-051 (1538/1995) puede ser incorrecto — el RD que establece el título en el BOE podría ser el 546/1995. Ver PREG-005 y NOR-051 para aclaración. Estado parcial: módulos con horas totales; capacidades terminales y criterios de evaluación completos pendientes para fase posterior. Placeholder creado en TAREA-037."
+observaciones: "Módulos extraídos el 2026-04-26. RD verificado en BOE.es (TAREA-042, 2026-04-26): el RD correcto que establece el título es el 546/1995 (BOE-A-1995-13533), no el 1538/1995 que figuraba en la catalogación inicial. Ver NOR-051 y PREG-005 (resuelta). Estado parcial: módulos con horas totales; capacidades terminales y criterios de evaluación completos pendientes para fase posterior. Placeholder creado en TAREA-037."

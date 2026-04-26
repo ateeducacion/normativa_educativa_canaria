@@ -460,14 +460,14 @@ tareas:
 
   TAREA-042:
     titulo: "Resolver PREG-005 — Verificar y corregir RDs de ciclos de Sanidad (NOR-051, NOR-052)"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Alta"
     tipo: "calidad-documental"
     responsable: "@.agents/skills/experto-formacion-profesional"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [NOR-051, NOR-052, CUR-046, CUR-047, PREG-005]
-    siguiente_accion: "Verificar RD 546/1995 vs 1538/1995 y RD 770/2014 vs 772/2014 en BOE.es."
+    siguiente_accion: null
 
   TAREA-043:
     titulo: "Completar CUR-053 (Integración Social) con módulos del título base RD 1075/2012"

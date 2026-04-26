@@ -8,7 +8,7 @@ ambito: null
 cursos: ["1.º", "2.º"]
 norma_base: NOR-052
 fuente: FTE-054
-url_oficial: "[PENDIENTE: discrepancia RD — ver PREG-005 y NOR-052]"
+url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-10067"
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_extraccion: "parcial"
@@ -75,4 +75,4 @@ relaciones:
   desarrolla_a: [NOR-052]
   relacionada_con: [NOR-007]
 resumen_ia: "Ciclo formativo de Grado Superior de la familia Sanidad. Contiene 14 módulos profesionales (incluyendo FCT y proyecto) con una duración total de 2.000 horas (120 ECTS). Los módulos cubren radiodiagnóstico, TC, ecografía, RM, medicina nuclear, radiofarmacia y protección radiológica. Este resumen no sustituye la fuente oficial."
-observaciones: "Módulos extraídos el 2026-04-26. AVISO: el número de RD catalogado en NOR-052 (772/2014) puede ser incorrecto — el agente encontró que BOE-A-2014-10067 corresponde al RD 770/2014, y que RD 772/2014 corresponde a Radioterapia y Dosimetría. Ver PREG-005 y NOR-052 para aclaración. Estado parcial: módulos con horas y ECTS; resultados de aprendizaje y criterios de evaluación completos pendientes para fase posterior. Placeholder creado en TAREA-037."
+observaciones: "Módulos extraídos el 2026-04-26. RD verificado en BOE.es (TAREA-042, 2026-04-26): el RD correcto que establece el título es el 770/2014 (BOE-A-2014-10067), no el 772/2014 que figuraba en la catalogación inicial (772/2014 corresponde a Radioterapia y Dosimetría). Ver NOR-052 y PREG-005 (resuelta). Estado parcial: módulos con horas y ECTS; resultados de aprendizaje y criterios de evaluación completos pendientes para fase posterior. Placeholder creado en TAREA-037."

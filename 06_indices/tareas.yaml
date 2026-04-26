@@ -451,7 +451,7 @@ TAREA-041:
 
 TAREA-042:
   titulo: "Resolver PREG-005 — Verificar y corregir RDs de ciclos de Sanidad (NOR-051, NOR-052)"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "calidad-documental"
   responsable: "@.agents/skills/experto-formacion-profesional"

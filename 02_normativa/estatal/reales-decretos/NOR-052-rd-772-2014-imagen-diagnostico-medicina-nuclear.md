@@ -1,14 +1,14 @@
 ---
 id: NOR-052
-titulo: "Real Decreto 772/2014, de 12 de septiembre, por el que se establece el título de Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear y se fijan sus enseñanzas mínimas."
-nombre_corto: "RD 772/2014 — T.S. Imagen para el Diagnóstico y Medicina Nuclear"
+titulo: "Real Decreto 770/2014, de 12 de septiembre, por el que se establece el título de Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear y se fijan sus enseñanzas mínimas."
+nombre_corto: "RD 770/2014 — T.S. Imagen para el Diagnóstico y Medicina Nuclear"
 tipo_norma: "real-decreto"
 ambito: "estatal"
 organismo_emisor: "Ministerio de Educación, Cultura y Deporte"
-fecha_publicacion: "[PENDIENTE: discrepancia — ver PREG-005]"
+fecha_publicacion: "2014-10-04"
 fecha_entrada_vigor: "[PENDIENTE: verificar]"
-boe_referencia: "[PENDIENTE: discrepancia — BOE-A-2014-10067 es RD 770/2014; RD 772/2014 puede ser BOE-A-2014-10069 (Radioterapia) — ver PREG-005]"
-url_oficial: "[PENDIENTE: verificar — ver PREG-005]"
+boe_referencia: "BOE-A-2014-10067"
+url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-10067"
 estado_vigencia: "Vigente"
 fuente_principal: FTE-054
 fecha_consulta: 2026-04-26
@@ -22,7 +22,7 @@ relacionadas:
   relacionada_con: []
 ---
 
-# NOR-052 — RD 772/2014 — T.S. Imagen para el Diagnóstico y Medicina Nuclear
+# NOR-052 — RD 770/2014 — T.S. Imagen para el Diagnóstico y Medicina Nuclear
 
 > **Advertencia:** Este resumen no sustituye la fuente oficial.
 
@@ -43,9 +43,12 @@ Las comunidades autónomas completan el currículo dentro de los márgenes estab
 
 ## Notas
 
-- Verificación BOE realizada el 2026-04-26: BOE-A-2014-10067 corresponde al RD 770/2014 (no 772/2014) publicado el 4 de octubre de 2014 en BOE núm. 241. El nombre del archivo NOR usa el número 772/2014, pero el RD correcto es el 770/2014. El RD 772/2014 (BOE-A-2014-10069) corresponde al título de Radioterapia y Dosimetría. Pendiente de corrección del número de RD en esta ficha NOR. Ver TAREA-038.
+- **Corrección de número de RD (TAREA-042, 2026-04-26):** el número correcto del RD que establece el título es **770/2014** (BOE-A-2014-10067, publicado el 4 de octubre de 2014, BOE núm. 241), verificado directamente en BOE.es. El nombre del archivo (NOR-052-rd-772-2014-...) contiene el número incorrecto 772/2014; se mantiene el nombre del archivo por estabilidad de ID (R10) y se corrige el frontmatter. El renombrado del archivo se gestionará en una tarea futura.
+- El RD 772/2014 (BOE-A-2014-10069) corresponde al título de **Radioterapia y Dosimetría** (ciclo diferente). El número 772/2014 era un error de catalogación.
 
 ## Fuentes
 
 - Fuente principal: FTE-054 (BOE)
-- Catálogo todofp.es consultado: 2026-04-26
+- BOE-A-2014-10067 (título): https://www.boe.es/buscar/doc.php?id=BOE-A-2014-10067
+- BOE-A-2014-10069 (Radioterapia y Dosimetría — ciclo diferente): https://www.boe.es/buscar/doc.php?id=BOE-A-2014-10069
+- Fecha de verificación en BOE: 2026-04-26
