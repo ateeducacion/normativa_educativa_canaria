@@ -5,10 +5,10 @@
     tipo_norma: "ley-organica"
     ambito: "estatal"
     autoridad: "Jefatura del Estado"
-    fecha_disposicion: null
-    fecha_publicacion: null
-    fecha_entrada_vigor: null
-    fecha_consulta: 2026-04-25
+    fecha_disposicion: 2006-05-03
+    fecha_publicacion: 2006-05-04
+    fecha_entrada_vigor: 2006-05-24
+    fecha_consulta: 2024-05-24
     fecha_analisis: 2026-04-25
     estado_vigencia: "Vigente con modificaciones"
     fuente_principal: FTE-005
@@ -78,6 +78,7 @@
     ## 10. Dudas abiertas
 
     - [PENDIENTE] Completar citas de artículos concretos por bloque temático en futuras revisiones.
+    - [NOTA] Vigencia confirmada con el texto consolidado del BOE actualizado (última modificación consultada).
 
     ## 11. Fuentes
 

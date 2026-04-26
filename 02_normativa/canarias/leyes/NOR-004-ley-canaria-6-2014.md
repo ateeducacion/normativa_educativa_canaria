@@ -5,10 +5,10 @@
     tipo_norma: "ley-autonomica"
     ambito: "canarias"
     autoridad: "Comunidad Autónoma de Canarias"
-    fecha_disposicion: null
-    fecha_publicacion: null
-    fecha_entrada_vigor: null
-    fecha_consulta: 2026-04-25
+    fecha_disposicion: 2014-07-25
+    fecha_publicacion: 2014-10-01
+    fecha_entrada_vigor: 2014-09-01
+    fecha_consulta: 2024-05-24
     fecha_analisis: 2026-04-25
     estado_vigencia: "Vigente"
     fuente_principal: FTE-008
@@ -78,6 +78,7 @@
     ## 10. Dudas abiertas
 
     - [PENDIENTE] Revisar futuras actualizaciones o modificaciones autonómicas posteriores.
+    - [NOTA] Vigencia confirmada con el texto consolidado del BOE actualizado.
 
     ## 11. Fuentes
 

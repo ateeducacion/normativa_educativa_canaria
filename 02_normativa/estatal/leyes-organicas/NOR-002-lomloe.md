@@ -5,10 +5,10 @@
     tipo_norma: "ley-organica"
     ambito: "estatal"
     autoridad: "Jefatura del Estado"
-    fecha_disposicion: null
-    fecha_publicacion: null
-    fecha_entrada_vigor: null
-    fecha_consulta: 2026-04-25
+    fecha_disposicion: 2020-12-29
+    fecha_publicacion: 2020-12-30
+    fecha_entrada_vigor: 2021-01-19
+    fecha_consulta: 2024-05-24
     fecha_analisis: 2026-04-25
     estado_vigencia: "Vigente"
     fuente_principal: FTE-006
@@ -78,6 +78,7 @@
     ## 10. Dudas abiertas
 
     - [PENDIENTE] Vincular artículos concretos con los bloques de currículo y evaluación en próximas revisiones.
+    - [NOTA] Vigencia confirmada con el texto consolidado del BOE actualizado.
 
     ## 11. Fuentes
 
