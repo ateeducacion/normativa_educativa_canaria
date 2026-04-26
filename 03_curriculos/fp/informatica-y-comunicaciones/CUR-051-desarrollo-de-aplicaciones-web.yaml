@@ -11,7 +11,7 @@ fuente: FTE-054
 url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-9269"
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_extraccion: "parcial"
+estado_extraccion: "completado"
 estado_vigencia: "Vigente"
 elementos:
   modulos_profesionales:
@@ -687,27 +687,65 @@ elementos:
         - numero: 1
           enunciado: "Planifica la creación de una interfaz Web valorando y aplicando especificaciones de diseño."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se ha reconocido la importancia de la comunicación visual y sus principios básicos."
+            - "b) Se han analizado y seleccionado los colores y tipografías adecuados para su visualización en pantalla."
+            - "c) Se han analizado alternativas para la presentación de la información en documentos Web."
+            - "d) Se ha valorado la importancia de definir y aplicar la guía de estilo en el desarrollo de una aplicación Web."
+            - "e) Se han utilizado y valorado distintas aplicaciones para el diseño de documentos Web."
+            - "f) Se han utilizado marcos, tablas y capas para presentar la información de manera ordenada."
+            - "g) Se han creado y utilizado plantillas de diseño."
         - numero: 2
           enunciado: "Crea interfaces Web homogéneos definiendo y aplicando estilos."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han reconocido las posibilidades de modificar las etiquetas HTML."
+            - "b) Se han definido estilos de forma directa."
+            - "c) Se han definido y asociado estilos globales en hojas externas."
+            - "d) Se han definido hojas de estilos alternativas."
+            - "e) Se han redefinido estilos."
+            - "f) Se han identificado las distintas propiedades de cada elemento."
+            - "g) Se han creado clases de estilos."
+            - "h) Se han utilizado herramientas de validación de hojas de estilos."
+            - "i) Se ha utilizado y actualizado la guía de estilo."
         - numero: 3
           enunciado: "Prepara archivos multimedia para la Web, analizando las posibilidades de cada formato y su repercusión en el resultado."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han reconocido las implicaciones de las licencias y los derechos de autor en el uso de material multimedia."
+            - "b) Se han identificado los formatos de imagen, audio y vídeo a utilizar."
+            - "c) Se han analizado las herramientas disponibles para generar contenido multimedia."
+            - "d) Se han empleado herramientas para el tratamiento digital de la imagen."
+            - "e) Se han utilizado herramientas para manipular audio y vídeo."
+            - "f) Se han realizado animaciones a partir de imágenes fijas."
+            - "g) Se han importado y exportado imágenes, audio y vídeo en diversos formatos según su finalidad."
+            - "h) Se ha aplicado la guía de estilo."
         - numero: 4
           enunciado: "Integra contenido multimedia en documentos Web valorando su aportación y adecuándolo a los requerimientos establecidos."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han reconocido y analizado las tecnologías relacionadas con la inclusión de contenido multimedia e interactivo."
+            - "b) Se han identificado las necesidades específicas de configuración de los navegadores Web para soportar contenido multimedia e interactivo."
+            - "c) Se han utilizado herramientas gráficas para el desarrollo de contenido multimedia interactivo."
+            - "d) Se ha analizado el código generado por las herramientas de desarrollo de contenido interactivo."
+            - "e) Se han agregado elementos multimedia a documentos Web."
+            - "f) Se ha añadido interactividad a elementos de un documento Web."
+            - "g) Se ha verificado el funcionamiento de los elementos multimedia e interactivos en distintos navegadores."
         - numero: 5
           enunciado: "Desarrolla interfaces Web accesibles, analizando las pautas establecidas y aplicando técnicas de verificación."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se ha reconocido la necesidad de diseñar webs accesibles."
+            - "b) Se ha analizado la accesibilidad de diferentes documentos Web."
+            - "c) Se han identificado las principales pautas de accesibilidad al contenido."
+            - "d) Se han analizado los posibles errores según los puntos de verificación de prioridad."
+            - "e) Se ha alcanzado el nivel de conformidad deseado."
+            - "f) Se han verificado los niveles alcanzados mediante el uso de test externos."
+            - "g) Se ha verificado la visualización del interfaz con diferentes navegadores y tecnologías."
         - numero: 6
           enunciado: "Desarrolla interfaces Web amigables analizando y aplicando las pautas de usabilidad establecidas."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se ha analizado la usabilidad de diferentes documentos Web."
+            - "b) Se ha valorado la importancia del uso de estándares en la creación de documentos Web."
+            - "c) Se ha modificado el interfaz Web para adecuarlo al objetivo que persigue y a los usuarios a los que va dirigido."
+            - "d) Se ha verificado la facilidad de navegación de un documento Web mediante distintos periféricos."
+            - "e) Se han analizado diferentes técnicas para verificar la usabilidad de un documento Web."
+            - "f) Se ha verificado la usabilidad del interfaz Web creado en diferentes navegadores y tecnologías."
     - codigo: "0616"
       nombre: "Proyecto de Desarrollo de Aplicaciones Web"
       horas_totales: 40
@@ -716,19 +754,48 @@ elementos:
         - numero: 1
           enunciado: "Identifica necesidades del sector productivo relacionándolas con proyectos tipo que las puedan satisfacer."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han clasificado las empresas del sector por sus características organizativas y el tipo de producto o servicio que ofrecen."
+            - "b) Se han caracterizado las empresas tipo indicando la estructura organizativa y las funciones de cada departamento."
+            - "c) Se han identificado las necesidades más demandadas a las empresas."
+            - "d) Se han valorado las oportunidades de negocio previsibles en el sector."
+            - "e) Se ha identificado el tipo de proyecto requerido para dar respuesta a las demandas previstas."
+            - "f) Se han determinado las características específicas requeridas al proyecto."
+            - "g) Se han determinado las obligaciones fiscales, laborales y de prevención de riesgos y sus condiciones de aplicación."
+            - "h) Se han identificado posibles ayudas o subvenciones para la incorporación de nuevas tecnologías de producción o de servicio que se proponen."
+            - "i) Se ha elaborado el guión de trabajo que se va a seguir para la elaboración del proyecto."
         - numero: 2
           enunciado: "Diseña proyectos relacionados con las competencias expresadas en el título, incluyendo y desarrollando las fases que lo componen."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se ha recopilado información relativa a los aspectos que van a ser tratados en el proyecto."
+            - "b) Se ha realizado el estudio de viabilidad técnica del mismo."
+            - "c) Se han identificado las fases o partes que componen el proyecto y su contenido."
+            - "d) Se han establecido los objetivos que se pretenden conseguir identificando su alcance."
+            - "e) Se han previsto los recursos materiales y personales necesarios para realizarlo."
+            - "f) Se ha realizado el presupuesto económico correspondiente."
+            - "g) Se han identificado las necesidades de financiación para la puesta en marcha del mismo."
+            - "h) Se ha definido y elaborado la documentación necesaria para su diseño."
+            - "i) Se han identificado los aspectos que se deben controlar para garantizar la calidad del proyecto."
         - numero: 3
           enunciado: "Planifica la ejecución del proyecto determinando el plan de intervención y la documentación asociada."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han secuenciado las actividades ordenándolas en función de las necesidades de ejecución."
+            - "b) Se han determinado los recursos y la logística necesarios para cada actividad."
+            - "c) Se han identificado las necesidades de permisos y autorizaciones para llevar a cabo las actividades."
+            - "d) Se han determinado los procedimientos de actuación o ejecución de las actividades."
+            - "e) Se han identificado los riesgos inherentes a la ejecución definiendo el plan de prevención de riesgos y los medios y equipos necesarios."
+            - "f) Se han planificado la asignación de recursos materiales y humanos y los tiempos de ejecución."
+            - "g) Se ha hecho la valoración económica que da respuesta a las condiciones de la implementación."
+            - "h) Se ha definido y elaborado la documentación necesaria para la implementación o ejecución."
         - numero: 4
           enunciado: "Define los procedimientos para el seguimiento y control en la ejecución del proyecto, justificando la selección de variables e instrumentos empleados."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se ha definido el procedimiento de evaluación de las actividades o intervenciones."
+            - "b) Se han definido los indicadores de calidad para realizar la evaluación."
+            - "c) Se ha definido el procedimiento para la evaluación de las incidencias que puedan presentarse durante la realización de las actividades, su posible solución y registro."
+            - "d) Se ha definido el procedimiento para gestionar los posibles cambios en los recursos y en las actividades, incluyendo el sistema de registro de los mismos."
+            - "e) Se ha definido y elaborado la documentación necesaria para la evaluación de las actividades y del proyecto."
+            - "f) Se ha establecido el procedimiento para la participación en la evaluación de los usuarios o clientes y se han elaborado los documentos específicos."
+            - "g) Se ha establecido un sistema para garantizar el cumplimiento del pliego de condiciones del proyecto cuando este existe."
     - codigo: "0617"
       nombre: "Formación y Orientación Laboral"
       horas_totales: 90
@@ -737,27 +804,76 @@ elementos:
         - numero: 1
           enunciado: "Selecciona oportunidades de empleo identificando las diferentes posibilidades de inserción y las alternativas de aprendizaje a lo largo de la vida."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se ha valorado la importancia de la formación permanente como factor clave para la empleabilidad y la adaptación a las exigencias del proceso productivo."
+            - "b) Se han identificado los itinerarios formativo-profesionales relacionados con el perfil profesional del Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "c) Se han determinado las aptitudes y actitudes requeridas para la actividad profesional relacionada con el perfil del título."
+            - "d) Se han identificado los principales yacimientos de empleo y de inserción laboral para el Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "e) Se han determinado las técnicas utilizadas en el proceso de búsqueda de empleo."
+            - "f) Se han previsto las alternativas de autoempleo en los sectores profesionales relacionados con el título."
+            - "g) Se ha realizado la valoración de la personalidad, aspiraciones, actitudes y formación propia para la toma de decisiones."
         - numero: 2
           enunciado: "Aplica las estrategias del trabajo en equipo valorando su eficacia y eficiencia para la consecución de los objetivos de la organización."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han valorado las ventajas de trabajo en equipo en situaciones de trabajo relacionadas con el perfil del Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "b) Se han identificado los equipos de trabajo que pueden constituirse en una situación real de trabajo."
+            - "c) Se han determinado las características del equipo de trabajo eficaz frente a los equipos ineficaces."
+            - "d) Se ha valorado positivamente la necesaria existencia de diversidad de roles y opiniones asumidos por los miembros de un equipo."
+            - "e) Se ha reconocido la posible existencia de conflicto entre los miembros de un grupo como un aspecto característico de las organizaciones."
+            - "f) Se han identificado los tipos de conflictos y sus fuentes."
+            - "g) Se han determinado procedimientos para la resolución del conflicto."
         - numero: 3
           enunciado: "Ejerce los derechos y cumple las obligaciones que se derivan de las relaciones laborales reconociéndolas en los diferentes contratos de trabajo."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han identificado los conceptos básicos del derecho del trabajo."
+            - "b) Se han distinguido los principales organismos que intervienen en las relaciones entre empresarios y trabajadores."
+            - "c) Se han determinado los derechos y obligaciones derivados de la relación laboral."
+            - "d) Se han clasificado las principales modalidades de contratación, identificando las medidas de fomento de la contratación para determinados colectivos."
+            - "e) Se han valorado las medidas establecidas por la legislación vigente para la conciliación de la vida laboral y familiar."
+            - "f) Se han identificado las causas y efectos de la modificación, suspensión y extinción de la relación laboral."
+            - "g) Se ha analizado el recibo de salarios identificando los principales elementos que lo integran."
+            - "h) Se han analizado las diferentes medidas de conflicto colectivo y los procedimientos de solución de conflictos."
+            - "i) Se han determinado las condiciones de trabajo pactadas en un convenio colectivo aplicable al sector relacionado con el Título de Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "j) Se han identificado las características definitorias de los nuevos entornos de organización del trabajo."
         - numero: 4
           enunciado: "Determina la acción protectora del sistema de la Seguridad Social ante las distintas contingencias cubiertas identificando las distintas clases de prestaciones."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se ha valorado el papel de la Seguridad Social como pilar esencial para la mejora de la calidad de vida de los ciudadanos."
+            - "b) Se han enumerado las diversas contingencias que cubre el sistema de Seguridad Social."
+            - "c) Se han identificado los regímenes existentes en el sistema de Seguridad Social."
+            - "d) Se han identificado las obligaciones de empresario y trabajador dentro del sistema de Seguridad Social."
+            - "e) Se han identificado en un supuesto sencillo las bases de cotización de un trabajador y las cuotas correspondientes a trabajador y empresario."
+            - "f) Se han clasificado las prestaciones del sistema de Seguridad Social, identificando los requisitos."
+            - "g) Se han determinado las posibles situaciones legales de desempleo."
+            - "h) Se ha realizado el cálculo de la duración y cuantía de una prestación por desempleo de nivel contributivo básico."
         - numero: 5
           enunciado: "Evalúa los riesgos derivados de su actividad analizando las condiciones de trabajo y los factores de riesgo presentes en su entorno laboral."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se ha valorado la importancia de la cultura preventiva en todos los ámbitos y actividades de la empresa."
+            - "b) Se han relacionado las condiciones laborales con la salud del trabajador."
+            - "c) Se han clasificado los factores de riesgo en la actividad y los daños derivados de los mismos."
+            - "d) Se han identificado las situaciones de riesgo más habituales en los entornos de trabajo del Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "e) Se ha determinado la evaluación de riesgos en la empresa."
+            - "f) Se han determinado las condiciones de trabajo con significación para la prevención en los entornos de trabajo relacionados con el perfil profesional del Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "g) Se han clasificado y descrito los tipos de daños profesionales, con especial referencia a accidentes de trabajo y enfermedades profesionales, relacionados con el perfil profesional del Técnico Superior en Desarrollo de Aplicaciones Web."
         - numero: 6
           enunciado: "Participa en la elaboración de un plan de prevención de riesgos en una pequeña empresa, identificando las responsabilidades de todos los agentes implicados."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han determinado los principales derechos y deberes en materia de prevención de riesgos laborales."
+            - "b) Se han clasificado las distintas formas de gestión de la prevención en la empresa, en función de los distintos criterios establecidos en la normativa sobre prevención de riesgos laborales."
+            - "c) Se han determinado las formas de representación de los trabajadores en la empresa en materia de prevención de riesgos."
+            - "d) Se han identificado los organismos públicos relacionados con la prevención de riesgos laborales."
+            - "e) Se ha valorado la importancia de la existencia de un plan preventivo en la empresa que incluya la secuenciación de actuaciones que se deben realizar en caso de emergencia."
+            - "f) Se ha definido el contenido del plan de prevención en un centro de trabajo relacionado con el sector profesional del Técnico Superior en Desarrollo de Aplicaciones Web."
+            - "g) Se ha proyectado un plan de emergencia y evacuación de una empresa del sector."
+        - numero: 7
+          enunciado: "Aplica las medidas de prevención y protección, analizando las situaciones de riesgo en el entorno laboral del Técnico Superior en Desarrollo de Aplicaciones Web."
+          criterios_evaluacion:
+            - "a) Se han definido las técnicas de prevención y de protección individual y colectiva que deben aplicarse para evitar los daños en su origen y minimizar sus consecuencias en caso de que sean inevitables."
+            - "b) Se ha analizado el significado y alcance de los distintos tipos de señalización de seguridad."
+            - "c) Se han analizado los protocolos de actuación en caso de emergencia."
+            - "d) Se han identificado las técnicas de clasificación de heridos en caso de emergencia donde existan víctimas de diversa gravedad."
+            - "e) Se han identificado las técnicas básicas de primeros auxilios que han de ser aplicadas en el lugar del accidente ante distintos tipos de daños y la composición y uso del botiquín."
+            - "f) Se han determinado los requisitos y condiciones para la vigilancia de la salud del trabajador y su importancia como medida de prevención."
     - codigo: "0618"
       nombre: "Empresa e Iniciativa Emprendedora"
       horas_totales: 60
@@ -766,19 +882,47 @@ elementos:
         - numero: 1
           enunciado: "Desarrolla su espíritu emprendedor identificando las capacidades asociadas al mismo y definiendo ideas emprendedoras caracterizadas por la innovación y la creatividad."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se ha identificado el concepto de innovación y su relación con el progreso de la sociedad y el aumento en el bienestar de los individuos."
+            - "b) Se ha analizado el concepto de cultura emprendedora y su importancia como fuente de creación de empleo y bienestar social."
+            - "c) Se ha valorado la importancia de la iniciativa individual, la creatividad, la formación y la colaboración como requisitos indispensables para tener éxito en la actividad emprendedora."
+            - "d) Se ha analizado la capacidad de iniciativa en el trabajo de una persona empleada en una pequeña y mediana empresa relacionada con la informática."
+            - "e) Se ha analizado el desarrollo de la actividad emprendedora de un empresario que se inicie en el sector informático."
+            - "f) Se ha analizado el concepto de riesgo como elemento inevitable de toda actividad emprendedora."
+            - "g) Se ha analizado el concepto de empresario y los requisitos y actitudes necesarios para desarrollar la actividad empresarial."
+            - "h) Se ha descrito la estrategia empresarial relacionándola con los objetivos de la empresa."
+            - "i) Se ha definido una determinada idea de negocio del ámbito de la informática que servirá de punto de partida para la elaboración de un plan de empresa."
         - numero: 2
           enunciado: "Decide la oportunidad de creación de una pequeña empresa para el desarrollo de la actividad emprendedora, analizando el mercado y valorando formas de inserción."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han descrito las funciones básicas que se realizan en una empresa y se ha analizado el concepto de sistema aplicado a la empresa."
+            - "b) Se han identificado los principales componentes del entorno general que rodea a la empresa, en especial el entorno económico, social, demográfico y cultural."
+            - "c) Se ha analizado la influencia en la actividad empresarial de las relaciones con los clientes, con los proveedores y con la competencia, como principales integrantes del entorno específico."
+            - "d) Se han identificado los elementos del entorno de una pyme informática."
+            - "e) Se han analizado los conceptos de cultura empresarial e imagen corporativa y su relación con los objetivos empresariales."
+            - "f) Se ha analizado el fenómeno de la responsabilidad social de las empresas y su importancia como un elemento de la estrategia empresarial."
+            - "g) Se ha elaborado el balance social de una empresa relacionada con la informática, y se han descrito los principales costes sociales en que incurren estas empresas, así como los beneficios sociales que producen."
+            - "h) Se han identificado, en empresas relacionadas con la informática, prácticas que incorporan valores éticos y sociales."
+            - "i) Se ha llevado a cabo un estudio de viabilidad económica y financiera de una pyme relacionada con la informática."
         - numero: 3
           enunciado: "Realiza las actividades para la constitución y puesta en marcha de una empresa determinando la forma jurídica e identificando las obligaciones legales asociadas."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han analizado las diferentes formas jurídicas de la empresa."
+            - "b) Se ha especificado el grado de responsabilidad legal de los propietarios de la empresa, en función de la forma jurídica elegida."
+            - "c) Se ha diferenciado el tratamiento fiscal establecido para las diferentes formas jurídicas de la empresa."
+            - "d) Se han analizado los trámites exigidos por la legislación vigente para la constitución de una empresa."
+            - "e) Se ha realizado una búsqueda exhaustiva de las diferentes ayudas para la creación de empresas relacionadas con la informática en la localidad de referencia."
+            - "f) Se ha incluido en el plan de empresa todo lo relativo a la elección de la forma jurídica, estudio de viabilidad económico-financiera, trámites administrativos, ayudas y subvenciones."
+            - "g) Se han identificado las vías de asesoramiento y gestión administrativa externas existentes a la hora de poner en marcha una pyme."
         - numero: 4
           enunciado: "Realiza actividades de gestión administrativa y financiera básica de una pyme, identificando las principales obligaciones contables y fiscales."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han analizado los conceptos básicos de contabilidad, así como las técnicas de registro de la información contable."
+            - "b) Se han descrito las técnicas básicas de análisis de la información contable, en especial en lo referente a la solvencia, liquidez y rentabilidad de la empresa."
+            - "c) Se han definido las obligaciones fiscales de una empresa relacionada con la informática."
+            - "d) Se han diferenciado los tipos de impuestos en el calendario fiscal."
+            - "e) Se ha cumplimentado la documentación básica de carácter comercial y contable (facturas, albaranes, notas de pedido, letras de cambio, cheques, etc.) para una pyme de informática, y se han descrito los circuitos que dicha documentación recorre en la empresa."
+            - "f) Se han identificado los principales instrumentos de financiación bancaria."
+            - "g) Se ha incluido la anterior documentación en el plan de empresa."
     - codigo: "0619"
       nombre: "Formación en Centros de Trabajo"
       horas_totales: 380
@@ -787,15 +931,78 @@ elementos:
         - numero: 1
           enunciado: "Identifica la estructura y organización de la empresa relacionándola con la producción y comercialización de los productos y servicios que ofrece."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han identificado la estructura organizativa de la empresa y las funciones de cada área de la misma."
+            - "b) Se ha comparado la estructura de la empresa con las organizaciones empresariales tipo existentes en el sector."
+            - "c) Se han identificado los elementos que constituyen la red logística de la empresa: proveedores, clientes, sistemas de producción y almacenaje, entre otros."
+            - "d) Se han identificado los procedimientos de trabajo en el desarrollo de la prestación de servicio."
+            - "e) Se han valorado las competencias necesarias de los recursos humanos para el desarrollo óptimo de la actividad."
+            - "f) Se ha valorado la idoneidad de los canales de difusión más frecuentes en esta actividad."
         - numero: 2
           enunciado: "Aplica hábitos éticos y laborales en el desarrollo de su actividad profesional de acuerdo con las características del puesto de trabajo y con los procedimientos establecidos por la empresa."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se han reconocido y justificado la disponibilidad personal y temporal necesarias en el puesto de trabajo, las actitudes personales (puntualidad y empatía, entre otras) y profesionales (orden, limpieza, responsabilidad, entre otras), los requerimientos actitudinales ante la prevención de riesgos en la actividad profesional, los requerimientos actitudinales referidos a la calidad en la actividad profesional, las actitudes relacionales con el propio equipo de trabajo y con las jerarquías establecidas en la empresa, las actitudes relacionadas con la documentación de las actividades realizadas en el ámbito laboral, y las necesidades formativas para la inserción y reinserción laboral en el ámbito científico y técnico del buen hacer del profesional."
+            - "b) Se han identificado las normas de prevención de riesgos laborales y los aspectos fundamentales de la Ley de Prevención de Riesgos Laborales de aplicación en la actividad profesional."
+            - "c) Se han aplicado los equipos de protección individual según los riesgos de la actividad profesional y las normas de la empresa."
+            - "d) Se ha mantenido una actitud de respeto al medio ambiente en las actividades desarrolladas."
+            - "e) Se ha mantenido organizado, limpio y libre de obstáculos el puesto de trabajo o el área correspondiente al desarrollo de la actividad."
+            - "f) Se ha responsabilizado del trabajo asignado interpretando y cumpliendo las instrucciones recibidas."
+            - "g) Se ha establecido una comunicación eficaz con la persona responsable en cada situación y con los miembros del equipo."
+            - "h) Se ha coordinado con el resto del equipo comunicando las incidencias relevantes que se presenten."
+            - "i) Se ha valorado la importancia de su actividad y la necesidad de adaptación a los cambios de tareas."
+            - "j) Se ha responsabilizado de la aplicación de las normas y procedimientos en el desarrollo de su trabajo."
         - numero: 3
-          enunciado: "Realiza las operaciones de desarrollo de aplicaciones Web siguiendo los procedimientos de la empresa y con la calidad definida."
+          enunciado: "Organiza los trabajos que se han de desarrollar, identificando las tareas asignadas a partir de la planificación de proyectos e interpretando documentación específica."
           criterios_evaluacion:
-            - "[PENDIENTE: documento HTML del BOE truncado — consultar PDF oficial BOE-A-2010-9269]"
+            - "a) Se ha interpretado la normativa o bibliografía adecuada al tipo de tarea a desarrollar."
+            - "b) Se ha reconocido en qué fases del proceso o proyecto se encuadran las tareas que se van a realizar."
+            - "c) Se ha planificado el trabajo para cada tarea, secuenciando y priorizando sus fases."
+            - "d) Se han identificado los equipos y servicios auxiliares necesarios para el desarrollo de la tarea encomendada."
+            - "e) Se ha organizado el aprovisionamiento y almacenaje de los recursos materiales."
+            - "f) Se ha valorado el orden y el método en la realización de las tareas."
+            - "g) Se han identificado las normativas que sea preciso observar según cada tarea."
+        - numero: 4
+          enunciado: "Gestiona y utiliza sistemas informáticos y entornos de desarrollo, evaluando sus requerimientos y características en función del propósito de uso."
+          criterios_evaluacion:
+            - "a) Se ha trabajado sobre diferentes sistemas informáticos, identificando en cada caso su hardware, sistemas operativos y aplicaciones instaladas y las restricciones o condiciones específicas de uso."
+            - "b) Se ha gestionado la información en diferentes sistemas, aplicando medidas que aseguren la integridad y disponibilidad de los datos."
+            - "c) Se ha participado en la gestión de recursos en red identificando las restricciones de seguridad existentes."
+            - "d) Se han utilizado aplicaciones informáticas para elaborar, distribuir y mantener documentación técnica y de asistencia a usuarios."
+            - "e) Se han utilizado entornos de desarrollo, para editar, depurar, probar y documentar código, además de generar ejecutables."
+            - "f) Se han gestionado entornos de desarrollo añadiendo y empleando complementos específicos en las distintas fases de proyectos de desarrollo."
+        - numero: 5
+          enunciado: "Participa en la gestión de bases de datos y servidores de aplicaciones, evaluando y planificando su configuración en función del proyecto de desarrollo Web al que dan soporte."
+          criterios_evaluacion:
+            - "a) Se ha interpretado el diseño lógico de bases de datos que aseguran la accesibilidad a los datos."
+            - "b) Se ha participado en la materialización del diseño lógico sobre algún sistema gestor de bases de datos."
+            - "c) Se han utilizado bases de datos aplicando técnicas para mantener la persistencia de la información."
+            - "d) Se han ejecutado consultas directas y procedimientos capaces de gestionar y almacenar objetos y datos de la base de datos."
+            - "e) Se han establecido conexiones con bases de datos para ejecutar consultas y recuperar los resultados en objetos de acceso a datos."
+            - "f) Se ha participado en la gestión de servidores para la publicación de aplicaciones Web."
+            - "g) Se ha comprobado la configuración de los servicios de red para garantizar la ejecución segura de las aplicaciones Web."
+            - "h) Se ha intervenido en la configuración de sistemas de gestión de bases de datos y su interconexión con el servidor de aplicaciones Web."
+            - "i) Se han elaborado manuales de servicio y mantenimiento del servidor de aplicaciones y del sistema gestor de bases de datos."
+        - numero: 6
+          enunciado: "Interviene en el desarrollo y despliegue de aplicaciones Web del lado del servidor, empleando las herramientas y lenguajes específicos y cumpliendo los requerimientos establecidos."
+          criterios_evaluacion:
+            - "a) Se han interpretado el diseño y el modelo de las aplicaciones Web que se van a desarrollar, atendiendo a las indicaciones del equipo de diseño."
+            - "b) Se han editado y probado bloques de sentencias embebidos en lenguajes de marcas que formen total o parcialmente aplicaciones Web."
+            - "c) Se han desarrollado aplicaciones con acceso a almacenes de datos aplicando medidas para mantener la seguridad e integridad de la información."
+            - "d) Se ha participado en el desarrollo de aplicaciones Web que hagan uso de servicios Web y en el desarrollo de servicios Web propios."
+            - "e) Se ha intervenido en el despliegue y mantenimiento de aplicaciones Web, realizando el pertinente control de versiones."
+            - "f) Se ha participado en la configuración de los servidores para permitir el despliegue de aplicaciones bajo protocolos seguros u otras necesidades específicas."
+            - "g) Se ha colaborado estrechamente con los encargados del diseño y desarrollo de la parte cliente de las aplicaciones Web, unificando criterios y coordinando el desarrollo en ambos lados de la aplicación."
+            - "h) Se ha participado en la definición y elaboración de la documentación y del resto de componentes empleados en los protocolos de asistencia al usuario de la aplicación."
+        - numero: 7
+          enunciado: "Interviene en el desarrollo y prueba de la interfaz para aplicaciones Web, empleando las herramientas y lenguajes específicos y cumpliendo los requerimientos establecidos."
+          criterios_evaluacion:
+            - "a) Se ha interpretado el diseño y la guía de estilo para la interfaz de las aplicaciones Web que se han de desarrollar, atendiendo a las indicaciones del equipo de diseño."
+            - "b) Se han editado y probado bloques de sentencias en lenguajes de marcas que formen total o parcialmente la interfaz de aplicaciones Web, administrando estilos desde hojas externas."
+            - "c) Se han empleado hojas de transformación para convertir y adaptar información a los formatos de presentación adecuados en la parte cliente."
+            - "d) Se ha participado en la preparación e integración de materiales multimedia para la interfaz de una aplicación Web, siguiendo las instrucciones del equipo de diseño."
+            - "e) Se ha colaborado en el desarrollo de aplicaciones web interactivas, basadas en el manejo de eventos y en la integración de elementos interactivos y animaciones."
+            - "f) Se han verificado la accesibilidad y usabilidad de las aplicaciones web, colaborando en los cambios y medidas necesarias para cumplir los niveles exigidos."
+            - "g) Se ha colaborado estrechamente con los encargados del diseño y desarrollo de la parte servidor de las aplicaciones Web, unificando criterios y coordinando el desarrollo en ambos lados de la aplicación."
+            - "h) Se ha participado en la definición y elaboración de la documentación y del resto de componentes empleados en los protocolos de asistencia al usuario de la aplicación."
 relaciones:
   desarrolla_a: [NOR-056]
   relacionada_con: [NOR-007, CUR-050]
@@ -809,9 +1016,12 @@ resumen_ia: >
   Interfaces Web, FOL, EIE, el Proyecto y la FCT (380 h). Título de la familia
   Informática y Comunicaciones. No sustituye a la fuente oficial.
 observaciones: >
-  Extracción parcial completada en TAREA-045 (2026-04-26). Criterios de evaluación (CEs)
-  extraídos del HTML oficial del BOE (BOE-A-2010-9269) para los módulos 0483, 0484, 0485,
-  0373, 0487, 0612 y 0613 (RAs 1-7 completos; RA 8 parcial). El documento HTML está
-  truncado a partir del módulo 0614 (Despliegue de Aplicaciones Web), por lo que los
-  módulos 0613-RA8, 0614, 0615, 0616, 0617, 0618 y 0619 quedan con criterios de evaluación
-  marcados como [PENDIENTE], pendientes de extracción desde el PDF oficial del RD 686/2010.
+  Extracción completada en TAREA-050 (2026-04-26). Criterios de evaluación (CEs) de los
+  módulos 0483, 0484, 0485, 0373, 0487, 0612 y 0613 extraídos del HTML oficial del BOE
+  (BOE-A-2010-9269) en TAREA-045. Los CEs de los módulos 0615 (Diseño de Interfaces Web,
+  6 RAs), 0616 (Proyecto DAW, 4 RAs), 0617 (FOL, 7 RAs), 0618 (EIE, 4 RAs) y 0619 (FCT,
+  7 RAs) han sido extraídos del PDF oficial del RD 686/2010 (BOE-A-2010-9269) en
+  TAREA-050. Nota: el módulo 0617 (FOL) contiene 7 RAs en el PDF oficial, incluyendo un
+  RA 7 sobre medidas de prevención y protección; el módulo 0619 (FCT) contiene 7 RAs en
+  el PDF oficial. Todos los criterios de evaluación están completos y trazados a la fuente
+  oficial.
