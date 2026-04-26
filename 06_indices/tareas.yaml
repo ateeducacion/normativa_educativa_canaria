@@ -393,3 +393,14 @@ TAREA-036:
   fecha_actualizacion: 2026-04-26
   relacionadas: [CUR-023, TAREA-029]
   ruta: "08_tareas/backlog/TAREA-036-finalizar-eso.md"
+
+TAREA-037:
+  titulo: "Catalogar RD de títulos FP más comunes en Canarias (fase acotada)"
+  estado: "En progreso"
+  prioridad: "Media"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/experto-formacion-profesional"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [NOR-007, FTE-015, FTE-016, FTE-054, NOR-051, NOR-052, NOR-053, NOR-054, NOR-055, NOR-056, NOR-057, NOR-058, CUR-046, CUR-047, CUR-048, CUR-049, CUR-050, CUR-051, CUR-052, CUR-053]
+  ruta: "08_tareas/backlog/TAREA-037-catalogar-fp-titulos-comunes.md"

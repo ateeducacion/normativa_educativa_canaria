@@ -403,6 +403,17 @@ tareas:
     relacionadas: [CUR-023]
     siguiente_accion: "Localizar anexo literal de Tecnología y Digitalización (CUR-023)."
 
+  TAREA-037:
+    titulo: "Catalogar RD de títulos FP más comunes en Canarias (fase acotada)"
+    estado: "En progreso"
+    prioridad: "Media"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/experto-formacion-profesional"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [NOR-007, FTE-015, FTE-016, FTE-054, NOR-051, NOR-058, CUR-046, CUR-053]
+    siguiente_accion: "Investigar RD de cada título desde BOE y crear fichas NOR + CUR placeholder."
+
 bloqueos: []
 
 reglas:
