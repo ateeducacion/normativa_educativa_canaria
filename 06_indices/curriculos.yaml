@@ -398,7 +398,7 @@ CUR-037:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-038:
   titulo: "Filosofía — 1.º Bachillerato Canarias"
@@ -408,7 +408,7 @@ CUR-038:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-038-filosofia.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-038-filosofia.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-039:
   titulo: "Historia de la Filosofía — 2.º Bachillerato Canarias"
@@ -418,7 +418,7 @@ CUR-039:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-040:
   titulo: "Lengua Castellana y Literatura I y II — Bachillerato Canarias"
@@ -428,7 +428,7 @@ CUR-040:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-041:
   titulo: "Lengua Extranjera I y II — Bachillerato Canarias"
@@ -438,7 +438,7 @@ CUR-041:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-042:
   titulo: "Matemáticas I y II — Bachillerato Ciencias y Tecnología"
@@ -448,7 +448,7 @@ CUR-042:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-043:
   titulo: "Matemáticas Aplicadas a las CCSS I y II — Bachillerato Humanidades y CCSS"
@@ -458,7 +458,7 @@ CUR-043:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-044:
   titulo: "Latín I y II — Bachillerato Humanidades y CCSS"
@@ -468,7 +468,7 @@ CUR-044:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-044-latin.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-044-latin.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"
 
 CUR-045:
   titulo: "Historia de España — 2.º Bachillerato Canarias"
@@ -478,4 +478,4 @@ CUR-045:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-045-historia-espana.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-045-historia-espana.md"
-  estado_extraccion: "Pendiente"
+  estado_extraccion: "completado"

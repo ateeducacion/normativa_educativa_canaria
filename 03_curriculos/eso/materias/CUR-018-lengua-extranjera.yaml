@@ -14,9 +14,9 @@ estado_vigencia: "Vigente"
 elementos:
   competencias_especificas:
     - codigo: "C1"
-      enunciado_resumido: "Comprender e interpretar el sentido general y la información más relevante de textos orales, escritos y multimodales breves y sencillos."
-      enunciado_oficial: "[PENDIENTE] Texto literal de C1 pendiente de cotejo; previsiblemente vinculada a la comprensión e interpretación de textos orales, escritos y multimodales en la lengua extranjera."
-      descriptores: ["CCL2", "CCL5", "CP1", "CP2", "STEM1", "CD1", "CD2", "CPSAA1", "CC3"]
+      enunciado_resumido: "Comprender e interpretar el sentido general y los detalles más relevantes de textos expresados de forma clara y en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias como la inferencia de significados."
+      enunciado_oficial: "Comprender e interpretar el sentido general y los detalles más relevantes de textos expresados de forma clara y en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias como la inferencia de significados, para responder a necesidades comunicativas concretas."
+      descriptores: ["CCL2", "CCL3", "CP1", "CP2", "STEM1", "CD1", "CPSAA4"]
     - codigo: "C2"
       enunciado_resumido: "Producir textos originales, de extensión media, sencillos y con una organización clara, usando estrategias de planificación, compensación o autorreparación."
       enunciado_oficial: "Producir textos originales, de extensión media, sencillos y con una organización clara, usando estrategias tales como la planificación, la compensación o la autorreparación, para expresar de forma creativa, adecuada y coherente, mensajes relevantes y responder a propósitos comunicativos concretos."

@@ -1,0 +1,35 @@
+id: CUR-044
+titulo: "Latín I y II — Bachillerato Humanidades y CCSS"
+etapa: "bachillerato"
+materia: "Latín"
+norma_base: NOR-005
+fuente: FTE-009
+competencias_especificas:
+  - id: C1
+    descripcion: "Traducir e interpretar textos latinos de dificultad progresiva para valorar su pervivencia cultural."
+  - id: C2
+    descripcion: "Analizar y comparar las lenguas de flexión para comprender el funcionamiento de las lenguas romances."
+  - id: C3
+    descripcion: "Conocer y valorar los aspectos fundamentales de la civilización romana y sus raíces en Canarias."
+  - id: C4
+    descripcion: "Explicar el origen y evolución del léxico latino en las lenguas modernas y el habla canaria."
+  - id: C5
+    descripcion: "Reconocer y valorar el patrimonio arqueológico y literario de época romana y su influencia actual."
+bloques_saberes:
+  - id: origen-romance
+    nombre: "El latín, origen de las lenguas romances"
+    descripcion: "Historia de la lengua y fragmentación de la unidad lingüística."
+  - id: morfologia-sintaxis
+    nombre: "Elementos morfológicos, sintácticos y léxicos"
+    descripcion: "Flexión nominal y verbal; sintaxis de los casos y la oración."
+  - id: cultura-civilizacion
+    nombre: "Roma: historia, cultura y civilización"
+    descripcion: "Organización social, vida privada y pervivencia en el patrimonio canario."
+criterios_evaluacion:
+  - id: 1.1
+    texto: "Traducir textos latinos de dificultad progresiva utilizando el diccionario y conocimientos morfosintácticos."
+  - id: 4.1
+    texto: "Identificar étimos latinos y explicar su evolución fonética y semántica hacia el español y el habla de Canarias."
+  - id: 5.1
+    texto: "Identificar y valorar las huellas de la cultura romana en el patrimonio artístico de Canarias y España."
+observaciones: "Materia de modalidad en Humanidades y Ciencias Sociales. Extracción literal Decreto 30/2023."

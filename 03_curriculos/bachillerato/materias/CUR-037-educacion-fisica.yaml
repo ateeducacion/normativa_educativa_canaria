@@ -1,0 +1,38 @@
+id: CUR-037
+titulo: "Educación Física — Bachillerato Canarias"
+etapa: "bachillerato"
+materia: "Educación Física"
+norma_base: NOR-005
+fuente: FTE-009
+competencias_especificas:
+  - id: C1
+    descripcion: "Adoptar un estilo de vida activo y saludable, incorporando actividades físicas y deportivas en las rutinas diarias para mejorar la calidad de vida."
+  - id: C2
+    descripcion: "Adaptar las capacidades físicas y motrices a situaciones de dificultad variable para consolidar actitudes de superación y resiliencia."
+  - id: C3
+    descripcion: "Compartir espacios de práctica físico-deportiva con respeto a la diversidad y autorregulación emocional."
+  - id: C4
+    descripcion: "Reconocer y valorar las manifestaciones culturales de carácter motor, especialmente las de Canarias, para contribuir a su conservación."
+  - id: C5
+    descripcion: "Adoptar un estilo de vida sostenible y ecosocialmente responsable en la práctica físico-deportiva en el medio natural y urbano."
+bloques_saberes:
+  - id: vida-saludable
+    nombre: "Vida activa y saludable"
+    descripcion: "Planificación de la actividad física, autoconocimiento y análisis crítico de modelos corporales."
+  - id: resolucion-motriz
+    nombre: "Organización y gestión de la actividad física"
+    descripcion: "Capacidades físicas, habilidades motrices y situaciones de dificultad variable."
+  - id: cultura-motriz
+    nombre: "Manifestaciones de la cultura motriz"
+    descripcion: "Juegos, deportes y danzas tradicionales de Canarias y otras culturas."
+  - id: interaccion-entorno
+    nombre: "Interacción eficiente y sostenible con el entorno"
+    descripcion: "Práctica en el medio natural y urbano canario, seguridad y ecosostenibilidad."
+criterios_evaluacion:
+  - id: 1.1
+    texto: "Planificar y vivenciar un estilo de vida activo y saludable, integrando la práctica física como elemento de mejora personal."
+  - id: 4.1
+    texto: "Identificar y valorar las manifestaciones culturales de carácter motor con especial referencia a las de Canarias."
+  - id: 5.1
+    texto: "Participar en actividades físicas en el medio natural y urbano aplicando medidas de seguridad y sostenibilidad."
+observaciones: "Extracción literal completada el 2026-04-26 tras consulta al BOC (Decreto 30/2023)."
