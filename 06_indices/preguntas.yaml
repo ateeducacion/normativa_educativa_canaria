@@ -23,7 +23,8 @@ PREG-003:
 
 PREG-004:
   titulo: "Verificación de resoluciones de última hora sobre el nuevo sistema de FP (Grados D y E)"
-  estado: "Abierta"
+  estado: "Resuelta"
   fecha_registro: 2026-04-26
-  relacionadas: [NOR-007, NOR-015, TAREA-037]
+  fecha_resolucion: 2026-04-26
+  relacionadas: [NOR-007, NOR-059, FTE-055]
   ruta: "08_tareas/preguntas/PREG-004-verificacion-resoluciones-fp-2024-2025.md"

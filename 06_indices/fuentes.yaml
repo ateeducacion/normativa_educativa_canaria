@@ -483,3 +483,12 @@ FTE-054:
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/boe/FTE-054-boe-fp-titulos.md"
   estado_fuente: "Activa"
+
+FTE-055:
+  titulo: "Resolución de 3 de diciembre de 2025, modifica evaluación FP"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "Dirección General de FP - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2025/249/005.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-055-boc-2025-249-modificacion-evaluacion-fp.md"
+  estado_fuente: "Activa"

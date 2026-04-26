@@ -845,3 +845,18 @@ NOR-058:
   etapas_afectadas: [formacion-profesional]
   familia_profesional: "Servicios Socioculturales y a la Comunidad"
   grado: "GS"
+
+NOR-059:
+  titulo: "Resolución de 3 de diciembre de 2025, por la que se modifica la Resolución de 9 de junio de 2025 (instrucciones evaluación FP)"
+  nombre_corto: "Modificación Evaluación FP 25-26"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2025-12-03
+  fecha_publicacion: 2025-12-17
+  fecha_entrada_vigor: 2025-12-18
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-055
+  ruta: "02_normativa/canarias/resoluciones/NOR-059-resolucion-modificacion-evaluacion-fp-2025.md"
+  temas: [formacion-profesional, evaluacion, calificaciones, dual]
+  etapas_afectadas: [formacion-profesional]
