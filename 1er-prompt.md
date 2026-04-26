@@ -1,4 +1,4 @@
-# 1er prompt — Puesta en marcha del repositorio preparado para IA **Normativa Educativa Canarias**
+# 1er prompt — Puesta en marcha del repositorio preparado para IA **Normativa Educativa Canaria**
 
 > Este archivo es el **prompt inicial** que debe ejecutarse en una sesión limpia con un agente capaz de crear ficheros y carpetas.
 >
@@ -1166,7 +1166,7 @@ Crea este estado inicial:
 
 ```yaml
 metadata:
-  proyecto: "Normativa Educativa Canarias"
+  proyecto: "Normativa Educativa Canaria"
   repositorio: "ateeducacion/normativa_educativa_canaria"
   objetivo: "Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML"
   fase_actual: "Fase 0 — Puesta en marcha"
@@ -1225,7 +1225,7 @@ Crea un índice principal en Markdown, no hace falta panel HTML complejo.
 Debe tener:
 
 ```markdown
-# Normativa Educativa Canarias
+# Normativa Educativa Canaria
 
 Repositorio IA-friendly de normativa educativa y currículos.
 

@@ -1,0 +1,486 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777192078154,
+  "projectRoot": "/Users/ernesto/Downloads/git/normativa_educativa_canaria",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "00_gobierno-repositorio": {
+      "path": "00_gobierno-repositorio",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777192078144,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "01_fuentes": {
+      "path": "01_fuentes",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777192078145,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "02_normativa": {
+      "path": "02_normativa",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777192078146,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "03_curriculos": {
+      "path": "03_curriculos",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777192078147,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "04_analisis": {
+      "path": "04_analisis",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777192078147,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "05_relaciones": {
+      "path": "05_relaciones",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777192078147,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "06_indices": {
+      "path": "06_indices",
+      "purpose": null,
+      "fileCount": 9,
+      "lastAccessed": 1777192078147,
+      "keyFiles": [
+        "README.md",
+        "analisis.yaml",
+        "chunks.yaml",
+        "curriculos.yaml",
+        "fuentes.yaml"
+      ]
+    },
+    "07_corpus_ia": {
+      "path": "07_corpus_ia",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777192078147,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "08_tareas": {
+      "path": "08_tareas",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777192078147,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "09_decisiones-editoriales": {
+      "path": "09_decisiones-editoriales",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777192078148,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "10_plantillas": {
+      "path": "10_plantillas",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777192078148,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "11_calidad": {
+      "path": "11_calidad",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777192078148,
+      "keyFiles": [
+        "README.md"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 5,
+      "lastAccessed": 1777192078148,
+      "keyFiles": [
+        "README.md",
+        "index.html",
+        "llms-full.txt",
+        "llms.txt",
+        "mcp.html"
+      ]
+    },
+    "schemas": {
+      "path": "schemas",
+      "purpose": "Schema definitions",
+      "fileCount": 9,
+      "lastAccessed": 1777192078148,
+      "keyFiles": [
+        "README.md",
+        "analisis.schema.yaml",
+        "chunk.schema.yaml",
+        "curriculum.schema.yaml",
+        "fuente.schema.yaml"
+      ]
+    },
+    "docs/assets": {
+      "path": "docs/assets",
+      "purpose": "Static assets",
+      "fileCount": 0,
+      "lastAccessed": 1777192078149,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "status.yaml",
+      "accessCount": 14,
+      "lastAccessed": 1777196720086,
+      "type": "file"
+    },
+    {
+      "path": "docs/index.html",
+      "accessCount": 12,
+      "lastAccessed": 1777198732326,
+      "type": "file"
+    },
+    {
+      "path": "06_indices/tareas.yaml",
+      "accessCount": 10,
+      "lastAccessed": 1777196711685,
+      "type": "file"
+    },
+    {
+      "path": "06_indices/fuentes.yaml",
+      "accessCount": 4,
+      "lastAccessed": 1777195669749,
+      "type": "file"
+    },
+    {
+      "path": "06_indices/normativa.yaml",
+      "accessCount": 4,
+      "lastAccessed": 1777195681452,
+      "type": "file"
+    },
+    {
+      "path": "06_indices/relaciones.yaml",
+      "accessCount": 4,
+      "lastAccessed": 1777195684987,
+      "type": "file"
+    },
+    {
+      "path": "llms.txt",
+      "accessCount": 4,
+      "lastAccessed": 1777197571248,
+      "type": "file"
+    },
+    {
+      "path": "MCP.md",
+      "accessCount": 3,
+      "lastAccessed": 1777192494908,
+      "type": "file"
+    },
+    {
+      "path": "02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+      "accessCount": 3,
+      "lastAccessed": 1777193737233,
+      "type": "file"
+    },
+    {
+      "path": "02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+      "accessCount": 3,
+      "lastAccessed": 1777194001935,
+      "type": "file"
+    },
+    {
+      "path": "01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md",
+      "accessCount": 3,
+      "lastAccessed": 1777195174319,
+      "type": "file"
+    },
+    {
+      "path": "06_indices/curriculos.yaml",
+      "accessCount": 3,
+      "lastAccessed": 1777195235470,
+      "type": "file"
+    },
+    {
+      "path": "docs/mcp.html",
+      "accessCount": 2,
+      "lastAccessed": 1777192547259,
+      "type": "file"
+    },
+    {
+      "path": "docs/README.md",
+      "accessCount": 2,
+      "lastAccessed": 1777192573730,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 2,
+      "lastAccessed": 1777192585628,
+      "type": "file"
+    },
+    {
+      "path": "08_tareas/README.md",
+      "accessCount": 2,
+      "lastAccessed": 1777192804536,
+      "type": "file"
+    },
+    {
+      "path": "08_tareas/backlog/TAREA-006-revisar-vigencia-de-normas-iniciales.md",
+      "accessCount": 2,
+      "lastAccessed": 1777192809007,
+      "type": "file"
+    },
+    {
+      "path": "08_tareas/diario/2026-04-26-catalogacion-fuentes.md",
+      "accessCount": 2,
+      "lastAccessed": 1777192810936,
+      "type": "file"
+    },
+    {
+      "path": "08_tareas/preguntas/PREG-002-nivel-detalle-extraccion-curriculos.md",
+      "accessCount": 2,
+      "lastAccessed": 1777192972239,
+      "type": "file"
+    },
+    {
+      "path": "08_tareas/preguntas/PREG-003-tratamiento-orientaciones-recursos-no-normativos.md",
+      "accessCount": 2,
+      "lastAccessed": 1777192977016,
+      "type": "file"
+    },
+    {
+      "path": "06_indices/preguntas.yaml",
+      "accessCount": 2,
+      "lastAccessed": 1777192983995,
+      "type": "file"
+    },
+    {
+      "path": "08_tareas/backlog/TAREA-007-redactar-ficha-normativa-nor-005-decreto-30-2023.md",
+      "accessCount": 2,
+      "lastAccessed": 1777193356136,
+      "type": "file"
+    },
+    {
+      "path": "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml",
+      "accessCount": 2,
+      "lastAccessed": 1777193972268,
+      "type": "file"
+    },
+    {
+      "path": "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md",
+      "accessCount": 2,
+      "lastAccessed": 1777193993401,
+      "type": "file"
+    },
+    {
+      "path": "index.md",
+      "accessCount": 1,
+      "lastAccessed": 1777192201222,
+      "type": "file"
+    },
+    {
+      "path": "llms-full.txt",
+      "accessCount": 1,
+      "lastAccessed": 1777192210370,
+      "type": "file"
+    },
+    {
+      "path": "docs/assets/css/site.css",
+      "accessCount": 1,
+      "lastAccessed": 1777192444456,
+      "type": "file"
+    },
+    {
+      "path": "09_decisiones-editoriales/adr/DEC-0001-modelo-markdown-yaml.md",
+      "accessCount": 1,
+      "lastAccessed": 1777192447812,
+      "type": "file"
+    },
+    {
+      "path": "08_tareas/backlog/TAREA-004-crear-indice-inicial-de-curriculos-eso.md",
+      "accessCount": 1,
+      "lastAccessed": 1777192809724,
+      "type": "file"
+    },
+    {
+      "path": "08_tareas/diario/2024-05-24-revision-vigencia.md",
+      "accessCount": 1,
+      "lastAccessed": 1777192810457,
+      "type": "file"
+    },
+    {
+      "path": "08_tareas/preguntas/PREG-001-fuente-oficial-final-decreto-curriculo-eso-bachillerato.md",
+      "accessCount": 1,
+      "lastAccessed": 1777192817843,
+      "type": "file"
+    },
+    {
+      "path": "10_plantillas/markdown/plantilla-tarea.md",
+      "accessCount": 1,
+      "lastAccessed": 1777192871802,
+      "type": "file"
+    },
+    {
+      "path": "10_plantillas/markdown/plantilla-adr.md",
+      "accessCount": 1,
+      "lastAccessed": 1777192872594,
+      "type": "file"
+    },
+    {
+      "path": "09_decisiones-editoriales/adr/DEC-0003-tratamiento-de-normas-pendientes-de-vigencia.md",
+      "accessCount": 1,
+      "lastAccessed": 1777192873725,
+      "type": "file"
+    },
+    {
+      "path": "08_tareas/backlog/TAREA-003-crear-fichas-normativas-iniciales.md",
+      "accessCount": 1,
+      "lastAccessed": 1777192874009,
+      "type": "file"
+    },
+    {
+      "path": "09_decisiones-editoriales/adr/DEC-0004-alcance-extraccion-curricular.md",
+      "accessCount": 1,
+      "lastAccessed": 1777192948326,
+      "type": "file"
+    },
+    {
+      "path": "09_decisiones-editoriales/adr/DEC-0005-tratamiento-orientaciones-recursos-no-normativos.md",
+      "accessCount": 1,
+      "lastAccessed": 1777192961498,
+      "type": "file"
+    },
+    {
+      "path": "08_tareas/diario/2026-04-26-cierre-tareas-y-resoluciones.md",
+      "accessCount": 1,
+      "lastAccessed": 1777193011255,
+      "type": "file"
+    },
+    {
+      "path": "10_plantillas/markdown/plantilla-norma.md",
+      "accessCount": 1,
+      "lastAccessed": 1777193077313,
+      "type": "file"
+    },
+    {
+      "path": "02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md",
+      "accessCount": 1,
+      "lastAccessed": 1777193079962,
+      "type": "file"
+    },
+    {
+      "path": "02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+      "accessCount": 1,
+      "lastAccessed": 1777193086751,
+      "type": "file"
+    },
+    {
+      "path": "10_plantillas/yaml/plantilla-relacion.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1777193264555,
+      "type": "file"
+    },
+    {
+      "path": "05_relaciones/normativa/REL-002-rd-217-2022-desarrolla-eso.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1777193267267,
+      "type": "file"
+    },
+    {
+      "path": "05_relaciones/normativa/REL-004-decreto-30-2023-desarrolla-rd-217-2022.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1777193313325,
+      "type": "file"
+    },
+    {
+      "path": "05_relaciones/normativa/REL-005-decreto-30-2023-marco-canario.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1777193315684,
+      "type": "file"
+    },
+    {
+      "path": "08_tareas/diario/2026-04-26-cierre-tarea-007-nor-005.md",
+      "accessCount": 1,
+      "lastAccessed": 1777193368664,
+      "type": "file"
+    },
+    {
+      "path": "10_plantillas/markdown/plantilla-curriculum.md",
+      "accessCount": 1,
+      "lastAccessed": 1777193658975,
+      "type": "file"
+    },
+    {
+      "path": "10_plantillas/yaml/plantilla-curriculum.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1777193659258,
+      "type": "file"
+    },
+    {
+      "path": "02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md",
+      "accessCount": 1,
+      "lastAccessed": 1777193694734,
+      "type": "file"
+    },
+    {
+      "path": "01_fuentes/boe/FTE-007-rd-217-2022.md",
+      "accessCount": 1,
+      "lastAccessed": 1777193746624,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

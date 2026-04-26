@@ -1,4 +1,4 @@
-# Normativa Educativa Canarias
+# Normativa Educativa Canaria
 
 Repositorio IA-friendly de normativa educativa y currículos.
 

@@ -1,4 +1,4 @@
-# Normativa Educativa Canarias — Contexto ampliado
+# Normativa Educativa Canaria — Contexto ampliado
 
 > Mapa ampliado del corpus Markdown/YAML de normativa educativa aplicable a Canarias para uso con LLM, GitHub Pages y clientes compatibles con GitHub MCP Server. No sustituye la consulta de las fuentes oficiales ni constituye asesoramiento jurídico.
 

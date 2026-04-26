@@ -1,4 +1,4 @@
-# Normativa Educativa Canarias
+# Normativa Educativa Canaria
 
 > Corpus Markdown/YAML para localizar, relacionar y resumir normativa educativa y currículos aplicables a Canarias, preparado para consulta humana y uso por IA, sin sustituir nunca las fuentes oficiales publicadas en BOE, BOC y portales institucionales.
 
