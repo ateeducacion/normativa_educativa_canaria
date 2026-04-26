@@ -156,97 +156,97 @@ CUR-015:
   titulo: "Historia y Geografía de Canarias — ESO Canarias"
   etapa: "eso"
   materia: "Historia y Geografía de Canarias"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "parcial"
+  observaciones: "Materia propia canaria de 3.º ESO (artículo 23.5 del Decreto 30/2023). Sin equivalente directo en el RD 217/2022. Articulado confirmado en BOC n.º 58 de 23-3-2023; competencias específicas y saberes básicos pendientes de cotejo del anexo. Ver TAREA-026."
 
 CUR-016:
   titulo: "Latín — ESO Canarias"
   etapa: "eso"
   materia: "Latín"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-016-latin.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-016-latin.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "parcial"
+  observaciones: "Materia optativa de 4.º ESO (artículo 25.2.g del Decreto 30/2023, opción D). Articulado confirmado en BOC n.º 58 de 23-3-2023; competencias específicas y saberes básicos pendientes de cotejo del anexo. Ver TAREA-026."
 
 CUR-017:
   titulo: "Lengua Castellana y Literatura — ESO Canarias"
   etapa: "eso"
   materia: "Lengua Castellana y Literatura"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "parcial"
+  observaciones: "Materia troncal en 1.º a 4.º ESO (artículos 23.1.f y 25.1.c del Decreto 30/2023). Articulado confirmado en BOC n.º 58 de 23-3-2023; competencias específicas y saberes básicos pendientes de cotejo del anexo. Ver TAREA-026."
 
 CUR-018:
   titulo: "Lengua Extranjera — ESO Canarias"
   etapa: "eso"
   materia: "Lengua Extranjera"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-018-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-018-lengua-extranjera.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "parcial"
+  observaciones: "Materia troncal en 1.º a 4.º ESO (artículos 23.1.i y 25.1.d del Decreto 30/2023). Articulado confirmado en BOC n.º 58 de 23-3-2023; competencias específicas y saberes básicos pendientes de cotejo del anexo. Ver TAREA-026."
 
 CUR-019:
   titulo: "Matemáticas — ESO Canarias"
   etapa: "eso"
   materia: "Matemáticas"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-019-matematicas.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-019-matematicas.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "parcial"
+  observaciones: "Extracción parcial el 2026-04-26 (TAREA-027): metadata y cursos confirmados contra el articulado del Decreto 30/2023 (artículos 23.1.g y 25.1.e). Detalle de competencias específicas, criterios de evaluación y saberes básicos pendiente de cotejo con el anexo II del Decreto 30/2023."
 
 CUR-020:
   titulo: "Música — ESO Canarias"
   etapa: "eso"
   materia: "Música"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-020-musica.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-020-musica.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "parcial"
+  observaciones: "Extracción parcial el 2026-04-26 (TAREA-027): metadata y cursos confirmados contra el articulado del Decreto 30/2023 (artículo 23.1.h y 25.3, opción E). Detalle pendiente de cotejo con el anexo II del Decreto 30/2023."
 
 CUR-021:
   titulo: "Segunda Lengua Extranjera — ESO Canarias"
   etapa: "eso"
   materia: "Segunda Lengua Extranjera"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "parcial"
+  observaciones: "Extracción parcial el 2026-04-26 (TAREA-027): metadata y cursos confirmados contra el articulado del Decreto 30/2023 (artículo 23.1.j y 25.3, opción D). Detalle pendiente de cotejo con el anexo II del Decreto 30/2023."
 
 CUR-022:
   titulo: "Tecnología — ESO Canarias"
   etapa: "eso"
   materia: "Tecnología"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-022-tecnologia.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-022-tecnologia.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "parcial"
+  observaciones: "Extracción parcial el 2026-04-26 (TAREA-027): metadata confirmada contra el articulado del Decreto 30/2023 (artículo 25.2.j). Materia ofertable de 4.º ESO; en 1.º-3.º se imparte 'Tecnología y Digitalización' (CUR-023). Detalle pendiente de cotejo con el anexo II del Decreto 30/2023."
 
 CUR-023:
   titulo: "Tecnología y Digitalización — ESO Canarias"
   etapa: "eso"
   materia: "Tecnología y Digitalización"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "parcial"
+  observaciones: "Extracción parcial el 2026-04-26 (TAREA-027): metadata y cursos confirmados contra el articulado del Decreto 30/2023 (artículo 23.1.k). Materia obligatoria en 1.º-2.º y optativa en 3.º; en 4.º se desdobla en 'Tecnología' (CUR-022) y 'Digitalización' (CUR-004). Detalle pendiente de cotejo con el anexo II del Decreto 30/2023."

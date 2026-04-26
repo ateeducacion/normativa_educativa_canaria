@@ -4,11 +4,11 @@ titulo: "Lengua Castellana y Literatura — ESO Canarias"
 tipo: "curriculum"
 etapa: "eso"
 materia: "Lengua Castellana y Literatura"
-norma_base: null
-fuente: FTE-002
-fecha_consulta: 2026-04-25
-fecha_analisis: null
-estado_extraccion: "Pendiente"
+norma_base: NOR-005
+fuente: FTE-009
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "parcial"
 ---
 
 # CUR-017 — Lengua Castellana y Literatura — ESO Canarias
@@ -19,38 +19,44 @@ estado_extraccion: "Pendiente"
 
 - **Etapa:** ESO
 - **Materia:** Lengua Castellana y Literatura
-- **Fuente:** [FTE-002](../../../01_fuentes/portales-oficiales/FTE-002-curriculos-eso-canarias.md)
-- **Estado de extracción:** Pendiente
+- **Cursos:** 1.º, 2.º, 3.º y 4.º de ESO
+- **Norma base:** [NOR-005](../../../02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md) (Decreto 30/2023, de 16 de marzo)
+- **Marco estatal:** [NOR-003](../../../02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md) (RD 217/2022)
+- **Fuente principal:** [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md)
+- **Fecha de consulta:** 2026-04-26
+- **Estado de extracción:** parcial.
 
 ## 2. Norma base
 
-[PENDIENTE] Confirmar la fuente oficial final del decreto autonómico de currículo ESO/Bachillerato; ver `PREG-001`.
+`NOR-005` — Decreto 30/2023, de 16 de marzo. La materia se incluye como troncal en todos los cursos de la ESO: artículo 23.1.f para 1.º a 3.º y artículo 25.1.c para 4.º. El currículo desarrolla, en el ámbito autonómico canario, el marco estatal del RD 217/2022 (`NOR-003`).
 
 ## 3. Cursos afectados
 
-[PENDIENTE]
+La materia se imparte en 1.º, 2.º, 3.º y 4.º de la ESO conforme a la organización del Decreto 30/2023.
 
 ## 4. Competencias específicas
 
-[PENDIENTE]
+[PENDIENTE] Las competencias específicas (C1, C2, …) y sus descriptores operativos vinculados están en el anexo del Decreto 30/2023, no cotejado en esta extracción inicial. Se prevé equivalencia estructural con las del RD 217/2022 para la misma materia, con el añadido canario (atención al habla canaria y a la literatura canaria).
 
 ## 5. Criterios de evaluación
 
-[PENDIENTE]
+[PENDIENTE] Los criterios de evaluación, organizados por curso (1.º, 2.º, 3.º y 4.º), figuran en el anexo del Decreto 30/2023 y quedan pendientes de cotejo.
 
 ## 6. Saberes básicos
 
-[PENDIENTE]
+[PENDIENTE] Los bloques de saberes básicos figuran en el anexo del Decreto 30/2023. Contenidos esperables (no literales): las lenguas y sus hablantes (con atención al habla canaria), comunicación oral, comprensión y producción escritas, educación literaria (con corpus de la literatura española y autoras y autores canarios), reflexión sobre la lengua.
 
 ## 7. Resumen IA-friendly
 
-Currículo de Lengua Castellana y Literatura en ESO localizado desde el portal oficial de Canarias; extracción pendiente de detalle y confirmación de norma base autonómica final.
+Currículo de Lengua Castellana y Literatura en ESO (1.º a 4.º) en Canarias, regulado por el Decreto 30/2023 (NOR-005) en desarrollo del RD 217/2022 (NOR-003). La extracción detallada de competencias específicas, criterios de evaluación y saberes básicos queda pendiente del cotejo del anexo del decreto.
 
 ## 8. Relaciones
 
-- Relacionado con `NOR-003` como base estatal inmediata.
-- Pendiente de relación con la norma autonómica final.
+- Desarrolla, en el ámbito autonómico canario, lo establecido por `NOR-003` (RD 217/2022) para la materia.
+- Forma parte del currículo de ESO regulado por `NOR-005` (Decreto 30/2023).
+- Vinculada con `CUR-002` (Cultura Clásica) por la presencia de léxico grecolatino y origen romance del castellano, y con la valoración del habla canaria y la literatura canaria.
 
 ## 9. Fuente oficial
 
-- [FTE-002](../../../01_fuentes/portales-oficiales/FTE-002-curriculos-eso-canarias.md)
+- [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md) — Decreto 30/2023, BOC n.º 58, de 23 de marzo de 2023.
+- Cotejo parcial realizado el 2026-04-26 sobre el texto del articulado del BOC; pendiente cotejo del anexo.

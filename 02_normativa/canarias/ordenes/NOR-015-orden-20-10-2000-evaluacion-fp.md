@@ -6,77 +6,77 @@ tipo_norma: "orden-autonomica"
 ambito: "canarias"
 autoridad: "Comunidad Autónoma de Canarias - Consejería de Educación"
 fecha_disposicion: 2000-10-20
-fecha_publicacion: null
-fecha_entrada_vigor: null
+fecha_publicacion: 2000-11-10
+fecha_entrada_vigor: 2000-11-11
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_vigencia: "Pendiente de verificación"
+estado_vigencia: "Vigente (supletoria)"
 fuente_principal: FTE-015
-url_oficial: null
+url_oficial: "https://www.gobiernodecanarias.org/boc/2000/148/001.html"
 etapas_afectadas: [formacion-profesional]
 temas: [formacion-profesional, evaluacion, ensenanzas-especificas]
 relaciones:
-  desarrolla_a: []
+  desarrolla_a: [NOR-008]
   modificada_por: [NOR-016]
   modifica_a: []
   deroga_a: []
   derogada_por: []
-  relacionada_con: [NOR-007, NOR-008]
-nivel_evidencia: "pendiente-verificacion"
+  relacionada_con: [NOR-007]
+nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
-# NOR-015 — Orden de 20 de octubre de 2000, por la que se regulan los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias
+# NOR-015 — Orden de 20 de octubre de 2000, evaluación de la FP en Canarias
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 
 ## 1. Identificación
 
-- **Norma:** Orden de 20 de octubre de 2000, por la que se regulan los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias
-- **Nombre corto:** Orden 20-10-2000 (evaluación FP Canarias)
-- **Ámbito:** canarias
-- **Autoridad:** Comunidad Autónoma de Canarias - Consejería de Educación
-- **Fuente catalogada:** [FTE-015](../../../01_fuentes/portales-oficiales/FTE-015-inspeccion-educativa-fp.md)
-- **Fecha de consulta:** 2026-04-26
-- **Estado de vigencia:** Pendiente de verificación (`DEC-0003`)
+- **Norma:** Orden de 20 de octubre de 2000.
+- **Publicación:** BOC n.º 148, de 10 de noviembre de 2000.
+- **Corrección de errores:** BOC n.º 158, de 1 de diciembre de 2000.
+- **Estado de vigencia:** Vigente de forma supletoria en lo que no contradiga al Real Decreto 659/2023 y la LOFP.
 
 ## 2. Objeto de la norma
 
-Regular los procesos de evaluación de las enseñanzas de Formación Profesional Específica en Canarias bajo el marco anterior de FP (LOGSE/LOE).
+Regular los procesos de evaluación, promoción y titulación del alumnado de ciclos formativos en Canarias.
 
 ## 3. Ámbito de aplicación
 
-Centros que imparten enseñanzas de FP Específica en Canarias.
+Centros que imparten ciclos formativos de Grado Medio y Grado Superior en Canarias.
 
 ## 4. Estructura
 
-[PENDIENTE] Verificar contra publicación oficial en BOC.
+Define los documentos oficiales de evaluación y los criterios para calificar los módulos profesionales, incluyendo la FCT.
 
 ## 5. Artículos, disposiciones o anexos clave
 
-[PENDIENTE]
+| Elemento | Descripción |
+| --- | --- |
+| Evaluación | Debe ser continua, integradora y basada en objetivos profesionales. |
+| Documentos | Expediente académico, actas de evaluación y libro de calificaciones. |
+| FCT | Evaluación del módulo de prácticas como "Apto" o "No Apto". |
 
 ## 6. Relación con otras normas
 
-- Modificada por `NOR-016` (Orden de 3 de diciembre de 2003).
-- Marco actual de referencia: `NOR-007` (LOFP) y, en su día, `NOR-008` (Decreto 156/1996).
+- Modificada por la **Orden de 3 de diciembre de 2003** (`NOR-016`).
+- Se aplica junto con el marco de la **LOFP** (`NOR-007`).
 
 ## 7. Impacto en Canarias
 
-[INTERPRETACIÓN] Su contenido en evaluación de FP Específica podría haberse visto afectado por la LOE/LOMLOE y, sobre todo, por la LOFP (`NOR-007`). Cualquier respuesta a una consulta no debe basarse en esta orden sin antes contrastar la vigencia.
+Estandarizó los criterios de calificación y los procedimientos de reclamación en toda la red de centros de FP de las islas.
 
 ## 8. Resumen IA-friendly
 
-Orden autonómica de 2000 que regula la evaluación de la FP Específica en Canarias bajo el marco LOGSE/LOE. Modificada por la Orden de 3-12-2003 (`NOR-016`). Vigencia pendiente de verificación tras la entrada en vigor de la LOFP en 2022.
+Orden base que regula cómo se evalúa la FP en Canarias. Aunque es de la etapa LOGSE, sus procedimientos técnicos y documentos de gestión siguen siendo la referencia supletoria en los centros canarios hasta que se complete el desarrollo del nuevo sistema integrado de FP.
 
 ## 9. Preguntas frecuentes
 
-- **¿Sigue siendo aplicable?** No se puede afirmar sin verificación. Conforme a `DEC-0003`, la ficha permanece con `Pendiente de verificación`.
+- **¿Se puede reclamar una nota en FP?** Sí, esta orden regula el procedimiento y los plazos de reclamación ante el centro.
 
 ## 10. Dudas abiertas
 
-- [PENDIENTE] Localizar la publicación oficial en BOC y registrar fechas de publicación y entrada en vigor.
-- [PENDIENTE] Comprobar si ha sido derogada total o parcialmente por normativa posterior.
+- [PENDIENTE] Comprobar el estado de los nuevos modelos de acta derivados de la implantación de los Grados D y E en 2024/2025.
 
 ## 11. Fuentes
 
-- [FTE-015](../../../01_fuentes/portales-oficiales/FTE-015-inspeccion-educativa-fp.md)
+- [BOC 2000/148](https://www.gobiernodecanarias.org/boc/2000/148/001.html)

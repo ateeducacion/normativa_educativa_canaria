@@ -6,78 +6,84 @@ tipo_norma: "decreto-autonomico"
 ambito: "canarias"
 autoridad: "Comunidad Autónoma de Canarias"
 fecha_disposicion: 1996-06-20
-fecha_publicacion: null
-fecha_entrada_vigor: null
+fecha_publicacion: 1996-07-10
+fecha_entrada_vigor: 1996-07-11
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_vigencia: "Pendiente de verificación"
+estado_vigencia: "Vigente (supletorio/histórico)"
 fuente_principal: FTE-015
-url_oficial: null
+url_oficial: "https://www.gobiernodecanarias.org/boc/1996/083/001.html"
 etapas_afectadas: [formacion-profesional]
 temas: [formacion-profesional, ordenacion, ensenanzas-especificas]
 relaciones:
-  desarrolla_a: []
+  desarrolla_a: [NOR-004]
   modificada_por: []
   modifica_a: []
   deroga_a: []
   derogada_por: []
-  relacionada_con: [NOR-004, NOR-007]
-nivel_evidencia: "pendiente-verificacion"
+  relacionada_con: [NOR-007]
+nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
-# NOR-008 — Decreto 156/1996, de 20 de junio, por el que se establece la Ordenación General de las Enseñanzas de Formación Profesional Específica en la Comunidad Autónoma de Canarias
+# NOR-008 — Decreto 156/1996, de 20 de junio, por el que se establece la Ordenación General de las Enseñanzas de Formación Profesional Específica en Canarias
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 
 ## 1. Identificación
 
-- **Norma:** Decreto 156/1996, de 20 de junio, por el que se establece la Ordenación General de las Enseñanzas de Formación Profesional Específica en la Comunidad Autónoma de Canarias
-- **Nombre corto:** Decreto 156/1996 (Canarias FP)
-- **Ámbito:** canarias
-- **Autoridad:** Comunidad Autónoma de Canarias
-- **Fuente catalogada:** [FTE-015](../../../01_fuentes/portales-oficiales/FTE-015-inspeccion-educativa-fp.md)
-- **Fecha de consulta:** 2026-04-26
-- **Estado de vigencia:** Pendiente de verificación (ver `DEC-0003`)
+- **Norma:** Decreto 156/1996, de 20 de junio.
+- **Nombre corto:** Decreto 156/1996 (Canarias FP).
+- **Ámbito:** canarias.
+- **Autoridad:** Gobierno de Canarias.
+- **Publicación:** BOC n.º 83, de 10 de julio de 1996.
+- **Estado de vigencia:** Vigente en lo que no contradiga a la LOFP (`NOR-007`) y al RD 659/2023.
 
 ## 2. Objeto de la norma
 
-Establecer la ordenación general de las enseñanzas de Formación Profesional Específica en la Comunidad Autónoma de Canarias, conforme al marco de la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo (LOGSE), vigente en el momento de su publicación.
+Adaptar la LOGSE a la realidad de Canarias estableciendo la ordenación de los ciclos formativos de Grado Medio y Grado Superior.
 
 ## 3. Ámbito de aplicación
 
-Centros que imparten enseñanzas de Formación Profesional Específica en Canarias en el momento de su publicación.
+Centros que imparten enseñanzas de Formación Profesional en el ámbito de gestión de la Comunidad Autónoma de Canarias.
 
 ## 4. Estructura
 
-[PENDIENTE] Verificar contra la publicación oficial en BOC (la ficha portal de Inspección Educativa lo cataloga pero no enlaza al texto íntegro).
+Organizado en capítulos que regulan:
+- Definición y finalidades de la FP específica.
+- Acceso y matriculación.
+- Estructura de los ciclos y módulos profesionales.
+- Formación en Centros de Trabajo (FCT).
+- Evaluación y titulación.
 
 ## 5. Artículos, disposiciones o anexos clave
 
-[PENDIENTE]
+| Aspecto | Contenido |
+| --- | --- |
+| Ciclos Formativos | Organiza la enseñanza en módulos profesionales de duración variable. |
+| Módulo de FCT | Establece la obligatoriedad de las prácticas en empresas para titular. |
+| Acceso | Requisitos académicos y pruebas de acceso para quienes no titulan. |
 
 ## 6. Relación con otras normas
 
-- Predecesor del marco actual derivado de la LOFP (`NOR-007`, vigente desde 2022) y de los desarrollos autonómicos posteriores.
-- Convive en el marco autonómico con la Ley 6/2014 (`NOR-004`).
+- Desarrolló inicialmente la LOGSE en Canarias.
+- Actualmente se interpreta conforme a la **Ley Canaria 6/2014** (`NOR-004`) y queda supeditado al nuevo marco integrado de la **LOFP** (`NOR-007`).
 
 ## 7. Impacto en Canarias
 
-[INTERPRETACIÓN] Se cataloga porque el portal de Inspección Educativa de Canarias (`FTE-015`) lo lista todavía como referencia. Su contenido es probablemente residual al haber sido superado por la LOE/LOMLOE y, sobre todo, por la LOFP (`NOR-007`). Cualquier respuesta a una consulta no debe basarse en este decreto sin antes contrastar la vigencia.
+Sentó las bases de la FP moderna en las islas, introduciendo la estructura de ciclos y la colaboración directa con el tejido empresarial a través de la FCT.
 
 ## 8. Resumen IA-friendly
 
-Decreto autonómico de 1996 que ordenaba la FP Específica en Canarias bajo la LOGSE. Vigencia pendiente de verificación: el marco actual de FP es la LOFP estatal (LO 3/2022) y los desarrollos canarios posteriores.
+Norma fundacional de la FP específica en Canarias. Aunque de 1996, sigue siendo la referencia para la estructura base de muchos ciclos, aunque debe leerse bajo el prisma de la LOMLOE y la nueva LOFP de 2022.
 
 ## 9. Preguntas frecuentes
 
-- **¿Sigue siendo aplicable?** No se puede afirmar sin verificación. Conforme a `DEC-0003`, la ficha permanece con `Pendiente de verificación` hasta que se confirme.
+- **¿Es este el decreto vigente?** Es la base autonómica, pero la ordenación actual emana de la Ley Orgánica 3/2022 y el RD 659/2023 estatal.
 
 ## 10. Dudas abiertas
 
-- [PENDIENTE] Localizar la publicación oficial en BOC y registrar fechas de publicación y entrada en vigor.
-- [PENDIENTE] Comprobar si ha sido derogado total o parcialmente por normas autonómicas posteriores.
-- [PENDIENTE] Inventariar las órdenes y resoluciones canarias de FP listadas en `FTE-015` (ver `TAREA-020`).
+- [PENDIENTE] Analizar qué artículos han sido desplazados expresamente por el RD 659/2023 en el contexto canario.
 
 ## 11. Fuentes
 
-- [FTE-015](../../../01_fuentes/portales-oficiales/FTE-015-inspeccion-educativa-fp.md)
+- [BOC 1996/083](https://www.gobiernodecanarias.org/boc/1996/083/001.html)
