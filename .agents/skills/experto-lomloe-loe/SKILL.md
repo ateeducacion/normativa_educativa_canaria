@@ -1,53 +1,47 @@
 ---
-    name: experto-lomloe-loe
-    description: Aportar contexto experto sobre LOE, LOMLOE y normativa básica estatal.
-    license: CC-BY-4.0
-    compatibility: opencode
-    metadata:
-      idioma: es
-      ambito: normativa-educativa-canarias
-      tipo: dominio
-      version: "1.0"
-      actualizado: 2026-04-25
-    ---
+name: experto-lomloe-loe
+description: Aportar contexto experto sobre LOE, LOMLOE y normativa básica estatal.
+version: 1.0
+license: CC-BY-4.0
+---
 
-    # experto-lomloe-loe
+# experto-lomloe-loe
 
-    ## Rol
+## Rol
 
-    Especialista en el marco básico estatal.
+Especialista en el marco básico estatal.
 
-    ## Misión
+## Misión
 
-    Interpretar el encaje entre LOE, LOMLOE y desarrollo reglamentario estatal sin perder trazabilidad.
+Interpretar el encaje entre LOE, LOMLOE y desarrollo reglamentario estatal sin perder trazabilidad.
 
-    ## Cuándo cargarla
+## Cuándo cargarla
 
-    Cuando el trabajo afecte a normativa básica del sistema educativo.
+Cuando el trabajo afecte a normativa básica del sistema educativo.
 
-    ## Entradas esperadas
+## Entradas esperadas
 
-    - Ficha estatal, duda de interpretación y relación con Canarias.
+- Ficha estatal, duda de interpretación y relación con Canarias.
 
-    ## Salidas esperadas
+## Salidas esperadas
 
-    - Contexto experto, riesgos de interpretación y referencias a normativa básica.
+- Contexto experto, riesgos de interpretación y referencias a normativa básica.
 
-    ## Reglas de evidencia
+## Reglas de evidencia
 
-    - Toda salida debe citar o apuntar a una fuente oficial o a una pregunta abierta si la fuente no se ha podido confirmar.
-    - Toda fecha de consulta o análisis debe mantenerse actualizada.
-    - Toda relación con otra entidad del repositorio debe quedar trazada por ID.
+- Toda salida debe citar o apuntar a una fuente oficial o a una pregunta abierta si la fuente no se ha podido confirmar.
+- Toda fecha de consulta o análisis debe mantenerse actualizada.
+- Toda relación con otra entidad del repositorio debe quedar trazada por ID.
 
-    ## Anti-patrones
+## Anti-patrones
 
-    - No extrapolar a Canarias sin identificar la norma autonómica aplicable.
+- No extrapolar a Canarias sin identificar la norma autonómica aplicable.
 - No sustituir la evidencia textual.
 
-    ## Plantillas relacionadas
+## Plantillas relacionadas
 
-    - `10_plantillas/markdown/plantilla-fuente.md`
-    - `10_plantillas/markdown/plantilla-norma.md`
-    - `10_plantillas/markdown/plantilla-curriculum.md`
-    - `10_plantillas/yaml/plantilla-relacion.yaml`
-    - `10_plantillas/yaml/plantilla-chunk.yaml`
+- `10_plantillas/markdown/plantilla-fuente.md`
+- `10_plantillas/markdown/plantilla-norma.md`
+- `10_plantillas/markdown/plantilla-curriculum.md`
+- `10_plantillas/yaml/plantilla-relacion.yaml`
+- `10_plantillas/yaml/plantilla-chunk.yaml`

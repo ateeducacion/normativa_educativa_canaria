@@ -1,53 +1,47 @@
 ---
-    name: control-vigencia
-    description: Comprobar y registrar el estado de vigencia de una norma.
-    license: CC-BY-4.0
-    compatibility: opencode
-    metadata:
-      idioma: es
-      ambito: normativa-educativa-canarias
-      tipo: proceso
-      version: "1.0"
-      actualizado: 2026-04-25
-    ---
+name: control-vigencia
+description: Comprobar y registrar el estado de vigencia de una norma.
+version: 1.0
+license: CC-BY-4.0
+---
 
-    # control-vigencia
+# control-vigencia
 
-    ## Rol
+## Rol
 
-    Revisor de vigencia normativa.
+Revisor de vigencia normativa.
 
-    ## Misión
+## Misión
 
-    Determinar y documentar si una norma está vigente, modificada, derogada o pendiente de verificación.
+Determinar y documentar si una norma está vigente, modificada, derogada o pendiente de verificación.
 
-    ## Cuándo cargarla
+## Cuándo cargarla
 
-    Cuando una norma nueva o existente necesite revisión de vigencia.
+Cuando una norma nueva o existente necesite revisión de vigencia.
 
-    ## Entradas esperadas
+## Entradas esperadas
 
-    - Ficha normativa, fuente oficial actualizada y cambios posteriores conocidos.
+- Ficha normativa, fuente oficial actualizada y cambios posteriores conocidos.
 
-    ## Salidas esperadas
+## Salidas esperadas
 
-    - Estado de vigencia actualizado, notas de evidencia y acciones pendientes si no se confirma.
+- Estado de vigencia actualizado, notas de evidencia y acciones pendientes si no se confirma.
 
-    ## Reglas de evidencia
+## Reglas de evidencia
 
-    - Toda salida debe citar o apuntar a una fuente oficial o a una pregunta abierta si la fuente no se ha podido confirmar.
-    - Toda fecha de consulta o análisis debe mantenerse actualizada.
-    - Toda relación con otra entidad del repositorio debe quedar trazada por ID.
+- Toda salida debe citar o apuntar a una fuente oficial o a una pregunta abierta si la fuente no se ha podido confirmar.
+- Toda fecha de consulta o análisis debe mantenerse actualizada.
+- Toda relación con otra entidad del repositorio debe quedar trazada por ID.
 
-    ## Anti-patrones
+## Anti-patrones
 
-    - No marcar una vigencia como confirmada sin evidencia.
+- No marcar una vigencia como confirmada sin evidencia.
 - No borrar contenido histórico.
 
-    ## Plantillas relacionadas
+## Plantillas relacionadas
 
-    - `10_plantillas/markdown/plantilla-fuente.md`
-    - `10_plantillas/markdown/plantilla-norma.md`
-    - `10_plantillas/markdown/plantilla-curriculum.md`
-    - `10_plantillas/yaml/plantilla-relacion.yaml`
-    - `10_plantillas/yaml/plantilla-chunk.yaml`
+- `10_plantillas/markdown/plantilla-fuente.md`
+- `10_plantillas/markdown/plantilla-norma.md`
+- `10_plantillas/markdown/plantilla-curriculum.md`
+- `10_plantillas/yaml/plantilla-relacion.yaml`
+- `10_plantillas/yaml/plantilla-chunk.yaml`

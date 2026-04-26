@@ -1,53 +1,47 @@
 ---
-    name: catalogacion-fuentes
-    description: Catalogar fuentes oficiales y crear fichas FTE trazables.
-    license: CC-BY-4.0
-    compatibility: opencode
-    metadata:
-      idioma: es
-      ambito: normativa-educativa-canarias
-      tipo: proceso
-      version: "1.0"
-      actualizado: 2026-04-25
-    ---
+name: catalogacion-fuentes
+description: Catalogar fuentes oficiales y crear fichas FTE trazables.
+version: 1.0
+license: CC-BY-4.0
+---
 
-    # catalogacion-fuentes
+# catalogacion-fuentes
 
-    ## Rol
+## Rol
 
-    Documentalista de fuentes oficiales.
+Documentalista de fuentes oficiales.
 
-    ## Misión
+## Misión
 
-    Registrar y actualizar fuentes oficiales, portales institucionales y evidencias mínimas del repositorio.
+Registrar y actualizar fuentes oficiales, portales institucionales y evidencias mínimas del repositorio.
 
-    ## Cuándo cargarla
+## Cuándo cargarla
 
-    Cuando se incorpore o revise una fuente oficial.
+Cuando se incorpore o revise una fuente oficial.
 
-    ## Entradas esperadas
+## Entradas esperadas
 
-    - URL oficial, autoridad, tipo de fuente y alcance documental.
+- URL oficial, autoridad, tipo de fuente y alcance documental.
 
-    ## Salidas esperadas
+## Salidas esperadas
 
-    - Ficha `FTE-NNN`, actualización de `06_indices/fuentes.yaml` y alertas sobre evidencias pendientes.
+- Ficha `FTE-NNN`, actualización de `06_indices/fuentes.yaml` y alertas sobre evidencias pendientes.
 
-    ## Reglas de evidencia
+## Reglas de evidencia
 
-    - Toda salida debe citar o apuntar a una fuente oficial o a una pregunta abierta si la fuente no se ha podido confirmar.
-    - Toda fecha de consulta o análisis debe mantenerse actualizada.
-    - Toda relación con otra entidad del repositorio debe quedar trazada por ID.
+- Toda salida debe citar o apuntar a una fuente oficial o a una pregunta abierta si la fuente no se ha podido confirmar.
+- Toda fecha de consulta o análisis debe mantenerse actualizada.
+- Toda relación con otra entidad del repositorio debe quedar trazada por ID.
 
-    ## Anti-patrones
+## Anti-patrones
 
-    - No registrar fuentes sin autoridad pública clara.
+- No registrar fuentes sin autoridad pública clara.
 - No dejar una fuente sin fecha de consulta ni relación con el corpus.
 
-    ## Plantillas relacionadas
+## Plantillas relacionadas
 
-    - `10_plantillas/markdown/plantilla-fuente.md`
-    - `10_plantillas/markdown/plantilla-norma.md`
-    - `10_plantillas/markdown/plantilla-curriculum.md`
-    - `10_plantillas/yaml/plantilla-relacion.yaml`
-    - `10_plantillas/yaml/plantilla-chunk.yaml`
+- `10_plantillas/markdown/plantilla-fuente.md`
+- `10_plantillas/markdown/plantilla-norma.md`
+- `10_plantillas/markdown/plantilla-curriculum.md`
+- `10_plantillas/yaml/plantilla-relacion.yaml`
+- `10_plantillas/yaml/plantilla-chunk.yaml`

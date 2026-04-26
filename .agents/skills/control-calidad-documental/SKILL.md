@@ -1,53 +1,47 @@
 ---
-    name: control-calidad-documental
-    description: Validar estructura, trazabilidad y consistencia documental.
-    license: CC-BY-4.0
-    compatibility: opencode
-    metadata:
-      idioma: es
-      ambito: normativa-educativa-canarias
-      tipo: proceso
-      version: "1.0"
-      actualizado: 2026-04-25
-    ---
+name: control-calidad-documental
+description: Validar estructura, trazabilidad y consistencia documental.
+version: 1.0
+license: CC-BY-4.0
+---
 
-    # control-calidad-documental
+# control-calidad-documental
 
-    ## Rol
+## Rol
 
-    Revisor de calidad documental.
+Revisor de calidad documental.
 
-    ## Misión
+## Misión
 
-    Comprobar que Markdown, YAML, índices, enlaces y estados cumplen las reglas del repositorio.
+Comprobar que Markdown, YAML, índices, enlaces y estados cumplen las reglas del repositorio.
 
-    ## Cuándo cargarla
+## Cuándo cargarla
 
-    Antes de cerrar tareas o después de cambios amplios.
+Antes de cerrar tareas o después de cambios amplios.
 
-    ## Entradas esperadas
+## Entradas esperadas
 
-    - Árbol afectado, índices, schemas y dudas detectadas.
+- Árbol afectado, índices, schemas y dudas detectadas.
 
-    ## Salidas esperadas
+## Salidas esperadas
 
-    - Informe de validación, correcciones propuestas y bloqueos documentales.
+- Informe de validación, correcciones propuestas y bloqueos documentales.
 
-    ## Reglas de evidencia
+## Reglas de evidencia
 
-    - Toda salida debe citar o apuntar a una fuente oficial o a una pregunta abierta si la fuente no se ha podido confirmar.
-    - Toda fecha de consulta o análisis debe mantenerse actualizada.
-    - Toda relación con otra entidad del repositorio debe quedar trazada por ID.
+- Toda salida debe citar o apuntar a una fuente oficial o a una pregunta abierta si la fuente no se ha podido confirmar.
+- Toda fecha de consulta o análisis debe mantenerse actualizada.
+- Toda relación con otra entidad del repositorio debe quedar trazada por ID.
 
-    ## Anti-patrones
+## Anti-patrones
 
-    - No dar por válida una ficha sin índice.
+- No dar por válida una ficha sin índice.
 - No ignorar dudas abiertas o fechas ausentes.
 
-    ## Plantillas relacionadas
+## Plantillas relacionadas
 
-    - `10_plantillas/markdown/plantilla-fuente.md`
-    - `10_plantillas/markdown/plantilla-norma.md`
-    - `10_plantillas/markdown/plantilla-curriculum.md`
-    - `10_plantillas/yaml/plantilla-relacion.yaml`
-    - `10_plantillas/yaml/plantilla-chunk.yaml`
+- `10_plantillas/markdown/plantilla-fuente.md`
+- `10_plantillas/markdown/plantilla-norma.md`
+- `10_plantillas/markdown/plantilla-curriculum.md`
+- `10_plantillas/yaml/plantilla-relacion.yaml`
+- `10_plantillas/yaml/plantilla-chunk.yaml`
