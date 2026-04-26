@@ -96,3 +96,39 @@ FTE-011:
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/boe/FTE-011-rd-243-2022.md"
   estado_fuente: "Activa"
+
+FTE-012:
+  titulo: "Centro de Desarrollo Curricular (CDC) — Gobierno de Canarias"
+  tipo_fuente: "portal-curricular"
+  autoridad: "Gobierno de Canarias - Consejería de Educación, Universidades, Cultura y Deportes"
+  url_oficial: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-012-centro-desarrollo-curricular-canarias.md"
+  estado_fuente: "Activa"
+
+FTE-013:
+  titulo: "Normativa clasificada por temas — Inspección Educativa de Canarias"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Inspección General de Educación"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-013-inspeccion-educativa-normativa-clasificada.md"
+  estado_fuente: "Activa"
+
+FTE-014:
+  titulo: "Normativa clasificada — Enseñanzas — Inspección Educativa de Canarias"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Inspección General de Educación"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-014-inspeccion-educativa-ensenanzas.md"
+  estado_fuente: "Activa"
+
+FTE-015:
+  titulo: "Normativa clasificada — Formación Profesional — Inspección Educativa de Canarias"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Inspección General de Educación"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-015-inspeccion-educativa-fp.md"
+  estado_fuente: "Activa"

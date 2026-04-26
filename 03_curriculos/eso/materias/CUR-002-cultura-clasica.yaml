@@ -4,21 +4,36 @@ etapa: "eso"
 materia: "Cultura Clásica"
 ambito: null
 cursos: []
-norma_base: null
-fuente: FTE-002
-url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-fecha_consulta: 2026-04-25
-fecha_analisis: null
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
 estado_extraccion: "Pendiente"
-estado_vigencia: "Pendiente de verificación"
+estado_vigencia: "Vigente"
 elementos:
-  competencias_especificas: []
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "Apreciar y usar la pervivencia del mundo grecorromano (artística, literaria, arquitectónica, cultural) como base de comparación con la actualidad, identificando referentes en Canarias."
+      enunciado_oficial: null
+    - codigo: "C2"
+      enunciado_resumido: "Distinguir y reconocer los sistemas de escritura y la evolución del castellano desde el latín, manejando étimos y formantes grecolatinos para mejorar la competencia lingüística."
+      enunciado_oficial: null
+    - codigo: "C3"
+      enunciado_resumido: "Situar geográfica e históricamente las civilizaciones griega y romana, ordenando cronológicamente etapas y acontecimientos del mundo clásico."
+      enunciado_oficial: null
+    - codigo: "C4"
+      enunciado_resumido: "Conocer la organización política y social de Grecia y Roma, comparándola con instituciones actuales y con los roles familiares y laborales contemporáneos."
+      enunciado_oficial: null
+    - codigo: "C5"
+      enunciado_resumido: null
+      enunciado_oficial: null
   criterios_evaluacion: []
   saberes_basicos: []
   descriptores_operativos: []
   situaciones_aprendizaje: []
 relaciones:
-  desarrolla_a: []
-  relacionada_con: [NOR-003]
-resumen_ia: "Currículo de Cultura Clásica en ESO localizado desde el portal oficial de Canarias; extracción pendiente de detalle y confirmación de norma base autonómica final."
-observaciones: "Pendiente de confirmar la fuente normativa autonómica final del currículo; ver PREG-001."
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Cultura Clásica en ESO Canarias con cinco competencias específicas (C1-C5) que engloban doce criterios de evaluación. Marco autonómico: Decreto 30/2023; marco estatal: RD 217/2022."
+observaciones: "Extracción inicial parcial. C1-C4 se han resumido a partir del documento `borrador_curriculo_2022/Cultura_clasica_ESO.pdf` enlazado desde el portal autonómico; la C5 y los saberes/criterios literales quedan [PENDIENTE] de cotejo contra el anexo del Decreto 30/2023 publicado en BOC (FTE-009). estado_extraccion se mantiene Pendiente conforme a DEC-0004."

@@ -18,7 +18,8 @@ relacionadas: [FTE-002, FTE-004, PREG-001, NOR-005]
 ## Identificación
 
 - **Autoridad:** Boletín Oficial de Canarias
-- **URL oficial:** https://www.gobiernodecanarias.org/boc/2023/058/001.html
+- **URL oficial (HTML índice):** https://www.gobiernodecanarias.org/boc/2023/058/001.html
+- **PDF oficial completo (1953 págs., todos los anexos):** https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf
 - **Fecha de consulta:** 2026-04-26
 - **Tipo de fuente:** normativa-autonomica
 

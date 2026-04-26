@@ -129,3 +129,80 @@ TAREA-012:
   fecha_actualizacion: 2026-04-26
   relacionadas: [FTE-001, FTE-002, FTE-003, FTE-004, FTE-005, FTE-006, FTE-007, FTE-008, TAREA-008]
   ruta: "08_tareas/backlog/TAREA-012-normalizar-frontmatter-fte-001-a-008.md"
+
+TAREA-013:
+  titulo: "Catalogar fuentes oficiales adicionales (CDC e Inspección Educativa)"
+  estado: "Hecha"
+  prioridad: "Media"
+  tipo: "catalogacion"
+  responsable: "@.agents/skills/catalogacion-fuentes"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [FTE-012, FTE-013, FTE-014, FTE-015]
+  ruta: "08_tareas/backlog/TAREA-013-catalogar-fuentes-portales-canarias.md"
+
+TAREA-014:
+  titulo: "Inventariar y catalogar normativa de Centros y Organización y funcionamiento"
+  estado: "Pendiente"
+  prioridad: "Alta"
+  tipo: "analisis"
+  responsable: "@.agents/skills/experto-normativa-canaria"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [FTE-013, NOR-004]
+  ruta: "08_tareas/backlog/TAREA-014-inventariar-normativa-centros.md"
+
+TAREA-015:
+  titulo: "Inventariar y catalogar normativa de Personal docente"
+  estado: "Pendiente"
+  prioridad: "Alta"
+  tipo: "analisis"
+  responsable: "@.agents/skills/experto-normativa-canaria"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [FTE-013, NOR-001, NOR-002, NOR-004]
+  ruta: "08_tareas/backlog/TAREA-015-inventariar-normativa-personal-docente.md"
+
+TAREA-016:
+  titulo: "Inventariar y catalogar normativa de Atención a la diversidad y Alumnado"
+  estado: "Pendiente"
+  prioridad: "Alta"
+  tipo: "analisis"
+  responsable: "@.agents/skills/experto-normativa-canaria"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [FTE-013, NOR-002, NOR-004]
+  ruta: "08_tareas/backlog/TAREA-016-inventariar-atencion-diversidad-y-alumnado.md"
+
+TAREA-017:
+  titulo: "Inventariar y catalogar normativa de Formación Profesional en Canarias"
+  estado: "Pendiente"
+  prioridad: "Alta"
+  tipo: "analisis"
+  responsable: "@.agents/skills/experto-formacion-profesional"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [FTE-014, FTE-015, NOR-002]
+  ruta: "08_tareas/backlog/TAREA-017-inventariar-normativa-fp-canarias.md"
+
+TAREA-018:
+  titulo: "Inventariar y catalogar normativa de Marco general, Administración y Servicios complementarios"
+  estado: "Pendiente"
+  prioridad: "Media"
+  tipo: "analisis"
+  responsable: "@.agents/skills/experto-normativa-canaria"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [FTE-013]
+  ruta: "08_tareas/backlog/TAREA-018-inventariar-marco-general-y-administracion.md"
+
+TAREA-019:
+  titulo: "Iniciar extracción curricular de CUR-002 (Cultura Clásica, ESO Canarias)"
+  estado: "En progreso"
+  prioridad: "Media"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/analisis-curricular"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-002, NOR-005, NOR-003, FTE-009, DEC-0004]
+  ruta: "08_tareas/backlog/TAREA-019-extraccion-cur-002-cultura-clasica.md"

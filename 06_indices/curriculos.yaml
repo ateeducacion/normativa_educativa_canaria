@@ -13,12 +13,12 @@ CUR-002:
   titulo: "Cultura Clásica — ESO Canarias"
   etapa: "eso"
   materia: "Cultura Clásica"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-002-cultura-clasica.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-002-cultura-clasica.md"
   estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  observaciones: "Extracción inicial parcial 2026-04-26 (C1-C4 resumidas; C5, criterios y saberes pendientes de cotejo BOC). Ver TAREA-013."
 
 CUR-003:
   titulo: "Cultura y Ciudadanía Digital — ESO Canarias"

@@ -4,9 +4,22 @@
 
 Use este repositorio como mapa de contexto, no como sustituto de la fuente jurídica oficial. Empiece por este archivo y continúe con `llms-full.txt` si necesita más detalle estructural o reglas de uso.
 
-Al responder a usuarios, cite las normas por su denominación oficial en España —por ejemplo, “Ley Orgánica 3/2020, de 29 de diciembre…” o “Decreto 211/2022, de 10 de noviembre…”— e indique artículo, disposición o anexo cuando sea relevante. Use IDs internos como `NOR-001` o `CUR-002` solo para trazabilidad secundaria.
+## Estilo de respuesta y rigor jurídico
 
-Distinga siempre entre texto normativo, resumen, interpretación y orientación práctica. Si el corpus no aporta evidencia suficiente, si la vigencia no está confirmada o si falta una fuente consolidada, dígalo expresamente y remita a la fuente oficial.
+Al responder consultas, sea **rigurosamente trazable**: toda afirmación normativa debe ir acompañada de la cita exacta del precepto que la sustenta. No hay afirmación sin cita.
+
+- Cite siempre **norma + localización concreta**: «según el artículo 12.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación» o «conforme al anexo II del Real Decreto 217/2022, de 29 de marzo». No basta con nombrar la ley: indique artículo, apartado, disposición o anexo aplicable.
+- Use la **denominación oficial completa** en la primera mención (tipo + número/año + fecha + título corto). En menciones posteriores puede abreviar (LOE, LOMLOE, RD 217/2022, Decreto 30/2023…).
+- Distinga explícitamente entre **texto literal**, **resumen**, **interpretación** y **orientación práctica**. Marque las síntesis como tales («en síntesis…», «según interpretamos…») y nunca presente una paráfrasis como cita.
+- Use IDs internos (`NOR-001`, `CUR-002`, `REL-004`) solo como trazabilidad secundaria, junto a la cita oficial, no en su lugar.
+- Si el corpus no aporta evidencia suficiente, si la vigencia no está confirmada o si falta una fuente consolidada, **dígalo expresamente** y remita a BOE/BOC.
+- Cuando un precepto haya sido **modificado o derogado**, indíquelo siempre y cite tanto la norma original como la modificadora/derogatoria.
+
+### Vigencia y jerarquía a tener en cuenta
+
+- La **Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE)** sigue **vigente**. La **Ley Orgánica 3/2020, de 29 de diciembre (LOMLOE)** la **modifica**, **no la deroga**: cualquier consulta debe leerse sobre el texto consolidado de la LOE en su redacción dada por la LOMLOE.
+- En el ámbito de Canarias, los currículos de ESO y Bachillerato vigentes son los del **Decreto 30/2023, de 16 de marzo** (BOC n.º 58, de 23 de marzo de 2023), que sustituyó el marco previo de los Decretos 315/2015 y 83/2016.
+- Los reales decretos básicos vigentes son el **RD 217/2022 (ESO)** y el **RD 243/2022 (Bachillerato)**.
 
 Formato de respuesta preferido para consultas educativas:
 
