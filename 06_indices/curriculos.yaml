@@ -17,8 +17,8 @@ CUR-002:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-002-cultura-clasica.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-002-cultura-clasica.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Extracción inicial parcial 2026-04-26 (C1-C4 resumidas; C5, criterios y saberes pendientes de cotejo BOC). Ver TAREA-013."
+  estado_extraccion: "completado"
+  observaciones: "Extracción completada el 2026-04-26 tras cotejo con el BOC (Decreto 30/2023). Se han incorporado cinco competencias específicas, doce criterios de evaluación, descriptores operativos y síntesis de los cuatro bloques de saberes básicos. Ver TAREA-019."
 
 CUR-003:
   titulo: "Cultura y Ciudadanía Digital — ESO Canarias"

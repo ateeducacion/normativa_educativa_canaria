@@ -207,14 +207,14 @@ tareas:
 
   TAREA-019:
     titulo: "Iniciar extracción curricular de CUR-002 (Cultura Clásica, ESO Canarias)"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: "@.agents/skills/analisis-curricular"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [CUR-002, NOR-005, NOR-003, FTE-009, DEC-0004]
-    siguiente_accion: "Completar C5, criterios de evaluación y saberes contra el anexo BOC del Decreto 30/2023"
+    siguiente_accion: null
 
   TAREA-020:
     titulo: "Catalogar las órdenes y resoluciones canarias de Formación Profesional listadas en FTE-015"

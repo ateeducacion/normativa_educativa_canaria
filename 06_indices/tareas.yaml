@@ -198,7 +198,7 @@ TAREA-018:
 
 TAREA-019:
   titulo: "Iniciar extracción curricular de CUR-002 (Cultura Clásica, ESO Canarias)"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: "@.agents/skills/analisis-curricular"

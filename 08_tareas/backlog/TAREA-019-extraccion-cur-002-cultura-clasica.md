@@ -1,7 +1,7 @@
 ---
 id: TAREA-019
 titulo: "Iniciar extracción curricular de CUR-002 (Cultura Clásica, ESO Canarias)"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Media"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
@@ -26,6 +26,12 @@ Iniciar la extracción curricular de `CUR-002 — Cultura Clásica — ESO Canar
 ## Notas
 
 - Fecha de creación: 2026-04-26
-- Estado actual: extracción inicial parcial — C1-C4 volcadas como resumen no literal a partir del documento `borrador_curriculo_2022/Cultura_clasica_ESO.pdf` enlazado desde `FTE-002`. C5, criterios y saberes quedan `[PENDIENTE]`.
-- Siguiente paso: completar C5, criterios y saberes contra el anexo del Decreto 30/2023 publicado en BOC (PDF completo en `https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf`).
-- Esta tarea sigue el mismo patrón que `TAREA-010` para CUR-001; ambas convergen con `TAREA-011` para la verificación oficial.
+- Estado actual: hecha.
+- Resultado: `CUR-002` queda cotejada contra el anexo oficial del Decreto 30/2023 publicado en BOC (`FTE-009`), con curso, cinco competencias específicas, doce criterios de evaluación, descriptores operativos y cuatro bloques de saberes básicos.
+- Fuente consultada: PDF oficial del BOC en `https://sede.gobiernodecanarias.org/boc/boc-a-2023-058-848.pdf`, fecha de consulta 2026-04-26.
+- Esta tarea sigue el mismo patrón que `TAREA-010` para CUR-001.
+
+## Coordinación con trabajo paralelo
+
+- No se han creado nuevos IDs.
+- Se han tocado únicamente `CUR-002`, su entrada en `06_indices/curriculos.yaml`, los registros de `TAREA-019` y el diario de cierre.
