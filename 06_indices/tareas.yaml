@@ -448,3 +448,47 @@ TAREA-041:
   fecha_actualizacion: 2026-04-26
   relacionadas: [NOR-057, NOR-058, CUR-052, CUR-053, TAREA-037]
   ruta: "08_tareas/backlog/TAREA-041-extraer-modulos-fp-servicios-socioculturales.md"
+
+TAREA-042:
+  titulo: "Resolver PREG-005 — Verificar y corregir RDs de ciclos de Sanidad (NOR-051, NOR-052)"
+  estado: "En progreso"
+  prioridad: "Alta"
+  tipo: "calidad-documental"
+  responsable: "@.agents/skills/experto-formacion-profesional"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [NOR-051, NOR-052, CUR-046, CUR-047, PREG-005, TAREA-038]
+  ruta: "08_tareas/backlog/TAREA-042-resolver-preg005-rd-sanidad.md"
+
+TAREA-043:
+  titulo: "Completar CUR-053 (Integración Social) con módulos del título base RD 1075/2012"
+  estado: "En progreso"
+  prioridad: "Media"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/experto-formacion-profesional"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-053, NOR-058, NOR-060, TAREA-041]
+  ruta: "08_tareas/backlog/TAREA-043-completar-cur053-integracion-social.md"
+
+TAREA-044:
+  titulo: "Extraer CEs completos — Familia Administración y Gestión (CUR-048, CUR-049)"
+  estado: "En progreso"
+  prioridad: "Media"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/experto-formacion-profesional"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [NOR-053, NOR-054, CUR-048, CUR-049, TAREA-039]
+  ruta: "08_tareas/backlog/TAREA-044-extraer-ces-fp-administracion.md"
+
+TAREA-045:
+  titulo: "Extraer CEs completos — Familia Informática y Comunicaciones (CUR-050, CUR-051)"
+  estado: "En progreso"
+  prioridad: "Media"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/experto-formacion-profesional"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [NOR-055, NOR-056, CUR-050, CUR-051, TAREA-040]
+  ruta: "08_tareas/backlog/TAREA-045-extraer-ces-fp-informatica.md"

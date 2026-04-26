@@ -458,6 +458,50 @@ tareas:
     relacionadas: [NOR-057, NOR-058, CUR-052, CUR-053]
     siguiente_accion: null
 
+  TAREA-042:
+    titulo: "Resolver PREG-005 — Verificar y corregir RDs de ciclos de Sanidad (NOR-051, NOR-052)"
+    estado: "En progreso"
+    prioridad: "Alta"
+    tipo: "calidad-documental"
+    responsable: "@.agents/skills/experto-formacion-profesional"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [NOR-051, NOR-052, CUR-046, CUR-047, PREG-005]
+    siguiente_accion: "Verificar RD 546/1995 vs 1538/1995 y RD 770/2014 vs 772/2014 en BOE.es."
+
+  TAREA-043:
+    titulo: "Completar CUR-053 (Integración Social) con módulos del título base RD 1075/2012"
+    estado: "En progreso"
+    prioridad: "Media"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/experto-formacion-profesional"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [CUR-053, NOR-058, NOR-060]
+    siguiente_accion: "Catalogar NOR-060 (RD 1075/2012) y extraer módulos base de Integración Social."
+
+  TAREA-044:
+    titulo: "Extraer CEs completos — Familia Administración y Gestión (CUR-048, CUR-049)"
+    estado: "En progreso"
+    prioridad: "Media"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/experto-formacion-profesional"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [NOR-053, NOR-054, CUR-048, CUR-049]
+    siguiente_accion: "Extraer RAs y CEs de cada módulo de RD 1631/2009 y RD 1584/2011."
+
+  TAREA-045:
+    titulo: "Extraer CEs completos — Familia Informática y Comunicaciones (CUR-050, CUR-051)"
+    estado: "En progreso"
+    prioridad: "Media"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/experto-formacion-profesional"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [NOR-055, NOR-056, CUR-050, CUR-051]
+    siguiente_accion: "Extraer RAs y CEs de cada módulo de RD 450/2010 y RD 686/2010."
+
 bloqueos: []
 
 reglas:

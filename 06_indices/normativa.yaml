@@ -882,3 +882,17 @@ NOR-059:
   ruta: "02_normativa/canarias/resoluciones/NOR-059-resolucion-modificacion-evaluacion-fp-2025.md"
   temas: [formacion-profesional, evaluacion, calificaciones, dual]
   etapas_afectadas: [formacion-profesional]
+
+NOR-060:
+  titulo: "[PENDIENTE: RD 1075/2012 o sucesor — título base T.S. Integración Social — verificar en TAREA-043]"
+  nombre_corto: "RD base T.S. Integración Social (pre-2023)"
+  tipo_norma: "real-decreto"
+  ambito: "estatal"
+  estado_vigencia: "[PENDIENTE: verificar — parcialmente derogado por RD 289/2023]"
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-054
+  ruta: "[PENDIENTE: crear ficha en TAREA-043]"
+  temas: [formacion-profesional, titulo, curriculo-basico, servicios-socioculturales]
+  familia_profesional: "Servicios Socioculturales y a la Comunidad"
+  grado: "GS"
+  etapas_afectadas: [formacion-profesional]
