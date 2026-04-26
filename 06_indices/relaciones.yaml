@@ -207,3 +207,24 @@ REL-033:
   destino: NOR-004
   fuente: FTE-039
   ruta: "05_relaciones/normativa/REL-033-residencias-desarrolla-servicios-complementarios.yaml"
+
+REL-034:
+  tipo_relacion: "desarrolla"
+  origen: NOR-037
+  destino: NOR-024
+  fuente: FTE-013
+  ruta: "05_relaciones/normativa/REL-034-orden-diversidad-desarrolla-decreto.yaml"
+
+REL-035:
+  tipo_relacion: "desarrolla"
+  origen: NOR-041
+  destino: NOR-024
+  fuente: FTE-044
+  ruta: "05_relaciones/normativa/REL-035-instrucciones-diversidad.yaml"
+
+REL-036:
+  tipo_relacion: "relaciona"
+  origen: NOR-038
+  destino: NOR-029
+  fuente: FTE-041
+  ruta: "05_relaciones/normativa/REL-036-resolucion-admision.yaml"

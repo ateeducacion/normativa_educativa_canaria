@@ -2,7 +2,7 @@ metadata:
   proyecto: "Normativa Educativa Canarias"
   repositorio: "ateeducacion/normativa_educativa_canaria"
   objetivo: "Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML"
-  fase_actual: "Fase 0 — Puesta en marcha"
+  fase_actual: "Fase 1 — Inventario y Catalogación"
   fecha_actualizacion: 2026-04-26
   agente_actual: "@.agents/skills/experto-normativa-canaria"
 
