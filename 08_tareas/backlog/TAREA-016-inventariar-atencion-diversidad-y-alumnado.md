@@ -1,13 +1,13 @@
 ---
 id: TAREA-016
 titulo: "Inventariar y catalogar normativa de Atención a la diversidad y Alumnado"
-estado: "Pendiente"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "analisis"
 responsable: "@.agents/skills/experto-normativa-canaria"
 fecha_creacion: 2026-04-26
 fecha_actualizacion: 2026-04-26
-relacionadas: [FTE-013, NOR-002, NOR-004]
+relacionadas: [FTE-013, FTE-027, FTE-028, FTE-029, FTE-030, FTE-031, FTE-032, FTE-033, NOR-002, NOR-004, NOR-010, NOR-024, NOR-025, NOR-026, NOR-027, NOR-028, NOR-029, NOR-030, REL-020, REL-021, REL-022, REL-023, REL-024, REL-025, REL-026, REL-027]
 ---
 
 # TAREA-016 — Inventariar y catalogar normativa de Atención a la diversidad y Alumnado
@@ -27,3 +27,16 @@ Recorrer las ramas «Atención a la diversidad» y «Alumnado» del portal de In
 
 - Fecha de creación: 2026-04-26
 - Recurso: `FTE-013` apartados `/atencion_diversidad/` y `/alumnado/`.
+
+## Resultado
+
+- Catalogadas fuentes primarias `FTE-027` a `FTE-033`.
+- Creadas fichas normativas `NOR-024` a `NOR-030`.
+- Reutilizada `NOR-010` para convivencia, derechos y deberes del alumnado, ya catalogada.
+- Registradas relaciones `REL-020` a `REL-027`.
+- Las resoluciones anuales de admisión quedan fuera de esta ficha estructural y podrán tratarse como chunks o fichas de curso si se necesita consulta por convocatoria.
+
+## Coordinación con trabajo paralelo
+
+- IDs consumidos en esta tarea: `FTE-027` a `FTE-033`, `NOR-024` a `NOR-030`, `REL-020` a `REL-027`.
+- No se han reutilizado IDs ni se han modificado tareas ajenas en progreso.

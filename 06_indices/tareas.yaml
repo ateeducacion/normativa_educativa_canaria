@@ -165,13 +165,13 @@ TAREA-015:
 
 TAREA-016:
   titulo: "Inventariar y catalogar normativa de Atención a la diversidad y Alumnado"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "analisis"
   responsable: "@.agents/skills/experto-normativa-canaria"
   fecha_creacion: 2026-04-26
   fecha_actualizacion: 2026-04-26
-  relacionadas: [FTE-013, NOR-002, NOR-004]
+  relacionadas: [FTE-013, FTE-027, FTE-028, FTE-029, FTE-030, FTE-031, FTE-032, FTE-033, NOR-002, NOR-004, NOR-010, NOR-024, NOR-025, NOR-026, NOR-027, NOR-028, NOR-029, NOR-030, REL-020, REL-021, REL-022, REL-023, REL-024, REL-025, REL-026, REL-027]
   ruta: "08_tareas/backlog/TAREA-016-inventariar-atencion-diversidad-y-alumnado.md"
 
 TAREA-017:

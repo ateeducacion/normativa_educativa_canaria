@@ -109,3 +109,59 @@ REL-019:
   destino: NOR-020
   fuente: FTE-026
   ruta: "05_relaciones/normativa/REL-019-permisos-relaciona-trebep.yaml"
+
+REL-020:
+  tipo_relacion: "desarrolla"
+  origen: NOR-024
+  destino: NOR-004
+  fuente: FTE-027
+  ruta: "05_relaciones/normativa/REL-020-decreto-25-2018-desarrolla-ley-canaria.yaml"
+
+REL-021:
+  tipo_relacion: "relaciona"
+  origen: NOR-024
+  destino: NOR-002
+  fuente: FTE-027
+  ruta: "05_relaciones/normativa/REL-021-decreto-25-2018-relaciona-lomloe.yaml"
+
+REL-022:
+  tipo_relacion: "desarrolla"
+  origen: NOR-025
+  destino: NOR-024
+  fuente: FTE-028
+  ruta: "05_relaciones/normativa/REL-022-orden-neae-desarrolla-diversidad.yaml"
+
+REL-023:
+  tipo_relacion: "desarrolla"
+  origen: NOR-026
+  destino: NOR-025
+  fuente: FTE-029
+  ruta: "05_relaciones/normativa/REL-023-resolucion-neae-desarrolla-orden.yaml"
+
+REL-024:
+  tipo_relacion: "relaciona"
+  origen: NOR-027
+  destino: NOR-024
+  fuente: FTE-030
+  ruta: "05_relaciones/normativa/REL-024-atencion-temprana-relaciona-diversidad.yaml"
+
+REL-025:
+  tipo_relacion: "desarrolla"
+  origen: NOR-028
+  destino: NOR-025
+  fuente: FTE-031
+  ruta: "05_relaciones/normativa/REL-025-aulas-enclave-desarrolla-orden-neae.yaml"
+
+REL-026:
+  tipo_relacion: "desarrolla"
+  origen: NOR-029
+  destino: NOR-004
+  fuente: FTE-032
+  ruta: "05_relaciones/normativa/REL-026-decreto-admision-desarrolla-ley-canaria.yaml"
+
+REL-027:
+  tipo_relacion: "desarrolla"
+  origen: NOR-030
+  destino: NOR-029
+  fuente: FTE-033
+  ruta: "05_relaciones/normativa/REL-027-orden-admision-desarrolla-decreto.yaml"

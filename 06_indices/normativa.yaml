@@ -282,3 +282,108 @@ NOR-023:
   ruta: "02_normativa/canarias/resoluciones/NOR-023-resolucion-2020-permisos.md"
   temas: [permisos, licencias, vacaciones]
   etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-024:
+  titulo: "Decreto 25/2018, de 26 de febrero, por el que se regula la atención a la diversidad en el ámbito de las enseñanzas no universitarias de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Atención a la diversidad (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2018-02-26
+  fecha_publicacion: 2018-03-06
+  fecha_entrada_vigor: 2018-03-07
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-027
+  ruta: "02_normativa/canarias/decretos/NOR-024-decreto-25-2018-atencion-diversidad.md"
+  temas: [inclusion, atencion-diversidad, neae, nee, escolarizacion]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-025:
+  titulo: "Orden de 13 de diciembre de 2010, por la que se regula la atención al alumnado con necesidades específicas de apoyo educativo en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Orden NEAE (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente hasta desarrollo del Decreto 25/2018"
+  fecha_disposicion: 2010-12-13
+  fecha_publicacion: 2010-12-22
+  fecha_entrada_vigor: 2010-12-23
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-028
+  ruta: "02_normativa/canarias/ordenes/NOR-025-orden-13-12-2010-neae.md"
+  temas: [neae, nee, adaptaciones-curriculares, evaluacion-psicopedagogica]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-026:
+  titulo: "Resolución de 9 de febrero de 2011, por la que se dictan instrucciones sobre los procedimientos y los plazos para la atención educativa del alumnado con necesidades específicas de apoyo educativo en los centros escolares de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Instrucciones NEAE 2011"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente hasta desarrollo del Decreto 25/2018"
+  fecha_disposicion: 2011-02-09
+  fecha_publicacion: 2011-02-24
+  fecha_entrada_vigor: 2011-02-25
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-029
+  ruta: "02_normativa/canarias/resoluciones/NOR-026-resolucion-2011-procedimientos-neae.md"
+  temas: [neae, procedimientos, plazos, adaptaciones-curriculares, atencion-domiciliaria]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-027:
+  titulo: "Ley 12/2019, de 25 de abril, por la que se regula la atención temprana en Canarias"
+  nombre_corto: "Atención temprana (Canarias)"
+  tipo_norma: "ley-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2019-04-25
+  fecha_publicacion: 2019-05-13
+  fecha_entrada_vigor: 2019-06-02
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-030
+  ruta: "02_normativa/canarias/leyes/NOR-027-ley-12-2019-atencion-temprana.md"
+  temas: [atencion-temprana, inclusion, coordinacion-interadministrativa]
+  etapas_afectadas: [infantil]
+
+NOR-028:
+  titulo: "Orden de 10 de febrero de 2016, por la que se establecen las concreciones curriculares adaptadas para el alumnado escolarizado en las aulas enclave y centros de educación especial de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Concreciones curriculares adaptadas (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2016-02-10
+  fecha_publicacion: 2016-02-18
+  fecha_entrada_vigor: 2016-02-19
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-031
+  ruta: "02_normativa/canarias/ordenes/NOR-028-orden-10-02-2016-aulas-enclave.md"
+  temas: [nee, aulas-enclave, centros-educacion-especial, curriculo-adaptado]
+  etapas_afectadas: [infantil, primaria, eso]
+
+NOR-029:
+  titulo: "Decreto 9/2022, de 20 de enero, por el que se regula la admisión del alumnado en centros docentes que oferten enseñanzas no universitarias sostenidas con fondos públicos en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Admisión del alumnado (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-01-20
+  fecha_publicacion: 2022-01-28
+  fecha_entrada_vigor: 2022-01-29
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-032
+  ruta: "02_normativa/canarias/decretos/NOR-029-decreto-9-2022-admision.md"
+  temas: [admision, escolarizacion, igualdad, no-discriminacion]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-030:
+  titulo: "Orden de 3 de marzo de 2022, por la que se desarrolla el Decreto 9/2022, de 20 de enero, que regula la admisión del alumnado en centros docentes que oferten enseñanzas no universitarias sostenidas con fondos públicos en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Orden admisión alumnado (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-03-03
+  fecha_publicacion: 2022-03-10
+  fecha_entrada_vigor: 2022-03-11
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-033
+  ruta: "02_normativa/canarias/ordenes/NOR-030-orden-03-03-2022-admision.md"
+  temas: [admision, escolarizacion, procedimiento, baremacion]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
