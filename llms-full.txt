@@ -8,6 +8,8 @@ Las rutas internas Markdown/YAML del corpus pueden resolverse en GitHub Pages re
 
 Siempre priorice la fuente oficial citada en cada ficha. Si el corpus y la fuente oficial discrepan, prevalece la fuente oficial. Si una respuesta depende de vigencia, redacción consolidada, modificación posterior o desarrollo autonómico adicional, indíquelo y pida verificación en BOE, BOC o portal oficial competente.
 
+Cuando responda, procure ofrecer también el enlace oficial directo de la norma o currículo citado, no solo la referencia interna del corpus.
+
 ## Foto Indexada
 
 Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo entidades registradas en `06_indices/`; no incorpora borradores locales, archivos sin seguimiento ni fichas aún no indexadas.
@@ -169,6 +171,7 @@ Cite, cuando sea posible:
 - título oficial completo;
 - artículo, apartado, disposición o anexo pertinente;
 - boletín oficial y fecha o referencia de publicación;
+- enlace oficial directo a BOE, BOC, sede del BOC o portal institucional competente cuando esté disponible en `url_oficial`;
 - texto consolidado o vigencia, si la respuesta depende de ello;
 - fecha de consulta si la situación puede haber cambiado.
 
@@ -182,6 +185,24 @@ Ejemplos de estilo correcto:
 - Decreto 196/2022, de 13 de octubre, por el que se establece la ordenación y el currículo de la Educación Infantil en la Comunidad Autónoma de Canarias.
 
 Si quiere añadir trazabilidad interna, hágalo en segundo plano, por ejemplo: `Fuente interna: NOR-003`.
+
+## Cómo Encontrar Rápido La Normativa Y El Contenido
+
+Ruta recomendada de localización:
+
+1. [06_indices/normativa.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml) para identificar la norma principal, su estado de vigencia y la ficha `NOR-NNN`.
+2. [06_indices/fuentes.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/fuentes.yaml) para recuperar la `url_oficial`, el boletín y la ficha `FTE-NNN` asociada.
+3. [03_curriculos/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos) y [06_indices/curriculos.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml) si la pregunta exige anexos, competencias, criterios o saberes curriculares.
+4. [05_relaciones/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/05_relaciones) y [06_indices/relaciones.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/relaciones.yaml) si necesita saber qué norma desarrolla, modifica, deroga o complementa otra.
+5. [07_corpus_ia/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia) solo para orientación resumida y trazable; confirme siempre la respuesta final en la fuente oficial.
+
+Regla práctica:
+
+- Si la ficha `NOR-NNN` ya contiene `url_oficial`, enlácela en la respuesta.
+- Si la ficha normativa no basta, siga `fuente_principal` hasta la ficha `FTE-NNN` y use su `url_oficial`.
+- Para BOC, añada también el PDF oficial si la ficha de fuente lo recoge y la consulta requiere anexos largos o texto íntegro publicado.
+- Use **GitHub Pages** para enlazar archivos concretos del corpus y **GitHub** para enlazar carpetas o vistas de navegación del repositorio.
+- Los índices YAML del corpus son endpoints estructurados y legibles; pueden abrirse directamente, descargarse o reutilizarse en flujos de IA/RAG.
 
 ## Instrucciones De Uso Para IA
 
@@ -208,7 +229,13 @@ Formato preferido para preguntas educativas:
 - `### Respuesta breve`
 - `### Fundamento normativo`
 - `### Aplicación práctica en Canarias`
+- `### Enlaces directos`
 - `### Límites o aspectos a verificar`
+
+En `### Enlaces directos`, incluya siempre que sea posible:
+
+- **Fuente oficial:** enlace a BOE, BOC, PDF oficial del BOC o página oficial del Gobierno de Canarias.
+- **Corpus trazable:** enlace a la ficha `NOR-NNN`, `FTE-NNN`, `CUR-NNN` o al índice YAML que ha servido para localizar la respuesta.
 
 ## Limitaciones Actuales
 
