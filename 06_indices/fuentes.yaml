@@ -132,3 +132,12 @@ FTE-015:
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/portales-oficiales/FTE-015-inspeccion-educativa-fp.md"
   estado_fuente: "Activa"
+
+FTE-016:
+  titulo: "Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5139"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boe/FTE-016-ley-organica-3-2022-fp.md"
+  estado_fuente: "Activa"

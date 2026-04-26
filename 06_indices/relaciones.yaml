@@ -46,3 +46,10 @@ REL-007:
   destino: NOR-006
   fuente: FTE-009
   ruta: "05_relaciones/normativa/REL-007-decreto-30-2023-desarrolla-rd-243-2022.yaml"
+
+REL-008:
+  tipo_relacion: "relaciona"
+  origen: NOR-007
+  destino: NOR-002
+  fuente: FTE-016
+  ruta: "05_relaciones/normativa/REL-008-lofp-relaciona-loe-lomloe.yaml"

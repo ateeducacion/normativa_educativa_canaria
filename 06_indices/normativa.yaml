@@ -87,3 +87,33 @@ NOR-006:
   ruta: "02_normativa/estatal/reales-decretos/NOR-006-rd-243-2022.md"
   temas: [curriculo, ordenacion, evaluacion, promocion, titulacion, modalidades]
   etapas_afectadas: [bachillerato]
+
+NOR-007:
+  titulo: "Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional"
+  nombre_corto: "LOFP"
+  tipo_norma: "ley-organica"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-03-31
+  fecha_publicacion: 2022-04-01
+  fecha_entrada_vigor: 2022-04-21
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-016
+  ruta: "02_normativa/estatal/leyes-organicas/NOR-007-lofp.md"
+  temas: [formacion-profesional, cualificaciones, integracion-sistema, ordenacion]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-008:
+  titulo: "Decreto 156/1996, de 20 de junio, por el que se establece la Ordenación General de las Enseñanzas de Formación Profesional Específica en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Decreto 156/1996 (Canarias FP)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Pendiente de verificación"
+  fecha_disposicion: 1996-06-20
+  fecha_publicacion: null
+  fecha_entrada_vigor: null
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-015
+  ruta: "02_normativa/canarias/decretos/NOR-008-decreto-156-1996-fp.md"
+  temas: [formacion-profesional, ordenacion, ensenanzas-especificas]
+  etapas_afectadas: [formacion-profesional]

@@ -176,13 +176,13 @@ TAREA-016:
 
 TAREA-017:
   titulo: "Inventariar y catalogar normativa de Formación Profesional en Canarias"
-  estado: "Pendiente"
+  estado: "En progreso"
   prioridad: "Alta"
   tipo: "analisis"
   responsable: "@.agents/skills/experto-formacion-profesional"
   fecha_creacion: 2026-04-26
   fecha_actualizacion: 2026-04-26
-  relacionadas: [FTE-014, FTE-015, NOR-002]
+  relacionadas: [FTE-014, FTE-015, FTE-016, NOR-002, NOR-007, NOR-008, REL-008, TAREA-020]
   ruta: "08_tareas/backlog/TAREA-017-inventariar-normativa-fp-canarias.md"
 
 TAREA-018:
@@ -206,3 +206,14 @@ TAREA-019:
   fecha_actualizacion: 2026-04-26
   relacionadas: [CUR-002, NOR-005, NOR-003, FTE-009, DEC-0004]
   ruta: "08_tareas/backlog/TAREA-019-extraccion-cur-002-cultura-clasica.md"
+
+TAREA-020:
+  titulo: "Catalogar las órdenes y resoluciones canarias de Formación Profesional listadas en FTE-015"
+  estado: "Pendiente"
+  prioridad: "Media"
+  tipo: "analisis"
+  responsable: "@.agents/skills/experto-formacion-profesional"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [FTE-015, NOR-007, NOR-008, TAREA-017]
+  ruta: "08_tareas/backlog/TAREA-020-catalogar-ordenes-resoluciones-fp-canarias.md"
