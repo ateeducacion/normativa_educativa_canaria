@@ -250,3 +250,14 @@ TAREA-023:
   fecha_actualizacion: 2026-04-26
   relacionadas: [NOR-009, NOR-010, NOR-011, NOR-012, NOR-013, NOR-019, NOR-020, NOR-021, NOR-022, NOR-023, NOR-034, NOR-035, NOR-036]
   ruta: "08_tareas/backlog/TAREA-023-completar-fichas-normativas-centros-personal.md"
+
+TAREA-025:
+  titulo: "Extracción curricular ESO: CUR-011 a CUR-014"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/analisis-curricular"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-011, CUR-012, CUR-013, CUR-014, NOR-005, FTE-009]
+  ruta: "08_tareas/backlog/TAREA-025-extraccion-cur-011-a-014.md"

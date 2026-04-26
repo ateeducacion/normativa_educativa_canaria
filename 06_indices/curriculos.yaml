@@ -112,45 +112,45 @@ CUR-011:
   titulo: "Filosofía — ESO Canarias"
   etapa: "eso"
   materia: "Filosofía"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-011-filosofia.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-011-filosofia.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "iniciado"
+  observaciones: "Encuadre normativo confirmado el 2026-04-26 (Decreto 30/2023, art. 25.5: Filosofía como optativa de 4.º ESO). Pendiente de cotejo el detalle del anexo correspondiente del decreto. Ver TAREA-025."
 
 CUR-012:
   titulo: "Física y Química — ESO Canarias"
   etapa: "eso"
   materia: "Física y Química"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-012-fisica-y-quimica.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-012-fisica-y-quimica.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "iniciado"
+  observaciones: "Encuadre normativo confirmado el 2026-04-26 (Decreto 30/2023, art. 23.1.d para 2.º y 3.º ESO; art. 24 para 4.º ESO). Pendiente de cotejo el detalle del anexo correspondiente del decreto. Ver TAREA-025."
 
 CUR-013:
   titulo: "Formación y Orientación Personal y Profesional — ESO Canarias"
   etapa: "eso"
   materia: "Formación y Orientación Personal y Profesional"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "iniciado"
+  observaciones: "Encuadre normativo confirmado el 2026-04-26 (Decreto 30/2023, art. 25: materia del elenco de 4.º ESO alineada con el carácter orientador del último curso de la etapa). Pendiente de cotejo el detalle del anexo correspondiente del decreto. Ver TAREA-025."
 
 CUR-014:
   titulo: "Geografía e Historia — ESO Canarias"
   etapa: "eso"
   materia: "Geografía e Historia"
-  norma_base: null
-  fuente: FTE-002
+  norma_base: NOR-005
+  fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-014-geografia-e-historia.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-014-geografia-e-historia.md"
-  estado_extraccion: "Pendiente"
-  observaciones: "Pendiente de confirmar la norma base autonómica; ver PREG-001."
+  estado_extraccion: "iniciado"
+  observaciones: "Encuadre normativo confirmado el 2026-04-26 (Decreto 30/2023, art. 23.1.e: común en 1.º, 2.º y 3.º ESO; art. 24: obligatoria en 4.º ESO). Pendiente de cotejo el detalle del anexo correspondiente del decreto. Ver TAREA-025."
 
 CUR-015:
   titulo: "Historia y Geografía de Canarias — ESO Canarias"

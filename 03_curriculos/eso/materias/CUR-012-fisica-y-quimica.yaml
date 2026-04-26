@@ -3,14 +3,14 @@ titulo: "Física y Química — ESO Canarias"
 etapa: "eso"
 materia: "Física y Química"
 ambito: null
-cursos: []
-norma_base: null
-fuente: FTE-002
-url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-fecha_consulta: 2026-04-25
-fecha_analisis: null
-estado_extraccion: "Pendiente"
-estado_vigencia: "Pendiente de verificación"
+cursos: ["2.º ESO", "3.º ESO", "4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "iniciado"
+estado_vigencia: "Vigente"
 elementos:
   competencias_especificas: []
   criterios_evaluacion: []
@@ -18,7 +18,7 @@ elementos:
   descriptores_operativos: []
   situaciones_aprendizaje: []
 relaciones:
-  desarrolla_a: []
-  relacionada_con: [NOR-003]
-resumen_ia: "Currículo de Física y Química en ESO localizado desde el portal oficial de Canarias; extracción pendiente de detalle y confirmación de norma base autonómica final."
-observaciones: "Pendiente de confirmar la fuente normativa autonómica final del currículo; ver PREG-001."
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005, NOR-002]
+resumen_ia: "Currículo de Física y Química en ESO Canarias regulado por el Decreto 30/2023. Materia incluida en 2.º y 3.º ESO conforme al artículo 23.1.d, y disponible en 4.º ESO como opción dentro del bloque del artículo 24. Extracción inicial: norma base confirmada en BOC; competencias específicas, criterios de evaluación y saberes básicos pendientes de cotejo con el anexo correspondiente del Decreto 30/2023."
+observaciones: "Encuadre normativo confirmado el 2026-04-26 mediante consulta del índice del BOC n.º 58/2023: Física y Química figura en 2.º y 3.º ESO (art. 23.1.d Decreto 30/2023) y como materia de 4.º ESO entre las contempladas en el artículo 24. Pendiente de cotejo el detalle curricular del anexo correspondiente del propio decreto. Ver TAREA-025."
