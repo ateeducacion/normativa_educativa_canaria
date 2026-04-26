@@ -74,3 +74,10 @@ REL-011:
   destino: NOR-011
   fuente: FTE-021
   ruta: "05_relaciones/normativa/REL-011-orden-inspeccion-desarrolla-decreto.yaml"
+
+REL-012:
+  tipo_relacion: "modifica"
+  origen: NOR-016
+  destino: NOR-015
+  fuente: FTE-015
+  ruta: "05_relaciones/normativa/REL-012-orden-03-12-2003-modifica-orden-20-10-2000.yaml"

@@ -192,3 +192,48 @@ NOR-013:
   ruta: "02_normativa/canarias/ordenes/NOR-013-orden-22-mayo-2011-inspeccion.md"
   temas: [inspeccion, organizacion]
   etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-014:
+  titulo: "Orden de 22 de febrero de 2008, por la que se regula el acceso a la formación profesional del sistema educativo y a las enseñanzas deportivas de régimen especial"
+  nombre_corto: "Orden 22-02-2008 (acceso FP Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Pendiente de verificación"
+  fecha_disposicion: 2008-02-22
+  fecha_publicacion: null
+  fecha_entrada_vigor: null
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-015
+  ruta: "02_normativa/canarias/ordenes/NOR-014-orden-22-02-2008-acceso-fp.md"
+  temas: [formacion-profesional, acceso, ensenanzas-deportivas]
+  etapas_afectadas: [formacion-profesional, ensenanzas-deportivas]
+
+NOR-015:
+  titulo: "Orden de 20 de octubre de 2000, por la que se regulan los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Orden 20-10-2000 (evaluación FP Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Pendiente de verificación"
+  fecha_disposicion: 2000-10-20
+  fecha_publicacion: null
+  fecha_entrada_vigor: null
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-015
+  ruta: "02_normativa/canarias/ordenes/NOR-015-orden-20-10-2000-evaluacion-fp.md"
+  temas: [formacion-profesional, evaluacion, ensenanzas-especificas]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-016:
+  titulo: "Orden de 3 de diciembre de 2003, por la que se modifica y amplía la Orden de 20 de octubre de 2000, que regula los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Orden 03-12-2003 (modifica orden evaluación FP)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Pendiente de verificación"
+  fecha_disposicion: 2003-12-03
+  fecha_publicacion: null
+  fecha_entrada_vigor: null
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-015
+  ruta: "02_normativa/canarias/ordenes/NOR-016-orden-03-12-2003-evaluacion-fp.md"
+  temas: [formacion-profesional, evaluacion, ensenanzas-especificas]
+  etapas_afectadas: [formacion-profesional]

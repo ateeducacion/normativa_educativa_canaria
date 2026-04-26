@@ -1,13 +1,14 @@
 ---
 id: TAREA-017
 titulo: "Inventariar y catalogar normativa de Formación Profesional en Canarias"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "analisis"
 responsable: "@.agents/skills/experto-formacion-profesional"
 fecha_creacion: 2026-04-26
 fecha_actualizacion: 2026-04-26
-relacionadas: [FTE-014, FTE-015, FTE-016, NOR-002, NOR-007, NOR-008, REL-008, TAREA-020]
+fecha_cierre: 2026-04-26
+relacionadas: [FTE-014, FTE-015, FTE-016, NOR-002, NOR-007, NOR-008, NOR-014, NOR-015, NOR-016, REL-008, REL-012, TAREA-020]
 ---
 
 # TAREA-017 — Inventariar y catalogar normativa de Formación Profesional en Canarias
@@ -35,4 +36,15 @@ Construir el bloque del corpus dedicado a Formación Profesional (FP) catalogand
 - Creada la ficha estatal `NOR-007` (LOFP) con datos verificados (BOE n.º 78, 1-04-2022; entrada en vigor 21-04-2022; deroga LO 5/2002).
 - Creada la ficha autonómica `NOR-008` (Decreto 156/1996 de FP Específica en Canarias) con `estado_vigencia: Pendiente de verificación` conforme a `DEC-0003`, dado que es pre-LOMLOE/LOFP.
 - Registrada la relación `REL-008` (NOR-007 relaciona NOR-002 / LOMLOE).
-- Pendiente de cerrar: órdenes y resoluciones canarias de FP listadas en `FTE-015` y verificación de vigencia del Decreto 156/1996. Continuación en `TAREA-020`.
+
+## Cierre — 2026-04-26
+
+- Catalogadas las tres órdenes autonómicas listadas en `FTE-015`:
+  - `NOR-014` (Orden 22-02-2008, acceso a FP del sistema educativo y enseñanzas deportivas).
+  - `NOR-015` (Orden 20-10-2000, evaluación de FP Específica).
+  - `NOR-016` (Orden 03-12-2003, que modifica la Orden 20-10-2000).
+- Registrada la relación `REL-012` (NOR-016 modifica NOR-015).
+- Nota de coordinación: los IDs `NOR-009`..`NOR-013` y `REL-009`..`REL-011` fueron asignados en paralelo a la catalogación de Centros (TAREA-014); estas órdenes de FP se han numerado a continuación (`NOR-014..016`, `REL-012`) para preservar la regla R10 de IDs estables.
+- Las órdenes se incorporan con `estado_vigencia: Pendiente de verificación` por estar redactadas bajo el marco anterior a LOMLOE/LOFP; documentado en cada ficha conforme a `DEC-0003`.
+- En `NOR-007` queda registrada como duda abierta la catalogación posterior de los principales reales decretos estatales de títulos de FP relevantes para la oferta canaria.
+- Cerrada también `TAREA-020` (cubría las órdenes); las resoluciones específicas de organización catalogadas en `FTE-015` quedan fuera del alcance de esta tarea y podrán abordarse en una iteración posterior si procede.
