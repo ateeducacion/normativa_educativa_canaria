@@ -1,0 +1,51 @@
+id: CUR-036
+titulo: "Comunicación y Representación de la Realidad — Infantil Canarias"
+etapa: "infantil"
+materia: "Comunicación y Representación de la Realidad"
+norma_base: NOR-047
+fuente: FTE-050
+competencias_especificas:
+  - id: C1
+    descripcion: "Manifestar interés por interactuar en situaciones cotidianas a través de la exploración y el uso de su repertorio comunicativo, para expresar sus necesidades e intenciones y responder a las exigencias del entorno."
+  - id: C2
+    descripcion: "Interpretar y comprender mensajes y representaciones apoyándose en conocimientos y recursos de su propia experiencia, para responder a las demandas del entorno y construir nuevos aprendizajes."
+  - id: C3
+    descripcion: "Producir mensajes de manera eficaz, personal y creativa, utilizando diferentes lenguajes, descubriendo sus códigos y herramientas, para comunicar sus ideas, sentimientos y deseos."
+  - id: C4
+    descripcion: "Participar por iniciativa propia en actividades relacionadas con textos literarios infantiles, obras artísticas y manifestaciones culturales, para desarrollar el gusto estético y la sensibilidad artística."
+bloques_saberes:
+  - id: intencion-comunicativa
+    nombre: "Bloque 1: Intención y estrategias comunicativas"
+    descripcion: "Deseo de comunicación; interacción con adultos e iguales; escucha activa."
+  - id: lenguas-perfiles
+    nombre: "Bloque 2: Lenguas y perfiles lingüísticos"
+    descripcion: "Diversidad lingüística; lengua materna y aproximación a lenguas extranjeras."
+  - id: comunicacion-oral
+    nombre: "Bloque 3: Comunicación verbal oral"
+    descripcion: "Expresión oral; vocabulario; comprensión de relatos y narraciones."
+  - id: lenguaje-escrito
+    nombre: "Bloque 4: Aproximación al lenguaje escrito"
+    descripcion: "Lectura y escritura como herramientas de comunicación; carteles, cuentos y nombres propios."
+  - id: educacion-literaria
+    nombre: "Bloque 5: Aproximación a la educación literaria"
+    descripcion: "Cuentos, poesías, adivinanzas; folclore canario."
+  - id: lenguajes-artisticos
+    nombre: "Bloques 6, 7 y 8: Lenguajes Musical, Plástico y Corporal"
+    descripcion: "Expresión mediante el sonido, la imagen, el color y el movimiento; danza y dramatización."
+  - id: alfabetizacion-digital
+    nombre: "Bloque 9: Alfabetización digital"
+    descripcion: "Uso crítico y creativo de las herramientas digitales de forma pautada."
+criterios_evaluacion:
+  - ciclo: 0-3
+    criterios:
+      - id: 1.1
+        texto: "Interactuar con los demás a través de gestos, sonidos y palabras para satisfacer necesidades."
+      - id: 3.1
+        texto: "Experimentar con diferentes materiales plásticos y sonidos para expresar ideas."
+  - ciclo: 3-6
+    criterios:
+      - id: 4.1
+        texto: "Escuchar y participar en la lectura de cuentos, identificando personajes y trama."
+      - id: 9.1
+        texto: "Iniciarse en el uso de dispositivos digitales para la creación o búsqueda de información de forma guiada."
+observaciones: "Extracción literal completada el 2026-04-26 tras consulta al BOC (Decreto 196/2022)."

@@ -354,3 +354,36 @@ CUR-033:
   ruta_yaml: "03_curriculos/primaria/materias/CUR-033-religion.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-033-religion.md"
   estado_extraccion: "completado"
+
+CUR-034:
+  titulo: "Crecimiento en Armonía — Infantil Canarias"
+  etapa: "infantil"
+  materia: "Crecimiento en Armonía"
+  norma_base: NOR-047
+  fuente: FTE-050
+  ruta_yaml: "03_curriculos/infantil/materias/CUR-034-crecimiento-armonia.yaml"
+  ruta_md: "03_curriculos/infantil/materias/CUR-034-crecimiento-armonia.md"
+  estado_extraccion: "completado"
+  observaciones: "Extracción literal Decreto 196/2022."
+
+CUR-035:
+  titulo: "Descubrimiento y Exploración del Entorno — Infantil Canarias"
+  etapa: "infantil"
+  materia: "Descubrimiento y Exploración del Entorno"
+  norma_base: NOR-047
+  fuente: FTE-050
+  ruta_yaml: "03_curriculos/infantil/materias/CUR-035-descubrimiento-entorno.yaml"
+  ruta_md: "03_curriculos/infantil/materias/CUR-035-descubrimiento-entorno.md"
+  estado_extraccion: "completado"
+  observaciones: "Extracción literal Decreto 196/2022."
+
+CUR-036:
+  titulo: "Comunicación y Representación de la Realidad — Infantil Canarias"
+  etapa: "infantil"
+  materia: "Comunicación y Representación de la Realidad"
+  norma_base: NOR-047
+  fuente: FTE-050
+  ruta_yaml: "03_curriculos/infantil/materias/CUR-036-comunicacion-representacion.yaml"
+  ruta_md: "03_curriculos/infantil/materias/CUR-036-comunicacion-representacion.md"
+  estado_extraccion: "completado"
+  observaciones: "Extracción literal Decreto 196/2022."
