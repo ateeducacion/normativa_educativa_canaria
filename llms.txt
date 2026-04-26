@@ -4,6 +4,8 @@
 
 Use este repositorio como mapa de contexto, no como sustituto de la fuente jurídica oficial. Empiece por este archivo y continúe con `llms-full.txt` si necesita más detalle estructural, reglas de uso o modelo de datos.
 
+Las rutas internas Markdown/YAML citadas en este archivo quedan publicadas en GitHub Pages bajo la misma ruta relativa: `https://ateeducacion.github.io/normativa_educativa_canaria/<ruta-interna>`.
+
 ## Foto Indexada
 
 Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo entidades registradas en `06_indices/`; no incorpora borradores locales, archivos sin seguimiento ni fichas aún no indexadas.
@@ -83,7 +85,7 @@ Consultas priorizadas:
 - **Para Biología y Geología en 3.º de ESO en Canarias...**
   - **Norma principal:** Decreto 30/2023 y anexo curricular correspondiente de la materia.
   - **Normas complementarias:** Use la extracción curricular ya cotejada en `CUR-001` para competencias específicas, criterios y saberes por curso.
-  - **Rutas internas:** `03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md`, `03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml`, `01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md`.
+  - **Rutas internas:** [`03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md`](https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md), [`03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml`](https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml), [`01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md`](https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md).
 - **Dime las competencias específicas de Matemáticas en 3.º de Primaria.**
   - **Norma principal:** Decreto 211/2022, de 10 de noviembre, y anexo curricular de Matemáticas.
   - **Normas complementarias:** Use `CUR-029`; recuerde que el corpus organiza Primaria por **ciclos**, así que 3.º pertenece al **segundo ciclo**.
@@ -118,19 +120,19 @@ Consultas priorizadas:
 - [Endpoint público de `llms.txt`](https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt)
 - [Mapa ampliado de contexto](https://ateeducacion.github.io/normativa_educativa_canaria/llms-full.txt)
 - [Panel público del repositorio](https://ateeducacion.github.io/normativa_educativa_canaria/)
-- [README del proyecto](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/README.md)
-- [Índice raíz](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/index.md)
-- [Estado del repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/status.yaml)
+- [README del proyecto](https://ateeducacion.github.io/normativa_educativa_canaria/README.md)
+- [Índice raíz](https://ateeducacion.github.io/normativa_educativa_canaria/index.md)
+- [Estado del repositorio](https://ateeducacion.github.io/normativa_educativa_canaria/status.yaml)
 - [Gobierno del repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio)
 
 ## Índices Y Corpus
 
-- [Índice de normativa](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/normativa.yaml)
-- [Índice de currículos](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/curriculos.yaml)
-- [Índice de fuentes](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/fuentes.yaml)
-- [Índice de relaciones](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/relaciones.yaml)
-- [Índice de chunks IA](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/chunks.yaml)
-- [Códigos administrativos de áreas y materias](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/03_curriculos/codigos-materias-canarias.md)
+- [Índice de normativa](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml)
+- [Índice de currículos](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml)
+- [Índice de fuentes](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/fuentes.yaml)
+- [Índice de relaciones](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/relaciones.yaml)
+- [Índice de chunks IA](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/chunks.yaml)
+- [Códigos administrativos de áreas y materias](https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/codigos-materias-canarias.md)
 - [Carpeta de normativa](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/02_normativa)
 - [Carpeta de currículos](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos)
 - [Corpus para IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia)
@@ -139,7 +141,7 @@ Consultas priorizadas:
 
 - [Skill copiable "Experto en normativa educativa de Canarias"](https://ateeducacion.github.io/normativa_educativa_canaria/skill.html)
 - [Skill canónica en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/skills/experto-normativa-educativa-canaria)
-- [Disciplina de evidencia](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/metodologia/disciplina-evidencia.md)
+- [Disciplina de evidencia](https://ateeducacion.github.io/normativa_educativa_canaria/metodologia/disciplina-evidencia.md)
 - [Metodología, criterios y glosario](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio)
-- [Guía de validación](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/guias/validacion.md)
+- [Guía de validación](https://ateeducacion.github.io/normativa_educativa_canaria/guias/validacion.md)
 - [ADR y decisiones editoriales](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/09_decisiones-editoriales)
