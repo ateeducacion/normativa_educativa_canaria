@@ -657,3 +657,48 @@ NOR-046:
   ruta: "02_normativa/canarias/resoluciones/NOR-046-resolucion-iof-primaria-25-26.md"
   temas: [organizacion, funcionamiento, instrucciones]
   etapas_afectadas: [primaria]
+
+NOR-047:
+  titulo: "Decreto 196/2022, de 13 de octubre, por el que se establece la ordenación y el currículo de la Educación Infantil en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Currículo Infantil (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-10-13
+  fecha_publicacion: 2022-10-26
+  fecha_entrada_vigor: 2022-10-27
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-050
+  ruta: "02_normativa/canarias/decretos/NOR-047-decreto-196-2022-infantil.md"
+  temas: [infantil, curriculo, ordenacion]
+  etapas_afectadas: [infantil]
+
+NOR-048:
+  titulo: "Evaluación en Educación Infantil (según Orden de 31 de mayo de 2023)"
+  nombre_corto: "Evaluación Infantil (Canarias)"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2023-05-31
+  fecha_publicacion: 2023-06-08
+  fecha_entrada_vigor: 2023-06-09
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-047
+  ruta: "02_normativa/canarias/ordenes/NOR-048-evaluacion-infantil.md"
+  temas: [evaluacion, observacion, cualitativa]
+  etapas_afectadas: [infantil]
+
+NOR-049:
+  titulo: "Resolución de 20 de junio de 2025, instrucciones para la organización y el funcionamiento de las escuelas infantiles y centros de Educación Infantil 2025-2026"
+  nombre_corto: "Instrucciones IOF Infantil 25-26"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2025-06-20
+  fecha_publicacion: null
+  fecha_entrada_vigor: 2025-09-01
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-051
+  ruta: "02_normativa/canarias/resoluciones/NOR-049-resolucion-iof-infantil-25-26.md"
+  temas: [organizacion, funcionamiento, instrucciones]
+  etapas_afectadas: [infantil]

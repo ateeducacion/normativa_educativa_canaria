@@ -438,3 +438,30 @@ FTE-049:
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/portales-oficiales/FTE-049-instrucciones-iof-25-26.md"
   estado_fuente: "Activa"
+
+FTE-050:
+  titulo: "Decreto 196/2022, currículo Educación Infantil Canarias"
+  tipo_fuente: "disposicion-general"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2022/212/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-050-boc-2022-212-curriculo-infantil.md"
+  estado_fuente: "Activa"
+
+FTE-051:
+  titulo: "Resolución de 20 de junio de 2025, IOF Escuelas Infantiles"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "Viceconsejería de Educación - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/centros/organizacion_funcionamiento/instrucciones_organizacion_funcionamiento/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-051-instrucciones-iof-infantil-25-26.md"
+  estado_fuente: "Activa"
+
+FTE-052:
+  titulo: "Decreto 201/2008, requisitos centros primer ciclo Infantil"
+  tipo_fuente: "disposicion-general"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2008/203/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-052-boc-2008-203-requisitos-infantil.md"
+  estado_fuente: "Activa"
