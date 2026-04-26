@@ -3,14 +3,14 @@ titulo: "Matemáticas — ESO Canarias"
 etapa: "eso"
 materia: "Matemáticas"
 ambito: null
-cursos: []
-norma_base: null
-fuente: FTE-002
-url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-fecha_consulta: 2026-04-25
-fecha_analisis: null
-estado_extraccion: "Pendiente"
-estado_vigencia: "Pendiente de verificación"
+cursos: ["1.º ESO", "2.º ESO", "3.º ESO", "4.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "parcial"
+estado_vigencia: "Vigente"
 elementos:
   competencias_especificas: []
   criterios_evaluacion: []
@@ -18,7 +18,7 @@ elementos:
   descriptores_operativos: []
   situaciones_aprendizaje: []
 relaciones:
-  desarrolla_a: []
-  relacionada_con: [NOR-003]
-resumen_ia: "Currículo de Matemáticas en ESO localizado desde el portal oficial de Canarias; extracción pendiente de detalle y confirmación de norma base autonómica final."
-observaciones: "Pendiente de confirmar la fuente normativa autonómica final del currículo; ver PREG-001."
+  desarrolla_a: [NOR-003]
+  relacionada_con: [NOR-005]
+resumen_ia: "Currículo de Matemáticas en ESO Canarias regulado por el Decreto 30/2023 (NOR-005). La materia se imparte en 1.º, 2.º y 3.º de ESO (artículo 23.1.g) y en 4.º de ESO se desdobla en Matemáticas A o Matemáticas B (artículo 25.1.e). Marco estatal: RD 217/2022 (NOR-003). [PENDIENTE] de cotejo del detalle de competencias específicas, criterios de evaluación y saberes básicos con el anexo II del Decreto 30/2023 (PDF oficial del BOC, 1953 páginas)."
+observaciones: "Extracción parcial: la metadata (norma base autonómica, cursos y fuente) queda confirmada contra el articulado del Decreto 30/2023 publicado en el BOC n.º 58, de 23 de marzo de 2023 (FTE-009). El detalle curricular (competencias específicas, criterios de evaluación y saberes básicos por bloque) queda como [PENDIENTE] hasta poder consultar el anexo II del Decreto 30/2023 con la materia desarrollada. Ver TAREA-027."

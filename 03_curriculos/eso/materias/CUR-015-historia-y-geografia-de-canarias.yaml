@@ -3,22 +3,36 @@ titulo: "Historia y Geografía de Canarias — ESO Canarias"
 etapa: "eso"
 materia: "Historia y Geografía de Canarias"
 ambito: null
-cursos: []
-norma_base: null
-fuente: FTE-002
-url_oficial: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-fecha_consulta: 2026-04-25
-fecha_analisis: null
-estado_extraccion: "Pendiente"
-estado_vigencia: "Pendiente de verificación"
+cursos: ["3.º ESO"]
+norma_base: NOR-005
+fuente: FTE-009
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-04-26
+estado_extraccion: "parcial"
+estado_vigencia: "Vigente"
 elementos:
-  competencias_especificas: []
-  criterios_evaluacion: []
-  saberes_basicos: []
+  competencias_especificas:
+    - codigo: "C1"
+      enunciado_resumido: "[PENDIENTE] Pendiente de cotejo con el anexo del Decreto 30/2023; previsiblemente vinculada al medio físico y a los paisajes de Canarias."
+      enunciado_oficial: "[PENDIENTE] Texto literal del Anexo del Decreto 30/2023 a cotejar."
+      descriptores: []
+    - codigo: "C2"
+      enunciado_resumido: "[PENDIENTE] Pendiente de cotejo con el anexo del Decreto 30/2023; previsiblemente vinculada al análisis de procesos históricos y demográficos de Canarias."
+      enunciado_oficial: "[PENDIENTE] Texto literal del Anexo del Decreto 30/2023 a cotejar."
+      descriptores: []
+  criterios_evaluacion:
+    - curso: "3.º ESO"
+      criterios:
+        - "[PENDIENTE] Criterios de evaluación pendientes de cotejo con el anexo del Decreto 30/2023."
+  saberes_basicos:
+    - bloque: "[PENDIENTE] Bloques de saberes básicos pendientes de cotejo con el anexo del Decreto 30/2023."
+      cursos: ["3.º ESO"]
+      detalles: "[PENDIENTE] Contenidos esperables de la materia: medio físico de Canarias, poblamiento, etapas históricas (mundo aborigen, conquista, modernidad y contemporaneidad), territorio, economía, demografía actual del archipiélago, identidad y patrimonio canarios. Contenido literal pendiente de cotejo con el anexo del Decreto 30/2023."
   descriptores_operativos: []
   situaciones_aprendizaje: []
 relaciones:
   desarrolla_a: []
-  relacionada_con: [NOR-003]
-resumen_ia: "Currículo de Historia y Geografía de Canarias en ESO localizado desde el portal oficial de Canarias; extracción pendiente de detalle y confirmación de norma base autonómica final."
-observaciones: "Pendiente de confirmar la fuente normativa autonómica final del currículo; ver PREG-001."
+  relacionada_con: [NOR-005, NOR-003]
+resumen_ia: "Currículo de Historia y Geografía de Canarias en 3.º ESO regulado por el Decreto 30/2023 (NOR-005). Es una materia propia del currículo autonómico canario establecida en el artículo 23.5 del decreto y, por su carácter específicamente canario, no aparece en el RD 217/2022 estatal. La extracción del anexo (competencias específicas literales, criterios de evaluación y saberes básicos) queda pendiente."
+observaciones: "Materia propia del currículo canario. El artículo 23.5 del Decreto 30/2023 establece que en 3.º ESO el alumnado cursará la materia de Historia y Geografía de Canarias (confirmado en BOC n.º 58 de 23-3-2023, FTE-009). El contenido íntegro del anexo no se ha podido cotejar en esta extracción inicial; competencias específicas, criterios de evaluación, saberes básicos y descriptores operativos quedan marcados como [PENDIENTE] hasta una revisión sobre el PDF oficial del BOC. Ver TAREA-026 y PREG-001."

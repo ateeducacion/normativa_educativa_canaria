@@ -22,3 +22,23 @@ CHUNK-00005:
   origen_id: AN-002
   titulo: "Currículos ESO Canarias — inventario inicial"
   ruta: "07_corpus_ia/chunks/CHUNK-00005-curriculos-eso-canarias-inventario-inicial.yaml"
+
+CHUNK-00006:
+  origen_id: NOR-024
+  titulo: "Atención a la diversidad en Canarias (Decreto 25/2018)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00006-atencion-diversidad-resumen.yaml"
+
+CHUNK-00007:
+  origen_id: NOR-005
+  titulo: "Currículo ESO y Bachillerato en Canarias (Decreto 30/2023)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00007-curriculo-eso-bach-resumen.yaml"
+
+CHUNK-00008:
+  origen_id: AN-001
+  titulo: "Jerarquía normativa educativa en Canarias"
+  ruta: "07_corpus_ia/chunks/CHUNK-00008-jerarquia-normativa-transversal.yaml"
+
+CHUNK-00009:
+  origen_id: NOR-007
+  titulo: "Sistema integrado de Formación Profesional (LOFP 3/2022)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00009-lofp-fp-resumen.yaml"

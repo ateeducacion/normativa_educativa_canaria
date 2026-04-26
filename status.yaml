@@ -249,6 +249,17 @@ tareas:
     relacionadas: [TAREA-016, TAREA-021, FTE-027, FTE-028, FTE-029, FTE-030, FTE-040, FTE-041, FTE-042, FTE-043, FTE-044, NOR-037, NOR-038, NOR-039, NOR-040, NOR-041, REL-034, REL-035, REL-036, REL-037, REL-038]
     siguiente_accion: null
 
+  TAREA-023:
+    titulo: "Completar fichas normativas básicas de centros y personal docente"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "analisis"
+    responsable: "@.agents/skills/analisis-normativo"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [NOR-009, NOR-010, NOR-011, NOR-012, NOR-013, NOR-019, NOR-020, NOR-021, NOR-022, NOR-023, NOR-034, NOR-035, NOR-036]
+    siguiente_accion: null
+
 bloqueos: []
 
 reglas:
