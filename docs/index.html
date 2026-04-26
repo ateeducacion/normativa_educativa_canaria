@@ -8,6 +8,13 @@
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/site.css">
+    <style>
+      .copy-block { position: relative; }
+      .copy-block .btn-copy { position: absolute; top: .5rem; right: .5rem; z-index: 2; }
+      .copy-block pre { padding-top: 2.5rem; }
+      pre code { white-space: pre-wrap; }
+      .compare-card pre { white-space: pre-wrap; font-size: .825rem; }
+    </style>
   </head>
   <body>
     <a class="visually-hidden-focusable skip-link" href="#contenido">Saltar al contenido principal</a>
@@ -23,6 +30,7 @@
               <li class="nav-item"><a class="nav-link" href="#panel">Panel</a></li>
               <li class="nav-item"><a class="nav-link" href="#flujo-ia">Flujo IA</a></li>
               <li class="nav-item"><a class="nav-link" href="#preguntas">Cómo preguntar</a></li>
+              <li class="nav-item"><a class="nav-link" href="#comparativa">Sin/con contexto</a></li>
               <li class="nav-item"><a class="nav-link" href="skill.html">Skill</a></li>
               <li class="nav-item"><a class="nav-link" href="mcp.html">MCP</a></li>
             </ul>
@@ -224,27 +232,127 @@
 
       <section id="preguntas" class="py-5 border-top">
         <div class="container">
-          <h2 class="h3 mb-4">Cómo pedir ayuda a una IA con este repositorio</h2>
+          <h2 class="h3 mb-3">Cómo pedir ayuda a una IA con este repositorio</h2>
+          <p class="small text-secondary mb-4">Dos rutas, ambas son <strong>copiar y pegar</strong>: la skill cargada como rol, o la URL del repo directamente como contexto.</p>
+
           <div class="row g-4">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
               <article class="prompt-card h-100">
-                <h3 class="h5">Pregunta general</h3>
-                <p class="small mb-0">“Abre el repositorio <code>ateeducacion/normativa_educativa_canaria</code>, lee primero <code>llms.txt</code> y responde usando los archivos del repositorio como contexto. Cita las normas por su denominación oficial.”</p>
+                <span class="badge text-bg-primary mb-2">Opción A — Recomendada</span>
+                <h3 class="h5">Con la skill cargada como rol</h3>
+                <p class="small">Pega <a href="skill.html"><code>SKILL.md</code></a> como instrucciones de sistema (Claude Project, ChatGPT custom GPT, Gemini Gem, Cursor rules, etc.). Después escribe tu pregunta normalmente. La skill obliga al asistente a citar artículo/anexo y a respetar la jerarquía vigente.</p>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <a class="btn btn-sm btn-primary" href="skill.html">Abrir skill (con copia un clic)</a>
+                  <a class="btn btn-sm btn-outline-primary" href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/INSTALACION.md">Instalación por plataforma</a>
+                </div>
+                <p class="small mb-1"><strong>Plantilla de pregunta:</strong></p>
+                <div class="copy-block">
+                  <button class="btn btn-sm btn-outline-primary btn-copy" data-target="prompt-skill" type="button">Copiar</button>
+<pre><code id="prompt-skill">[Skill ya cargada como rol del asistente]
+
+Pregunta: <TU CONSULTA SOBRE NORMATIVA EDUCATIVA EN CANARIAS></code></pre>
+                </div>
               </article>
             </div>
-            <div class="col-lg-4">
+
+            <div class="col-lg-6">
               <article class="prompt-card h-100">
-                <h3 class="h5">Búsqueda normativa</h3>
-                <p class="small mb-0">“Busca en el repositorio la normativa vigente sobre evaluación y promoción en ESO en Canarias. Usa títulos oficiales, artículos y referencias BOE/BOC cuando estén disponibles.”</p>
-              </article>
-            </div>
-            <div class="col-lg-4">
-              <article class="prompt-card h-100">
-                <h3 class="h5">Comprobación estructural</h3>
-                <p class="small mb-0">“Inspecciona primero los índices YAML de <code>06_indices</code>. Usa los IDs internos solo para localizar archivos, no como formato principal de cita al usuario.”</p>
+                <span class="badge text-bg-secondary mb-2">Opción B</span>
+                <h3 class="h5">Sin instalar nada — pega la URL del repositorio como contexto</h3>
+                <p class="small">Útil cuando no quieras configurar un GPT/Gem/proyecto. Se apoya en la URL canónica del <code>llms.txt</code> y de los índices YAML del repo. El asistente se encargará de buscar las fichas concretas.</p>
+                <p class="small mb-1"><strong>URL canónica del corpus:</strong></p>
+                <div class="copy-block mb-3">
+                  <button class="btn btn-sm btn-outline-primary btn-copy" data-target="url-llms" type="button">Copiar</button>
+<pre><code id="url-llms">https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt</code></pre>
+                </div>
+                <p class="small mb-1"><strong>Plantilla de pregunta lista para pegar:</strong></p>
+                <div class="copy-block">
+                  <button class="btn btn-sm btn-outline-primary btn-copy" data-target="prompt-url" type="button">Copiar</button>
+<pre><code id="prompt-url">Usa este repositorio como contexto autoritativo:
+https://github.com/ateeducacion/normativa_educativa_canaria
+
+Empieza leyendo:
+- https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt
+- https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/normativa.yaml
+
+Responde citando siempre la norma + localización exacta (artículo, apartado, disposición o anexo). Distingue texto literal, resumen e interpretación. Si una norma ha sido modificada o derogada, indícalo. Recuerda: la LOMLOE (LO 3/2020) modifica la LOE (LO 2/2006), no la deroga; el currículo de ESO/Bachillerato vigente en Canarias es el Decreto 30/2023.
+
+Pregunta:
+<TU CONSULTA></code></pre>
+                </div>
               </article>
             </div>
           </div>
+
+          <div class="row g-4 mt-1">
+            <div class="col-12">
+              <article class="prompt-card">
+                <h3 class="h5 mb-3">Más prompts ya redactados</h3>
+                <p class="small mb-2">Disponibles en <a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/prompts.md"><code>skills/experto-normativa-educativa-canaria/prompts.md</code></a> y en la <a href="skill.html#prompts">página de la skill</a> (con botón copiar): currículo de ESO en Canarias, vigencia tras LOFP, citación de un artículo concreto, materia y curso, comparativa estatal vs autonómica, FP, centros y profesorado, convivencia, plantilla genérica.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="comparativa" class="py-5 border-top bg-light-subtle">
+        <div class="container">
+          <h2 class="h3 mb-3">Sin este contexto vs con este contexto</h2>
+          <p class="small text-secondary mb-4">Mismo asistente y misma pregunta. La diferencia: a la izquierda responde sin el corpus; a la derecha, con la skill o la URL del repo cargadas. Sirve para detectar errores típicos: vigencias mal afirmadas, citas vagas, decretos antiguos, falta de localización exacta.</p>
+
+          <div class="row g-4 align-items-stretch">
+            <div class="col-12">
+              <article class="prompt-card">
+                <p class="small mb-1"><strong>Pregunta de prueba</strong> (úsala con o sin contexto y compara):</p>
+                <div class="copy-block">
+                  <button class="btn btn-sm btn-outline-primary btn-copy" data-target="pregunta-prueba" type="button">Copiar</button>
+<pre><code id="pregunta-prueba">¿Cuál es la norma autonómica vigente que regula el currículo de ESO en Canarias y qué real decreto estatal desarrolla? Aclara si la LOMLOE deroga o modifica la LOE.</code></pre>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6">
+              <article class="prompt-card compare-card h-100 border-danger-subtle">
+                <span class="badge text-bg-danger mb-2">Sin contexto del repositorio</span>
+                <h3 class="h5">Respuesta típica de una IA «desnuda»</h3>
+                <p class="small mb-2 text-secondary">(síntesis ilustrativa de errores frecuentes observados en respuestas sin corpus)</p>
+                <pre class="small mb-0"><code>El currículo de ESO en Canarias está regulado por un decreto autonómico que desarrolla la LOMLOE. La LOMLOE deroga la LOE y establece el nuevo marco educativo. El real decreto estatal aplicable es el RD que desarrolla la LOMLOE para Secundaria.
+
+Para detalles concretos consulte el BOC.</code></pre>
+                <p class="small mt-3 mb-0"><strong>Problemas:</strong></p>
+                <ul class="small mb-0">
+                  <li>Cita vaga: «un decreto autonómico», «el RD que desarrolla la LOMLOE» (sin nombre, sin número, sin fecha).</li>
+                  <li>Error grave: dice que la <strong>LOMLOE deroga la LOE</strong>; en realidad la <strong>modifica</strong>.</li>
+                  <li>No localiza ningún artículo o anexo.</li>
+                  <li>Remite a la fuente oficial sin haber aportado nada útil.</li>
+                </ul>
+              </article>
+            </div>
+
+            <div class="col-md-6">
+              <article class="prompt-card compare-card h-100 border-success-subtle">
+                <span class="badge text-bg-success mb-2">Con la skill o el repo como contexto</span>
+                <h3 class="h5">Respuesta esperada con este corpus</h3>
+                <pre class="small mb-0"><code>### Respuesta breve
+El currículo vigente de ESO en Canarias está regulado por el Decreto 30/2023, de 16 de marzo, que desarrolla en el ámbito autonómico el Real Decreto 217/2022. La LOMLOE no deroga la LOE: la modifica.
+
+### Fundamento normativo
+- Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de ESO y Bachillerato en la Comunidad Autónoma de Canarias (BOC n.º 58, de 23-03-2023). Sustituye a los Decretos 315/2015 y 83/2016 (disposición transitoria 2.ª y derogatoria única).
+- Real Decreto 217/2022, de 29 de marzo, por el que se establecen la ordenación y las enseñanzas mínimas de la ESO (BOE n.º 76, de 30-03-2022).
+- Ley Orgánica 3/2020, de 29 de diciembre (LOMLOE), que modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE). La LOE permanece vigente en su redacción dada por la LOMLOE.
+
+### Aplicación práctica en Canarias
+El Decreto 30/2023 organiza ESO en tres capítulos y nueve anexos curriculares por materia, vigentes en todos los centros canarios públicos y privados.
+
+### Límites o aspectos a verificar
+- Las modificaciones posteriores al Decreto 30/2023 deben verificarse en el texto consolidado del BOC.
+- La fecha exacta de entrada en vigor figura en la disposición final segunda.</code></pre>
+                <p class="small mt-3 mb-0"><strong>Mejoras visibles:</strong> nombre y fecha exactos del decreto autonómico y del real decreto estatal, BOC y BOE con número y fecha, jerarquía LOE/LOMLOE correcta, sección de límites con qué verificar.</p>
+              </article>
+            </div>
+          </div>
+
+          <p class="small text-secondary mt-3 mb-0">¿Quieres reproducirlo? Copia la pregunta de prueba y pruébala primero en un chat «desnudo», después con la <a href="skill.html">skill</a> cargada o con la URL del repositorio como contexto.</p>
         </div>
       </section>
     </main>
@@ -258,5 +366,34 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="assets/js/site.js"></script>
+    <script>
+      document.querySelectorAll('.btn-copy').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var id = btn.getAttribute('data-target');
+          var el = document.getElementById(id);
+          if (!el) return;
+          var text = el.innerText;
+          var done = function () {
+            var prev = btn.textContent;
+            btn.textContent = 'Copiado';
+            btn.disabled = true;
+            setTimeout(function () { btn.textContent = prev; btn.disabled = false; }, 1500);
+          };
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(done).catch(function () {
+              var ta = document.createElement('textarea');
+              ta.value = text; document.body.appendChild(ta); ta.select();
+              try { document.execCommand('copy'); done(); } catch (e) { /* noop */ }
+              document.body.removeChild(ta);
+            });
+          } else {
+            var ta = document.createElement('textarea');
+            ta.value = text; document.body.appendChild(ta); ta.select();
+            try { document.execCommand('copy'); done(); } catch (e) { /* noop */ }
+            document.body.removeChild(ta);
+          }
+        });
+      });
+    </script>
   </body>
 </html>
