@@ -33,3 +33,5 @@ Este directorio contiene la versión estática y mantenible del panel público d
 - Se prefiere la publicación directa desde `/docs` porque no requiere build ni GitHub Actions.
 - Si en el futuro hiciera falta un proceso de generación, entonces podría añadirse un workflow de Pages.
 - `docs/llms.txt` y `docs/llms-full.txt` deben mantenerse consistentes con sus equivalentes en la raíz del repositorio.
+- Proceso recomendado de sincronización manual: editar primero `llms.txt` o `llms-full.txt` en la raíz y después copiar la versión final a `docs/` antes de cerrar la tarea.
+- Comprobación mínima recomendada: verificar que `llms.txt` coincida con `docs/llms.txt` y que `llms-full.txt` coincida con `docs/llms-full.txt`.
