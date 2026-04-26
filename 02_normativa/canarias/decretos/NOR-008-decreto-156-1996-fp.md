@@ -80,9 +80,10 @@ Norma fundacional de la FP específica en Canarias. Aunque de 1996, sigue siendo
 
 - **¿Es este el decreto vigente?** Es la base autonómica, pero la ordenación actual emana de la Ley Orgánica 3/2022 y el RD 659/2023 estatal.
 
-## 10. Dudas abiertas
+## 10. Notas de vigencia
 
-- [PENDIENTE] Analizar qué artículos han sido desplazados expresamente por el RD 659/2023 en el contexto canario.
+- **Sustitución progresiva:** El **Real Decreto 659/2023** establece el nuevo Sistema de Formación Profesional, desplazando la ordenación previa de la LOGSE/LOE en todo lo que se oponga al nuevo sistema integrado de grados (A, B, C, D y E).
+- **Instrucciones en Canarias:** La **Resolución de 9 de junio de 2025** (BOC 17/06/2025) regula la evaluación y las exenciones para el curso 2024/2025 y siguientes en Canarias, adaptando el marco a la nueva ley.
 
 ## 11. Fuentes
 

@@ -77,9 +77,10 @@ Decreto autonómico canario vigente que regula la atención a la diversidad en e
 - **¿Sustituye a la fuente oficial?** No. Esta ficha solo resume y enlaza la fuente oficial.
 - **¿Afecta solo a alumnado con NEE?** No. Su alcance es la diversidad de todo el alumnado y, en especial, alumnado con NEAE o riesgo de exclusión.
 
-## 10. Dudas abiertas
+## 10. Notas de vigencia
 
-- [PENDIENTE] Revisar si existe desarrollo posterior completo que sustituya la Orden de 13 de diciembre de 2010 y la Resolución de 9 de febrero de 2011.
+- **Desarrollo:** Desarrollado por la **Orden de 29 de mayo de 2023** (`NOR-050`) sobre procedimientos y por la **Orden de 31 de mayo de 2023** (`NOR-044`) sobre evaluación.
+- **Relación con normas previas:** El desarrollo de 2023 desplaza gran parte de la Orden de 2010 y la Resolución de 2011.
 
 ## 11. Fuentes
 

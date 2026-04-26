@@ -10,7 +10,7 @@ fecha_publicacion: 2010-12-22
 fecha_entrada_vigor: 2010-12-23
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
-estado_vigencia: "Vigente (con desarrollo posterior Decreto 25/2018)"
+estado_vigencia: "Superada parcialmente"
 fuente_principal: FTE-028
 url_oficial: "https://www.gobiernodecanarias.org/boc/2010/250/001.html"
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
@@ -34,7 +34,7 @@ nivel_evidencia: "confirmado-fuente-primaria"
 - **Norma:** Orden de 13 de diciembre de 2010.
 - **Publicación:** BOC n.º 250, de 22 de diciembre de 2010.
 - **Corrección de errores:** BOC n.º 258, de 1 de diciembre de 2000 (corresponde a la de 2010 según el portal oficial).
-- **Estado de vigencia:** Mantiene su vigencia técnica y procedimental en todo lo que no contradiga al Decreto 25/2018 (`NOR-024`).
+- **Estado de vigencia:** Superada parcialmente (Procedimientos y Evaluación desplazados por las Órdenes de mayo de 2023).
 
 ## 2. Objeto de la norma
 

@@ -298,3 +298,17 @@ REL-046:
   destino: NOR-023
   fuente: FTE-045
   ruta: "05_relaciones/normativa/REL-046-resolucion-2026-deroga-2020.yaml"
+
+REL-047:
+  tipo_relacion: "desarrolla"
+  origen: NOR-050
+  destino: NOR-024
+  fuente: FTE-053
+  ruta: "05_relaciones/normativa/REL-047-orden-procedimientos-desarrolla-decreto-diversidad.yaml"
+
+REL-048:
+  tipo_relacion: "deroga"
+  origen: NOR-050
+  destino: NOR-025
+  fuente: FTE-053
+  ruta: "05_relaciones/normativa/REL-048-orden-2023-deroga-orden-2010.yaml"

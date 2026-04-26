@@ -74,9 +74,10 @@ Orden de 2008 que establece cómo acceder a la FP en Canarias. Distingue entre a
 
 - **¿A qué edad puedo hacer la prueba?** Generalmente 17 años para Grado Medio y 19 para Grado Superior (o 18 si se tiene título de técnico relacionado).
 
-## 10. Dudas abiertas
+## 10. Notas de vigencia
 
-- [PENDIENTE] Verificar el impacto del Real Decreto 659/2023 en las exenciones por experiencia laboral contempladas en esta orden.
+- **Sustitución:** El **Real Decreto 659/2023** unifica los criterios de exención por experiencia laboral (1 año para Grados D).
+- **Procedimiento:** La **Resolución de 9 de junio de 2025** en Canarias regula específicamente el procedimiento de exención en los centros para el nuevo sistema.
 
 ## 11. Fuentes
 

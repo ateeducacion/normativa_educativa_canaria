@@ -76,9 +76,9 @@ Ley autonómica canaria vigente que regula la atención temprana a menores de 0 
 - **¿Es una norma educativa?** No exclusivamente; se cataloga aquí por su conexión oficial con atención a la diversidad y coordinación educativa.
 - **¿Sustituye normativa NEAE?** No. Complementa el marco preventivo e interadministrativo.
 
-## 10. Dudas abiertas
+## 10. Notas de vigencia
 
-- [PENDIENTE] Identificar desarrollo reglamentario posterior con impacto directo en centros educativos.
+- **Desarrollo Educativo:** El sistema educativo canario integra la atención temprana mediante el **Decreto 25/2018** (`NOR-024`) y, recientemente, por la **Resolución 838/2025**, que regula los **Equipos Especializados en Atención Temprana** para el asesoramiento a centros y escuelas infantiles.
 
 ## 11. Fuentes
 

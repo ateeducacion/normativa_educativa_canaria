@@ -73,9 +73,10 @@ Orden base que regula cómo se evalúa la FP en Canarias. Aunque es de la etapa 
 
 - **¿Se puede reclamar una nota en FP?** Sí, esta orden regula el procedimiento y los plazos de reclamación ante el centro.
 
-## 10. Dudas abiertas
+## 10. Notas de vigencia
 
-- [PENDIENTE] Comprobar el estado de los nuevos modelos de acta derivados de la implantación de los Grados D y E en 2024/2025.
+- **Sustitución:** Las instrucciones de evaluación para los nuevos Grados D y E (LOFP) se encuentran en la **Resolución de 9 de junio de 2025** (BOC 17/06/2025).
+- **Vigencia residual:** Esta orden se mantiene únicamente para los cursos de ciclos iniciados con el modelo anterior hasta su extinción definitiva.
 
 ## 11. Fuentes
 

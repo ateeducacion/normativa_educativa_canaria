@@ -76,9 +76,10 @@ Decreto autonómico vigente que ordena las residencias escolares en Canarias com
 - **¿Es una norma de centros ordinarios?** No; regula residencias escolares.
 - **¿Se relaciona con transporte escolar?** Sí, por servicios complementarios y acceso a la escolarización.
 
-## 10. Dudas abiertas
+## 10. Notas de vigencia
 
-- [PENDIENTE] Revisar órdenes históricas de residencias que el portal oficial mantiene con vigencia parcial.
+- **Admisión:** Sigue aplicando parcialmente la **Orden de 29 de enero de 1999** para los criterios de prioridad y baremación de acceso a plazas.
+- **Gobierno:** Sigue aplicando la **Orden de 3 de marzo de 1995** para la elección de Consejos de Residencia y Directores/as.
 
 ## 11. Fuentes
 

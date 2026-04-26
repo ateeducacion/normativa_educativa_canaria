@@ -77,9 +77,10 @@ Resolución autonómica con instrucciones operativas para procedimientos y plazo
 - **¿Es una norma estructural o una instrucción?** Es una resolución con instrucciones publicadas en BOC.
 - **¿Debe usarse con cautela?** Sí. La fuente oficial la mantiene vigente hasta desarrollo del Decreto 25/2018.
 
-## 10. Dudas abiertas
+## 10. Notas de vigencia
 
-- [PENDIENTE] Verificar desarrollos posteriores o instrucciones anuales que hayan actualizado apartados concretos.
+- **Sustitución:** Gran parte de sus instrucciones sobre procedimientos han sido actualizadas y desplazadas por la **Orden de 29 de mayo de 2023** (`NOR-050`).
+- **Sustitución:** Los aspectos de evaluación han sido desplazados por la **Orden de 31 de mayo de 2023** (`NOR-044`).
 
 ## 11. Fuentes
 

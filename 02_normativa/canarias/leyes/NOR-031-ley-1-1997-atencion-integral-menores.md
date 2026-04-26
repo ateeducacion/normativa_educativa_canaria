@@ -76,9 +76,10 @@ Ley autonómica canaria vigente sobre atención integral a menores. No es una no
 - **¿Es una norma curricular?** No.
 - **¿Debe confundirse con protocolos educativos?** No. Es marco legal de protección de menores.
 
-## 10. Dudas abiertas
+## 10. Notas de vigencia
 
-- [PENDIENTE] Revisar desarrollos posteriores sectoriales cuando se aborden protocolos de protección de infancia.
+- **Protección Integral (LOPIVI):** El marco de esta ley se complementa con la **Ley Orgánica 8/2021 (LOPIVI)**, cuya implementación en Canarias obliga a la designación del **Coordinador de Bienestar y Protección** en todos los centros docentes.
+- **Protocolos:** Existen protocolos específicos de obligado cumplimiento para centros canarios sobre acoso escolar, riesgo suicida y maltrato infantil.
 
 ## 11. Fuentes
 

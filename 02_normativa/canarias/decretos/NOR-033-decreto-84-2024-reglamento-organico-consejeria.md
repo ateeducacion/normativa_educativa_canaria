@@ -77,9 +77,9 @@ Decreto autonómico vigente que aprueba el Reglamento Orgánico de la Consejerí
 - **¿Regula derechos del alumnado?** No directamente; regula organización administrativa.
 - **¿Es útil para trazabilidad?** Sí, para identificar órganos competentes.
 
-## 10. Dudas abiertas
+## 10. Notas de vigencia
 
-- [PENDIENTE] Revisar futuras modificaciones orgánicas cuando cambie la estructura del Gobierno de Canarias.
+- **Actualidad:** Este reglamento de 2024 es la norma orgánica vigente que refleja la estructura actual de la Consejería (incluyendo Formación Profesional y Actividad Física y Deportes).
 
 ## 11. Fuentes
 

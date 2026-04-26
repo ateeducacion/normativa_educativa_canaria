@@ -76,9 +76,9 @@ Ley canaria vigente de igualdad social y no discriminación por identidad de gé
 - **¿Es un protocolo educativo?** No. Es una ley autonómica.
 - **¿Las orientaciones y protocolos asociados son normas?** Solo se catalogan como fuente no normativa si procede, conforme a `DEC-0005`.
 
-## 10. Dudas abiertas
+## 10. Notas de vigencia
 
-- [PENDIENTE] Catalogar por separado las resoluciones/protocolos educativos si se decide abrir fuentes no normativas de igualdad.
+- **Protocolo Educativo:** Desarrollada en el ámbito escolar por la **Resolución n.º 575/2021, de 18 de marzo**, que actualiza el **Protocolo para el acompañamiento al alumnado Trans*** y la atención a la diversidad de género.
 
 ## 11. Fuentes
 

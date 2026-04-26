@@ -7,7 +7,7 @@ ambito: "canarias"
 autoridad: "Consejería de Educación, Universidades, Cultura y Deportes (Gobierno de Canarias)"
 fecha_disposicion: 2023-03-16
 fecha_publicacion: 2023-03-23
-fecha_entrada_vigor: null
+fecha_entrada_vigor: 2023-03-24
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
@@ -37,7 +37,8 @@ nivel_evidencia: "confirmado-fuente-primaria"
 - **Autoridad:** Consejería de Educación, Universidades, Cultura y Deportes (Gobierno de Canarias)
 - **Fuente oficial:** [FTE-009](../../../01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md)
 - **Publicación:** BOC n.º 58, de 23 de marzo de 2023, p. 848
-- **Fecha de consulta:** 2026-04-26
+- **Entrada en vigor:** 24 de marzo de 2023 (Disposición Final Segunda).
+- **Fecha de consulta:** 2026-04-26.
 - **Estado de vigencia:** Vigente
 
 ## 2. Objeto de la norma
@@ -89,10 +90,11 @@ Decreto autonómico canario de 2023 que establece la ordenación y el currículo
 - **¿Sustituye al RD 217/2022?** No; lo desarrolla en el ámbito autonómico canario. La norma básica estatal sigue siendo el real decreto.
 - **¿A qué decretos sustituye?** A los Decretos 315/2015 y 83/2016 en lo relativo al currículo de ESO y Bachillerato, según la disposición derogatoria única.
 
-## 10. Dudas abiertas
+## 10. Notas de vigencia
 
-- [PENDIENTE] Confirmar la fecha exacta de entrada en vigor según la disposición final segunda del texto íntegro publicado en BOC.
-- [PENDIENTE] Verificar si existen modificaciones autonómicas posteriores al Decreto 30/2023.
+- **Entrada en vigor:** 24 de marzo de 2023 (al día siguiente de su publicación en el BOC).
+- **Calendario de implantación:** Cursos impares en 2022-2023; cursos pares en 2023-2024 (Disposición Transitoria Primera).
+- **Desarrollo:** Desarrollado por la Orden de 31 de mayo de 2023 en materia de evaluación.
 - [NOTA] Vigencia confirmada en el BOC n.º 58, de 23 de marzo de 2023, fuente oficial `FTE-009`.
 
 ## 11. Fuentes
