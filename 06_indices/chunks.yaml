@@ -42,3 +42,23 @@ CHUNK-00009:
   origen_id: NOR-007
   titulo: "Sistema integrado de Formación Profesional (LOFP 3/2022)"
   ruta: "07_corpus_ia/chunks/CHUNK-00009-lofp-fp-resumen.yaml"
+
+CHUNK-00010:
+  origen_id: NOR-042
+  titulo: "Permisos y Licencias Personal Docente 2026 (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00010-permisos-docentes-2026.yaml"
+
+CHUNK-00011:
+  origen_id: NOR-029
+  titulo: "Baremo y criterios de Admisión de Alumnado (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00011-admision-alumnado-baremo.yaml"
+
+CHUNK-00012:
+  origen_id: NOR-043
+  titulo: "Resumen del Currículo de Educación Primaria (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00012-curriculo-primaria-resumen.yaml"
+
+CHUNK-00013:
+  origen_id: NOR-047
+  titulo: "Resumen del Currículo de Educación Infantil (Canarias)"
+  ruta: "07_corpus_ia/chunks/CHUNK-00013-curriculo-infantil-resumen.yaml"
