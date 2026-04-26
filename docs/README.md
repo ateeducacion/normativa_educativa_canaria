@@ -36,6 +36,8 @@ Para activar la publicación una vez:
 - `https://ateeducacion.github.io/normativa_educativa_canaria/llms-full.txt`
 - `https://ateeducacion.github.io/normativa_educativa_canaria/skill.md`
 - `https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml`
+- `https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml`
+- `https://ateeducacion.github.io/normativa_educativa_canaria/07_corpus_ia/textos-completos/texto-oficial-NOR-005-decreto-30-2023.txt`
 - `https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md`
 - `https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml`
 

@@ -61,8 +61,10 @@ jobs:
           test -f _site/skill.md
           test -f _site/index.html
           test -f _site/06_indices/curriculos.yaml
+          test -f _site/06_indices/textos-oficiales.yaml
           test -f _site/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md
           test -f _site/03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml
+          test -f _site/07_corpus_ia/textos-completos/texto-oficial-NOR-005-decreto-30-2023.txt
 
       - name: Subir artefacto Pages
         uses: actions/upload-pages-artifact@v3

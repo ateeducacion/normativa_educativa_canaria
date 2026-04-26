@@ -21,7 +21,8 @@ Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo e
 | Currículos | 58 entradas, `CUR-001` a `CUR-058` |
 | Relaciones | 45 entradas, `REL-001` a `REL-048`, con huecos reservados/no reutilizados |
 | Chunks IA | 22 entradas, `CHUNK-00001` a `CHUNK-00022` |
-| Tareas | 52 entradas; `TAREA-048` a `TAREA-052` están en progreso |
+| Tareas | 53 entradas; todas figuran como `Hecha` en `status.yaml` |
+| Textos oficiales | índice `06_indices/textos-oficiales.yaml` + 3 copias locales rápidas (`NOR-001`, `NOR-003`, `NOR-005`) |
 
 Distribución de currículos extraídos:
 
@@ -92,7 +93,7 @@ Marco estatal y autonómico básico:
 - Marco administrativo, igualdad, menores, comedores, transporte y residencias: `NOR-031` a `NOR-036`.
 - Primaria: currículo (`NOR-043`), evaluación/promoción (`NOR-044`), rúbricas (`NOR-045`) e instrucciones de organización y funcionamiento (`NOR-046`).
 - Infantil: currículo (`NOR-047`), evaluación (`NOR-048`) e instrucciones de organización y funcionamiento (`NOR-049`).
-- Formación Profesional en fase ampliada: títulos y ciclos más comunes catalogados hasta `NOR-060`; quedan abiertas correcciones y extracción avanzada en `TAREA-048` a `TAREA-052`.
+- Formación Profesional en fase ampliada: títulos y ciclos más comunes catalogados hasta `NOR-060`; las tareas de cierre `TAREA-048` a `TAREA-052` figuran ya como hechas.
 
 ## Cobertura Curricular
 
@@ -138,6 +139,7 @@ El corpus usa IDs internos estables para enlazar entidades, pero esos IDs no son
 - [06_indices/normativa.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml)
 - [06_indices/curriculos.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml)
 - [06_indices/fuentes.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/fuentes.yaml)
+- [06_indices/textos-oficiales.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml)
 - [06_indices/relaciones.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/relaciones.yaml)
 - [06_indices/chunks.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/chunks.yaml)
 - [docs/esquema-datos/README.md](https://ateeducacion.github.io/normativa_educativa_canaria/esquema-datos/README.md)
@@ -150,6 +152,7 @@ Reglas operativas principales:
 
 - priorizar BOE, BOC y portales institucionales oficiales;
 - no crear contenido normativo sin fuente oficial;
+- no usar copias locales rápidas como sustituto de la fuente oficial;
 - no confundir normas con orientaciones, recursos o interpretación editorial;
 - registrar fecha de consulta y, cuando proceda, fecha de análisis;
 - conservar trazabilidad entre fuente, ficha, índice y relación;
@@ -192,14 +195,17 @@ Ruta recomendada de localización:
 
 1. [06_indices/normativa.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml) para identificar la norma principal, su estado de vigencia y la ficha `NOR-NNN`.
 2. [06_indices/fuentes.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/fuentes.yaml) para recuperar la `url_oficial`, el boletín y la ficha `FTE-NNN` asociada.
-3. [03_curriculos/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos) y [06_indices/curriculos.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml) si la pregunta exige anexos, competencias, criterios o saberes curriculares.
-4. [05_relaciones/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/05_relaciones) y [06_indices/relaciones.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/relaciones.yaml) si necesita saber qué norma desarrolla, modifica, deroga o complementa otra.
-5. [07_corpus_ia/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia) solo para orientación resumida y trazable; confirme siempre la respuesta final en la fuente oficial.
+3. [06_indices/textos-oficiales.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml) para resolver HTML oficial, PDF oficial, texto consolidado o copia local rápida.
+4. [03_curriculos/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos) y [06_indices/curriculos.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml) si la pregunta exige anexos, competencias, criterios o saberes curriculares.
+5. [05_relaciones/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/05_relaciones) y [06_indices/relaciones.yaml](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/relaciones.yaml) si necesita saber qué norma desarrolla, modifica, deroga o complementa otra.
+6. [07_corpus_ia/](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia) solo para orientación resumida y trazable; confirme siempre la respuesta final en la fuente oficial.
 
 Regla práctica:
 
 - Si la ficha `NOR-NNN` ya contiene `url_oficial`, enlácela en la respuesta.
 - Si la ficha normativa no basta, siga `fuente_principal` hasta la ficha `FTE-NNN` y use su `url_oficial`.
+- Si existe entrada en `06_indices/textos-oficiales.yaml`, úsela para resolver el mejor acceso disponible (HTML oficial, PDF oficial, texto consolidado o copia local rápida).
+- Si existe `texto_plano_local`, úselo solo para lectura rápida, extracción o RAG y cite igualmente la URL oficial asociada.
 - Para BOC, añada también el PDF oficial si la ficha de fuente lo recoge y la consulta requiere anexos largos o texto íntegro publicado.
 - Use **GitHub Pages** para enlazar archivos concretos del corpus y **GitHub** para enlazar carpetas o vistas de navegación del repositorio.
 - Los índices YAML del corpus son endpoints estructurados y legibles; pueden abrirse directamente, descargarse o reutilizarse en flujos de IA/RAG.
@@ -211,9 +217,10 @@ Flujo recomendado:
 1. Lea primero [llms.txt](https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt).
 2. Use [llms-full.txt](https://ateeducacion.github.io/normativa_educativa_canaria/llms-full.txt) si necesita más contexto.
 3. Revise los índices YAML antes de responder.
-4. Busque la ficha o fuente oficial correspondiente.
-5. Cite al usuario por la denominación jurídica oficial, no por el ID interno.
-6. Si el corpus está incompleto, si una ficha marca `[PENDIENTE]` o si la vigencia no está clara, indíquelo.
+4. Use `06_indices/textos-oficiales.yaml` si necesita acceso íntegro o rápido al texto oficial.
+5. Busque la ficha o fuente oficial correspondiente.
+6. Cite al usuario por la denominación jurídica oficial, no por el ID interno.
+7. Si el corpus está incompleto, si una ficha marca `[PENDIENTE]` o si la vigencia no está clara, indíquelo.
 
 Política de respuesta:
 
@@ -241,7 +248,7 @@ En `### Enlaces directos`, incluya siempre que sea posible:
 
 - El corpus no pretende reproducir íntegramente todas las normas aplicables.
 - Hay huecos de numeración por coordinación de trabajo paralelo; no deben reutilizarse IDs.
-- `TAREA-048` a `TAREA-052` figuran en progreso para correcciones y extracción avanzada de FP.
+- Las copias locales rápidas actualmente son un lote inicial y no cubren todavía todas las normas o currículos del corpus.
 - Las fichas FP `CUR-046` a `CUR-053` no tienen todas el mismo estado: `CUR-052` está completada y las demás figuran como parciales.
 - Los borradores u otras fichas que existan localmente pero no figuren en `06_indices/` no forman parte del corpus indexado.
 - Algunas normas siguen con estado `Pendiente de verificación`, `Superada`, `Histórica` o vigencia condicionada; respete el metadato de cada ficha.
@@ -252,10 +259,12 @@ En `### Enlaces directos`, incluya siempre que sea posible:
 - [Panel de GitHub Pages](https://ateeducacion.github.io/normativa_educativa_canaria/): panel estático del proyecto.
 - [Repositorio GitHub](https://github.com/ateeducacion/normativa_educativa_canaria): acceso completo al corpus.
 - [Skill pública](https://ateeducacion.github.io/normativa_educativa_canaria/skill.html): instrucciones copiables para asistentes.
+- [Índice público de textos oficiales](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml): resolutor rápido de HTML, PDF, texto consolidado y copias locales.
 
 ## Accesos Opcionales
 
 - [Fuentes oficiales catalogadas](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/01_fuentes): detalle de portales y boletines.
 - [Relaciones normativas](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/05_relaciones): enlaces entre normas y evidencias.
 - [Corpus IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia): resúmenes y chunks para RAG o asistentes.
+- [Textos completos rápidos](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia/textos-completos): lote inicial de copias locales rápidas trazables.
 - [ADR y decisiones editoriales](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/09_decisiones-editoriales): criterios de modelado del corpus.

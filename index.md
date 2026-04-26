@@ -7,6 +7,7 @@ Repositorio IA-friendly de normativa educativa y currículos.
 - [Gobierno del repositorio](00_gobierno-repositorio/)
 - [Fuentes](06_indices/fuentes.yaml)
 - [Normativa](06_indices/normativa.yaml)
+- [Textos oficiales](06_indices/textos-oficiales.yaml)
 - [Currículos](06_indices/curriculos.yaml)
 - [Códigos administrativos de áreas y materias](03_curriculos/codigos-materias-canarias.md)
 - [Relaciones](06_indices/relaciones.yaml)
@@ -29,3 +30,5 @@ Repositorio IA-friendly de normativa educativa y currículos.
 ## Advertencia
 
 Los resúmenes de este repositorio no sustituyen la consulta de fuentes oficiales.
+
+Cuando exista, la copia local rápida del texto completo debe usarse solo como apoyo y contrastarse siempre con BOE, BOC o portal oficial.
