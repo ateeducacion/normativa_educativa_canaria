@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Normativa Educativa Canarias</title>
+    <meta name="description" content="Panel estático del corpus de normativa educativa y currículos aplicables a Canarias.">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/site.css">
+  </head>
+  <body>
+    <a class="visually-hidden-focusable skip-link" href="#contenido">Saltar al contenido principal</a>
+    <header class="site-header border-bottom">
+      <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
+        <div class="container py-2">
+          <a class="navbar-brand fw-semibold" href="index.html">Normativa Educativa Canarias</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Mostrar navegación">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="#panel">Panel</a></li>
+              <li class="nav-item"><a class="nav-link" href="#flujo-ia">Flujo IA</a></li>
+              <li class="nav-item"><a class="nav-link" href="#preguntas">Cómo preguntar</a></li>
+              <li class="nav-item"><a class="nav-link" href="mcp.html">MCP</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero py-5 border-bottom">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-8">
+              <p class="eyebrow mb-2">Corpus documental para consulta humana y uso por IA</p>
+              <h1 class="display-5 mb-3">Normativa educativa y currículos aplicables a Canarias</h1>
+              <p class="lead mb-3">Este repositorio reúne fuentes oficiales, fichas normativas, currículos, relaciones e índices YAML preparados para búsqueda, revisión documental y contexto de asistentes de IA.</p>
+              <div class="alert alert-warning mb-4" role="alert">
+                La validez jurídica debe comprobarse siempre en la fuente oficial correspondiente (BOE, BOC o portal institucional competente).
+              </div>
+              <div class="d-flex flex-wrap gap-2">
+                <a class="btn btn-primary" href="llms.txt">Abrir llms.txt</a>
+                <a class="btn btn-outline-primary" href="llms-full.txt">Abrir llms-full.txt</a>
+                <a class="btn btn-outline-secondary" href="https://github.com/ateeducacion/normativa_educativa">Ver repositorio en GitHub</a>
+                <a class="btn btn-outline-secondary" href="mcp.html">Instrucciones MCP</a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="info-panel p-4 rounded-3 shadow-sm h-100">
+                <h2 class="h5">Uso recomendado</h2>
+                <ol class="mb-0 ps-3 small">
+                  <li>Lea <code>llms.txt</code>.</li>
+                  <li>Amplíe con <code>llms-full.txt</code>.</li>
+                  <li>Revise índices YAML antes de responder.</li>
+                  <li>Cite normas por su denominación oficial.</li>
+                  <li>Si falta evidencia, indíquelo.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="panel" class="py-5">
+        <div class="container">
+          <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-3 mb-4">
+            <div>
+              <h2 class="h3 mb-2">Panel del corpus</h2>
+              <p class="text-secondary mb-0">Filtre las tarjetas por etapa, tipo de contenido o palabra clave.</p>
+            </div>
+            <div class="search-box">
+              <label class="form-label visually-hidden" for="cardFilter">Buscar secciones</label>
+              <input id="cardFilter" class="form-control" type="search" placeholder="Buscar: normativa, currículos, fuentes, YAML..." autocomplete="off">
+            </div>
+          </div>
+
+          <div id="filterStatus" class="visually-hidden" role="status" aria-live="polite"></div>
+          <div id="noResults" class="alert alert-light border d-none" role="status" aria-live="polite">No hay tarjetas que coincidan con la búsqueda.</div>
+
+          <div class="row g-4" id="cardGrid">
+            <div class="col-md-6 col-xl-4 filter-item" data-search="normativa estatal boe ley orgánica real decreto secundaria evaluación promoción">
+              <article class="card h-100 shadow-sm resource-card">
+                <div class="card-body">
+                  <h3 class="h5 card-title">Normativa estatal</h3>
+                  <p class="card-text">Leyes orgánicas y reales decretos estatales con impacto curricular y organizativo.</p>
+                  <ul class="small ps-3 mb-0">
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/tree/main/02_normativa/estatal">Carpeta de normativa estatal</a></li>
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/normativa.yaml">Índice de normativa</a></li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4 filter-item" data-search="normativa autonómica canaria boc decreto ley canaria currículo ordenación">
+              <article class="card h-100 shadow-sm resource-card">
+                <div class="card-body">
+                  <h3 class="h5 card-title">Normativa autonómica canaria</h3>
+                  <p class="card-text">Normas de la Comunidad Autónoma de Canarias y referencias publicadas en el BOC.</p>
+                  <ul class="small ps-3 mb-0">
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/tree/main/02_normativa/canarias">Carpeta de normativa canaria</a></li>
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/blob/main/01_fuentes/boc/FTE-009-decreto-30-2023-eso-bachillerato.md">Fuente BOC destacada</a></li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4 filter-item" data-search="currículos eso materias etapa extracción yaml markdown">
+              <article class="card h-100 shadow-sm resource-card">
+                <div class="card-body">
+                  <h3 class="h5 card-title">Currículos</h3>
+                  <p class="card-text">Fichas curriculares por materia y etapa, con rutas YAML/Markdown y estado de extracción.</p>
+                  <ul class="small ps-3 mb-0">
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/tree/main/03_curriculos">Carpeta de currículos</a></li>
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/curriculos.yaml">Índice de currículos</a></li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4 filter-item" data-search="fuentes oficiales boe boc portales gobierno canarias consulta">
+              <article class="card h-100 shadow-sm resource-card">
+                <div class="card-body">
+                  <h3 class="h5 card-title">Fuentes oficiales</h3>
+                  <p class="card-text">Portales y boletines oficiales usados para documentar el corpus y verificar vigencia.</p>
+                  <ul class="small ps-3 mb-0">
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/tree/main/01_fuentes">Carpeta de fuentes</a></li>
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/fuentes.yaml">Índice de fuentes</a></li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4 filter-item" data-search="relaciones normativas evidencias desarrolla modifica relaciona yaml">
+              <article class="card h-100 shadow-sm resource-card">
+                <div class="card-body">
+                  <h3 class="h5 card-title">Relaciones normativas</h3>
+                  <p class="card-text">Vínculos trazables entre normas, currículos y evidencias documentales.</p>
+                  <ul class="small ps-3 mb-0">
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/tree/main/05_relaciones">Carpeta de relaciones</a></li>
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/relaciones.yaml">Índice de relaciones</a></li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4 filter-item" data-search="corpus ia chunks resumenes rag contexto llm">
+              <article class="card h-100 shadow-sm resource-card">
+                <div class="card-body">
+                  <h3 class="h5 card-title">Corpus para IA</h3>
+                  <p class="card-text">Resúmenes y chunks breves preparados para recuperación de contexto y asistentes.</p>
+                  <ul class="small ps-3 mb-0">
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/tree/main/07_corpus_ia">Carpeta de corpus IA</a></li>
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/chunks.yaml">Índice de chunks</a></li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4 filter-item" data-search="índices yaml puertas entrada normativa currículos fuentes relaciones chunks">
+              <article class="card h-100 shadow-sm resource-card">
+                <div class="card-body">
+                  <h3 class="h5 card-title">Índices YAML</h3>
+                  <p class="card-text">Puerta de entrada recomendada para clientes MCP, agentes y herramientas de búsqueda.</p>
+                  <ul class="small ps-3 mb-0">
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/tree/main/06_indices">Directorio de índices</a></li>
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/blob/main/status.yaml">Estado del repositorio</a></li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4 filter-item" data-search="llms txt llms-full contexto instrucciones ai citas legales">
+              <article class="card h-100 shadow-sm resource-card">
+                <div class="card-body">
+                  <h3 class="h5 card-title">Contexto para LLM</h3>
+                  <p class="card-text">Puntos de entrada rápidos y ampliados para IA que use este repositorio como contexto.</p>
+                  <ul class="small ps-3 mb-0">
+                    <li><a href="llms.txt">llms.txt</a></li>
+                    <li><a href="llms-full.txt">llms-full.txt</a></li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-xl-4 filter-item" data-search="mcp github copilot vscode docker configuración búsqueda repositorio">
+              <article class="card h-100 shadow-sm resource-card">
+                <div class="card-body">
+                  <h3 class="h5 card-title">Uso con GitHub MCP</h3>
+                  <p class="card-text">Guía para abrir el repositorio desde clientes compatibles con MCP y consultar el corpus.</p>
+                  <ul class="small ps-3 mb-0">
+                    <li><a href="mcp.html">Guía MCP publicada</a></li>
+                    <li><a href="https://github.com/ateeducacion/normativa_educativa/blob/main/MCP.md">Documento MCP en GitHub</a></li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="flujo-ia" class="py-5 border-top bg-light-subtle">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <h2 class="h3 mb-3">Flujo de trabajo recomendado para IA</h2>
+              <ol class="ps-3 mb-0">
+                <li>Leer <a href="llms.txt">llms.txt</a>.</li>
+                <li>Usar <a href="llms-full.txt">llms-full.txt</a> para contexto más profundo.</li>
+                <li>Buscar en el repositorio con GitHub MCP Server o búsqueda de GitHub.</li>
+                <li>Antes de responder, revisar <a href="https://github.com/ateeducacion/normativa_educativa/tree/main/06_indices">los índices YAML de <code>06_indices</code></a>.</li>
+                <li>Citar leyes, reales decretos, decretos, órdenes o resoluciones por su denominación oficial y con artículos o anexos cuando proceda.</li>
+                <li>Si el corpus es incompleto, si falta consolidación o si la vigencia no es segura, decirlo expresamente.</li>
+              </ol>
+            </div>
+            <div class="col-lg-6">
+              <h2 class="h3 mb-3">Criterio de cita jurídica visible al usuario</h2>
+              <p>La cita principal debe seguir el formato jurídico habitual en España:</p>
+              <ul class="ps-3 mb-0">
+                <li><strong>Correcto:</strong> Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación.</li>
+                <li><strong>Correcto:</strong> Decreto 211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de Canarias.</li>
+                <li><strong>No como cita principal:</strong> <code>NOR-002</code> o <code>CUR-001</code>.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="preguntas" class="py-5 border-top">
+        <div class="container">
+          <h2 class="h3 mb-4">Cómo pedir ayuda a una IA con este repositorio</h2>
+          <div class="row g-4">
+            <div class="col-lg-4">
+              <article class="prompt-card h-100">
+                <h3 class="h5">Pregunta general</h3>
+                <p class="small mb-0">“Abre el repositorio <code>ateeducacion/normativa_educativa</code>, lee primero <code>llms.txt</code> y responde usando los archivos del repositorio como contexto. Cita las normas por su denominación oficial.”</p>
+              </article>
+            </div>
+            <div class="col-lg-4">
+              <article class="prompt-card h-100">
+                <h3 class="h5">Búsqueda normativa</h3>
+                <p class="small mb-0">“Busca en el repositorio la normativa vigente sobre evaluación y promoción en ESO en Canarias. Usa títulos oficiales, artículos y referencias BOE/BOC cuando estén disponibles.”</p>
+              </article>
+            </div>
+            <div class="col-lg-4">
+              <article class="prompt-card h-100">
+                <h3 class="h5">Comprobación estructural</h3>
+                <p class="small mb-0">“Inspecciona primero los índices YAML de <code>06_indices</code>. Usa los IDs internos solo para localizar archivos, no como formato principal de cita al usuario.”</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 border-top">
+      <div class="container d-flex flex-column flex-md-row justify-content-between gap-2 small text-secondary">
+        <p class="mb-0">Repositorio para consulta y contexto de IA. No sustituye las fuentes oficiales.</p>
+        <p class="mb-0"><a href="https://ateeducacion.github.io/normativa_educativa/llms.txt">https://ateeducacion.github.io/normativa_educativa/llms.txt</a></p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/site.js"></script>
+  </body>
+</html>

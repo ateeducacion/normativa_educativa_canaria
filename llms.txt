@@ -1,0 +1,48 @@
+# Normativa Educativa Canarias
+
+> Corpus Markdown/YAML para localizar, relacionar y resumir normativa educativa y currículos aplicables a Canarias, preparado para consulta humana y uso por IA, sin sustituir nunca las fuentes oficiales publicadas en BOE, BOC y portales institucionales.
+
+Use este repositorio como mapa de contexto, no como sustituto de la fuente jurídica oficial. Empiece por este archivo y continúe con `llms-full.txt` si necesita más detalle estructural o reglas de uso.
+
+Al responder a usuarios, cite las normas por su denominación oficial en España —por ejemplo, “Ley Orgánica 3/2020, de 29 de diciembre…” o “Decreto 211/2022, de 10 de noviembre…”— e indique artículo, disposición o anexo cuando sea relevante. Use IDs internos como `NOR-001` o `CUR-002` solo para trazabilidad secundaria.
+
+Distinga siempre entre texto normativo, resumen, interpretación y orientación práctica. Si el corpus no aporta evidencia suficiente, si la vigencia no está confirmada o si falta una fuente consolidada, dígalo expresamente y remita a la fuente oficial.
+
+Formato de respuesta preferido para consultas educativas:
+
+- `### Respuesta breve`
+- `### Fundamento normativo`
+- `### Aplicación práctica en Canarias`
+- `### Límites o aspectos a verificar`
+
+## Inicio rápido
+
+- [Endpoint público de `llms.txt`](https://ateeducacion.github.io/normativa_educativa/llms.txt): URL prevista para clientes y agentes que consuman el contexto publicado.
+- [Panel público del repositorio](https://ateeducacion.github.io/normativa_educativa/): vista general publicada con accesos a corpus, índices y guías.
+- [Mapa ampliado de contexto](https://ateeducacion.github.io/normativa_educativa/llms-full.txt): propósito, estructura, modelo de datos, reglas de evidencia, citas y limitaciones.
+- [README del proyecto](https://github.com/ateeducacion/normativa_educativa/blob/main/README.md): resumen del corpus y estructura principal.
+- [Índice raíz](https://github.com/ateeducacion/normativa_educativa/blob/main/index.md): accesos rápidos a fuentes, normativa, currículos, relaciones y chunks.
+- [Estado del repositorio](https://github.com/ateeducacion/normativa_educativa/blob/main/status.yaml): fase actual, tareas abiertas y siguientes acciones.
+
+## Índices y corpus
+
+- [Índice de normativa](https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/normativa.yaml): títulos oficiales, vigencia, temas y rutas de las fichas normativas.
+- [Índice de currículos](https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/curriculos.yaml): materias, etapa, fuente y estado de extracción.
+- [Índice de fuentes](https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/fuentes.yaml): portales oficiales, BOE, BOC y fechas de consulta.
+- [Índice de relaciones](https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/relaciones.yaml): conexiones entre normas y evidencias.
+- [Índice de chunks IA](https://github.com/ateeducacion/normativa_educativa/blob/main/06_indices/chunks.yaml): unidades breves preparadas para contexto de IA.
+- [Carpeta de normativa](https://github.com/ateeducacion/normativa_educativa/tree/main/02_normativa): fichas Markdown de normativa estatal y autonómica.
+- [Carpeta de currículos](https://github.com/ateeducacion/normativa_educativa/tree/main/03_curriculos): fichas YAML y Markdown de currículos.
+
+## Reglas de uso para IA
+
+- [Disciplina de evidencia](https://github.com/ateeducacion/normativa_educativa/blob/main/docs/metodologia/disciplina-evidencia.md): reglas de trazabilidad, marcadores editoriales y límites de inferencia.
+- [Guía de validación](https://github.com/ateeducacion/normativa_educativa/blob/main/docs/guias/validacion.md): comprobaciones mínimas del corpus antes de cerrar cambios.
+- [Guía MCP](https://ateeducacion.github.io/normativa_educativa/mcp.html): uso del repositorio desde clientes compatibles con GitHub MCP Server.
+- [Documento MCP en el repositorio](https://github.com/ateeducacion/normativa_educativa/blob/main/MCP.md): configuración, seguridad y ejemplos de prompts.
+
+## Optional
+
+- [Fuentes oficiales](https://github.com/ateeducacion/normativa_educativa/tree/main/01_fuentes): fichas de portales y boletines oficiales enlazados.
+- [Corpus para IA](https://github.com/ateeducacion/normativa_educativa/tree/main/07_corpus_ia): resúmenes y chunks reutilizables.
+- [ADR y decisiones editoriales](https://github.com/ateeducacion/normativa_educativa/tree/main/09_decisiones-editoriales): criterios de modelado y mantenimiento del corpus.

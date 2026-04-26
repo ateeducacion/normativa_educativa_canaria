@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Uso con GitHub MCP Server</title>
+    <meta name="description" content="Guía para usar el repositorio normativa_educativa con clientes compatibles con GitHub MCP Server.">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/site.css">
+  </head>
+  <body>
+    <a class="visually-hidden-focusable skip-link" href="#contenido">Saltar al contenido principal</a>
+    <header class="site-header border-bottom">
+      <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
+        <div class="container py-2">
+          <a class="navbar-brand fw-semibold" href="index.html">Normativa Educativa Canarias</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Mostrar navegación">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="llms.txt">llms.txt</a></li>
+              <li class="nav-item"><a class="nav-link" href="llms-full.txt">llms-full.txt</a></li>
+              <li class="nav-item"><a class="nav-link" href="https://github.com/ateeducacion/normativa_educativa/blob/main/MCP.md">MCP.md</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="contenido" class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-8">
+            <p class="eyebrow mb-2">GitHub MCP Server</p>
+            <h1 class="display-6 mb-3">Cómo usar este repositorio como contexto MCP</h1>
+            <p class="lead">GitHub MCP Server no convierte este repositorio en una API jurídica pública por sí solo. Lo que hace es permitir que un cliente compatible con MCP acceda al repositorio de GitHub y utilice sus archivos como contexto para responder preguntas.</p>
+            <div class="alert alert-warning" role="alert">
+              Para decisiones con efecto jurídico o académico relevante, verifique siempre la norma en su fuente oficial y la vigencia efectiva en BOE, BOC o portal institucional competente.
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="info-panel p-4 rounded-3 shadow-sm h-100">
+              <h2 class="h5">Usos recomendados</h2>
+              <ul class="small ps-3 mb-0">
+                <li>Buscar normativa en el repositorio.</li>
+                <li>Relacionar currículo, etapa y norma.</li>
+                <li>Pedir que la IA abra primero <code>llms.txt</code>.</li>
+                <li>Pedir revisión previa de <code>06_indices</code>.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <section class="mt-5">
+          <h2 class="h3">Casos de uso</h2>
+          <div class="row g-4 mt-1">
+            <div class="col-md-6">
+              <article class="prompt-card h-100">
+                <h3 class="h5">Buscar en el repositorio</h3>
+                <p class="small mb-0">Pida al cliente MCP que abra el repositorio <code>ateeducacion/normativa_educativa</code>, lea <code>llms.txt</code> y localice archivos relevantes antes de responder.</p>
+              </article>
+            </div>
+            <div class="col-md-6">
+              <article class="prompt-card h-100">
+                <h3 class="h5">Preguntar por una norma</h3>
+                <p class="small mb-0">Úselo para preguntas sobre evaluación, promoción, currículo, etapas o relaciones entre normas estatales y autonómicas, siempre con cita jurídica oficial.</p>
+              </article>
+            </div>
+            <div class="col-md-6">
+              <article class="prompt-card h-100">
+                <h3 class="h5">Relacionar currículo, etapa y norma</h3>
+                <p class="small mb-0">Solicite que inspeccione <code>06_indices/curriculos.yaml</code>, <code>06_indices/normativa.yaml</code> y <code>06_indices/relaciones.yaml</code> antes de sintetizar.</p>
+              </article>
+            </div>
+            <div class="col-md-6">
+              <article class="prompt-card h-100">
+                <h3 class="h5">Trazabilidad sin exponer IDs</h3>
+                <p class="small mb-0">Los IDs internos sirven para localizar ficheros, pero la respuesta final debe citar “Ley Orgánica…”, “Real Decreto…”, “Decreto…” o “Orden…” según corresponda.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-5">
+          <h2 class="h3">Configuración de ejemplo</h2>
+          <div class="row g-4 mt-1">
+            <div class="col-lg-4">
+              <h3 class="h5">VS Code / Copilot compatible</h3>
+              <pre><code>{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@github/github-mcp-server"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_TOKEN_HERE"
+      }
+    }
+  }
+}</code></pre>
+            </div>
+            <div class="col-lg-4">
+              <h3 class="h5">Cliente MCP local genérico</h3>
+              <pre><code>{
+  "servers": [
+    {
+      "name": "github",
+      "transport": "stdio",
+      "command": "github-mcp-server",
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_TOKEN_HERE"
+      }
+    }
+  ]
+}</code></pre>
+            </div>
+            <div class="col-lg-4">
+              <h3 class="h5">Servidor MCP con Docker</h3>
+              <pre><code>docker run --rm -i \
+  -e GITHUB_PERSONAL_ACCESS_TOKEN=YOUR_TOKEN_HERE \
+  ghcr.io/github/github-mcp-server:latest</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section class="mt-5">
+          <h2 class="h3">Seguridad mínima recomendada</h2>
+          <ul class="ps-3 mb-0">
+            <li>Use el token de GitHub con el menor privilegio posible.</li>
+            <li>Para hacer preguntas, el acceso de solo lectura suele ser suficiente.</li>
+            <li>No suba nunca un archivo <code>.env</code> con secretos al repositorio.</li>
+            <li>Este repositorio ignora <code>.env</code>; mantenga también fuera de control cualquier variante sensible.</li>
+            <li>Prefiera acceso a repositorios públicos cuando sea suficiente.</li>
+            <li>Verifique permisos antes de habilitar herramientas que puedan escribir issues, pull requests o contenido.</li>
+          </ul>
+        </section>
+
+        <section class="mt-5">
+          <h2 class="h3">Prompts recomendados</h2>
+          <div class="row g-4 mt-1">
+            <div class="col-lg-4">
+              <article class="prompt-card h-100">
+                <p class="small mb-0">“Open the repository ateeducacion/normativa_educativa. Read llms.txt first. Then answer my question using the repository files as context. When citing regulations, use the official legal citation format used in Spain, not internal repository IDs.”</p>
+              </article>
+            </div>
+            <div class="col-lg-4">
+              <article class="prompt-card h-100">
+                <p class="small mb-0">“Search the repository ateeducacion/normativa_educativa for current regulations about assessment and promotion in Educación Secundaria Obligatoria in Canarias. Use official legal titles, articles, and publication references when available.”</p>
+              </article>
+            </div>
+            <div class="col-lg-4">
+              <article class="prompt-card h-100">
+                <p class="small mb-0">“Inspect the YAML indexes in 06_indices before answering. Use internal IDs only to locate files, not as the public citation format.”</p>
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="py-4 border-top">
+      <div class="container d-flex flex-column flex-md-row justify-content-between gap-2 small text-secondary">
+        <p class="mb-0">El repositorio aporta contexto documental; no reemplaza las fuentes oficiales ni crea una API jurídica pública por sí mismo.</p>
+        <p class="mb-0"><a href="https://github.com/ateeducacion/normativa_educativa/blob/main/MCP.md">Ver versión Markdown completa</a></p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
