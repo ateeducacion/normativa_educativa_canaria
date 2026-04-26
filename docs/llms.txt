@@ -17,6 +17,7 @@ Formato de respuesta preferido para consultas educativas:
 
 ## Inicio rápido
 
+- [Endpoint público de `llms.txt`](https://ateeducacion.github.io/normativa_educativa/llms.txt): URL prevista para clientes y agentes que consuman el contexto publicado.
 - [Panel público del repositorio](https://ateeducacion.github.io/normativa_educativa/): vista general publicada con accesos a corpus, índices y guías.
 - [Mapa ampliado de contexto](https://ateeducacion.github.io/normativa_educativa/llms-full.txt): propósito, estructura, modelo de datos, reglas de evidencia, citas y limitaciones.
 - [README del proyecto](https://github.com/ateeducacion/normativa_educativa/blob/main/README.md): resumen del corpus y estructura principal.
