@@ -308,7 +308,7 @@ TAREA-028:
 
 TAREA-029:
   titulo: "Cotejo curricular ESO: CUR-015 a CUR-018 (segunda pasada)"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "curriculo"
   responsable: "@.agents/skills/analisis-curricular"
@@ -327,3 +327,69 @@ TAREA-030:
   fecha_actualizacion: 2026-04-26
   relacionadas: [CUR-019, CUR-020, CUR-021, CUR-022, CUR-023, NOR-005, FTE-009]
   ruta: "08_tareas/backlog/TAREA-030-cotejo-curricular-cur-019-a-023.md"
+
+TAREA-031:
+  titulo: "Catalogar normativa de Educación Primaria e Infantil (NOR-043 a NOR-049)"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "analisis"
+  responsable: "@.agents/skills/experto-primaria"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [NOR-043, NOR-044, NOR-045, NOR-046, NOR-047, NOR-048, NOR-049, FTE-046, FTE-047, FTE-048, FTE-049, FTE-050, FTE-051, FTE-052]
+  ruta: "08_tareas/backlog/TAREA-031-catalogar-primaria-infantil.md"
+
+TAREA-032:
+  titulo: "Extracción literal de currículos de Educación Primaria (CUR-024 a CUR-033)"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/analisis-curricular"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-024, CUR-025, CUR-026, CUR-027, CUR-028, CUR-029, CUR-030, CUR-031, CUR-032, CUR-033, NOR-043, FTE-046]
+  ruta: "08_tareas/backlog/TAREA-032-extraccion-primaria.md"
+
+TAREA-033:
+  titulo: "Extracción literal de currículos de Educación Infantil (CUR-034 a CUR-036)"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/analisis-curricular"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-034, CUR-035, CUR-036, NOR-047, FTE-050]
+  ruta: "08_tareas/backlog/TAREA-033-extraccion-infantil.md"
+
+TAREA-034:
+  titulo: "Catalogación y extracción literal de Bachillerato (CUR-037 a CUR-045)"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/experto-bachillerato"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-037, CUR-038, CUR-039, CUR-040, CUR-041, CUR-042, CUR-043, CUR-044, CUR-045, NOR-005, FTE-009]
+  ruta: "08_tareas/backlog/TAREA-034-bachillerato.md"
+
+TAREA-035:
+  titulo: "Generar nuevos chunks IA (CHUNK-00010 a CHUNK-00013)"
+  estado: "Hecha"
+  prioridad: "Media"
+  tipo: "corpus-ia"
+  responsable: "@.agents/skills/preparacion-corpus-ia"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CHUNK-00010, CHUNK-00011, CHUNK-00012, CHUNK-00013, NOR-042, NOR-029, NOR-043, NOR-047]
+  ruta: "08_tareas/backlog/TAREA-035-nuevos-chunks.md"
+
+TAREA-036:
+  titulo: "Finalizar extracciones ESO: CUR-023 y remanentes"
+  estado: "En progreso"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: "@.agents/skills/analisis-curricular"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [CUR-023, TAREA-029]
+  ruta: "08_tareas/backlog/TAREA-036-finalizar-eso.md"

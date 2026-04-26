@@ -317,14 +317,14 @@ tareas:
 
   TAREA-029:
     titulo: "Cotejo curricular ESO: CUR-015 a CUR-018 (segunda pasada)"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Alta"
     tipo: "curriculo"
     responsable: "@.agents/skills/analisis-curricular"
     fecha_creacion: 2026-04-26
     fecha_actualizacion: 2026-04-26
     relacionadas: [CUR-015, CUR-016, CUR-017, CUR-018, NOR-005, FTE-009]
-    siguiente_accion: "Completar C8-C10 y criterios 2.º-4.º de CUR-017; recuperar C1 criterion 1.1 y criterios 2.º-4.º de CUR-018."
+    siguiente_accion: "Se ha completado la extracción base; ver TAREA-036 para materias tecnológicas pendientes."
 
   TAREA-030:
     titulo: "Cotejo curricular ESO: CUR-019 a CUR-023 (segunda pasada)"
@@ -344,3 +344,69 @@ reglas:
   - "No borrar historial."
   - "Actualizar índices YAML con cada nueva entidad."
   - "Marcar toda duda como PREG-NNN."
+
+  TAREA-031:
+    titulo: "Catalogar normativa de Educación Primaria e Infantil (NOR-043 a NOR-049)"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "analisis"
+    responsable: "@.agents/skills/experto-primaria"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [NOR-043, NOR-044, NOR-045, NOR-046, NOR-047, NOR-048, NOR-049]
+    siguiente_accion: null
+
+  TAREA-032:
+    titulo: "Extracción literal de currículos de Educación Primaria (CUR-024 a CUR-033)"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/analisis-curricular"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [CUR-024, CUR-033]
+    siguiente_accion: null
+
+  TAREA-033:
+    titulo: "Extracción literal de currículos de Educación Infantil (CUR-034 a CUR-036)"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/analisis-curricular"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [CUR-034, CUR-035, CUR-036]
+    siguiente_accion: null
+
+  TAREA-034:
+    titulo: "Catalogación y extracción literal de Bachillerato (CUR-037 a CUR-045)"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/experto-bachillerato"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [CUR-037, CUR-045]
+    siguiente_accion: null
+
+  TAREA-035:
+    titulo: "Generar nuevos chunks IA (CHUNK-00010 a CHUNK-00013)"
+    estado: "Hecha"
+    prioridad: "Media"
+    tipo: "corpus-ia"
+    responsable: "@.agents/skills/preparacion-corpus-ia"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [CHUNK-00010, CHUNK-00013]
+    siguiente_accion: null
+
+  TAREA-036:
+    titulo: "Finalizar extracciones ESO: CUR-023 y remanentes"
+    estado: "En progreso"
+    prioridad: "Alta"
+    tipo: "curriculo"
+    responsable: "@.agents/skills/analisis-curricular"
+    fecha_creacion: 2026-04-26
+    fecha_actualizacion: 2026-04-26
+    relacionadas: [CUR-023]
+    siguiente_accion: "Localizar anexo literal de Tecnología y Digitalización (CUR-023)."
