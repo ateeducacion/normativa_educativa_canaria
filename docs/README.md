@@ -5,7 +5,7 @@ Este directorio contiene la versión estática y mantenible del panel público d
 ## Contenido principal
 
 - `index.html`: panel principal del corpus.
-- `mcp.html`: guía pública de uso con GitHub MCP Server.
+- `explore.html`: explorador de archivos del corpus.
 - `assets/css/site.css`: estilos estáticos.
 - `assets/js/site.js`: filtro cliente sin backend.
 - `esquema-datos/`, `guias/`, `metodologia/`: documentación complementaria.
@@ -33,7 +33,6 @@ Para activar la publicación una vez:
 - `https://ateeducacion.github.io/normativa_educativa_canaria/`
 - `https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt`
 - `https://ateeducacion.github.io/normativa_educativa_canaria/llms-full.txt`
-- `https://ateeducacion.github.io/normativa_educativa_canaria/mcp.html`
 
 ## Notas de mantenimiento
 

@@ -489,7 +489,7 @@ CUR-046:
   norma_base: NOR-051
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/sanidad/CUR-046-cuidados-auxiliares-de-enfermeria.yaml"
-  estado_extraccion: "completo"
+  estado_extraccion: "completado"
   observaciones: "Capacidades terminales y criterios de evaluacion extraidos el 2026-04-26 de RD 546/1995 (BOE-A-1995-13533). Ciclo LOGSE: usa capacidades terminales en lugar de RAs LOE. 8 modulos, 1.400 h. TAREA-052 completada."
 
 CUR-047:
@@ -537,8 +537,8 @@ CUR-050:
   norma_base: NOR-055
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/informatica-y-comunicaciones/CUR-050-desarrollo-de-aplicaciones-multiplataforma.yaml"
-  estado_extraccion: "parcial"
-  observaciones: "CEs extraídos en TAREA-045 (2026-04-26) para módulos 0483, 0484, 0485, 0373, 0487, 0486, 0488 desde HTML oficial BOE-A-2010-8067. Módulos 0489-0495 con CEs [PENDIENTE] por truncamiento del documento HTML."
+  estado_extraccion: "completado"
+  observaciones: "CEs completos extraídos en TAREA-045 y TAREA-050 (2026-04-26) desde BOE-A-2010-8067 (RD 450/2010). Todos los módulos 0483-0495 con RAs y CEs completos."
 
 CUR-051:
   titulo: "Técnico Superior en Desarrollo de Aplicaciones Web (DAW) — FP Canarias"
@@ -574,7 +574,7 @@ CUR-053:
   norma_actualizacion: NOR-058
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-053-integracion-social.yaml"
-  estado_extraccion: "completo"
+  estado_extraccion: "completado"
   observaciones: "TAREA-051 (2026-04-26): completados 5 módulos comunes con códigos, horas y RAs/CEs verificados en BOE-A-2012-10866: 0020 Primeros auxilios (35h, 4 RAs), 0345 Proyecto integración social (25h, 4 RAs), 0346 FOL (50h, 7 RAs), 0347 EIE (35h, 4 RAs), 0348 FCT (220h, 6 RAs). Total 12 módulos, extracción completa."
 
 # --- BACHILLERATO (OPTATIVAS) ---

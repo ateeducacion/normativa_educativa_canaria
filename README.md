@@ -58,26 +58,12 @@ Repositorio IA-friendly para recopilar, analizar, resumir, indexar y relacionar 
 
 ## Uso como contexto de IA
 
-Vía rápida con un cliente compatible con MCP (VS Code 1.101+, Claude Code, Cursor):
+Vía rápida con un cliente compatible:
 
-```json
-{
-  "servers": {
-    "github": {
-      "type": "http",
-      "url": "https://api.githubcopilot.com/mcp/x/repos/readonly"
-    }
-  }
-}
-```
+1. Use la **Skill de Experto en Normativa Canaria** para obtener el mejor rendimiento.
+2. O proporcione la URL de este repositorio directamente a su asistente.
 
-Después, en el prompt:
-
-```text
-Abre el repositorio ateeducacion/normativa_educativa_canaria. Lee primero llms.txt y responde usando los archivos del repositorio como contexto. Cita las normas por su denominación oficial.
-```
-
-Detalle completo, alternativas con Docker y guía de seguridad: [`MCP.md`](MCP.md).
+Para más detalle sobre prompts y ejemplos de uso, consulte el [Portal del Corpus](https://ateeducacion.github.io/normativa_educativa_canaria/).
 
 ## Estado actual del corpus
 

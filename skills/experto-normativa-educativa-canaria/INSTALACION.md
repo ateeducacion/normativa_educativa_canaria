@@ -1,6 +1,6 @@
 # Instalación de la skill «Experto en normativa educativa de Canarias»
 
-La skill es un texto Markdown (`SKILL.md`). Para usarla, basta con **copiar su contenido** y pegarlo como **system prompt** o «instrucciones del proyecto/asistente» en la herramienta de IA que utilices. No requiere MCP ni configuración técnica.
+La skill es un texto Markdown (`SKILL.md`). Para usarla, basta con **copiar su contenido** y pegarlo como **system prompt** o «instrucciones del proyecto/asistente» en la herramienta de IA que utilices.
 
 ## Tabla rápida por plataforma
 

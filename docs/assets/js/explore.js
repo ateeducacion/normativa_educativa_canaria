@@ -23,15 +23,13 @@ document.addEventListener('DOMContentLoaded', () => {
     { group: 'Corpus IA', kind: 'md', title: 'Resumen NOR-001', path: '07_corpus_ia/resumenes/resumen-NOR-001-loe.md', note: 'Resumen IA-friendly de una norma.' },
     { group: 'Docs', kind: 'html', title: 'Home pública', path: 'docs/index.html', note: 'Panel principal del corpus.' },
     { group: 'Docs', kind: 'html', title: 'Skill', path: 'docs/skill.html', note: 'Skill copiable para asistentes.' },
-    { group: 'Docs', kind: 'html', title: 'MCP', path: 'docs/mcp.html', note: 'Guía de conexión con GitHub MCP.' },
     { group: 'Docs', kind: 'css', title: 'Estilos del sitio', path: 'docs/assets/css/site.css', note: 'Base visual compartida.' },
     { group: 'Docs', kind: 'js', title: 'Script principal', path: 'docs/assets/js/site.js', note: 'Filtro de tarjetas de la home.' },
     { group: 'Raíz', kind: 'md', title: 'README principal', path: 'README.md', note: 'Introducción y accesos principales.' },
     { group: 'Raíz', kind: 'md', title: 'Índice general', path: 'index.md', note: 'Accesos principales del corpus.' },
     { group: 'Raíz', kind: 'yaml', title: 'Estado del repositorio', path: 'status.yaml', note: 'Seguimiento de tareas y estado.' },
     { group: 'Raíz', kind: 'txt', title: 'llms.txt', path: 'llms.txt', note: 'Entrada reducida para LLMs.' },
-    { group: 'Raíz', kind: 'txt', title: 'llms-full.txt', path: 'llms-full.txt', note: 'Contexto ampliado para LLMs.' },
-    { group: 'Raíz', kind: 'md', title: 'MCP.md', path: 'MCP.md', note: 'Documento completo de uso MCP.' }
+    { group: 'Raíz', kind: 'txt', title: 'llms-full.txt', path: 'llms-full.txt', note: 'Contexto ampliado para LLMs.' }
   ];
 
   const listEl = document.querySelector('#catalogList');

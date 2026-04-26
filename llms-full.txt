@@ -1,6 +1,6 @@
 # Normativa Educativa Canaria - Contexto Ampliado
 
-> Mapa ampliado del corpus Markdown/YAML de normativa educativa aplicable a Canarias para uso con LLM, GitHub Pages y clientes compatibles con GitHub MCP Server. No sustituye la consulta de las fuentes oficiales ni constituye asesoramiento jurídico.
+> Mapa ampliado del corpus Markdown/YAML de normativa educativa aplicable a Canarias para uso con LLM y GitHub Pages. No sustituye la consulta de las fuentes oficiales ni constituye asesoramiento jurídico.
 
 Este archivo ofrece más contexto que `llms.txt` para sistemas de IA y personas que necesiten entender cómo está organizado el repositorio, qué significan sus datos y cómo responder con prudencia normativa.
 
@@ -221,8 +221,6 @@ Formato preferido para preguntas educativas:
 ## Publicación Y Acceso
 
 - [Panel de GitHub Pages](https://ateeducacion.github.io/normativa_educativa_canaria/): panel estático del proyecto.
-- [Guía MCP publicada](https://ateeducacion.github.io/normativa_educativa_canaria/mcp.html): uso desde clientes MCP.
-- [Documento MCP del repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/MCP.md): configuración, seguridad y ejemplos completos.
 - [Repositorio GitHub](https://github.com/ateeducacion/normativa_educativa_canaria): acceso completo al corpus.
 - [Skill pública](https://ateeducacion.github.io/normativa_educativa_canaria/skill.html): instrucciones copiables para asistentes.
 

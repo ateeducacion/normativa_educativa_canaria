@@ -74,6 +74,4 @@ Formato de respuesta preferido para consultas educativas:
 - [Disciplina de evidencia](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/metodologia/disciplina-evidencia.md)
 - [Metodología, criterios y glosario](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio)
 - [Guía de validación](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/guias/validacion.md)
-- [Guía MCP publicada](https://ateeducacion.github.io/normativa_educativa_canaria/mcp.html)
-- [Documento MCP en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/MCP.md)
 - [ADR y decisiones editoriales](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/09_decisiones-editoriales)

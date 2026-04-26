@@ -41,7 +41,6 @@ jobs:
           test -f _site/llms.txt
           test -f _site/llms-full.txt
           test -f _site/index.html
-          test -f _site/mcp.html
 
       - name: Subir artefacto Pages
         uses: actions/upload-pages-artifact@v3
