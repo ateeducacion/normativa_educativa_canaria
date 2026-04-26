@@ -36,7 +36,7 @@
           <div class="col-lg-8">
             <p class="eyebrow mb-2">GitHub MCP Server</p>
             <h1 class="display-6 mb-3">Cómo usar este repositorio como contexto MCP</h1>
-            <p class="lead">GitHub MCP Server no convierte este repositorio en una API jurídica pública por sí solo. Lo que hace es permitir que un cliente compatible con MCP acceda al repositorio de GitHub y utilice sus archivos como contexto para responder preguntas.</p>
+            <p class="lead">GitHub MCP Server permite que un cliente compatible con MCP (Model Context Protocol) acceda al repositorio en GitHub y use sus archivos como contexto para responder preguntas. No convierte por sí mismo este repositorio en una API jurídica pública.</p>
             <div class="alert alert-warning" role="alert">
               Para decisiones con efecto jurídico o académico relevante, verifique siempre la norma en su fuente oficial y la vigencia efectiva en BOE, BOC o portal institucional competente.
             </div>
@@ -85,51 +85,85 @@
         </section>
 
         <section class="mt-5">
-          <h2 class="h3">Configuración de ejemplo</h2>
+          <h2 class="h3">Cómo conectar GitHub MCP Server</h2>
+          <p>GitHub mantiene el servidor oficial en <a href="https://github.com/github/github-mcp-server">github/github-mcp-server</a>. Hay dos vías habituales hoy: el servidor remoto hospedado por GitHub y el servidor local en Docker. La vía remota es la recomendada cuando el cliente la admite, porque no requiere instalación.</p>
+          <div class="alert alert-secondary small mb-4" role="note">
+            El paquete antiguo <code>npx @github/github-mcp-server</code> y <code>@modelcontextprotocol/server-github</code> están deprecados desde abril de 2025. No se recomiendan.
+          </div>
+
+          <h3 class="h5 mt-4">Vía 1 — Servidor remoto hospedado (recomendado)</h3>
+          <p class="small">Endpoint público: <code>https://api.githubcopilot.com/mcp/</code>. Para un repositorio de consulta como este, conviene usar el modo de solo lectura: <code>https://api.githubcopilot.com/mcp/x/repos/readonly</code>.</p>
           <div class="row g-4 mt-1">
-            <div class="col-lg-4">
-              <h3 class="h5">VS Code / Copilot compatible</h3>
+            <div class="col-lg-6">
+              <h4 class="h6">VS Code 1.101 o superior</h4>
+              <p class="small mb-2">Cree <code>.vscode/mcp.json</code> en su espacio de trabajo. VS Code abrirá el flujo OAuth la primera vez; no necesita PAT si tiene Copilot habilitado.</p>
+              <pre><code>{
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/x/repos/readonly"
+    }
+  }
+}</code></pre>
+            </div>
+            <div class="col-lg-6">
+              <h4 class="h6">Claude Code</h4>
+              <p class="small mb-2">Comando único en terminal con la versión actual del CLI:</p>
+              <pre><code>claude mcp add-json github '{
+  "type": "http",
+  "url": "https://api.githubcopilot.com/mcp/x/repos/readonly",
+  "headers": { "Authorization": "Bearer YOUR_GITHUB_PAT" }
+}'</code></pre>
+            </div>
+            <div class="col-lg-6">
+              <h4 class="h6">Cursor</h4>
+              <p class="small mb-2">En <code>~/.cursor/mcp.json</code> o <code>.cursor/mcp.json</code>:</p>
               <pre><code>{
   "mcpServers": {
     "github": {
-      "command": "npx",
-      "args": ["-y", "@github/github-mcp-server"],
+      "url": "https://api.githubcopilot.com/mcp/x/repos/readonly",
+      "headers": {
+        "Authorization": "Bearer YOUR_GITHUB_PAT"
+      }
+    }
+  }
+}</code></pre>
+            </div>
+            <div class="col-lg-6">
+              <h4 class="h6">Claude Desktop</h4>
+              <p class="small mb-2">Claude Desktop no admite todavía OAuth contra el servidor remoto. Use la vía local con Docker.</p>
+            </div>
+          </div>
+
+          <h3 class="h5 mt-5">Vía 2 — Servidor local con Docker</h3>
+          <p class="small">Imagen oficial: <code>ghcr.io/github/github-mcp-server</code>. Para Claude Desktop, edite <code>~/Library/Application Support/Claude/claude_desktop_config.json</code> (macOS) o el equivalente en otros sistemas:</p>
+          <pre><code>{
+  "mcpServers": {
+    "github": {
+      "command": "docker",
+      "args": [
+        "run", "-i", "--rm",
+        "-e", "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "ghcr.io/github/github-mcp-server"
+      ],
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "TU_TOKEN_AQUI"
       }
     }
   }
 }</code></pre>
-            </div>
-            <div class="col-lg-4">
-              <h3 class="h5">Cliente MCP local genérico</h3>
-              <pre><code>{
-  "servers": [
-    {
-      "name": "github",
-      "transport": "stdio",
-      "command": "github-mcp-server",
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "TU_TOKEN_AQUI"
-      }
-    }
-  ]
-}</code></pre>
-            </div>
-            <div class="col-lg-4">
-              <h3 class="h5">Servidor MCP con Docker</h3>
-              <pre><code>docker run --rm -i \
-  -e GITHUB_PERSONAL_ACCESS_TOKEN=TU_TOKEN_AQUI \
-  ghcr.io/github/github-mcp-server:latest</code></pre>
-            </div>
-          </div>
+          <p class="small mt-2">Para forzar solo lectura sin pasar por la URL <code>/readonly</code>, añada <code>GITHUB_READ_ONLY=1</code> en <code>args</code> y <code>env</code>.</p>
+
+          <h3 class="h5 mt-5">Cómo se indica el repositorio</h3>
+          <p class="small">GitHub MCP Server no tiene un parámetro de configuración para "anclar" el servidor a un repositorio concreto. La selección del repo es siempre parte del prompt al modelo, usando las herramientas del <em>toolset</em> <code>repos</code> (<code>get_file_contents</code>, <code>search_code</code>, etc.). Por ejemplo:</p>
+          <pre><code>Abre el repositorio ateeducacion/normativa_educativa_canaria. Lee primero llms.txt y después responde usando los archivos del repositorio como contexto.</code></pre>
         </section>
 
         <section class="mt-5">
           <h2 class="h3">Seguridad mínima recomendada</h2>
           <ul class="ps-3 mb-0">
             <li>Use el token de GitHub con el menor privilegio posible.</li>
-            <li>Para hacer preguntas, el acceso de solo lectura suele ser suficiente.</li>
+            <li>Para hacer preguntas, el acceso de solo lectura suele ser suficiente. Use el endpoint <code>/readonly</code> o <code>GITHUB_READ_ONLY=1</code>.</li>
             <li>No suba nunca un archivo <code>.env</code> con secretos al repositorio.</li>
             <li>Este repositorio ignora <code>.env</code>; mantenga también fuera de control cualquier variante sensible.</li>
             <li>Prefiera acceso a repositorios públicos cuando sea suficiente.</li>

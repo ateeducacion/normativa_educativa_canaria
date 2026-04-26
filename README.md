@@ -53,6 +53,29 @@ Repositorio IA-friendly para recopilar, analizar, resumir, indexar y relacionar 
 - Relaciones: [06_indices/relaciones.yaml](06_indices/relaciones.yaml)
 - Preguntas abiertas: [06_indices/preguntas.yaml](06_indices/preguntas.yaml)
 
+## Uso como contexto de IA
+
+Vía rápida con un cliente compatible con MCP (VS Code 1.101+, Claude Code, Cursor):
+
+```json
+{
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/x/repos/readonly"
+    }
+  }
+}
+```
+
+Después, en el prompt:
+
+```text
+Abre el repositorio ateeducacion/normativa_educativa_canaria. Lee primero llms.txt y responde usando los archivos del repositorio como contexto. Cita las normas por su denominación oficial.
+```
+
+Detalle completo, alternativas con Docker y guía de seguridad: [`MCP.md`](MCP.md).
+
 ## Estado de la puesta en marcha
 
 - Fuentes iniciales `FTE-001` a `FTE-008` creadas.
