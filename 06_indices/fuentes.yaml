@@ -294,3 +294,57 @@ FTE-033:
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/boc/FTE-033-boc-2022-049-orden-admision.md"
   estado_fuente: "Activa"
+
+FTE-034:
+  titulo: "BOC n.º 23 (1997): Ley 1/1997, de 7 de febrero (Atención Integral a los Menores)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/1997/023/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-034-boc-1997-023-ley-menores.md"
+  estado_fuente: "Activa"
+
+FTE-035:
+  titulo: "Ley 2/2021, de 7 de junio, de igualdad social y no discriminación por razón de identidad de género, expresión de género y características sexuales"
+  tipo_fuente: "normativa-autonomica"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2021-11382"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boe/FTE-035-ley-2-2021-igualdad-identidad-genero.md"
+  estado_fuente: "Activa"
+
+FTE-036:
+  titulo: "BOC n.º 117 (2024): Decreto 84/2024, de 10 de junio (Reglamento Orgánico de la Consejería)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2024/117/002.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-036-boc-2024-117-decreto-84-2024-reglamento-organico.md"
+  estado_fuente: "Activa"
+
+FTE-037:
+  titulo: "BOC n.º 84 (2009): Orden de 24 de abril de 2009 (comedores escolares)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2009/084/004.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-037-boc-2009-084-orden-comedores.md"
+  estado_fuente: "Activa"
+
+FTE-038:
+  titulo: "BOC n.º 165 (2006): Orden de 2 de agosto de 2006 (transporte escolar)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/archivo/2006/165/pda/008.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-038-boc-2006-165-orden-transporte-escolar.md"
+  estado_fuente: "Activa"
+
+FTE-039:
+  titulo: "BOC n.º 61 (2005): Decreto 40/2005, de 16 de marzo (Residencias Escolares)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2005/061/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-039-boc-2005-061-decreto-residencias.md"
+  estado_fuente: "Activa"

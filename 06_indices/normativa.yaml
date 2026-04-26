@@ -387,3 +387,93 @@ NOR-030:
   ruta: "02_normativa/canarias/ordenes/NOR-030-orden-03-03-2022-admision.md"
   temas: [admision, escolarizacion, procedimiento, baremacion]
   etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-031:
+  titulo: "Ley 1/1997, de 7 de febrero, de Atención Integral a los Menores"
+  nombre_corto: "Atención Integral a los Menores (Canarias)"
+  tipo_norma: "ley-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 1997-02-07
+  fecha_publicacion: 1997-02-17
+  fecha_entrada_vigor: 1997-02-18
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-034
+  ruta: "02_normativa/canarias/leyes/NOR-031-ley-1-1997-atencion-integral-menores.md"
+  temas: [menores, proteccion-infancia, bienestar, servicios-sociales]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-032:
+  titulo: "Ley 2/2021, de 7 de junio, de igualdad social y no discriminación por razón de identidad de género, expresión de género y características sexuales"
+  nombre_corto: "Igualdad LGTBI (Canarias)"
+  tipo_norma: "ley-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2021-06-07
+  fecha_publicacion: 2021-06-17
+  fecha_entrada_vigor: 2021-06-18
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-035
+  ruta: "02_normativa/canarias/leyes/NOR-032-ley-2-2021-igualdad-identidad-genero.md"
+  temas: [igualdad, no-discriminacion, identidad-genero, convivencia]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-033:
+  titulo: "Decreto 84/2024, de 10 de junio, por el que se aprueba el Reglamento Orgánico de la Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  nombre_corto: "Reglamento Orgánico Consejería Educación (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2024-06-10
+  fecha_publicacion: 2024-06-17
+  fecha_entrada_vigor: 2024-06-18
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-036
+  ruta: "02_normativa/canarias/decretos/NOR-033-decreto-84-2024-reglamento-organico-consejeria.md"
+  temas: [administracion-educativa, estructura-organica, competencias]
+  etapas_afectadas: [todas]
+
+NOR-034:
+  titulo: "Orden de 24 de abril de 2009, por la que se establece el procedimiento de obtención de plazas y se aprueban las bases de concesión de subvenciones para comedores escolares en los centros públicos docentes no universitarios"
+  nombre_corto: "Comedores escolares (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2009-04-24
+  fecha_publicacion: 2009-05-05
+  fecha_entrada_vigor: 2009-05-05
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-037
+  ruta: "02_normativa/canarias/ordenes/NOR-034-orden-24-04-2009-comedores-escolares.md"
+  temas: [comedores-escolares, servicios-complementarios, subvenciones]
+  etapas_afectadas: [infantil, primaria, eso]
+
+NOR-035:
+  titulo: "Orden de 2 de agosto de 2006, por la que se aprueban las bases que regulan el uso del transporte escolar canario en los Centros Educativos Públicos no universitarios y Residencias Escolares de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Transporte escolar (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2006-08-02
+  fecha_publicacion: 2006-08-24
+  fecha_entrada_vigor: 2006-08-25
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-038
+  ruta: "02_normativa/canarias/ordenes/NOR-035-orden-02-08-2006-transporte-escolar.md"
+  temas: [transporte-escolar, servicios-complementarios, escolarizacion]
+  etapas_afectadas: [primaria, eso]
+
+NOR-036:
+  titulo: "Decreto 40/2005, de 16 de marzo, de ordenación de las Residencias Escolares en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Residencias Escolares (Canarias)"
+  tipo_norma: "decreto-autonomico"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2005-03-16
+  fecha_publicacion: 2005-03-29
+  fecha_entrada_vigor: 2005-03-30
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-039
+  ruta: "02_normativa/canarias/decretos/NOR-036-decreto-40-2005-residencias-escolares.md"
+  temas: [residencias-escolares, servicios-complementarios, compensacion-desigualdades]
+  etapas_afectadas: [primaria, eso, bachillerato, formacion-profesional]

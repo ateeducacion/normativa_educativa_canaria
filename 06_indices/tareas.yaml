@@ -187,13 +187,13 @@ TAREA-017:
 
 TAREA-018:
   titulo: "Inventariar y catalogar normativa de Marco general, Administración y Servicios complementarios"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "analisis"
   responsable: "@.agents/skills/experto-normativa-canaria"
   fecha_creacion: 2026-04-26
   fecha_actualizacion: 2026-04-26
-  relacionadas: [FTE-013]
+  relacionadas: [FTE-013, FTE-034, FTE-035, FTE-036, FTE-037, FTE-038, FTE-039, NOR-004, NOR-010, NOR-027, NOR-031, NOR-032, NOR-033, NOR-034, NOR-035, NOR-036, REL-028, REL-029, REL-030, REL-031, REL-032, REL-033, DEC-0005]
   ruta: "08_tareas/backlog/TAREA-018-inventariar-marco-general-y-administracion.md"
 
 TAREA-019:

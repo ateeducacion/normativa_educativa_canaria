@@ -165,3 +165,45 @@ REL-027:
   destino: NOR-029
   fuente: FTE-033
   ruta: "05_relaciones/normativa/REL-027-orden-admision-desarrolla-decreto.yaml"
+
+REL-028:
+  tipo_relacion: "relaciona"
+  origen: NOR-031
+  destino: NOR-004
+  fuente: FTE-034
+  ruta: "05_relaciones/normativa/REL-028-menores-relaciona-ley-canaria-educacion.yaml"
+
+REL-029:
+  tipo_relacion: "relaciona"
+  origen: NOR-032
+  destino: NOR-010
+  fuente: FTE-035
+  ruta: "05_relaciones/normativa/REL-029-igualdad-lgtbi-relaciona-convivencia.yaml"
+
+REL-030:
+  tipo_relacion: "relaciona"
+  origen: NOR-033
+  destino: NOR-004
+  fuente: FTE-036
+  ruta: "05_relaciones/normativa/REL-030-reglamento-organico-relaciona-ley-canaria.yaml"
+
+REL-031:
+  tipo_relacion: "desarrolla"
+  origen: NOR-034
+  destino: NOR-004
+  fuente: FTE-037
+  ruta: "05_relaciones/normativa/REL-031-comedores-desarrolla-servicios-complementarios.yaml"
+
+REL-032:
+  tipo_relacion: "desarrolla"
+  origen: NOR-035
+  destino: NOR-004
+  fuente: FTE-038
+  ruta: "05_relaciones/normativa/REL-032-transporte-desarrolla-servicios-complementarios.yaml"
+
+REL-033:
+  tipo_relacion: "desarrolla"
+  origen: NOR-036
+  destino: NOR-004
+  fuente: FTE-039
+  ruta: "05_relaciones/normativa/REL-033-residencias-desarrolla-servicios-complementarios.yaml"
