@@ -201,6 +201,7 @@ Regla práctica:
 - Si la ficha `NOR-NNN` ya contiene `url_oficial`, enlácela en la respuesta.
 - Si la ficha normativa no basta, siga `fuente_principal` hasta la ficha `FTE-NNN` y use su `url_oficial`.
 - Para BOC, añada también el PDF oficial si la ficha de fuente lo recoge y la consulta requiere anexos largos o texto íntegro publicado.
+- Use **GitHub Pages** para enlazar archivos concretos del corpus y **GitHub** para enlazar carpetas o vistas de navegación del repositorio.
 
 ## Instrucciones De Uso Para IA
 
