@@ -66,6 +66,7 @@ Si necesita encontrar rápido la norma o el contenido más útil, siga este orde
 5. [Corpus IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia) solo como apoyo de orientación rápida, nunca como sustituto de la fuente oficial.
 
 Use enlaces de **GitHub Pages** para archivos concretos (`.md`, `.yaml`, `llms.txt`) y enlaces de **GitHub** para navegar carpetas completas del corpus.
+Los índices `.yaml` son ficheros estructurados legibles por humanos y máquinas: sirven para inspección directa, descarga o consumo por asistentes/RAG.
 
 ## Mapa De Consultas Frecuentes Del Portal
 
