@@ -20,3 +20,10 @@ PREG-003:
   fecha_resolucion: 2026-04-26
   relacionadas: [FTE-001, AN-003, DEC-0005]
   ruta: "08_tareas/preguntas/PREG-003-tratamiento-orientaciones-recursos-no-normativos.md"
+
+PREG-004:
+  titulo: "Verificación de resoluciones de última hora sobre el nuevo sistema de FP (Grados D y E)"
+  estado: "Abierta"
+  fecha_registro: 2026-04-26
+  relacionadas: [NOR-007, NOR-015, TAREA-037]
+  ruta: "08_tareas/preguntas/PREG-004-verificacion-resoluciones-fp-2024-2025.md"
