@@ -348,3 +348,48 @@ FTE-039:
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/boc/FTE-039-boc-2005-061-decreto-residencias.md"
   estado_fuente: "Activa"
+
+FTE-040:
+  titulo: "Orden de 7 de junio de 2007, medidas de atención a la diversidad en enseñanza básica"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2007/124/005.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-040-orden-7-junio-2007-diversidad-basica.md"
+  estado_fuente: "Activa"
+
+FTE-041:
+  titulo: "Resolución de 5 de febrero de 2026, convocatoria de admisión 2026-2027"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/031/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-041-resolucion-5-febrero-2026-admision-26-27.md"
+  estado_fuente: "Activa"
+
+FTE-042:
+  titulo: "Resolución n.º 261/2024, instrucciones atención diversidad 2024-2025"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "DGOEII - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/atencion_diversidad/instrucciones-24-25/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-042-resolucion-instrucciones-diversidad-24-25.md"
+  estado_fuente: "Histórica"
+
+FTE-043:
+  titulo: "Resolución n.º 327/2025, instrucciones atención diversidad 2025-2026"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "DGOEII - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/atencion_diversidad/instrucciones-25-26/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-043-resolucion-instrucciones-diversidad-25-26.md"
+  estado_fuente: "Superada"
+
+FTE-044:
+  titulo: "Resolución n.º 584/2026, instrucciones atención diversidad 2026-2027"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "DGOEII - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/atencion_diversidad/instrucciones-26-27/"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/portales-oficiales/FTE-044-resolucion-instrucciones-diversidad-26-27.md"
+  estado_fuente: "Activa"

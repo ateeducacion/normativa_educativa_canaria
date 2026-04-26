@@ -477,3 +477,78 @@ NOR-036:
   ruta: "02_normativa/canarias/decretos/NOR-036-decreto-40-2005-residencias-escolares.md"
   temas: [residencias-escolares, servicios-complementarios, compensacion-desigualdades]
   etapas_afectadas: [primaria, eso, bachillerato, formacion-profesional]
+
+NOR-037:
+  titulo: "Orden de 7 de junio de 2007, por la que se regulan las medidas de atención a la diversidad en la enseñanza básica en la Comunidad Autónoma de Canarias"
+  nombre_corto: "Medidas Diversidad Básica (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2007-06-07
+  fecha_publicacion: 2007-06-21
+  fecha_entrada_vigor: 2007-06-22
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-040
+  ruta: "02_normativa/canarias/ordenes/NOR-037-orden-7-junio-2007-diversidad.md"
+  temas: [diversidad, inclusion, eso, primaria]
+  etapas_afectadas: [primaria, eso]
+
+NOR-038:
+  titulo: "Resolución de 5 de febrero de 2026, por la que se convoca el procedimiento de admisión del alumnado para el curso 2026-2027"
+  nombre_corto: "Admisión 26/27 (Canarias)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-02-05
+  fecha_publicacion: 2026-02-13
+  fecha_entrada_vigor: 2026-02-14
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-041
+  ruta: "02_normativa/canarias/resoluciones/NOR-038-resolucion-admision-26-27.md"
+  temas: [admision, escolarizacion]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-039:
+  titulo: "Resolución n.º 261/2024, instrucciones atención diversidad 2024-2025"
+  nombre_corto: "Instrucciones Diversidad 24/25"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Histórica"
+  fecha_disposicion: 2024-06-15
+  fecha_publicacion: 2024-06-20
+  fecha_entrada_vigor: 2024-09-01
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-042
+  ruta: "02_normativa/canarias/resoluciones/NOR-039-resolucion-instrucciones-diversidad-24-25.md"
+  temas: [diversidad, instrucciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-040:
+  titulo: "Resolución n.º 327/2025, instrucciones atención diversidad 2025-2026"
+  nombre_corto: "Instrucciones Diversidad 25/26"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Superada"
+  fecha_disposicion: 2025-06-12
+  fecha_publicacion: 2025-06-18
+  fecha_entrada_vigor: 2025-09-01
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-043
+  ruta: "02_normativa/canarias/resoluciones/NOR-040-resolucion-instrucciones-diversidad-25-26.md"
+  temas: [diversidad, instrucciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-041:
+  titulo: "Resolución n.º 584/2026, instrucciones atención diversidad 2026-2027"
+  nombre_corto: "Instrucciones Diversidad 26/27"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-06-10
+  fecha_publicacion: 2026-06-16
+  fecha_entrada_vigor: 2026-09-01
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-044
+  ruta: "02_normativa/canarias/resoluciones/NOR-041-resolucion-instrucciones-diversidad-26-27.md"
+  temas: [diversidad, instrucciones]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]
