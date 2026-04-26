@@ -25,7 +25,7 @@ relaciones:
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
-# NOR-021 — Decreto 74/2010, de 1 de julio — Interinos (Canarias)
+# NOR-021 — Decreto 74/2010, de 1 de julio — Listas de empleo e interinos (Canarias)
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 
@@ -33,55 +33,46 @@ nivel_evidencia: "confirmado-fuente-primaria"
 
 - **Norma:** Decreto 74/2010, de 1 de julio.
 - **Nombre corto:** Decreto de Interinos (Canarias).
-- **Ámbito:** Canarias.
-- **Autoridad:** Gobierno de Canarias.
-- **Fuente oficial:** `FTE-024`.
-- **Fecha de consulta:** 2026-04-26.
-- **Estado de vigencia:** Vigente.
+- **Publicación:** BOC n.º 136, de 13 de julio de 2010.
+- **Estado de vigencia:** Vigente (en proceso de adaptación por procesos de estabilización Ley 20/2021).
 
 ## 2. Objeto de la norma
 
-Establece el procedimiento de constitución de listas de empleo para el nombramiento de funcionarios interinos en cuerpos docentes no universitarios de Canarias. Ordena acceso a listas, baremación, prelación y uso de listas para cubrir necesidades temporales.
+Establecer el procedimiento para la constitución y gestión de las listas de reserva destinadas al nombramiento de funcionarios interinos en los cuerpos docentes no universitarios de Canarias.
 
 ## 3. Ámbito de aplicación
 
-Afecta a aspirantes y personal integrante de listas de empleo docente no universitario en Canarias, así como a la Administración educativa responsable de nombramientos de personal interino.
+Aspirantes y personal interino de los cuerpos docentes no universitarios dependientes de la Administración educativa canaria.
 
-## 4. Estructura
+## 4. Estructura y Artículos Clave
 
-La norma regula la constitución y gestión de listas de empleo, requisitos de participación, criterios de ordenación, llamamientos, nombramientos, permanencia, exclusión y actualización de listas.
-
-## 5. Artículos, disposiciones o anexos clave
-
-| Localización | Contenido | Relevancia |
+| Artículo | Contenido | Relevancia |
 | --- | --- | --- |
-| Disposiciones generales | Objeto y ámbito | Define a qué listas se aplica |
-| Constitución de listas | Procedimiento y requisitos | Determina acceso al empleo interino |
-| Ordenación y baremación | Méritos y prelación | Impacta en el orden de llamamientos |
-| Nombramientos | Cobertura de vacantes y sustituciones | Conecta listas con necesidades de centros |
-| Permanencia y exclusión | Gestión de integrantes | Regula continuidad y pérdida de posición |
+| Art. 3 | Sistema de constitución | Las listas se forman tras procesos selectivos de ingreso (oposiciones). |
+| Art. 3.4 | Baremación | Prioriza nota de oposición y experiencia previa en la administración pública. |
+| Art. 5 | Procedimientos extraordinarios | Permite convocatorias específicas cuando las listas se agotan. |
+| Art. 15 | Penalizaciones | Regula las consecuencias de rechazar ofertas (situación de "No disponible" o exclusión). |
+
+## 5. Situaciones en las listas
+
+1. **Disponible:** Persona apta para recibir llamamientos y nombramientos.
+2. **No disponible:** Situación temporal por causas justificadas (cuidado de hijos, enfermedad, etc.) que suspende los llamamientos sin perder el puesto.
+3. **Exclusión:** Pérdida definitiva de la condición de integrante de la lista.
 
 ## 6. Relación con otras normas
 
-Se encuadra en la normativa educativa estatal (`NOR-001`, `NOR-002`) y en el régimen general de empleo público (`NOR-019`, `NOR-020`). Debe aplicarse junto con convocatorias, resoluciones e instrucciones específicas de cada procedimiento.
+- Se aplica sobre la base de la **Ley de Función Pública Canaria** (`NOR-019`).
+- Marco estatal: **TREBEP** (`NOR-020`).
+- Afectado por la normativa de estabilización (Ley 20/2021) y el **Decreto ley 7/2024** sobre reducción de temporalidad.
 
 ## 7. Impacto en Canarias
 
-Es pieza central para cubrir vacantes y sustituciones docentes en centros públicos no universitarios. Afecta a la planificación de plantillas, continuidad del servicio educativo y derechos de aspirantes e interinos.
+Es el pilar de la gestión de plantillas docentes, permitiendo cubrir vacantes y sustituciones mediante un sistema transparente de méritos y llamamientos públicos.
 
 ## 8. Resumen IA-friendly
 
-Decreto autonómico vigente que regula la constitución y gestión de listas de empleo para nombrar funcionarios interinos docentes no universitarios en Canarias, incluyendo requisitos, baremación, orden de prelación y llamamientos.
-
-## 9. Preguntas frecuentes
-
-- **¿Es una convocatoria concreta?** No. Es el marco regulador de listas; las convocatorias o instrucciones pueden concretar procedimientos.
-- **¿Afecta a todos los cuerpos docentes no universitarios?** Sí, dentro del ámbito definido por la norma.
-
-## 10. Dudas abiertas
-
-- Sin dudas abiertas en esta ficha.
+Norma que regula cómo se entra y se permanece en las listas de interinos en Canarias. Establece que la nota del examen y la experiencia son los criterios de ordenación y define qué sucede si se rechaza una vacante. Imprescindible para entender el acceso al empleo docente temporal.
 
 ## 11. Fuentes
 
-- [FTE-024](../../../01_fuentes/boc/FTE-024-boc-2010-136-interinos.md)
+- [BOC 2010/136](https://www.gobiernodecanarias.org/boc/2010/136/001.html)

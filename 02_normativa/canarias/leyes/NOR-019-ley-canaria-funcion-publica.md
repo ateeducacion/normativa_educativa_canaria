@@ -21,7 +21,7 @@ relaciones:
   modifica_a: []
   deroga_a: []
   derogada_por: []
-  relacionada_con: [NOR-020, NOR-004, NOR-023]
+  relacionada_con: [NOR-020, NOR-004, NOR-042]
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
@@ -35,52 +35,46 @@ nivel_evidencia: "confirmado-fuente-primaria"
 - **Nombre corto:** Ley Función Pública (Canarias).
 - **Ámbito:** Canarias.
 - **Autoridad:** Comunidad Autónoma de Canarias.
-- **Fuente oficial:** `FTE-022`.
+- **Fuente oficial:** [FTE-022](../../../01_fuentes/boe/FTE-022-ley-canaria-funcion-publica.md).
+- **Publicación:** BOE n.º 80, de 3 de abril de 1987.
 - **Fecha de consulta:** 2026-04-26.
 - **Estado de vigencia:** Vigente.
 
 ## 2. Objeto de la norma
 
-Regula el régimen jurídico de la función pública de la Administración de la Comunidad Autónoma de Canarias. Establece principios generales sobre personal, acceso, carrera, situaciones administrativas, derechos, deberes y régimen disciplinario.
+Regula el régimen jurídico de la función pública de la Administración de la Comunidad Autónoma de Canarias, estableciendo los principios sobre personal, acceso, carrera, situaciones administrativas, derechos, deberes y régimen disciplinario.
 
 ## 3. Ámbito de aplicación
 
-Se aplica al personal al servicio de la Administración autonómica canaria en los términos previstos por la propia ley. Para el personal docente no universitario funciona como marco general o supletorio cuando no exista regulación específica docente o básica estatal aplicable.
+Afecta a todo el personal al servicio de la Administración autonómica. En el caso del personal docente, actúa como marco general autonómico, integrando las particularidades de los cuerpos docentes cuando no exista norma específica que lo desplace.
 
 ## 4. Estructura
 
-La ley ordena el régimen de personal de la Comunidad Autónoma: clases de personal, órganos competentes, planificación de recursos humanos, selección y provisión, carrera, situaciones, derechos y deberes, incompatibilidades y disciplina.
+Ley estructurada en títulos:
+- **Título I:** Órganos superiores de la Función Pública.
+- **Título II:** Personal al servicio de la Administración canaria.
+- **Título III:** Selección y provisión de puestos.
+- **Título IV:** Carrera administrativa y retribuciones.
+- **Título V:** Situaciones administrativas.
+- **Título VI:** Derechos, deberes e incompatibilidades.
+- **Título VII:** Régimen disciplinario.
 
 ## 5. Artículos, disposiciones o anexos clave
 
-| Localización | Contenido | Relevancia |
+| Aspecto | Contenido | Relevancia |
 | --- | --- | --- |
-| Disposiciones generales | Ámbito y principios de función pública | Marco autonómico de empleo público |
-| Órganos de personal | Competencias administrativas | Identifica responsabilidades de gestión |
-| Selección y provisión | Acceso y movilidad | Afecta a procedimientos de personal |
-| Situaciones administrativas | Servicio activo, excedencias y otras situaciones | Relevante para gestión de carreras |
-| Derechos, deberes y disciplina | Régimen jurídico del personal | Base de responsabilidades y garantías |
+| Acceso | Principios de igualdad, mérito y capacidad. | Base de las oposiciones docentes. |
+| Situaciones | Servicio activo, excedencias, servicios especiales. | Define la vida administrativa del docente. |
+| Disciplina | Tipificación de faltas y sanciones. | Marco de responsabilidad administrativa. |
 
 ## 6. Relación con otras normas
 
-Se relaciona con el TREBEP (`NOR-020`) como norma básica estatal de empleo público y con la Ley Canaria de Educación (`NOR-004`) en el ámbito educativo. Para permisos y licencias docentes se conecta con la resolución específica `NOR-023`.
-
-## 7. Impacto en Canarias
-
-Es el marco autonómico general para la gestión de empleados públicos. En educación, informa aspectos comunes de régimen jurídico del personal docente y no docente, sin desplazar la normativa docente específica.
+- Se complementa con el **TREBEP** (`NOR-020`) a nivel básico estatal.
+- Marco de referencia para la nueva regulación de permisos y licencias de 2026 (`NOR-042`).
 
 ## 8. Resumen IA-friendly
 
-Ley autonómica vigente que regula la función pública canaria. En educación actúa como marco general o supletorio para personal docente y administración educativa, especialmente en régimen jurídico, situaciones, derechos, deberes y disciplina.
-
-## 9. Preguntas frecuentes
-
-- **¿Regula específicamente al profesorado?** No de forma exclusiva; es una ley general de función pública.
-- **¿Desplaza al TREBEP?** No. Convive con la normativa básica estatal.
-
-## 10. Dudas abiertas
-
-- Sin dudas abiertas en esta ficha.
+Ley base de la administración canaria. Define los derechos y deberes de todos los funcionarios de la comunidad, incluyendo al profesorado en lo que no sea específico de su cuerpo. Es la norma que regula las situaciones administrativas (excedencias, servicios especiales) y el régimen disciplinario.
 
 ## 11. Fuentes
 

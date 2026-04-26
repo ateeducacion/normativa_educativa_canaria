@@ -300,10 +300,10 @@ NOR-022:
 
 NOR-023:
   titulo: "Resolución de 16 de junio de 2020, por la que se regula el periodo vacacional y el régimen de permisos y licencias del personal docente no universitario"
-  nombre_corto: "Permisos y Licencias (Canarias)"
+  nombre_corto: "Permisos y Licencias 2020 (Canarias)"
   tipo_norma: "resolucion-autonomica"
   ambito: "canarias"
-  estado_vigencia: "Vigente"
+  estado_vigencia: "Superada"
   fecha_disposicion: 2020-06-16
   fecha_publicacion: 2020-07-02
   fecha_entrada_vigor: 2020-07-03
@@ -582,3 +582,18 @@ NOR-041:
   ruta: "02_normativa/canarias/resoluciones/NOR-041-resolucion-instrucciones-diversidad-26-27.md"
   temas: [diversidad, instrucciones]
   etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-042:
+  titulo: "Resolución de 24 de febrero de 2026, por la que se actualiza y adecua el régimen de vacaciones, permisos y licencias del personal docente no universitario"
+  nombre_corto: "Permisos y Licencias 2026 (Canarias)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-02-24
+  fecha_publicacion: 2026-03-09
+  fecha_entrada_vigor: 2026-03-10
+  fecha_consulta: 2026-04-26
+  fuente_principal: FTE-045
+  ruta: "02_normativa/canarias/resoluciones/NOR-042-resolucion-2026-permisos.md"
+  temas: [permisos, licencias, vacaciones, conciliacion]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]

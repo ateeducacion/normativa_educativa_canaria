@@ -1,7 +1,7 @@
 ---
 id: NOR-035
-titulo: "Orden de 2 de agosto de 2006, por la que se aprueban las bases que regulan el uso del transporte escolar canario en los Centros Educativos Públicos no universitarios y Residencias Escolares de la Comunidad Autónoma de Canarias"
-nombre_corto: "Transporte escolar (Canarias)"
+titulo: "Orden de 2 de agosto de 2006, por la que se regula el servicio de transporte escolar en los centros docentes públicos no universitarios y residencias escolares"
+nombre_corto: "Transporte Escolar (Canarias)"
 tipo_norma: "orden-autonomica"
 ambito: "canarias"
 autoridad: "Consejería de Educación, Cultura y Deportes"
@@ -12,76 +12,58 @@ fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-038
-url_oficial: "https://www.gobiernodecanarias.org/boc/archivo/2006/165/pda/008.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2006/165/001.html"
 etapas_afectadas: [primaria, eso]
-temas: [transporte-escolar, servicios-complementarios, escolarizacion]
+temas: [transporte-escolar, servicios-complementarios, seguridad-escolar]
 relaciones:
   desarrolla_a: [NOR-004]
   modificada_por: []
   modifica_a: []
   deroga_a: []
   derogada_por: []
-  relacionada_con: [NOR-001, NOR-036]
+  relacionada_con: []
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
-# NOR-035 — Orden de 2 de agosto de 2006 sobre transporte escolar canario
+# NOR-035 — Orden de 2 de agosto de 2006 — Transporte Escolar (Canarias)
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 
 ## 1. Identificación
 
 - **Norma:** Orden de 2 de agosto de 2006.
-- **Nombre corto:** Transporte escolar (Canarias).
-- **Ámbito:** Canarias.
-- **Autoridad:** Consejería de Educación, Cultura y Deportes.
-- **Fuente oficial:** `FTE-038`.
-- **Fecha de consulta:** 2026-04-26.
+- **Publicación:** BOC n.º 165, de 24 de agosto de 2006.
 - **Estado de vigencia:** Vigente.
 
 ## 2. Objeto de la norma
 
-Aprueba las bases que regulan el uso del transporte escolar canario en centros educativos públicos no universitarios y residencias escolares.
+Regular el servicio de transporte escolar gratuito en Canarias para garantizar el derecho a la educación del alumnado de enseñanza obligatoria que reside lejos de su centro educativo.
 
-## 3. Ámbito de aplicación
+## 3. Alumnado Beneficiario y Gratuidad
 
-Alumnado de centros públicos no universitarios y residencias escolares de Canarias que accede al servicio complementario de transporte escolar.
+- **Derecho Preferente:** Alumnado de Primaria y ESO escolarizado en su zona de influencia pero fuera de su localidad de residencia.
+- **NEE:** Transporte adaptado obligatorio para alumnos con discapacidad física o sensorial.
+- **Distancia mínima:** Generalmente residir a más de **2 km** (Primaria) o **5 km** (ESO) del centro.
+- **Enseñanza postobligatoria:** Bachillerato y FP pueden usar el transporte solo si hay plazas vacantes en rutas existentes.
 
-## 4. Estructura
+## 4. La Figura del Acompañante
 
-La Orden aprueba un anexo con bases reguladoras del servicio, incluyendo garantías de uso, organización, beneficiarios y gestión.
+- **Obligatoriedad:** Todos los vehículos deben contar con un acompañante (monitor) además del conductor.
+- **Funciones:** Cuidado del alumnado, seguridad en subidas/bajadas y entrega de menores a sus responsables en las paradas.
 
-## 5. Artículos, disposiciones o anexos clave
+## 5. Seguridad y Gestión
 
-| Localización | Contenido | Relevancia |
-| --- | --- | --- |
-| Resuelvo primero | Aprueba bases reguladoras | Da cobertura jurídica al servicio |
-| Resuelvo tercero | Derogación | Evita normas contradictorias |
-| Anexo I | Bases de uso del transporte escolar | Núcleo operativo del servicio |
-| Base primera | Garantía de uso | Conecta transporte con escolarización obligatoria |
+- **Vehículos:** Deben cumplir la normativa estatal de seguridad (RD 443/2001) sobre antigüedad y señalización.
+- **Consejo Escolar:** Supervisa el servicio y propone cambios en rutas o paradas basándose en las necesidades de las familias.
 
 ## 6. Relación con otras normas
 
-Desarrolla el marco de servicios complementarios y escolarización de `NOR-004`, se relaciona con la LOE (`NOR-001`) y con las residencias escolares (`NOR-036`).
-
-## 7. Impacto en Canarias
-
-Regula un servicio clave para garantizar la escolarización en un territorio fragmentado y con condicionantes geográficos específicos.
+- Servicio complementario regulado por la **Ley Canaria de Educación** (`NOR-004`).
 
 ## 8. Resumen IA-friendly
 
-Orden autonómica vigente que regula las bases del transporte escolar canario para centros públicos no universitarios y residencias escolares.
-
-## 9. Preguntas frecuentes
-
-- **¿Incluye instrucciones de curso?** No. Las instrucciones anuales se tratan como documentación de curso, no como ficha estructural.
-- **¿Afecta a residencias?** Sí, la propia Orden incluye residencias escolares.
-
-## 10. Dudas abiertas
-
-- [PENDIENTE] Revisar instrucciones anuales si se crean fuentes no normativas o chunks de curso.
+Norma vigente que establece quién tiene derecho a transporte gratuito para ir al colegio o instituto en Canarias. Los requisitos principales son vivir a más de 2km o 5km (según la etapa) y estar dentro de la zona del centro. Obliga a que haya un monitor en el bus para cuidar a los niños y garantizar su seguridad.
 
 ## 11. Fuentes
 
-- [FTE-038](../../../01_fuentes/boc/FTE-038-boc-2006-165-orden-transporte-escolar.md)
-- [FTE-013](../../../01_fuentes/portales-oficiales/FTE-013-inspeccion-educativa-normativa-clasificada.md)
+- [BOC 2006/165](https://www.gobiernodecanarias.org/boc/2006/165/001.html)

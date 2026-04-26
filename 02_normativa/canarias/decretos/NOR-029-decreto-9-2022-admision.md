@@ -1,7 +1,7 @@
 ---
 id: NOR-029
-titulo: "Decreto 9/2022, de 20 de enero, por el que se regula la admisión del alumnado en centros docentes que oferten enseñanzas no universitarias sostenidas con fondos públicos en la Comunidad Autónoma de Canarias"
-nombre_corto: "Admisión del alumnado (Canarias)"
+titulo: "Decreto 9/2022, de 20 de enero, por el que se regula la admisión del alumnado en centros docentes públicos y privados concertados que imparten enseñanzas no universitarias en la Comunidad Autónoma de Canarias"
+nombre_corto: "Decreto de Admisión (Canarias)"
 tipo_norma: "decreto-autonomico"
 ambito: "canarias"
 autoridad: "Gobierno de Canarias"
@@ -14,73 +14,62 @@ estado_vigencia: "Vigente"
 fuente_principal: FTE-032
 url_oficial: "https://www.gobiernodecanarias.org/boc/2022/020/001.html"
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
-temas: [admision, escolarizacion, igualdad, no-discriminacion]
+temas: [admision, escolarizacion, matricula, baremo]
 relaciones:
-  desarrolla_a: [NOR-004]
+  desarrolla_a: [NOR-004, NOR-002]
   modificada_por: []
   modifica_a: []
   deroga_a: []
   derogada_por: []
-  relacionada_con: [NOR-001, NOR-002]
+  relacionada_con: [NOR-030]
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
-# NOR-029 — Decreto 9/2022, de 20 de enero, sobre admisión del alumnado
+# NOR-029 — Decreto 9/2022, de 20 de enero — Admisión de Alumnado (Canarias)
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 
 ## 1. Identificación
 
 - **Norma:** Decreto 9/2022, de 20 de enero.
-- **Nombre corto:** Admisión del alumnado (Canarias).
-- **Ámbito:** Canarias.
-- **Autoridad:** Gobierno de Canarias.
-- **Fuente oficial:** `FTE-032`.
-- **Fecha de consulta:** 2026-04-26.
+- **Nombre corto:** Decreto de Admisión (Canarias).
+- **Publicación:** BOC n.º 20, de 28 de enero de 2022.
 - **Estado de vigencia:** Vigente.
 
 ## 2. Objeto de la norma
 
-Regula la admisión del alumnado en centros docentes sostenidos con fondos públicos que ofrecen enseñanzas no universitarias en Canarias.
+Regular el procedimiento de admisión y matriculación del alumnado en centros públicos y concertados de Canarias, garantizando el acceso en igualdad, la libertad de elección y la cohesión social.
 
-## 3. Ámbito de aplicación
+## 3. Criterios de Admisión (Baremo)
 
-Centros docentes públicos y privados concertados sostenidos con fondos públicos de Canarias, en enseñanzas no universitarias.
+Cuando no existen plazas suficientes, se aplican los siguientes criterios (Arts. 9-15):
+1. **Hermanos en el centro:** Criterio prioritario para favorecer la conciliación.
+2. **Proximidad:** Domicilio familiar o lugar de trabajo (zonas de influencia).
+3. **Renta familiar:** Valoración de la situación económica.
+4. **Discapacidad:** Del alumno, padres o hermanos.
+5. **Familia numerosa/monoparental:** Puntos adicionales.
+6. **Criterio complementario:** Puntuación otorgada por el Consejo Escolar del centro.
 
-## 4. Estructura
+## 4. Alumnado con NEAE (Art. 18)
 
-El decreto regula principios, criterios de admisión, procedimiento, garantías, órganos implicados, baremación y previsiones de desarrollo.
+- **Reserva de plazas:** Los centros deben reservar plazas por grupo para alumnado con necesidades específicas de apoyo educativo.
+- **Equilibrio:** La administración vela por una distribución equilibrada de este alumnado para evitar la segregación escolar.
 
-## 5. Artículos, disposiciones o anexos clave
+## 5. Procedimiento y Garantías
 
-| Localización | Contenido | Relevancia |
-| --- | --- | --- |
-| Preámbulo | Adaptación a LOMLOE | Justifica actualización del régimen de admisión |
-| Articulado principal | Procedimiento y criterios | Marco para acceso en igualdad y libertad de elección |
-| Disposiciones finales | Desarrollo normativo | Habilita la orden de desarrollo |
+- **Solicitud única:** Solo se permite una solicitud por alumno por curso.
+- **Comisiones de Escolarización:** Órganos encargados de supervisar el proceso y asignar plazas fuera de plazo u ordinarias.
+- **Matrícula:** Es obligatorio formalizarla tras obtener la plaza; de lo contrario, se pierde el derecho a la misma.
 
 ## 6. Relación con otras normas
 
-Desarrolla el artículo 51 de la Ley Canaria de Educación (`NOR-004`) y adapta el régimen autonómico de admisión al marco LOE/LOMLOE (`NOR-001`, `NOR-002`). Es desarrollado por la Orden de 3 de marzo de 2022 (`NOR-030`).
-
-## 7. Impacto en Canarias
-
-Es la norma base de escolarización y admisión en centros sostenidos con fondos públicos de Canarias, con atención a igualdad, no discriminación, accesibilidad y distribución equilibrada del alumnado con NEAE.
+- Desarrolla la **Ley Canaria de Educación** (`NOR-004`) y se adapta a la **LOMLOE** (`NOR-002`).
+- Se concreta anualmente mediante la **Orden de Admisión** (`NOR-030`).
 
 ## 8. Resumen IA-friendly
 
-Decreto autonómico vigente que regula la admisión del alumnado en centros sostenidos con fondos públicos de Canarias. Desarrolla la Ley Canaria de Educación y adapta el procedimiento al marco LOMLOE.
-
-## 9. Preguntas frecuentes
-
-- **¿Incluye convocatorias anuales?** No. Las convocatorias anuales se dictan mediante resoluciones específicas.
-- **¿Afecta a FP?** Sí, dentro de las enseñanzas no universitarias, aunque puede coexistir con normativa específica.
-
-## 10. Dudas abiertas
-
-- [PENDIENTE] Mantener actualizadas las resoluciones anuales de admisión cuando se creen chunks o fichas de curso.
+Norma marco vigente que regula cómo se entra en un colegio o instituto público o concertado en Canarias. Establece el sistema de puntos (baremo) por cercanía, hermanos o renta, y obliga a reservar plazas para alumnado con necesidades especiales para garantizar la inclusión.
 
 ## 11. Fuentes
 
-- [FTE-032](../../../01_fuentes/boc/FTE-032-boc-2022-admision-alumnado.md)
-- [FTE-013](../../../01_fuentes/portales-oficiales/FTE-013-inspeccion-educativa-normativa-clasificada.md)
+- [BOC 2022/020](https://www.gobiernodecanarias.org/boc/2022/020/001.html)

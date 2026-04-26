@@ -393,3 +393,12 @@ FTE-044:
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/portales-oficiales/FTE-044-resolucion-instrucciones-diversidad-26-27.md"
   estado_fuente: "Activa"
+
+FTE-045:
+  titulo: "Resolución de 24 de febrero de 2026, permisos y licencias"
+  tipo_fuente: "disposicion-general"
+  autoridad: "Dirección General de Personal - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/046/001.html"
+  fecha_consulta: 2026-04-26
+  ruta: "01_fuentes/boc/FTE-045-boc-2026-046-permisos.md"
+  estado_fuente: "Activa"

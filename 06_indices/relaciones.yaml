@@ -291,3 +291,10 @@ REL-045:
   destino: NOR-004
   fuente: FTE-015
   ruta: "05_relaciones/normativa/REL-045-decreto-fp-desarrolla-ley-canaria.yaml"
+
+REL-046:
+  tipo_relacion: "deroga"
+  origen: NOR-042
+  destino: NOR-023
+  fuente: FTE-045
+  ruta: "05_relaciones/normativa/REL-046-resolucion-2026-deroga-2020.yaml"

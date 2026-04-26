@@ -1,87 +1,71 @@
 ---
 id: NOR-034
-titulo: "Orden de 24 de abril de 2009, por la que se establece el procedimiento de obtención de plazas y se aprueban las bases de concesión de subvenciones para comedores escolares en los centros públicos docentes no universitarios"
-nombre_corto: "Comedores escolares (Canarias)"
+titulo: "Orden de 24 de abril de 2009, por la que se establece el procedimiento de obtención de plazas y se aprueban las bases de concesión de subvenciones para comedores escolares en centros públicos"
+nombre_corto: "Comedores Escolares (Canarias)"
 tipo_norma: "orden-autonomica"
 ambito: "canarias"
 autoridad: "Consejería de Educación, Universidades, Cultura y Deportes"
 fecha_disposicion: 2009-04-24
 fecha_publicacion: 2009-05-05
-fecha_entrada_vigor: 2009-05-05
+fecha_entrada_vigor: 2009-05-06
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-037
-url_oficial: "https://www.gobiernodecanarias.org/boc/2009/084/004.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2009/084/001.html"
 etapas_afectadas: [infantil, primaria, eso]
-temas: [comedores-escolares, servicios-complementarios, subvenciones]
+temas: [comedores, subvenciones, conciliacion, servicios-complementarios]
 relaciones:
   desarrolla_a: [NOR-004]
   modificada_por: []
   modifica_a: []
   deroga_a: []
   derogada_por: []
-  relacionada_con: [NOR-001, NOR-002]
+  relacionada_con: []
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
-# NOR-034 — Orden de 24 de abril de 2009 sobre comedores escolares
+# NOR-034 — Orden de 24 de abril de 2009 — Comedores Escolares (Canarias)
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 
 ## 1. Identificación
 
 - **Norma:** Orden de 24 de abril de 2009.
-- **Nombre corto:** Comedores escolares (Canarias).
-- **Ámbito:** Canarias.
-- **Autoridad:** Consejería de Educación, Universidades, Cultura y Deportes.
-- **Fuente oficial:** `FTE-037`.
-- **Fecha de consulta:** 2026-04-26.
+- **Publicación:** BOC n.º 84, de 5 de mayo de 2009.
 - **Estado de vigencia:** Vigente.
 
 ## 2. Objeto de la norma
 
-Establece el procedimiento de obtención de plazas de comedor escolar y aprueba las bases de concesión de subvenciones para alumnado comensal en centros públicos docentes no universitarios.
+Regular el acceso a las plazas de comedor escolar en centros públicos y establecer las bases para conceder subvenciones (ayudas económicas) para el pago del servicio, priorizando la conciliación familiar.
 
-## 3. Ámbito de aplicación
+## 3. Obtención de Plazas y Prioridad
 
-Alumnado comensal de centros docentes públicos no universitarios dependientes de la Consejería competente en educación.
+Si la demanda supera la oferta, se aplican criterios de prioridad:
+1. Alumnado con derecho a transporte escolar.
+2. Familias con dificultades económicas (renta baja).
+3. Necesidad de **conciliación laboral**: Trabajo de ambos progenitores o tutor legal.
 
-## 4. Estructura
+## 4. Subvenciones y Cuotas
 
-Contiene articulado general, disposiciones derogatorias/finales y anexos sobre procedimiento de admisión y bases indefinidas de subvenciones.
+- **Sistema de tramos:** Las ayudas se dividen en cuotas (A, B, C, D, E...) según la renta de la unidad familiar. La cuota A es para las rentas más bajas o riesgo de exclusión social.
+- **Unidad Familiar:** Se define quién computa para el cálculo de los ingresos (padres, hijos menores o dependientes).
 
-## 5. Artículos, disposiciones o anexos clave
+## 5. Gestión y Funcionamiento
 
-| Localización | Contenido | Relevancia |
-| --- | --- | --- |
-| Art. 1 | Objeto y ámbito | Define plazas y subvenciones de comedor |
-| Art. 2 | Instrucción anual | Remite a resolución anual para cada curso |
-| Anexo I | Procedimiento de admisión | Criterios y listas de reserva |
-| Anexo II | Bases de subvención | Financiación del servicio de comedor |
+- **Consejo Escolar:** Responsable de aprobar menús, presupuestos y normas de convivencia del servicio.
+- **Encargado/a de comedor:** Docente responsable de la gestión directa del servicio (remitido a normativas de 1996 y 2003).
+- **Pérdida de plaza:** Por impago, falta de uso injustificada (10 días al mes) o falsedad documental.
 
 ## 6. Relación con otras normas
 
-Desarrolla el marco de servicios complementarios de la Ley Canaria de Educación (`NOR-004`) y se relaciona con la LOE/LOMLOE por ayudas, equidad y compensación de desigualdades.
-
-## 7. Impacto en Canarias
-
-Es la base estable para gestionar plazas, baremación y subvenciones de comedor escolar en centros públicos no universitarios de Canarias.
+- Se enmarca en los servicios complementarios de la **Ley Canaria de Educación** (`NOR-004`).
+- Unifica criterios de renta con otros servicios para simplificar trámites a las familias.
 
 ## 8. Resumen IA-friendly
 
-Orden autonómica vigente que regula el procedimiento de plazas y subvenciones de comedores escolares en centros públicos docentes no universitarios de Canarias.
-
-## 9. Preguntas frecuentes
-
-- **¿Incluye cada convocatoria anual?** No. La Orden prevé instrucciones o resoluciones anuales.
-- **¿Las resoluciones anuales son objeto de esta ficha?** No; pueden catalogarse por curso si se necesita.
-
-## 10. Dudas abiertas
-
-- [PENDIENTE] Revisar modificaciones posteriores, incluida la Orden de 28 de marzo de 2014, si se abre ficha de modificación.
+Norma vigente que regula las plazas y becas de comedor en colegios públicos de Canarias. Da prioridad a las familias donde ambos padres trabajan y establece el precio a pagar según el nivel de ingresos (ayudas por tramos). Explica también los deberes de los usuarios y causas de expulsión (ej. impago o no ir al comedor sin avisar).
 
 ## 11. Fuentes
 
-- [FTE-037](../../../01_fuentes/boc/FTE-037-boc-2009-084-orden-comedores.md)
-- [FTE-013](../../../01_fuentes/portales-oficiales/FTE-013-inspeccion-educativa-normativa-clasificada.md)
+- [BOC 2009/084](https://www.gobiernodecanarias.org/boc/2009/084/001.html)

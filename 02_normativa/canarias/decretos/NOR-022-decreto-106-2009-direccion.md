@@ -13,11 +13,10 @@ fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 fuente_principal: FTE-025
 url_oficial: "https://www.gobiernodecanarias.org/boc/2009/155/001.html"
-temas: [funcion-directiva, seleccion, evaluacion, directores]
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
 relaciones:
   desarrolla_a: [NOR-001]
-  modificada_por: []
+  modificada_por: [Decreto 121/2015]
   modifica_a: []
   deroga_a: []
   derogada_por: []
@@ -25,63 +24,55 @@ relaciones:
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
-# NOR-022 — Decreto 106/2009, de 28 de julio — Función Directiva (Canarias)
+# NOR-022 — Decreto 106/2009, de 28 de julio — Función Directiva en Canarias
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 
 ## 1. Identificación
 
 - **Norma:** Decreto 106/2009, de 28 de julio.
-- **Nombre corto:** Función Directiva (Canarias).
-- **Ámbito:** Canarias.
-- **Autoridad:** Gobierno de Canarias.
-- **Fuente oficial:** `FTE-025`.
-- **Fecha de consulta:** 2026-04-26.
-- **Estado de vigencia:** Vigente.
+- **Publicación:** BOC n.º 155, de 11 de agosto de 2009.
+- **Estado de vigencia:** Vigente, modificado por el Decreto 121/2015.
 
 ## 2. Objeto de la norma
 
-Regula la función directiva en centros docentes públicos no universitarios dependientes de Canarias. Establece criterios sobre selección, nombramiento, formación, ejercicio, reconocimiento y evaluación de la dirección.
+Profesionalizar la dirección de los centros públicos canarios mediante la regulación de la selección, formación, ejercicio y evaluación de los directores y sus equipos.
 
-## 3. Ámbito de aplicación
+## 3. Estructura y Bloques Clave
 
-Se aplica a centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias y afecta a docentes candidatos a dirección, directores y directoras, equipos directivos, claustros, consejos escolares y Administración educativa.
+### El Equipo Directivo (Arts. 3-4)
+Integrado por:
+- Director/a.
+- Jefe/a de Estudios.
+- Secretario/a.
+- *Nota:* El Decreto 121/2015 permite ampliar jefaturas de estudios según los turnos del centro.
 
-## 4. Estructura
+### Selección del Director/a (Arts. 7-19)
+- Se realiza por **concurso de méritos**.
+- Requisito esencial: Presentación de un **Proyecto de Dirección** con objetivos, plan de gestión y evaluación.
+- Comisión de selección mixta (Administración e Inspección + Claustro y Consejo Escolar).
 
-La norma aborda requisitos y procedimiento de selección, proyecto de dirección, comisión de selección, nombramiento, duración del mandato, competencias, evaluación de la función directiva, formación y reconocimiento.
+### Mandato y Evaluación (Arts. 20-31)
+- Duración del mandato: **4 años**.
+- Renovación: Sujeta a evaluación positiva de la gestión al final de cada mandato.
+- La evaluación positiva conlleva reconocimiento profesional y económico (consolidación de parte del complemento).
 
-## 5. Artículos, disposiciones o anexos clave
+## 4. Competencias de la Dirección
 
-| Localización | Contenido | Relevancia |
-| --- | --- | --- |
-| Disposiciones generales | Objeto y ámbito | Define la función directiva regulada |
-| Selección | Requisitos, proyecto y procedimiento | Determina acceso a la dirección |
-| Nombramiento y mandato | Duración y ejercicio del cargo | Estabiliza la gestión directiva |
-| Evaluación | Valoración del desempeño | Condiciona renovación y reconocimiento |
-| Formación y reconocimiento | Apoyo profesional | Conecta dirección con desarrollo profesional docente |
+- Liderazgo pedagógico y garantía del cumplimiento del Proyecto Educativo.
+- Jefatura de todo el personal adscrito al centro.
+- Gestión de recursos económicos y mantenimiento de instalaciones.
+- Garantía de la convivencia escolar.
 
 ## 6. Relación con otras normas
 
-Desarrolla el marco estatal de dirección de centros contenido en la legislación educativa (`NOR-001`) y se relaciona con la Ley Canaria de Educación (`NOR-004`), el Reglamento Orgánico de centros (`NOR-009`) y el régimen básico de empleo público (`NOR-020`).
-
-## 7. Impacto en Canarias
-
-Incide en la gobernanza de los centros públicos: selección de directores, proyectos de dirección, estabilidad de equipos directivos, evaluación del desempeño y profesionalización de la gestión escolar.
+- Desarrolla la **LOE** (`NOR-001`) en materia de dirección.
+- Se complementa con el **Reglamento Orgánico de Centros (ROC)** (`NOR-009`) para las funciones específicas del resto del equipo directivo.
 
 ## 8. Resumen IA-friendly
 
-Decreto autonómico vigente que regula la función directiva en centros públicos no universitarios de Canarias: selección, nombramiento, proyecto de dirección, evaluación, formación y reconocimiento profesional.
-
-## 9. Preguntas frecuentes
-
-- **¿Regula todos los cargos directivos?** Su foco principal es la dirección, aunque afecta al funcionamiento de equipos directivos.
-- **¿Sustituye al Reglamento Orgánico de centros?** No. Lo complementa en materia de función directiva.
-
-## 10. Dudas abiertas
-
-- Sin dudas abiertas en esta ficha.
+Norma que regula quién puede ser director de un colegio o instituto público en Canarias y cómo se le elige. Destaca la importancia del Proyecto de Dirección como contrato de gestión por 4 años y el sistema de evaluación posterior que permite la profesionalización del cargo.
 
 ## 11. Fuentes
 
-- [FTE-025](../../../01_fuentes/boc/FTE-025-boc-2009-155-direccion.md)
+- [BOC 2009/155](https://www.gobiernodecanarias.org/boc/2009/155/001.html)
