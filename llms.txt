@@ -49,6 +49,8 @@ Formato de respuesta preferido para consultas educativas:
 
 ## Reglas de uso para IA
 
+- [Skill copiable «Experto en normativa educativa de Canarias»](https://ateeducacion.github.io/normativa_educativa_canaria/skill.html): system prompt listo para Claude, ChatGPT, Gemini, Copilot, Codex y otros, con prompts de ejemplo y botones de copiar; sin MCP.
+- [Skill canónica en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/skills/experto-normativa-educativa-canaria): `SKILL.md`, `INSTALACION.md` (instrucciones por plataforma) y `prompts.md` (prompts de ejemplo).
 - [Disciplina de evidencia](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/metodologia/disciplina-evidencia.md): reglas de trazabilidad, marcadores editoriales y límites de inferencia.
 - [Guía de validación](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/docs/guias/validacion.md): comprobaciones mínimas del corpus antes de cerrar cambios.
 - [Guía MCP](https://ateeducacion.github.io/normativa_educativa_canaria/mcp.html): uso del repositorio desde clientes compatibles con GitHub MCP Server.
