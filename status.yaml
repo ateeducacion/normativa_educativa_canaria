@@ -3,7 +3,7 @@ metadata:
   repositorio: "ateeducacion/normativa_educativa_canaria"
   objetivo: "Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML"
   fase_actual: "Fase 1 — Inventario y Catalogación"
-  fecha_actualizacion: 2026-04-26
+  fecha_actualizacion: 2026-04-27
   agente_actual: "@.agents/skills/experto-normativa-canaria"
 
 tareas:
@@ -589,6 +589,17 @@ tareas:
     fecha_actualizacion: 2026-04-26
     relacionadas: [FTE-005, FTE-007, FTE-009, NOR-001, NOR-003, NOR-005]
     siguiente_accion: null
+
+  TAREA-054:
+    titulo: "Publicar copias locales rápidas de currículos ESO y Bachillerato"
+    estado: "En progreso"
+    prioridad: "Alta"
+    tipo: "corpus-ia"
+    responsable: "@.agents/skills/preparacion-corpus-ia"
+    fecha_creacion: 2026-04-27
+    fecha_actualizacion: 2026-04-27
+    relacionadas: [FTE-002, FTE-009, FTE-012, CUR-001, CUR-023, CUR-037, CUR-058]
+    siguiente_accion: "Generar las copias locales rápidas en texto plano, registrar sus rutas en 06_indices/textos-oficiales.yaml y actualizar la documentación de cobertura."
 
 bloqueos: []
 
