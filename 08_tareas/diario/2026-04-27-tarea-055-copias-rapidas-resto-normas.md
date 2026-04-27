@@ -1,4 +1,4 @@
-# Diario — 2026-04-27: cierre TAREA-054 copias rápidas del resto de normas
+# Diario — 2026-04-27: cierre TAREA-055 copias rápidas del resto de normas
 
 ## Trabajo realizado
 
@@ -17,10 +17,11 @@
 ## Incidencias y límites
 
 - En `NOR-039` la vía pública vigente recuperable sigue siendo la página oficial temática enlazada en la ficha; no se ha localizado un PDF individual público adicional en el portal actual.
+- Durante la integración con `origin/main`, esta edición se renumeró de `TAREA-054` a `TAREA-055` porque `TAREA-054` ya estaba ocupada por otra tarea paralela sobre copias rápidas curriculares.
 
 ## IDs consumidos
 
-- `TAREA-054`.
+- `TAREA-055`.
 
 ## Coordinación con trabajo paralelo
 

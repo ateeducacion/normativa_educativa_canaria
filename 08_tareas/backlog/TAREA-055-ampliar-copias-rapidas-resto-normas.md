@@ -1,5 +1,5 @@
 ---
-id: TAREA-054
+id: TAREA-055
 titulo: "Ampliar copias rápidas de texto oficial al resto de normas"
 estado: "Hecha"
 prioridad: "Alta"
@@ -10,7 +10,7 @@ fecha_actualizacion: 2026-04-27
 relacionadas: [TAREA-053, NOR-002, NOR-039, NOR-040, NOR-041, NOR-042, NOR-045, NOR-046, NOR-049, NOR-059, NOR-060]
 ---
 
-# TAREA-054 — Ampliar copias rápidas de texto oficial al resto de normas
+# TAREA-055 — Ampliar copias rápidas de texto oficial al resto de normas
 
 ## Objetivo
 
@@ -31,9 +31,9 @@ Completar la cobertura de `07_corpus_ia/textos-completos/` para las normas del c
 
 ## IDs consumidos
 
-- `TAREA-054`.
+- `TAREA-055`.
 
 ## Coordinación con trabajo paralelo
 
-- No se han reservado nuevos IDs de `FTE`, `NOR`, `CUR`, `REL`, `CHUNK`, `PREG` o `DEC`.
+- Se ha renumerado la tarea a `TAREA-055` al integrar `origin/main`, porque `TAREA-054` ya había sido consumida por otra edición paralela del corpus.
 - La tarea se ha limitado a materiales IA, al resolutor de textos oficiales y a los resúmenes globales del repositorio.

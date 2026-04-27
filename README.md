@@ -70,7 +70,7 @@ Para más detalle sobre prompts y ejemplos de uso, consulte el [Portal del Corpu
 
 - Fuentes catalogadas hasta `FTE-056`.
 - Normativa indexada hasta `NOR-060`.
-- Accesos a texto oficial indexados en `06_indices/textos-oficiales.yaml`, con 60 copias locales rápidas para `NOR-001` a `NOR-060`.
+- Accesos a texto oficial indexados en `06_indices/textos-oficiales.yaml`, con 97 copias locales rápidas trazables (60 normas y 37 currículos de ESO y Bachillerato).
 - Currículos registrados hasta `CUR-058`: Infantil, Primaria, ESO, Bachillerato y primeros ciclos FP.
 - Chunks IA registrados hasta `CHUNK-00022`.
-- Tareas registradas hasta `TAREA-054`; las 54 tareas actuales figuran como `Hecha` en `status.yaml`.
+- Tareas registradas hasta `TAREA-055`; las 55 tareas actuales figuran como `Hecha` en `status.yaml`.
