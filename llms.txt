@@ -8,16 +8,16 @@ Las rutas internas Markdown/YAML citadas en este archivo quedan publicadas en Gi
 
 ## Foto Indexada
 
-Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo entidades registradas en `06_indices/`; no incorpora borradores locales, archivos sin seguimiento ni fichas aún no indexadas.
+Actualizado con los índices locales a fecha 2026-04-27. Este mapa recoge solo entidades registradas en `06_indices/`; no incorpora borradores locales, archivos sin seguimiento ni fichas aún no indexadas.
 
 - 56 fuentes catalogadas (`FTE-001` a `FTE-056`).
 - 60 fichas normativas indexadas (`NOR-001` a `NOR-060`, con huecos reservados/no reutilizados).
 - 58 currículos registrados (`CUR-001` a `CUR-058`): 23 de ESO, 10 de Primaria, 3 de Infantil, 14 de Bachillerato y 8 de FP.
 - 45 relaciones normativas y curriculares (`REL-001` a `REL-048`, con huecos reservados/no reutilizados).
 - 22 chunks IA (`CHUNK-00001` a `CHUNK-00022`).
-- 54 tareas registradas; las 54 figuran como hechas en `status.yaml`.
+- 55 tareas registradas; las 55 figuran como hechas en `status.yaml`.
 - 1 índice específico de accesos a texto oficial (`06_indices/textos-oficiales.yaml`).
-- 40 copias locales rápidas del texto completo en `07_corpus_ia/textos-completos/`: 3 normas (`NOR-001`, `NOR-003`, `NOR-005`) y 37 currículos de ESO y Bachillerato (`CUR-001` a `CUR-023`, `CUR-037` a `CUR-045`, `CUR-054` a `CUR-058`).
+- 97 copias locales rápidas del texto completo en `07_corpus_ia/textos-completos/`: 60 normas (`NOR-001` a `NOR-060`) y 37 currículos de ESO y Bachillerato (`CUR-001` a `CUR-023`, `CUR-037` a `CUR-045`, `CUR-054` a `CUR-058`).
 
 ## Cobertura Principal
 

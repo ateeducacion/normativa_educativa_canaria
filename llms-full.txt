@@ -21,8 +21,8 @@ Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo e
 | Currículos | 58 entradas, `CUR-001` a `CUR-058` |
 | Relaciones | 45 entradas, `REL-001` a `REL-048`, con huecos reservados/no reutilizados |
 | Chunks IA | 22 entradas, `CHUNK-00001` a `CHUNK-00022` |
-| Tareas | 54 entradas; todas figuran como `Hecha` en `status.yaml` |
-| Textos oficiales | índice `06_indices/textos-oficiales.yaml` + 40 copias locales rápidas (3 normas y 37 currículos de ESO/Bachillerato) |
+| Tareas | 55 entradas; todas figuran como `Hecha` en `status.yaml` |
+| Textos oficiales | índice `06_indices/textos-oficiales.yaml` + 97 copias locales rápidas (60 normas `NOR-001` a `NOR-060` y 37 currículos de ESO/Bachillerato) |
 
 Distribución de currículos extraídos:
 

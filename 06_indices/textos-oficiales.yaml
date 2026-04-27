@@ -1,13 +1,12 @@
 meta:
   descripcion: Accesos rápidos a texto oficial y copias locales rápidas cuando existan.
   fecha_actualizacion: '2026-04-27'
-  advertencia: Este índice no sustituye la fuente oficial. Prioriza siempre la publicación oficial y usa la copia local solo
-    como apoyo de lectura rápida o RAG.
+  advertencia: Este índice no sustituye la fuente oficial. Prioriza siempre la publicación oficial y usa la copia local solo como apoyo de lectura rápida o RAG.
   lote_local_inicial:
   - NOR-001
   - NOR-003
   - NOR-005
-  copias_locales_totales: 40
+  copias_locales_totales: 97
 fuentes:
   FTE-001:
     titulo: Normativa educativa — Gobierno de Canarias
@@ -396,8 +395,7 @@ fuentes:
       url_anexo: null
     texto_plano_local: null
   FTE-035:
-    titulo: Ley 2/2021, de 7 de junio, de igualdad social y no discriminación por razón de identidad de género, expresión
-      de género y características sexuales
+    titulo: Ley 2/2021, de 7 de junio, de igualdad social y no discriminación por razón de identidad de género, expresión de género y características sexuales
     ruta_corpus: 01_fuentes/boe/FTE-035-ley-2-2021-igualdad-identidad-genero.md
     fecha_consulta: 2026-04-26
     estado_acceso: enlace-oficial
@@ -662,16 +660,19 @@ normativa:
     fuente_principal: FTE-006
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17264
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-002-lomloe.txt
+      sha256: 3d8973237292a736c0c2de7a3c5eed79367b335e9c4ab483a71ffb188faf9359
+      url_origen: https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17264
+      fecha_exportacion: '2026-04-27'
   NOR-003:
-    titulo: Real Decreto 217/2022, de 29 de marzo, por el que se establece la ordenación y las enseñanzas mínimas de la Educación
-      Secundaria Obligatoria
+    titulo: Real Decreto 217/2022, de 29 de marzo, por el que se establece la ordenación y las enseñanzas mínimas de la Educación Secundaria Obligatoria
     ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md
     fuente_principal: FTE-007
     fecha_consulta: 2026-04-26
@@ -693,16 +694,19 @@ normativa:
     fuente_principal: FTE-008
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: null
       url_pdf: null
       url_texto_consolidado: https://www.boe.es/buscar/act.php?id=BOE-A-2014-9901
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-004-ley-canaria-6-2014.txt
+      sha256: a860bcd52fe2b8dae7c43f7b92dca9dde39107cae3106a29c86de7b3e0d73d80
+      url_origen: https://www.boe.es/buscar/act.php?id=BOE-A-2014-9901
+      fecha_exportacion: '2026-04-27'
   NOR-005:
-    titulo: Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria
-      Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias
+    titulo: Decreto 30/2023, de 16 de marzo, por el que se establece la ordenación y el currículo de la Educación Secundaria Obligatoria y del Bachillerato en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md
     fuente_principal: FTE-009
     fecha_consulta: 2026-04-26
@@ -724,1214 +728,1396 @@ normativa:
     fuente_principal: FTE-011
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: null
       url_pdf: null
       url_texto_consolidado: https://www.boe.es/buscar/act.php?id=BOE-A-2022-5521
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-006-rd-243-2022.txt
+      sha256: 605e834866a932de630499a5b4cfa24809d92811d1a0eec093dfea32058a7ba4
+      url_origen: https://www.boe.es/buscar/act.php?id=BOE-A-2022-5521
+      fecha_exportacion: '2026-04-27'
   NOR-007:
     titulo: Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional
     ruta_corpus: 02_normativa/estatal/leyes-organicas/NOR-007-lofp.md
     fuente_principal: FTE-016
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: null
       url_pdf: null
       url_texto_consolidado: https://www.boe.es/buscar/act.php?id=BOE-A-2022-5139
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-007-lofp.txt
+      sha256: a540e22085ce968d29d47e13b9aa2dc8bfdb70af34950e4948fbd63db9ede54c
+      url_origen: https://www.boe.es/buscar/act.php?id=BOE-A-2022-5139
+      fecha_exportacion: '2026-04-27'
   NOR-008:
-    titulo: Decreto 156/1996, de 20 de junio, por el que se establece la Ordenación General de las Enseñanzas de Formación
-      Profesional Específica en la Comunidad Autónoma de Canarias
+    titulo: Decreto 156/1996, de 20 de junio, por el que se establece la Ordenación General de las Enseñanzas de Formación Profesional Específica en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/decretos/NOR-008-decreto-156-1996-fp.md
     fuente_principal: FTE-015
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente (supletorio/histórico)
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional/
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-008-decreto-156-1996-fp.txt
+      sha256: 1d50c024d51871fed184d914f79335d810af179c9c82ba25d14f198d73e45068
+      url_origen: https://www.gobiernodecanarias.org/boc/1996/083/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-009:
-    titulo: Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos
-      no universitarios de la Comunidad Autónoma de Canarias
+    titulo: Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/decretos/NOR-009-decreto-81-2010-roc.md
     fuente_principal: FTE-017
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2010/143/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-009-decreto-81-2010-roc.txt
+      sha256: d71ab5ffdd96d2bbb256566756d78bbbd58b7e42c5f700b2fc5ce685f96e8a45
+      url_origen: https://www.gobiernodecanarias.org/boc/2010/143/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-010:
-    titulo: Decreto 114/2011, de 11 de mayo, por el que se regula la convivencia en el ámbito educativo de la Comunidad Autónoma
-      de Canarias
+    titulo: Decreto 114/2011, de 11 de mayo, por el que se regula la convivencia en el ámbito educativo de la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/decretos/NOR-010-decreto-114-2011-convivencia.md
     fuente_principal: FTE-018
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2011/108/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-010-decreto-114-2011-convivencia.txt
+      sha256: 97aa3892567ccfc40889e40d84e1e96d879ded903b278c2f9b4789c02e541ee6
+      url_origen: https://www.gobiernodecanarias.org/boc/2011/108/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-011:
-    titulo: Decreto 52/2009, de 12 de mayo, por el que se aprueba el Reglamento de la Inspección de Educación de la Comunidad
-      Autónoma de Canarias
+    titulo: Decreto 52/2009, de 12 de mayo, por el que se aprueba el Reglamento de la Inspección de Educación de la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/decretos/NOR-011-decreto-52-2009-inspeccion.md
     fuente_principal: FTE-013
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-011-decreto-52-2009-inspeccion.txt
+      sha256: 486c313f07c42cb77ae101b39ef91cd37b970407aed9a6a4c28720e30c6a73a1
+      url_origen: https://www.gobiernodecanarias.org/boc/2009/097/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-012:
-    titulo: Decreto 112/2011, de 11 de mayo, por el que se aprueba el Reglamento Orgánico de los Centros Integrados de Formación
-      Profesional
+    titulo: Decreto 112/2011, de 11 de mayo, por el que se aprueba el Reglamento Orgánico de los Centros Integrados de Formación Profesional
     ruta_corpus: 02_normativa/canarias/decretos/NOR-012-decreto-112-2011-roc-cifp.md
     fuente_principal: FTE-020
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2011/104/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-012-decreto-112-2011-roc-cifp.txt
+      sha256: d92a4a535952da3ff27a3da10616116ec416ed39a9ea8b9d1da5f03d1a43ecf4
+      url_origen: https://www.gobiernodecanarias.org/boc/2011/104/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-013:
-    titulo: Orden de 22 de mayo de 2011, por la que se desarrolla la organización y el funcionamiento de la Inspección de
-      Educación de la Comunidad Autónoma de Canarias
+    titulo: Orden de 22 de mayo de 2011, por la que se desarrolla la organización y el funcionamiento de la Inspección de Educación de la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-013-orden-22-mayo-2011-inspeccion.md
     fuente_principal: FTE-021
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2011/107/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-013-orden-22-mayo-2011-inspeccion.txt
+      sha256: 9ccf2b898be68d305bcf45486e921c3586fa82e9e43502091162f15726fd60d6
+      url_origen: https://www.gobiernodecanarias.org/boc/2011/107/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-014:
-    titulo: Orden de 22 de febrero de 2008, por la que se regula el acceso a la formación profesional del sistema educativo
-      y a las enseñanzas deportivas de régimen especial
+    titulo: Orden de 22 de febrero de 2008, por la que se regula el acceso a la formación profesional del sistema educativo y a las enseñanzas deportivas de régimen especial
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-014-orden-22-02-2008-acceso-fp.md
     fuente_principal: FTE-015
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente (con aplicaciones anuales)
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional/
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-014-orden-22-02-2008-acceso-fp.txt
+      sha256: ef4f140246254511ca7ac8dd653993fd09f23ed79a7c41607e1236722aa217f2
+      url_origen: http://www.gobiernodecanarias.org/boc/2008/055/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-015:
-    titulo: Orden de 20 de octubre de 2000, por la que se regulan los procesos de evaluación de las enseñanzas de la Formación
-      Profesional Específica en la Comunidad Autónoma de Canarias
+    titulo: Orden de 20 de octubre de 2000, por la que se regulan los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-015-orden-20-10-2000-evaluacion-fp.md
     fuente_principal: FTE-015
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente (supletoria)
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional/
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-015-orden-20-10-2000-evaluacion-fp.txt
+      sha256: 16fb0efb390eeda8bb13446ec2e8cbd7d024b2d9cd20bc21bea0d116db99448e
+      url_origen: https://www.gobiernodecanarias.org/boc/2000/148/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-016:
-    titulo: Orden de 3 de diciembre de 2003, por la que se modifica y amplía la Orden de 20 de octubre de 2000, que regula
-      los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias
+    titulo: Orden de 3 de diciembre de 2003, por la que se modifica y amplía la Orden de 20 de octubre de 2000, que regula los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-016-orden-03-12-2003-evaluacion-fp.md
     fuente_principal: FTE-015
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional/
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-016-orden-03-12-2003-evaluacion-fp.txt
+      sha256: 648a985cbc7362fe36b046fe7b239211afa2c36f187cf11ec53677f53fe17f49
+      url_origen: https://www.gobiernodecanarias.org/boc/2003/248/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-017:
     titulo: Orden de 28 de julio de 2014, por la que se regula la organización y funcionamiento de las Escuelas Infantiles
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-017-orden-28-julio-2014-infantil.md
     fuente_principal: FTE-013
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-017-orden-28-julio-2014-infantil.txt
+      sha256: 3c76f07ad21dec40a24129cfe3dcb8e5b34117bf16f8be03f444a573c785c044
+      url_origen: https://www.gobiernodecanarias.org/boc/2014/150/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-018:
-    titulo: Orden de 1 de septiembre de 2010, por la que se regula la organización y funcionamiento de los Institutos de Educación
-      Secundaria
+    titulo: Orden de 1 de septiembre de 2010, por la que se regula la organización y funcionamiento de los Institutos de Educación Secundaria
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-018-orden-1-sept-2010-ies.md
     fuente_principal: FTE-013
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-018-orden-1-sept-2010-ies.txt
+      sha256: 43b047508f11cf883bb6953694df915ef85e709e912fac61c868e56f7d7b0558
+      url_origen: https://www.gobiernodecanarias.org/boc/2010/178/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-019:
     titulo: Ley 2/1987, de 30 de marzo, de la Función Pública Canaria
     ruta_corpus: 02_normativa/canarias/leyes/NOR-019-ley-canaria-funcion-publica.md
     fuente_principal: FTE-022
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: null
       url_pdf: null
       url_texto_consolidado: https://www.boe.es/buscar/act.php?id=BOE-A-1987-11119
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-019-ley-canaria-funcion-publica.txt
+      sha256: e8e06dbf737ef4e80dd2b0c81afda28f1bf63645d3cc6bd75e208e7aa7832a1d
+      url_origen: https://www.boe.es/buscar/act.php?id=BOE-A-1987-11119
+      fecha_exportacion: '2026-04-27'
   NOR-020:
-    titulo: Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto
-      Básico del Empleado Público
+    titulo: Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público
     ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-020-trebep.md
     fuente_principal: FTE-023
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: null
       url_pdf: null
       url_texto_consolidado: https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-020-trebep.txt
+      sha256: 0620f35b2c70e2764ce07a045234950f1f4eebe65f9c5353ea8526e61dde86b2
+      url_origen: https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719
+      fecha_exportacion: '2026-04-27'
   NOR-021:
-    titulo: Decreto 74/2010, de 1 de julio, por el que se establece el procedimiento de constitución de listas de empleo para
-      el nombramiento de funcionarios interinos en los cuerpos docentes no universitarios
+    titulo: Decreto 74/2010, de 1 de julio, por el que se establece el procedimiento de constitución de listas de empleo para el nombramiento de funcionarios interinos en los cuerpos docentes no universitarios
     ruta_corpus: 02_normativa/canarias/decretos/NOR-021-decreto-74-2010-interinos.md
     fuente_principal: FTE-024
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2010/136/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-021-decreto-74-2010-interinos.txt
+      sha256: b938d01b75b4bd76879c73f226f2701510c7291beca945e5510c277b2665bc14
+      url_origen: https://www.gobiernodecanarias.org/boc/2010/136/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-022:
-    titulo: Decreto 106/2009, de 28 de julio, por el que se regula la función directiva en los centros docentes públicos no
-      universitarios dependientes de la Comunidad Autónoma de Canarias
+    titulo: Decreto 106/2009, de 28 de julio, por el que se regula la función directiva en los centros docentes públicos no universitarios dependientes de la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/decretos/NOR-022-decreto-106-2009-direccion.md
     fuente_principal: FTE-025
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2009/155/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-022-decreto-106-2009-direccion.txt
+      sha256: c3e7da850e64929bc57e2f4c36e6e1761f1e4bae5b340649a8134872924aa25f
+      url_origen: https://www.gobiernodecanarias.org/boc/2009/155/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-023:
-    titulo: Resolución de 16 de junio de 2020, por la que se regula el periodo vacacional y el régimen de permisos y licencias
-      del personal docente no universitario
+    titulo: Resolución de 16 de junio de 2020, por la que se regula el periodo vacacional y el régimen de permisos y licencias del personal docente no universitario
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-023-resolucion-2020-permisos.md
     fuente_principal: FTE-026
     fecha_consulta: 2026-04-26
     estado_vigencia: Superada
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2020/131/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-023-resolucion-2020-permisos.txt
+      sha256: 39a933f9ede2b6df84a89e64e6a05075617977cbb66d8c18de43a2486e6781c1
+      url_origen: https://www.gobiernodecanarias.org/boc/2020/131/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-024:
-    titulo: Decreto 25/2018, de 26 de febrero, por el que se regula la atención a la diversidad en el ámbito de las enseñanzas
-      no universitarias de la Comunidad Autónoma de Canarias
+    titulo: Decreto 25/2018, de 26 de febrero, por el que se regula la atención a la diversidad en el ámbito de las enseñanzas no universitarias de la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/decretos/NOR-024-decreto-25-2018-atencion-diversidad.md
     fuente_principal: FTE-027
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2018/046/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-024-decreto-25-2018-atencion-diversidad.txt
+      sha256: f8eaf09678d2d099e2884fe0ba408c66c4d1b6043df6e7f57c0f905c26b66337
+      url_origen: https://www.gobiernodecanarias.org/boc/2018/046/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-025:
-    titulo: Orden de 13 de diciembre de 2010, por la que se regula la atención al alumnado con necesidades específicas de
-      apoyo educativo en la Comunidad Autónoma de Canarias
+    titulo: Orden de 13 de diciembre de 2010, por la que se regula la atención al alumnado con necesidades específicas de apoyo educativo en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-025-orden-13-12-2010-neae.md
     fuente_principal: FTE-028
     fecha_consulta: 2026-04-26
     estado_vigencia: Superada parcialmente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2010/250/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-025-orden-13-12-2010-neae.txt
+      sha256: 20c56803d26e01a81b1cc9f2f0bf408ff068fe5bf75c0356ee08990078ee4d43
+      url_origen: https://www.gobiernodecanarias.org/boc/2010/250/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-026:
-    titulo: Resolución de 9 de febrero de 2011, por la que se dictan instrucciones sobre los procedimientos y los plazos para
-      la atención educativa del alumnado con necesidades específicas de apoyo educativo en los centros de la Comunidad Autónoma
-      de Canarias
+    titulo: Resolución de 9 de febrero de 2011, por la que se dictan instrucciones sobre los procedimientos y los plazos para la atención educativa del alumnado con necesidades específicas de apoyo educativo en los centros de la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-026-resolucion-2011-procedimientos-neae.md
     fuente_principal: FTE-029
     fecha_consulta: 2026-04-26
     estado_vigencia: Superada parcialmente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2011/040/005.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-026-resolucion-2011-procedimientos-neae.txt
+      sha256: 49c71c5bff062b639c72122c5813971fb6bb8d4e24a1d50147e204bfd6326351
+      url_origen: https://www.gobiernodecanarias.org/boc/2011/040/005.html
+      fecha_exportacion: '2026-04-27'
   NOR-027:
     titulo: Ley 12/2019, de 25 de abril, por la que se regula la atención temprana en Canarias
     ruta_corpus: 02_normativa/canarias/leyes/NOR-027-ley-12-2019-atencion-temprana.md
     fuente_principal: FTE-030
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2019/090/003.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-027-ley-12-2019-atencion-temprana.txt
+      sha256: 2486c48ebae2911b4c1b125d713dbce7875070c3f446e9bf6096da5ec4cd31ea
+      url_origen: https://www.gobiernodecanarias.org/boc/2019/090/003.html
+      fecha_exportacion: '2026-04-27'
   NOR-028:
-    titulo: Orden de 10 de febrero de 2016, por la que se establecen las concreciones curriculares adaptadas para el alumnado
-      escolarizado en las aulas enclave y centros de educación especial de la Comunidad Autónoma de Canarias
+    titulo: Orden de 10 de febrero de 2016, por la que se establecen las concreciones curriculares adaptadas para el alumnado escolarizado en las aulas enclave y centros de educación especial de la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-028-orden-10-02-2016-aulas-enclave.md
     fuente_principal: FTE-031
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2016/033/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-028-orden-10-02-2016-aulas-enclave.txt
+      sha256: 37d17f1b7bf1a71800657bee28cada0c798adf6e2a4f9545fae26027b750144f
+      url_origen: https://www.gobiernodecanarias.org/boc/2016/033/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-029:
-    titulo: Decreto 9/2022, de 20 de enero, por el que se regula la admisión del alumnado en centros docentes públicos y privados
-      concertados que imparten enseñanzas no universitarias en la Comunidad Autónoma de Canarias
+    titulo: Decreto 9/2022, de 20 de enero, por el que se regula la admisión del alumnado en centros docentes públicos y privados concertados que imparten enseñanzas no universitarias en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/decretos/NOR-029-decreto-9-2022-admision.md
     fuente_principal: FTE-032
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2022/020/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-029-decreto-9-2022-admision.txt
+      sha256: 085cf9ea72f4b88892b3af1857217a2aaeb372c4bba1b74c2c2ad4dab4f32b8e
+      url_origen: https://www.gobiernodecanarias.org/boc/2022/020/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-030:
-    titulo: Orden de 3 de marzo de 2022, por la que se desarrolla el procedimiento de admisión del alumnado en centros docentes
-      públicos y privados concertados de Canarias
+    titulo: Orden de 3 de marzo de 2022, por la que se desarrolla el procedimiento de admisión del alumnado en centros docentes públicos y privados concertados de Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-030-orden-03-03-2022-admision.md
     fuente_principal: FTE-033
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2022/049/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-030-orden-03-03-2022-admision.txt
+      sha256: 9d23f837a2b461470f8a91fb0ea116cccf6771db4cbff7fff5f3e482a9e1b513
+      url_origen: https://www.gobiernodecanarias.org/boc/2022/049/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-031:
     titulo: Ley 1/1997, de 7 de febrero, de Atención Integral a los Menores
     ruta_corpus: 02_normativa/canarias/leyes/NOR-031-ley-1-1997-atencion-integral-menores.md
     fuente_principal: FTE-034
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/1997/023/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-031-ley-1-1997-atencion-integral-menores.txt
+      sha256: d7d3ef8ba40f74e7874909d10374f146018a23e75503455c0ea799f8219a2a43
+      url_origen: https://www.gobiernodecanarias.org/boc/1997/023/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-032:
-    titulo: Ley 2/2021, de 7 de junio, de igualdad social y no discriminación por razón de identidad de género, expresión
-      de género y características sexuales
+    titulo: Ley 2/2021, de 7 de junio, de igualdad social y no discriminación por razón de identidad de género, expresión de género y características sexuales
     ruta_corpus: 02_normativa/canarias/leyes/NOR-032-ley-2-2021-igualdad-identidad-genero.md
     fuente_principal: FTE-035
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: null
       url_pdf: null
       url_texto_consolidado: https://www.boe.es/buscar/act.php?id=BOE-A-2021-11382
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-032-ley-2-2021-igualdad-identidad-genero.txt
+      sha256: 01a09f5652865c005262dd4425df6bb00c97097c6c941702afa5f3affff0b368
+      url_origen: https://www.boe.es/buscar/act.php?id=BOE-A-2021-11382
+      fecha_exportacion: '2026-04-27'
   NOR-033:
-    titulo: Decreto 84/2024, de 10 de junio, por el que se aprueba el Reglamento Orgánico de la Consejería de Educación, Formación
-      Profesional, Actividad Física y Deportes
+    titulo: Decreto 84/2024, de 10 de junio, por el que se aprueba el Reglamento Orgánico de la Consejería de Educación, Formación Profesional, Actividad Física y Deportes
     ruta_corpus: 02_normativa/canarias/decretos/NOR-033-decreto-84-2024-reglamento-organico-consejeria.md
     fuente_principal: FTE-036
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2024/117/002.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-033-decreto-84-2024-reglamento-organico-consejeria.txt
+      sha256: a2d9df1f5b0bf76d36c33efd9f2540df12669365386304c658e4ca35b2b17088
+      url_origen: https://www.gobiernodecanarias.org/boc/2024/117/002.html
+      fecha_exportacion: '2026-04-27'
   NOR-034:
-    titulo: Orden de 24 de abril de 2009, por la que se establece el procedimiento de obtención de plazas y se aprueban las
-      bases de concesión de subvenciones para comedores escolares en centros públicos
+    titulo: Orden de 24 de abril de 2009, por la que se establece el procedimiento de obtención de plazas y se aprueban las bases de concesión de subvenciones para comedores escolares en centros públicos
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-034-orden-24-04-2009-comedores-escolares.md
     fuente_principal: FTE-037
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2009/084/004.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-034-orden-24-04-2009-comedores-escolares.txt
+      sha256: 0f098b86c366357b638ac378d7622639a015f8aa3559330a029c64d22645917d
+      url_origen: https://www.gobiernodecanarias.org/boc/2009/084/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-035:
-    titulo: Orden de 2 de agosto de 2006, por la que se regula el servicio de transporte escolar en los centros docentes públicos
-      no universitarios y residencias escolares
+    titulo: Orden de 2 de agosto de 2006, por la que se regula el servicio de transporte escolar en los centros docentes públicos no universitarios y residencias escolares
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-035-orden-02-08-2006-transporte-escolar.md
     fuente_principal: FTE-038
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/archivo/2006/165/pda/008.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-035-orden-02-08-2006-transporte-escolar.txt
+      sha256: 65ffc7349dc96ff972d7321a4b6cfc5fd9ddc38470f4baceb3bcd35ca96baac6
+      url_origen: https://www.gobiernodecanarias.org/boc/2006/165/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-036:
     titulo: Decreto 40/2005, de 16 de marzo, de ordenación de las Residencias Escolares en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/decretos/NOR-036-decreto-40-2005-residencias-escolares.md
     fuente_principal: FTE-039
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2005/061/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-036-decreto-40-2005-residencias-escolares.txt
+      sha256: d652426641a08042b5f502ed75f483f2cf55b703785234201d4f6fb1bbb9afa7
+      url_origen: https://www.gobiernodecanarias.org/boc/2005/061/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-037:
-    titulo: Orden de 7 de junio de 2007, por la que se regulan las medidas de atención a la diversidad en la enseñanza básica
-      en la Comunidad Autónoma de Canarias
+    titulo: Orden de 7 de junio de 2007, por la que se regulan las medidas de atención a la diversidad en la enseñanza básica en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-037-orden-7-junio-2007-diversidad.md
     fuente_principal: FTE-040
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2007/124/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-037-orden-7-junio-2007-diversidad.txt
+      sha256: 0274ae6df246761b09bee95ae72a38e9da1e83e3eccbc4bbf06d2d5634f096df
+      url_origen: https://www.gobiernodecanarias.org/boc/2007/124/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-038:
-    titulo: Resolución de 5 de febrero de 2026, por la que se dictan instrucciones sobre el procedimiento de admisión del
-      alumnado en los centros docentes públicos y privados concertados para el curso escolar 2026-2027
+    titulo: Resolución de 5 de febrero de 2026, por la que se dictan instrucciones sobre el procedimiento de admisión del alumnado en los centros docentes públicos y privados concertados para el curso escolar 2026-2027
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-038-resolucion-admision-26-27.md
     fuente_principal: FTE-041
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2026/031/pda/498.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-038-resolucion-admision-26-27.txt
+      sha256: 6adc097f1506834f34b7d566920acbdc87137f6df113a74eede3cfc7941f309b
+      url_origen: https://www.gobiernodecanarias.org/boc/2026/031/pda/498.html
+      fecha_exportacion: '2026-04-27'
   NOR-039:
     titulo: Resolución n.º 318/2024, instrucciones atención diversidad 2024-2025
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-039-resolucion-instrucciones-diversidad-24-25.md
     fuente_principal: FTE-042
     fecha_consulta: 2026-04-26
     estado_vigencia: Superada
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/atencion_diversidad/medidas-atencion-a-la-diversidad/index.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-039-resolucion-instrucciones-diversidad-24-25.txt
+      sha256: abdccabcda3bb0a48ed9e79d8b314671458d0f4d6b5406c5b999f495eb5880ff
+      url_origen: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/atencion_diversidad/medidas-atencion-a-la-diversidad/index.html
+      fecha_exportacion: '2026-04-27'
   NOR-040:
     titulo: Resolución n.º 327/2025, instrucciones atención diversidad 2025-2026
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-040-resolucion-instrucciones-diversidad-25-26.md
     fuente_principal: FTE-043
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/educacion/web/centros/gestion_centros/centros_privados_concertados/normativa/?educa_etiquetas_es=Concertados%2C+concertados&page=17
-      url_pdf: null
+      url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/atencion_diversidad/medidas-atencion-a-la-diversidad/index.html
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/r_mad_25_26_publicacion_11_04.pdf
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-040-resolucion-instrucciones-diversidad-25-26.txt
+      sha256: 2bc3c68d8eb3423dcff19c7c8f6d23c7929f939ce84db2cd1eb60ccd4ea5f36c
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/r_mad_25_26_publicacion_11_04.pdf
+      fecha_exportacion: '2026-04-27'
   NOR-041:
     titulo: Resolución n.º 584/2026, instrucciones atención diversidad 2026-2027
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-041-resolucion-instrucciones-diversidad-26-27.md
     fuente_principal: FTE-044
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/educacion/web/personal/docente/?fi=cen_cor_vacan&sfi=cen_cor_vacan&t=centros_concertados
-      url_pdf: null
+      url_html: https://www.gobiernodecanarias.org/educacion/web/ensenanzas/atencion-a-la-diversidad/instrucciones/index.html
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion_mad_26_27_publicacion.pdf
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-041-resolucion-instrucciones-diversidad-26-27.txt
+      sha256: 603f117f5bbf86bd74e9d84347663bd976ad8d34f6671300c5410910dfb5d9c0
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion_mad_26_27_publicacion.pdf
+      fecha_exportacion: '2026-04-27'
   NOR-042:
-    titulo: Resolución de 24 de febrero de 2026, por la que se actualiza y adecua el régimen de vacaciones, permisos y licencias
-      del personal docente no universitario
+    titulo: Resolución de 24 de febrero de 2026, por la que se actualiza y adecua el régimen de vacaciones, permisos y licencias del personal docente no universitario
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-042-resolucion-2026-permisos.md
     fuente_principal: FTE-045
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/boc/2026/046/001.html
-      url_pdf: null
+      url_html: https://www.gobiernodecanarias.org/boc/2026/046/index.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-046-751.pdf
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-042-resolucion-2026-permisos.txt
+      sha256: 3dac5acbfb85f6dee05810c2f646658b05882da4c9b9a6979753809f3935aa6d
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-046-751.pdf
+      fecha_exportacion: '2026-04-27'
   NOR-043:
-    titulo: Decreto 211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria
-      en la Comunidad Autónoma de Canarias
+    titulo: Decreto 211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md
     fuente_principal: FTE-046
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2022/231/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-043-decreto-211-2022-primaria.txt
+      sha256: f3ca7841b9a089019eccf1ede806d13fa339a619d97fceb1dd2b08b0b2a0f098
+      url_origen: https://www.gobiernodecanarias.org/boc/2022/231/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-044:
-    titulo: Orden de 31 de mayo de 2023, por la que se regulan la evaluación y la promoción del alumnado que cursa las etapas
-      de la Educación Infantil, la Educación Primaria, la Educación Secundaria Obligatoria y el Bachillerato
+    titulo: Orden de 31 de mayo de 2023, por la que se regulan la evaluación y la promoción del alumnado que cursa las etapas de la Educación Infantil, la Educación Primaria, la Educación Secundaria Obligatoria y el Bachillerato
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-044-orden-evaluacion-primaria.md
     fuente_principal: FTE-047
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2023/110/002.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-044-orden-evaluacion-primaria.txt
+      sha256: dfae7f8ec8bdec784586ddcf95b4e71b7f08e554fe07ca5a027fab9f1425ff1c
+      url_origen: https://www.gobiernodecanarias.org/boc/2023/110/002.html
+      fecha_exportacion: '2026-04-27'
   NOR-045:
-    titulo: Resolución de 15 de mayo de 2025, por la que se establecen las rúbricas de los criterios de evaluación de la etapa
-      de Educación Primaria
+    titulo: Resolución de 15 de mayo de 2025, por la que se establecen las rúbricas de los criterios de evaluación de la etapa de Educación Primaria
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-045-resolucion-rubricas-primaria.md
     fuente_principal: FTE-048
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/boc/2025/107/005.html
-      url_pdf: null
+      url_html: https://www.gobiernodecanarias.org/boc/2025/107/index.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2025-107-2005.pdf
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-045-resolucion-rubricas-primaria.txt
+      sha256: 3ca49470969c9ed9207ef8de77d09f8215a36bed647fcdbf01b1a01b33f6b65a
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2025-107-2005.pdf
+      fecha_exportacion: '2026-04-27'
   NOR-046:
-    titulo: Resolución de 20 de junio de 2025, instrucciones para la organización y el funcionamiento de los centros que imparten
-      Educación Primaria 2025-2026
+    titulo: Resolución de 20 de junio de 2025, instrucciones para la organización y el funcionamiento de los centros que imparten Educación Primaria 2025-2026
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-046-resolucion-iof-primaria-25-26.md
     fuente_principal: FTE-049
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/educacion/web/centros/organizacion_funcionamiento/instrucciones_organizacion_funcionamiento/
-      url_pdf: null
+      url_html: https://www.gobiernodecanarias.org/educacion/web/centros/gestion_centros/organizacion-funcionamiento/inf-prim-eso-bach/index1.html
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/r_73-2025-instrucciones_or_func_2025-2026.pdf
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-046-resolucion-iof-primaria-25-26.txt
+      sha256: 9a6bd3cac591f96a7528f7a70aeaa37275a037d9d714481a79562f385a5e88eb
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/r_73-2025-instrucciones_or_func_2025-2026.pdf
+      fecha_exportacion: '2026-04-27'
   NOR-047:
-    titulo: Decreto 196/2022, de 13 de octubre, por el que se establece la ordenación y el currículo de la Educación Infantil
-      en la Comunidad Autónoma de Canarias
+    titulo: Decreto 196/2022, de 13 de octubre, por el que se establece la ordenación y el currículo de la Educación Infantil en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/decretos/NOR-047-decreto-196-2022-infantil.md
     fuente_principal: FTE-050
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2022/212/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-047-decreto-196-2022-infantil.txt
+      sha256: 008b8734f654f6c9a3efd479262643c95647732a37f4a308aa96c6f695653469
+      url_origen: https://www.gobiernodecanarias.org/boc/2022/212/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-048:
     titulo: Evaluación en Educación Infantil (según Orden de 31 de mayo de 2023)
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-048-evaluacion-infantil.md
     fuente_principal: FTE-047
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2023/110/002.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-048-evaluacion-infantil.txt
+      sha256: 64fe8fd09fa81b47e872170e80ba8413a02b31072d56a50b694917facbfd77cc
+      url_origen: https://www.gobiernodecanarias.org/boc/2023/110/002.html
+      fecha_exportacion: '2026-04-27'
   NOR-049:
-    titulo: Resolución de 20 de junio de 2025, instrucciones para la organización y el funcionamiento de las escuelas infantiles
-      y centros de Educación Infantil 2025-2026
+    titulo: Resolución de 20 de junio de 2025, instrucciones para la organización y el funcionamiento de las escuelas infantiles y centros de Educación Infantil 2025-2026
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-049-resolucion-iof-infantil-25-26.md
     fuente_principal: FTE-051
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/educacion/web/centros/organizacion_funcionamiento/instrucciones_organizacion_funcionamiento/
-      url_pdf: null
+      url_html: https://www.gobiernodecanarias.org/educacion/web/centros/gestion_centros/organizacion-funcionamiento/inf-prim-eso-bach/index1.html
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/r_73-2025-instrucciones_or_func_2025-2026.pdf
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-049-resolucion-iof-infantil-25-26.txt
+      sha256: 34a039bba3e81ff70ae622290bc973d74ec608373eb87431a76283c9effe7bee
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/r_73-2025-instrucciones_or_func_2025-2026.pdf
+      fecha_exportacion: '2026-04-27'
   NOR-050:
-    titulo: Orden de 29 de mayo de 2023, por la que se establecen los procedimientos reguladores de la respuesta educativa
-      al alumnado con necesidades específicas de apoyo educativo en Canarias
+    titulo: Orden de 29 de mayo de 2023, por la que se establecen los procedimientos reguladores de la respuesta educativa al alumnado con necesidades específicas de apoyo educativo en Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-050-orden-procedimientos-neae-2023.md
     fuente_principal: FTE-053
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2023/105/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-050-orden-procedimientos-neae-2023.txt
+      sha256: 4e3d9fd0119a4328c39926b8bd40bd8aab8b0ec86168741bc7c9ba34831d0c17
+      url_origen: https://www.gobiernodecanarias.org/boc/2023/105/001.html
+      fecha_exportacion: '2026-04-27'
   NOR-051:
     titulo: Real Decreto 546/1995, de 7 de abril, título de Técnico en Cuidados Auxiliares de Enfermería
     ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-051-rd-546-1995-cuidados-auxiliares-enfermeria.md
     fuente_principal: FTE-054
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.boe.es
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-051-rd-546-1995-cuidados-auxiliares-enfermeria.txt
+      sha256: 74c07a46ac707254b0ee10083f3147e9cb48bce46eae4b38c9b57935e9a6dd1b
+      url_origen: https://www.boe.es/buscar/act.php?id=BOE-A-1995-13533
+      fecha_exportacion: '2026-04-27'
   NOR-052:
-    titulo: Real Decreto 770/2014, de 12 de septiembre, título de Técnico Superior en Imagen para el Diagnóstico y Medicina
-      Nuclear
+    titulo: Real Decreto 770/2014, de 12 de septiembre, título de Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear
     ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-052-rd-770-2014-imagen-diagnostico-medicina-nuclear.md
     fuente_principal: FTE-054
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.boe.es
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-052-rd-770-2014-imagen-diagnostico-medicina-nuclear.txt
+      sha256: 9bc07d10762d04ec94a4345835d5f6add0833447e1e44bb5f96bd7547abebe58
+      url_origen: https://www.boe.es/buscar/act.php?id=BOE-A-2014-10067
+      fecha_exportacion: '2026-04-27'
   NOR-053:
     titulo: Real Decreto 1631/2009, de 30 de octubre, título de Técnico en Gestión Administrativa
     ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-053-rd-1631-2009-gestion-administrativa.md
     fuente_principal: FTE-054
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.boe.es
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-053-rd-1631-2009-gestion-administrativa.txt
+      sha256: 0b94b682fe3e034f87effee526b7b303e066d6a8f4a1542ea62e42a4284eebbf
+      url_origen: https://www.boe.es/buscar/doc.php?id=BOE-A-2009-19148
+      fecha_exportacion: '2026-04-27'
   NOR-054:
     titulo: Real Decreto 1584/2011, de 4 de noviembre, título de Técnico Superior en Administración y Finanzas
     ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-054-rd-1584-2011-administracion-y-finanzas.md
     fuente_principal: FTE-054
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.boe.es
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-054-rd-1584-2011-administracion-y-finanzas.txt
+      sha256: 77c47f27d869dd3ad708419661e08b1b77a5b57adfd02982d39ff5289e990560
+      url_origen: https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19533
+      fecha_exportacion: '2026-04-27'
   NOR-055:
     titulo: Real Decreto 450/2010, de 16 de abril, título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma
     ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-055-rd-450-2010-desarrollo-aplicaciones-multiplataforma.md
     fuente_principal: FTE-054
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.boe.es
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-055-rd-450-2010-desarrollo-aplicaciones-multiplataforma.txt
+      sha256: 4d6fa09b19849c9c6aec12e33f9ed282efb36aa5ff861949f53a0b8d90ad646d
+      url_origen: https://www.boe.es/buscar/doc.php?id=BOE-A-2010-8067
+      fecha_exportacion: '2026-04-27'
   NOR-056:
     titulo: Real Decreto 686/2010, de 20 de mayo, título de Técnico Superior en Desarrollo de Aplicaciones Web
     ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-056-rd-686-2010-desarrollo-aplicaciones-web.md
     fuente_principal: FTE-054
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.boe.es
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-056-rd-686-2010-desarrollo-aplicaciones-web.txt
+      sha256: b00e052138be5dd17570952c6dd4ff6f891e7d978060882d3b6b6e5fdc0ca7c5
+      url_origen: https://www.boe.es/buscar/doc.php?id=BOE-A-2010-9269
+      fecha_exportacion: '2026-04-27'
   NOR-057:
     titulo: Real Decreto 1394/2007, de 29 de octubre, título de Técnico Superior en Educación Infantil
     ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-057-rd-1394-2007-educacion-infantil.md
     fuente_principal: FTE-054
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.boe.es
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-057-rd-1394-2007-educacion-infantil.txt
+      sha256: c875f7cfb2c31930080beec664fc74221eaeba62fc9c844b0b4aa65d2f30d50a
+      url_origen: https://www.boe.es/buscar/act.php?id=BOE-A-2007-20201
+      fecha_exportacion: '2026-04-27'
   NOR-058:
     titulo: Real Decreto 289/2023, de 18 de abril, actualización título de Técnico Superior en Integración Social
     ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-058-rd-289-2023-integracion-social.md
     fuente_principal: FTE-054
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.boe.es
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-058-rd-289-2023-integracion-social.txt
+      sha256: 52679529afae69ca5fa641977162d14aac4f1e78ed49fcba498e153126bab15b
+      url_origen: https://www.boe.es/buscar/act.php?id=BOE-A-2023-10395
+      fecha_exportacion: '2026-04-27'
   NOR-059:
-    titulo: Resolución de 3 de diciembre de 2025, por la que se modifica la Resolución de 9 de junio de 2025 (instrucciones
-      evaluación FP)
+    titulo: Resolución de 3 de diciembre de 2025, por la que se modifica la Resolución de 9 de junio de 2025 (instrucciones evaluación FP)
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-059-resolucion-modificacion-evaluacion-fp-2025.md
     fuente_principal: FTE-055
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/boc/2025/249/005.html
-      url_pdf: null
+      url_html: https://www.gobiernodecanarias.org/boc/2025/249/index.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2025-249-4298.pdf
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-059-resolucion-modificacion-evaluacion-fp-2025.txt
+      sha256: b536444d31ce0d3fbb632e759d17a0dcee7ba719fb27fa14b0691433339a524b
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2025-249-4298.pdf
+      fecha_exportacion: '2026-04-27'
   NOR-060:
-    titulo: Real Decreto 1074/2012, de 13 de julio, por el que se establece el título de Técnico Superior en Integración Social
-      y se fijan sus enseñanzas mínimas
+    titulo: Real Decreto 1074/2012, de 13 de julio, por el que se establece el título de Técnico Superior en Integración Social y se fijan sus enseñanzas mínimas
     ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-060-rd-1074-2012-integracion-social.md
     fuente_principal: FTE-054
     fecha_consulta: 2026-04-26
     estado_vigencia: Parcialmente derogado (7 módulos modificados por RD 289/2023)
-    estado_acceso: enlace-oficial
+    estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.boe.es
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-060-rd-1074-2012-integracion-social.txt
+      sha256: 62811c67bb7fa677bc5d850cf75f331b9c847a31512eebdc4f06546d6f60ebf6
+      url_origen: https://www.boe.es/buscar/act.php?id=BOE-A-2012-10338
+      fecha_exportacion: '2026-04-27'
 curriculos:
   CUR-001:
-    titulo: "Biología y Geología — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml"
+    titulo: Biología y Geología — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-001-biologia-y-geologia.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-001-biologia-y-geologia.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Biologia_geologia_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Biologia_geologia_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-001-biologia-y-geologia.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-001-biologia-y-geologia.txt
       sha256: 5b5f27ba3aa513241551a016a17b77ad151062eaeb8cfdb3ff5c51ad897f18f3
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Biologia_geologia_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Biologia_geologia_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-002:
-    titulo: "Cultura Clásica — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-002-cultura-clasica.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-002-cultura-clasica.yaml"
+    titulo: Cultura Clásica — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-002-cultura-clasica.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-002-cultura-clasica.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_clasica_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_clasica_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-002-cultura-clasica.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-002-cultura-clasica.txt
       sha256: e5f139cb3a14a63a6898069579eb3da5957c02c593c6d8aef711b80ff887d603
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_clasica_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_clasica_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-003:
-    titulo: "Cultura y Ciudadanía Digital — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-003-cultura-y-ciudadania-digital.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-003-cultura-y-ciudadania-digital.yaml"
+    titulo: Cultura y Ciudadanía Digital — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-003-cultura-y-ciudadania-digital.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-003-cultura-y-ciudadania-digital.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_y_Ciudadania_digital_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_y_Ciudadania_digital_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-003-cultura-y-ciudadania-digital.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-003-cultura-y-ciudadania-digital.txt
       sha256: a2b909b51ee966e35f963cac385274237f4a2054422838efe589fa9bda9b6b2e
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_y_Ciudadania_digital_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Cultura_y_Ciudadania_digital_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-004:
-    titulo: "Digitalización — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-004-digitalizacion.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-004-digitalizacion.yaml"
+    titulo: Digitalización — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-004-digitalizacion.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-004-digitalizacion.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Digitalizacion_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Digitalizacion_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-004-digitalizacion.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-004-digitalizacion.txt
       sha256: 1f557325253786d1e46f58c9bb130bf947f1dee392bf6540c5d55bc3b8def415
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Digitalizacion_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Digitalizacion_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-005:
-    titulo: "Economía Personal y Social — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-005-economia-personal-y-social.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-005-economia-personal-y-social.yaml"
+    titulo: Economía Personal y Social — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-005-economia-personal-y-social.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-005-economia-personal-y-social.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_personal_y_social.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_personal_y_social.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-005-economia-personal-y-social.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-005-economia-personal-y-social.txt
       sha256: 592607e708183aac3018c3ceb5b2733d980b11376b36c0d7d060359442948539
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_personal_y_social.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_personal_y_social.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-006:
-    titulo: "Economía y Emprendimiento — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-006-economia-y-emprendimiento.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-006-economia-y-emprendimiento.yaml"
+    titulo: Economía y Emprendimiento — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-006-economia-y-emprendimiento.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-006-economia-y-emprendimiento.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_y_emprendimiento.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_y_emprendimiento.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-006-economia-y-emprendimiento.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-006-economia-y-emprendimiento.txt
       sha256: 5528323443e547f659c55c9b1e78c0f1d23ad727068232d4141f4ec914e9f105
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_y_emprendimiento.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Economia_y_emprendimiento.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-007:
-    titulo: "Educación en Valores Cívicos y Éticos — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-007-educacion-en-valores-civicos-y-eticos.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-007-educacion-en-valores-civicos-y-eticos.yaml"
+    titulo: Educación en Valores Cívicos y Éticos — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-007-educacion-en-valores-civicos-y-eticos.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-007-educacion-en-valores-civicos-y-eticos.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_en_valores_civicos_y_eticos.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_en_valores_civicos_y_eticos.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-007-educacion-en-valores-civicos-y-eticos.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-007-educacion-en-valores-civicos-y-eticos.txt
       sha256: 60ae1c8a3ea54835abe332d8e52fd4ba738fd7059700e4843ab6669de2ef4774
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_en_valores_civicos_y_eticos.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_en_valores_civicos_y_eticos.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-008:
-    titulo: "Educación Física — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-008-educacion-fisica.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-008-educacion-fisica.yaml"
+    titulo: Educación Física — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-008-educacion-fisica.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-008-educacion-fisica.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_Fisica_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_Fisica_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-008-educacion-fisica.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-008-educacion-fisica.txt
       sha256: e26a28e1e128efc439b6754c6ef80f853fa64f1dbe7a0cf74f9e1cb8089b7287
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_Fisica_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_Fisica_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-009:
-    titulo: "Educación Plástica, Visual y Audiovisual — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-009-educacion-plastica-visual-y-audiovisual.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-009-educacion-plastica-visual-y-audiovisual.yaml"
+    titulo: Educación Plástica, Visual y Audiovisual — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-009-educacion-plastica-visual-y-audiovisual.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-009-educacion-plastica-visual-y-audiovisual.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_Plastica_Visual_y_Audiovisual_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_Plastica_Visual_y_Audiovisual_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-009-educacion-plastica-visual-y-audiovisual.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-009-educacion-plastica-visual-y-audiovisual.txt
       sha256: e9dd2fd11c12f5bfcb8622a018ef2cedd73e49d87b86280e412793b16d8f1d18
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_Plastica_Visual_y_Audiovisual_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Educacion_Plastica_Visual_y_Audiovisual_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-010:
-    titulo: "Expresión Artística — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-010-expresion-artistica.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-010-expresion-artistica.yaml"
+    titulo: Expresión Artística — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-010-expresion-artistica.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-010-expresion-artistica.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Expresion_Artistica_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Expresion_Artistica_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-010-expresion-artistica.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-010-expresion-artistica.txt
       sha256: 2a7daea27f05cf5bce7ce9990426f4bfabb7f8397fdbc07db88fed5c85eb530d
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Expresion_Artistica_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Expresion_Artistica_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-011:
-    titulo: "Filosofía — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-011-filosofia.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-011-filosofia.yaml"
+    titulo: Filosofía — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-011-filosofia.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-011-filosofia.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Filosofia_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Filosofia_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-011-filosofia.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-011-filosofia.txt
       sha256: a1bad682c5f274697e89214465e9ffadaa5fcb93d59eaf630d84bb8f4e0dddef
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Filosofia_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Filosofia_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-012:
-    titulo: "Física y Química — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-012-fisica-y-quimica.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-012-fisica-y-quimica.yaml"
+    titulo: Física y Química — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-012-fisica-y-quimica.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-012-fisica-y-quimica.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Fisica_quimica_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Fisica_quimica_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-012-fisica-y-quimica.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-012-fisica-y-quimica.txt
       sha256: afc406d65c2c4537536024e29908d668a8ccc2541764cb4a0ac1a94b053e9a13
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Fisica_quimica_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Fisica_quimica_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-013:
-    titulo: "Formación y Orientación Personal y Profesional — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.yaml"
+    titulo: Formación y Orientación Personal y Profesional — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-013-formacion-y-orientacion-personal-y-profesional.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Formacion_orientacion_personal_profesional_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Formacion_orientacion_personal_profesional_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-013-formacion-y-orientacion-personal-y-profesional.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-013-formacion-y-orientacion-personal-y-profesional.txt
       sha256: 94a53cb4f9e65baf4eb71e177e9740ae391afaefe65179be983801bdc612a1c3
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Formacion_orientacion_personal_profesional_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Formacion_orientacion_personal_profesional_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-014:
-    titulo: "Geografía e Historia — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-014-geografia-e-historia.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-014-geografia-e-historia.yaml"
+    titulo: Geografía e Historia — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-014-geografia-e-historia.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-014-geografia-e-historia.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Geografia_historia_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Geografia_historia_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-014-geografia-e-historia.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-014-geografia-e-historia.txt
       sha256: ef5e6f5ba686d4308be1c66d16576003df32cfc437156a6b7f306178e3d0fc14
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Geografia_historia_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Geografia_historia_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-015:
-    titulo: "Historia y Geografía de Canarias — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.yaml"
+    titulo: Historia y Geografía de Canarias — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Historia_geografia_de_Canarias_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Historia_geografia_de_Canarias_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-015-historia-y-geografia-de-canarias.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-015-historia-y-geografia-de-canarias.txt
       sha256: 34d267de663d7b0ce66019422ed84dabd0eb66e96a7dfd9c6da23fc0187ad09f
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Historia_geografia_de_Canarias_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Historia_geografia_de_Canarias_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-016:
-    titulo: "Latín — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-016-latin.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-016-latin.yaml"
+    titulo: Latín — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-016-latin.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-016-latin.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Latin_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Latin_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-016-latin.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-016-latin.txt
       sha256: a03cb484a80b6330279ce208705a2add07cbcca884f1df32093b1075d8d684ca
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Latin_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Latin_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-017:
-    titulo: "Lengua Castellana y Literatura — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.yaml"
+    titulo: Lengua Castellana y Literatura — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-017-lengua-castellana-y-literatura.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/lengua_castellana_literatura_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/lengua_castellana_literatura_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-017-lengua-castellana-y-literatura.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-017-lengua-castellana-y-literatura.txt
       sha256: dc48f98c4fdee55e8b53fc7bc9ba14c5f94974783cbd3777bf78441f3043866b
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/lengua_castellana_literatura_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/lengua_castellana_literatura_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-018:
-    titulo: "Lengua Extranjera — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-018-lengua-extranjera.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-018-lengua-extranjera.yaml"
+    titulo: Lengua Extranjera — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-018-lengua-extranjera.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-018-lengua-extranjera.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Lengua_extranjera_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Lengua_extranjera_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-018-lengua-extranjera.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-018-lengua-extranjera.txt
       sha256: 380f56aec7b9d21112aec8fca12ff1792be22808d0caa2d5154ff4b3684812f2
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Lengua_extranjera_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Lengua_extranjera_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-019:
-    titulo: "Matemáticas — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-019-matematicas.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-019-matematicas.yaml"
+    titulo: Matemáticas — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-019-matematicas.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-019-matematicas.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Matematicas_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Matematicas_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-019-matematicas.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-019-matematicas.txt
       sha256: 638fb9952557ed70dfcdeeea5456f6e918f1aa5ac567ed7cb5b6b6c568f1270e
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Matematicas_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Matematicas_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-020:
-    titulo: "Música — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-020-musica.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-020-musica.yaml"
+    titulo: Música — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-020-musica.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-020-musica.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Musica_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Musica_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-020-musica.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-020-musica.txt
       sha256: 175f4cc0a794cffe8505c457d2660c997c80522856ef3630e9d0e0710195892c
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Musica_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Musica_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-021:
-    titulo: "Segunda Lengua Extranjera — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.yaml"
+    titulo: Segunda Lengua Extranjera — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Segunda_lengua_extranjera_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Segunda_lengua_extranjera_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-021-segunda-lengua-extranjera.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-021-segunda-lengua-extranjera.txt
       sha256: a30b7d3a0de96ddd1745941f1718b0b308913e13d996f28b7cfb93fddbc5e720
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Segunda_lengua_extranjera_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Segunda_lengua_extranjera_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-022:
-    titulo: "Tecnología — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-022-tecnologia.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-022-tecnologia.yaml"
+    titulo: Tecnología — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-022-tecnologia.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-022-tecnologia.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-022-tecnologia.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-022-tecnologia.txt
       sha256: b81adec9b0eb97be2d1701a621fe0224d90d5dccb8747ec0025472ea62c72b52
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-023:
-    titulo: "Tecnología y Digitalización — ESO Canarias"
-    ruta_md: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.md"
-    ruta_yaml: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.yaml"
+    titulo: Tecnología y Digitalización — ESO Canarias
+    ruta_md: 03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.md
+    ruta_yaml: 03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.yaml
     fuente: FTE-002
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_digitalizacion_ESO.pdf"
+      url_html: https://www.gobiernodecanarias.org/educacion/web/secundaria/informacion/ordenacion-curriculo/curriculos-de-la-educacion-secundaria-obligatoria-eso/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_digitalizacion_ESO.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-023-tecnologia-y-digitalizacion.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-023-tecnologia-y-digitalizacion.txt
       sha256: 1c44d1d82c155ed242c12060841148b76be66b5bb4af23497bec389acbcac122
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_digitalizacion_ESO.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/Secundaria/Ordenacion_curriculo/borrador_curriculo_2022/Tecnologia_digitalizacion_ESO.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-024:
     titulo: Conocimiento del Medio Natural, Social y Cultural — Primaria Canarias
     ruta_md: 03_curriculos/primaria/materias/CUR-024-conocimiento-medio.md
@@ -1946,8 +2132,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-025:
     titulo: Educación Artística — Primaria Canarias
     ruta_md: 03_curriculos/primaria/materias/CUR-025-educacion-artistica.md
@@ -1962,8 +2147,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-026:
     titulo: Educación Física — Primaria Canarias
     ruta_md: 03_curriculos/primaria/materias/CUR-026-educacion-fisica.md
@@ -1978,8 +2162,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-027:
     titulo: Lengua Castellana y Literatura — Primaria Canarias
     ruta_md: 03_curriculos/primaria/materias/CUR-027-lengua-castellana.md
@@ -1994,8 +2177,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-028:
     titulo: Lengua Extranjera — Primaria Canarias
     ruta_md: 03_curriculos/primaria/materias/CUR-028-lengua-extranjera.md
@@ -2010,8 +2192,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-029:
     titulo: Matemáticas — Primaria Canarias
     ruta_md: 03_curriculos/primaria/materias/CUR-029-matematicas.md
@@ -2026,8 +2207,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-030:
     titulo: Educación Emocional y para la Creatividad — Primaria Canarias
     ruta_md: 03_curriculos/primaria/materias/CUR-030-educacion-emocional.md
@@ -2042,8 +2222,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-031:
     titulo: Educación en Valores Cívicos y Éticos — Primaria Canarias
     ruta_md: 03_curriculos/primaria/materias/CUR-031-valores-civicos.md
@@ -2058,8 +2237,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-032:
     titulo: Segunda Lengua Extranjera — Primaria Canarias
     ruta_md: 03_curriculos/primaria/materias/CUR-032-segunda-lengua-extranjera.md
@@ -2074,8 +2252,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-033:
     titulo: Religión — Primaria Canarias
     ruta_md: 03_curriculos/primaria/materias/CUR-033-religion.md
@@ -2090,8 +2267,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-034:
     titulo: Crecimiento en Armonía — Infantil Canarias
     ruta_md: 03_curriculos/infantil/materias/CUR-034-crecimiento-armonia.md
@@ -2106,8 +2282,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-035:
     titulo: Descubrimiento y Exploración del Entorno — Infantil Canarias
     ruta_md: 03_curriculos/infantil/materias/CUR-035-descubrimiento-entorno.md
@@ -2122,8 +2297,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-036:
     titulo: Comunicación y Representación de la Realidad — Infantil Canarias
     ruta_md: 03_curriculos/infantil/materias/CUR-036-comunicacion-representacion.md
@@ -2138,188 +2312,187 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-037:
-    titulo: "Educación Física — Bachillerato Canarias"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.yaml"
+    titulo: Educación Física — Bachillerato Canarias
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Educacion_Fisica_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Educacion_Fisica_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-037-educacion-fisica.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-037-educacion-fisica.txt
       sha256: fab0cf746dd7d4d2619663cd6fdbbdc7271979aa2f72e2d5baba3e6ba83e7d7e
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Educacion_Fisica_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Educacion_Fisica_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-038:
-    titulo: "Filosofía — 1.º Bachillerato Canarias"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-038-filosofia.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-038-filosofia.yaml"
+    titulo: Filosofía — 1.º Bachillerato Canarias
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-038-filosofia.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-038-filosofia.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Filosofia_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Filosofia_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-038-filosofia.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-038-filosofia.txt
       sha256: 0fc8d997ee8f68934004c5419f8db5b699c1727b86c925d7ac3271c4192b3396
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Filosofia_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Filosofia_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-039:
-    titulo: "Historia de la Filosofía — 2.º Bachillerato Canarias"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.yaml"
+    titulo: Historia de la Filosofía — 2.º Bachillerato Canarias
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_la_Filosofia_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_la_Filosofia_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-039-historia-filosofia.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-039-historia-filosofia.txt
       sha256: 832f052a10270683c141f20627581c96fcc5047152a66d0073025ebbaf4662f5
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_la_Filosofia_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_la_Filosofia_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-040:
-    titulo: "Lengua Castellana y Literatura I y II — Bachillerato Canarias"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.yaml"
+    titulo: Lengua Castellana y Literatura I y II — Bachillerato Canarias
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Lengua_Literatura_Castellana_I_y_II_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Lengua_Literatura_Castellana_I_y_II_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-040-lengua-castellana.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-040-lengua-castellana.txt
       sha256: 1df3b3cb8f8fa4dc28df39d3dd185cf155c13148803b91206136aa8e4968d1c5
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Lengua_Literatura_Castellana_I_y_II_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Lengua_Literatura_Castellana_I_y_II_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-041:
-    titulo: "Lengua Extranjera I y II — Bachillerato Canarias"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.yaml"
+    titulo: Lengua Extranjera I y II — Bachillerato Canarias
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Lengua_Extranjera_I_y_II_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Lengua_Extranjera_I_y_II_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-041-lengua-extranjera.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-041-lengua-extranjera.txt
       sha256: 3037cba06de1b05b8ccf594397ce0b14ee77c12a11741be756c91e04f8a507cc
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Lengua_Extranjera_I_y_II_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Lengua_Extranjera_I_y_II_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-042:
-    titulo: "Matemáticas I y II — Bachillerato Ciencias y Tecnología"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.yaml"
+    titulo: Matemáticas I y II — Bachillerato Ciencias y Tecnología
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Matematicas_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Matematicas_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-042-matematicas-ciencias.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-042-matematicas-ciencias.txt
       sha256: b87f0d6f9af75e148c7ad97b607eaa32db7b1cc9efc1c5529f1df02cec065b11
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Matematicas_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Matematicas_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-043:
-    titulo: "Matemáticas Aplicadas a las CCSS I y II — Bachillerato Humanidades y CCSS"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.yaml"
+    titulo: Matemáticas Aplicadas a las CCSS I y II — Bachillerato Humanidades y CCSS
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Matematicas_aplicadas_a_las_Cinecias_Sociales_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Matematicas_aplicadas_a_las_Cinecias_Sociales_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-043-matematicas-sociales.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-043-matematicas-sociales.txt
       sha256: d46d7a8b81ac18d0dc3d6e203bd8b66efb52665bdcb9fa0ef5e51e7cc5c106a6
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Matematicas_aplicadas_a_las_Cinecias_Sociales_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Matematicas_aplicadas_a_las_Cinecias_Sociales_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-044:
-    titulo: "Latín I y II — Bachillerato Humanidades y CCSS"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-044-latin.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-044-latin.yaml"
+    titulo: Latín I y II — Bachillerato Humanidades y CCSS
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-044-latin.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-044-latin.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Latin_I_y_II_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Latin_I_y_II_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-044-latin.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-044-latin.txt
       sha256: 46fd0b83cfce319b970e2a1238caea52bf59831cdeb345cd2491c616c99d4f0c
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Latin_I_y_II_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Latin_I_y_II_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-045:
-    titulo: "Historia de España — 2.º Bachillerato Canarias"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-045-historia-espana.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-045-historia-espana.yaml"
+    titulo: Historia de España — 2.º Bachillerato Canarias
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-045-historia-espana.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-045-historia-espana.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_Espana_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_Espana_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-045-historia-espana.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-045-historia-espana.txt
       sha256: 4738a3ea6c0dcc20d9bf64d68666bb473aa6ef65379122b52389ecdef8f2bb87
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_Espana_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_Espana_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-046:
     titulo: Técnico en Cuidados Auxiliares de Enfermería — FP Canarias
     ruta_md: null
@@ -2334,8 +2507,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-047:
     titulo: Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear — FP Canarias
     ruta_md: null
@@ -2350,8 +2522,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-048:
     titulo: Técnico en Gestión Administrativa — FP Canarias
     ruta_md: null
@@ -2366,8 +2537,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-049:
     titulo: Técnico Superior en Administración y Finanzas — FP Canarias
     ruta_md: null
@@ -2382,8 +2552,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-050:
     titulo: Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) — FP Canarias
     ruta_md: null
@@ -2398,8 +2567,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-051:
     titulo: Técnico Superior en Desarrollo de Aplicaciones Web (DAW) — FP Canarias
     ruta_md: null
@@ -2414,8 +2582,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-052:
     titulo: Técnico Superior en Educación Infantil — FP Canarias
     ruta_md: null
@@ -2430,8 +2597,7 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-053:
     titulo: Técnico Superior en Integración Social — FP Canarias
     ruta_md: null
@@ -2446,105 +2612,104 @@ curriculos:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
-    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma
-      base.
+    nota_acceso: Cuando no exista anexo normalizado, usar la fuente oficial principal o el PDF completo asociado a la norma base.
   CUR-054:
-    titulo: "Segunda Lengua Extranjera I y II — Bachillerato Canarias"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-054-segunda-lengua-extranjera.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-054-segunda-lengua-extranjera.yaml"
+    titulo: Segunda Lengua Extranjera I y II — Bachillerato Canarias
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-054-segunda-lengua-extranjera.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-054-segunda-lengua-extranjera.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Segunda_Lengua_Extranjera_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Segunda_Lengua_Extranjera_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-054-segunda-lengua-extranjera.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-054-segunda-lengua-extranjera.txt
       sha256: 4ec16d67dddd0b35ba4547cbe041a05dfdcd03d2fdfb00f64ab823f6417decdc
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Segunda_Lengua_Extranjera_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Segunda_Lengua_Extranjera_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-055:
-    titulo: "Historia de Canarias — 1.º Bachillerato"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-055-historia-canarias.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-055-historia-canarias.yaml"
+    titulo: Historia de Canarias — 1.º Bachillerato
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-055-historia-canarias.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-055-historia-canarias.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_Canarias_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_Canarias_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-055-historia-canarias.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-055-historia-canarias.txt
       sha256: 4b93d0ae379ca9f3ea27e9da4df770e12c90b61d5d7f7d14b85e81486ac869e7
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_Canarias_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Historia_de_Canarias_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-056:
-    titulo: "Psicología — 2.º Bachillerato Canarias"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-056-psicologia.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-056-psicologia.yaml"
+    titulo: Psicología — 2.º Bachillerato Canarias
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-056-psicologia.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-056-psicologia.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Psicologia_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Psicologia_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-056-psicologia.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-056-psicologia.txt
       sha256: 6876c058e868ddd30e93ccaa12e5a89070554ef82611a0bdbbe770e08af66f37
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Psicologia_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Psicologia_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-057:
-    titulo: "Literatura Canaria — 2.º Bachillerato"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.yaml"
+    titulo: Literatura Canaria — 2.º Bachillerato
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Literatura_Canaria_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Literatura_Canaria_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-057-literatura-canaria.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-057-literatura-canaria.txt
       sha256: 60056354d35146f5aa58904ca79300bd7c5b4fb1a664e1548f39807024e482e9
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Literatura_Canaria_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Literatura_Canaria_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
   CUR-058:
-    titulo: "Cultura Científica — 1.º Bachillerato"
-    ruta_md: "03_curriculos/bachillerato/materias/CUR-058-cultura-cientifica.md"
-    ruta_yaml: "03_curriculos/bachillerato/materias/CUR-058-cultura-cientifica.yaml"
+    titulo: Cultura Científica — 1.º Bachillerato
+    ruta_md: 03_curriculos/bachillerato/materias/CUR-058-cultura-cientifica.md
+    ruta_yaml: 03_curriculos/bachillerato/materias/CUR-058-cultura-cientifica.yaml
     fuente: FTE-012
     norma_base: NOR-005
     fecha_consulta: 2026-04-27
-    estado_extraccion: "completado"
-    estado_acceso: "con-copia-local"
+    estado_extraccion: completado
+    estado_acceso: con-copia-local
     enlaces:
-      url_html: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/"
-      url_pdf: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Cultura_Cientifica_BACH.pdf"
+      url_html: https://www3.gobiernodecanarias.org/medusa/ecoescuela/cdc/bachillerato-2/curriculo-bachillerato/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Cultura_Cientifica_BACH.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: "07_corpus_ia/textos-completos/texto-oficial-CUR-058-cultura-cientifica.txt"
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-CUR-058-cultura-cientifica.txt
       sha256: f8affb94c926c429cb2953229939c5018a130230774dee878046b12963800f72
-      url_origen: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Cultura_Cientifica_BACH.pdf"
-      fecha_exportacion: "2026-04-27"
-    nota_acceso: "PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG."
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/bachillerato/curriculo/nuevo_curriculo/decreto30_2023/Cultura_Cientifica_BACH.pdf
+      fecha_exportacion: '2026-04-27'
+    nota_acceso: PDF curricular oficial específico y copia local rápida generada para lectura íntegra y RAG.
