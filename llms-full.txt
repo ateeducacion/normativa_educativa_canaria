@@ -21,8 +21,8 @@ Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo e
 | Currículos | 58 entradas, `CUR-001` a `CUR-058` |
 | Relaciones | 45 entradas, `REL-001` a `REL-048`, con huecos reservados/no reutilizados |
 | Chunks IA | 22 entradas, `CHUNK-00001` a `CHUNK-00022` |
-| Tareas | 53 entradas; todas figuran como `Hecha` en `status.yaml` |
-| Textos oficiales | índice `06_indices/textos-oficiales.yaml` + 3 copias locales rápidas (`NOR-001`, `NOR-003`, `NOR-005`) |
+| Tareas | 54 entradas; todas figuran como `Hecha` en `status.yaml` |
+| Textos oficiales | índice `06_indices/textos-oficiales.yaml` + 40 copias locales rápidas (3 normas y 37 currículos de ESO/Bachillerato) |
 
 Distribución de currículos extraídos:
 
@@ -266,5 +266,5 @@ En `### Enlaces directos`, incluya siempre que sea posible:
 - [Fuentes oficiales catalogadas](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/01_fuentes): detalle de portales y boletines.
 - [Relaciones normativas](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/05_relaciones): enlaces entre normas y evidencias.
 - [Corpus IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia): resúmenes y chunks para RAG o asistentes.
-- [Textos completos rápidos](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia/textos-completos): lote inicial de copias locales rápidas trazables.
+- [Textos completos rápidos](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia/textos-completos): copias locales rápidas trazables de normas y currículos con acceso íntegro para lectura y RAG.
 - [ADR y decisiones editoriales](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/09_decisiones-editoriales): criterios de modelado del corpus.

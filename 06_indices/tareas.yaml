@@ -583,11 +583,11 @@ TAREA-053:
 
 TAREA-054:
   titulo: "Publicar copias locales rápidas de currículos ESO y Bachillerato"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "corpus-ia"
   responsable: "@.agents/skills/preparacion-corpus-ia"
   fecha_creacion: 2026-04-27
   fecha_actualizacion: 2026-04-27
-  relacionadas: [FTE-002, FTE-009, FTE-012, CUR-001, CUR-023, CUR-037, CUR-058]
+  relacionadas: [FTE-002, FTE-009, FTE-012, CUR-001, CUR-023, CUR-037, CUR-058, TAREA-053]
   ruta: "08_tareas/backlog/TAREA-054-copias-locales-curriculos-eso-bachillerato.md"
