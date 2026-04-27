@@ -6,6 +6,12 @@ etapa: ""
 materia: ""
 norma_base: NOR-XXX
 fuente: FTE-XXX
+texto_oficial:
+  url_html: ""
+  url_pdf: ""
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: ""
 fecha_consulta: YYYY-MM-DD
 fecha_analisis: null
 estado_extraccion: "Pendiente"
@@ -42,5 +48,9 @@ estado_extraccion: "Pendiente"
 [PENDIENTE]
 
 ## 9. Fuente oficial
+
+[PENDIENTE]
+
+## 10. Acceso rápido al texto oficial
 
 [PENDIENTE]

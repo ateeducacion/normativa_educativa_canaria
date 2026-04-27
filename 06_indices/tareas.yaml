@@ -569,3 +569,14 @@ TAREA-052:
   fecha_actualizacion: 2026-04-26
   relacionadas: [CUR-046, NOR-051, TAREA-038]
   ruta: "08_tareas/backlog/TAREA-052-extraer-capacidades-terminales-cur046-logse.md"
+
+TAREA-053:
+  titulo: "Indexar textos oficiales y crear copias rápidas iniciales"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "corpus-ia"
+  responsable: "@.agents/skills/preparacion-corpus-ia"
+  fecha_creacion: 2026-04-26
+  fecha_actualizacion: 2026-04-26
+  relacionadas: [FTE-005, FTE-007, FTE-009, NOR-001, NOR-003, NOR-005]
+  ruta: "08_tareas/backlog/TAREA-053-indexar-textos-oficiales-y-copias-rapidas.md"

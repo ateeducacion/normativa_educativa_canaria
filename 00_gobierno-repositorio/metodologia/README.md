@@ -61,6 +61,19 @@ Reglas:
 - advertir sobre tareas en progreso y extracciones pendientes;
 - remitir a índices y fichas para evidencia completa;
 - mantener la regla de cita jurídica oficial.
+- remitir a `06_indices/textos-oficiales.yaml` y a `07_corpus_ia/textos-completos/` cuando exista una copia local rápida del texto oficial.
+
+## Textos Oficiales Rápidos
+
+Cuando una norma o currículo requiera lectura íntegra rápida, puede publicarse una copia local en texto plano, siempre subordinada a la fuente oficial.
+
+Reglas:
+
+- no sustituye el BOE, BOC ni el portal institucional competente;
+- debe indicar URL oficial, fecha de consulta, fecha de exportación y advertencia expresa;
+- debe registrarse en `06_indices/textos-oficiales.yaml`;
+- debe conservar trazabilidad con `FTE-NNN`, `NOR-NNN` o `CUR-NNN`;
+- debe regenerarse o marcarse desactualizada si cambia la fuente oficial.
 
 ## Cierre
 

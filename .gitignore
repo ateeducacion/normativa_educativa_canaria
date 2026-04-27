@@ -3,3 +3,5 @@
 !.env.example
 .claude/
 .omc/
+_site/
+_site/

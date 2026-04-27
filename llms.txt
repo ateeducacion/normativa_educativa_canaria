@@ -15,7 +15,9 @@ Actualizado con los índices locales a fecha 2026-04-26. Este mapa recoge solo e
 - 58 currículos registrados (`CUR-001` a `CUR-058`): 23 de ESO, 10 de Primaria, 3 de Infantil, 14 de Bachillerato y 8 de FP.
 - 45 relaciones normativas y curriculares (`REL-001` a `REL-048`, con huecos reservados/no reutilizados).
 - 22 chunks IA (`CHUNK-00001` a `CHUNK-00022`).
-- 52 tareas registradas; 47 hechas y 5 en progreso (`TAREA-048` a `TAREA-052`) para extracción avanzada de FP.
+- 53 tareas registradas; las 53 figuran como hechas en `status.yaml`.
+- 1 índice específico de accesos a texto oficial (`06_indices/textos-oficiales.yaml`).
+- 3 copias locales rápidas del texto completo (`NOR-001`, `NOR-003`, `NOR-005`) en `07_corpus_ia/textos-completos/`.
 
 ## Cobertura Principal
 
@@ -61,9 +63,10 @@ Si necesita encontrar rápido la norma o el contenido más útil, siga este orde
 
 1. [Índice de normativa](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml) para localizar la norma por materia, etapa o tipo.
 2. [Índice de fuentes](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/fuentes.yaml) para recuperar la `url_oficial` y el boletín o portal competente.
-3. [Índice de currículos](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml) si la consulta pide saberes, criterios, competencias o anexos curriculares.
-4. [Índice de relaciones](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/relaciones.yaml) si la respuesta depende de qué norma desarrolla, modifica o deroga a otra.
-5. [Corpus IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia) solo como apoyo de orientación rápida, nunca como sustituto de la fuente oficial.
+3. [Índice de textos oficiales](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml) para localizar de forma directa HTML oficial, PDF oficial, texto consolidado o copia local rápida.
+4. [Índice de currículos](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml) si la consulta pide saberes, criterios, competencias o anexos curriculares.
+5. [Índice de relaciones](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/relaciones.yaml) si la respuesta depende de qué norma desarrolla, modifica o deroga a otra.
+6. [Corpus IA](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia) solo como apoyo de orientación rápida, nunca como sustituto de la fuente oficial.
 
 Use enlaces de **GitHub Pages** para archivos concretos (`.md`, `.yaml`, `llms.txt`) y enlaces de **GitHub** para navegar carpetas completas del corpus.
 Los índices `.yaml` son ficheros estructurados legibles por humanos y máquinas: sirven para inspección directa, descarga o consumo por asistentes/RAG.
@@ -148,6 +151,7 @@ Consultas priorizadas:
 - [README del proyecto](https://ateeducacion.github.io/normativa_educativa_canaria/README.md)
 - [Índice raíz](https://ateeducacion.github.io/normativa_educativa_canaria/index.md)
 - [Estado del repositorio](https://ateeducacion.github.io/normativa_educativa_canaria/status.yaml)
+- [Índice de textos oficiales](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml)
 - [Gobierno del repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio)
 
 ## Índices Y Corpus
@@ -155,8 +159,10 @@ Consultas priorizadas:
 - [Índice de normativa](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml)
 - [Índice de currículos](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/curriculos.yaml)
 - [Índice de fuentes](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/fuentes.yaml)
+- [Índice de textos oficiales](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/textos-oficiales.yaml)
 - [Índice de relaciones](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/relaciones.yaml)
 - [Índice de chunks IA](https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/chunks.yaml)
+- [Textos completos rápidos](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/07_corpus_ia/textos-completos)
 - [Códigos administrativos de áreas y materias](https://ateeducacion.github.io/normativa_educativa_canaria/03_curriculos/codigos-materias-canarias.md)
 - [Carpeta de normativa](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/02_normativa)
 - [Carpeta de currículos](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/03_curriculos)

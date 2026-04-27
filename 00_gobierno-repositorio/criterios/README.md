@@ -18,13 +18,14 @@ Una `TAREA-NNN` solo puede pasar a `Hecha` si cumple, cuando aplique, todos esto
 10. Las interpretaciones, hipótesis y datos pendientes usan los marcadores obligatorios.
 11. El diario de trabajo refleja los IDs consumidos y los límites de la tarea.
 12. Los exports IA (`llms.txt`, `llms-full.txt` y chunks) solo declaran contenido ya indexado.
+13. Las copias locales de texto completo indican origen oficial, fecha y advertencia de subordinación a la fuente oficial.
 
 ## Validaciones Mínimas
 
 Antes de cerrar una edición, ejecutar al menos:
 
 ```bash
-python3 -c "import yaml,pathlib; [yaml.safe_load(pathlib.Path(p).read_text()) for p in ['status.yaml','06_indices/tareas.yaml','06_indices/normativa.yaml','06_indices/fuentes.yaml','06_indices/relaciones.yaml','06_indices/curriculos.yaml','06_indices/chunks.yaml','06_indices/preguntas.yaml']]; print('OK')"
+python3 -c "import yaml,pathlib; [yaml.safe_load(pathlib.Path(p).read_text()) for p in ['status.yaml','06_indices/tareas.yaml','06_indices/normativa.yaml','06_indices/fuentes.yaml','06_indices/relaciones.yaml','06_indices/curriculos.yaml','06_indices/chunks.yaml','06_indices/preguntas.yaml','06_indices/textos-oficiales.yaml']]; print('OK')"
 git diff --check
 ```
 
@@ -59,6 +60,12 @@ Si se han tocado schemas, exports, páginas públicas o scripts, añadir la vali
 - Deben ser breves, autocontenidos y fieles a la ficha origen.
 - Deben incluir fuente, localización y advertencia de que no sustituyen la fuente oficial.
 - No deben mezclar orientación no normativa con normativa.
+
+### Textos oficiales rápidos
+
+- Deben mantener URL oficial, fecha de consulta, fecha de exportación y ruta local.
+- Su función es facilitar lectura rápida o extracción; nunca sustituyen la publicación oficial.
+- Deben estar indexados en `06_indices/textos-oficiales.yaml`.
 
 ## Señales De Bloqueo
 

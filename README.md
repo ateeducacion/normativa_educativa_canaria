@@ -22,7 +22,7 @@ Repositorio IA-friendly para recopilar, analizar, resumir, indexar y relacionar 
 7. **Fecha de análisis obligatoria cuando haya interpretación o resumen.**
 8. **Estado de vigencia obligatorio.**
 9. **Relaciones normativas explícitas.**
-10. **No copiar normas completas si basta con resumen, cita y enlace oficial.**
+10. **No copiar normas completas por defecto si basta con resumen, cita y enlace oficial; cuando haga falta lectura rápida, usar copia local trazable y subordinada a la fuente oficial.**
 11. **No mezclar normativa con recursos no normativos.**
 12. **No borrar contenido histórico: marcar como derogado, obsoleto o sustituido.**
 13. **Usar IDs estables y correlativos.**
@@ -51,6 +51,7 @@ Repositorio IA-friendly para recopilar, analizar, resumir, indexar y relacionar 
 - Gobierno del repositorio: [00_gobierno-repositorio/](00_gobierno-repositorio/)
 - Fuentes: [06_indices/fuentes.yaml](06_indices/fuentes.yaml)
 - Normativa: [06_indices/normativa.yaml](06_indices/normativa.yaml)
+- Textos oficiales: [06_indices/textos-oficiales.yaml](06_indices/textos-oficiales.yaml)
 - Currículos: [06_indices/curriculos.yaml](06_indices/curriculos.yaml)
 - Códigos administrativos de áreas y materias: [03_curriculos/codigos-materias-canarias.md](03_curriculos/codigos-materias-canarias.md)
 - Relaciones: [06_indices/relaciones.yaml](06_indices/relaciones.yaml)
@@ -69,6 +70,7 @@ Para más detalle sobre prompts y ejemplos de uso, consulte el [Portal del Corpu
 
 - Fuentes catalogadas hasta `FTE-056`.
 - Normativa indexada hasta `NOR-060`.
+- Accesos a texto oficial indexados en `06_indices/textos-oficiales.yaml`, con 3 copias locales rápidas iniciales (`NOR-001`, `NOR-003`, `NOR-005`).
 - Currículos registrados hasta `CUR-058`: Infantil, Primaria, ESO, Bachillerato y primeros ciclos FP.
 - Chunks IA registrados hasta `CHUNK-00022`.
-- La extracción FP sigue abierta en `TAREA-048` a `TAREA-052` para completar RAs, CEs, módulos comunes y capacidades terminales pendientes.
+- Tareas registradas hasta `TAREA-053`; las 53 tareas actuales figuran como `Hecha` en `status.yaml`.

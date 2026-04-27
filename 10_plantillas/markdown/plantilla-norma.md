@@ -13,6 +13,12 @@ fecha_analisis: YYYY-MM-DD
 estado_vigencia: "Pendiente de verificación"
 fuente_principal: FTE-XXX
 url_oficial: ""
+texto_oficial:
+  url_html: ""
+  url_pdf: ""
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: ""
 etapas_afectadas: []
 temas: []
 relaciones:
@@ -36,6 +42,7 @@ nivel_evidencia: "confirmado-fuente-primaria"
 - **Ámbito:**
 - **Autoridad:**
 - **Fuente oficial:**
+- **Texto oficial HTML/PDF/consolidado/local:**
 - **Fecha de consulta:**
 - **Estado de vigencia:**
 

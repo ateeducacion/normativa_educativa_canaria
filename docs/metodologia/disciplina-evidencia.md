@@ -13,7 +13,7 @@ Este repositorio aplica una disciplina de evidencia estricta para mantener un co
 - **Fecha de análisis obligatoria cuando haya interpretación o resumen.**
 - **Estado de vigencia obligatorio.**
 - **Relaciones normativas explícitas.**
-- **No copiar normas completas si basta con resumen, cita y enlace oficial.**
+- **No copiar normas completas por defecto si basta con resumen, cita y enlace oficial; cuando se publique una copia local rápida, debe seguir subordinada a la fuente oficial.**
 - **No mezclar normativa con recursos no normativos.**
 - **No borrar contenido histórico: marcar como derogado, obsoleto o sustituido.**
 - **Usar IDs estables y correlativos.**

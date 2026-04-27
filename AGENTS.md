@@ -33,6 +33,7 @@ Todo dato normativo debe poder rastrearse hasta una fuente oficial con nombre de
 - R13. Las interpretaciones se marcan con [INTERPRETACIÓN].
 - R14. Las hipótesis se marcan con [HIPÓTESIS].
 - R15. Los datos pendientes se marcan con [PENDIENTE].
+- R16. Toda copia local de texto completo debe indicar URL oficial, fecha de consulta, fecha de exportación y advertencia de que no sustituye la fuente oficial.
 
 ## 4. Estructura de carpetas
 
@@ -42,7 +43,7 @@ Todo dato normativo debe poder rastrearse hasta una fuente oficial con nombre de
 - `04_analisis/`: notas de análisis, comparativas y síntesis.
 - `05_relaciones/`: relaciones entre normas y currículos.
 - `06_indices/`: índices YAML con claves por ID.
-- `07_corpus_ia/`: resúmenes, chunks y materiales para IA.
+- `07_corpus_ia/`: resúmenes, chunks, textos completos rápidos y materiales para IA.
 - `08_tareas/`: tareas, diario y preguntas abiertas.
 - `09_decisiones-editoriales/`: decisiones editoriales del corpus.
 - `10_plantillas/`: plantillas reutilizables.
@@ -97,13 +98,21 @@ Usa claves explícitas, estados controlados, arrays para relaciones múltiples y
 4. Relacionar el chunk con normas, currículos o chunks conectados.
 5. Registrar el chunk en `06_indices/chunks.yaml`.
 
+## 10 bis. Cómo registrar un texto oficial rápido
+
+1. Crear la copia local solo cuando aporte valor real para lectura rápida, RAG o extracción.
+2. Mantener siempre la URL oficial, la fecha de consulta y la fecha de exportación.
+3. Añadir advertencia expresa de que la copia local no sustituye la fuente oficial.
+4. Registrar la ruta local y su acceso oficial en `06_indices/textos-oficiales.yaml`.
+5. No usar la copia local como prueba única si la fuente oficial ofrece una versión más reciente o consolidada.
+
 ## 11. Cómo registrar relaciones
 
 Crea un `REL-NNN` en YAML indicando tipo de relación, origen, destino, evidencia, fecha de registro y nivel de evidencia. Después actualiza `06_indices/relaciones.yaml`.
 
 ## 12. Cómo actualizar índices
 
-Cada nueva entidad debe reflejarse inmediatamente en su índice YAML correspondiente. Los índices son la puerta de entrada del repositorio para personas y máquinas.
+Cada nueva entidad debe reflejarse inmediatamente en su índice YAML correspondiente. Los índices son la puerta de entrada del repositorio para personas y máquinas. Si se crea o actualiza una copia local rápida del texto completo, también debe actualizarse `06_indices/textos-oficiales.yaml`.
 
 ## 13. Cómo comprobar vigencia
 
@@ -160,7 +169,7 @@ Asume siempre que **otra IA u otra persona puede estar trabajando en el reposito
 1. `git fetch origin main` — comprueba si hay nuevos commits.
 2. Si los hay, `git pull --rebase origin main` y resuelve cualquier conflicto antes de continuar.
 3. Vuelve a comprobar IDs libres por si el rebase ha incorporado nuevas reservas.
-4. `python3 -c "import yaml,pathlib; [yaml.safe_load(pathlib.Path(p).read_text()) for p in ['status.yaml','06_indices/tareas.yaml','06_indices/normativa.yaml','06_indices/fuentes.yaml','06_indices/relaciones.yaml','06_indices/curriculos.yaml','06_indices/preguntas.yaml']]; print('OK')"` — valida que todos los índices YAML parsean limpios.
+4. `python3 -c "import yaml,pathlib; [yaml.safe_load(pathlib.Path(p).read_text()) for p in ['status.yaml','06_indices/tareas.yaml','06_indices/normativa.yaml','06_indices/fuentes.yaml','06_indices/relaciones.yaml','06_indices/curriculos.yaml','06_indices/chunks.yaml','06_indices/preguntas.yaml','06_indices/textos-oficiales.yaml']]; print('OK')"` — valida que todos los índices YAML parsean limpios.
 
 ### 16.4 Selección de archivos a `git add`
 
