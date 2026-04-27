@@ -1,0 +1,502 @@
+ID interno: NOR-050
+Título oficial: Orden de 29 de mayo de 2023, por la que se establecen los procedimientos reguladores de la respuesta educativa al alumnado con necesidades específicas de apoyo educativo en la Comunidad Autónoma de Canarias
+Fuente oficial: FTE-053
+URL origen: https://www.gobiernodecanarias.org/boc/2023/105/001.html
+Fecha de consulta: 2026-04-26
+Fecha de exportación local: 2026-04-27
+Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+Nota de extracción: Texto plano rápido generado desde el HTML oficial del BOC.
+---
+BOC - 2023/105.
+Jueves 1 de junio de 2023
+- 1740
+
+Gobierno de Canarias
+
+Comunidad AutÃ³noma de Canarias
+
+BoletÃ­n Oficial de Canarias
+
+Accesibilidad
+
+Mapa web
+
+Contacto
+
+VersiÃ³n texto
+
+Inicio
+
+Archivo
+
+BÃºsqueda
+
+SEDE
+
+Estás en:
+
+Inicio
+
+Archivo
+
+AÃ±o 2023
+
+2023/105.
+Jueves 1 de junio de 2023
+
+1740
+
+Siguiente
+
+BOC NÂº 105. Jueves 1 de junio de 2023 - 1740
+
+ATENCION. La versiÃ³n HTML de este documento no es oficial. Para obtener una versiÃ³n oficial, debe descargar el archivo en formato PDF.
+
+I. Disposiciones generales
+
+- ConsejerÃ­a de EconomÃ­a, Conocimiento y Empleo
+
+1740
+
+ORDEN de 23Â de mayo de 2023, por la que se regula la concesiÃ³n de subvenciones con carÃ¡cter de emergencia a las empresas y personas autÃ³nomas para mitigar los perjuicios econÃ³micos derivados de la persistencia de la paralizaciÃ³n de la actividad durante el primer trimestre de 2023, ocasionados por las erupciones volcÃ¡nicas en la isla de La Palma.
+
+19 pÃ¡ginas.
+
+Formato de archivo en PDF/Adobe Acrobat.
+TamaÃ±o: 1386.67
+Kb.
+
+BOC-A-2023-105-1740.
+
+Firma electrÃ³nica
+
+-
+Descargar
+
+PREÃMBULO
+
+El Consejo de Ministros, celebrado el 28Â de septiembre de 2021, declarÃ³ la isla de La Palma zona afectada gravemente por una emergencia de protecciÃ³n civil (ZAEPC, la antigua Zona CatastrÃ³fica) por la erupciÃ³n del volcÃ¡n habilitando asÃ­ a todos los Departamentos ministeriales para determinar las ayudas necesarias para recuperar todos los daÃ±os provocados por el volcÃ¡n, de conformidad con lo dispuesto en la Ley 17/2015, de 9Â de julio, del Sistema Nacional de ProtecciÃ³n Civil, y permitiendo el acceso a ayudas del fondo de solidaridad de la UniÃ³n Europea (FSUE) para la reconstrucciÃ³n. Esta declaraciÃ³n abre la fase de recuperaciÃ³n de la catÃ¡strofe a medio y largo plazo, una recuperaciÃ³n que se darÃ¡ por finalizada hasta que todas las personas afectadas hayan recuperado la normalidad.
+
+Tras la finalizaciÃ³n de la erupciÃ³n volcÃ¡nica en la zona de Cumbre Vieja, en el tÃ©rmino municipal de El Paso, isla de La Palma, el 13Â de diciembre de 2021, los efectos adversos provocados por la expulsiÃ³n masiva de lava y gases tÃ³xicos persiste a dÃ­a de hoy en diversas zonas de los municipios afectados, con especial atenciÃ³n a la situaciÃ³n causada por los gases tÃ³xicos cuya emisiÃ³n persiste en niveles nocivos en el Ã¡rea de Puerto Naos y La Bombilla. La situaciÃ³n provocada por el mantenimiento de las zonas de exclusiÃ³n en los nÃºcleos citados, despuÃ©s de un aÃ±o ya desde el inicio de la erupciÃ³n volcÃ¡nica, provoca un altÃ­simo nivel de incertidumbre entre el empresariado de la zona, que es de tal gravedad que exige la toma de decisiones urgentes para la reactivaciÃ³n de nuevas ayudas de emergencia, que permitan paliar la falta de ingresos y expectativas de reactivaciÃ³n de la actividad en el corto plazo.
+
+En conjunto, las distintas administraciones pÃºblicas, a travÃ©s de distintos paquetes de medidas encaminados a paliar los daÃ±os mÃ¡s inmediatos ocasionados por la erupciÃ³n del volcÃ¡n, han otorgado ayudas por un importe econÃ³mico superior a los 400 millones de euros. No obstante, la situaciÃ³n descrita en el pÃ¡rrafo anterior exige la puesta en marcha de nuevas ayudas de emergencia para empresas y autÃ³nomos, que siguen sin poder retomar su actividad con normalidad. En paralelo, se pondrÃ¡n en marcha ayudas a la inversiÃ³n financiadas por el Gobierno de EspaÃ±a y gestionadas por el de Canarias, reguladas en el Real Decreto 1112/2021, de 17 de diciembre, que permitirÃ¡n a aquellos empresarios y empresarias que asÃ­ lo decidan, reactivar su actividad en otra zona no afectada de la isla de La Palma.
+
+El Decreto ley 14/2021, de 28Â de octubre, por el que se regula el marco general para la tramitaciÃ³n de los procedimientos de concesiÃ³n de ayudas con carÃ¡cter de emergencia destinadas a paliar las necesidades derivadas de la situaciÃ³n de emergencia producida por las erupciones volcÃ¡nicas en la isla de La Palma, dispone, en su artÃ­culo 18.1, que âEl procedimiento para la concesiÃ³n de ayudas se iniciarÃ¡ de oficio por los distintos departamentos de la AdministraciÃ³n PÃºblica de la Comunidad AutÃ³noma de Canarias competentes por razÃ³n de la materiaâ y que âPara ello, dictarÃ¡n las correspondientes disposiciones normativasâ¦â, constituyendo el amparo legal a la presente Orden, cuyo objetivo es seguir dando apoyo a la ciudadanÃ­a de La Palma y, en especial, a su sector empresarial, motor econÃ³mico y de creaciÃ³n de empleo.
+
+Asimismo, mediante Real Decreto 1112/2021, de 17Â de diciembre, se aprueba la concesiÃ³n directa a la Comunidad AutÃ³noma de Canarias de una subvenciÃ³n para la financiaciÃ³n de actuaciones en materia de promociÃ³n del turismo y de apoyo a las pequeÃ±as y medianas empresas en la isla de La Palma (Santa Cruz de Tenerife).
+
+La citada norma reglamentaria establece la creaciÃ³n de una lÃ­nea de apoyo al emprendimiento y a la creaciÃ³n de nuevas empresas en la isla bonita.
+
+Por Real Decreto 1042/2022, de 27Â de diciembre, se modifica el Real DecretoÂ 1112/2021, de 17Â de diciembre. Esta modificaciÃ³n introduce la posibilidad para que, por parte de la Comunidad AutÃ³noma de Canarias, se pueda destinar hasta el 50% de la lÃ­nea de apoyo al emprendimiento y a la creaciÃ³n de nuevas empresas para crear una lÃ­nea de ayudas directas durante los ejercicios 2022 y 2023 que irÃ¡ dirigida a compensar las pÃ©rdidas soportadas por las pymes y personas trabajadoras autÃ³nomas en la isla de La Palma como consecuencia de las erupciones volcÃ¡nicas, con una serie de condiciones que van en la lÃ­nea de lo establecido en el Decreto ley 14/2021, de 28Â de octubre.
+
+La presente Orden permitirÃ¡ otorgar ayudas a aquellas empresas, personas fÃ­sicas o jurÃ­dicas, que sigan viendo impedida su actividad por las consecuencias de la erupciÃ³n volcÃ¡nica, siendo el requisito fundamental para acceder a esta ayuda el mantenimiento de las circunstancias que provocaron la paralizaciÃ³n total y continuada de la actividad econÃ³mica o profesional desarrollada en los establecimientos permanentes afectados por la erupciÃ³n, como consecuencia de la emisiÃ³n de gases tÃ³xicos en niveles nocivos, con la consiguiente pÃ©rdida total de ingresos propios de la actividad empresarial.
+
+La cuantÃ­a de la subvenciÃ³n se ha determinado en la presente Orden en los mismos tÃ©rminos que en las Ãrdenes de 19Â de noviembre de 2021 y de 8Â de noviembre de 2022, de esta misma ConsejerÃ­a, por las que se regulÃ³ la concesiÃ³n de subvenciones con carÃ¡cter de emergencia a las empresas y personas autÃ³nomas para mitigar los perjuicios econÃ³micos producidos por las erupciones volcÃ¡nicas en la isla de La Palma y persistencia de la paralizaciÃ³n de la actividad desde el segundo hasta el cuarto trimestre del aÃ±o 2022 ocasionados por las erupciones volcÃ¡nicas en la isla de La Palma, respectivamente. En concreto, la ayuda se cuantificÃ³ como una proporciÃ³n sobre el volumen promedio de facturaciÃ³n de tres meses, entendido como los ingresos computables de actividades econÃ³micas en estimaciÃ³n directa en el Impuesto sobre la Renta de las Personas FÃ­sicas o como cifra de negocios en el Impuesto sobre Sociedades. En el caso de las empresas y personas beneficiarias que tributen en estimaciÃ³n objetiva, se realizarÃ¡ un cÃ¡lculo teÃ³rico del volumen de facturaciÃ³n teniendo en cuenta los mÃ³dulos declarados en las declaraciones fiscales. En concreto, en esta nueva Orden estÃ¡ previsto, en funciÃ³n de la disponibilidad presupuestaria, abonar ayudas para paliar los efectos de la persistencia de la paralizaciÃ³n de la actividad empresarial durante el primer trimestre de 2023.
+
+En la tramitaciÃ³n de la presente Orden se ha dado cumplimiento a los principios de buena regulaciÃ³n a los que se refiere el artÃ­culo 129.1Â de la Ley 39/2015, de 1Â de octubre, del Procedimiento Administrativo ComÃºn de las Administraciones PÃºblicas. La presente Orden se adecÃºa a los principios de necesidad y eficacia ya que mediante estas bases se da una adecuada respuesta a las nuevas y acuciantes necesidades de las empresas de una forma Ã¡gil y sin suponer un gasto pÃºblico adicional. Asimismo se ha realizado siguiendo el principio de proporcionalidad, regulando aquellos aspectos imprescindibles para atender la necesidad de ayudas de las personas autÃ³nomas y empresas afectadas por la erupciÃ³n del volcÃ¡n.
+
+TambiÃ©n se da cumplimiento al principio de seguridad jurÃ­dica, ya que esta actuaciÃ³n se efectÃºa de manera coherente con el resto del ordenamiento jurÃ­dico, nacional y de la UniÃ³n Europea, generando un marco normativo estable que facilita su conocimiento, comprensiÃ³n y la toma de decisiones por parte de las empresas. El principio de transparencia se observa mediante la justificaciÃ³n de la elaboraciÃ³n de bases a efectuar en el preÃ¡mbulo y su publicaciÃ³n en el BoletÃ­n Oficial de Canarias. En cuanto al principio de eficiencia, se incluye en la presente disposiciÃ³n la iniciaciÃ³n de oficio de la subvenciÃ³n, previa inscripciÃ³n de las personas en el Registro de personas afectadas por las erupciones volcÃ¡nicas en la isla de La Palma y la tramitaciÃ³n electrÃ³nica del procedimiento de concesiÃ³n de las subvenciones, desapareciendo el papel en todos los trÃ¡mites, mejoras que permiten agilizar la gestiÃ³n, reducir gasto pÃºblico y disminuir cargas administrativas a las empresas.
+
+Por otro lado, concurren razones graves de interÃ©s pÃºblico que aconsejan la exceptuaciÃ³n del trÃ¡mite formal de consulta, audiencia e informaciÃ³n pÃºblicas, por las excepcionales circunstancias originadas por las erupciones volcÃ¡nicas en la isla de La Palma y la necesidad de apoyar lo antes posible a las empresas afectadas. Dentro de las actuaciones del Gobierno de Canarias, la ConsejerÃ­a de EconomÃ­a, Conocimiento y Empleo es competente en materia de promociÃ³n de la actividad econÃ³mica, de conformidad con el Reglamento OrgÃ¡nico de la ConsejerÃ­a de EconomÃ­a, Conocimiento y Empleo, aprobado por Decreto 9/2020, de 20Â de febrero.
+
+Asimismo, es competencia de la persona titular de la ConsejerÃ­a el ejercicio de la potestad reglamentaria en lo relativo a la organizaciÃ³n y al Ã¡mbito interno de funcionamiento del Departamento, en forma de Ãrdenes departamentales, de acuerdo con lo establecido en los artÃ­culos 58.1.b) y 76.3Â de la Ley 4/2023, de 23Â de marzo, de la Presidencia y del Gobierno de Canarias.
+
+De acuerdo con lo anteriormente expuesto y a propuesta de la DirecciÃ³n General de PromociÃ³n EconÃ³mica,
+
+DISPONGO:
+
+CAPÃTULO I
+
+DISPOSICIONES GENERALES
+
+ArtÃ­culo 1.- Objeto y Ã¡mbito de aplicaciÃ³n.
+
+1. La presente Orden tiene por objeto regular el rÃ©gimen de concesiÃ³n de las subvenciones para compensar la pÃ©rdida total de ingresos de personas autÃ³nomas (empresarias o profesionales) y empresas provocada por la persistencia en el primer trimestre del aÃ±o 2023Â de los efectos adversos generados por las recientes erupciones volcÃ¡nicas en la isla de La Palma.
+
+2. El Ã¡mbito de aplicaciÃ³n territorial de la subvenciÃ³n serÃ¡ la isla de La Palma.
+
+3. Las subvenciones cuya concesiÃ³n se regula mediante la presente Orden estÃ¡n contempladas en el Plan EstratÃ©gico de Subvenciones del Departamento para el periodo 2023-2025, aprobado mediante Orden de 6Â de marzo de 2023, de la ConsejerÃ­a de EconomÃ­a, Conocimiento y Empleo (BOC n.Âº 51, de 14.3.2023), modificada por Orden de 3Â de mayo de 2023 (BOC n.Âº 93, de 15.5.2023).
+
+Entre las lÃ­neas de subvenciÃ³n que integran dicho Plan EstratÃ©gico de Subvenciones, se encuentra la denominada âSubvenciones con carÃ¡cter de emergencia a las pequeÃ±as y medianas empresas por las erupciones volcÃ¡nicas de la isla de La Palmaâ, cuyos objetivos especÃ­ficos son los siguientes:
+
+1) Fomentar la creaciÃ³n de nuevas empresas, la ampliaciÃ³n de un establecimiento existente o de la capacidad productiva, la diversificaciÃ³n de la producciÃ³n de un establecimiento en nuevos productos y el desarrollo de nuevos espacios industriales o empresariales o mejora de los existentes en la isla de La Palma.
+
+2) Compensar las pÃ©rdidas soportadas por las pymes y personas trabajadoras autÃ³nomas en la isla de La Palma como consecuencia de las erupciones volcÃ¡nicas.
+
+ArtÃ­culo 2.- FinanciaciÃ³n.
+
+El importe mÃ¡ximo del crÃ©dito destinado a la financiaciÃ³n de las subvenciones reguladas por la presente Orden asciende a dos millones setecientos cincuenta mil (2.750.000,00) euros del presupuesto de gastos de la ConsejerÃ­a de EconomÃ­a, Conocimiento y Empleo, con cargo a la aplicaciÃ³n presupuestaria 15.14.433C.470.02 (Fondo 70V1501) LÃ­nea de actuaciÃ³n 154G1258 âAyudas de Emergencia VolcÃ¡n Isla de La Palmaâ.
+
+Asimismo, la dotaciÃ³n necesaria para atender todas las solicitudes presentadas que cumplan con los requisitos de la presente Orden podrÃ¡ incrementarse a la vista de los expedientes presentados, siempre que exista cobertura econÃ³mica para llevarla a cabo.
+
+ArtÃ­culo 3.- Empresas y personas beneficiarias.
+
+PodrÃ¡n ser empresas y personas beneficiarias de las subvenciones las personas autÃ³nomas (empresarias o profesionales) y empresas que consten inscritas en el Registro de personas afectadas por las erupciones volcÃ¡nicas en la isla de La Palma (en adelante, Registro de personas afectadas).
+
+ArtÃ­culo 4.- Requisitos de las empresas y personas beneficiarias.
+
+1. Las empresas y personas beneficiarias deberÃ¡n cumplir los siguientes requisitos:
+
+a) Estar inscrito en el Registro de personas afectadas.
+
+b) Estar dado de alta el 18Â de septiembre de 2021 en alguna de las actividades de la ClasificaciÃ³n Nacional de Actividades EconÃ³micas CNAE09, excepto:
+
+- SecciÃ³n A: agricultura, ganaderÃ­a, silvicultura y pesca.
+
+- SecciÃ³n K: actividades financieras y de seguros, con excepciÃ³n de la divisiÃ³n 66-Actividades auxiliares a los servicios financieros y a los seguros.
+
+c) La actividad econÃ³mica o profesional desarrollada en los establecimientos permanentes afectados por las erupciones volcÃ¡nicas debe de haberse visto impedida de forma total y continuada, como consecuencia de la emisiÃ³n de gases tÃ³xicos en niveles nocivos o cualquier otro impedimento de naturaleza temporal que impida la reapertura del negocio. Esta circunstancia debe persistir al final del primer trimestre de 2023.
+
+d) Reunir la condiciÃ³n de pymes.
+
+A estos efectos, se entiende por âpequeÃ±a y mediana empresaâ la que se ajuste a la definiciÃ³n establecida en cada momento por la UniÃ³n Europea, estando actualmente vigente la establecida en el AnexoÂ I del Reglamento (UE) n.Âº 651/2014, de la ComisiÃ³n, de 17Â de junio de 2014, por el que se declaran determinadas categorÃ­as de ayudas compatibles con el mercado interior en aplicaciÃ³n de los artÃ­culos 107 y 108 del tratado (DOUE n.Âº 187, de 26.6.2014), que considera como PYME a las empresas que ocupan a menos de 250 personas y cuyo volumen de negocio anual no excede de 50 millones de euros o cuyo balance general anual no excede de 43 millones de euros.
+
+No se considerarÃ¡ como PYME a las empresas en las que el 25% o mÃ¡s de su capital o derechos de voto estÃ©n controlados, directa o indirectamente, por uno o mÃ¡s organismos pÃºblicos o colectividades pÃºblicas.
+
+Como excepciÃ³n a lo anterior, este umbral podrÃ¡ superarse y considerarse a la empresa como PYME, cuando estÃ©n presentes las siguientes categorÃ­as de inversores, siempre que estos no posean ningÃºn control sobre la PYME:
+
+- Sociedades pÃºblicas de participaciÃ³n, sociedades de capital riesgo, personas fÃ­sicas o grupos de personas fÃ­sicas que realicen una actividad regular de inversiÃ³n en capital riesgo (inversores providenciales o âbusiness angelsâ) e inviertan fondos propios en empresas sin cotizaciÃ³n bursÃ¡til, siempre y cuando su inversiÃ³n total en la misma empresa no supere 1.250.000 euros.
+
+- Universidades o centros de investigaciÃ³n sin fines lucrativos.
+
+- Inversores institucionales, incluidos los fondos de desarrollo regional.
+
+- Autoridades locales autÃ³nomas con un presupuesto anual de menos de 10 millones de euros y una poblaciÃ³n inferior a 5.000 habitantes.
+
+Se entiende que existe control sobre la PYME cuando los inversores seÃ±alados, individual o conjuntamente:
+
+- Controlen la mayorÃ­a de los derechos de voto de los accionistas o socios de la PYME (por posesiÃ³n directa o indirecta a travÃ©s de acuerdos con accionistas o socios).
+
+- Posea el derecho de nombramiento o revocaciÃ³n de la mayorÃ­a de las personas que integran el Ã³rgano de administraciÃ³n, direcciÃ³n o control.
+
+- Tengan derecho a ejercer una influencia dominante en virtud de contrato o clÃ¡usula estatutaria (salvo que no exista implicaciÃ³n directa en la gestiÃ³n de la PYME).
+
+e) Estar dado de alta en la Base de Datos de Terceros del Sistema EconÃ³mico-Financiero y LogÃ­stico de Canarias (SEFLogiC), presentado y registrado ante la DirecciÃ³n General del Tesoro y PolÃ­tica Financiera, para el cobro de la ayuda.
+
+2. No podrÃ¡n obtener la condiciÃ³n de beneficiarias las sociedades mercantiles pÃºblicas u otra participada en su capital o en sus Ã³rganos de gobierno mayoritariamente por Administraciones PÃºblicas o entidades dependientes de estas.
+
+3. Las ayudas concedidas no serÃ¡n de aplicaciÃ³n a los siguientes sectores, regulados en el artÃ­culo 1 del Reglamento (UE) n.Âº 1407/2013, de la ComisiÃ³n:
+
+a) Los sectores de la pesca y la acuicultura, regulados por el Reglamento (CE) n.ÂºÂ 104/2000, del Consejo, de 17Â de diciembre de 1999, por el que se establece la organizaciÃ³n comÃºn de mercados en el sector de los productos de la pesca y de la acuicultura.
+
+b) La producciÃ³n primaria de productos agrÃ­colas.
+
+c) El sector de la transformaciÃ³n y comercializaciÃ³n de productos agrÃ­colas, en los casos siguientes:
+
+1. Cuando el importe de la ayuda se determine en funciÃ³n del precio o de la cantidad de productos de este tipo adquiridos a productores primarios o comercializados por las empresas interesadas.
+
+2. Cuando la ayuda estÃ© supeditada a que una parte o la totalidad de la misma se repercuta a los productores primarios.
+
+d) Actividades relacionadas con la exportaciÃ³n a terceros paÃ­ses o Estados miembros, es decir, las ayudas directamente vinculadas a las cantidades exportadas, al establecimiento y la explotaciÃ³n de una red de distribuciÃ³n o a otros gastos corrientes vinculados a la actividad exportadora.
+
+e) Las ayudas condicionadas a la utilizaciÃ³n de productos nacionales en lugar de importados. Si una empresa opera en varios sectores, serÃ¡ de aplicaciÃ³n lo dispuesto en el apartado 2 del artÃ­culo 1 del Reglamento (UE) n.Âº 1407/2013, de la ComisiÃ³n.
+
+ArtÃ­culo 5.- RÃ©gimen jurÃ­dico.
+
+Las subvenciones previstas en la presente Orden se regirÃ¡n, ademÃ¡s de por lo dispuesto en la misma, por las siguientes disposiciones normativas:
+
+1. En el Ã¡mbito de la legislaciÃ³n estatal bÃ¡sica:
+
+- Ley 38/2003, de 17Â de noviembre, General de Subvenciones, en lo referente a sus preceptos bÃ¡sicos (en lo sucesivo, Ley 38/2003, de 17Â de noviembre).
+
+- Reglamento de la Ley 38/2003, de 17Â de noviembre, General de Subvenciones, aprobado por Real Decreto 887/2006, de 21Â de julio, en lo referente a sus preceptos bÃ¡sicos.
+
+- Ley 39/2015, de 1Â de octubre, del Procedimiento Administrativo ComÃºn de las Administraciones PÃºblicas (en adelante, Ley 39/2015, de 1Â de octubre).
+
+- Real Decreto 1112/2021, de 17Â de diciembre, por el que se aprueba la concesiÃ³n directa a la Comunidad AutÃ³noma de Canarias de una subvenciÃ³n para la financiaciÃ³n de actuaciones en materia de promociÃ³n del turismo y de apoyo a las pequeÃ±as y medianas empresas en la isla de La Palma (Santa Cruz de Tenerife), modificado por Real DecretoÂ 1042/2022, de 27Â de diciembre.
+
+2. En el Ã¡mbito del Derecho AutonÃ³mico de Canarias:
+
+- Decreto ley 12/2021, de 30Â de septiembre, por el que se adoptan medidas tributarias, organizativas y de gestiÃ³n como consecuencia de la erupciÃ³n volcÃ¡nica en la isla de LaÂ Palma.
+
+- Decreto ley 14/2021, de 28Â de octubre, por el que se regula el marco general para la tramitaciÃ³n de los procedimientos de concesiÃ³n de ayudas con carÃ¡cter de emergencia, destinadas a paliar las necesidades derivadas de la situaciÃ³n de emergencia producida por las erupciones volcÃ¡nicas en la isla de La Palma (en lo sucesivo, Decreto ley 14/2021, de 28Â de octubre).
+
+- Ley 11/2006, de 11Â de diciembre, de la Hacienda PÃºblica Canaria.
+
+- Decreto 36/2009, de 31Â de marzo, por el que se establece el rÃ©gimen general de subvenciones de la Comunidad AutÃ³noma de Canarias (en adelante, Decreto 36/2009, de 31Â de marzo).
+
+- Decreto 37/2015, de 27Â de marzo, por el que se aprueba y regula el Sistema de InformaciÃ³n de Actuaciones Administrativas de la AdministraciÃ³n PÃºblica de la Comunidad AutÃ³noma de Canarias.
+
+- Decreto 100/1999, de 25Â de mayo, de medidas para garantizar el cumplimiento de las normas comunitarias que limitan la concesiÃ³n de ayudas del Estado.
+
+3. En el Ã¡mbito del Derecho de la UniÃ³n Europea:
+
+- Reglamento (UE) n.Âº 1407/2013, de la ComisiÃ³n, de 18Â de diciembre de 2013, relativo a la aplicaciÃ³n de los artÃ­culos 107 y 108 del Tratado de Funcionamiento de la UniÃ³n Europea a las ayudas de minimis (DOUE de 24.12.2013).
+
+- Reglamento (UE) n.Âº 651/2014, de la ComisiÃ³n, de 17Â de junio de 2014, por el que se declaran determinadas categorÃ­as de ayudas compatibles con el mercado interior en aplicaciÃ³n de los artÃ­culos 107 y 108 del Tratado (en lo sucesivo, Reglamento general de exenciÃ³n por categorÃ­as).
+
+ArtÃ­culo 6.- Entidad colaboradora.
+
+1. Se designa a la CÃ¡mara Oficial de Comercio, Industria, Servicios y NavegaciÃ³n de Santa Cruz de Tenerife como entidad colaboradora de la ConsejerÃ­a de EconomÃ­a, Conocimiento y Empleo para la gestiÃ³n de las subvenciones reguladas en la presente Orden, asÃ­ como, en su caso, en la entrega y distribuciÃ³n de los fondos pÃºblicos a las personas y empresas beneficiarias, para cuya efectividad se suscribirÃ¡ el oportuno convenio de colaboraciÃ³n.
+
+2. La entidad colaboradora deberÃ¡ acreditar el cumplimiento de los requisitos establecidos en el artÃ­culo 13Â de la Ley 38/2003, de 17Â de noviembre, asÃ­ como los de solvencia y eficacia establecidos en la Orden de 10Â de marzo de 1995, de la extinta ConsejerÃ­a de EconomÃ­a y Hacienda, por la que se establecen los requisitos de solvencia y eficacia para ser entidad colaboradora en materia de ayudas y subvenciones de la AdministraciÃ³n PÃºblica de la Comunidad AutÃ³noma de Canarias.
+
+3. La entidad colaboradora, en los tÃ©rminos que se determinen en el convenio, podrÃ¡ tener derecho a percibir un anticipo por las operaciones preparatorias que resulten necesarias para realizar las actuaciones financiadas hasta un lÃ­mite mÃ¡ximo del 50 por ciento de la cantidad total a percibir.
+
+4. La ConsejerÃ­a de EconomÃ­a, Conocimiento y Empleo podrÃ¡ revocar libremente, en cualquier momento, la designaciÃ³n efectuada a la entidad colaboradora.
+
+CAPÃTULO II
+
+MEDIDAS PARA LA CONCESIÃN DE SUBVENCIONES
+
+ArtÃ­culo 7.- CuantÃ­a de la subvenciÃ³n.
+
+1. La cuantÃ­a de la subvenciÃ³n se calcularÃ¡ teniendo en cuenta la media de facturaciÃ³n mensual del ejercicio fiscal de referencia multiplicada por tres, al que se le aplicarÃ¡ un porcentaje corrector del 70%.
+
+2. A efectos de lo dispuesto en el apartado anterior, se entiende por volumen de facturaciÃ³n el declarado en el ejercicio 2019, como ingresos computables de actividades econÃ³micas en estimaciÃ³n directa en el Impuesto sobre la Renta de las Personas FÃ­sicas (en adelante, IRPF) o como cifra de negocios en el Impuesto sobre Sociedades (en lo sucesivo, IS).
+
+No obstante, para aquellas personas y empresas beneficiarias que hayan iniciado su actividad entre el 1Â de enero y el 31Â de diciembre de 2020, el cÃ¡lculo del volumen de facturaciÃ³n serÃ¡ el declarado en dicho ejercicio. Dicho volumen de facturaciÃ³n se ajustarÃ¡ elevÃ¡ndolo en la proporciÃ³n del nÃºmero de dÃ­as en los que la empresa estuvo de alta en 2020.
+
+En el caso de las empresas y personas beneficiarias que tributen en estimaciÃ³n objetiva, se realizÃ¡ un cÃ¡lculo teÃ³rico del volumen de facturaciÃ³n teniendo en cuenta los mÃ³dulos declarados en las declaraciones fiscales.
+
+Si el inicio de la actividad se produce en el aÃ±o 2021, deberÃ¡n aportar los correspondientes pagos fraccionados del IRPF o IS, salvo que por la naturaleza de la actividad no tengan la obligaciÃ³n de presentarlos, debiendo en esos casos aportar libros contables que acrediten el volumen de facturaciÃ³n o documentaciÃ³n alternativa.
+
+3. En el caso de que las empresas y personas beneficiarias posean varios establecimientos permanentes, el cÃ¡lculo de la ayuda se realizarÃ¡ teniendo en cuenta la proporciÃ³n de las personas empleadas vinculadas a los establecimientos directamente afectados, en relaciÃ³n con el total de la plantilla.
+
+4. Se establece una cuantÃ­a mÃ¡xima de 45.000 euros por empresa y persona beneficiaria, sin perjuicio de lo dispuesto en el apartado siguiente.
+
+5. El abono de la subvenciÃ³n, calculado conforme a lo establecido en los puntos anteriores, estarÃ¡ condicionado a la acreditaciÃ³n de la imposibilidad para la realizaciÃ³n de la actividad a lo largo de todo el primer trimestre de 2023 como consecuencia de la emisiÃ³n de gases tÃ³xicos en niveles nocivos o cualquier otro impedimento de naturaleza temporal que impida la reapertura del negocio, y ello sujeto a la existencia de crÃ©dito adecuado y suficiente.
+
+ArtÃ­culo 8.- Obligaciones de las empresas y personas beneficiarias.
+
+Son obligaciones de las empresas y personas beneficiarias:
+
+a) Facilitar cuantos datos e informaciÃ³n relacionados con la subvenciÃ³n concedida les sean requeridos por la ConsejerÃ­a de EconomÃ­a, Conocimiento y Empleo.
+
+b) En su caso, proceder al reintegro de los fondos percibidos.
+
+c) Someterse a las actuaciones de control financiero a que hace referencia el DecretoÂ 36/2009, de 31 marzo.
+
+d) Declarar todas las demÃ¡s ayudas de minimis recibidas durante los dos ejercicios fiscales anteriores y durante el ejercicio fiscal en curso que estÃ©n sujetas al Reglamento (UE) n.Âº 1407/2013, de la ComisiÃ³n, o a otros reglamentos de minimis.
+
+ArtÃ­culo 9.- LÃ­mite y compatibilidad de las subvenciones.
+
+1. Las subvenciones reguladas mediante la presente Orden serÃ¡n compatibles con otras subvenciones, ayudas, ingresos o recursos para la misma finalidad, procedente de cualesquiera Administraciones o entes pÃºblicos o privados, nacionales, de la UniÃ³n Europea o de organismos internacionales, sin que en ningÃºn caso puedan superar el valor del daÃ±o producido y respetando las reglas de acumulaciÃ³n previstas en el artÃ­culo 5 del Reglamento (UE) n.Âº 1407/2013, de la ComisiÃ³n, de 18Â de diciembre de 2013, relativo a la aplicaciÃ³n de los artÃ­culos 107 y 108 del Tratado de Funcionamiento de la UniÃ³n Europea a las ayudas de minimis.
+
+2. La persona beneficiaria deberÃ¡ comunicar otras ayudas pÃºblicas que hubiera obtenido o solicitado para el mismo fin.
+
+Antes de conceder la ayuda, el Estado miembro deberÃ¡ obtener de la empresa de que se trate una declaraciÃ³n, escrita o en soporte electrÃ³nico, referente a todas las demÃ¡s ayudas de minimis recibidas durante los dos ejercicios fiscales anteriores y durante el ejercicio fiscal en curso que estÃ©n sujetas al presente Reglamento o a otros reglamentos de minimis.
+
+3. La obtenciÃ³n concurrente de otras aportaciones fuera de los casos permitidos en las normas reguladoras podrÃ¡ dar lugar a la modificaciÃ³n de la resoluciÃ³n de concesiÃ³n.
+
+CAPÃTULO III
+
+PROCEDIMIENTO DE GESTIÃN DE LAS SUBVENCIONES
+
+ArtÃ­culo 10.- Procedimiento de concesiÃ³n.
+
+1. El procedimiento de concesiÃ³n de estas subvenciones, en virtud de lo dispuesto en el artÃ­culo 22.2.b) de la Ley 38/2003, de 17Â de noviembre, y el artÃ­culo 5 del Decreto leyÂ 14/2021, de 28Â de octubre, se efectuarÃ¡ en rÃ©gimen de concesiÃ³n directa.
+
+2. El procedimiento se impulsarÃ¡ de oficio en todos sus trÃ¡mites.
+
+3. La ConsejerÃ­a de EconomÃ­a, Conocimiento y Empleo obtendrÃ¡ los datos necesarios del Registro de personas afectadas de aquellas personas y empresas que cumplan los requisitos establecidos en el artÃ­culo 4Â de la presente Orden.
+
+4. El Ã³rgano competente para la instrucciÃ³n del procedimiento de concesiÃ³n de las subvenciones reguladas mediante la presente Orden serÃ¡ la DirecciÃ³n General de PromociÃ³n EconÃ³mica, la cual, a la vista del expediente, formularÃ¡ propuesta de resoluciÃ³n y la elevarÃ¡ al Ã³rgano concedente.
+
+5. La concesiÃ³n de la subvenciÃ³n se realizarÃ¡, hasta el agotamiento del crÃ©dito disponible, atendiendo a la fecha de expediente completo, una vez subsanadas, en su caso, las omisiones o defectos que, en el mismo, se hubieran apreciado por el Ã³rgano instructor.
+
+6. Las subvenciones se abonarÃ¡n una vez se acredite el cumplimiento de los requisitos establecidos en la presente Orden e instruido el correspondiente procedimiento de concesiÃ³n.
+
+ArtÃ­culo 11.- DocumentaciÃ³n.
+
+1. Para la tramitaciÃ³n de la subvenciÃ³n, cuando no sea posible su consulta o comprobaciÃ³n de oficio por parte del Ã³rgano instructor, se recabarÃ¡ por este la siguiente documentaciÃ³n, que serÃ¡ presentada por las personas y empresas interesadas a travÃ©s de la sede electrÃ³nica de la AdministraciÃ³n PÃºblica de la Comunidad AutÃ³noma de Canarias (https://sede.gobiernodecanarias.org/sede/tramites/8354):
+
+a) El documento acreditativo de estar dado de alta en la Base de Datos de Terceros del Sistema EconÃ³mico-Financiero y LogÃ­stico de Canarias (SEFLogiC), presentado y registrado ante la DirecciÃ³n General del Tesoro y PolÃ­tica Financiera.
+
+b) Cualquier otra documentaciÃ³n que se estime conveniente para la acreditaciÃ³n de los requisitos exigidos y del volumen de operaciones, entre otras, las declaraciones de IRPF o IS.
+
+c) En el caso de tener mÃ¡s de un establecimiento permanente, y no estar todos afectados por las erupciones volcÃ¡nicas, se deberÃ¡ aportar el Informe de Trabajadores de Alta (ITA) con fecha 18Â de septiembre de 2021Â de las personas trabajadoras en alta de todas las cuentas de cotizaciÃ³n a nombre de la persona profesional/empresaria o empresa.
+
+d) Una declaraciÃ³n responsable referente a:
+
+â¢ Todas las demÃ¡s ayudas de minimis recibidas durante los dos ejercicios fiscales anteriores y durante el ejercicio fiscal en curso que estÃ©n sujetas al Reglamento (UE) n.ÂºÂ 1407/2013, de la ComisiÃ³n, o a otros reglamentos de minimis.
+
+â¢ Que la actividad econÃ³mica o profesional desarrollada en los establecimientos permanentes afectados por las erupciones volcÃ¡nicas se ha visto impedida de forma total y continuada.
+
+â¢ Que no se trata de una sociedad mercantil pÃºblica u otra participada en su capital o en sus Ã³rganos de gobierno mayoritariamente por Administraciones PÃºblicas o entidades dependientes de estas.
+
+La declaraciÃ³n responsable (conforme al modelo del anexo) incluirÃ¡ la autorizaciÃ³n o, en su caso, la oposiciÃ³n al Ã³rgano instructor para recabar electrÃ³nicamente o consultar a los organismos competentes los certificados y datos de las personas y empresas interesadas obrantes en dichas Administraciones que deban aportarse en el procedimiento (artÃ­culosÂ 28Â de la Ley 39/2015, de 1Â de octubre, y 15 del Decreto 36/2009, de 31Â de marzo).
+
+2. La CÃ¡mara Oficial de Comercio, Industria, Servicios y NavegaciÃ³n de Santa Cruz de Tenerife, en su condiciÃ³n de entidad colaboradora, podrÃ¡ prestar asesoramiento y apoyo a las personas y empresas interesadas, en la realizaciÃ³n del trÃ¡mite de aportaciÃ³n de la documentaciÃ³n a que se refiere el apartado anterior, incluyendo la posibilidad de que dicho trÃ¡mite se realice en las dependencias de la entidad colaboradora mediante la utilizaciÃ³n de los medios de identificaciÃ³n y firma electrÃ³nica de los que aquellas estÃ©n provistos.
+
+No obstante, en caso de que las personas y empresas interesadas no dispongan de medios de identificaciÃ³n y firma electrÃ³nica, su identificaciÃ³n o firma electrÃ³nica en el procedimiento administrativo podrÃ¡ ser vÃ¡lidamente realizada por personal funcionario pÃºblico habilitado en las oficinas de asistencia en materia de registro, mediante el uso del sistema de firma electrÃ³nica del que estÃ© dotado para ello. En este caso, serÃ¡ necesario que la persona o empresa que carezca de los medios electrÃ³nicos necesarios se identifique ante dicho personal y preste su consentimiento expreso para esta actuaciÃ³n, de lo que deberÃ¡ quedar constancia para los casos de discrepancia o litigio.
+
+ArtÃ­culo 12.- InstrucciÃ³n.
+
+1. El Ã³rgano competente para la instrucciÃ³n del procedimiento de concesiÃ³n de las subvenciones reguladas mediante la presente Orden serÃ¡ la DirecciÃ³n General de PromociÃ³n EconÃ³mica.
+
+2. Una vez iniciado el expediente, por parte del Ã³rgano instructor se requerirÃ¡, mediante publicaciÃ³n en el tablÃ³n de anuncios de la sede electrÃ³nica de la AdministraciÃ³n PÃºblica de la Comunidad AutÃ³noma de Canarias, la documentaciÃ³n necesaria recogida en el artÃ­culo 11.
+
+Dicha documentaciÃ³n deberÃ¡ ser presentada a travÃ©s de la sede electrÃ³nica de la AdministraciÃ³n PÃºblica de la Comunidad AutÃ³noma de Canarias, en el plazo de 10 dÃ­as hÃ¡biles. Para la presentaciÃ³n de la referida documentaciÃ³n, podrÃ¡ hacerse uso de la posibilidad prevista en el apartado 2 del artÃ­culo 11Â de la presente Orden.
+
+3. Recibida la documentaciÃ³n correspondiente, el Ã³rgano instructor o, en su caso, la entidad colaboradora, examinarÃ¡ si reÃºne los requisitos exigidos.
+
+ArtÃ­culo 13.- ResoluciÃ³n y recursos.
+
+1. La competencia para la concesiÃ³n de estas subvenciones, asÃ­ como para la aprobaciÃ³n del gasto, corresponde a la persona titular de la DirecciÃ³n General de PromociÃ³n EconÃ³mica.
+
+2. La resoluciÃ³n de los expedientes respetarÃ¡ el orden de expediente completo y se resolverÃ¡n hasta el agotamiento del crÃ©dito disponible.
+
+En caso de que la empresa o persona interesada no presente la documentaciÃ³n solicitada en el plazo establecido, salvo que se acrediten causas de fuerza mayor, se procederÃ¡ al archivo del expediente.
+
+3. Las resoluciones de concesiÃ³n de las subvenciones reguladas por la presente Orden declararÃ¡n la justificaciÃ³n total de las mismas.
+
+4. Una vez agotado el crÃ©dito establecido para atender las subvenciones, serÃ¡n denegadas todas las solicitudes que no hayan podido ser atendidas por falta de presupuesto, sin proceder a la comprobaciÃ³n del cumplimiento de los requisitos para ser beneficiarios de las subvenciones, y aunque se hayan presentado en plazo. En este supuesto, la resoluciÃ³n denegatoria de estas solicitudes se podrÃ¡ realizar conjuntamente en documento Ãºnico, cuya notificaciÃ³n se practicarÃ¡ en la forma que se establece en el apartado siguiente.
+
+5. Las resoluciones de concesiÃ³n deberÃ¡n ser dictadas y notificadas en el plazo de tres meses desde la fecha de publicaciÃ³n de la presente Orden en el BoletÃ­n Oficial de Canarias. Transcurrido dicho plazo sin resolverse expresamente, se entenderÃ¡ desestimada la solicitud de subvenciÃ³n.
+
+El Ã³rgano instructor deberÃ¡ publicar en la sede electrÃ³nica de la AdministraciÃ³n PÃºblica de la Comunidad AutÃ³noma de Canarias el agotamiento de la partida asignada y la desestimaciÃ³n expresa a las empresas y personas interesadas.
+
+6. Las resoluciones se notificarÃ¡n mediante publicaciÃ³n en el BoletÃ­n Oficial de Canarias. Asimismo, serÃ¡n publicadas en el tablÃ³n de anuncios de la sede electrÃ³nica de la AdministraciÃ³n PÃºblica de la Comunidad AutÃ³noma de Canarias.
+
+7. Las resoluciones de concesiÃ³n no pondrÃ¡n fin a la vÃ­a administrativa y contra ellas podrÃ¡ interponerse recurso de alzada ante la persona titular de la ViceconsejerÃ­a de EconomÃ­a e InternacionalizaciÃ³n, en el plazo de un mes a contar desde el dÃ­a siguiente a su notificaciÃ³n, segÃºn lo dispuesto en los artÃ­culos 121 y 122Â de la Ley 39/2015, de 1Â de octubre.
+
+8. Las subvenciones concedidas serÃ¡n objeto de publicidad a travÃ©s de su publicaciÃ³n en la Base de Datos Nacional de Subvenciones (BDNS), asÃ­ como en el Portal de Transparencia del Gobierno de Canarias.
+
+ArtÃ­culo 14.- AceptaciÃ³n.
+
+Una vez notificada la resoluciÃ³n de concesiÃ³n que se dicte, se entenderÃ¡ que las empresas y personas beneficiarias la aceptan, a no ser que se aporte renuncia expresa en el plazo de cinco dÃ­as hÃ¡biles contados a partir del dÃ­a siguiente en que se realice la notificaciÃ³n.
+
+ArtÃ­culo 15.- Pago de las subvenciones.
+
+El pago de las subvenciones se realizarÃ¡ mediante transferencia a la correspondiente cuenta bancaria que conste en la Base de Datos de Terceros del Sistema EconÃ³mico Financiero y LogÃ­stico de Canarias (SEFLogiC).
+
+CAPÃTULO IV
+
+JUSTIFICACIÃN Y CONTROL DE LAS SUBVENCIONES
+
+ArtÃ­culo 16.- JustificaciÃ³n de las ayudas por las personas y entidades beneficiarias.
+
+Conforme a lo dispuesto en el artÃ­culo 22.1 del Decreto ley 14/2021, de 28Â de octubre, por el que se regula el marco general para la tramitaciÃ³n de los procedimientos de concesiÃ³n de ayudas con carÃ¡cter de emergencia, destinadas a paliar las necesidades derivadas de la situaciÃ³n de emergencia producida por las erupciones volcÃ¡nicas en la isla de La Palma, las subvenciones concedidas en atenciÃ³n a la concurrencia de una determinada situaciÃ³n en el perceptor no requieren otra justificaciÃ³n que la acreditaciÃ³n de encontrarse en la situaciÃ³n que motiva la concesiÃ³n de la ayuda por cualquier medio admisible en derecho de dicha situaciÃ³n.
+
+Por ello, con la aportaciÃ³n de la documentaciÃ³n exigida en el artÃ­culo 11, y previa comprobaciÃ³n del cumplimiento de los requisitos establecidos en la presente Orden, se entenderÃ¡ cumplida la obligaciÃ³n de justificaciÃ³n de la ayuda, sin perjuicio de las actuaciones de comprobaciÃ³n y control de ayudas a que se refiere el artÃ­culo 18.
+
+ArtÃ­culo 17.- Entrega de los fondos pÃºblicos para su reparto entre las empresas y personas beneficiarias y justificaciÃ³n por las entidades colaboradoras.
+
+1. El libramiento del importe de los fondos pÃºblicos se realizarÃ¡ una vez el Ã³rgano concedente adopte la resoluciÃ³n definitiva de concesiÃ³n que corresponda.
+
+Con carÃ¡cter previo, la entidad colaboradora deberÃ¡ haber remitido el correspondiente informe-propuesta y los datos necesarios para la adopciÃ³n de la resoluciÃ³n a que se refiere el pÃ¡rrafo anterior.
+
+2. Para la formulaciÃ³n del informe-propuesta de resoluciÃ³n, la entidad colaboradora deberÃ¡ haber realizado las actuaciones de comprobaciÃ³n del cumplimiento de los requisitos establecidos para la obtenciÃ³n de la condiciÃ³n de beneficiarias por parte de las empresas y personas autÃ³nomas solicitantes.
+
+3. La cuantÃ­a del libramiento de los fondos pÃºblicos no podrÃ¡ superar la de la suma total de importes individualmente concedidos. Dicha cuantÃ­a se transferirÃ¡ a la cuenta corriente especÃ­ficamente mantenida por la entidad colaboradora para la gestiÃ³n de los fondos pÃºblicos destinados a la concesiÃ³n de subvenciones a las empresas y personas autÃ³nomas beneficiarias.
+
+4. Recibidos los fondos librados por el Ã³rgano concedente, la entidad colaboradora procederÃ¡ a su distribuciÃ³n entre las empresas y personas autÃ³nomas beneficiarias incluidas en la resoluciÃ³n de concesiÃ³n y en el plazo mÃ¡ximo de 48 horas siguientes al Ãºltimo pago realizado, emitirÃ¡ informe que contendrÃ¡ datos, al menos, sobre los siguientes extremos:
+
+a) Nombre y apellidos o razÃ³n social de la empresa o persona autÃ³noma beneficiaria.
+
+b) CÃ³digo o NÃºmero de IdentificaciÃ³n Fiscal.
+
+c) Importe transferido.
+
+d) Cuenta corriente destinataria de la transferencia del importe de la subvenciÃ³n.
+
+e) Fecha de realizaciÃ³n de la transferencia.
+
+5. Al informe a que se refiere el apartado anterior, se acompaÃ±arÃ¡ la documentaciÃ³n acreditativa de la distribuciÃ³n de fondos entre las empresas y personas autÃ³nomas beneficiarias. Asimismo, se adjuntarÃ¡ la documentaciÃ³n relativa a las incidencias que se hayan generado como consecuencia de la distribuciÃ³n de fondos, especialmente en lo referido a pagos indebidos, retrocesiones bancarias y reintegro de cantidades, entre otros.
+
+6. La entidad colaboradora emitirÃ¡ un informe final general, con el contenido y en el plazo a que se refiere el apartado 4, tras la realizaciÃ³n del total de pagos correspondientes a las empresas y personas autÃ³nomas que hayan obtenido la condiciÃ³n de beneficiarias conforme a lo dispuesto en la presente Orden.
+
+7. La entidad colaboradora procederÃ¡, en su caso, al reintegro o devoluciÃ³n del exceso de fondos pÃºblicos recibidos del Ã³rgano concedente, acompaÃ±ada de la documentaciÃ³n que acredite el reintegro.
+
+De existir pagos indebidos a las empresas y personas autÃ³nomas beneficiarias o haberse reintegrado o devuelto cantidades por aquellas o por la entidad colaboradora, se remitirÃ¡, por la entidad colaboradora, la informaciÃ³n necesaria para determinar, en su caso, la apertura del correspondiente procedimiento de reintegro.
+
+8. El incumplimiento de los requisitos y obligaciones establecidas para la concesiÃ³n de la subvenciÃ³n y, en todo caso, en los supuestos regulados en el artÃ­culo 37Â de la LeyÂ 38/2003, de 17Â de noviembre, General de Subvenciones, determinarÃ¡ la obligaciÃ³n de reintegro de los fondos al Ã³rgano concedente.
+
+ArtÃ­culo 18.- ComprobaciÃ³n y control.
+
+Las empresas y personas beneficiarias de las subvenciones, asÃ­ como la entidad colaboradora, tendrÃ¡n la obligaciÃ³n de someterse a las actuaciones de control de la IntervenciÃ³n General de la AdministraciÃ³n General del Estado y de la Comunidad AutÃ³noma de Canarias, de la Audiencia de Cuentas y del Tribunal de Cuentas, asÃ­ como de los Ã³rganos de la UniÃ³n Europea competentes en materia de control financiero. Las actuaciones de control podrÃ¡n extenderse a las personas fÃ­sicas o jurÃ­dicas a las que se encuentren asociadas o vinculadas las personas beneficiarias, asÃ­ como a cualquier otra persona susceptible de presentar un interÃ©s en la adopciÃ³n de los comportamientos.
+
+Las empresas y personas beneficiarias relacionadas con el objeto de la subvenciÃ³n y su justificaciÃ³n, asÃ­ como la entidad colaboradora, estarÃ¡n obligadas a prestar colaboraciÃ³n y facilitar cuanta informaciÃ³n sea requerida en el ejercicio de dichas funciones de control, en cuyo ejercicio los Ã³rganos citados tendrÃ¡n las facultades definidas en el artÃ­culo 46Â de la Ley 38/2003, de 17Â de noviembre.
+
+La negativa al cumplimiento de esta obligaciÃ³n se considerarÃ¡ resistencia, excusa, obstrucciÃ³n o negativa, siendo causa de reintegro y sin perjuicio de las sanciones que en su caso pudieran corresponder.
+
+ArtÃ­culo 19.- Reintegro de las subvenciones.
+
+1. AdemÃ¡s de las causas de invalidez de la resoluciÃ³n de concesiÃ³n recogidas en el artÃ­culo 36Â de la Ley 38/2003, de 17Â de noviembre, darÃ¡n lugar a la obligaciÃ³n de reintegrar total o parcialmente las cantidades percibidas, asÃ­ como la exigencia del interÃ©s de demora devengado desde la fecha del pago de la subvenciÃ³n hasta que se acuerde la procedencia del reintegro de la misma, los casos contemplados en el artÃ­culo 37Â de la Ley 38/2003, de 17Â de noviembre. Asimismo, serÃ¡ de aplicaciÃ³n el resto del CapÃ­tulo I del TÃ­tulo II de la Ley 38/2003, de 17Â de noviembre, y el artÃ­culo 152Â de la Ley 11/2006, de 11Â de diciembre, de la Hacienda PÃºblica Canaria.
+
+2. El procedimiento de reintegro se rige por lo dispuesto en los TÃ­tulos II y III de la Ley 38/2003, de 17Â de noviembre; las disposiciones bÃ¡sicas del TÃ­tulo III del Reglamento de la Ley 38/2003, General de Subvenciones, aprobado por Real Decreto 887/2006, de 21Â de julio; y los artÃ­culos 40 y 41 del Decreto 36/2009, de 31Â de marzo, en relaciÃ³n con lo dispuesto en los artÃ­culos 58 y 82Â de la Ley 39/2015, de 1Â de octubre.
+
+ArtÃ­culo 20.- Criterios de graduaciÃ³n de incumplimientos.
+
+1. Los criterios de graduaciÃ³n para determinar la cantidad que finalmente haya de percibir la persona o empresa beneficiaria o, en su caso, el importe a reintegrar, por los incumplimientos de las obligaciones y condiciones establecidas en esta Orden y demÃ¡s normas aplicables responderÃ¡n al principio de proporcionalidad en funciÃ³n de los costes justificados y las actuaciones acreditadas.
+
+2. En el supuesto de incumplimiento total de las obligaciones y condiciones darÃ¡ lugar a la pÃ©rdida del derecho al cobro de la subvenciÃ³n o al reintegro del 100 por ciento de la subvenciÃ³n concedida. TendrÃ¡n la consideraciÃ³n de incumplimiento total o parcial los siguientes supuestos:
+
+A) Incumplimiento total de los objetivos para los que se concediÃ³ la subvenciÃ³n, a tal efecto:
+
+a) ObtenciÃ³n de la subvenciÃ³n falseando las condiciones requeridas para ello u ocultando aquellas que lo hubieren impedido.
+
+b) Resistencia, excusa, obstrucciÃ³n o negativa a las actuaciones de comprobaciÃ³n y control financiero previstas en los artÃ­culos 14 y 15Â de la Ley 38/2003, de 17Â de noviembre, asÃ­ como el incumplimiento de las obligaciones contables, registrales o de conservaciÃ³n de documentos cuando de ello se derive la imposibilidad de verificar el empleo dado a los fondos pÃºblicos, el cumplimiento del objetivo, la realidad y regularidad de las acciones subvencionadas, o la concurrencia de ayudas, ingresos o recursos para la misma finalidad, procedentes de cualesquiera Administraciones o Entes pÃºblicos o privados, nacionales. En este caso corresponderÃ¡ el reintegro de la totalidad de la cantidad percibida.
+
+c) A tal efecto, tendrÃ¡n esa consideraciÃ³n el falseamiento de los datos suministrados por la misma, que impidan la total certificaciÃ³n del buen fin de la subvenciÃ³n concedida.
+
+d) Incumplimiento de las obligaciones impuestas por la AdministraciÃ³n a las empresas y personas beneficiarias, asÃ­ como de los compromisos asumidos por estas con motivo de la concesiÃ³n de la subvenciÃ³n, siempre que afecten o se refieran al modo o plazo en que se ha de adoptar el comportamiento que fundamenta la concesiÃ³n de la subvenciÃ³n. En este caso corresponderÃ¡ el reintegro de la totalidad de la cantidad percibida.
+
+e) Incumplimiento de las obligaciones impuestas por la AdministraciÃ³n a las empresas y personas beneficiarias, asÃ­ como de los compromisos por estas asumidos con motivo de la concesiÃ³n de la subvenciÃ³n distintos de los anteriores, cuando de ello se derive la imposibilidad de verificar el empleo dado a los fondos percibidos. En este caso corresponderÃ¡ el reintegro de la totalidad de la cantidad percibida.
+
+B) Incumplimiento parcial de la obligaciÃ³n de justificaciÃ³n de la misma. A tal efecto tendrÃ¡n esa consideraciÃ³n:
+
+a) El incumplimiento de los requerimientos de aportar la informaciÃ³n y documentaciÃ³n que se estime necesaria para el seguimiento y control de las personas participantes de la actividad para la que se ha obtenido la subvenciÃ³n. El importe de la reducciÃ³n se practicarÃ¡ proporcionalmente, en funciÃ³n de los incumplimientos realizados, sobre la cantidad menor entre la justificada y la subvenciÃ³n concedida.
+
+b) En caso de incumplimientos de obligaciones formales que no pudieran calcularse en tÃ©rminos porcentuales, cuando el cumplimiento por parte de las empresas y personas beneficiarias del objeto de la subvenciÃ³n se aproxime de modo significativo al cumplimiento total y se acredite por la beneficiaria una actuaciÃ³n inequÃ­vocamente tendente a la satisfacciÃ³n de sus compromisos, se exigirÃ¡ el reintegro de un 3% del importe de la subvenciÃ³n, sin perjuicio de la imposiciÃ³n de la sanciÃ³n que en su caso corresponda.
+
+ArtÃ­culo 21.- Infracciones y sanciones.
+
+Es de aplicaciÃ³n el rÃ©gimen de infracciones y sanciones regulado en el TÃ­tulo IV de la Ley 38/2003, de 17Â de noviembre, en lo relativo a infracciones y sanciones administrativas en materia de subvenciones, asÃ­ como el artÃ­culo 154Â de la Ley 11/2006, de 11Â de diciembre, de la Hacienda PÃºblica Canaria.
+
+ArtÃ­culo 22.- PrescripciÃ³n.
+
+Resulta de aplicaciÃ³n lo dispuesto en los artÃ­culos 39Â de la Ley 38/2003, de 17Â de noviembre; 153Â de la Ley 11/2006, de 11Â de diciembre, y 69.2Â de la Ley 58/2003, de 17Â de diciembre, General Tributaria, que disponen que prescribirÃ¡ a los cuatro aÃ±os el derecho de la AdministraciÃ³n a reconocer o liquidar el reintegro, establecen el cÃ³mputo de dicho plazo y su interrupciÃ³n. Asimismo, el artÃ­culo 16.2Â de la Ley 11/2006, de 11Â de diciembre, establece que la prescripciÃ³n de los derechos de la Hacienda PÃºblica se interrumpirÃ¡ conforme a lo establecido en las normas tributarias y se aplicarÃ¡ de oficio.
+
+ArtÃ­culo 23.- ProtecciÃ³n de datos.
+
+La DirecciÃ³n General de PromociÃ³n EconÃ³mica y la entidad colaboradora serÃ¡n las encargadas del tratamiento de los datos personales que se incorporen al expediente de estas subvenciones, quedando sujetas al cumplimiento de lo dispuesto en la Ley OrgÃ¡nicaÂ 3/2018, de 5Â de diciembre, de ProtecciÃ³n de Datos Personales y garantÃ­a de los derechos digitales, y en el vigente Reglamento (UE) n.Âº 2016/679 del Parlamento Europeo y del Consejo, de 27Â de abril de 2016, relativo a la protecciÃ³n de las personas fÃ­sicas en lo que respecta al tratamiento de datos personales y la libre circulaciÃ³n de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protecciÃ³n de datos).
+
+ArtÃ­culo 24.- InformaciÃ³n y publicidad.
+
+Las personas y empresas beneficiarias deberÃ¡n cumplir con las obligaciones establecidas por la normativa de aplicaciÃ³n en materia de informaciÃ³n y publicidad, derivadas de la subvenciÃ³n concedida.
+
+ArtÃ­culo 25.- RÃ©gimen de Ayudas de Estado.
+
+Las subvenciones objeto de las presentes bases se acogen al rÃ©gimen del Reglamento (UE) n.Âº 1407/2013, de la ComisiÃ³n, de 18Â de diciembre de 2013, relativo a la aplicaciÃ³n de los artÃ­culos 107 y 108 del Tratado de Funcionamiento de la UniÃ³n Europea a las ayudas de minimis.
+
+El importe total de las ayudas de minimis concedidas a una Ãºnica empresa no excederÃ¡ de 200.000 euros durante cualquier periodo de tres ejercicios fiscales. Cuando se trate de empresas que realicen por cuenta ajena operaciones de transporte de mercancÃ­as por carretera, el importe anterior no podrÃ¡ ser superior a 100.000 euros.
+
+En el caso de que alguna de las personas y empresas beneficiarias supere el umbral fijado en el citado Reglamento relativo a las ayudas de minimis, le serÃ¡n de aplicaciÃ³n las normas contenidas en el artÃ­culo 50 del Reglamento General de ExenciÃ³n por CategorÃ­as en cuanto al rÃ©gimen de ayudas destinadas a reparar los perjuicios causados por desastres naturales. En este Ãºltimo caso, se podrÃ¡ requerir a la persona y empresa interesada con el fin de verificar que se cumplen todos los elementos necesarios para la inclusiÃ³n de la subvenciÃ³n en el marco del citado artÃ­culo 50.
+
+De conformidad con lo dispuesto en el apartado 2 del citado precepto, la concesiÃ³n de las subvenciones estarÃ¡ supeditada a que exista una relaciÃ³n causal directa entre el desastre natural y los daÃ±os sufridos por la empresa afectada.
+
+SerÃ¡n subvencionables los costes derivados de los perjuicios sufridos como consecuencia directa del desastre natural, evaluados por un experto independiente reconocido por la autoridad nacional competente o por una empresa de seguros. Estos perjuicios podrÃ¡n incluir los daÃ±os materiales en activos tales como edificios, equipos, maquinaria o existencias, y el lucro cesante debido a la suspensiÃ³n total o parcial de la actividad durante un periodo no superior a seis meses a partir de la fecha del suceso. El cÃ¡lculo de los daÃ±os materiales y del lucro cesante se calcularÃ¡ de conformidad con lo dispuesto en el apartado 4 del artÃ­culo 50.
+
+Las ayudas y cualesquiera otros pagos recibidos, incluidos los pagos en virtud de pÃ³lizas de seguro, para reparar los perjuicios, no deberÃ¡n superar el 100% de los costes subvencionables.
+
+DisposiciÃ³n adicional Ãºnica.- Facultades de desarrollo.
+
+Se faculta a la persona titular de la DirecciÃ³n General de PromociÃ³n EconÃ³mica para dictar cuantos actos, resoluciones e instrucciones sean necesarias para el desarrollo, interpretaciÃ³n y ejecuciÃ³n de lo dispuesto en la presente Orden.
+
+DisposiciÃ³n final Ãºnica.- Entrada en vigor.
+
+La presente Orden entrarÃ¡ en vigor el mismo dÃ­a de su publicaciÃ³n en el BoletÃ­n Oficial de Canarias.
+
+Las Palmas de Gran Canaria, a 23 de mayo de 2023.
+
+LA CONSEJERA DE ECONOMÃA,
+
+CONOCIMIENTO Y EMPLEO,
+
+Elena MÃ¡Ã±ez RodrÃ­guez.
+
+ANEXO
+
+DECLARACIÃN RESPONSABLE
+
+Ver anexo en las pÃ¡ginas 30485-30486 del documento
+
+Descargar
+
+© Gobierno de Canarias
+
+Aviso Legal
+
+Sugerencias y Reclamaciones

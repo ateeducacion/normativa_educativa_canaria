@@ -580,3 +580,14 @@ TAREA-053:
   fecha_actualizacion: 2026-04-26
   relacionadas: [FTE-005, FTE-007, FTE-009, NOR-001, NOR-003, NOR-005]
   ruta: "08_tareas/backlog/TAREA-053-indexar-textos-oficiales-y-copias-rapidas.md"
+
+TAREA-054:
+  titulo: "Ampliar copias rápidas de texto oficial al resto de normas"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "corpus-ia"
+  responsable: "@.agents/skills/preparacion-corpus-ia"
+  fecha_creacion: 2026-04-27
+  fecha_actualizacion: 2026-04-27
+  relacionadas: [TAREA-053, NOR-002, NOR-039, NOR-040, NOR-041, NOR-042, NOR-045, NOR-046, NOR-049, NOR-059, NOR-060]
+  ruta: "08_tareas/backlog/TAREA-054-ampliar-copias-rapidas-resto-normas.md"
