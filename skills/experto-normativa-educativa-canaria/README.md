@@ -21,4 +21,4 @@ La página estática con copia un clic está disponible en: <https://ateeducacio
 
 ## Licencia
 
-CC BY-SA 4.0 — atribuye a `ateeducacion/normativa_educativa_canaria` y comparte bajo la misma licencia.
+CC0 1.0 Universal — dominio público; uso libre sin necesidad de atribución.
