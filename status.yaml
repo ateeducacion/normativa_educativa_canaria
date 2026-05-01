@@ -3,8 +3,8 @@ metadata:
   repositorio: ateeducacion/normativa_educativa_canaria
   objetivo: Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML
   fase_actual: Fase 1 — Inventario y Catalogación
-  fecha_actualizacion: '2026-04-27'
-  agente_actual: '@.agents/skills/preparacion-corpus-ia'
+  fecha_actualizacion: '2026-05-01'
+  agente_actual: '@.agents/skills/catalogacion-fuentes'
 tareas:
   TAREA-001:
     titulo: Puesta en marcha del repositorio
@@ -917,6 +917,27 @@ tareas:
     - NOR-049
     - NOR-059
     - NOR-060
+    siguiente_accion: null
+  TAREA-056:
+    titulo: Catalogar portales oficiales de programas y marcos operativos canarios (FTE-057 a FTE-067)
+    estado: Hecha
+    prioridad: Media
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-05-01
+    fecha_actualizacion: 2026-05-01
+    relacionadas:
+    - FTE-057
+    - FTE-058
+    - FTE-059
+    - FTE-060
+    - FTE-061
+    - FTE-062
+    - FTE-063
+    - FTE-064
+    - FTE-065
+    - FTE-066
+    - FTE-067
     siguiente_accion: null
 bloqueos: []
 reglas:
