@@ -2,55 +2,359 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Skill — Experto en normativa educativa de Canarias</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SKILL.md · Experto en normativa educativa de Canarias</title>
     <meta name="description" content="Skill copiable para usar el corpus de normativa educativa canaria en Claude, ChatGPT, Gemini, Copilot, Codex y otros asistentes.">
-    <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/site.css">
+    <meta property="og:title" content="SKILL.md · Experto en normativa educativa de Canarias">
+    <meta property="og:description" content="Skill copiable para usar el corpus de normativa educativa canaria en Claude, ChatGPT, Gemini, Copilot, Codex y otros asistentes.">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='2' fill='%230E1A2E'/%3E%3Crect x='2' y='3' width='4' height='10' rx='1' fill='%23ffffff'/%3E%3Crect x='6' y='3' width='4' height='10' rx='0' fill='%230072CE'/%3E%3Crect x='10' y='3' width='4' height='10' rx='1' fill='%23F0AB00'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
+
     <style>
-      .copy-block { position: relative; }
-      .copy-block .btn-copy { position: absolute; top: .5rem; right: .5rem; z-index: 2; }
-      .copy-block pre { padding-top: 2.5rem; }
-      pre code { white-space: pre-wrap; }
-      .platform-row code { word-break: break-word; }
+      :root {
+        --paper: #FFFFFF;
+        --paper-2: #F5F7FA;
+        --ink: #0E1A2E;
+        --ink-2: #2c3a52;
+        --ink-3: #6b7791;
+        --rule: #0E1A2E14;
+        --rule-2: #0E1A2E26;
+        --accent: #0072CE;
+        --accent-2: #F0AB00;
+        --code-bg: #0E1A2E;
+        --code-ink: #F2F5FA;
+      }
+      * { box-sizing: border-box; }
+      html, body {
+        margin: 0; padding: 0;
+        background: var(--paper); color: var(--ink);
+        font-family: 'Inter', system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      body { font-size: 15px; line-height: 1.55; letter-spacing: -0.005em; }
+      a { color: inherit; }
+      ::selection { background: var(--accent); color: var(--paper); }
+      .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; letter-spacing: -0.01em; }
+      .serif { font-family: 'Fraunces', Georgia, serif; font-feature-settings: "ss01"; }
+
+      .skip-link {
+        position: absolute; left: 1rem; top: 1rem; z-index: 1050;
+        padding: .5rem .75rem; background: #fff; border: 1px solid var(--rule-2);
+        border-radius: .5rem; color: var(--ink); text-decoration: none;
+        transform: translateY(-200%); transition: transform .15s ease;
+      }
+      .skip-link:focus { transform: translateY(0); }
+
+      .shell { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+
+      .topbar {
+        display: flex; align-items: center; justify-content: space-between;
+        padding: 18px 32px; border-bottom: 1px solid var(--rule);
+        position: sticky; top: 0;
+        background: color-mix(in oklab, var(--paper) 88%, transparent);
+        backdrop-filter: saturate(140%) blur(8px);
+        -webkit-backdrop-filter: saturate(140%) blur(8px);
+        z-index: 50;
+      }
+      .brand {
+        display: flex; align-items: center; gap: 10px;
+        font-weight: 600; letter-spacing: -0.01em; color: var(--ink); text-decoration: none;
+      }
+      .brand-dot {
+        width: 14px; height: 10px; border-radius: 1px;
+        background: linear-gradient(to right,
+          #ffffff 0 33.33%,
+          var(--accent) 33.33% 66.66%,
+          var(--accent-2) 66.66% 100%);
+        border: 1px solid var(--rule-2);
+      }
+      .topbar-actions { display: flex; gap: 8px; }
+
+      .btn {
+        display: inline-flex; align-items: center; gap: 8px;
+        padding: 9px 14px; border-radius: 8px;
+        font-weight: 500; font-size: 13.5px; line-height: 1;
+        border: 1px solid var(--rule-2); background: transparent; color: var(--ink);
+        cursor: pointer; transition: all .15s ease; text-decoration: none;
+        font-family: inherit;
+      }
+      .btn:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+      .btn.primary { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+      .btn.primary:hover { background: var(--accent); border-color: var(--accent); }
+      .btn.accent { background: var(--accent); color: #fff; border-color: var(--accent); }
+      .btn.accent:hover { background: var(--ink); border-color: var(--ink); }
+      .btn.sm { padding: 6px 10px; font-size: 12.5px; border-radius: 6px; }
+
+      .hero { padding: 56px 0 36px; border-bottom: 1px solid var(--rule); }
+      .hero-eyebrow {
+        display: inline-flex; align-items: center; gap: 10px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 11.5px; letter-spacing: 0.04em; text-transform: uppercase;
+        color: var(--ink-3); margin-bottom: 20px;
+      }
+      .hero-eyebrow .pip {
+        width: 6px; height: 6px; border-radius: 50%;
+        background: var(--accent); animation: pulse 2.4s ease-in-out infinite;
+      }
+      @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+      .hero h1 {
+        font-family: 'Fraunces', Georgia, serif;
+        font-weight: 500; font-size: 56px; line-height: 1.0;
+        letter-spacing: -0.025em; margin: 0 0 20px;
+      }
+      .hero h1 em { font-style: italic; color: var(--accent); font-weight: 500; }
+      .hero p.lead {
+        font-size: 17px; line-height: 1.55; color: var(--ink-2);
+        max-width: 64ch; margin: 0 0 24px;
+      }
+      .hero p.lead strong { color: var(--ink); font-weight: 600; }
+      .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+
+      .section { padding: 64px 0; border-bottom: 1px solid var(--rule); }
+      .section-head {
+        display: flex; align-items: baseline; gap: 18px; margin-bottom: 28px;
+      }
+      .section-num {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px; color: var(--ink-3); letter-spacing: 0.06em;
+      }
+      .section-title {
+        font-family: 'Fraunces', Georgia, serif;
+        font-weight: 500; font-size: 32px; line-height: 1.05;
+        letter-spacing: -0.02em; margin: 0;
+      }
+      .section-title .dot { color: var(--accent); }
+      .section-sub {
+        font-size: 14.5px; color: var(--ink-3);
+        margin-left: auto; max-width: 38ch; text-align: right;
+      }
+      .section-intro { font-size: 15px; color: var(--ink-2); max-width: 70ch; margin: 0 0 24px; line-height: 1.6; }
+
+      /* terminal */
+      .terminal {
+        background: var(--code-bg); color: var(--code-ink);
+        border-radius: 8px; overflow: hidden;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12.5px; line-height: 1.6;
+        border: 1px solid var(--rule-2);
+      }
+      .terminal-head {
+        display: flex; align-items: center; justify-content: space-between;
+        padding: 10px 14px; border-bottom: 1px solid #ffffff14; background: #091628;
+        font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
+        color: #ffffff80;
+      }
+      .terminal-dots { display: flex; gap: 6px; }
+      .terminal-dots span {
+        width: 9px; height: 9px; border-radius: 50%; background: #ffffff20;
+      }
+      .terminal-dots span:first-child  { background: #FFFFFF; }
+      .terminal-dots span:nth-child(2) { background: var(--accent); }
+      .terminal-dots span:nth-child(3) { background: var(--accent-2); }
+      .terminal-body {
+        padding: 16px 18px; white-space: pre-wrap; word-break: break-word;
+        max-height: 420px; overflow: auto; margin: 0;
+        font-family: 'JetBrains Mono', monospace; color: var(--code-ink); font-size: 12.5px;
+      }
+      .terminal-body::-webkit-scrollbar { width: 8px; height: 8px; }
+      .terminal-body::-webkit-scrollbar-thumb { background: #ffffff22; border-radius: 4px; }
+      .terminal-foot {
+        display: flex; justify-content: space-between; align-items: center;
+        padding: 10px 14px; border-top: 1px solid #ffffff14; background: #091628;
+        font-size: 11px; color: #ffffff66;
+      }
+      .terminal-foot button {
+        background: #ffffff10; color: #fff; border: 1px solid #ffffff20;
+        padding: 5px 10px; border-radius: 5px;
+        font-family: 'JetBrains Mono', monospace; font-size: 11px;
+        cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+        transition: all .15s ease;
+      }
+      .terminal-foot button:hover { background: var(--accent); border-color: var(--accent); }
+      .terminal-foot button.copied { background: var(--accent-2); border-color: var(--accent-2); color: var(--ink); }
+
+      .skill-foot { margin: 14px 0 0; font-size: 13px; color: var(--ink-3); }
+      .skill-foot a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+
+      /* platform table */
+      .platforms {
+        border: 1px solid var(--rule-2); border-radius: 10px; overflow: hidden;
+        background: var(--paper);
+      }
+      .platform-row {
+        display: grid; grid-template-columns: 220px 1fr; gap: 0;
+        border-top: 1px solid var(--rule);
+      }
+      .platform-row:first-child { border-top: 0; }
+      .platform-name {
+        padding: 18px 22px; background: var(--paper-2);
+        font-weight: 600; color: var(--ink);
+        font-size: 14.5px;
+        border-right: 1px solid var(--rule);
+      }
+      .platform-desc {
+        padding: 18px 22px; color: var(--ink-2);
+        font-size: 14px; line-height: 1.55;
+      }
+      .platform-desc code, .platform-desc em { font-style: normal; }
+      .platform-desc code {
+        font-family: 'JetBrains Mono', monospace; font-size: 12.5px;
+        background: var(--paper-2); padding: 2px 6px; border-radius: 4px;
+        border: 1px solid var(--rule); color: var(--ink);
+      }
+      .platform-desc em {
+        font-family: 'JetBrains Mono', monospace; font-size: 12.5px;
+        color: var(--ink); padding: 1px 4px; background: color-mix(in oklab, var(--accent) 12%, transparent);
+        border-radius: 3px;
+      }
+      @media (max-width: 720px) {
+        .platform-row { grid-template-columns: 1fr; }
+        .platform-name { border-right: 0; border-bottom: 1px solid var(--rule); }
+      }
+
+      /* prompts grid */
+      .prompts-grid {
+        display: grid; grid-template-columns: 1fr 1fr; gap: 22px;
+      }
+      @media (max-width: 880px) { .prompts-grid { grid-template-columns: 1fr; } }
+      .prompt-card { display: flex; flex-direction: column; gap: 10px; }
+      .prompt-card h3 {
+        font-family: 'Fraunces', Georgia, serif;
+        font-weight: 500; font-size: 19px; letter-spacing: -0.015em;
+        margin: 0; color: var(--ink);
+      }
+
+      /* resources */
+      .resources { list-style: none; padding: 0; margin: 0; }
+      .resources li {
+        padding: 14px 0; border-top: 1px solid var(--rule);
+        display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+      }
+      .resources li:first-child { border-top: 0; }
+      .resources a {
+        font-family: 'JetBrains Mono', monospace; font-size: 13px;
+        color: var(--ink); text-decoration: none; flex: 0 0 auto;
+        border-bottom: 1px solid var(--accent);
+      }
+      .resources a:hover { color: var(--accent); }
+      .resources span { color: var(--ink-3); font-size: 13.5px; }
+
+      /* footer */
+      footer { padding: 48px 0 64px; }
+      .foot-grid {
+        display: grid; grid-template-columns: 2fr 1fr 1fr;
+        gap: 32px; margin-bottom: 32px;
+      }
+      .foot-col h4 {
+        font-family: 'JetBrains Mono', monospace; font-size: 11px;
+        letter-spacing: 0.08em; text-transform: uppercase;
+        color: var(--ink-3); margin: 0 0 12px; font-weight: 500;
+      }
+      .foot-col p {
+        margin: 0 0 8px; font-size: 13.5px; color: var(--ink-2);
+        line-height: 1.55; max-width: 42ch;
+      }
+      .foot-col a {
+        display: block; color: var(--ink); text-decoration: none;
+        font-size: 13.5px; padding: 3px 0;
+      }
+      .foot-col a:hover { color: var(--accent); }
+      .foot-col span.muted { display: block; color: var(--ink-3); font-size: 13.5px; padding: 3px 0; }
+      .foot-bottom {
+        padding-top: 24px; border-top: 1px solid var(--rule);
+        display: flex; justify-content: space-between; align-items: center;
+        font-size: 12.5px; color: var(--ink-3);
+        flex-wrap: wrap; gap: 16px;
+      }
+      .foot-bottom .heart { font-style: normal; }
+
+      .toast {
+        position: fixed; bottom: 24px; left: 50%;
+        transform: translateX(-50%) translateY(20px);
+        background: var(--ink); color: var(--paper);
+        padding: 10px 18px; border-radius: 8px;
+        font-size: 13px; opacity: 0;
+        transition: all .25s ease; pointer-events: none;
+        z-index: 200; font-family: 'JetBrains Mono', monospace;
+      }
+      .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+      @media (max-width: 880px) {
+        .hero h1 { font-size: 38px; }
+        .section-sub { display: none; }
+        .foot-grid { grid-template-columns: 1fr; }
+        .shell, .topbar { padding-left: 20px; padding-right: 20px; }
+      }
     </style>
   </head>
   <body>
-    <a class="visually-hidden-focusable skip-link" href="#contenido">Saltar al contenido principal</a>
-    <header class="site-header border-bottom sticky-top bg-white">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand fw-bold text-primary" href="index.html">Normativa Educativa Canaria</a>
-          <div class="ms-auto d-flex gap-2">
-            <a class="btn btn-sm btn-outline-primary" href="skill.html">Ver skill</a>
-            <a class="btn btn-sm btn-dark" href="https://github.com/ateeducacion/normativa_educativa_canaria">GitHub</a>
-          </div>
-        </div>
-      </nav>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <header class="topbar">
+      <a class="brand" href="index.html">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>Normativa Educativa Canaria</span>
+      </a>
+      <div class="topbar-actions">
+        <a class="btn sm" href="https://ateeducacion.github.io/normativa_educativa_canaria/SKILL.md" target="_blank" rel="noopener">SKILL.md</a>
+        <a class="btn sm" href="https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt" target="_blank" rel="noopener">llms.txt</a>
+        <a class="btn sm primary" href="https://github.com/ateeducacion/normativa_educativa_canaria" target="_blank" rel="noopener">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.1c-3.2.7-3.87-1.37-3.87-1.37-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.69 1.24 3.34.95.1-.74.4-1.24.72-1.53-2.55-.29-5.24-1.27-5.24-5.66 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.17a10.96 10.96 0 015.74 0c2.19-1.48 3.15-1.17 3.15-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.07 0 4.4-2.69 5.37-5.25 5.65.41.36.78 1.05.78 2.12v3.14c0 .3.21.66.79.55C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+          GitHub
+        </a>
+      </div>
     </header>
 
     <main id="contenido">
-      <section class="hero py-5 border-bottom">
-        <div class="container">
-          <p class="eyebrow mb-2">Skill copiable y portable</p>
-          <h1 class="display-6 mb-3">Experto en normativa educativa de Canarias</h1>
-          <p class="lead">Copia el bloque y pégalo como instrucción de sistema en tu asistente preferido (Claude, ChatGPT, Gemini, Copilot, Codex, Cursor…). El asistente pasa a citar siempre la norma exacta y la localización (artículo, anexo o disposición) y a distinguir literal, resumen e interpretación.</p>
-          <p class="small text-secondary mb-0">Solo copiar y pegar. Ideal para uso puntual desde cualquier chat.</p>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="shell">
+          <div class="hero-eyebrow">
+            <span class="pip" aria-hidden="true"></span>
+            Skill copiable y portable
+          </div>
+          <h1><span class="mono" style="font-size:.85em;color:var(--ink-3);font-family:'JetBrains Mono',monospace;font-weight:500">SKILL.md</span><br>Experto en normativa<br>educativa <em>canaria</em>.</h1>
+          <p class="lead">
+            Copia el bloque y pégalo como <strong>instrucción de sistema</strong> en tu asistente preferido
+            (Claude, ChatGPT, Gemini, Copilot, Codex, Cursor…). El asistente pasa a citar siempre la
+            norma exacta y la localización (artículo, anexo o disposición) y a distinguir literal,
+            resumen e interpretación.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#skill-canonica">↓ Ver el bloque</a>
+            <a class="btn" href="index.html">← Volver al inicio</a>
+          </div>
         </div>
       </section>
 
-      <section class="py-5 border-bottom">
-        <div class="container">
-          <h2 class="h3 mb-3">1. Skill canónica — copia y pega</h2>
-          <p class="small text-secondary">Pega este bloque como <em>system prompt</em>, instrucciones del proyecto/Gem o GPT, o como primer mensaje del chat indicando «Adopta este rol». Para uso puntual, no necesitas más.</p>
-          <div class="copy-block mb-3">
-            <button class="btn btn-sm btn-primary btn-copy" data-target="skill-md" type="button">Copiar</button>
-<pre><code id="skill-md">---
+      <!-- §01 — Skill canónica -->
+      <section class="section" id="skill-canonica">
+        <div class="shell">
+          <div class="section-head">
+            <span class="section-num">§ 01</span>
+            <h2 class="section-title">Skill canónica<span class="dot">.</span></h2>
+            <p class="section-sub">Copia y pega como system prompt o instrucciones de tu Project / Gem / GPT.</p>
+          </div>
+
+          <p class="section-intro">
+            Pega este bloque como <em>system prompt</em>, instrucciones del Project / Gem / GPT, o como primer
+            mensaje del chat indicando «Adopta este rol». Para uso puntual no necesitas más.
+          </p>
+
+          <div class="terminal" data-copy-source="skill-md">
+            <div class="terminal-head">
+              <div class="terminal-dots"><span></span><span></span><span></span></div>
+              <div>SKILL.md</div>
+            </div>
+<pre class="terminal-body" id="skill-md">---
 name: experto-normativa-educativa-canaria
 description: Asistente especializado en normativa educativa y currículos aplicables a la Comunidad Autónoma de Canarias. Cita siempre la norma exacta y la localización (artículo, apartado, disposición o anexo); distingue literal, resumen e interpretación; no inventa vigencias. Se apoya en el corpus público https://github.com/ateeducacion/normativa_educativa_canaria.
 version: 1.0.0
-license: CC BY-SA 4.0
+license: CC0 1.0
 ---
 
 # Experto en normativa educativa de Canarias
@@ -72,6 +376,23 @@ Eres un asistente especializado en normativa educativa estatal y autonómica apl
 - RD 217/2022 (ESO) y RD 243/2022 (Bachillerato): enseñanzas mínimas estatales vigentes.
 - Decreto 30/2023, de 16 de marzo (BOC n.º 58, 23-03-2023): currículo y ordenación de ESO y Bachillerato en Canarias; sustituye a los Decretos 315/2015 y 83/2016.
 - Ley 6/2014, Canaria de Educación no Universitaria: ley marco autonómica vigente.
+
+## Programas y marcos operativos canarios habituales
+
+Son programas y marcos institucionales, no normas con articulado propio. Identifícalos, remite al portal oficial correspondiente y no inventes articulado: las obligaciones se publican en convocatorias y resoluciones específicas.
+
+- PROA+ — Programa de Cooperación Territorial (cofinanciado MEFP/UE). Las «Actividades Palanca» son su instrumento operativo en centros.
+- Red Canaria-InnovAS y PIDAS — red autonómica de innovación con ejes temáticos; el PIDAS es el documento de planificación anual del centro adherido.
+- Proyecto Viera — fomento de la lectura y de la competencia en comunicación lingüística.
+- ProIDEAC — marco pedagógico de programación, situaciones de aprendizaje, evaluación competencial y rúbricas LOMLOE.
+- PLC/TIL — Proyecto Lingüístico de Centro / Tratamiento Integrado de Lenguas.
+- AICLE/PILE — Aprendizaje Integrado de Contenidos y Lenguas Extranjeras (plurilingüismo).
+- EnSeñas — patrimonio social, cultural e histórico canario (eje de InnovAS).
+- Matemáticas Newton Canarias — programa metodológico para la competencia matemática.
+- EVAGD y Aula Digital Canaria — entornos virtuales oficiales.
+- OPEEC, Erasmus+ y eTwinning — internacionalización y movilidad educativa.
+
+Estos programas se conectan con normativa autonómica y estatal pero no la sustituyen. Para validez jurídica de cualquier obligación contrasta siempre con la convocatoria, resolución o norma que la concrete.
 
 ## Apoyo en el corpus
 
@@ -107,189 +428,310 @@ Lo que NO está en la respuesta: dudas, vigencias pendientes ([INTERPRETACIÓN]/
 - No respondas sobre otras CCAA salvo petición explícita.
 - No inventes anexos, artículos ni cifras.
 
-Disclaimer: este asistente apoya la consulta humana pero no sustituye la fuente oficial (BOE/BOC) ni el asesoramiento jurídico.</code></pre>
+Disclaimer: este asistente apoya la consulta humana pero no sustituye la fuente oficial (BOE/BOC) ni el asesoramiento jurídico.</pre>
+            <div class="terminal-foot">
+              <span data-stats-for="skill-md"></span>
+              <button type="button" data-copy-target="skill-md" data-toast="SKILL.md copiado">⎘ copiar SKILL.md</button>
+            </div>
           </div>
-          <p class="small mb-0"><a class="link-secondary" href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/SKILL.md">Ver SKILL.md completo en GitHub</a></p>
+          <p class="skill-foot">
+            <a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/SKILL.md" target="_blank" rel="noopener">Ver fuente canónica en GitHub ↗</a>
+          </p>
         </div>
       </section>
 
-      <section class="py-5 border-bottom">
-        <div class="container">
-          <h2 class="h3 mb-3">2. Cómo instalarla</h2>
-          <p class="small text-secondary">No requiere herramientas externas. Es solo texto que se pega como instrucción del asistente.</p>
-          <div class="table-responsive">
-            <table class="table table-sm align-top platform-row">
-              <thead>
-                <tr>
-                  <th scope="col">Plataforma</th>
-                  <th scope="col">Dónde pegar la skill</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Claude.ai</th>
-                  <td>Crea un <em>Project</em> y pega <code>SKILL.md</code> en <em>Custom instructions</em>. Adjunta también <code>llms.txt</code>/<code>llms-full.txt</code>.</td>
-                </tr>
-                <tr>
-                  <th scope="row">Claude Code (CLI)</th>
-                  <td>Pega el contenido en <code>~/.claude/CLAUDE.md</code> (global) o <code>CLAUDE.md</code> del proyecto. Alternativa: archivar como <code>~/.claude/skills/experto-normativa-educativa-canaria/SKILL.md</code>.</td>
-                </tr>
-                <tr>
-                  <th scope="row">ChatGPT (Custom GPT)</th>
-                  <td>Crea un GPT en <em>Explore GPTs → Create</em>. Pega <code>SKILL.md</code> en <em>Instructions</em> y sube los <code>llms*.txt</code> como conocimiento.</td>
-                </tr>
-                <tr>
-                  <th scope="row">ChatGPT (sin GPT)</th>
-                  <td>Pega un resumen en <em>Settings → Personalization → Custom Instructions</em>, o pégalo al inicio del chat.</td>
-                </tr>
-                <tr>
-                  <th scope="row">Google Gemini (Gems)</th>
-                  <td>Crea un Gem y pega <code>SKILL.md</code> en <em>Instructions</em>.</td>
-                </tr>
-                <tr>
-                  <th scope="row">GitHub Copilot Chat</th>
-                  <td>Usa el <code>AGENTS.md</code> del repositorio o pégalo al inicio del chat con la indicación «Adopta este rol».</td>
-                </tr>
-                <tr>
-                  <th scope="row">OpenAI Codex CLI</th>
-                  <td>Crea o edita <code>AGENTS.md</code> en la raíz del proyecto.</td>
-                </tr>
-                <tr>
-                  <th scope="row">Cursor / Windsurf</th>
-                  <td>Crea/edita <code>.cursorrules</code> o <code>.windsurfrules</code> y pega <code>SKILL.md</code>.</td>
-                </tr>
-                <tr>
-                  <th scope="row">Cualquier chat</th>
-                  <td>Pégalo como primer mensaje con: «Adopta este rol durante toda la conversación».</td>
-                </tr>
-              </tbody>
-            </table>
+      <!-- §02 — Cómo instalarla -->
+      <section class="section" id="instalacion">
+        <div class="shell">
+          <div class="section-head">
+            <span class="section-num">§ 02</span>
+            <h2 class="section-title">Cómo instalarla<span class="dot">.</span></h2>
+            <p class="section-sub">Solo texto. No requiere herramientas externas.</p>
           </div>
-          <p class="small mb-0"><a class="link-secondary" href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/INSTALACION.md">Ver INSTALACION.md completo</a></p>
+
+          <div class="platforms">
+            <div class="platform-row">
+              <div class="platform-name">Claude.ai</div>
+              <div class="platform-desc">Crea un <em>Project</em> y pega <code>SKILL.md</code> en <em>Custom instructions</em>. Adjunta también <code>llms.txt</code>/<code>llms-full.txt</code>.</div>
+            </div>
+            <div class="platform-row">
+              <div class="platform-name">Claude Code (CLI)</div>
+              <div class="platform-desc">Pega el contenido en <code>~/.claude/CLAUDE.md</code> (global) o <code>CLAUDE.md</code> del proyecto. Alternativa: archivar como <code>~/.claude/skills/experto-normativa-educativa-canaria/SKILL.md</code>.</div>
+            </div>
+            <div class="platform-row">
+              <div class="platform-name">ChatGPT (Custom GPT)</div>
+              <div class="platform-desc">Crea un GPT en <em>Explore GPTs → Create</em>. Pega <code>SKILL.md</code> en <em>Instructions</em> y sube los <code>llms*.txt</code> como conocimiento.</div>
+            </div>
+            <div class="platform-row">
+              <div class="platform-name">ChatGPT (sin GPT)</div>
+              <div class="platform-desc">Pega un resumen en <em>Settings → Personalization → Custom Instructions</em>, o pégalo al inicio del chat.</div>
+            </div>
+            <div class="platform-row">
+              <div class="platform-name">Google Gemini (Gems)</div>
+              <div class="platform-desc">Crea un Gem y pega <code>SKILL.md</code> en <em>Instructions</em>.</div>
+            </div>
+            <div class="platform-row">
+              <div class="platform-name">GitHub Copilot Chat</div>
+              <div class="platform-desc">Usa el <code>AGENTS.md</code> del repositorio o pégalo al inicio del chat con la indicación «Adopta este rol».</div>
+            </div>
+            <div class="platform-row">
+              <div class="platform-name">OpenAI Codex CLI</div>
+              <div class="platform-desc">Crea o edita <code>AGENTS.md</code> en la raíz del proyecto.</div>
+            </div>
+            <div class="platform-row">
+              <div class="platform-name">Cursor / Windsurf</div>
+              <div class="platform-desc">Crea/edita <code>.cursorrules</code> o <code>.windsurfrules</code> y pega <code>SKILL.md</code>.</div>
+            </div>
+            <div class="platform-row">
+              <div class="platform-name">Cualquier chat</div>
+              <div class="platform-desc">Pégalo como primer mensaje con: «Adopta este rol durante toda la conversación».</div>
+            </div>
+          </div>
+
+          <p class="skill-foot">
+            <a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/INSTALACION.md" target="_blank" rel="noopener">Ver INSTALACION.md completo ↗</a>
+          </p>
         </div>
       </section>
 
-      <section class="py-5 border-bottom">
-        <div class="container">
-          <h2 class="h3 mb-3">3. Prompts de ejemplo</h2>
-          <p class="small text-secondary">Pulsa <em>Copiar</em> y pégalos en el asistente con la skill ya activa.</p>
+      <!-- §03 — Prompts de ejemplo -->
+      <section class="section" id="prompts">
+        <div class="shell">
+          <div class="section-head">
+            <span class="section-num">§ 03</span>
+            <h2 class="section-title">Prompts de ejemplo<span class="dot">.</span></h2>
+            <p class="section-sub">Pulsa copiar y pégalos en el asistente con la skill ya activa.</p>
+          </div>
 
-          <div class="row g-4">
-            <div class="col-lg-6">
-              <h3 class="h5">Currículo de ESO en Canarias</h3>
-              <div class="copy-block">
-                <button class="btn btn-sm btn-outline-primary btn-copy" data-target="p-curriculo-eso" type="button">Copiar</button>
-<pre><code id="p-curriculo-eso">¿Cuál es la norma autonómica vigente que regula el currículo de ESO en Canarias? Cita el decreto, el BOC, los reales decretos estatales que desarrolla y aclara si la LOMLOE deroga o modifica la LOE.</code></pre>
+          <div class="prompts-grid">
+            <div class="prompt-card">
+              <h3>Currículo de ESO en Canarias</h3>
+              <div class="terminal" data-copy-source="p-curriculo-eso">
+                <div class="terminal-head">
+                  <div class="terminal-dots"><span></span><span></span><span></span></div>
+                  <div>prompt-01.txt</div>
+                </div>
+<pre class="terminal-body" id="p-curriculo-eso">¿Cuál es la norma autonómica vigente que regula el currículo de ESO en Canarias? Cita el decreto, el BOC, los reales decretos estatales que desarrolla y aclara si la LOMLOE deroga o modifica la LOE.</pre>
+                <div class="terminal-foot">
+                  <span data-stats-for="p-curriculo-eso"></span>
+                  <button type="button" data-copy-target="p-curriculo-eso" data-toast="Prompt copiado">⎘ copiar</button>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <h3 class="h5">Vigencia tras LOFP</h3>
-              <div class="copy-block">
-                <button class="btn btn-sm btn-outline-primary btn-copy" data-target="p-lofp" type="button">Copiar</button>
-<pre><code id="p-lofp">¿Está vigente la Ley Orgánica 5/2002 de Cualificaciones y Formación Profesional? Si no, indica qué norma la deroga, cuándo y con cita del precepto correspondiente.</code></pre>
+            <div class="prompt-card">
+              <h3>Vigencia tras LOFP</h3>
+              <div class="terminal" data-copy-source="p-lofp">
+                <div class="terminal-head">
+                  <div class="terminal-dots"><span></span><span></span><span></span></div>
+                  <div>prompt-02.txt</div>
+                </div>
+<pre class="terminal-body" id="p-lofp">¿Está vigente la Ley Orgánica 5/2002 de Cualificaciones y Formación Profesional? Si no, indica qué norma la deroga, cuándo y con cita del precepto correspondiente.</pre>
+                <div class="terminal-foot">
+                  <span data-stats-for="p-lofp"></span>
+                  <button type="button" data-copy-target="p-lofp" data-toast="Prompt copiado">⎘ copiar</button>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <h3 class="h5">Cita de un artículo concreto</h3>
-              <div class="copy-block">
-                <button class="btn btn-sm btn-outline-primary btn-copy" data-target="p-articulo" type="button">Copiar</button>
-<pre><code id="p-articulo">¿Qué establece el artículo 121 de la Ley Orgánica 2/2006 de Educación sobre el Proyecto Educativo de Centro? Devuelve el texto literal en su redacción consolidada actual, indica qué modificación introdujo la LOMLOE y aclara cómo se concreta en Canarias.</code></pre>
+            <div class="prompt-card">
+              <h3>Cita de un artículo concreto</h3>
+              <div class="terminal" data-copy-source="p-articulo">
+                <div class="terminal-head">
+                  <div class="terminal-dots"><span></span><span></span><span></span></div>
+                  <div>prompt-03.txt</div>
+                </div>
+<pre class="terminal-body" id="p-articulo">¿Qué establece el artículo 121 de la Ley Orgánica 2/2006 de Educación sobre el Proyecto Educativo de Centro? Devuelve el texto literal en su redacción consolidada actual, indica qué modificación introdujo la LOMLOE y aclara cómo se concreta en Canarias.</pre>
+                <div class="terminal-foot">
+                  <span data-stats-for="p-articulo"></span>
+                  <button type="button" data-copy-target="p-articulo" data-toast="Prompt copiado">⎘ copiar</button>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <h3 class="h5">Materia y curso</h3>
-              <div class="copy-block">
-                <button class="btn btn-sm btn-outline-primary btn-copy" data-target="p-materia" type="button">Copiar</button>
-<pre><code id="p-materia">Para Biología y Geología en 3.º de ESO en Canarias, lista las competencias específicas, los criterios de evaluación principales y los bloques de saberes básicos. Cita el anexo del Decreto 30/2023 que aplica.</code></pre>
+            <div class="prompt-card">
+              <h3>Materia y curso</h3>
+              <div class="terminal" data-copy-source="p-materia">
+                <div class="terminal-head">
+                  <div class="terminal-dots"><span></span><span></span><span></span></div>
+                  <div>prompt-04.txt</div>
+                </div>
+<pre class="terminal-body" id="p-materia">Para Biología y Geología en 3.º de ESO en Canarias, lista las competencias específicas, los criterios de evaluación principales y los bloques de saberes básicos. Cita el anexo del Decreto 30/2023 que aplica.</pre>
+                <div class="terminal-foot">
+                  <span data-stats-for="p-materia"></span>
+                  <button type="button" data-copy-target="p-materia" data-toast="Prompt copiado">⎘ copiar</button>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <h3 class="h5">Comparativa estatal vs autonómica</h3>
-              <div class="copy-block">
-                <button class="btn btn-sm btn-outline-primary btn-copy" data-target="p-compara" type="button">Copiar</button>
-<pre><code id="p-compara">Compara las modalidades de Bachillerato del Real Decreto 243/2022 con la oferta del Decreto 30/2023 en Canarias. Indica diferencias de ordenación y cualquier especificidad autonómica con cita del capítulo o artículo.</code></pre>
+            <div class="prompt-card">
+              <h3>Comparativa estatal vs autonómica</h3>
+              <div class="terminal" data-copy-source="p-compara">
+                <div class="terminal-head">
+                  <div class="terminal-dots"><span></span><span></span><span></span></div>
+                  <div>prompt-05.txt</div>
+                </div>
+<pre class="terminal-body" id="p-compara">Compara las modalidades de Bachillerato del Real Decreto 243/2022 con la oferta del Decreto 30/2023 en Canarias. Indica diferencias de ordenación y cualquier especificidad autonómica con cita del capítulo o artículo.</pre>
+                <div class="terminal-foot">
+                  <span data-stats-for="p-compara"></span>
+                  <button type="button" data-copy-target="p-compara" data-toast="Prompt copiado">⎘ copiar</button>
+                </div>
               </div>
             </div>
 
-            <div class="col-lg-6">
-              <h3 class="h5">Plantilla genérica</h3>
-              <div class="copy-block">
-                <button class="btn btn-sm btn-outline-primary btn-copy" data-target="p-plantilla" type="button">Copiar</button>
-<pre><code id="p-plantilla">Pregunta: <TU CONSULTA>
+            <div class="prompt-card">
+              <h3>Plantilla genérica</h3>
+              <div class="terminal" data-copy-source="p-plantilla">
+                <div class="terminal-head">
+                  <div class="terminal-dots"><span></span><span></span><span></span></div>
+                  <div>plantilla.txt</div>
+                </div>
+<pre class="terminal-body" id="p-plantilla">Pregunta: &lt;TU CONSULTA&gt;
 
 Reglas de respuesta:
 - Cita siempre norma + localización (artículo, anexo o disposición).
 - Distingue literal, resumen e interpretación.
 - Si no hay evidencia suficiente, dilo y remite a BOE/BOC.
-- Estructura la respuesta en: Respuesta breve / Fundamento normativo / Aplicación práctica en Canarias / Límites o aspectos a verificar.</code></pre>
+- Estructura la respuesta en: Respuesta breve / Fundamento normativo / Aplicación práctica en Canarias / Límites o aspectos a verificar.</pre>
+                <div class="terminal-foot">
+                  <span data-stats-for="p-plantilla"></span>
+                  <button type="button" data-copy-target="p-plantilla" data-toast="Prompt copiado">⎘ copiar</button>
+                </div>
               </div>
             </div>
           </div>
-          <p class="small mt-3 mb-0"><a class="link-secondary" href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/prompts.md">Ver prompts.md completo</a></p>
+
+          <p class="skill-foot">
+            <a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/prompts.md" target="_blank" rel="noopener">Ver prompts.md completo ↗</a>
+          </p>
         </div>
       </section>
 
-      <section class="py-5">
-        <div class="container">
-          <h2 class="h3 mb-3">4. Recursos del corpus</h2>
-          <ul class="small">
-            <li><a href="https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms.txt">llms.txt</a> — mapa de contexto reducido.</li>
-            <li><a href="https://cdn.jsdelivr.net/gh/ateeducacion/normativa_educativa_canaria@main/llms-full.txt">llms-full.txt</a> — contexto ampliado y modelo de datos completo.</li>
-            <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/normativa.yaml">06_indices/normativa.yaml</a> — índice de normas por ID (`NOR-NNN`).</li>
-            <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/curriculos.yaml">06_indices/curriculos.yaml</a> — índice de currículos.</li>
-            <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/fuentes.yaml">06_indices/fuentes.yaml</a> — índice de fuentes oficiales.</li>
-            <li><a href="https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/skills/experto-normativa-educativa-canaria">skills/experto-normativa-educativa-canaria/</a> — versión canónica de la skill (Markdown).</li>
+      <!-- §04 — Recursos -->
+      <section class="section" id="recursos">
+        <div class="shell">
+          <div class="section-head">
+            <span class="section-num">§ 04</span>
+            <h2 class="section-title">Recursos del corpus<span class="dot">.</span></h2>
+            <p class="section-sub">Archivos públicos para contexto y referencia.</p>
+          </div>
+
+          <ul class="resources">
+            <li>
+              <a href="https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt" target="_blank" rel="noopener">llms.txt</a>
+              <span>Mapa de contexto reducido.</span>
+            </li>
+            <li>
+              <a href="https://ateeducacion.github.io/normativa_educativa_canaria/llms-full.txt" target="_blank" rel="noopener">llms-full.txt</a>
+              <span>Contexto ampliado y modelo de datos completo.</span>
+            </li>
+            <li>
+              <a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/normativa.yaml" target="_blank" rel="noopener">06_indices/normativa.yaml</a>
+              <span>Índice de normas por ID (<span class="mono">NOR-NNN</span>).</span>
+            </li>
+            <li>
+              <a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/curriculos.yaml" target="_blank" rel="noopener">06_indices/curriculos.yaml</a>
+              <span>Índice de currículos.</span>
+            </li>
+            <li>
+              <a href="https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/06_indices/fuentes.yaml" target="_blank" rel="noopener">06_indices/fuentes.yaml</a>
+              <span>Índice de fuentes oficiales.</span>
+            </li>
+            <li>
+              <a href="https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/skills/experto-normativa-educativa-canaria" target="_blank" rel="noopener">skills/experto-normativa-educativa-canaria/</a>
+              <span>Versión canónica de la skill (Markdown).</span>
+            </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <footer class="py-4 border-top bg-light">
-      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3 small text-secondary">
-        <div class="d-flex flex-column align-items-center align-items-md-start gap-1">
-          <p class="mb-0">Este repositorio no sustituye las fuentes oficiales.</p>
-          <p class="mb-0">Hecho con <span role="img" aria-label="amor">❤️</span> por <a href="https://www3.gobiernodecanarias.org/medusa/ecoescuela/ate/" class="text-decoration-none">Área de Tecnología Educativa</a></p>
+    <footer>
+      <div class="shell">
+        <div class="foot-grid">
+          <div class="foot-col">
+            <h4>Sobre el proyecto</h4>
+            <p>
+              Resumen estructurado y mantenido en abierto. No sustituye las fuentes oficiales —
+              consulta siempre el <span class="mono">BOE</span> y el <span class="mono">BOC</span>.
+            </p>
+          </div>
+          <div class="foot-col">
+            <h4>Recursos</h4>
+            <a href="https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt" target="_blank" rel="noopener">llms.txt ↗</a>
+            <a href="https://ateeducacion.github.io/normativa_educativa_canaria/SKILL.md" target="_blank" rel="noopener">SKILL.md ↗</a>
+            <a href="https://github.com/ateeducacion/normativa_educativa_canaria" target="_blank" rel="noopener">Repositorio ↗</a>
+          </div>
+          <div class="foot-col">
+            <h4>Atribución</h4>
+            <a href="https://www3.gobiernodecanarias.org/medusa/ecoescuela/ate/" target="_blank" rel="noopener">Área de Tecnología Educativa</a>
+          </div>
         </div>
-        <div class="d-flex gap-3">
-          <a href="https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt" class="text-decoration-none">llms.txt</a>
+        <div class="foot-bottom">
+          <span>Hecho con <span class="heart" role="img" aria-label="amor">❤️</span> por <a href="https://www3.gobiernodecanarias.org/medusa/ecoescuela/ate/" target="_blank" rel="noopener">Área de Tecnología Educativa</a></span>
+          <span class="mono">v.2026 · CC0 1.0</span>
         </div>
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="assets/js/site.js"></script>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
     <script>
-      document.querySelectorAll('.btn-copy').forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          var id = btn.getAttribute('data-target');
-          var el = document.getElementById(id);
-          if (!el) return;
-          var text = el.innerText;
-          var done = function () {
-            var prev = btn.textContent;
-            btn.textContent = 'Copiado';
-            btn.disabled = true;
-            setTimeout(function () { btn.textContent = prev; btn.disabled = false; }, 1500);
-          };
+      (function () {
+        function copyToClipboard(text) {
           if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(text).then(done).catch(function () {
-              var ta = document.createElement('textarea');
-              ta.value = text; document.body.appendChild(ta); ta.select();
-              try { document.execCommand('copy'); done(); } catch (e) { /* noop */ }
-              document.body.removeChild(ta);
-            });
-          } else {
+            return navigator.clipboard.writeText(text).catch(fallback);
+          }
+          return new Promise(function (resolve) { fallback(); resolve(); });
+          function fallback() {
             var ta = document.createElement('textarea');
-            ta.value = text; document.body.appendChild(ta); ta.select();
-            try { document.execCommand('copy'); done(); } catch (e) { /* noop */ }
+            ta.value = text; ta.setAttribute('readonly', '');
+            ta.style.position = 'absolute'; ta.style.left = '-9999px';
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand('copy'); } catch (e) { /* noop */ }
             document.body.removeChild(ta);
           }
+        }
+
+        var toastEl = document.getElementById('toast');
+        var toastTimer = null;
+        function showToast(msg) {
+          if (!toastEl) return;
+          toastEl.textContent = msg;
+          toastEl.classList.add('show');
+          clearTimeout(toastTimer);
+          toastTimer = setTimeout(function () { toastEl.classList.remove('show'); }, 1800);
+        }
+
+        // stats
+        document.querySelectorAll('[data-stats-for]').forEach(function (el) {
+          var src = document.getElementById(el.getAttribute('data-stats-for'));
+          if (!src) return;
+          var text = src.textContent || '';
+          var lines = text.split('\n').length;
+          el.textContent = lines + ' líneas · ' + text.length + ' chars';
         });
-      });
+
+        // copy buttons
+        document.querySelectorAll('[data-copy-target]').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var target = document.getElementById(btn.getAttribute('data-copy-target'));
+            if (!target) return;
+            var text = target.textContent || '';
+            copyToClipboard(text).then(function () {
+              var prev = btn.innerHTML;
+              btn.classList.add('copied');
+              btn.innerHTML = '✓ copiado';
+              showToast(btn.getAttribute('data-toast') || 'Copiado');
+              setTimeout(function () {
+                btn.classList.remove('copied');
+                btn.innerHTML = prev;
+              }, 1400);
+            });
+          });
+        });
+      })();
     </script>
   </body>
 </html>

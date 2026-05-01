@@ -47,6 +47,7 @@ jobs:
           cp -R 09_decisiones-editoriales _site/09_decisiones-editoriales
           cp llms.txt _site/llms.txt
           cp llms-full.txt _site/llms-full.txt
+          cp skills/experto-normativa-educativa-canaria/SKILL.md _site/SKILL.md
           cp skills/experto-normativa-educativa-canaria/SKILL.md _site/skill.md
 
       - name: Verificar artefacto público
@@ -58,6 +59,7 @@ jobs:
           test -f _site/AGENTS.md
           test -f _site/llms.txt
           test -f _site/llms-full.txt
+          test -f _site/SKILL.md
           test -f _site/skill.md
           test -f _site/index.html
           test -f _site/06_indices/curriculos.yaml

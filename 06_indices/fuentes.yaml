@@ -501,3 +501,102 @@ FTE-056:
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/portales-oficiales/FTE-056-buscador-ensenanzas-codigos-materias.md"
   estado_fuente: "Activa"
+
+FTE-057:
+  titulo: "Programa PROA+ — Cooperación Territorial 2024-2028 (Gobierno de Canarias)"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/programas_cofinanciados/nextgenerationeu/programa-proa/2024-2028/"
+  fecha_consulta: 2026-05-01
+  ruta: "01_fuentes/portales-oficiales/FTE-057-proa-plus.md"
+  estado_fuente: "Activa"
+
+FTE-058:
+  titulo: "Red Canaria-InnovAS — Red Educativa Canaria de Innovación para la Sostenibilidad y la Acción Social"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/redes-educativas/red-canarias-innovas/"
+  fecha_consulta: 2026-05-01
+  ruta: "01_fuentes/portales-oficiales/FTE-058-red-canaria-innovas.md"
+  estado_fuente: "Activa"
+
+FTE-059:
+  titulo: "Proyecto Viera — fomento de la lectura y la competencia en comunicación lingüística"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/programas-educativos/area_fomento_competencia_comunicacion_linguistica/convocatorias/proyecto-viera/"
+  fecha_consulta: 2026-05-01
+  ruta: "01_fuentes/portales-oficiales/FTE-059-proyecto-viera.md"
+  estado_fuente: "Activa"
+
+FTE-060:
+  titulo: "ProIDEAC — marco pedagógico de programación y evaluación competencial"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/recursos-pedagogicos/proideac/que-es-proideac/"
+  fecha_consulta: 2026-05-01
+  ruta: "01_fuentes/portales-oficiales/FTE-060-proideac.md"
+  estado_fuente: "Activa"
+
+FTE-061:
+  titulo: "Programa AICLE — Aprendizaje Integrado de Contenidos y Lenguas Extranjeras"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/programas-educativos/plurilinguismo/programa-aicle/programa-aicle/"
+  fecha_consulta: 2026-05-01
+  ruta: "01_fuentes/portales-oficiales/FTE-061-programa-aicle.md"
+  estado_fuente: "Activa"
+
+FTE-062:
+  titulo: "Programa EnSeñas — Patrimonio Social, Cultural e Histórico Canario (Red Canaria-InnovAS)"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www3.gobiernodecanarias.org/medusa/ecoescuela/ensenas/programa-ensenas-inscripcion-en-el-eje-tematico-de-patrimonio-red-canaria-innovas/"
+  fecha_consulta: 2026-05-01
+  ruta: "01_fuentes/portales-oficiales/FTE-062-programa-ensenas.md"
+  estado_fuente: "Activa"
+
+FTE-063:
+  titulo: "Matemáticas Newton Canarias"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/programas-redes-educativas/programas-educativos/matematicas-newton-canarias/convocatorias/proyecto-matematicas-newton-canarias/index.html"
+  fecha_consulta: 2026-05-01
+  ruta: "01_fuentes/portales-oficiales/FTE-063-matematicas-newton-canarias.md"
+  estado_fuente: "Activa"
+
+FTE-064:
+  titulo: "EVAGD y Aula Digital Canaria — entornos virtuales oficiales"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www3.gobiernodecanarias.org/medusa/evagd/base/"
+  fecha_consulta: 2026-05-01
+  ruta: "01_fuentes/portales-oficiales/FTE-064-evagd-aula-digital-canaria.md"
+  estado_fuente: "Activa"
+
+FTE-065:
+  titulo: "OPEEC — Erasmus+ y eTwinning (Oficina de Proyectos Europeos y Estancias Educativas Canarias)"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/opeec/etwinning/index.html"
+  fecha_consulta: 2026-05-01
+  ruta: "01_fuentes/portales-oficiales/FTE-065-opeec-erasmus-etwinning.md"
+  estado_fuente: "Activa"
+
+FTE-066:
+  titulo: "Protección de Datos en Educación — Inspección Educativa de Canarias"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Inspección General de Educación"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/administracion/proteccion-de-datos/index.html"
+  fecha_consulta: 2026-05-01
+  ruta: "01_fuentes/portales-oficiales/FTE-066-proteccion-datos-educacion.md"
+  estado_fuente: "Activa"
+
+FTE-067:
+  titulo: "Prevención de Riesgos Laborales y Emergencias en Centros Públicos (Gobierno de Canarias)"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Gobierno de Canarias - Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/riesgos-laborables-centros-publicos/emergencia/index.html"
+  fecha_consulta: 2026-05-01
+  ruta: "01_fuentes/portales-oficiales/FTE-067-prevencion-riesgos-emergencia.md"
+  estado_fuente: "Activa"

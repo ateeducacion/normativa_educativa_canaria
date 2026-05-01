@@ -993,3 +993,24 @@ TAREA-055:
   - NOR-059
   - NOR-060
   ruta: 08_tareas/backlog/TAREA-054-ampliar-copias-rapidas-resto-normas.md
+TAREA-056:
+  titulo: Catalogar portales oficiales de programas y marcos operativos canarios (FTE-057 a FTE-067)
+  estado: Hecha
+  prioridad: Media
+  tipo: catalogacion
+  responsable: '@.agents/skills/catalogacion-fuentes'
+  fecha_creacion: 2026-05-01
+  fecha_actualizacion: 2026-05-01
+  relacionadas:
+  - FTE-057
+  - FTE-058
+  - FTE-059
+  - FTE-060
+  - FTE-061
+  - FTE-062
+  - FTE-063
+  - FTE-064
+  - FTE-065
+  - FTE-066
+  - FTE-067
+  ruta: 08_tareas/backlog/TAREA-056-catalogar-portales-programas-canarios.md
