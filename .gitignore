@@ -5,3 +5,9 @@
 .omc/
 _site/
 _site/
+
+# Artefactos de ejecución del monitor de normativa (TAREA-057)
+/input/
+/output/
+11_calidad/monitor/nuevas.json
+11_calidad/monitor/nuevas.md

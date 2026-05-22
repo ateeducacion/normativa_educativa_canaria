@@ -3,8 +3,8 @@ metadata:
   repositorio: ateeducacion/normativa_educativa_canaria
   objetivo: Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML
   fase_actual: Fase 1 — Inventario y Catalogación
-  fecha_actualizacion: '2026-05-01'
-  agente_actual: '@.agents/skills/catalogacion-fuentes'
+  fecha_actualizacion: '2026-05-22'
+  agente_actual: '@.agents/skills/control-calidad-documental'
 tareas:
   TAREA-001:
     titulo: Puesta en marcha del repositorio
@@ -938,6 +938,20 @@ tareas:
     - FTE-065
     - FTE-066
     - FTE-067
+    siguiente_accion: null
+  TAREA-057:
+    titulo: Pipeline de vigilancia semanal de normativa canaria con conversión DocDigester2MD
+    estado: Hecha
+    prioridad: Media
+    tipo: automatizacion
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-05-22
+    fecha_actualizacion: 2026-05-22
+    relacionadas:
+    - FTE-001
+    - FTE-013
+    - FTE-014
+    - FTE-015
     siguiente_accion: null
 bloqueos: []
 reglas:

@@ -1,0 +1,107 @@
+name: Vigilancia de normativa canaria
+
+on:
+  schedule:
+    # Lunes a las 06:00 UTC (semanal).
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  models: read
+
+concurrency:
+  group: monitor-normativa
+  cancel-in-progress: false
+
+jobs:
+  vigilar:
+    name: Escanear portal y abrir PR de novedades
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias del scanner
+        run: pip install -r 11_calidad/monitor/requirements.txt
+
+      - name: Escanear portal de normativa
+        run: python3 11_calidad/monitor/scan_normativa.py
+
+      - name: ¿Hay novedades?
+        id: check
+        run: |
+          if [ -f 11_calidad/monitor/nuevas.json ]; then
+            echo "hay_novedades=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "hay_novedades=false" >> "$GITHUB_OUTPUT"
+            echo "Sin novedades; no se abre PR."
+          fi
+
+      - name: Convertir PDFs a Markdown (DocDigester2MD)
+        if: steps.check.outputs.hay_novedades == 'true'
+        continue-on-error: true
+        env:
+          # Por defecto: GitHub Models (gratuito, usa GITHUB_TOKEN).
+          # Para OpenRouter free, define los vars AI_BASE_URL/AI_MODEL y el
+          # secret AI_API_KEY en el repositorio.
+          AI_API_KEY: ${{ secrets.AI_API_KEY || secrets.GITHUB_TOKEN }}
+          AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://models.github.ai/inference' }}
+          AI_MODEL: ${{ vars.AI_MODEL || 'openai/gpt-4o-mini' }}
+        run: |
+          set -e
+          if [ -z "$(ls -A input 2>/dev/null)" ]; then
+            echo "Sin PDFs descargados; se omite conversión."
+            exit 0
+          fi
+          mkdir -p output 07_corpus_ia/_borradores-monitor
+          docker run --rm \
+            -e AI_API_KEY -e AI_BASE_URL -e AI_MODEL \
+            -v "$PWD/input:/app/input" \
+            -v "$PWD/output:/app/output" \
+            ghcr.io/ateeducacion/docdigester2md:latest
+
+      - name: Sellar borradores con cabecera R16
+        if: steps.check.outputs.hay_novedades == 'true'
+        continue-on-error: true
+        run: |
+          set -e
+          shopt -s nullglob
+          dest=07_corpus_ia/_borradores-monitor
+          mkdir -p "$dest"
+          hoy="$(date -u +%F)"
+          for md in output/*.md; do
+            base="$(basename "$md")"
+            {
+              echo "<!--"
+              echo "AVISO (R16): copia local de trabajo generada automáticamente."
+              echo "Esta copia NO sustituye la fuente oficial ni confirma vigencia."
+              echo "Fecha de exportación: ${hoy}"
+              echo "Origen: ver 11_calidad/monitor/nuevas.json (URL oficial y fecha de detección)."
+              echo "Material NO validado: requiere catalogación supervisada (AGENTS.md §7–§8)."
+              echo "-->"
+              echo
+              cat "$md"
+            } > "$dest/$base"
+          done
+
+      - name: Abrir Pull Request con las novedades
+        if: steps.check.outputs.hay_novedades == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: monitor/normativa-${{ github.run_id }}
+          base: main
+          commit-message: "chore(monitor): novedades normativa canaria"
+          title: "Vigilancia normativa: novedades detectadas"
+          body-path: 11_calidad/monitor/nuevas.md
+          labels: monitor-normativa
+          add-paths: |
+            11_calidad/monitor/portal-normativa-canaria.seen.json
+            07_corpus_ia/_borradores-monitor/**
+          delete-branch: true
