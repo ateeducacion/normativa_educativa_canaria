@@ -1014,3 +1014,17 @@ TAREA-056:
   - FTE-066
   - FTE-067
   ruta: 08_tareas/backlog/TAREA-056-catalogar-portales-programas-canarios.md
+TAREA-057:
+  titulo: Pipeline de vigilancia semanal de normativa canaria con conversión DocDigester2MD
+  estado: Hecha
+  prioridad: Media
+  tipo: automatizacion
+  responsable: '@.agents/skills/control-calidad-documental'
+  fecha_creacion: 2026-05-22
+  fecha_actualizacion: 2026-05-22
+  relacionadas:
+  - FTE-001
+  - FTE-013
+  - FTE-014
+  - FTE-015
+  ruta: 08_tareas/backlog/TAREA-057-pipeline-vigilancia-normativa.md
