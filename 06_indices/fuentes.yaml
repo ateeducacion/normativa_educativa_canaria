@@ -488,8 +488,8 @@ FTE-055:
   titulo: "Resolución de 3 de diciembre de 2025, modifica evaluación FP"
   tipo_fuente: "resolucion-administrativa"
   autoridad: "Dirección General de FP - Gobierno de Canarias"
-  url_oficial: "https://www.gobiernodecanarias.org/boc/2025/249/005.html"
-  fecha_consulta: 2026-04-26
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2025/249/4298.html"
+  fecha_consulta: 2026-06-01
   ruta: "01_fuentes/boc/FTE-055-boc-2025-249-modificacion-evaluacion-fp.md"
   estado_fuente: "Activa"
 
@@ -599,4 +599,22 @@ FTE-067:
   url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/riesgos-laborables-centros-publicos/emergencia/index.html"
   fecha_consulta: 2026-05-01
   ruta: "01_fuentes/portales-oficiales/FTE-067-prevencion-riesgos-emergencia.md"
+  estado_fuente: "Activa"
+
+FTE-068:
+  titulo: "BOC 2025/118 — Resolución de 9 de junio de 2025 sobre evaluación en ciclos formativos y cursos de especialización"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2025/118/2219.html"
+  fecha_consulta: 2026-06-01
+  ruta: "01_fuentes/boc/FTE-068-boc-2025-118-evaluacion-fp.md"
+  estado_fuente: "Activa"
+
+FTE-069:
+  titulo: "Resolución n.º 234/2026 — Listado provisional de módulos optativos de diseño propio de FP para 2026-2027"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial"
+  url_oficial: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261805-res-234-listado-provisional-optativos-diseno-propio-y-para-subsanar-curso-26-27.pdf"
+  fecha_consulta: 2026-06-01
+  ruta: "01_fuentes/portales-oficiales/FTE-069-resolucion-optativos-fp-2026-2027.md"
   estado_fuente: "Activa"

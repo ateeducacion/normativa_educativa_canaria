@@ -312,3 +312,24 @@ REL-048:
   destino: NOR-025
   fuente: FTE-053
   ruta: "05_relaciones/normativa/REL-048-orden-2023-deroga-orden-2010.yaml"
+
+REL-049:
+  tipo_relacion: "desarrolla"
+  origen: NOR-061
+  destino: NOR-007
+  fuente: FTE-068
+  ruta: "05_relaciones/normativa/REL-049-resolucion-evaluacion-fp-desarrolla-lofp.yaml"
+
+REL-050:
+  tipo_relacion: "modifica"
+  origen: NOR-059
+  destino: NOR-061
+  fuente: FTE-055
+  ruta: "05_relaciones/normativa/REL-050-resolucion-modificacion-evaluacion-fp-modifica-resolucion-junio.yaml"
+
+REL-051:
+  tipo_relacion: "desarrolla"
+  origen: NOR-062
+  destino: NOR-007
+  fuente: FTE-069
+  ruta: "05_relaciones/normativa/REL-051-optativos-fp-desarrolla-lofp.yaml"

@@ -8,17 +8,23 @@ autoridad: "Dirección General de Formación Profesional"
 fecha_disposicion: 2025-12-03
 fecha_publicacion: 2025-12-17
 fecha_entrada_vigor: 2025-12-18
-fecha_consulta: 2026-04-26
-fecha_analisis: 2026-04-26
+fecha_consulta: 2026-06-01
+fecha_analisis: 2026-06-01
 estado_vigencia: "Vigente"
 fuente_principal: FTE-055
-url_oficial: "https://www.gobiernodecanarias.org/boc/2025/249/005.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2025/249/4298.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2025/249/4298.html"
+  url_pdf: "https://sede.gobiernodecanarias.org/boc/boc-a-2025-249-4298.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: ""
 etapas_afectadas: [formacion-profesional]
 temas: [formacion-profesional, evaluacion, calificaciones, dual]
 relaciones:
   desarrolla_a: [NOR-007]
   modificada_por: []
-  modifica_a: []
+  modifica_a: [NOR-061]
   deroga_a: []
   derogada_por: []
   relacionada_con: []
@@ -34,6 +40,8 @@ nivel_evidencia: "confirmado-fuente-primaria"
 - **Norma:** Resolución de 3 de diciembre de 2025.
 - **Publicación:** BOC n.º 249, de 17 de diciembre de 2025.
 - **Estado de vigencia:** Vigente (Modifica a la principal de junio de 2025).
+- **Fuente oficial:** `FTE-055`, BOC 2025/249/4298.
+- **Fecha de consulta:** 2026-06-01.
 
 ## 2. Objeto de la norma
 
@@ -47,7 +55,7 @@ Ajustar técnicamente el proceso de evaluación y calificación de los nuevos Gr
 
 ## 6. Relación con otras normas
 
-- **Modifica** y complementa la resolución base de evaluación de junio de 2025.
+- **Modifica** y complementa la resolución base de evaluación de junio de 2025 (`NOR-061`).
 - Se integra en el desarrollo autonómico de la **LOFP** (`NOR-007`).
 
 ## 8. Resumen IA-friendly
@@ -56,4 +64,4 @@ Norma de ajuste publicada en diciembre de 2025 que corrige y aclara cómo deben 
 
 ## 11. Fuentes
 
-- [BOC 2025/249](https://www.gobiernodecanarias.org/boc/2025/249/005.html)
+- [FTE-055](../../../01_fuentes/boc/FTE-055-boc-2025-249-modificacion-evaluacion-fp.md)

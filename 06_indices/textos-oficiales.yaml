@@ -617,11 +617,11 @@ fuentes:
   FTE-055:
     titulo: Resolución de 3 de diciembre de 2025, modifica evaluación FP
     ruta_corpus: 01_fuentes/boc/FTE-055-boc-2025-249-modificacion-evaluacion-fp.md
-    fecha_consulta: 2026-04-26
+    fecha_consulta: 2026-06-01
     estado_acceso: enlace-oficial
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/boc/2025/249/005.html
-      url_pdf: null
+      url_html: https://www.gobiernodecanarias.org/boc/2025/249/4298.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2025-249-4298.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
