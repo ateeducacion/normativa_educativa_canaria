@@ -36,3 +36,10 @@ PREG-005:
   fecha_resolucion: 2026-04-26
   relacionadas: [NOR-051, NOR-052, CUR-046, CUR-047, TAREA-038, TAREA-042]
   ruta: "08_tareas/preguntas/PREG-005-discrepancia-rd-sanidad-nor-051-nor-052.md"
+
+PREG-006:
+  titulo: "Catalogación de la Resolución de 25 de febrero de 2026 sobre módulos optativos de FP"
+  estado: "Abierta"
+  fecha_registro: 2026-06-01
+  relacionadas: [NOR-062, FTE-069, TAREA-058]
+  ruta: "08_tareas/preguntas/PREG-006-catalogar-resolucion-optativos-fp-febrero-2026.md"

@@ -877,7 +877,7 @@ NOR-059:
   fecha_disposicion: 2025-12-03
   fecha_publicacion: 2025-12-17
   fecha_entrada_vigor: 2025-12-18
-  fecha_consulta: 2026-04-26
+  fecha_consulta: 2026-06-01
   fuente_principal: FTE-055
   ruta: "02_normativa/canarias/resoluciones/NOR-059-resolucion-modificacion-evaluacion-fp-2025.md"
   temas: [formacion-profesional, evaluacion, calificaciones, dual]
@@ -897,4 +897,34 @@ NOR-060:
   temas: [formacion-profesional, titulo, curriculo-basico, servicios-socioculturales]
   familia_profesional: "Servicios Socioculturales y a la Comunidad"
   grado: "GS"
+  etapas_afectadas: [formacion-profesional]
+
+NOR-061:
+  titulo: "Resolución de 9 de junio de 2025, por la que se dictan instrucciones respecto al proceso de evaluación en los Ciclos Formativos (Grados C y D) y Cursos de Especialización (Grado E)"
+  nombre_corto: "Evaluación FP Grados C-D-E 2024/2025"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente, modificada por NOR-059"
+  fecha_disposicion: 2025-06-09
+  fecha_publicacion: 2025-06-17
+  fecha_entrada_vigor: 2025-06-18
+  fecha_consulta: 2026-06-01
+  fuente_principal: FTE-068
+  ruta: "02_normativa/canarias/resoluciones/NOR-061-resolucion-evaluacion-fp-2025.md"
+  temas: [formacion-profesional, evaluacion, promocion, titulacion, dual, grados-c-d-e]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-062:
+  titulo: "Resolución n.º 234/2026 por la que se establece el listado provisional de módulos optativos de diseño propio y aquellos que necesitan subsanación para FP en Canarias 2026/2027"
+  nombre_corto: "Listado provisional optativos FP 2026/2027"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente como listado provisional del procedimiento 2026/2027"
+  fecha_disposicion: 2026-05-18
+  fecha_publicacion: 2026-05-18
+  fecha_entrada_vigor: 2026-05-19
+  fecha_consulta: 2026-06-01
+  fuente_principal: FTE-069
+  ruta: "02_normativa/canarias/resoluciones/NOR-062-resolucion-optativos-fp-2026-2027.md"
+  temas: [formacion-profesional, modulos-optativos, diseno-propio, curso-2026-2027]
   etapas_afectadas: [formacion-profesional]

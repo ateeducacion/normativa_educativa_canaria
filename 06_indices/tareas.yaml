@@ -1028,3 +1028,22 @@ TAREA-057:
   - FTE-014
   - FTE-015
   ruta: 08_tareas/backlog/TAREA-057-pipeline-vigilancia-normativa.md
+TAREA-058:
+  titulo: Catalogar novedades del monitor normativo de FP detectadas el 2026-06-01
+  estado: Hecha
+  prioridad: Alta
+  tipo: catalogacion
+  responsable: '@.agents/skills/catalogacion-fuentes'
+  fecha_creacion: 2026-06-01
+  fecha_actualizacion: 2026-06-01
+  relacionadas:
+  - FTE-068
+  - FTE-069
+  - NOR-059
+  - NOR-061
+  - NOR-062
+  - REL-049
+  - REL-050
+  - REL-051
+  - PREG-006
+  ruta: 08_tareas/backlog/TAREA-058-catalogar-novedades-monitor-fp-2026-06-01.md
