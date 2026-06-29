@@ -919,7 +919,7 @@ NOR-062:
   nombre_corto: "Listado provisional optativos FP 2026/2027"
   tipo_norma: "resolucion-administrativa"
   ambito: "canarias"
-  estado_vigencia: "Vigente como listado provisional del procedimiento 2026/2027"
+  estado_vigencia: "Superada por el listado definitivo (NOR-063, Resolución n.º 254/2026) tras el plazo de subsanación"
   fecha_disposicion: 2026-05-18
   fecha_publicacion: 2026-05-18
   fecha_entrada_vigor: 2026-05-19
@@ -927,4 +927,64 @@ NOR-062:
   fuente_principal: FTE-069
   ruta: "02_normativa/canarias/resoluciones/NOR-062-resolucion-optativos-fp-2026-2027.md"
   temas: [formacion-profesional, modulos-optativos, diseno-propio, curso-2026-2027]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-063:
+  titulo: "Resolución n.º 254/2026 por la que se establece el listado definitivo de módulos optativos de diseño propio solicitados por los centros de FP en Canarias para el curso 2026-2027"
+  nombre_corto: "Listado definitivo optativos FP 2026/2027"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente como listado definitivo del procedimiento 2026/2027, corregido por NOR-064 y NOR-066"
+  fecha_disposicion: 2026-06-02
+  fecha_publicacion: 2026-06-02
+  fecha_entrada_vigor: 2026-06-02
+  fecha_consulta: 2026-06-29
+  fuente_principal: FTE-070
+  ruta: "02_normativa/canarias/resoluciones/NOR-063-resolucion-listado-definitivo-optativos-fp-2026-2027.md"
+  temas: [formacion-profesional, modulos-optativos, diseno-propio, curso-2026-2027]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-064:
+  titulo: "Resolución n.º 256/2026 por la que se corrigen errores materiales y de hecho en el listado definitivo de módulos optativos de diseño propio de FP en Canarias 2026/2027"
+  nombre_corto: "Corrección 256/2026 optativos FP 2026/2027"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; corrige el listado definitivo NOR-063"
+  fecha_disposicion: 2026-06-08
+  fecha_publicacion: 2026-06-08
+  fecha_entrada_vigor: 2026-06-08
+  fecha_consulta: 2026-06-29
+  fuente_principal: FTE-071
+  ruta: "02_normativa/canarias/resoluciones/NOR-064-resolucion-correccion-256-optativos-fp-2026-2027.md"
+  temas: [formacion-profesional, modulos-optativos, diseno-propio, curso-2026-2027, correccion-errores]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-065:
+  titulo: "Resolución n.º 268/2026 por la que se regulan las funciones de prospección en FP y se convoca concurso de méritos para el nombramiento de docentes en Canarias 2026/2027"
+  nombre_corto: "Prospección y concurso de méritos FP 2026/2027"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente para el curso 2026/2027"
+  fecha_disposicion: 2026-06-19
+  fecha_publicacion: 2026-06-19
+  fecha_entrada_vigor: 2026-06-19
+  fecha_consulta: 2026-06-29
+  fuente_principal: FTE-072
+  ruta: "02_normativa/canarias/resoluciones/NOR-065-resolucion-prospeccion-concurso-meritos-fp-2026-2027.md"
+  temas: [formacion-profesional, prospeccion, concurso-meritos, profesorado, curso-2026-2027]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-066:
+  titulo: "Resolución n.º 272/2026 por la que se corrige un error material en el listado definitivo de módulos optativos de diseño propio de FP en Canarias 2026/2027"
+  nombre_corto: "Corrección 272/2026 optativos FP 2026/2027"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; corrige el listado definitivo NOR-063"
+  fecha_disposicion: 2026-06-23
+  fecha_publicacion: 2026-06-23
+  fecha_entrada_vigor: 2026-06-23
+  fecha_consulta: 2026-06-29
+  fuente_principal: FTE-073
+  ruta: "02_normativa/canarias/resoluciones/NOR-066-resolucion-correccion-272-optativos-fp-2026-2027.md"
+  temas: [formacion-profesional, modulos-optativos, diseno-propio, curso-2026-2027, correccion-errores]
   etapas_afectadas: [formacion-profesional]

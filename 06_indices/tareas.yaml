@@ -1047,3 +1047,28 @@ TAREA-058:
   - REL-051
   - PREG-006
   ruta: 08_tareas/backlog/TAREA-058-catalogar-novedades-monitor-fp-2026-06-01.md
+TAREA-059:
+  titulo: Catalogar novedades del monitor normativo de FP detectadas el 2026-06-29 (PR 25)
+  estado: Hecha
+  prioridad: Alta
+  tipo: catalogacion
+  responsable: '@.agents/skills/catalogacion-fuentes'
+  fecha_creacion: 2026-06-29
+  fecha_actualizacion: 2026-06-29
+  relacionadas:
+  - FTE-070
+  - FTE-071
+  - FTE-072
+  - FTE-073
+  - NOR-062
+  - NOR-063
+  - NOR-064
+  - NOR-065
+  - NOR-066
+  - REL-052
+  - REL-053
+  - REL-054
+  - REL-055
+  - REL-056
+  - PREG-006
+  ruta: 08_tareas/backlog/TAREA-059-catalogar-novedades-monitor-fp-2026-06-29.md

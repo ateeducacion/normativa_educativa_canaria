@@ -333,3 +333,38 @@ REL-051:
   destino: NOR-007
   fuente: FTE-069
   ruta: "05_relaciones/normativa/REL-051-optativos-fp-desarrolla-lofp.yaml"
+
+REL-052:
+  tipo_relacion: "sustituye"
+  origen: NOR-063
+  destino: NOR-062
+  fuente: FTE-070
+  ruta: "05_relaciones/normativa/REL-052-listado-definitivo-optativos-fp-sustituye-provisional.yaml"
+
+REL-053:
+  tipo_relacion: "desarrolla"
+  origen: NOR-063
+  destino: NOR-007
+  fuente: FTE-070
+  ruta: "05_relaciones/normativa/REL-053-listado-definitivo-optativos-fp-desarrolla-lofp.yaml"
+
+REL-054:
+  tipo_relacion: "corrige"
+  origen: NOR-064
+  destino: NOR-063
+  fuente: FTE-071
+  ruta: "05_relaciones/normativa/REL-054-correccion-256-corrige-listado-definitivo-optativos-fp.yaml"
+
+REL-055:
+  tipo_relacion: "corrige"
+  origen: NOR-066
+  destino: NOR-063
+  fuente: FTE-073
+  ruta: "05_relaciones/normativa/REL-055-correccion-272-corrige-listado-definitivo-optativos-fp.yaml"
+
+REL-056:
+  tipo_relacion: "desarrolla"
+  origen: NOR-065
+  destino: NOR-007
+  fuente: FTE-072
+  ruta: "05_relaciones/normativa/REL-056-prospeccion-concurso-meritos-fp-desarrolla-lofp.yaml"
