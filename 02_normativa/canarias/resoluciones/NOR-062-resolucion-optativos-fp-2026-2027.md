@@ -10,7 +10,7 @@ fecha_publicacion: 2026-05-18
 fecha_entrada_vigor: 2026-05-19
 fecha_consulta: 2026-06-01
 fecha_analisis: 2026-06-01
-estado_vigencia: "Vigente como listado provisional del procedimiento 2026/2027"
+estado_vigencia: "Superada por el listado definitivo (NOR-063, Resolución n.º 254/2026) tras el plazo de subsanación"
 fuente_principal: FTE-069
 url_oficial: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261805-res-234-listado-provisional-optativos-diseno-propio-y-para-subsanar-curso-26-27.pdf"
 texto_oficial:
@@ -27,7 +27,7 @@ relaciones:
   modifica_a: []
   deroga_a: []
   derogada_por: []
-  relacionada_con: []
+  relacionada_con: [NOR-063]
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
@@ -71,6 +71,7 @@ La resolución incluye antecedentes, fundamentos de derecho, parte dispositiva y
 
 - Se dicta en el marco del sistema de Formación Profesional regulado por la Ley Orgánica 3/2022 (`NOR-007`).
 - Se apoya directamente en la Resolución de 25 de febrero de 2026 sobre implantación y desarrollo del módulo profesional optativo, pendiente de catalogación específica (`PREG-006`).
+- Es superada por el listado definitivo de la Resolución n.º 254/2026 (`NOR-063`) una vez concluido el plazo de subsanación (`REL-052`).
 
 ## 7. Impacto en Canarias
 
