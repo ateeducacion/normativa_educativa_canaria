@@ -368,3 +368,10 @@ REL-056:
   destino: NOR-007
   fuente: FTE-072
   ruta: "05_relaciones/normativa/REL-056-prospeccion-concurso-meritos-fp-desarrolla-lofp.yaml"
+
+REL-057:
+  tipo_relacion: "desarrolla"
+  origen: NOR-067
+  destino: NOR-007
+  fuente: FTE-074
+  ruta: "05_relaciones/normativa/REL-057-protocolo-fp-fecam-desarrolla-lofp.yaml"

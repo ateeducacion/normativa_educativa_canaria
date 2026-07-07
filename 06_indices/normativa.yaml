@@ -988,3 +988,18 @@ NOR-066:
   ruta: "02_normativa/canarias/resoluciones/NOR-066-resolucion-correccion-272-optativos-fp-2026-2027.md"
   temas: [formacion-profesional, modulos-optativos, diseno-propio, curso-2026-2027, correccion-errores]
   etapas_afectadas: [formacion-profesional]
+
+NOR-067:
+  titulo: "Resolución de 16 de junio de 2026, por la que se ordena la publicación del Protocolo General de Actuación entre la Consejería de Educación, Formación Profesional, Actividad Física y Deportes y la FECAM para la formación en empresa en FP"
+  nombre_corto: "Publicación protocolo FP CEFPAFD-FECAM 2026"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; ordena la publicación del protocolo suscrito el 2026-06-15"
+  fecha_disposicion: 2026-06-16
+  fecha_publicacion: 2026-06-29
+  fecha_entrada_vigor: 2026-06-29
+  fecha_consulta: 2026-07-07
+  fuente_principal: FTE-074
+  ruta: "02_normativa/canarias/resoluciones/NOR-067-resolucion-publicacion-protocolo-fp-fecam.md"
+  temas: [formacion-profesional, formacion-en-empresa, colaboracion-institucional, fecam, centros-publicos]
+  etapas_afectadas: [formacion-profesional]
