@@ -654,3 +654,12 @@ FTE-073:
   fecha_consulta: 2026-06-29
   ruta: "01_fuentes/portales-oficiales/FTE-073-resolucion-correccion-272-optativos-fp-2026-2027.md"
   estado_fuente: "Activa"
+
+FTE-074:
+  titulo: "BOC 2026/129 — Resolución de 16 de junio de 2026 sobre publicación del Protocolo General de Actuación CEFPAFD-FECAM para la formación en empresa en FP"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/129/2245.html"
+  fecha_consulta: 2026-07-07
+  ruta: "01_fuentes/boc/FTE-074-boc-2026-129-protocolo-fp-fecam.md"
+  estado_fuente: "Activa"

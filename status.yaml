@@ -3,7 +3,7 @@ metadata:
   repositorio: ateeducacion/normativa_educativa_canaria
   objetivo: Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML
   fase_actual: Fase 1 — Inventario y Catalogación
-  fecha_actualizacion: '2026-06-29'
+  fecha_actualizacion: '2026-07-07'
   agente_actual: '@.agents/skills/catalogacion-fuentes'
 tareas:
   TAREA-001:
@@ -996,6 +996,19 @@ tareas:
     - REL-055
     - REL-056
     - PREG-006
+    siguiente_accion: null
+  TAREA-060:
+    titulo: Catalogar novedad del monitor detectada el 2026-07-06 (BOC 2026/129/2245 — protocolo FP CEFPAFD-FECAM)
+    estado: Hecha
+    prioridad: Alta
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-07-07
+    fecha_actualizacion: 2026-07-07
+    relacionadas:
+    - FTE-074
+    - NOR-067
+    - REL-057
     siguiente_accion: null
 bloqueos: []
 reglas:
