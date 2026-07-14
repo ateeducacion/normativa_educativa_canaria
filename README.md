@@ -43,11 +43,13 @@ Repositorio IA-friendly para recopilar, analizar, resumir, indexar y relacionar 
 - `09_decisiones-editoriales/`: ADRs del repositorio.
 - `10_plantillas/`: plantillas reutilizables.
 - `11_calidad/`: validaciones e informes.
-- `docs/`: guías metodológicas y esquema de datos.
+- `docs/`: portal público, guías metodológicas y esquema de datos.
+- `DESIGN.md`: sistema de diseño y reglas de experiencia de usuario del portal.
 
 ## Arranque rápido
 
 - Índice principal: [index.md](index.md)
+- Sistema de diseño del portal: [DESIGN.md](DESIGN.md)
 - Gobierno del repositorio: [00_gobierno-repositorio/](00_gobierno-repositorio/)
 - Fuentes: [06_indices/fuentes.yaml](06_indices/fuentes.yaml)
 - Normativa: [06_indices/normativa.yaml](06_indices/normativa.yaml)
