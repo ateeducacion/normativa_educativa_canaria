@@ -18,7 +18,7 @@ texto_oficial:
   url_pdf: "https://sede.gobiernodecanarias.org/boc/boc-a-2026-144-2561.pdf"
   url_texto_consolidado: ""
   url_anexo: ""
-  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-068-decreto-120-2026-competencia-digital-docente.txt"
+  ruta_texto_plano_local: ""
 etapas_afectadas: [todas]
 temas: [competencia-digital-docente, acreditacion, certificacion, reconocimiento, formacion-permanente, profesorado]
 relaciones:
@@ -97,3 +97,5 @@ El Decreto 120/2026 regula en Canarias cómo se certifican, acreditan y reconoce
 
 - [FTE-075](../../../01_fuentes/boc/FTE-075-boc-2026-144-decreto-120-2026-competencia-digital-docente.md)
 - PDF oficial `BOC-A-2026-144-2561`.
+
+No se ha creado todavía una copia local en texto plano.
