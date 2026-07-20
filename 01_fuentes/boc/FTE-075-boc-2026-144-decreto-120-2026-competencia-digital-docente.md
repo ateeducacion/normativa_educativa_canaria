@@ -9,7 +9,7 @@ texto_oficial:
   url_pdf: "https://sede.gobiernodecanarias.org/boc/boc-a-2026-144-2561.pdf"
   url_texto_consolidado: ""
   url_anexo: ""
-  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-068-decreto-120-2026-competencia-digital-docente.txt"
+  ruta_texto_plano_local: ""
 fecha_consulta: 2026-07-20
 fecha_analisis: 2026-07-20
 estado_fuente: "Activa"
@@ -46,4 +46,4 @@ Es la fuente primaria de la regulación autonómica canaria sobre acreditación 
 
 ## Observaciones
 
-El BOC indica que la versión oficial es el PDF. La versión HTML se utiliza como apoyo de consulta y localización.
+El BOC indica que la versión oficial es el PDF. La versión HTML se utiliza como apoyo de consulta y localización. No se ha creado todavía una copia local en texto plano.
