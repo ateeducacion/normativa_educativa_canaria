@@ -160,7 +160,7 @@ CUR-015:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-015-historia-y-geografia-de-canarias.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
   observaciones: "Materia propia canaria de 3.º ESO (artículo 23.5 del Decreto 30/2023). 6 CE literales, 25 criterios de evaluación y 3 bloques de saberes básicos extraídos del PDF oficial (Historia_geografia_de_Canarias_ESO.pdf). Ver TAREA-029."
 
 CUR-016:
@@ -171,7 +171,7 @@ CUR-016:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-016-latin.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-016-latin.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
   observaciones: "Materia optativa de 4.º ESO (artículo 25.2.g del Decreto 30/2023, opción D). 5 CE literales, 14 criterios de evaluación y 4 bloques de saberes básicos extraídos del PDF oficial (Latin_ESO.pdf). Ver TAREA-029."
 
 CUR-017:
@@ -204,7 +204,7 @@ CUR-019:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-019-matematicas.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-019-matematicas.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
   observaciones: "Extracción literal completa Decreto 30/2023."
 
 CUR-020:
@@ -226,7 +226,7 @@ CUR-021:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-021-segunda-lengua-extranjera.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
   observaciones: "Extracción literal completa Decreto 30/2023."
 
 CUR-022:
@@ -248,7 +248,7 @@ CUR-023:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.yaml"
   ruta_md: "03_curriculos/eso/materias/CUR-023-tecnologia-y-digitalizacion.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
   observaciones: "Extracción literal completa Decreto 30/2023."
 
 CUR-024:
@@ -259,7 +259,7 @@ CUR-024:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-024-conocimiento-medio.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-024-conocimiento-medio.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
   observaciones: "Nueva catalogación 2026-04-26."
 
 CUR-025:
@@ -270,7 +270,7 @@ CUR-025:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-025-educacion-artistica.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-025-educacion-artistica.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
   observaciones: "Incluye Plástica y Música."
 
 CUR-026:
@@ -281,7 +281,7 @@ CUR-026:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-026-educacion-fisica.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-026-educacion-fisica.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-027:
   titulo: "Lengua Castellana y Literatura — Primaria Canarias"
@@ -291,7 +291,7 @@ CUR-027:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-027-lengua-castellana.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-027-lengua-castellana.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-028:
   titulo: "Lengua Extranjera — Primaria Canarias"
@@ -301,7 +301,7 @@ CUR-028:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-028-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-028-lengua-extranjera.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-029:
   titulo: "Matemáticas — Primaria Canarias"
@@ -311,7 +311,7 @@ CUR-029:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-029-matematicas.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-029-matematicas.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-030:
   titulo: "Educación Emocional y para la Creatividad — Primaria Canarias"
@@ -321,7 +321,7 @@ CUR-030:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-030-educacion-emocional.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-030-educacion-emocional.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
   observaciones: "Materia específica de Canarias."
 
 CUR-031:
@@ -332,7 +332,7 @@ CUR-031:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-031-valores-civicos.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-031-valores-civicos.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
   observaciones: "Impartida en Tercer Ciclo."
 
 CUR-032:
@@ -343,7 +343,7 @@ CUR-032:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-032-segunda-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-032-segunda-lengua-extranjera.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-033:
   titulo: "Religión — Primaria Canarias"
@@ -353,7 +353,7 @@ CUR-033:
   fuente: FTE-046
   ruta_yaml: "03_curriculos/primaria/materias/CUR-033-religion.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-033-religion.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-034:
   titulo: "Crecimiento en Armonía — Infantil Canarias"
@@ -363,7 +363,7 @@ CUR-034:
   fuente: FTE-050
   ruta_yaml: "03_curriculos/infantil/materias/CUR-034-crecimiento-armonia.yaml"
   ruta_md: "03_curriculos/infantil/materias/CUR-034-crecimiento-armonia.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
   observaciones: "Extracción literal Decreto 196/2022."
 
 CUR-035:
@@ -374,7 +374,7 @@ CUR-035:
   fuente: FTE-050
   ruta_yaml: "03_curriculos/infantil/materias/CUR-035-descubrimiento-entorno.yaml"
   ruta_md: "03_curriculos/infantil/materias/CUR-035-descubrimiento-entorno.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
   observaciones: "Extracción literal Decreto 196/2022."
 
 CUR-036:
@@ -385,7 +385,7 @@ CUR-036:
   fuente: FTE-050
   ruta_yaml: "03_curriculos/infantil/materias/CUR-036-comunicacion-representacion.yaml"
   ruta_md: "03_curriculos/infantil/materias/CUR-036-comunicacion-representacion.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
   observaciones: "Extracción literal Decreto 196/2022."
 
 # --- BACHILLERATO ---
@@ -398,7 +398,7 @@ CUR-037:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-037-educacion-fisica.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-038:
   titulo: "Filosofía — 1.º Bachillerato Canarias"
@@ -408,7 +408,7 @@ CUR-038:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-038-filosofia.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-038-filosofia.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-039:
   titulo: "Historia de la Filosofía — 2.º Bachillerato Canarias"
@@ -418,7 +418,7 @@ CUR-039:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-039-historia-filosofia.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-040:
   titulo: "Lengua Castellana y Literatura I y II — Bachillerato Canarias"
@@ -428,7 +428,7 @@ CUR-040:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-040-lengua-castellana.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-041:
   titulo: "Lengua Extranjera I y II — Bachillerato Canarias"
@@ -438,7 +438,7 @@ CUR-041:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-041-lengua-extranjera.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-042:
   titulo: "Matemáticas I y II — Bachillerato Ciencias y Tecnología"
@@ -448,7 +448,7 @@ CUR-042:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-042-matematicas-ciencias.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-043:
   titulo: "Matemáticas Aplicadas a las CCSS I y II — Bachillerato Humanidades y CCSS"
@@ -458,7 +458,7 @@ CUR-043:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-043-matematicas-sociales.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-044:
   titulo: "Latín I y II — Bachillerato Humanidades y CCSS"
@@ -468,7 +468,7 @@ CUR-044:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-044-latin.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-044-latin.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-045:
   titulo: "Historia de España — 2.º Bachillerato Canarias"
@@ -478,11 +478,11 @@ CUR-045:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-045-historia-espana.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-045-historia-espana.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-046:
   titulo: "Técnico en Cuidados Auxiliares de Enfermería — FP Canarias"
-  etapa: "fp"
+  etapa: "formacion-profesional"
   familia_profesional: "Sanidad"
   grado: "gm"
   materia: "Cuidados Auxiliares de Enfermería"
@@ -494,7 +494,7 @@ CUR-046:
 
 CUR-047:
   titulo: "Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear — FP Canarias"
-  etapa: "fp"
+  etapa: "formacion-profesional"
   familia_profesional: "Sanidad"
   grado: "gs"
   materia: "Imagen para el Diagnóstico y Medicina Nuclear"
@@ -506,7 +506,7 @@ CUR-047:
 
 CUR-048:
   titulo: "Técnico en Gestión Administrativa — FP Canarias"
-  etapa: "fp"
+  etapa: "formacion-profesional"
   familia_profesional: "Administración y Gestión"
   grado: "gm"
   materia: "Gestión Administrativa"
@@ -518,7 +518,7 @@ CUR-048:
 
 CUR-049:
   titulo: "Técnico Superior en Administración y Finanzas — FP Canarias"
-  etapa: "fp"
+  etapa: "formacion-profesional"
   familia_profesional: "Administración y Gestión"
   grado: "gs"
   materia: "Administración y Finanzas"
@@ -530,7 +530,7 @@ CUR-049:
 
 CUR-050:
   titulo: "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) — FP Canarias"
-  etapa: "fp"
+  etapa: "formacion-profesional"
   familia_profesional: "Informática y Comunicaciones"
   grado: "gs"
   materia: "Desarrollo de Aplicaciones Multiplataforma"
@@ -542,19 +542,19 @@ CUR-050:
 
 CUR-051:
   titulo: "Técnico Superior en Desarrollo de Aplicaciones Web (DAW) — FP Canarias"
-  etapa: "fp"
+  etapa: "formacion-profesional"
   familia_profesional: "Informática y Comunicaciones"
   grado: "gs"
   materia: "Desarrollo de Aplicaciones Web"
   norma_base: NOR-056
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/informatica-y-comunicaciones/CUR-051-desarrollo-de-aplicaciones-web.yaml"
-  estado_extraccion: "parcial"
+  estado_extraccion: "completado"
   observaciones: "CEs extraídos en TAREA-045 (2026-04-26) para módulos 0483, 0484, 0485, 0373, 0487, 0612, 0613 (RAs 1-7) desde HTML oficial BOE-A-2010-9269. Módulos 0614-0619 y 0613-RA8 con CEs [PENDIENTE] por truncamiento del documento HTML."
 
 CUR-052:
   titulo: "Técnico Superior en Educación Infantil — FP Canarias"
-  etapa: "fp"
+  etapa: "formacion-profesional"
   familia_profesional: "Servicios Socioculturales y a la Comunidad"
   grado: "gs"
   materia: "Educación Infantil"
@@ -566,11 +566,11 @@ CUR-052:
 
 CUR-053:
   titulo: "Técnico Superior en Integración Social — FP Canarias"
-  etapa: "fp"
+  etapa: "formacion-profesional"
   familia_profesional: "Servicios Socioculturales y a la Comunidad"
   grado: "gs"
   materia: "Integración Social"
-  norma_base: NOR-060
+  norma_base: NOR-058
   norma_actualizacion: NOR-058
   fuente: FTE-054
   ruta_yaml: "03_curriculos/fp/servicios-socioculturales-y-a-la-comunidad/CUR-053-integracion-social.yaml"
@@ -587,7 +587,7 @@ CUR-054:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-054-segunda-lengua-extranjera.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-054-segunda-lengua-extranjera.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-055:
   titulo: "Historia de Canarias — 1.º Bachillerato"
@@ -597,7 +597,7 @@ CUR-055:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-055-historia-canarias.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-055-historia-canarias.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-056:
   titulo: "Psicología — 2.º Bachillerato Canarias"
@@ -607,7 +607,7 @@ CUR-056:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-056-psicologia.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-056-psicologia.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-057:
   titulo: "Literatura Canaria — 2.º Bachillerato"
@@ -617,7 +617,7 @@ CUR-057:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-057-literatura-canaria.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
 
 CUR-058:
   titulo: "Cultura Científica — 1.º Bachillerato"
@@ -627,4 +627,4 @@ CUR-058:
   fuente: FTE-009
   ruta_yaml: "03_curriculos/bachillerato/materias/CUR-058-cultura-cientifica.yaml"
   ruta_md: "03_curriculos/bachillerato/materias/CUR-058-cultura-cientifica.md"
-  estado_extraccion: "completado"
+  estado_extraccion: "parcial"
