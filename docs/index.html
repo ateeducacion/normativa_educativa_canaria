@@ -105,27 +105,15 @@
       .btn.sm { padding: 6px 10px; font-size: 12.5px; border-radius: 6px; }
 
       /* hero */
-      .hero { padding: 64px 0 40px; border-bottom: 1px solid var(--rule); }
+      .hero { padding: 44px 0 36px; border-bottom: 1px solid var(--rule); }
       .hero-grid {
         display: grid; grid-template-columns: 1fr 320px;
         gap: 64px; align-items: start;
       }
-      .hero-eyebrow {
-        display: inline-flex; align-items: center; gap: 10px;
-        font-family: 'JetBrains Mono', monospace;
-        font-size: 11.5px; letter-spacing: 0.04em; text-transform: uppercase;
-        color: var(--ink-3); margin-bottom: 20px;
-      }
-      .hero-eyebrow .pip {
-        width: 6px; height: 6px; border-radius: 50%;
-        background: var(--accent); animation: pulse 2.4s ease-in-out infinite;
-      }
-      @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
-
       .hero h1 {
         font-family: 'Fraunces', Georgia, serif;
-        font-weight: 500; font-size: 68px; line-height: 0.98;
-        letter-spacing: -0.025em; margin: 0 0 24px;
+        font-weight: 500; font-size: clamp(32px, 6.2vw, 48px); line-height: 1.02;
+        letter-spacing: -0.025em; margin: 0 0 20px;
       }
       .hero h1 em { font-style: italic; color: var(--accent); font-weight: 500; }
       .hero p.lead {
@@ -179,9 +167,10 @@
       }
 
       /* section frame */
-      .section { padding: 72px 0; border-bottom: 1px solid var(--rule); }
+      .section { padding: 52px 0; border-bottom: 1px solid var(--rule); }
       .section-head {
         display: flex; align-items: baseline; gap: 18px; margin-bottom: 36px;
+        flex-wrap: wrap;
       }
       .section-num {
         font-family: 'JetBrains Mono', monospace;
@@ -189,7 +178,7 @@
       }
       .section-title {
         font-family: 'Fraunces', Georgia, serif;
-        font-weight: 500; font-size: 36px; line-height: 1.05;
+        font-weight: 500; font-size: clamp(26px, 4.4vw, 36px); line-height: 1.05;
         letter-spacing: -0.02em; margin: 0;
       }
       .section-title .dot { color: var(--accent); }
@@ -198,34 +187,24 @@
         margin-left: auto; max-width: 34ch; text-align: right;
       }
 
-      /* options */
-      .options { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
-      .option {
-        border: 1px solid var(--rule-2); border-radius: 10px;
-        padding: 28px; background: var(--paper);
-        display: flex; flex-direction: column; gap: 18px; position: relative;
-      }
-      .option-head {
-        display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
-      }
-      .option-tag {
+      /* pregunta del usuario */
+      .ask label {
+        display: block;
         font-family: 'JetBrains Mono', monospace; font-size: 11px;
-        letter-spacing: 0.08em; text-transform: uppercase;
-        padding: 4px 8px; border: 1px solid var(--rule-2); border-radius: 4px;
-        color: var(--ink-3); flex: 0 0 auto;
+        letter-spacing: 0.06em; text-transform: uppercase;
+        color: var(--ink-3); margin-bottom: 8px;
       }
-      .option-meta {
-        font-family: 'JetBrains Mono', monospace;
-        color: var(--ink-3); font-size: 11px;
+      .ask textarea {
+        width: 100%; font-family: inherit; font-size: 16px; line-height: 1.5;
+        color: var(--ink); padding: 14px 16px;
+        border: 1px solid var(--rule-2); border-radius: 8px;
+        resize: vertical; background: var(--paper);
+        /* mejora progresiva: crece con el texto donde field-sizing esté soportado */
+        field-sizing: content;
+        min-block-size: 2lh; max-block-size: 8lh;
       }
-      .option h3 {
-        font-family: 'Fraunces', Georgia, serif;
-        font-weight: 500; font-size: 24px; letter-spacing: -0.015em;
-        margin: 0 0 6px;
-      }
-      .option h3 .accent { color: var(--accent); }
-      .option p.desc {
-        font-size: 14px; color: var(--ink-2); margin: 0; line-height: 1.5;
+      .ask textarea:focus-visible {
+        outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent);
       }
 
       /* terminal */
@@ -258,19 +237,25 @@
       .terminal-body::-webkit-scrollbar { width: 8px; height: 8px; }
       .terminal-body::-webkit-scrollbar-thumb { background: #ffffff22; border-radius: 4px; }
       .terminal-foot {
-        display: flex; justify-content: space-between; align-items: center;
         padding: 10px 14px; border-top: 1px solid #ffffff14; background: #091628;
-        font-size: 11px; color: #ffffff66;
+        /* #ffffff8c sobre #091628 ≈ 6:1 — el #ffffff66 del diseño se queda en 3.8:1 */
+        font-size: 11px; color: #ffffff8c;
       }
-      .terminal-foot button {
-        background: #ffffff10; color: #fff; border: 1px solid #ffffff20;
-        padding: 5px 10px; border-radius: 5px;
+      .terminal-copy {
+        background: var(--accent); color: #fff; border: 1px solid var(--accent);
+        padding: 6px 12px; border-radius: 6px;
         font-family: 'JetBrains Mono', monospace; font-size: 11px;
-        cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+        letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer;
+        display: inline-flex; align-items: center; gap: 7px;
         transition: all .15s ease;
       }
-      .terminal-foot button:hover { background: var(--accent); border-color: var(--accent); }
-      .terminal-foot button.copied { background: var(--accent-2); border-color: var(--accent-2); color: var(--ink); }
+      .terminal-copy:hover { background: #0060ad; border-color: #0060ad; }
+      .terminal-copy svg { width: 14px; height: 14px; display: block; }
+      .terminal-copy.copied {
+        background: var(--accent-2); border-color: var(--accent-2); color: var(--ink);
+      }
+      /* el token de la pregunta dentro del prompt se resalta en amarillo */
+      #prompt-question { color: var(--accent-2); }
 
       /* AI launchers */
       .ai-row {
@@ -302,67 +287,6 @@
       }
       .ai-btn .glyph svg { width: 12px; height: 12px; fill: currentColor; display: block; }
 
-      .manual-modal {
-        position: fixed;
-        inset: 0;
-        z-index: 50;
-        display: none;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-        background: rgba(22, 21, 19, .52);
-      }
-      .manual-modal.is-open { display: flex; }
-      .manual-modal-panel {
-        width: min(420px, 100%);
-        border: 1px solid var(--rule-2);
-        border-radius: 8px;
-        background: var(--paper);
-        color: var(--ink);
-        box-shadow: 0 24px 80px rgba(22, 21, 19, .22);
-        padding: 22px;
-      }
-      .manual-modal-title {
-        margin: 0 0 8px;
-        font-family: var(--display);
-        font-size: 1.2rem;
-        line-height: 1.2;
-      }
-      .manual-modal-text {
-        margin: 0;
-        color: var(--ink-2);
-        line-height: 1.55;
-      }
-      .manual-modal-actions {
-        display: flex;
-        justify-content: flex-end;
-        gap: 10px;
-        margin-top: 18px;
-      }
-      .manual-modal-actions button {
-        min-height: 40px;
-        border-radius: 7px;
-        border: 1px solid var(--rule-2);
-        padding: 0 14px;
-        font: inherit;
-        font-weight: 800;
-        cursor: pointer;
-        background: var(--paper);
-        color: var(--ink);
-      }
-      .manual-modal-actions .primary {
-        border-color: var(--ink);
-        background: var(--ink);
-        color: var(--paper);
-      }
-
-      /* skill install row */
-      .skill-install {
-        display: flex; flex-wrap: wrap; gap: 10px;
-        padding-top: 14px; border-top: 1px dashed var(--rule-2);
-        align-items: center;
-      }
-
       /* full-width prompt + skill blocks */
       .prompt-block, .skill-block {
         display: flex; flex-direction: column; gap: 18px;
@@ -374,15 +298,7 @@
         max-width: 70ch; margin: 0;
       }
       .skill-intro strong { color: var(--ink); font-weight: 600; }
-      .install-row { padding-top: 4px; border-top: 0; }
       .skill-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 4px 0; }
-      .skill-note {
-        margin: 6px 0 0; padding: 14px 16px; font-size: 13.5px;
-        color: var(--ink-2); border: 1px dashed var(--rule-2);
-        border-radius: 6px; background: var(--paper-2); line-height: 1.55;
-      }
-      .skill-note strong { color: var(--ink); font-weight: 600; }
-      .skill-note a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 
       /* examples */
       .examples-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
@@ -402,12 +318,13 @@
         font-family: 'Fraunces', Georgia, serif; font-style: italic;
         font-size: 15px; line-height: 1.4; color: var(--ink); flex: 1;
       }
-      .example .copy-icon {
+      .example .use-icon {
         color: var(--ink-3); flex: 0 0 auto;
         display: inline-flex; align-items: center; gap: 6px;
         font-family: 'JetBrains Mono', monospace; font-size: 11px;
       }
-      .example.copied .copy-icon { color: var(--accent-2); }
+      .example.used { border-color: var(--accent-2); }
+      .example.used .use-icon { color: var(--accent-2); }
 
       .examples-foot {
         display: flex; justify-content: space-between; align-items: center;
@@ -456,16 +373,32 @@
       }
       .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
+      /* foco visible — DESIGN.md §9 */
+      a:focus-visible, button:focus-visible {
+        outline: 2px solid var(--accent); outline-offset: 2px;
+      }
+
       /* responsive */
       @media (max-width: 880px) {
-        .hero h1 { font-size: 44px; }
         .hero-grid { grid-template-columns: 1fr; gap: 36px; }
         .qr-card { display: none; }
-        .options { grid-template-columns: 1fr; }
         .examples-grid { grid-template-columns: 1fr; }
         .foot-grid { grid-template-columns: 1fr; }
         .section-sub { display: none; }
         .shell, .topbar { padding-left: 20px; padding-right: 20px; }
+        .topbar { flex-wrap: wrap; gap: 12px; }
+      }
+
+      /* objetivos táctiles de 44px en punteros gruesos — DESIGN.md §8 */
+      @media (pointer: coarse) {
+        .btn, .ai-btn, .terminal-copy, .example { min-height: 44px; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+          animation-duration: .01ms !important; animation-iteration-count: 1 !important;
+          transition-duration: .01ms !important; scroll-behavior: auto !important;
+        }
       }
     </style>
   </head>
@@ -493,14 +426,11 @@
         <div class="shell">
           <div class="hero-grid">
             <div>
-              <div class="hero-eyebrow">
-                <span class="pip" aria-hidden="true"></span>
-                <a href="https://www3.gobiernodecanarias.org/medusa/ecoescuela/ate/" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">Área de Tecnología Educativa</a>
-              </div>
-              <h1>Normativa<br>educativa <em>canaria</em><br>para tu IA.</h1>
+              <h1>Normativa educativa <em>canaria</em> para tu IA.</h1>
               <p class="lead">
-                Resumen estructurado de la normativa y currículos oficiales (Infantil a Bachillerato y FP)
-                optimizado para usarse como <strong>contexto en sistemas de inteligencia artificial</strong>.
+                Resumen estructurado de la normativa y los currículos oficiales, de Infantil, Primaria,
+                Secundaria, Bachillerato y FP, preparado para usarse como
+                <strong>contexto en cualquier asistente de inteligencia artificial</strong>.
               </p>
               <div class="hero-actions">
                 <a class="btn primary" href="#opciones">¿Cómo usarlo?</a>
@@ -538,24 +468,30 @@
         <div class="shell">
           <div class="section-head">
             <span class="section-num">§ 01</span>
-            <h2 class="section-title">Pega el prompt en tu IA<span class="dot">.</span></h2>
+            <h2 class="section-title">Escribe tu pregunta y pégala en tu IA<span class="dot">.</span></h2>
             <p class="section-sub">Lo más rápido. Funciona en cualquier asistente sin instalar nada.</p>
           </div>
 
           <div class="prompt-block">
-            <div class="terminal wide" data-copy-source="prompt-body">
+            <div class="ask">
+              <label for="pregunta">Tu pregunta</label>
+              <textarea id="pregunta" rows="2"
+                placeholder="Ej.: ¿Qué competencias específicas tiene Matemáticas en 3.º de Primaria?"></textarea>
+            </div>
+
+            <div class="terminal wide">
               <div class="terminal-head">
                 <div class="terminal-dots"><span></span><span></span><span></span></div>
-                <div>prompt.txt</div>
+                <button class="terminal-copy" type="button" id="copy-prompt" aria-label="Copiar prompt al portapapeles">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                  <span id="copy-prompt-label">Copiar prompt</span>
+                </button>
               </div>
 <pre class="terminal-body" id="prompt-body">Usa este índice como mapa de la normativa educativa de Canarias:
 https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt
 
-Mi pregunta es: [ESCRIBE AQUÍ TU DUDA]</pre>
-              <div class="terminal-foot">
-                <span data-stats-for="prompt-body">7 líneas · 0 chars</span>
-                <button type="button" data-copy-target="prompt-body" data-toast="Prompt copiado">⎘ copiar prompt</button>
-              </div>
+Mi pregunta es: <span id="prompt-question">[ESCRIBE AQUÍ TU DUDA]</span></pre>
+              <div class="terminal-foot">Se actualiza con lo que escribas arriba.</div>
             </div>
 
             <div class="ai-row">
@@ -612,20 +548,70 @@ Mi pregunta es: [ESCRIBE AQUÍ TU DUDA]</pre>
         </div>
       </section>
 
-      <!-- §02 — Skill experto (técnico, uso recurrente) -->
-      <section class="section" id="skill-experto">
+      <!-- §02 — Examples -->
+      <section class="section">
         <div class="shell">
           <div class="section-head">
             <span class="section-num">§ 02</span>
+            <h2 class="section-title">Preguntas de ejemplo<span class="dot">.</span></h2>
+            <p class="section-sub">Toca cualquiera para usarla como tu pregunta.</p>
+          </div>
+
+          <!-- La lista inicial se sirve en HTML para que funcione sin JavaScript;
+               el botón «Ver otros ejemplos» la reescribe con la API del DOM. -->
+          <div class="examples-grid" id="examples-list">
+            <button type="button" class="example" data-q="Dime las competencias específicas de Matemáticas en 3.º de Primaria.">
+              <span class="num">01</span>
+              <span class="q">Dime las competencias específicas de Matemáticas en 3.º de Primaria.</span>
+              <span class="use-icon">↑ usar</span>
+            </button>
+            <button type="button" class="example" data-q="¿Qué dice la LOMLOE sobre la promoción en Primaria?">
+              <span class="num">02</span>
+              <span class="q">¿Qué dice la LOMLOE sobre la promoción en Primaria?</span>
+              <span class="use-icon">↑ usar</span>
+            </button>
+            <button type="button" class="example" data-q="¿Cómo se evalúa al alumnado en las Aulas Enclave?">
+              <span class="num">03</span>
+              <span class="q">¿Cómo se evalúa al alumnado en las Aulas Enclave?</span>
+              <span class="use-icon">↑ usar</span>
+            </button>
+            <button type="button" class="example" data-q="¿Qué ratio hay en las escuelas infantiles de 0 a 3 años?">
+              <span class="num">04</span>
+              <span class="q">¿Qué ratio hay en las escuelas infantiles de 0 a 3 años?</span>
+              <span class="use-icon">↑ usar</span>
+            </button>
+            <button type="button" class="example" data-q="¿Está vigente el Decreto de convivencia 114/2011?">
+              <span class="num">05</span>
+              <span class="q">¿Está vigente el Decreto de convivencia 114/2011?</span>
+              <span class="use-icon">↑ usar</span>
+            </button>
+            <button type="button" class="example" data-q="Extrae el currículo de Literatura Canaria en Bachillerato.">
+              <span class="num">06</span>
+              <span class="q">Extrae el currículo de Literatura Canaria en Bachillerato.</span>
+              <span class="use-icon">↑ usar</span>
+            </button>
+          </div>
+
+          <div class="examples-foot">
+            <span>Ideas rápidas para probar el corpus con una IA.</span>
+            <button class="btn sm" id="toggle-examples" type="button">↻ Ver otros ejemplos</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- §03 — Skill experto (técnico, uso recurrente) -->
+      <section class="section" id="skill-experto">
+        <div class="shell">
+          <div class="section-head">
+            <span class="section-num">§ 03</span>
             <h2 class="section-title">¿Vas a usarlo a menudo? Instala el skill experto<span class="dot">.</span></h2>
-            <p class="section-sub">Configuración avanzada. La IA recordará el rol en futuras conversaciones.</p>
           </div>
 
           <div class="skill-block">
             <p class="skill-intro">
-              El <strong>skill experto</strong> es un bloque de instrucciones que enseña a la IA a citar siempre la
-              norma exacta, distinguir literal de interpretación, y seguir un formato de respuesta consistente. Una vez
-              instalado, no necesitas pegar el prompt en cada chat.
+              El <strong>skill experto</strong> enseña a la IA a citar siempre la norma exacta y a distinguir el
+              texto literal de la interpretación, sin tener que pegar el prompt en cada conversación. Copia el
+              skill en tu asistente de IA:
             </p>
 
             <div class="skill-actions">
@@ -637,24 +623,6 @@ Mi pregunta es: [ESCRIBE AQUÍ TU DUDA]</pre>
                 Guía paso a paso por plataforma →
               </a>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- §03 — Examples -->
-      <section class="section">
-        <div class="shell">
-          <div class="section-head">
-            <span class="section-num">§ 03</span>
-            <h2 class="section-title">Preguntas de ejemplo<span class="dot">.</span></h2>
-            <p class="section-sub">Toca cualquiera para copiar la pregunta al portapapeles.</p>
-          </div>
-
-          <div class="examples-grid" id="examples-list" aria-live="polite"></div>
-
-          <div class="examples-foot">
-            <span>Ideas rápidas para probar el corpus con una IA.</span>
-            <button class="btn sm" id="toggle-examples" type="button">↻ Ver otros ejemplos</button>
           </div>
         </div>
       </section>
@@ -683,43 +651,20 @@ Mi pregunta es: [ESCRIBE AQUÍ TU DUDA]</pre>
         </div>
         <div class="foot-bottom">
           <span>Hecho con <span class="heart" role="img" aria-label="amor">❤️</span> por <a href="https://www3.gobiernodecanarias.org/medusa/ecoescuela/ate/" target="_blank" rel="noopener">Área de Tecnología Educativa</a></span>
-          <span class="mono">v.2026 · CC0 1.0</span>
+          <span class="mono" id="foot-meta">v.2026 · CC0 1.0</span>
         </div>
       </div>
     </footer>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <div class="manual-modal" id="manual-ai-modal" aria-hidden="true">
-      <div class="manual-modal-panel" role="dialog" aria-modal="true" aria-labelledby="manual-ai-title">
-        <h3 class="manual-modal-title" id="manual-ai-title">Pegar prompt manualmente</h3>
-        <p class="manual-modal-text" id="manual-ai-text"></p>
-        <div class="manual-modal-actions">
-          <button type="button" data-manual-cancel>Cancelar</button>
-          <button class="primary" type="button" data-manual-open>Abrir IA</button>
-        </div>
-      </div>
-    </div>
 
     <script>
       (function () {
-        var SITE_URL  = "https://ateeducacion.github.io/normativa_educativa_canaria/";
-        var SKILL_URL = "https://ateeducacion.github.io/normativa_educativa_canaria/SKILL.md";
+        var SITE_URL = "https://ateeducacion.github.io/normativa_educativa_canaria/";
+        var API_COMMITS = "https://api.github.com/repos/ateeducacion/normativa_educativa_canaria/commits?per_page=1";
+        var PLACEHOLDER = "[ESCRIBE AQUÍ TU DUDA]";
 
-        var SKILL_INSTRUCTION = "Carga estas instrucciones como contexto del experto:\n" +
-          SKILL_URL + "\n\n" +
-          "Con ellas, actúa como experto en normativa educativa de Canarias y cita siempre\n" +
-          "el nombre oficial de la norma y el artículo/anexo exacto.";
-
-
-        var EXAMPLES = [
-          "Dime las competencias específicas de Matemáticas en 3.º de Primaria.",
-          "¿Qué dice la LOMLOE sobre la promoción en Primaria?",
-          "¿Cómo se evalúa al alumnado en las Aulas Enclave?",
-          "¿Qué ratio hay en las escuelas infantiles de 0 a 3 años?",
-          "¿Está vigente el Decreto de convivencia 114/2011?",
-          "Extrae el currículo de Literatura Canaria en Bachillerato."
-        ];
-
+        // La lista inicial de ejemplos se sirve en el HTML; aquí solo la alternativa.
         var EXAMPLES_ALT = [
           "¿Qué documentos forman el Proyecto Educativo de Centro?",
           "Resume las funciones del tutor según la normativa canaria.",
@@ -765,7 +710,7 @@ Mi pregunta es: [ESCRIBE AQUÍ TU DUDA]</pre>
             text: SITE_URL,
             width: 200,
             height: 200,
-            colorDark: "#161513",
+            colorDark: "#0E1A2E",
             colorLight: "#ffffff",
             correctLevel: window.QRCode.CorrectLevel.M
           });
@@ -776,161 +721,150 @@ Mi pregunta es: [ESCRIBE AQUÍ TU DUDA]</pre>
           document.addEventListener('DOMContentLoaded', renderQR);
         }
 
-        // ── terminal stats ───────────────────────────────
-        document.querySelectorAll('[data-stats-for]').forEach(function (el) {
-          var src = document.getElementById(el.getAttribute('data-stats-for'));
-          if (!src) return;
-          var text = src.textContent || '';
-          var lines = text.split('\n').length;
-          el.textContent = lines + ' líneas · ' + text.length + ' chars';
-        });
+        // ── pregunta del usuario ↔ prompt en vivo ────────
+        var askEl = document.getElementById('pregunta');
+        var questionEl = document.getElementById('prompt-question');
+        var promptEl = document.getElementById('prompt-body');
 
-        // ── copy buttons (terminals) ─────────────────────
-        document.querySelectorAll('[data-copy-target]').forEach(function (btn) {
-          btn.addEventListener('click', function () {
-            var target = document.getElementById(btn.getAttribute('data-copy-target'));
-            if (!target) return;
-            var text = target.textContent || '';
-            copyToClipboard(text).then(function () {
-              var prev = btn.innerHTML;
-              btn.classList.add('copied');
-              btn.innerHTML = '✓ copiado';
-              showToast(btn.getAttribute('data-toast') || 'Copiado');
-              setTimeout(function () {
-                btn.classList.remove('copied');
-                btn.innerHTML = prev;
-              }, 1400);
-            });
-          });
-        });
-
-
-        // ── AI launchers ─────────────────────────────────
-        // Always copy the prompt to clipboard AND open the chat URL with the
-        // prompt URL-encoded into ?q=. Some platforms ignore ?q= silently —
-        // the clipboard copy is the safety net so the user can just paste.
-        var manualModal = document.getElementById('manual-ai-modal');
-        var manualText = document.getElementById('manual-ai-text');
-        var manualOpen = manualModal ? manualModal.querySelector('[data-manual-open]') : null;
-        var manualCancel = manualModal ? manualModal.querySelector('[data-manual-cancel]') : null;
-        var pendingManualUrl = '';
-        var pendingManualName = '';
-
-        function closeManualModal() {
-          if (!manualModal) return;
-          manualModal.classList.remove('is-open');
-          manualModal.setAttribute('aria-hidden', 'true');
-          pendingManualUrl = '';
-          pendingManualName = '';
+        // El <pre> contiene el prompt completo, así que su textContent es
+        // exactamente lo que hay que copiar o enviar a la IA.
+        function currentPrompt() {
+          return promptEl ? (promptEl.textContent || '') : '';
         }
 
-        function openManualModal(name, url) {
-          if (!manualModal || !manualText || !manualOpen) return;
-          pendingManualUrl = url;
-          pendingManualName = name;
-          manualText.textContent = name + ' no permite pasar el prompt automaticamente por URL. Ya lo hemos copiado: abre ' + name + ' y pegalo manualmente en el chat.';
-          manualOpen.textContent = 'Abrir ' + name;
-          manualModal.classList.add('is-open');
-          manualModal.setAttribute('aria-hidden', 'false');
-          manualOpen.focus();
+        function syncPrompt() {
+          if (!askEl || !questionEl) return;
+          questionEl.textContent = askEl.value.trim() || PLACEHOLDER;
         }
 
-        if (manualOpen) {
-          manualOpen.addEventListener('click', function () {
-            if (pendingManualUrl) {
-              window.open(pendingManualUrl, '_blank', 'noopener');
-              showToast('Abriendo ' + pendingManualName + ' · prompt copiado');
-            }
-            closeManualModal();
-          });
+        if (askEl) {
+          askEl.addEventListener('input', syncPrompt);
+          syncPrompt(); // el navegador puede restaurar el valor tras recargar
         }
-        if (manualCancel) manualCancel.addEventListener('click', closeManualModal);
-        if (manualModal) {
-          manualModal.addEventListener('click', function (e) {
-            if (e.target === manualModal) closeManualModal();
-          });
-          document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape' && manualModal.classList.contains('is-open')) closeManualModal();
+
+        // ── copiar prompt ────────────────────────────────
+        var copyBtn = document.getElementById('copy-prompt');
+        var copyLabel = document.getElementById('copy-prompt-label');
+        var copyTimer = null;
+        if (copyBtn && copyLabel) {
+          copyBtn.addEventListener('click', function () {
+            copyToClipboard(currentPrompt());
+            copyBtn.classList.add('copied');
+            copyLabel.textContent = 'Copiado';
+            showToast('Prompt copiado');
+            clearTimeout(copyTimer);
+            copyTimer = setTimeout(function () {
+              copyBtn.classList.remove('copied');
+              copyLabel.textContent = 'Copiar prompt';
+            }, 1400);
           });
         }
 
+
+        // ── lanzadores de IA ─────────────────────────────
+        // Se copia siempre el prompt al portapapeles Y se abre el chat con el
+        // prompt codificado en la URL. Algunas plataformas ignoran el parámetro
+        // en silencio: el portapapeles es la red de seguridad para pegarlo.
+        // La ventana se abre de forma síncrona dentro del gesto del usuario
+        // para que el bloqueador de ventanas emergentes no la cancele.
         document.querySelectorAll('.ai-btn[data-launch]').forEach(function (btn) {
           btn.addEventListener('click', function () {
-            var promptEl = document.getElementById('prompt-body');
-            var promptText = promptEl ? (promptEl.textContent || '') : '';
+            var promptText = currentPrompt();
             var name = btn.getAttribute('data-name') || 'IA';
-            var url = btn.getAttribute('data-launch');
-            var fullUrl = url + encodeURIComponent(promptText);
-
-            copyToClipboard(promptText).then(function () {
-              window.open(fullUrl, '_blank', 'noopener');
-              showToast('Abriendo ' + name + ' · prompt copiado por si hay que pegar');
-            });
+            copyToClipboard(promptText);
+            window.open(btn.getAttribute('data-launch') + encodeURIComponent(promptText), '_blank', 'noopener');
+            showToast('Abriendo ' + name + ' · prompt copiado');
           });
         });
 
+        // Plataformas sin parámetro de prompt en la URL: se abre la portada y
+        // se avisa de que hay que pegar el prompt a mano.
         document.querySelectorAll('.ai-btn[data-manual-launch]').forEach(function (btn) {
           btn.addEventListener('click', function () {
-            var promptEl = document.getElementById('prompt-body');
-            var promptText = promptEl ? (promptEl.textContent || '') : '';
             var name = btn.getAttribute('data-name') || 'IA';
-            var url = btn.getAttribute('data-manual-launch');
-
-            copyToClipboard(promptText).then(function () {
-              openManualModal(name, url);
-              showToast('Prompt copiado');
-            });
+            copyToClipboard(currentPrompt());
+            window.open(btn.getAttribute('data-manual-launch'), '_blank', 'noopener');
+            showToast('Prompt copiado · pégalo en ' + name);
           });
         });
 
-        // ── examples ─────────────────────────────────────
+        // ── ejemplos ─────────────────────────────────────
         var listEl = document.getElementById('examples-list');
         var toggleBtn = document.getElementById('toggle-examples');
         var altShown = false;
+        var usedTimer = null;
+
+        // La lista inicial está en el HTML: la leemos para poder restaurarla.
+        var EXAMPLES = listEl
+          ? Array.prototype.map.call(listEl.querySelectorAll('.example'), function (b) {
+              return b.getAttribute('data-q') || '';
+            })
+          : [];
+
+        function span(cls, text) {
+          var el = document.createElement('span');
+          el.className = cls;
+          el.textContent = text;
+          return el;
+        }
 
         function renderExamples() {
           if (!listEl) return;
           var items = altShown ? EXAMPLES_ALT : EXAMPLES;
-          listEl.innerHTML = items.map(function (q, i) {
-            var num = String(i + 1).padStart(2, '0');
-            var safe = q.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-            return '' +
-              '<button type="button" class="example" data-q="' + safe + '">' +
-                '<span class="num">' + num + '</span>' +
-                '<span class="q">"' + safe + '"</span>' +
-                '<span class="copy-icon">⎘ copiar</span>' +
-              '</button>';
-          }).join('');
+          var frag = document.createDocumentFragment();
+          items.forEach(function (q, i) {
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'example';
+            btn.setAttribute('data-q', q);
+            btn.appendChild(span('num', String(i + 1).padStart(2, '0')));
+            btn.appendChild(span('q', q));
+            btn.appendChild(span('use-icon', '↑ usar'));
+            frag.appendChild(btn);
+          });
+          listEl.replaceChildren(frag);
         }
-        renderExamples();
 
         if (toggleBtn) {
           toggleBtn.addEventListener('click', function () {
             altShown = !altShown;
             renderExamples();
-            toggleBtn.innerHTML = altShown ? '↻ Ver ejemplos iniciales' : '↻ Ver otros ejemplos';
+            toggleBtn.textContent = altShown ? '↻ Ver ejemplos iniciales' : '↻ Ver otros ejemplos';
           });
         }
 
-        if (listEl) {
+        if (listEl && askEl) {
           listEl.addEventListener('click', function (e) {
             var btn = e.target.closest('.example');
             if (!btn) return;
-            var q = btn.getAttribute('data-q') || '';
-            copyToClipboard('"' + q + '"').then(function () {
-              btn.classList.add('copied');
-              var icon = btn.querySelector('.copy-icon');
-              if (icon) {
-                var prev = icon.innerHTML;
-                icon.innerHTML = '✓ copiado';
-                setTimeout(function () {
-                  btn.classList.remove('copied');
-                  icon.innerHTML = prev;
-                }, 1400);
-              }
-              showToast('Pregunta copiada');
-            });
+            askEl.value = btn.getAttribute('data-q') || '';
+            syncPrompt();
+            // Desplazamiento mínimo: no salta si el campo ya está a la vista,
+            // pero el foco nunca queda fuera de pantalla al navegar por teclado.
+            askEl.focus({ preventScroll: true });
+            askEl.scrollIntoView({ block: 'nearest' });
+            listEl.querySelectorAll('.example.used').forEach(function (el) { el.classList.remove('used'); });
+            btn.classList.add('used');
+            clearTimeout(usedTimer);
+            usedTimer = setTimeout(function () { btn.classList.remove('used'); }, 1400);
+            showToast('Pregunta cargada arriba');
           });
+        }
+
+        // ── fecha de última actualización (silenciosa si falla) ──
+        var footMeta = document.getElementById('foot-meta');
+        if (footMeta) {
+          fetch(API_COMMITS)
+            .then(function (r) { return r.ok ? r.json() : null; })
+            .then(function (d) {
+              var c = d && d[0] && d[0].commit && d[0].commit.committer;
+              if (!c || !c.date) return;
+              var fecha = new Date(c.date).toLocaleDateString('es-ES', {
+                day: 'numeric', month: 'long', year: 'numeric'
+              });
+              footMeta.textContent = 'última actualización: ' + fecha + ' · v.2026 · CC0 1.0';
+            })
+            .catch(function () { /* sin conexión o límite de la API: se deja el texto base */ });
         }
       })();
     </script>
