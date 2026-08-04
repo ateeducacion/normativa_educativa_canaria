@@ -237,7 +237,9 @@
       .terminal-body::-webkit-scrollbar { width: 8px; height: 8px; }
       .terminal-body::-webkit-scrollbar-thumb { background: #ffffff22; border-radius: 4px; }
       .terminal-foot {
-        padding: 10px 14px; border-top: 1px solid #ffffff14; background: #091628;
+        display: flex; justify-content: space-between; align-items: center;
+        flex-wrap: wrap; gap: 10px;
+        padding: 8px 14px; border-top: 1px solid #ffffff14; background: #091628;
         /* #ffffff8c sobre #091628 ≈ 6:1 — el #ffffff66 del diseño se queda en 3.8:1 */
         font-size: 11px; color: #ffffff8c;
       }
@@ -503,16 +505,19 @@
             <div class="terminal wide">
               <div class="terminal-head">
                 <div class="terminal-dots"><span></span><span></span><span></span></div>
-                <button class="terminal-copy" type="button" id="copy-prompt" aria-label="Copiar prompt al portapapeles">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-                  <span id="copy-prompt-label">Copiar prompt</span>
-                </button>
+                <div>prompt.txt</div>
               </div>
 <pre class="terminal-body" id="prompt-body">Usa este índice como mapa de la normativa educativa de Canarias:
 https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt
 
 Mi pregunta es: <span id="prompt-question">[ESCRIBE AQUÍ TU DUDA]</span></pre>
-              <div class="terminal-foot">Se actualiza con lo que escribas arriba.</div>
+              <div class="terminal-foot">
+                <span>Se actualiza con lo que escribas arriba.</span>
+                <button class="terminal-copy" type="button" id="copy-prompt" aria-label="Copiar prompt al portapapeles">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                  <span id="copy-prompt-label">Copiar prompt</span>
+                </button>
+              </div>
             </div>
 
             <div class="ai-row">
