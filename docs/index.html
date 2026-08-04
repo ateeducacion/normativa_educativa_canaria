@@ -287,6 +287,27 @@
       }
       .ai-btn .glyph svg { width: 12px; height: 12px; fill: currentColor; display: block; }
 
+      /* aviso para las IA que no admiten el prompt en la URL */
+      .manual-dialog {
+        width: min(420px, calc(100vw - 40px));
+        border: 1px solid var(--rule-2); border-radius: 8px;
+        background: var(--paper); color: var(--ink);
+        box-shadow: 0 24px 80px rgba(14, 26, 46, .22);
+        padding: 22px;
+      }
+      .manual-dialog::backdrop { background: rgba(14, 26, 46, .52); }
+      .manual-dialog h3 {
+        margin: 0 0 8px;
+        font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+        font-size: 20px; line-height: 1.2; letter-spacing: -0.015em;
+      }
+      .manual-dialog p {
+        margin: 0; color: var(--ink-2); line-height: 1.55; font-size: 14px;
+      }
+      .manual-dialog form {
+        display: flex; justify-content: flex-end; gap: 10px; margin: 18px 0 0;
+      }
+
       /* full-width prompt + skill blocks */
       .prompt-block, .skill-block {
         display: flex; flex-direction: column; gap: 18px;
@@ -655,6 +676,15 @@ Mi pregunta es: <span id="prompt-question">[ESCRIBE AQUÍ TU DUDA]</span></pre>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+    <dialog class="manual-dialog" id="manual-ai-dialog" closedby="any" aria-labelledby="manual-ai-title">
+      <h3 id="manual-ai-title">Pegar el prompt a mano</h3>
+      <p id="manual-ai-text"></p>
+      <form method="dialog">
+        <button class="btn" type="submit">Cancelar</button>
+        <button class="btn primary" type="button" id="manual-ai-open" autofocus>Abrir IA</button>
+      </form>
+    </dialog>
+
     <script>
       (function () {
         var SITE_URL = "https://ateeducacion.github.io/normativa_educativa_canaria/";
@@ -774,16 +804,55 @@ Mi pregunta es: <span id="prompt-question">[ESCRIBE AQUÍ TU DUDA]</span></pre>
           });
         });
 
-        // Plataformas sin parámetro de prompt en la URL: se abre la portada y
-        // se avisa de que hay que pegar el prompt a mano.
-        document.querySelectorAll('.ai-btn[data-manual-launch]').forEach(function (btn) {
-          btn.addEventListener('click', function () {
-            var name = btn.getAttribute('data-name') || 'IA';
-            copyToClipboard(currentPrompt());
-            window.open(btn.getAttribute('data-manual-launch'), '_blank', 'noopener');
-            showToast('Prompt copiado · pégalo en ' + name);
+        // Plataformas sin parámetro de prompt en la URL (Copilot es hoy la única).
+        // Aquí no vale un toast: como el prompt no viaja en la URL, hay que
+        // avisar de que toca pegarlo a mano y que se lea antes de abrir la
+        // pestaña. showModal() aporta atrapamiento de foco y cierre con Escape.
+        var manualDialog = document.getElementById('manual-ai-dialog');
+        var manualText = document.getElementById('manual-ai-text');
+        var manualOpen = document.getElementById('manual-ai-open');
+        var pendingUrl = '';
+        var pendingName = '';
+
+        if (manualDialog && manualText && manualOpen) {
+          manualDialog.addEventListener('close', function () {
+            pendingUrl = '';
+            pendingName = '';
           });
-        });
+
+          manualOpen.addEventListener('click', function () {
+            // window.open dentro del propio clic, no en el evento 'close', para
+            // conservar el gesto del usuario frente al bloqueador de emergentes.
+            if (pendingUrl) {
+              window.open(pendingUrl, '_blank', 'noopener');
+              showToast('Abriendo ' + pendingName + ' · prompt copiado');
+            }
+            manualDialog.close();
+          });
+
+          // Safari aún no admite closedby: cierre manual al pulsar en el fondo.
+          if (!('closedBy' in HTMLDialogElement.prototype)) {
+            manualDialog.addEventListener('click', function (e) {
+              if (e.target !== manualDialog) return;
+              var r = manualDialog.getBoundingClientRect();
+              var dentro = e.clientX >= r.left && e.clientX <= r.right &&
+                           e.clientY >= r.top && e.clientY <= r.bottom;
+              if (!dentro) manualDialog.close();
+            });
+          }
+
+          document.querySelectorAll('.ai-btn[data-manual-launch]').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+              pendingName = btn.getAttribute('data-name') || 'IA';
+              pendingUrl = btn.getAttribute('data-manual-launch');
+              copyToClipboard(currentPrompt());
+              manualText.textContent = pendingName + ' no permite pasar el prompt por la URL. ' +
+                'Ya lo hemos copiado al portapapeles: abre ' + pendingName + ' y pégalo en el chat.';
+              manualOpen.textContent = 'Abrir ' + pendingName;
+              manualDialog.showModal();
+            });
+          });
+        }
 
         // ── ejemplos ─────────────────────────────────────
         var listEl = document.getElementById('examples-list');
