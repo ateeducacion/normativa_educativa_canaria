@@ -1,3 +1,12 @@
+---
+id: PREG-004
+titulo: "Verificación de resoluciones de última hora sobre el nuevo sistema de FP (Grados D y E)"
+estado: "Resuelta"
+fecha_registro: 2026-04-26
+fecha_resolucion: 2026-04-26
+relacionadas: [FTE-055, NOR-059]
+---
+
 # PREG-004: Verificación de resoluciones de última hora sobre el nuevo sistema de FP (Grados D y E)
 
 ## Estado

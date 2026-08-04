@@ -375,3 +375,17 @@ REL-057:
   destino: NOR-007
   fuente: FTE-074
   ruta: "05_relaciones/normativa/REL-057-protocolo-fp-fecam-desarrolla-lofp.yaml"
+
+REL-059:
+  tipo_relacion: "desarrolla"
+  origen: NOR-069
+  destino: NOR-007
+  fuente: FTE-076
+  ruta: "05_relaciones/normativa/REL-059-resolucion-2024-desarrolla-lofp.yaml"
+
+REL-060:
+  tipo_relacion: "modifica"
+  origen: NOR-070
+  destino: NOR-069
+  fuente: FTE-077
+  ruta: "05_relaciones/normativa/REL-060-resolucion-2026-modifica-fp-semipresencial-2024.yaml"

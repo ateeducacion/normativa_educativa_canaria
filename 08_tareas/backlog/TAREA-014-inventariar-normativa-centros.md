@@ -1,7 +1,7 @@
 ---
 id: TAREA-014
 titulo: "Inventariar y catalogar normativa de Centros y Organización y funcionamiento"
-estado: "Finalizada"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "analisis"
 responsable: "@.agents/skills/experto-normativa-canaria"

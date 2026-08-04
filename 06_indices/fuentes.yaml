@@ -663,3 +663,30 @@ FTE-074:
   fecha_consulta: 2026-07-07
   ruta: "01_fuentes/boc/FTE-074-boc-2026-129-protocolo-fp-fecam.md"
   estado_fuente: "Activa"
+
+FTE-075:
+  titulo: "BOC 2026/144 — Decreto 120/2026 sobre certificación, acreditación y reconocimiento de la competencia digital docente"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/144/2561.html"
+  fecha_consulta: 2026-07-20
+  ruta: "01_fuentes/boc/FTE-075-boc-2026-144-decreto-120-2026-competencia-digital-docente.md"
+  estado_fuente: "Activa"
+
+FTE-076:
+  titulo: "BOC 2024/251 — Resolución de 10 de diciembre de 2024 sobre FP semipresencial y virtual de Grados C, D y E"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2024/251/4224.html"
+  fecha_consulta: 2026-07-27
+  ruta: "01_fuentes/boc/FTE-076-boc-2024-251-fp-semipresencial-virtual.md"
+  estado_fuente: "Activa"
+
+FTE-077:
+  titulo: "BOC 2026/144 — Resolución de 8 de julio de 2026 que modifica las instrucciones de FP semipresencial y virtual"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/144/2567.html"
+  fecha_consulta: 2026-07-27
+  ruta: "01_fuentes/boc/FTE-077-boc-2026-144-modificacion-fp-semipresencial-virtual.md"
+  estado_fuente: "Activa"

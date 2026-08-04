@@ -1,7 +1,7 @@
 ---
 id: TAREA-011
 titulo: "Cotejar el anexo de Biología y Geología del Decreto 30/2023 contra la extracción inicial de CUR-001"
-estado: "Finalizada"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"

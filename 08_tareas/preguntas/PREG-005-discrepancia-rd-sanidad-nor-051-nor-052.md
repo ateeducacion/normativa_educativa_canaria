@@ -1,3 +1,12 @@
+---
+id: PREG-005
+titulo: "Discrepancia en números de RD de ciclos de Sanidad (NOR-051 y NOR-052)"
+estado: "Resuelta"
+fecha_registro: 2026-04-26
+fecha_resolucion: 2026-04-26
+relacionadas: [NOR-051, NOR-052, CUR-046, CUR-047]
+---
+
 # PREG-005: Discrepancia en números de RD de ciclos de Sanidad (NOR-051 y NOR-052)
 
 ## Estado

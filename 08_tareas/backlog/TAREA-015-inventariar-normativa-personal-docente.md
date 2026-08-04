@@ -1,7 +1,7 @@
 ---
 id: TAREA-015
 titulo: "Inventariar y catalogar normativa de Personal docente"
-estado: "Finalizada"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "analisis"
 responsable: "@.agents/skills/experto-normativa-canaria"
