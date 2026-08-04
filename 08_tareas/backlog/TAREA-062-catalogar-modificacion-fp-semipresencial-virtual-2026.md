@@ -1,12 +1,13 @@
 ---
 id: TAREA-062
 titulo: "Catalogar y analizar la modificación de la FP semipresencial y virtual publicada en el BOC 2026/144"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "catalogacion"
 responsable: "@.agents/skills/analisis-normativo"
 fecha_creacion: 2026-07-27
-fecha_actualizacion: 2026-07-27
+fecha_actualizacion: 2026-08-05
+fecha_cierre: 2026-08-05
 relacionadas: [FTE-076, FTE-077, NOR-069, NOR-070, REL-059, REL-060]
 ---
 
@@ -25,11 +26,15 @@ Resolver la novedad detectada por el monitor en el PR 31: catalogar la Resoluci�
 - Relaciones registradas como `REL-059` y `REL-060`.
 - Análisis comparativo añadido en `04_analisis/formacion-profesional/`.
 
-## Pendiente para cierre
+## Cierre
 
-- Incorporar las nuevas entidades a los índices YAML canónicos.
-- Actualizar `status.yaml` sin interferir con `TAREA-061`, que permanece en progreso.
-- Ejecutar la validación completa de YAML y los controles de calidad del repositorio.
+Los tres puntos pendientes quedaron resueltos en `TAREA-063`:
+
+- `FTE-076`, `FTE-077`, `NOR-069`, `NOR-070`, `REL-059` y `REL-060` incorporados a sus índices canónicos.
+- `status.yaml` actualizado.
+- Validación completa ejecutada con `11_calidad/validar_corpus.py`: 0 errores.
+
+Tarea cerrada el 2026-08-05.
 
 ## Coordinación con trabajo paralelo
 

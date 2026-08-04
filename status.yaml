@@ -1010,6 +1010,35 @@ tareas:
     - NOR-067
     - REL-057
     siguiente_accion: null
+  TAREA-061:
+    titulo: "Catalogar novedades del monitor del 2026-07-20 y Decreto 120/2026 sobre competencia digital docente"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "catalogacion"
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-07-20
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - FTE-075
+    - NOR-068
+    - REL-058
+    siguiente_accion: null
+  TAREA-062:
+    titulo: "Catalogar y analizar la modificación de la FP semipresencial y virtual publicada en el BOC 2026/144"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "catalogacion"
+    responsable: '@.agents/skills/analisis-normativo'
+    fecha_creacion: 2026-07-27
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - FTE-076
+    - FTE-077
+    - NOR-069
+    - NOR-070
+    - REL-059
+    - REL-060
+    siguiente_accion: null
   TAREA-063:
     titulo: "Hacer descubribles las skills del repositorio y poner en marcha la validación automática del corpus"
     estado: "Hecha"
@@ -1023,6 +1052,19 @@ tareas:
     - TAREA-061
     - TAREA-062
     siguiente_accion: null
+
+  TAREA-064:
+    titulo: "Verificar la catalogación de las tres resoluciones de FP detectadas por el monitor en TAREA-061"
+    estado: "Pendiente"
+    prioridad: "Media"
+    tipo: "catalogacion"
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - TAREA-061
+    - TAREA-063
+    siguiente_accion: "Identificar las tres resoluciones en el snapshot del monitor y comprobar si ya tienen ficha NOR."
 
 bloqueos: []
 reglas:

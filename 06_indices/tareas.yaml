@@ -1088,7 +1088,7 @@ TAREA-060:
 
 TAREA-061:
   titulo: "Catalogar novedades del monitor del 2026-07-20 y Decreto 120/2026 sobre competencia digital docente"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "catalogacion"
   responsable: "@.agents/skills/catalogacion-fuentes"
@@ -1102,7 +1102,7 @@ TAREA-061:
 
 TAREA-062:
   titulo: "Catalogar y analizar la modificación de la FP semipresencial y virtual publicada en el BOC 2026/144"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "catalogacion"
   responsable: "@.agents/skills/analisis-normativo"
@@ -1130,4 +1130,17 @@ TAREA-063:
   - TAREA-061
   - TAREA-062
   ruta: 08_tareas/backlog/TAREA-063-skills-descubribles-y-validacion-corpus.md
+
+TAREA-064:
+  titulo: "Verificar la catalogación de las tres resoluciones de FP detectadas por el monitor en TAREA-061"
+  estado: "Pendiente"
+  prioridad: "Media"
+  tipo: "catalogacion"
+  responsable: '@.agents/skills/catalogacion-fuentes'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - TAREA-061
+  - TAREA-063
+  ruta: 08_tareas/backlog/TAREA-064-verificar-catalogacion-resoluciones-fp-monitor.md
 
