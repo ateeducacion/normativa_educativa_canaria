@@ -5,7 +5,6 @@ Este directorio contiene la versión estática y mantenible del panel público d
 ## Contenido principal
 
 - `index.html`: panel principal del corpus.
-- `skill.html`: skill copiable para asistentes de IA.
 - `assets/css/site.css`: estilos estáticos.
 - `assets/js/site.js`: filtro cliente sin backend.
 - `esquema-datos/`, `guias/`, `metodologia/`: documentación complementaria.

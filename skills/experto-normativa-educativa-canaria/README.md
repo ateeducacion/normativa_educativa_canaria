@@ -10,7 +10,7 @@ Skill copiable para Claude, Claude Code, ChatGPT, Gemini, Copilot, Codex, Cursor
 
 ## Versión publicada
 
-La página estática con copia un clic está disponible en: <https://ateeducacion.github.io/normativa_educativa_canaria/skill.html>
+El texto de la skill está publicado en: <https://ateeducacion.github.io/normativa_educativa_canaria/SKILL.md>
 
 ## Uso resumido
 

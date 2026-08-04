@@ -74,7 +74,7 @@ Los índices `.yaml` son ficheros estructurados legibles por humanos y máquinas
 
 ## Mapa De Consultas Frecuentes Del Portal
 
-Si la pregunta coincide con los ejemplos públicos del portal o de `skill.html`, use este patrón:
+Si la pregunta coincide con los ejemplos públicos del portal, use este patrón:
 
 - **Pregunta**
 - **Norma principal o precepto inicial**
@@ -171,7 +171,7 @@ Consultas priorizadas:
 
 ## Reglas De Uso Para IA
 
-- [Skill copiable "Experto en normativa educativa de Canarias"](https://ateeducacion.github.io/normativa_educativa_canaria/skill.html)
+- [Skill copiable "Experto en normativa educativa de Canarias"](https://ateeducacion.github.io/normativa_educativa_canaria/SKILL.md)
 - [Skill canónica en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/skills/experto-normativa-educativa-canaria)
 - [Disciplina de evidencia](https://ateeducacion.github.io/normativa_educativa_canaria/metodologia/disciplina-evidencia.md)
 - [Metodología, criterios y glosario](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio)
