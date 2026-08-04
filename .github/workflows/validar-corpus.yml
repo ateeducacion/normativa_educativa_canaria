@@ -1,0 +1,60 @@
+name: Validar corpus
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "01_fuentes/**"
+      - "02_normativa/**"
+      - "03_curriculos/**"
+      - "05_relaciones/**"
+      - "06_indices/**"
+      - "08_tareas/**"
+      - "schemas/**"
+      - "11_calidad/validar_corpus.py"
+      - ".github/workflows/validar-corpus.yml"
+  pull_request:
+    paths:
+      - "01_fuentes/**"
+      - "02_normativa/**"
+      - "03_curriculos/**"
+      - "05_relaciones/**"
+      - "06_indices/**"
+      - "08_tareas/**"
+      - "schemas/**"
+      - "11_calidad/validar_corpus.py"
+      - ".github/workflows/validar-corpus.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    name: Esquemas e índices
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Preparar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install --quiet pyyaml jsonschema
+
+      - name: Validar corpus contra schemas/ e índices
+        run: python3 11_calidad/validar_corpus.py
+
+      - name: Resumen para el informe de ejecución
+        if: always()
+        run: |
+          {
+            echo '## Validación del corpus'
+            echo
+            echo '```'
+            python3 11_calidad/validar_corpus.py --sin-avisos || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

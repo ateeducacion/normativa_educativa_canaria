@@ -1,8 +1,16 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
 additionalProperties: false
 
+# El corpus contiene hoy dos formas de ficha curricular:
+#   A) currículo completo, con `elementos`, `cursos`, `url_oficial` y `resumen_ia`;
+#   B) extracción por bloques, con `competencias_especificas`, `bloques_saberes`
+#      y `criterios_evaluacion` en la raíz (más `familia_profesional` y `grado` en FP).
+# `required` recoge el núcleo común a ambas. La convergencia de las dos formas está
+# registrada como PREG-007; hasta resolverla, el esquema admite las dos y el
+# validador avisa de los campos recomendados que falten.
+
 type: object
-required: [id, titulo, etapa, materia, cursos, norma_base, fuente, url_oficial, fecha_consulta, fecha_analisis, estado_extraccion, estado_vigencia, elementos, relaciones, resumen_ia, observaciones]
+required: [id, titulo, etapa, materia, norma_base, fuente, observaciones]
 properties:
   id:
     type: string
@@ -11,7 +19,7 @@ properties:
     type: string
   etapa:
     type: string
-    enum: [infantil, primaria, eso, bachillerato, formacion-profesional, regimen-especial]
+    enum: [infantil, primaria, eso, bachillerato, formacion-profesional, fp, regimen-especial]
   materia:
     type: string
   ambito:
@@ -33,28 +41,47 @@ properties:
     type: [string, 'null']
   estado_extraccion:
     type: string
-    enum: [Pendiente, En análisis, Extraído parcialmente, Extraído, Revisado, Obsoleto]
+    enum: [pendiente, en-analisis, parcial, completado, revisado, obsoleto]
   estado_vigencia:
     type: string
-    enum: [Vigente, Vigente con modificaciones, Parcialmente vigente, Derogada, Derogada parcialmente, Sustituida, Histórica, Pendiente de verificación, No normativa]
+    pattern: '^(Vigente|Derogada|Derogada parcialmente|Parcialmente vigente|Superada|Superada parcialmente|Sustituida|Histórica|Pendiente de verificación|No normativa)(\b.*)?$'
+
+  # Forma A — currículo completo
   elementos:
     type: object
     additionalProperties: false
-    required: [competencias_especificas, criterios_evaluacion, saberes_basicos, descriptores_operativos, situaciones_aprendizaje]
     properties:
-      competencias_especificas: {type: array, items: {type: string}}
-      criterios_evaluacion: {type: array, items: {type: string}}
-      saberes_basicos: {type: array, items: {type: string}}
-      descriptores_operativos: {type: array, items: {type: string}}
-      situaciones_aprendizaje: {type: array, items: {type: string}}
+      competencias_especificas: {type: array}
+      criterios_evaluacion: {type: array}
+      saberes_basicos: {type: array}
+      descriptores_operativos: {type: array}
+      situaciones_aprendizaje: {type: array}
+      # Los ciclos de FP se organizan por módulos, no por saberes básicos.
+      modulos_profesionales: {type: array}
+      modulos_comunes_base: {type: array}
+      nota: {type: [string, 'null']}
+  resumen_ia:
+    type: string
+
+  # Forma B — extracción por bloques
+  competencias_especificas:
+    type: array
+  bloques_saberes:
+    type: array
+  criterios_evaluacion:
+    type: array
+  familia_profesional:
+    type: string
+  grado:
+    type: string
+  nota_logse:
+    type: [string, 'null']
+
   relaciones:
     type: object
     additionalProperties: false
-    required: [desarrolla_a, relacionada_con]
     properties:
       desarrolla_a: {type: array, items: {type: string}}
       relacionada_con: {type: array, items: {type: string}}
-  resumen_ia:
-    type: string
   observaciones:
     type: [string, 'null']

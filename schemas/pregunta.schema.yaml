@@ -1,8 +1,12 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
 additionalProperties: false
 
+# La descripción de la duda vive en el cuerpo Markdown de la ficha, no en el
+# frontmatter, así que no se exige aquí. `fecha_resolucion` acompaña a los
+# estados Resuelta y Cerrada.
+
 type: object
-required: [id, titulo, estado, fecha_registro, relacionadas, descripcion]
+required: [id, titulo, estado, fecha_registro, relacionadas]
 properties:
   id:
     type: string
@@ -14,6 +18,8 @@ properties:
     enum: [Abierta, En revisión, Resuelta, Cerrada]
   fecha_registro:
     type: string
+  fecha_resolucion:
+    type: [string, 'null']
   relacionadas:
     type: array
     items:

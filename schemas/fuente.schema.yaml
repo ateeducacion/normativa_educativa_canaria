@@ -1,8 +1,13 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
 additionalProperties: false
 
+# `required` refleja lo que AGENTS.md §7 exige para dar de alta una fuente.
+# `nivel_evidencia`, `relacionadas` y `fecha_analisis` son recomendados, no
+# obligatorios: una fuente recién catalogada puede no tener aún análisis ni
+# relaciones. El validador los reporta como aviso (11_calidad/validar_corpus.py).
+
 type: object
-required: [id, titulo, tipo_fuente, autoridad, url_oficial, fecha_consulta, estado_fuente, nivel_evidencia, relacionadas]
+required: [id, titulo, tipo_fuente, autoridad, url_oficial, fecha_consulta]
 properties:
   id:
     type: string
@@ -21,11 +26,22 @@ properties:
     type: [string, 'null']
   estado_fuente:
     type: string
-    enum: [Activa, Histórica, Pendiente de verificación]
+    enum: [Activa, Histórica, Superada, Pendiente de verificación]
   nivel_evidencia:
     type: string
-    enum: [confirmado-fuente-primaria, confirmado-fuente-secundaria-oficial, inferido, hipotesis, opinion-experta]
+    enum: [confirmado-fuente-primaria, confirmado-fuente-secundaria-oficial, inferido, hipotesis, opinion-experta, pendiente-verificacion]
   relacionadas:
     type: array
     items:
       type: string
+  ruta:
+    type: string
+  texto_oficial:
+    type: object
+    additionalProperties: false
+    properties:
+      url_html: {type: string}
+      url_pdf: {type: string}
+      url_texto_consolidado: {type: string}
+      url_anexo: {type: string}
+      ruta_texto_plano_local: {type: string}

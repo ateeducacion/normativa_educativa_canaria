@@ -1,8 +1,12 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
 additionalProperties: false
 
+# `siguiente_accion` y `fecha_cierre` son opcionales: una tarea cerrada no tiene
+# acción siguiente, y sólo las que se cerraron formalmente llevan fecha de cierre.
+# El enum de `estado` recoge el vocabulario realmente usado en el backlog.
+
 type: object
-required: [id, titulo, estado, prioridad, tipo, responsable, fecha_creacion, fecha_actualizacion, relacionadas, siguiente_accion]
+required: [id, titulo, estado, tipo, fecha_creacion, fecha_actualizacion, relacionadas]
 properties:
   id:
     type: string
@@ -11,7 +15,7 @@ properties:
     type: string
   estado:
     type: string
-    enum: [Pendiente, En curso, Hecha, Bloqueada]
+    enum: [Pendiente, En progreso, Hecha, Bloqueada]
   prioridad:
     type: string
     enum: [Crítica, Alta, Media, Baja]
@@ -23,6 +27,8 @@ properties:
     type: string
   fecha_actualizacion:
     type: string
+  fecha_cierre:
+    type: [string, 'null']
   relacionadas:
     type: array
     items:

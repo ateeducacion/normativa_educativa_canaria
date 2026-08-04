@@ -1,8 +1,12 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
 additionalProperties: false
 
+# `required` recoge lo que AGENTS.md §11 exige para registrar una relación:
+# tipo, origen, destino, evidencia, fecha de registro y nivel de evidencia.
+# `observaciones` es metadato opcional y ha dejado de ser obligatorio.
+
 type: object
-required: [id, tipo_relacion, origen, destino, descripcion, evidencia, fecha_registro, nivel_evidencia, observaciones]
+required: [id, tipo_relacion, origen, destino, descripcion, evidencia, fecha_registro, nivel_evidencia]
 properties:
   id:
     type: string
@@ -30,6 +34,6 @@ properties:
     type: string
   nivel_evidencia:
     type: string
-    enum: [confirmado-fuente-primaria, confirmado-fuente-secundaria-oficial, inferido, hipotesis, opinion-experta]
+    enum: [confirmado-fuente-primaria, confirmado-fuente-secundaria-oficial, inferido, hipotesis, opinion-experta, pendiente-verificacion]
   observaciones:
     type: [string, 'null']
