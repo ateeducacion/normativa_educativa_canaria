@@ -1,9 +1,10 @@
 ---
 id: PREG-007
 titulo: "Convergencia de las dos formas de ficha curricular y del valor de etapa para FP"
-estado: "Abierta"
+estado: "Resuelta"
 fecha_registro: 2026-08-05
-relacionadas: [TAREA-063, CUR-046, CUR-048, CUR-052]
+fecha_resolucion: 2026-08-05
+relacionadas: [DEC-0007, TAREA-063, TAREA-065, TAREA-066, TAREA-067, TAREA-068, TAREA-069]
 ---
 
 # PREG-007 — Convergencia de las dos formas de ficha curricular
@@ -48,3 +49,26 @@ dos estructuras encarece cualquier consumo automático del corpus (RAG, exports,
 No requiere fuente oficial externa: es una decisión editorial interna del repositorio. Al
 resolverse debería registrarse como `DEC-NNNN` en `09_decisiones-editoriales/` y, si implica
 migración, abrir la `TAREA-NNN` correspondiente.
+
+## Respuesta (2026-08-05)
+
+Resuelta en `DEC-0007`, tras comprobar que el problema era mayor de lo que planteaba esta
+pregunta: las 32 fichas de la Forma B no solo tenían otra estructura, sino que carecían de
+`fecha_consulta` (R4), `estado_vigencia` (R3) y `url_oficial`.
+
+1. **¿Convergen las dos formas?** Sí, en el contenedor. Todas las fichas agrupan su contenido
+   bajo `elementos`. Lo que no converge es el modelo de contenido, y no debe hacerlo: el
+   régimen general se ordena por competencias y saberes, y la Formación Profesional por módulos
+   profesionales con resultados de aprendizaje. Los cuatro elementos de `DEC-0004` no se
+   aplican a FP.
+2. **¿Quién migra?** Ya está hecho en `TAREA-065`: las 32 fichas se normalizaron y sus
+   metadatos se derivaron de la `FTE` y la `NOR` que ya declaraban.
+3. **¿`fp` o `formacion-profesional`?** Se unifica en `formacion-profesional`, que es el valor
+   que ya usaban las fichas `NOR` en `etapas_afectadas`. El alias se retira del esquema.
+4. **¿Los metadatos pasan a obligatorios?** Sí. El esquema vuelve a exigir `url_oficial`,
+   `fecha_consulta`, `estado_vigencia` y `observaciones` a las 58 fichas, y las 58 los cumplen.
+
+Lo que faltaba de verdad —los descriptores operativos de 32 fichas— queda planificado en
+`TAREA-066` a `TAREA-069` y declarado en cada ficha mediante `estado_extraccion: parcial` y una
+nota `[PENDIENTE]` en `observaciones`.
+

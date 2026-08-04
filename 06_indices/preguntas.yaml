@@ -46,8 +46,9 @@ PREG-006:
 
 PREG-007:
   titulo: "Convergencia de las dos formas de ficha curricular y del valor de etapa para FP"
-  estado: "Abierta"
+  estado: "Resuelta"
   fecha_registro: 2026-08-05
-  relacionadas: [TAREA-063, CUR-046, CUR-048, CUR-052]
+  fecha_resolucion: 2026-08-05
+  relacionadas: [DEC-0007, TAREA-063, TAREA-065]
   ruta: "08_tareas/preguntas/PREG-007-convergencia-formas-ficha-curricular.md"
 
