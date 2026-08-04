@@ -7,4 +7,5 @@
 - [x] Decidir el tratamiento editorial de orientaciones y recursos no normativos (`PREG-003`).
 - [ ] Verificar vigencia detallada de `NOR-002`, `NOR-003` y `NOR-004` en su fuente oficial consolidada.
 - [ ] Crear nuevos chunks IA a medida que se complete la extracción curricular.
-- [ ] Retirar el modal manual de Copilot y DeepSeek en `docs/index.html` cuando soporten un parametro directo de prompt en URL.
+- [x] DeepSeek: pasar a `data-launch` con `https://chat.deepseek.com/?q=` (confirmado en JS de la app: `chat_url_prefill` con params `q`/`prompt`).
+- [ ] Retirar el modal manual de Copilot en `docs/index.html` cuando soporte un parametro directo de prompt en URL.
