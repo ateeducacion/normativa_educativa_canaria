@@ -494,7 +494,7 @@ TAREA-025:
   - CUR-014
   - NOR-005
   - FTE-009
-  ruta: 08_tareas/backlog/TAREA-025-extraccion-cur-003-a-014.md
+  ruta: 08_tareas/backlog/TAREA-025-extraccion-cur-011-a-014.md
 TAREA-026:
   titulo: 'Extracción curricular ESO: CUR-015 a CUR-018'
   estado: Hecha
@@ -543,7 +543,7 @@ TAREA-028:
   - CUR-014
   - NOR-005
   - FTE-009
-  ruta: 08_tareas/backlog/TAREA-028-cotejo-curricular-cur-011-a-014.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-029:
   titulo: 'Cotejo curricular ESO: CUR-015 a CUR-018 (segunda pasada)'
   estado: Hecha
@@ -576,7 +576,7 @@ TAREA-030:
   - CUR-023
   - NOR-005
   - FTE-009
-  ruta: 08_tareas/backlog/TAREA-030-cotejo-curricular-cur-019-a-023.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-031:
   titulo: Catalogar normativa de Educación Primaria e Infantil (NOR-043 a NOR-049)
   estado: Hecha
@@ -600,7 +600,7 @@ TAREA-031:
   - FTE-050
   - FTE-051
   - FTE-052
-  ruta: 08_tareas/backlog/TAREA-031-catalogar-primaria-infantil.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-032:
   titulo: Extracción literal de currículos de Educación Primaria (CUR-024 a CUR-033)
   estado: Hecha
@@ -622,7 +622,7 @@ TAREA-032:
   - CUR-033
   - NOR-043
   - FTE-046
-  ruta: 08_tareas/backlog/TAREA-032-extraccion-primaria.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-033:
   titulo: Extracción literal de currículos de Educación Infantil (CUR-034 a CUR-036)
   estado: Hecha
@@ -637,7 +637,7 @@ TAREA-033:
   - CUR-036
   - NOR-047
   - FTE-050
-  ruta: 08_tareas/backlog/TAREA-033-extraccion-infantil.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-034:
   titulo: Catalogación y extracción literal de Bachillerato (CUR-037 a CUR-045)
   estado: Hecha
@@ -658,7 +658,7 @@ TAREA-034:
   - CUR-045
   - NOR-005
   - FTE-009
-  ruta: 08_tareas/backlog/TAREA-034-bachillerato.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-035:
   titulo: Generar nuevos chunks IA (CHUNK-00010 a CHUNK-00013)
   estado: Hecha
@@ -676,7 +676,7 @@ TAREA-035:
   - NOR-029
   - NOR-043
   - NOR-047
-  ruta: 08_tareas/backlog/TAREA-035-nuevos-chunks.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-036:
   titulo: 'Finalizar extracciones ESO: CUR-023 y remanentes'
   estado: Hecha
@@ -688,7 +688,7 @@ TAREA-036:
   relacionadas:
   - CUR-023
   - TAREA-029
-  ruta: 08_tareas/backlog/TAREA-036-finalizar-eso.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-037:
   titulo: Catalogar RD de títulos FP más comunes en Canarias (fase acotada)
   estado: Hecha
@@ -856,7 +856,7 @@ TAREA-046:
   - CUR-058
   - NOR-005
   - FTE-009
-  ruta: 08_tareas/backlog/TAREA-046-optativas-bachillerato.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-047:
   titulo: Consolidación final del repositorio multietapa y resolución de dudas
   estado: Hecha
@@ -870,7 +870,7 @@ TAREA-047:
   - PREG-004
   - NOR-059
   - FTE-055
-  ruta: 08_tareas/backlog/TAREA-047-consolidacion-final.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-048:
   titulo: Completar RAs y CEs de CUR-047 — Imagen para el Diagnóstico y Medicina Nuclear
   estado: Hecha
@@ -883,7 +883,7 @@ TAREA-048:
   - CUR-047
   - NOR-052
   - TAREA-038
-  ruta: 08_tareas/backlog/TAREA-048-completar-ces-cur047-imagen-diagnostico.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-049:
   titulo: Completar RAs y CEs pendientes de CUR-049 — Administración y Finanzas (2.º año)
   estado: Hecha
@@ -896,7 +896,7 @@ TAREA-049:
   - CUR-049
   - NOR-054
   - TAREA-044
-  ruta: 08_tareas/backlog/TAREA-049-completar-ces-cur049-administracion-finanzas.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-050:
   titulo: Completar CEs pendientes de CUR-050 y CUR-051 — DAM y DAW (módulos 2.º año)
   estado: Hecha
@@ -911,7 +911,7 @@ TAREA-050:
   - NOR-055
   - NOR-056
   - TAREA-045
-  ruta: 08_tareas/backlog/TAREA-050-completar-ces-cur050-cur051-informatica.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-051:
   titulo: Completar módulos comunes de CUR-053 — Integración Social (horas RD 1074/2012)
   estado: Hecha
@@ -924,7 +924,7 @@ TAREA-051:
   - CUR-053
   - NOR-060
   - TAREA-043
-  ruta: 08_tareas/backlog/TAREA-051-completar-cur053-modulos-comunes.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-052:
   titulo: Extraer capacidades terminales de CUR-046 — Cuidados Auxiliares de Enfermería (LOGSE)
   estado: Hecha
@@ -937,7 +937,7 @@ TAREA-052:
   - CUR-046
   - NOR-051
   - TAREA-038
-  ruta: 08_tareas/backlog/TAREA-052-extraer-capacidades-terminales-cur046-logse.md
+  ficha: null  # nunca se creó; resultado verificable en las entidades de 'relacionadas' (DEC-0007)
 TAREA-053:
   titulo: Indexar textos oficiales y crear copias rápidas iniciales
   estado: Hecha
@@ -992,7 +992,7 @@ TAREA-055:
   - NOR-049
   - NOR-059
   - NOR-060
-  ruta: 08_tareas/backlog/TAREA-054-ampliar-copias-rapidas-resto-normas.md
+  ruta: 08_tareas/backlog/TAREA-055-ampliar-copias-rapidas-resto-normas.md
 TAREA-056:
   titulo: Catalogar portales oficiales de programas y marcos operativos canarios (FTE-057 a FTE-067)
   estado: Hecha
@@ -1144,3 +1144,80 @@ TAREA-064:
   - TAREA-063
   ruta: 08_tareas/backlog/TAREA-064-verificar-catalogacion-resoluciones-fp-monitor.md
 
+TAREA-065:
+  titulo: "Normalizar las fichas curriculares, recalibrar los avisos del validador y cerrar los huecos de índice"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "calidad-documental"
+  responsable: '@.agents/skills/control-calidad-documental'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - PREG-007
+  - DEC-0007
+  - TAREA-063
+  - TAREA-066
+  - TAREA-067
+  - TAREA-068
+  - TAREA-069
+  ruta: 08_tareas/backlog/TAREA-065-normalizar-curriculos-y-recalibrar-avisos.md
+
+TAREA-066:
+  titulo: "Extraer los descriptores operativos de las fichas curriculares de bachillerato (CUR-037 a CUR-058)"
+  estado: "Pendiente"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: '@.agents/skills/analisis-curricular'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - FTE-009
+  - NOR-005
+  - TAREA-065
+  - PREG-007
+  ruta: 08_tareas/backlog/TAREA-066-descriptores-operativos-bachillerato.md
+
+TAREA-067:
+  titulo: "Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)"
+  estado: "Pendiente"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: '@.agents/skills/analisis-curricular'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - FTE-046
+  - NOR-043
+  - TAREA-065
+  - PREG-007
+  ruta: 08_tareas/backlog/TAREA-067-descriptores-operativos-primaria.md
+
+TAREA-068:
+  titulo: "Extraer los descriptores operativos de las fichas curriculares de eso (CUR-015 a CUR-023)"
+  estado: "Pendiente"
+  prioridad: "Media"
+  tipo: "curriculo"
+  responsable: '@.agents/skills/analisis-curricular'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - FTE-009
+  - NOR-005
+  - TAREA-065
+  - PREG-007
+  ruta: 08_tareas/backlog/TAREA-068-descriptores-operativos-eso.md
+
+TAREA-069:
+  titulo: "Extraer los descriptores operativos de las fichas curriculares de infantil (CUR-034 a CUR-036)"
+  estado: "Pendiente"
+  prioridad: "Media"
+  tipo: "curriculo"
+  responsable: '@.agents/skills/analisis-curricular'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - FTE-050
+  - NOR-047
+  - TAREA-065
+  - PREG-007
+  ruta: 08_tareas/backlog/TAREA-069-descriptores-operativos-infantil.md

@@ -50,7 +50,11 @@ ENTIDADES = {
         "esquema": "fuente.schema.yaml",
         "origen": "frontmatter",
         "indice": "fuentes.yaml",
-        "recomendados": ["fecha_analisis", "nivel_evidencia", "relacionadas"],
+        # `fecha_analisis` no entra aquí: R5 solo la exige cuando hay análisis, y
+        # una fuente catalogada sin analizar legítimamente no la tiene.
+        # `relacionadas: []` es válido y no se avisa: hay fuentes que todavía no
+        # referencia ninguna ficha.
+        "recomendados": ["nivel_evidencia"],
     },
     "NOR": {
         "patron": "02_normativa/**/NOR-*.md",
@@ -65,6 +69,8 @@ ENTIDADES = {
         "origen": "documento",
         "indice": "curriculos.yaml",
         "recomendados": [],
+        # El índice duplica estos campos de la ficha; si divergen, manda la ficha.
+        "espejo": ["estado_extraccion", "etapa", "materia", "norma_base", "fuente"],
     },
     "REL": {
         "patron": "05_relaciones/**/REL-*.yaml",
@@ -123,12 +129,43 @@ def cargar(ruta: pathlib.Path, origen: str):
         return None, f"YAML no parseable: {str(exc).splitlines()[0]}"
 
 
-def ids_del_indice(nombre: str) -> set[str]:
+def entradas_del_indice(nombre: str) -> dict:
     ruta = RAIZ / "06_indices" / nombre
     if not ruta.exists():
-        return set()
+        return {}
     datos = yaml.safe_load(ruta.read_text(encoding="utf-8")) or {}
-    return set(datos) if isinstance(datos, dict) else set()
+    return datos if isinstance(datos, dict) else {}
+
+
+def errores_de_ruta(indice: str, entradas: dict, con_ficha: set[str]) -> list[dict]:
+    """Comprueba que cada `ruta` del índice resuelve y apunta a su propia ficha.
+
+    Sin esto una entrada puede apuntar al fichero de otra entidad sin que nada lo
+    detecte: así acabó TAREA-055 apuntando a la ficha de TAREA-054. Solo se
+    comprueban las entidades que sí tienen ficha; las que no la tienen ya generan
+    el aviso de «entrada de índice sin ficha» y no procede duplicarlo.
+    """
+    fallos = []
+    for identificador, datos in entradas.items():
+        if not isinstance(datos, dict) or identificador not in con_ficha:
+            continue
+        ruta = datos.get("ruta")
+        if not ruta:
+            continue
+        nombre = pathlib.Path(ruta).name
+        if not (RAIZ / ruta).exists():
+            fallos.append({
+                "fichero": f"06_indices/{indice}",
+                "campo": identificador,
+                "mensaje": f"la ruta del índice no resuelve: {ruta}",
+            })
+        elif not nombre.startswith(identificador + "-"):
+            fallos.append({
+                "fichero": f"06_indices/{indice}",
+                "campo": identificador,
+                "mensaje": f"la ruta apunta a {nombre}, que no es la ficha de {identificador}",
+            })
+    return fallos
 
 
 def validar_tipo(tipo: str, cfg: dict) -> dict:
@@ -172,11 +209,24 @@ def validar_tipo(tipo: str, cfg: dict) -> dict:
             if campo not in datos or datos[campo] in (None, [], ""):
                 avisos.append({"fichero": rel, "campo": campo, "mensaje": "campo recomendado ausente o vacío"})
 
+        # Campos que el índice duplica: la ficha es la fuente de verdad.
+        entrada = entradas_del_indice(cfg["indice"]).get(datos.get("id"))
+        if isinstance(entrada, dict):
+            for campo in cfg.get("espejo", []):
+                if campo in entrada and normalizar(entrada[campo]) != datos.get(campo):
+                    errores.append({
+                        "fichero": f"06_indices/{cfg['indice']}",
+                        "campo": f"{datos['id']}.{campo}",
+                        "mensaje": f"el índice dice {entrada[campo]!r} y la ficha dice {datos.get(campo)!r}",
+                    })
+
     # Cobertura de índice (R11). Una ficha fuera del índice es un error: rompe la
     # puerta de entrada del repositorio y siempre se puede corregir. Una entrada de
     # índice sin ficha es deuda documental histórica, que sólo se resuelve
     # reconstruyendo lo que se hizo: se avisa, no se bloquea.
-    indexados = ids_del_indice(cfg["indice"])
+    entradas = entradas_del_indice(cfg["indice"])
+    errores.extend(errores_de_ruta(cfg["indice"], entradas, vistos))
+    indexados = set(entradas)
     for identificador in sorted(vistos - indexados):
         errores.append({
             "fichero": f"06_indices/{cfg['indice']}",
@@ -184,6 +234,11 @@ def validar_tipo(tipo: str, cfg: dict) -> dict:
             "mensaje": f"{identificador} existe como ficha pero no está en el índice",
         })
     for identificador in sorted(indexados - vistos):
+        entrada = entradas.get(identificador)
+        # `ficha: null` marca un hueco reconocido y documentado (DEC-0007): la
+        # entrada existe, la ficha nunca se escribió y no se puede reconstruir.
+        if isinstance(entrada, dict) and "ficha" in entrada and entrada["ficha"] is None:
+            continue
         avisos.append({
             "fichero": f"06_indices/{cfg['indice']}",
             "campo": identificador,
