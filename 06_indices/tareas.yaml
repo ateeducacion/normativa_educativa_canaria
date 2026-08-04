@@ -1085,3 +1085,49 @@ TAREA-060:
   - NOR-067
   - REL-057
   ruta: 08_tareas/backlog/TAREA-060-catalogar-novedad-monitor-boc-2026-129-protocolo-fp-fecam.md
+
+TAREA-061:
+  titulo: "Catalogar novedades del monitor del 2026-07-20 y Decreto 120/2026 sobre competencia digital docente"
+  estado: "En progreso"
+  prioridad: "Alta"
+  tipo: "catalogacion"
+  responsable: "@.agents/skills/catalogacion-fuentes"
+  fecha_creacion: 2026-07-20
+  fecha_actualizacion: 2026-07-20
+  relacionadas:
+  - FTE-075
+  - NOR-068
+  - REL-058
+  ruta: "08_tareas/backlog/TAREA-061-catalogar-novedades-monitor-y-decreto-120-2026.md"
+
+TAREA-062:
+  titulo: "Catalogar y analizar la modificación de la FP semipresencial y virtual publicada en el BOC 2026/144"
+  estado: "En progreso"
+  prioridad: "Alta"
+  tipo: "catalogacion"
+  responsable: "@.agents/skills/analisis-normativo"
+  fecha_creacion: 2026-07-27
+  fecha_actualizacion: 2026-07-27
+  relacionadas:
+  - FTE-076
+  - FTE-077
+  - NOR-069
+  - NOR-070
+  - REL-059
+  - REL-060
+  ruta: "08_tareas/backlog/TAREA-062-catalogar-modificacion-fp-semipresencial-virtual-2026.md"
+
+TAREA-063:
+  titulo: "Hacer descubribles las skills del repositorio y poner en marcha la validación automática del corpus"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "calidad-documental"
+  responsable: '@.agents/skills/control-calidad-documental'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - PREG-007
+  - TAREA-061
+  - TAREA-062
+  ruta: 08_tareas/backlog/TAREA-063-skills-descubribles-y-validacion-corpus.md
+
