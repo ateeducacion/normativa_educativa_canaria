@@ -120,6 +120,16 @@ Verifica siempre en fuente oficial. Si no se puede confirmar, usa `Pendiente de 
 
 ## 14. Cuándo cargar cada skill
 
+Las skills viven en `.agents/skills/<nombre>/SKILL.md`, siguiendo la convención
+`.agents` portable entre clientes. `.claude/skills/` contiene un enlace simbólico
+por skill hacia esa carpeta, porque Claude Code solo descubre skills en
+`.claude/skills/` (proyecto), `~/.claude/skills/` (personal) y plugins. Al crear
+una skill nueva hay que crear también su enlace:
+
+```bash
+ln -sfn ../../.agents/skills/<nombre> .claude/skills/<nombre>
+```
+
 - `catalogacion-fuentes`: alta o revisión de fuentes oficiales.
 - `analisis-normativo`: creación y actualización de fichas `NOR`.
 - `control-vigencia`: revisión de estado de vigencia.
@@ -134,6 +144,12 @@ Verifica siempre en fuente oficial. Si no se puede confirmar, usa `Pendiente de 
 - `experto-bachillerato`: Bachillerato.
 - `experto-formacion-profesional`: Formación Profesional.
 - `perfil-docente`: revisión de claridad para profesorado.
+- `publicacion-portal`: cambios en el portal público de `docs/` y en su publicación.
+
+No confundir `.agents/skills/experto-normativa-canaria` (skill interna, aporta contexto
+autonómico al trabajar sobre el corpus) con `skills/experto-normativa-educativa-canaria`
+(skill pública y copiable, que se publica como `SKILL.md` en GitHub Pages para uso en
+asistentes externos).
 
 ## 15. Criterios de cierre de tarea
 
@@ -169,7 +185,9 @@ Asume siempre que **otra IA u otra persona puede estar trabajando en el reposito
 1. `git fetch origin main` — comprueba si hay nuevos commits.
 2. Si los hay, `git pull --rebase origin main` y resuelve cualquier conflicto antes de continuar.
 3. Vuelve a comprobar IDs libres por si el rebase ha incorporado nuevas reservas.
-4. `python3 -c "import yaml,pathlib; [yaml.safe_load(pathlib.Path(p).read_text()) for p in ['status.yaml','06_indices/tareas.yaml','06_indices/normativa.yaml','06_indices/fuentes.yaml','06_indices/relaciones.yaml','06_indices/curriculos.yaml','06_indices/chunks.yaml','06_indices/preguntas.yaml','06_indices/textos-oficiales.yaml']]; print('OK')"` — valida que todos los índices YAML parsean limpios.
+4. `python3 11_calidad/validar_corpus.py` — valida el corpus contra los esquemas de `schemas/` y contra los índices de `06_indices/`. Debe terminar con **0 errores**; los avisos no bloquean. Requiere `pip install pyyaml jsonschema` la primera vez. El mismo validador corre en integración continua (`.github/workflows/validar-corpus.yml`) en cada push y cada pull request.
+
+   Comprobar solo que el YAML parsea no basta: una ficha puede cargarse sin errores y aun así incumplir su esquema o faltar en su índice.
 
 ### 16.4 Selección de archivos a `git add`
 

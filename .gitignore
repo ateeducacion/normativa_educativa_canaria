@@ -1,9 +1,11 @@
 .env
 .env.*
 !.env.example
-.claude/
+# Se ignora .claude/ salvo skills/, que son enlaces a .agents/skills/ para que
+# Claude Code descubra las skills del repositorio (solo lee .claude/skills/).
+.claude/*
+!.claude/skills/
 .omc/
-_site/
 _site/
 
 # Artefactos de ejecución del monitor de normativa (TAREA-057)

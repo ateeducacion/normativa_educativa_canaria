@@ -1,7 +1,14 @@
 ---
 name: relaciones-normativas
-description: Crear relaciones REL entre normas y currículos con evidencia.
-version: 1.0
+description: >-
+  Registra relaciones entre normas y currículos como REL-NNN en YAML, con tipo de relación,
+  origen, destino, evidencia y nivel de evidencia. Úsala cuando una norma derogue, modifique,
+  desarrolle o sustituya a otra, al cruzar una norma con un currículo, y al actualizar
+  06_indices/relaciones.yaml.
+when_to_use: >-
+  Frases que la disparan: "esta norma deroga a", "relaciona NOR-0NN con", "qué modifica", "crea
+  la relación", "desarrolla el decreto".
+version: 1.1
 license: CC-BY-4.0
 ---
 
@@ -40,8 +47,4 @@ Cuando exista modificación, desarrollo, derogación o conexión relevante entre
 
 ## Plantillas relacionadas
 
-- `10_plantillas/markdown/plantilla-fuente.md`
-- `10_plantillas/markdown/plantilla-norma.md`
-- `10_plantillas/markdown/plantilla-curriculum.md`
 - `10_plantillas/yaml/plantilla-relacion.yaml`
-- `10_plantillas/yaml/plantilla-chunk.yaml`

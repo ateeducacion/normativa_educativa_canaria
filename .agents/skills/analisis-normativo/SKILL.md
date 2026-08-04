@@ -1,7 +1,14 @@
 ---
 name: analisis-normativo
-description: Analizar normas educativas y crear fichas NOR con resumen fiel.
-version: 1.0
+description: >-
+  Analiza normas educativas y crea o actualiza fichas NOR-NNN con objeto, ámbito, estructura,
+  relaciones, impacto en Canarias y resumen IA-friendly. Úsala al catalogar un decreto, orden,
+  resolución o ley educativa, al revisar una ficha normativa existente, o al registrar la norma
+  en 06_indices/normativa.yaml.
+when_to_use: >-
+  Frases que la disparan: "analiza este decreto", "crea la ficha de esta orden", "qué dice el
+  Decreto NNN/AAAA", "actualiza NOR-0NN", "resume esta resolución".
+version: 1.1
 license: CC-BY-4.0
 ---
 
@@ -40,8 +47,5 @@ Cuando se deba crear o revisar una ficha `NOR-NNN`.
 
 ## Plantillas relacionadas
 
-- `10_plantillas/markdown/plantilla-fuente.md`
 - `10_plantillas/markdown/plantilla-norma.md`
-- `10_plantillas/markdown/plantilla-curriculum.md`
 - `10_plantillas/yaml/plantilla-relacion.yaml`
-- `10_plantillas/yaml/plantilla-chunk.yaml`

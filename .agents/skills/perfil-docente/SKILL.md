@@ -1,7 +1,13 @@
 ---
 name: perfil-docente
-description: Revisar claridad, utilidad y tono para profesorado.
-version: 1.0
+description: >-
+  Revisa claridad, utilidad y tono del contenido pensando en el profesorado que lo va a leer.
+  Úsala antes de publicar resúmenes, guías o material del portal, y para comprobar que un texto
+  es comprensible sin jerga administrativa innecesaria y sin perder la referencia a la norma.
+when_to_use: >-
+  Frases que la disparan: "se entiende", "revisa el tono", "para profesorado", "simplifica este
+  texto", "esto es claro para un docente".
+version: 1.1
 license: CC-BY-4.0
 ---
 
@@ -40,8 +46,5 @@ Cuando se redacten resúmenes, FAQ o materiales de consulta rápida.
 
 ## Plantillas relacionadas
 
-- `10_plantillas/markdown/plantilla-fuente.md`
-- `10_plantillas/markdown/plantilla-norma.md`
-- `10_plantillas/markdown/plantilla-curriculum.md`
-- `10_plantillas/yaml/plantilla-relacion.yaml`
-- `10_plantillas/yaml/plantilla-chunk.yaml`
+Ninguna: esta skill aporta contexto experto, no produce fichas por sí misma.
+La ficha la crea la skill de catalogación o análisis correspondiente.

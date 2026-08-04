@@ -1,7 +1,13 @@
 ---
 name: experto-bachillerato
-description: Especialización en Bachillerato y su ordenación curricular.
-version: 1.0
+description: >-
+  Aporta contexto experto sobre Bachillerato en Canarias: modalidades, materias, ordenación,
+  evaluación y titulación. Úsala cuando la tarea trate de Bachillerato o de normas compartidas
+  con ESO, incluidas las materias propias del currículo canario.
+when_to_use: >-
+  Frases que la disparan: "en Bachillerato", "modalidad de Ciencias o Humanidades", "materias de
+  modalidad", "Literatura Canaria", "titulación de Bachillerato".
+version: 1.1
 license: CC-BY-4.0
 ---
 
@@ -40,8 +46,5 @@ Cuando la tarea afecte a Bachillerato o a normas compartidas con ESO.
 
 ## Plantillas relacionadas
 
-- `10_plantillas/markdown/plantilla-fuente.md`
-- `10_plantillas/markdown/plantilla-norma.md`
-- `10_plantillas/markdown/plantilla-curriculum.md`
-- `10_plantillas/yaml/plantilla-relacion.yaml`
-- `10_plantillas/yaml/plantilla-chunk.yaml`
+Ninguna: esta skill aporta contexto experto, no produce fichas por sí misma.
+La ficha la crea la skill de catalogación o análisis correspondiente.

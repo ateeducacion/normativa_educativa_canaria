@@ -1,7 +1,14 @@
 ---
 name: analisis-curricular
-description: Extraer y resumir currículos oficiales en formatos Markdown y YAML.
-version: 1.0
+description: >-
+  Extrae currículos oficiales a fichas CUR-NNN en Markdown y YAML, manteniendo estado_extraccion
+  y la relación con la norma base. Úsala al extraer competencias específicas, criterios de
+  evaluación o saberes básicos de una etapa o materia, y al registrar el currículo en
+  06_indices/curriculos.yaml.
+when_to_use: >-
+  Frases que la disparan: "extrae el currículo de", "competencias específicas de", "criterios de
+  evaluación de", "saberes básicos", "añade la materia X de ESO o Bachillerato".
+version: 1.1
 license: CC-BY-4.0
 ---
 
@@ -40,8 +47,5 @@ Cuando se localice un currículo oficial o una actualización curricular.
 
 ## Plantillas relacionadas
 
-- `10_plantillas/markdown/plantilla-fuente.md`
-- `10_plantillas/markdown/plantilla-norma.md`
 - `10_plantillas/markdown/plantilla-curriculum.md`
-- `10_plantillas/yaml/plantilla-relacion.yaml`
-- `10_plantillas/yaml/plantilla-chunk.yaml`
+- `10_plantillas/yaml/plantilla-curriculum.yaml`

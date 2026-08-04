@@ -1,7 +1,13 @@
 ---
 name: experto-eso
-description: Especialización en ESO, ordenación, evaluación, currículo y PDC.
-version: 1.0
+description: >-
+  Aporta contexto experto sobre la Educación Secundaria Obligatoria en Canarias: ordenación,
+  evaluación, promoción, currículo y diversificación curricular (PDC). Úsala cuando la tarea
+  trate de ESO o de normas compartidas con Bachillerato.
+when_to_use: >-
+  Frases que la disparan: "en ESO", "secundaria obligatoria", "PDC", "diversificación
+  curricular", "promoción en secundaria", "3.º de la ESO".
+version: 1.1
 license: CC-BY-4.0
 ---
 
@@ -40,8 +46,5 @@ Cuando la tarea trate sobre ESO, PDC o enseñanzas mínimas asociadas.
 
 ## Plantillas relacionadas
 
-- `10_plantillas/markdown/plantilla-fuente.md`
-- `10_plantillas/markdown/plantilla-norma.md`
-- `10_plantillas/markdown/plantilla-curriculum.md`
-- `10_plantillas/yaml/plantilla-relacion.yaml`
-- `10_plantillas/yaml/plantilla-chunk.yaml`
+Ninguna: esta skill aporta contexto experto, no produce fichas por sí misma.
+La ficha la crea la skill de catalogación o análisis correspondiente.

@@ -1,7 +1,14 @@
 ---
 name: experto-normativa-canaria
-description: Aportar contexto experto sobre normativa educativa autonómica canaria.
-version: 1.0
+description: >-
+  Aporta contexto experto sobre normativa educativa autonómica canaria: decretos y órdenes de la
+  Consejería, publicación en el BOC y portales oficiales del Gobierno de Canarias. Úsala al
+  contextualizar una fuente autonómica, al valorar su encaje competencial o al identificar el
+  portal oficial correcto.
+when_to_use: >-
+  Frases que la disparan: "normativa canaria", "el BOC", "decreto de Canarias", "la Consejería",
+  "en Canarias cómo se regula".
+version: 1.1
 license: CC-BY-4.0
 ---
 
@@ -40,8 +47,5 @@ Cuando la tarea afecte a normativa o portales oficiales canarios.
 
 ## Plantillas relacionadas
 
-- `10_plantillas/markdown/plantilla-fuente.md`
-- `10_plantillas/markdown/plantilla-norma.md`
-- `10_plantillas/markdown/plantilla-curriculum.md`
-- `10_plantillas/yaml/plantilla-relacion.yaml`
-- `10_plantillas/yaml/plantilla-chunk.yaml`
+Ninguna: esta skill aporta contexto experto, no produce fichas por sí misma.
+La ficha la crea la skill de catalogación o análisis correspondiente.

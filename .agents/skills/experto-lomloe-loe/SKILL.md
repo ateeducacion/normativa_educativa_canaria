@@ -1,7 +1,14 @@
 ---
 name: experto-lomloe-loe
-description: Aportar contexto experto sobre LOE, LOMLOE y normativa básica estatal.
-version: 1.0
+description: >-
+  Aporta contexto experto sobre la normativa básica estatal: LOE, LOMLOE y su desarrollo
+  reglamentario (reales decretos de enseñanzas mínimas y ordenación). Úsala al interpretar el
+  encaje entre norma básica estatal y desarrollo autonómico canario, o ante dudas sobre qué
+  precepto estatal ampara una regulación.
+when_to_use: >-
+  Frases que la disparan: "qué dice la LOMLOE", "enseñanzas mínimas", "real decreto estatal",
+  "normativa básica", "competencia estatal o autonómica".
+version: 1.1
 license: CC-BY-4.0
 ---
 
@@ -40,8 +47,5 @@ Cuando el trabajo afecte a normativa básica del sistema educativo.
 
 ## Plantillas relacionadas
 
-- `10_plantillas/markdown/plantilla-fuente.md`
-- `10_plantillas/markdown/plantilla-norma.md`
-- `10_plantillas/markdown/plantilla-curriculum.md`
-- `10_plantillas/yaml/plantilla-relacion.yaml`
-- `10_plantillas/yaml/plantilla-chunk.yaml`
+Ninguna: esta skill aporta contexto experto, no produce fichas por sí misma.
+La ficha la crea la skill de catalogación o análisis correspondiente.

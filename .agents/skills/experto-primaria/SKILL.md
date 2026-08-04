@@ -1,7 +1,13 @@
 ---
 name: experto-primaria
-description: Especialización en Infantil y Primaria para futura ampliación del corpus.
-version: 1.0
+description: >-
+  Aporta contexto experto sobre Educación Infantil y Primaria en Canarias: ordenación, áreas,
+  evaluación y promoción. Úsala cuando la tarea trate de Infantil o Primaria, incluidas las
+  escuelas infantiles de 0 a 3 años.
+when_to_use: >-
+  Frases que la disparan: "en Primaria", "Infantil", "0 a 3 años", "áreas de Primaria",
+  "promoción en Primaria", "6.º de Primaria".
+version: 1.1
 license: CC-BY-4.0
 ---
 
@@ -40,8 +46,5 @@ Cuando se planifique o revise material de Infantil o Primaria.
 
 ## Plantillas relacionadas
 
-- `10_plantillas/markdown/plantilla-fuente.md`
-- `10_plantillas/markdown/plantilla-norma.md`
-- `10_plantillas/markdown/plantilla-curriculum.md`
-- `10_plantillas/yaml/plantilla-relacion.yaml`
-- `10_plantillas/yaml/plantilla-chunk.yaml`
+Ninguna: esta skill aporta contexto experto, no produce fichas por sí misma.
+La ficha la crea la skill de catalogación o análisis correspondiente.

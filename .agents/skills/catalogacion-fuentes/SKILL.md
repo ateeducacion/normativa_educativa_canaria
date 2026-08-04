@@ -1,7 +1,14 @@
 ---
 name: catalogacion-fuentes
-description: Catalogar fuentes oficiales y crear fichas FTE trazables.
-version: 1.0
+description: >-
+  Cataloga fuentes oficiales del corpus y crea fichas FTE-NNN trazables con autoridad, URL
+  oficial, tipo de fuente y fecha de consulta. Úsala al dar de alta o revisar un portal
+  institucional, el BOE, el BOC, Juriscan o cualquier otra fuente oficial, al asignar un ID FTE
+  correlativo, y al registrar la fuente en 06_indices/fuentes.yaml.
+when_to_use: >-
+  Frases que la disparan: "añade esta fuente", "cataloga este portal", "crea una ficha FTE",
+  "registra este BOC", "¿está esta fuente en el índice?", "de dónde sale esta norma".
+version: 1.1
 license: CC-BY-4.0
 ---
 
@@ -41,7 +48,3 @@ Cuando se incorpore o revise una fuente oficial.
 ## Plantillas relacionadas
 
 - `10_plantillas/markdown/plantilla-fuente.md`
-- `10_plantillas/markdown/plantilla-norma.md`
-- `10_plantillas/markdown/plantilla-curriculum.md`
-- `10_plantillas/yaml/plantilla-relacion.yaml`
-- `10_plantillas/yaml/plantilla-chunk.yaml`

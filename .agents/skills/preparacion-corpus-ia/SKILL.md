@@ -1,7 +1,13 @@
 ---
 name: preparacion-corpus-ia
-description: Preparar resúmenes, chunks y materiales IA-friendly.
-version: 1.0
+description: >-
+  Prepara material IA-friendly del corpus: chunks CHUNK-NNNNN autocontenidos, resúmenes breves y
+  exports. Úsala al crear chunks para RAG o búsqueda semántica, al redactar resúmenes trazables,
+  al mantener llms.txt y llms-full.txt, y al registrar chunks en 06_indices/chunks.yaml.
+when_to_use: >-
+  Frases que la disparan: "crea un chunk", "prepara esto para RAG", "resumen IA-friendly",
+  "actualiza llms.txt", "material para el asistente".
+version: 1.1
 license: CC-BY-4.0
 ---
 
@@ -40,8 +46,4 @@ Cuando se necesite soporte para RAG, búsqueda semántica o FAQ.
 
 ## Plantillas relacionadas
 
-- `10_plantillas/markdown/plantilla-fuente.md`
-- `10_plantillas/markdown/plantilla-norma.md`
-- `10_plantillas/markdown/plantilla-curriculum.md`
-- `10_plantillas/yaml/plantilla-relacion.yaml`
 - `10_plantillas/yaml/plantilla-chunk.yaml`

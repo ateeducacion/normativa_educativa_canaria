@@ -1,7 +1,13 @@
 ---
 name: experto-formacion-profesional
-description: Especialización en Formación Profesional para futuras ampliaciones.
-version: 1.0
+description: >-
+  Aporta contexto experto sobre Formación Profesional en Canarias: FP básica, grado medio y
+  superior, familias profesionales, títulos, módulos y FCT. Úsala cuando la tarea afecte a
+  ordenación o currículo de FP, incluida la oferta semipresencial y virtual.
+when_to_use: >-
+  Frases que la disparan: "en FP", "grado medio", "grado superior", "familia profesional", "FCT",
+  "ciclo formativo", "módulo profesional".
+version: 1.1
 license: CC-BY-4.0
 ---
 
@@ -40,8 +46,5 @@ Cuando la tarea afecte a ordenación o currículo de Formación Profesional.
 
 ## Plantillas relacionadas
 
-- `10_plantillas/markdown/plantilla-fuente.md`
-- `10_plantillas/markdown/plantilla-norma.md`
-- `10_plantillas/markdown/plantilla-curriculum.md`
-- `10_plantillas/yaml/plantilla-relacion.yaml`
-- `10_plantillas/yaml/plantilla-chunk.yaml`
+Ninguna: esta skill aporta contexto experto, no produce fichas por sí misma.
+La ficha la crea la skill de catalogación o análisis correspondiente.
