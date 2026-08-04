@@ -8,6 +8,7 @@ fecha_consulta: 2026-04-26
 relacionadas: [NOR-007, NOR-051, NOR-052, NOR-053, NOR-054, NOR-055, NOR-056, NOR-057, NOR-058]
 ruta: "01_fuentes/boe/FTE-054-boe-fp-titulos.md"
 estado_fuente: "Activa"
+nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
 # FTE-054 — BOE: Reales Decretos de títulos de Formación Profesional

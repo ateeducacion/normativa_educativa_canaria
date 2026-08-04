@@ -5,6 +5,8 @@ tipo_fuente: "disposicion-general"
 autoridad: "Gobierno de Canarias"
 url_oficial: "https://www.gobiernodecanarias.org/boc/2022/212/001.html"
 fecha_consulta: 2026-04-26
+relacionadas: [CUR-034, CUR-035, CUR-036, NOR-047]
+nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
 # FTE-050 — Decreto 196/2022 (Currículo Infantil Canarias)

@@ -5,6 +5,9 @@ tipo_fuente: "resolucion-administrativa"
 autoridad: "Viceconsejería de Educación - Gobierno de Canarias"
 url_oficial: "https://www.gobiernodecanarias.org/educacion/web/centros/organizacion_funcionamiento/instrucciones_organizacion_funcionamiento/"
 fecha_consulta: 2026-04-26
+relacionadas: [NOR-046]
+nivel_evidencia: "pendiente-verificacion"
+estado_fuente: "Pendiente de verificación"
 ---
 
 # FTE-049 — Instrucciones de Organización y Funcionamiento (IOF) 2025-2026

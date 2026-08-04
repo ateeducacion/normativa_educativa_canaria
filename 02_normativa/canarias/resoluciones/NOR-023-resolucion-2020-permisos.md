@@ -14,6 +14,7 @@ fecha_analisis: 2026-04-26
 fuente_principal: FTE-026
 url_oficial: "https://www.gobiernodecanarias.org/boc/2020/131/001.html"
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+temas: [permisos, licencias, profesorado, funcion-publica]
 relaciones:
   desarrolla_a: []
   modificada_por: [Resolución 24-10-2023]

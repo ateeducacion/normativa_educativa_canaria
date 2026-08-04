@@ -5,6 +5,8 @@ tipo_fuente: "disposicion-general"
 autoridad: "Consejería de Educación - Gobierno de Canarias"
 url_oficial: "https://www.gobiernodecanarias.org/boc/2023/105/001.html"
 fecha_consulta: 2026-04-26
+relacionadas: [NOR-050, REL-047, REL-048]
+nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
 # FTE-053 — Orden de 29 de mayo de 2023 (Procedimientos Diversidad)

@@ -5,6 +5,9 @@ tipo_fuente: "resolucion-administrativa"
 autoridad: "Dirección General de Ordenación - Gobierno de Canarias"
 url_oficial: "https://www.gobiernodecanarias.org/boc/2025/107/005.html"
 fecha_consulta: 2026-04-26
+relacionadas: [NOR-045]
+nivel_evidencia: "pendiente-verificacion"
+estado_fuente: "Pendiente de verificación"
 ---
 
 # FTE-048 — Resolución de 15 de mayo de 2025 (Rúbricas Primaria)

@@ -14,6 +14,7 @@ fecha_analisis: 2026-04-26
 fuente_principal: FTE-025
 url_oficial: "https://www.gobiernodecanarias.org/boc/2009/155/001.html"
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+temas: [direccion-escolar, funcion-directiva, organizacion-centros, profesorado]
 relaciones:
   desarrolla_a: [NOR-001]
   modificada_por: [Decreto 121/2015]

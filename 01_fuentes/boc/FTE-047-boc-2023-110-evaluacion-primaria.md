@@ -5,6 +5,8 @@ tipo_fuente: "disposicion-general"
 autoridad: "Consejería de Educación - Gobierno de Canarias"
 url_oficial: "https://www.gobiernodecanarias.org/boc/2023/110/002.html"
 fecha_consulta: 2026-04-26
+relacionadas: [NOR-044, NOR-048]
+nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
 # FTE-047 — Orden de 31 de mayo de 2023 (Evaluación Primaria Canarias)

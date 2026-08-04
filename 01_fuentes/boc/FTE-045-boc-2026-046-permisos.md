@@ -6,7 +6,9 @@ autoridad: "Dirección General de Personal y Formación del Profesorado (Gobiern
 url_oficial: "https://www.gobiernodecanarias.org/boc/2026/046/001.html"
 fecha_consulta: 2026-04-26
 ruta: "01_fuentes/boc/FTE-045-boc-2026-046-permisos.md"
-estado_fuente: "Activa"
+estado_fuente: "Pendiente de verificación"
+relacionadas: [NOR-042, REL-046]
+nivel_evidencia: "pendiente-verificacion"
 ---
 
 # FTE-045 — Resolución de 24 de febrero de 2026 (BOC 2026/046)
