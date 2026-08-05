@@ -1033,3 +1033,16 @@ NOR-070:
   ruta: "02_normativa/canarias/resoluciones/NOR-070-modificacion-fp-semipresencial-virtual-2026.md"
   temas: [formacion-profesional, modalidad-semipresencial, grado-d, organizacion-horaria, tutorias, desdobles]
   etapas_afectadas: [formacion-profesional]
+
+NOR-071:
+  titulo: "Resolución conjunta n.º 24/2024, de 16 de julio, por la que se dictan instrucciones específicas dirigidas a los centros educativos dependientes de la Consejería de Educación, Formación Profesional, Actividad Física y Deportes en los que se ha autorizado la implantación del primer ciclo de Educación Infantil"
+  nombre_corto: "Instrucciones primer ciclo de Infantil (2024)"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2024-07-16
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-078
+  ruta: "02_normativa/canarias/resoluciones/NOR-071-resolucion-24-2024-primer-ciclo-infantil.md"
+  temas: [infantil, primer-ciclo, organizacion, funcionamiento, instrucciones, experiencia-piloto]
+  etapas_afectadas: [infantil]

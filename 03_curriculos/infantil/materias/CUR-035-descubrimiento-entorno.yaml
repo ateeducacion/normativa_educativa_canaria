@@ -10,12 +10,12 @@ estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
   competencias_especificas:
-    - id: C1
-      descripcion: "Identificar las características de materiales, objetos y colecciones y establecer relaciones entre ellos, mediante la exploración, la manipulación sensorial y el manejo de herramientas, para descubrir y crear una idea cada vez más compleja del mundo."
-    - id: C2
-      descripcion: "Desarrollar, de manera progresiva, los procedimientos del método científico y las destrezas del pensamiento computacional, a través de procesos de observación y manipulación de objetos, para iniciarse en la interpretación del entorno y responder a las dudas que este genera."
-    - id: C3
-      descripcion: "Reconocer elementos y fenómenos de la naturaleza, mostrando interés por los hábitos que inciden sobre ella, para apreciar la importancia del uso sostenible, el cuidado y la conservación del entorno en el que se vive."
+    - codigo: "C1"
+      enunciado_oficial: "Identificar las características de materiales, objetos y colecciones y establecer relaciones entre ellos, mediante la exploración, la manipulación sensorial, el manejo de herramientas sencillas y el desarrollo de destrezas lógico-matemáticas para descubrir y crear una idea cada vez más compleja del mundo."
+    - codigo: "C2"
+      enunciado_oficial: "Desarrollar, de manera progresiva, los procedimientos del método científico y las destrezas del pensamiento computacional, a través de procesos de observación y manipulación de objetos, para iniciarse en la interpretación del entorno y responder de forma creativa a las situaciones y retos que se plantean."
+    - codigo: "C3"
+      enunciado_oficial: "Reconocer elementos y fenómenos de la naturaleza, mostrando interés por los hábitos que inciden sobre ella, para apreciar la importancia del uso sostenible, el cuidado y la conservación del entorno en la vida de las personas."
   saberes_basicos:
     - id: dialogo-corporal
       nombre: "Bloque 1: Diálogo corporal con el entorno. Exploración creativa de objetos, materiales y espacios"
@@ -42,4 +42,4 @@ elementos:
 relaciones:
   desarrolla_a: [NOR-047]
   relacionada_con: []
-observaciones: "Extracción literal completada el 2026-04-26 tras consulta al BOC (Decreto 196/2022). [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007). En Educación Infantil no existen los descriptores operativos del perfil de salida, que es de la enseñanza básica (DEC-0009), así que el cuarto elemento de DEC-0004 no aplica a esta ficha. Sigue en parcial porque los enunciados aún no son literales (DEC-0008): pendiente en TAREA-079."
+observaciones: "TAREA-079 (2026-08-05): las 3 competencias específicas se han sustituido por el enunciado_oficial literal del Decreto 196/2022 (claves 'codigo'/'enunciado_oficial', DEC-0008), verificado directamente contra el PDF oficial del BOC (ANEXO 2, ÁREA 2, bloques competenciales, págs. 41074-41076), porque la copia local en 07_corpus_ia/textos-completos/texto-oficial-NOR-047-... no conserva esas tablas (solo un marcador \"Ver anexo en las páginas...\"). Las tres competencias previas eran resúmenes que se apartaban del texto oficial en frases y cierres concretos. [PENDIENTE] Al comprobar criterios_evaluacion y saberes_basicos contra el mismo PDF se observa que tampoco son literales (son resúmenes/paráfrasis, no el texto exacto del decreto); la ficha sigue en 'parcial' hasta que se transcriban literalmente en una tarea de seguimiento. Faltan también los descriptores operativos del perfil de salida que DEC-0004 exige para enseñanza básica; extracción marcada como parcial (DEC-0007). En Educación Infantil no existen los descriptores operativos del perfil de salida, que es de la enseñanza básica (DEC-0009), así que el cuarto elemento de DEC-0004 no aplica a esta ficha."

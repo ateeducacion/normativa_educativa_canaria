@@ -10,14 +10,14 @@ estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
   competencias_especificas:
-    - id: C1
-      descripcion: "Progresar en el conocimiento y control de su cuerpo y en la adquisición de distintas estrategias, adecuando sus acciones a la realidad del entorno de una manera segura, para construir una autoimagen ajustada y positiva."
-    - id: C2
-      descripcion: "Reconocer, manifestar y regular progresivamente sus emociones, expresando necesidades y sentimientos para lograr bienestar emocional y seguridad afectiva."
-    - id: C3
-      descripcion: "Establecer relaciones interpersonales en su entorno próximo, favoreciendo la convivencia pacífica y la resolución de conflictos, para integrarse y participar en la sociedad de forma empática y respetuosa."
-    - id: C4
-      descripcion: "Establecer y afianzar hábitos de vida saludable relacionados con el autocuidado, la alimentación, la higiene, el descanso y la seguridad, para generar bienestar y autonomía."
+    - codigo: "C1"
+      enunciado_oficial: "Progresar en el conocimiento y control de su cuerpo y en la adquisición de distintas estrategias, adecuando sus acciones a la realidad del entorno de una manera segura, para construir una autoimagen ajustada y positiva."
+    - codigo: "C2"
+      enunciado_oficial: "Reconocer, manifestar y regular progresivamente sus emociones, expresando necesidades y sentimientos para lograr bienestar emocional y seguridad afectiva."
+    - codigo: "C3"
+      enunciado_oficial: "Adoptar modelos, normas y hábitos, desarrollando la confianza en sus posibilidades y sentimientos de logro, para promover un estilo de vida saludable y ecosocialmente responsable."
+    - codigo: "C4"
+      enunciado_oficial: "Establecer interacciones sociales en condiciones de igualdad, valorando la importancia de la amistad, el respeto y la empatía hacia sus iguales y las personas adultas, para construir su propia identidad basada en valores democráticos y de respeto a los derechos humanos."
   saberes_basicos:
     - id: control-cuerpo
       nombre: "Bloque 1: El cuerpo y el control progresivo del mismo"
@@ -47,4 +47,4 @@ elementos:
 relaciones:
   desarrolla_a: [NOR-047]
   relacionada_con: []
-observaciones: "Extracción literal completada el 2026-04-26 tras consulta al BOC (Decreto 196/2022). [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007). En Educación Infantil no existen los descriptores operativos del perfil de salida, que es de la enseñanza básica (DEC-0009), así que el cuarto elemento de DEC-0004 no aplica a esta ficha. Sigue en parcial porque los enunciados aún no son literales (DEC-0008): pendiente en TAREA-079."
+observaciones: "TAREA-079 (2026-08-05): las 4 competencias específicas se han sustituido por el enunciado_oficial literal del Decreto 196/2022 (claves 'codigo'/'enunciado_oficial', DEC-0008), verificado directamente contra el PDF oficial del BOC (ANEXO 2, ÁREA 1, bloques competenciales, págs. 41052-41056), porque la copia local en 07_corpus_ia/textos-completos/texto-oficial-NOR-047-... no conserva esas tablas (solo un marcador \"Ver anexo en las páginas...\"). Dos de las competencias previas coincidían por casualidad con el texto oficial pero en orden distinto (C3/C4 intercambiadas); las otras dos eran resúmenes no literales. [PENDIENTE] Al comprobar criterios_evaluacion y saberes_basicos contra el mismo PDF se observa que tampoco son literales (son resúmenes/paráfrasis, no el texto exacto del decreto); la ficha sigue en 'parcial' hasta que se transcriban literalmente en una tarea de seguimiento. Faltan también los descriptores operativos del perfil de salida que DEC-0004 exige para enseñanza básica; extracción marcada como parcial (DEC-0007). En Educación Infantil no existen los descriptores operativos del perfil de salida, que es de la enseñanza básica (DEC-0009), así que el cuarto elemento de DEC-0004 no aplica a esta ficha."

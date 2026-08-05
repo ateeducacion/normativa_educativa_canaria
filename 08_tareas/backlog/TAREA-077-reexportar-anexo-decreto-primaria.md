@@ -1,12 +1,13 @@
 ---
 id: TAREA-077
 titulo: "Re-exportar el anexo curricular del Decreto 211/2022 de Primaria desde el PDF oficial"
-estado: "Pendiente"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "corpus-ia"
 responsable: "@.agents/skills/preparacion-corpus-ia"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
+fecha_cierre: 2026-08-05
 relacionadas: [NOR-043, FTE-046, TAREA-067, TAREA-076]
 siguiente_accion: "Descargar el PDF oficial del Decreto 211/2022 y extraer el anexo curricular a texto plano."
 ---
@@ -44,3 +45,12 @@ cero.
 ## Coordinación con trabajo paralelo
 
 IDs consumidos: `TAREA-077`. No se modifican fichas del corpus, solo copias locales de texto.
+
+## Resultado (2026-08-05)
+
+El PDF oficial del BOC (`boc-a-2022-231-3533.pdf`, 346 páginas) sí contiene los anexos
+curriculares. Re-exportado con `pdftotext -layout`, la copia local pasa de **cero a 2.938
+códigos de descriptor**. Se retiraron las cabeceras y pies repetidos de cada página sin alterar
+el contenido normativo, y la cabecera R16 se actualizó con la URL del PDF y las fechas.
+
+`06_indices/textos-oficiales.yaml` recoge la nueva procedencia.

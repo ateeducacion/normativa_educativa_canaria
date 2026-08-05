@@ -1179,7 +1179,7 @@ TAREA-066:
 
 TAREA-067:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)"
-  estado: "Bloqueada"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1344,7 +1344,7 @@ TAREA-076:
   ruta: 08_tareas/backlog/TAREA-076-consolidar-extraccion-curricular-paralela.md
 TAREA-077:
   titulo: "Re-exportar el anexo curricular del Decreto 211/2022 de Primaria desde el PDF oficial"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "corpus-ia"
   responsable: '@.agents/skills/preparacion-corpus-ia'
@@ -1359,7 +1359,7 @@ TAREA-077:
 
 TAREA-078:
   titulo: "Catalogar la Resolución Conjunta n.º 24/2024 de instrucciones para el primer ciclo de Educación Infantil"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "catalogacion"
   responsable: '@.agents/skills/catalogacion-fuentes'
@@ -1374,7 +1374,7 @@ TAREA-078:
 
 TAREA-079:
   titulo: "Sustituir por el enunciado literal las competencias de las fichas curriculares de Infantil"
-  estado: "Pendiente"
+  estado: "En progreso"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1405,3 +1405,32 @@ TAREA-080:
   - NOR-068
   - PREG-009
   ruta: 08_tareas/backlog/TAREA-080-integridad-referencial-y-rel-058.md
+
+TAREA-081:
+  titulo: "Re-exportar el anexo curricular del Decreto 196/2022 de Infantil desde el PDF oficial"
+  estado: "Pendiente"
+  prioridad: "Alta"
+  tipo: "corpus-ia"
+  responsable: '@.agents/skills/preparacion-corpus-ia'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - NOR-047
+  - FTE-050
+  - TAREA-079
+  - TAREA-077
+  ruta: 08_tareas/backlog/TAREA-081-reexportar-anexo-decreto-infantil.md
+TAREA-082:
+  titulo: "Catalogar la fuente oficial del currículo de Religión en Primaria y cerrar CUR-033"
+  estado: "Pendiente"
+  prioridad: "Media"
+  tipo: "catalogacion"
+  responsable: '@.agents/skills/catalogacion-fuentes'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - CUR-033
+  - NOR-043
+  - FTE-046
+  - TAREA-067
+  ruta: 08_tareas/backlog/TAREA-082-fuente-oficial-curriculo-religion-primaria.md

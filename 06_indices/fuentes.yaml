@@ -690,3 +690,12 @@ FTE-077:
   fecha_consulta: 2026-07-27
   ruta: "01_fuentes/boc/FTE-077-boc-2026-144-modificacion-fp-semipresencial-virtual.md"
   estado_fuente: "Activa"
+
+FTE-078:
+  titulo: "Resolución Conjunta n.º 24/2024, de 16 de julio, instrucciones específicas del primer ciclo de Educación Infantil"
+  tipo_fuente: "resolucion-administrativa"
+  autoridad: "Dirección General de Administración de Centros, Escolarización y Servicios Complementarios y Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación - Gobierno de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/Instrucciones_organizacion_funcionamiento_primer_ciclo_infantil.pdf"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/portales-oficiales/FTE-078-resolucion-24-2024-instrucciones-primer-ciclo-infantil.md"
+  estado_fuente: "Activa"

@@ -1,12 +1,13 @@
 ---
 id: TAREA-078
 titulo: "Catalogar la Resolución Conjunta n.º 24/2024 de instrucciones para el primer ciclo de Educación Infantil"
-estado: "Pendiente"
+estado: "Hecha"
 prioridad: "Media"
 tipo: "catalogacion"
 responsable: "@.agents/skills/catalogacion-fuentes"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
+fecha_cierre: 2026-08-05
 relacionadas: [PREG-009, FTE-049, FTE-051, NOR-046]
 siguiente_accion: "Crear la ficha FTE de la Resolución 24/2024 desde su PDF oficial y decidir si procede ficha NOR."
 ---
@@ -50,3 +51,14 @@ efecto».
 
 IDs consumidos: `TAREA-078`. Consumirá además un `FTE` y posiblemente un `NOR` y un `REL` al
 ejecutarse; recalcular los libres en ese momento.
+
+## Resultado (2026-08-05)
+
+Catalogada como `FTE-078` y `NOR-071`, con copia local del texto y cabecera R16 completa.
+
+La resolución consta de 23 instrucciones y tres anexos —Plan de Acogida, guion de entrevista
+individual y autorización de alimentación—, dirigidos a los centros autorizados a implantar el
+primer ciclo con carácter de experiencia piloto.
+
+`fecha_entrada_vigor` queda en `null` (R15): no hay disposición final expresa, aunque varias
+instrucciones citan el curso 2024-2025.

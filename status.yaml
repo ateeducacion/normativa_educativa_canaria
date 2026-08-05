@@ -1099,7 +1099,7 @@ tareas:
     siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 14 fichas."
   TAREA-067:
     titulo: "Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)"
-    estado: "Bloqueada"
+    estado: "Hecha"
     prioridad: "Alta"
     tipo: "curriculo"
     responsable: '@.agents/skills/analisis-curricular'
@@ -1260,7 +1260,7 @@ tareas:
     siguiente_accion: null
   TAREA-077:
     titulo: "Re-exportar el anexo curricular del Decreto 211/2022 de Primaria desde el PDF oficial"
-    estado: "Pendiente"
+    estado: "Hecha"
     prioridad: "Alta"
     tipo: "corpus-ia"
     responsable: '@.agents/skills/preparacion-corpus-ia'
@@ -1275,7 +1275,7 @@ tareas:
 
   TAREA-078:
     titulo: "Catalogar la Resolución Conjunta n.º 24/2024 de instrucciones para el primer ciclo de Educación Infantil"
-    estado: "Pendiente"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "catalogacion"
     responsable: '@.agents/skills/catalogacion-fuentes'
@@ -1290,7 +1290,7 @@ tareas:
 
   TAREA-079:
     titulo: "Sustituir por el enunciado literal las competencias de las fichas curriculares de Infantil"
-    estado: "Pendiente"
+    estado: "En progreso"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: '@.agents/skills/analisis-curricular'
@@ -1321,6 +1321,35 @@ tareas:
     - NOR-068
     - PREG-009
     siguiente_accion: null
+
+  TAREA-081:
+    titulo: "Re-exportar el anexo curricular del Decreto 196/2022 de Infantil desde el PDF oficial"
+    estado: "Pendiente"
+    prioridad: "Alta"
+    tipo: "corpus-ia"
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - NOR-047
+    - FTE-050
+    - TAREA-079
+    - TAREA-077
+    siguiente_accion: "Descargar boc-a-2022-212-3215.pdf y extraer el anexo con pdftotext -layout, como se hizo en TAREA-077."
+  TAREA-082:
+    titulo: "Catalogar la fuente oficial del currículo de Religión en Primaria y cerrar CUR-033"
+    estado: "Pendiente"
+    prioridad: "Media"
+    tipo: "catalogacion"
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - CUR-033
+    - NOR-043
+    - FTE-046
+    - TAREA-067
+    siguiente_accion: "Localizar en el BOE la resolución que publica el currículo de Religión Católica en Educación Primaria y catalogarla como FTE."
 
 bloqueos: []
 reglas:

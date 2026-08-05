@@ -1,7 +1,7 @@
 ---
 id: TAREA-079
 titulo: "Sustituir por el enunciado literal las competencias de las fichas curriculares de Infantil"
-estado: "Pendiente"
+estado: "En progreso"
 prioridad: "Media"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
@@ -45,3 +45,16 @@ conocimiento…»— antes de enunciarla. Hay que copiar **el enunciado**, no la
 ## Coordinación con trabajo paralelo
 
 IDs consumidos: `TAREA-079`. Solo se modifican `CUR-034`, `CUR-035` y `CUR-036`.
+
+## Resultado parcial (2026-08-05)
+
+Las once competencias de `CUR-034`, `CUR-035` y `CUR-036` tienen ya `codigo` y
+`enunciado_oficial` con el texto literal del Decreto 196/2022.
+
+**Hallazgo:** la copia local de `NOR-047` tampoco contenía las tablas de bloques competenciales
+—solo un marcador «Ver anexo en las páginas NNN-NNN del documento»—, el mismo problema que tenía
+Primaria. El enunciado se transcribió leyendo directamente el PDF oficial del BOC página a
+página, después de que una primera lectura por lotes produjera un error de transcripción.
+
+Sigue pendiente transcribir literalmente `criterios_evaluacion` y `saberes_basicos`, que aún son
+los del volcado anterior. Requiere primero re-exportar la copia local: `TAREA-081`.

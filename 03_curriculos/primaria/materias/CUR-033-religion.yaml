@@ -5,7 +5,7 @@ materia: "Religión"
 norma_base: NOR-043
 fuente: FTE-046
 url_oficial: "https://www.gobiernodecanarias.org/boc/2022/231/001.html"
-fecha_consulta: 2026-04-26
+fecha_consulta: "2026-04-26"
 estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
@@ -57,4 +57,4 @@ elementos:
 relaciones:
   desarrolla_a: [NOR-043]
   relacionada_con: []
-observaciones: "Currículo establecido por la jerarquía eclesiástica (BOE 24-06-2022) y aplicado en Canarias bajo el Decreto 211/2022. [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007)."
+observaciones: "[PENDIENTE] TAREA-067 no puede completar esta ficha desde NOR-043: el Decreto 211/2022 NO contiene el currículo del área de Religión. Su Disposición adicional primera, punto 6 (texto-oficial-NOR-043-decreto-211-2022-primaria.txt, líneas 1168-1172), remite la determinación del currículo de la enseñanza de religión católica y de las demás confesiones con acuerdo de cooperación a la jerarquía eclesiástica o a las autoridades religiosas correspondientes, con publicación a cargo del Ministerio competente; el Anexo 2 de NOR-043 no incluye ningún bloque de competencias específicas, criterios de evaluación ni saberes básicos para Religión (confirmado por búsqueda en el texto completo). Las competencias, criterios y saberes que ya figuran en esta ficha no se han podido verificar contra NOR-043 ni contra ninguna otra fuente registrada en 06_indices/fuentes.yaml: la nota previa citaba «BOE 24-06-2022» sin ficha FTE-NNN asociada, por lo que incumple R1 (trazabilidad a fuente oficial con ficha interna). No se han modificado ni renombrado estos campos ('descripcion'/'id') para no dar apariencia de literalidad verificada al renombrarlos a 'enunciado_oficial'/'codigo'. Se mantiene estado_extraccion: parcial. Antes de reintentar esta ficha hace falta: (1) catalogar como FTE-NNN la fuente oficial real del currículo de Religión Católica en Primaria (BOE, resolución/orden de currículo del área), (2) exportar su texto a 07_corpus_ia/textos-completos/ conforme a R16, y (3) registrar una PREG-NNN o TAREA de seguimiento, ya que esta tarea no puede tocar 08_tareas/ ni 06_indices/."

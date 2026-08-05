@@ -10,14 +10,16 @@ estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
   competencias_especificas:
-    - id: C1
-      descripcion: "Manifestar interés por interactuar en situaciones cotidianas a través de la exploración y el uso de su repertorio comunicativo, para expresar sus necesidades e intenciones y responder a las exigencias del entorno."
-    - id: C2
-      descripcion: "Interpretar y comprender mensajes y representaciones apoyándose en conocimientos y recursos de su propia experiencia, para responder a las demandas del entorno y construir nuevos aprendizajes."
-    - id: C3
-      descripcion: "Producir mensajes de manera eficaz, personal y creativa, utilizando diferentes lenguajes, descubriendo sus códigos y herramientas, para comunicar sus ideas, sentimientos y deseos."
-    - id: C4
-      descripcion: "Participar por iniciativa propia en actividades relacionadas con textos literarios infantiles, obras artísticas y manifestaciones culturales, para desarrollar el gusto estético y la sensibilidad artística."
+    - codigo: "C1"
+      enunciado_oficial: "Manifestar interés por interactuar en situaciones cotidianas a través de la exploración y el uso de su repertorio comunicativo, para expresar sus necesidades e intenciones y responder a las exigencias del entorno."
+    - codigo: "C2"
+      enunciado_oficial: "Interpretar y comprender mensajes y representaciones apoyándose en conocimientos y recursos de su propia experiencia, para responder a las demandas del entorno y construir nuevos aprendizajes."
+    - codigo: "C3"
+      enunciado_oficial: "Producir mensajes de manera eficaz, personal y creativa, utilizando diferentes lenguajes, descubriendo los códigos de cada uno de ellos y explorando sus posibilidades expresivas, para responder a diferentes necesidades comunicativas."
+    - codigo: "C4"
+      enunciado_oficial: "Participar por iniciativa propia en actividades relacionadas con textos escritos, mostrando interés y curiosidad, para comprender su funcionalidad y algunas de sus características."
+    - codigo: "C5"
+      enunciado_oficial: "Valorar la diversidad lingüística presente en su entorno, para enriquecer sus estrategias comunicativas culturales."
   saberes_basicos:
     - id: intencion-comunicativa
       nombre: "Bloque 1: Intención y estrategias comunicativas"
@@ -56,4 +58,4 @@ elementos:
 relaciones:
   desarrolla_a: [NOR-047]
   relacionada_con: []
-observaciones: "Extracción literal completada el 2026-04-26 tras consulta al BOC (Decreto 196/2022). [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007). En Educación Infantil no existen los descriptores operativos del perfil de salida, que es de la enseñanza básica (DEC-0009), así que el cuarto elemento de DEC-0004 no aplica a esta ficha. Sigue en parcial porque los enunciados aún no son literales (DEC-0008): pendiente en TAREA-079."
+observaciones: "TAREA-079 (2026-08-05): las competencias específicas se han sustituido por el enunciado_oficial literal del Decreto 196/2022 (claves 'codigo'/'enunciado_oficial', DEC-0008), verificado directamente contra el PDF oficial del BOC (ANEXO 2, ÁREA 3, bloques competenciales, págs. 41096-41101), porque la copia local en 07_corpus_ia/textos-completos/texto-oficial-NOR-047-... no conserva esas tablas (solo un marcador \"Ver anexo en las páginas...\"). [HALLAZGO] El decreto establece cinco competencias específicas para esta área (\"se han establecido cinco competencias específicas\"), no cuatro: la ficha anterior omitía a C5 (\"Valorar la diversidad lingüística presente en su entorno...\") y su C4 no correspondía a ninguna competencia oficial (mezclaba temas de literatura infantil y arte que en el decreto son saberes básicos, no una competencia específica); se ha añadido C5 y corregido C3 y C4 con el texto oficial. C1 y C2 ya coincidían literalmente. [PENDIENTE] Al comprobar criterios_evaluacion y saberes_basicos contra el mismo PDF se observa que tampoco son literales (son resúmenes/paráfrasis, no el texto exacto del decreto); la ficha sigue en 'parcial' hasta que se transcriban literalmente en una tarea de seguimiento. Faltan también los descriptores operativos del perfil de salida que DEC-0004 exige para enseñanza básica; extracción marcada como parcial (DEC-0007). En Educación Infantil no existen los descriptores operativos del perfil de salida, que es de la enseñanza básica (DEC-0009), así que el cuarto elemento de DEC-0004 no aplica a esta ficha."
