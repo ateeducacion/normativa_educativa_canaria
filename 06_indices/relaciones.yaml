@@ -508,3 +508,99 @@ REL-074:
   fecha_registro: 2026-08-05
   nivel_evidencia: "confirmado-fuente-primaria"
   ruta: "05_relaciones/normativa/REL-074-primer-curso-comun-antecedente-dobles-titulaciones.yaml"
+
+REL-075:
+  tipo_relacion: "modifica"
+  origen: NOR-094
+  destino: NOR-081
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-075-resolucion-27-01-2026-amplia-grados-d-e.yaml"
+
+REL-076:
+  tipo_relacion: "modifica"
+  origen: NOR-095
+  destino: NOR-085
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-076-resolucion-27-01-2026-modifica-dobles-titulaciones.yaml"
+
+REL-077:
+  tipo_relacion: "modifica"
+  origen: NOR-095
+  destino: NOR-086
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-077-resolucion-27-01-2026-modifica-primer-curso-comun.yaml"
+
+REL-078:
+  tipo_relacion: "modifica"
+  origen: NOR-096
+  destino: NOR-097
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-078-resolucion-25-04-2025-amplia-fp-adaptada.yaml"
+
+REL-079:
+  tipo_relacion: "modifica"
+  origen: NOR-101
+  destino: NOR-080
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-079-rd-658-2024-modifica-rd-659-2023.yaml"
+
+REL-080:
+  tipo_relacion: "corrige"
+  origen: NOR-104
+  destino: NOR-103
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-080-correccion-rd-1085-2020.yaml"
+
+REL-081:
+  tipo_relacion: "modifica"
+  origen: NOR-074
+  destino: NOR-094
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-081-resolucion-25-06-2026-modifica-cocina.yaml"
+
+REL-082:
+  tipo_relacion: "modifica"
+  origen: NOR-074
+  destino: NOR-096
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-082-resolucion-25-06-2026-modifica-prevencion-riesgos.yaml"
+
+REL-083:
+  tipo_relacion: "modifica"
+  origen: NOR-083
+  destino: NOR-097
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-083-resolucion-26-03-2026-amplia-fp-adaptada.yaml"
+
+REL-084:
+  tipo_relacion: "modifica"
+  origen: NOR-096
+  destino: NOR-081
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-084-resolucion-25-04-2025-amplia-grados-d-e.yaml"
+
+REL-085:
+  tipo_relacion: "relaciona"
+  origen: NOR-073
+  destino: NOR-098
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-085-cad-2026-sucede-a-cad-2025.yaml"
+
+REL-086:
+  tipo_relacion: "desarrolla"
+  origen: NOR-087
+  destino: NOR-080
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-086-grados-cb-desarrollan-rd-659-2023.yaml"

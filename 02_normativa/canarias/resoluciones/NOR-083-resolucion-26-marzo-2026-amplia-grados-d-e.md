@@ -23,7 +23,7 @@ temas: [formacion-profesional, grados-d-e, cursos-especializacion, fp-adaptada, 
 relaciones:
   desarrolla_a: []
   modificada_por: [NOR-084]
-  modifica_a: []
+  modifica_a: [NOR-097]
   deroga_a: []
   derogada_por: []
   relacionada_con: [NOR-081]

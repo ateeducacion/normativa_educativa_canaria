@@ -2957,4 +2957,435 @@ curriculos:
       sha256: 294cd48323508da9e745aad341df08d27c6ed5cd125f671abf9f3a6a6d779a31
       url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2025-093-1761.pdf
       fecha_exportacion: '2026-08-05'
+  NOR-087:
+    titulo: Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Actividades Físicas y Deportivas; Comercio y Marketing; y Marítimo-Pesquera, en el ámbito de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-087-resolucion-25-febrero-2026-grados-cb-deportes-comercio-maritimo.md
+    fuente_principal: FTE-094
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/045/733.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-045-733.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-087-resolucion-25-febrero-2026-grados-cb-deportes-comercio-maritimo.txt
+      sha256: df4392e0a907f4c2b428f6a7d5582f6917dfd9de538785c6c38aa067cba703a6
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-045-733.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-088:
+    titulo: Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Administración y Gestión; Agraria; Informática y Comunicaciones; y Madera, Mueble y Corcho, en el ámbito de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-088-resolucion-25-febrero-2026-grados-cb-administracion-agraria-informatica.md
+    fuente_principal: FTE-095
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/045/734.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-045-734.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-088-resolucion-25-febrero-2026-grados-cb-administracion-agraria-informatica.txt
+      sha256: ccfc678da701de4539044526db7fbb870647af9a8c6cedff3e01ebade81a2bab
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-045-734.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-089:
+    titulo: Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Artes Gráficas; Fabricación Mecánica; y Servicios Socioculturales y a la Comunidad, en el ámbito de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-089-resolucion-25-febrero-2026-grados-cb-artes-graficas-mecanica-socioculturales.md
+    fuente_principal: FTE-096
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/045/735.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-045-735.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-089-resolucion-25-febrero-2026-grados-cb-artes-graficas-mecanica-socioculturales.txt
+      sha256: 47e52136242443d73ecad4520e10c0a14e73e7ae03b5d8717969724cfe28507b
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-045-735.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-090:
+    titulo: Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Edificación y Obra Civil; Electricidad y Electrónica; Energía y Agua; e Industrias Extractivas, en el ámbito de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-090-resolucion-25-febrero-2026-grados-cb-edificacion-electricidad-energia.md
+    fuente_principal: FTE-097
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/045/736.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-045-736.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-090-resolucion-25-febrero-2026-grados-cb-edificacion-electricidad-energia.txt
+      sha256: 2890499674743143429719bbe02f8289e2786147163494215def80cd90a9e649
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-045-736.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-091:
+    titulo: Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de la familia profesional de Hostelería y Turismo, en el ámbito de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-091-resolucion-25-febrero-2026-grados-cb-hosteleria-turismo.md
+    fuente_principal: FTE-098
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/046/748.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-046-748.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-091-resolucion-25-febrero-2026-grados-cb-hosteleria-turismo.txt
+      sha256: 02dae2ae9e554ecb0ab0e8f352c7d15f6dbaf0640764913cf7f1475d8bae061d
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-046-748.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-092:
+    titulo: Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Imagen Personal; Imagen y Sonido; Instalación y Mantenimiento; y Química, en el ámbito de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-092-resolucion-25-febrero-2026-grados-cb-imagen-instalacion.md
+    fuente_principal: FTE-099
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/046/749.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-046-749.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-092-resolucion-25-febrero-2026-grados-cb-imagen-instalacion.txt
+      sha256: db4df3fb9b6b9837a547dc630828221151a83d4bdf762e5070fc1ed387b37920
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-046-749.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-093:
+    titulo: Viceconsejería de Formación Profesional y Cualificaciones Profesionales.- Resolución de 25 de febrero de 2026, por la que se establece la distribución horaria y estructura modular de los Grados C (Certificados Profesionales) y sus correspondientes Grados B (Certificados de Competencia), de niveles 2 y 3, de las familias profesionales de Industrias Alimentarias; Seguridad y Medio Ambiente; Textil, Confección y Piel; y Transporte y Mantenimiento de Vehículos, en el ámbito de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-093-resolucion-25-febrero-2026-grados-cb-alimentarias-seguridad-textil.md
+    fuente_principal: FTE-100
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/046/750.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-046-750.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-093-resolucion-25-febrero-2026-grados-cb-alimentarias-seguridad-textil.txt
+      sha256: 51fe83587c37eb1e35ef703e406296738d4aab46461efae9081167ee37ace581
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-046-750.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-094:
+    titulo: Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 27 de enero de 2026, por la que se amplía y modifica la Resolución de 30 de octubre de 2024, que dicta instrucciones y orientaciones para la implantación y desarrollo de los grados de formación D y E, a partir del curso escolar 2024/2025, y establece la distribución horaria y modular de los currículos, en el ámbito de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-094-resolucion-27-enero-2026-amplia-grados-d-e.md
+    fuente_principal: FTE-101
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/029/471.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-029-471.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-094-resolucion-27-enero-2026-amplia-grados-d-e.txt
+      sha256: 6fd0f4d4d1660a30d738b988810ccee5a616b1b976889c2298c8681a0ab2e3aa
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-029-471.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-095:
+    titulo: Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 27 de enero de 2026, por la que se modifican la Resolución de 26 de noviembre de 2025, que dicta instrucciones para la implantación y desarrollo de la oferta de dobles titulaciones de formación profesional (Grados D) en la Comunidad Autónoma de Canarias, a partir del curso escolar 2026/2027, y la Resolución de 2 de mayo de 2025, que dicta instrucciones para la organización de la oferta de dobles titulaciones de formación profesional (Grados D) de ciclos formativos con el primer curso en común en la Comunidad Autónoma de Canarias, a partir del curso 2025/2026.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-095-resolucion-27-enero-2026-modifica-dobles-titulaciones.md
+    fuente_principal: FTE-102
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/029/472.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-029-472.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-095-resolucion-27-enero-2026-modifica-dobles-titulaciones.txt
+      sha256: 9718347ea598e0b6d1f53ecf9cfe8aab6e39de29c6cc12588771059634c11b00
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-029-472.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-096:
+    titulo: Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 25 de abril de 2025, por la que se amplía la Resolución de 21 de febrero de 2025, que dicta instrucciones para la implantación de los itinerarios formativos de Formación Profesional Adaptada y el desarrollo de los currículos de los módulos de carácter general a partir del curso escolar 2024/2025, en el ámbito de la Comunidad Autónoma de Canarias, y la Resolución de 30 de octubre de 2024, por la que se dictan instrucciones y orientaciones para la implantación y desarrollo de los grados de formación D y E, a partir del curso escolar 2024/2025, y se establece la distribución horaria y modular de los currículos, en el ámbito de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-096-resolucion-25-abril-2025-amplia-fp-adaptada.md
+    fuente_principal: FTE-103
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2025/091/1728.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2025-091-1728.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-096-resolucion-25-abril-2025-amplia-fp-adaptada.txt
+      sha256: d5a5cd107a5faeb66fe05b08c8c0a932b79b74cc708258e20ccf9c8e75c5c8ea
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2025-091-1728.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-097:
+    titulo: Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 21 de febrero de 2025, por la que se dictan instrucciones para la implantación de los itinerarios formativos de Formación Profesional Adaptada y el desarrollo de los currículos de los módulos de carácter general a partir del curso escolar 2024/2025, en el ámbito de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-097-resolucion-21-febrero-2025-fp-adaptada.md
+    fuente_principal: FTE-104
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2025/046/918.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2025-046-918.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-097-resolucion-21-febrero-2025-fp-adaptada.txt
+      sha256: 11e587a8a905cfd1640efad16095e42a74dd18bf39a578c949a10ba169910255
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2025-046-918.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-098:
+    titulo: Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación.- Resolución de 9 de julio de 2025, por la que se dictan instrucciones sobre la organización y el funcionamiento de los cursos de formación preparatorios para acceder a ciclos formativos de grado medio y superior (cursos de acceso directo a ciclos formativos) en la Comunidad Autónoma de Canarias en el curso 2025-2026.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-098-resolucion-9-julio-2025-cursos-acceso-directo.md
+    fuente_principal: FTE-105
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Superada — sustituida de hecho por NOR-073 para el curso 2026-2027
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2025/145/2688.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2025-145-2688.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-098-resolucion-9-julio-2025-cursos-acceso-directo.txt
+      sha256: 4303f69c50d6a4c88ae50044696e7b2acade1aea8742d6cfd61bc0b2e5642aff
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2025-145-2688.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-099:
+    titulo: Dirección General de Formación Profesional y Enseñanzas de Régimen Especial.- Resolución de 5 de noviembre de 2024, por la que se dictan instrucciones y orientaciones para la formación dual en empresas u organismos equiparados en los Certificados Profesionales (Grado C), los Ciclos Formativos de Grado Básico, Medio y Superior (Grados D, niveles 1, 2 y 3) y Cursos de Especialización (Grado E, niveles 2 y 3), en aplicación del Real Decreto 659/2023, de 18 de julio, en los centros docentes no universitarios de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-099-resolucion-5-noviembre-2024-formacion-dual.md
+    fuente_principal: FTE-106
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2024/230/3794.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2024-230-3794.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-099-resolucion-5-noviembre-2024-formacion-dual.txt
+      sha256: 12b106eff9a1a24d852fd2ecdbf9fb2fb09a66fe88dca789ca029d5dfc5c7ef2
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2024-230-3794.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-100:
+    titulo: Dirección General de Formación Profesional y Educación de Adultos.- Resolución de 21 de abril de 2022, por la que se dictan instrucciones para la organización y el funcionamiento del Curso Específico de Acceso a Ciclos Formativos de Formación Profesional de Grado Medio que se impartirá en centros de educación de personas adultas dependientes de esta Consejería.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-100-resolucion-21-abril-2022-curso-especifico-acceso.md
+    fuente_principal: FTE-107
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Histórica — anterior al Sistema de FP de la LOFP 3/2022
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2022/087/011.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2022-087-1481.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-100-resolucion-21-abril-2022-curso-especifico-acceso.txt
+      sha256: d75bcb05300084bc2bce1c3084c1af6e33747d5a24db368ed249b6ec7dfaddb5
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2022-087-1481.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-101:
+    titulo: Real Decreto 658/2024, de 9 de julio, por el que se modifican el Real Decreto 132/2010, de 12 de febrero, por el que se establecen los requisitos mínimos de los centros que impartan las enseñanzas del segundo ciclo de la educación infantil, la educación primaria y la educación secundaria, y el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional
+    ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-101-rd-658-2024-modifica-rd-659-2023.md
+    fuente_principal: FTE-108
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.boe.es/buscar/act.php?id=BOE-A-2024-14079
+      url_pdf: https://www.boe.es/boe/dias/2024/07/10/pdfs/BOE-A-2024-14079.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-101-rd-658-2024-modifica-rd-659-2023.txt
+      sha256: 83ddeda1760cac05b97c587892ea56fb0c7fe3619a984b71f622ca75ff7e7909
+      url_origen: https://www.boe.es/boe/dias/2024/07/10/pdfs/BOE-A-2024-14079.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-102:
+    titulo: Real Decreto 69/2025, de 4 de febrero, por el que se desarrollan los elementos integrantes y los instrumentos de gestión del Sistema Nacional de Formación Profesional, y se modifica el Real Decreto 375/1999, de 5 de marzo, por el que se crea el Instituto Nacional de las Cualificaciones
+    ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-102-rd-69-2025-instrumentos-sistema-nacional-fp.md
+    fuente_principal: FTE-109
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.boe.es/buscar/act.php?id=BOE-A-2025-2039
+      url_pdf: https://www.boe.es/boe/dias/2025/02/05/pdfs/BOE-A-2025-2039.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-102-rd-69-2025-instrumentos-sistema-nacional-fp.txt
+      sha256: 010aa036875bc2e95a43243bec5767b7683b23d961a67338f7299fa62a29bf22
+      url_origen: https://www.boe.es/boe/dias/2025/02/05/pdfs/BOE-A-2025-2039.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-103:
+    titulo: Real Decreto 1085/2020, de 9 de diciembre, por el que se establecen convalidaciones de módulos profesionales de los títulos de Formación Profesional del sistema educativo español y las medidas para su aplicación, y se modifica el Real Decreto 1147/2011, de 29 de julio, por el que se establece la ordenación general de la formación profesional del sistema educativo
+    ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-103-rd-1085-2020-convalidaciones-modulos-fp.md
+    fuente_principal: FTE-110
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274
+      url_pdf: https://www.boe.es/boe/dias/2020/12/30/pdfs/BOE-A-2020-17274.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-103-rd-1085-2020-convalidaciones-modulos-fp.txt
+      sha256: f0e655472df364f630de2bc3c60d9fb93a5b3fe357bddf33fc78b1ec50698c01
+      url_origen: https://www.boe.es/boe/dias/2020/12/30/pdfs/BOE-A-2020-17274.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-104:
+    titulo: Corrección de errores del Real Decreto 1085/2020, de 9 de diciembre, por el que se establecen convalidaciones de módulos profesionales de los títulos de Formación Profesional del sistema educativo español y las medidas para su aplicación, y se modifica el Real Decreto 1147/2011, de 29 de julio, por el que se establece la ordenación general de la formación profesional del sistema educativo
+    ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-104-correccion-rd-1085-2020.md
+    fuente_principal: FTE-111
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.boe.es/buscar/act.php?id=BOE-A-2021-979
+      url_pdf: https://www.boe.es/boe/dias/2021/01/23/pdfs/BOE-A-2021-979.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-104-correccion-rd-1085-2020.txt
+      sha256: 3e8a704b20d3a784ad5868fd0091c1399e509c69a07d2b8dfe166dee12a89150
+      url_origen: https://www.boe.es/boe/dias/2021/01/23/pdfs/BOE-A-2021-979.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-105:
+    titulo: Real Decreto 62/2022, de 25 de enero, de flexibilización de los requisitos exigibles para impartir ofertas de formación profesional conducentes a la obtención de certificados de profesionalidad, así como de la oferta de formación profesional en centros del sistema educativo y de formación profesional para el empleo
+    ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-105-rd-62-2022-certificados-profesionalidad.md
+    fuente_principal: FTE-112
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.boe.es/buscar/act.php?id=BOE-A-2022-1274
+      url_pdf: https://www.boe.es/boe/dias/2022/01/27/pdfs/BOE-A-2022-1274.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-105-rd-62-2022-certificados-profesionalidad.txt
+      sha256: fe4eacf50b251c2a7f898fee477c1aa78629c0c2d25d9600fc43d9947fe02f7e
+      url_origen: https://www.boe.es/boe/dias/2022/01/27/pdfs/BOE-A-2022-1274.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-106:
+    titulo: Orden EFP/1210/2021, de 2 de noviembre, por la que se establece la equivalencia, a los efectos de acceso a enseñanzas de formación profesional, de determinados estudios y títulos anteriores al actual sistema educativo
+    ruta_corpus: 02_normativa/estatal/ordenes/NOR-106-orden-efp-1210-2021-equivalencias-acceso-fp.md
+    fuente_principal: FTE-113
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.boe.es/buscar/act.php?id=BOE-A-2021-18189
+      url_pdf: https://www.boe.es/boe/dias/2021/11/08/pdfs/BOE-A-2021-18189.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-106-orden-efp-1210-2021-equivalencias-acceso-fp.txt
+      sha256: 47476ca2a0055ee95e8208abc2ab7da908ea7d82607dbf43afb27604d63e44e6
+      url_origen: https://www.boe.es/boe/dias/2021/11/08/pdfs/BOE-A-2021-18189.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-107:
+    titulo: Resolución de la Dirección General de Formación Profesional y Educación de Adultos por la que se dictan instrucciones para la convocatoria del procedimiento de selección de la coordinación de las familias profesionales, de la especialidad de Formación y Orientación Laboral y de la especialidad de Idiomas en las enseñanzas de Formación Profesional, regular las características del ejercicio de sus funciones y establecer el procedimiento para su nombramiento, en los centros educativos públicos de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-107-resolucion-492-2023-coordinacion-familias-profesionales.md
+    fuente_principal: FTE-114
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/personal_docente
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/res492-2023-instrucciones_familias_coordinadoras.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-107-resolucion-492-2023-coordinacion-familias-profesionales.txt
+      sha256: 7461e4438c1e9cff0d4afcb9058650c279ef864f8547b362e7f4794eb5725fed
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/res492-2023-instrucciones_familias_coordinadoras.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-108:
+    titulo: Resolución de la Dirección General de Formación Profesional y Educación de Adultos por la que se autoriza a las direcciones de los centros educativos de la Comunidad Autónoma de Canarias la resolución de convalidaciones de módulos de Lengua Extranjera (Inglés) del desarrollo curricular canario de los ciclos formativos de grado superior regulados por la Ley Orgánica 2/2006, de 3 de mayo, de Educación.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-108-resolucion-22-septiembre-2014-convalidacion-ingles.md
+    fuente_principal: FTE-115
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/educacion/web/formacion_profesional/
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/formacion_profesional/_galerias/descargas/descargas/6_1_1/Resolucion_DGFPEA_22_Sept_2014_Convalidacion_INGLES_DesarrolloCurricularCanario.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-108-resolucion-22-septiembre-2014-convalidacion-ingles.txt
+      sha256: 489d0d92ef5ed965c3fdd6431ba07f80660c4523bbdaeca886ef2e13658aa5e4
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/formacion_profesional/_galerias/descargas/descargas/6_1_1/Resolucion_DGFPEA_22_Sept_2014_Convalidacion_INGLES_DesarrolloCurricularCanario.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-109:
+    titulo: Resolución de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial por la que se dictan instrucciones para el procedimiento de admisión y desarrollo de los cursos de especialización de Formación Profesional (Grado E, niveles 2 y 3) en el curso académico 2025/2026, así como su oferta en los centros docentes sostenidos con fondos públicos en la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-109-resolucion-305-2025-admision-cursos-especializacion.md
+    fuente_principal: FTE-116
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente; referida al curso 2025-2026
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional-basica
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Resolucion-305_2025_admision_cursos_especializacion_25-26.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-109-resolucion-305-2025-admision-cursos-especializacion.txt
+      sha256: 17348814d83aea366978f404f04d0eeae1b4b6d6e2abe00c6452dd31eb12bfe6
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Resolucion-305_2025_admision_cursos_especializacion_25-26.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-110:
+    titulo: Resolución de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial por la que se regulan y establecen criterios de selección para la autorización de la implantación de la modalidad bilingüe en ciclos formativos de grado medio y grado superior de Formación Profesional (Grado D, niveles 2 y 3) en centros docentes públicos de la Comunidad Autónoma de Canarias para el curso académico 2025/2026.
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-110-resolucion-318-2025-oferta-bilingue-fp.md
+    fuente_principal: FTE-117
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente; referida al curso 2025-2026
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional-basica
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Resolucion-318-Regulacion_establecimiento_oferta_bilinguee_curso-2025_2026.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-110-resolucion-318-2025-oferta-bilingue-fp.txt
+      sha256: ea7e38c4009e80804a93606d5c0e21ffd1e6d22be90e06cfa8e03313215188a2
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Resolucion-318-Regulacion_establecimiento_oferta_bilinguee_curso-2025_2026.pdf
+      fecha_exportacion: '2026-08-05'
 

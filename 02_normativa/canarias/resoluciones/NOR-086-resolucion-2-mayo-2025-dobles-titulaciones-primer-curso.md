@@ -22,7 +22,7 @@ etapas_afectadas: [formacion-profesional]
 temas: [formacion-profesional, dobles-titulaciones, ciclos-formativos, convalidaciones, grado-medio, grado-superior, grados-d, matriculacion, formacion-en-empresa, canarias]
 relaciones:
   desarrolla_a: []
-  modificada_por: []
+  modificada_por: [NOR-095]
   modifica_a: []
   deroga_a: []
   derogada_por: []

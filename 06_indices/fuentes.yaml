@@ -834,3 +834,219 @@ FTE-093:
   fecha_consulta: 2026-08-05
   ruta: "01_fuentes/boc/FTE-093-resolucion-2-mayo-2025-dobles-titulaciones-primer-curso.md"
   estado_fuente: "Activa"
+
+FTE-094:
+  titulo: "BOC-A-2026-045-733 — Grados C/B FP: Deportes, Comercio y Marítimo-Pesquera"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/045/733.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-094-resolucion-25-febrero-2026-grados-cb-deportes-comercio-maritimo.md"
+  estado_fuente: "Activa"
+
+FTE-095:
+  titulo: "BOC-A-2026-045-734 — Resolución 25-feb-2026 Grados C/B: Admón., Agraria, Informát"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/045/734.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-095-resolucion-25-febrero-2026-grados-cb-administracion-agraria-informatica.md"
+  estado_fuente: "Activa"
+
+FTE-096:
+  titulo: "BOC-A-2026-045-735 — Distribución horaria Grados C/B Artes Gráficas, Mecánica y S"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/045/735.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-096-resolucion-25-febrero-2026-grados-cb-artes-graficas-mecanica-socioculturales.md"
+  estado_fuente: "Activa"
+
+FTE-097:
+  titulo: "BOC-A-2026-045-736 — Resolución 25-2-2026 Grados C/B Edificación, Electricidad, E"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/045/736.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-097-resolucion-25-febrero-2026-grados-cb-edificacion-electricidad-energia.md"
+  estado_fuente: "Activa"
+
+FTE-098:
+  titulo: "BOC-A-2026-046-748 — Distribución horaria Grados C/B Hostelería y Turismo"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/046/748.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-098-resolucion-25-febrero-2026-grados-cb-hosteleria-turismo.md"
+  estado_fuente: "Activa"
+
+FTE-099:
+  titulo: "BOC-A-2026-046-749 — Res. 25-feb-2026: horario Grados C/B Imagen, Instalación, Qu"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/046/749.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-099-resolucion-25-febrero-2026-grados-cb-imagen-instalacion.md"
+  estado_fuente: "Activa"
+
+FTE-100:
+  titulo: "BOC-A-2026-046-750 — Grados C/B FP: Alimentaria, Seguridad, Textil, Transporte"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/046/750.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-100-resolucion-25-febrero-2026-grados-cb-alimentarias-seguridad-textil.md"
+  estado_fuente: "Activa"
+
+FTE-101:
+  titulo: "BOC-A-2026-029-471 — NOR-094"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/029/471.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-101-resolucion-27-enero-2026-amplia-grados-d-e.md"
+  estado_fuente: "Activa"
+
+FTE-102:
+  titulo: "BOC-A-2026-029-472 — Modifica dobles titulaciones FP: Hostelería y Turismo"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/029/472.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-102-resolucion-27-enero-2026-modifica-dobles-titulaciones.md"
+  estado_fuente: "Activa"
+
+FTE-103:
+  titulo: "BOC-A-2025-091-1728 — NOR-096"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2025/091/1728.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-103-resolucion-25-abril-2025-amplia-fp-adaptada.md"
+  estado_fuente: "Activa"
+
+FTE-104:
+  titulo: "BOC-A-2025-046-918 — Resolución FP Adaptada: itinerarios IFE+16 e IFC+21"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2025/046/918.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-104-resolucion-21-febrero-2025-fp-adaptada.md"
+  estado_fuente: "Activa"
+
+FTE-105:
+  titulo: "BOC-A-2025-145-2688 — Instrucciones CAD2/CAD3 curso 2025-2026"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2025/145/2688.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-105-resolucion-9-julio-2025-cursos-acceso-directo.md"
+  estado_fuente: "Activa"
+
+FTE-106:
+  titulo: "BOC-A-2024-230-3794 — NOR-099"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2024/230/3794.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-106-resolucion-5-noviembre-2024-formacion-dual.md"
+  estado_fuente: "Activa"
+
+FTE-107:
+  titulo: "BOC-A-2022-087-1481 — Instrucciones Curso Específico Acceso Grado Medio (CE2)"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2022/087/011.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-107-resolucion-21-abril-2022-curso-especifico-acceso.md"
+  estado_fuente: "Activa"
+
+FTE-108:
+  titulo: "BOE-A-2024-14079 — RD 658/2024: modifica RD 132/2010 y RD 659/2023"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2024-14079"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boe/FTE-108-rd-658-2024-modifica-rd-659-2023.md"
+  estado_fuente: "Activa"
+
+FTE-109:
+  titulo: "BOE-A-2025-2039 — RD 69/2025 elementos e instrumentos gestión FP"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2025-2039"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boe/FTE-109-rd-69-2025-instrumentos-sistema-nacional-fp.md"
+  estado_fuente: "Activa"
+
+FTE-110:
+  titulo: "BOE-A-2020-17274 — RD 1085/2020 convalidaciones módulos profesionales FP"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boe/FTE-110-rd-1085-2020-convalidaciones-modulos-fp.md"
+  estado_fuente: "Activa"
+
+FTE-111:
+  titulo: "BOE-A-2021-979 — Corrección de errores RD 1085/2020 (convalidaciones FP)"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2021-979"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boe/FTE-111-correccion-rd-1085-2020.md"
+  estado_fuente: "Activa"
+
+FTE-112:
+  titulo: "BOE-A-2022-1274 — RD 62/2022 - Flexibilización certificados de profesionalidad"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-1274"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boe/FTE-112-rd-62-2022-certificados-profesionalidad.md"
+  estado_fuente: "Activa"
+
+FTE-113:
+  titulo: "BOE-A-2021-18189 — Equivalencia Bachiller Ley 1970 para acceso a FP"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado"
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2021-18189"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boe/FTE-113-orden-efp-1210-2021-equivalencias-acceso-fp.md"
+  estado_fuente: "Activa"
+
+FTE-114:
+  titulo: "Portal de la Consejería — Instrucciones coordinación familias profesionales FP 2023"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/personal_docente"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/portales-oficiales/FTE-114-resolucion-492-2023-coordinacion-familias-profesionales.md"
+  estado_fuente: "Activa"
+
+FTE-115:
+  titulo: "Portal de la Consejería — Convalidación de Inglés: resuelven los centros de FP"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/formacion_profesional/"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/portales-oficiales/FTE-115-resolucion-22-septiembre-2014-convalidacion-ingles.md"
+  estado_fuente: "Activa"
+
+FTE-116:
+  titulo: "Portal de la Consejería — Admisión cursos de especialización FP 2025-2026"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional-basica"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/portales-oficiales/FTE-116-resolucion-305-2025-admision-cursos-especializacion.md"
+  estado_fuente: "Activa"
+
+FTE-117:
+  titulo: "Portal de la Consejería — Res. 318/2025 modalidad bilingüe FP curso 2025/2026"
+  tipo_fuente: "portal-oficial"
+  autoridad: "Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+  url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional-basica"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/portales-oficiales/FTE-117-resolucion-318-2025-oferta-bilingue-fp.md"
+  estado_fuente: "Activa"

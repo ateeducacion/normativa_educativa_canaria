@@ -16,13 +16,13 @@ texto_oficial:
   url_html: "https://www.gobiernodecanarias.org/boc/2024/226/3747.html"
   url_pdf: "https://sede.gobiernodecanarias.org/boc/boc-a-2024-226-3747.pdf"
   url_texto_consolidado: ""
-  url_anexo: ""
+  url_anexo: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Estructura-modular-y-horaria-Grados-D-nivel-2-y-3.pdf"
   ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-081-resolucion-30-octubre-2024-grados-d-e.txt"
 etapas_afectadas: [formacion-profesional]
 temas: [formacion-profesional, grados-d-e, distribucion-horaria, curriculo-fp, evaluacion-fp, titulacion-fp, prevencion-riesgos-laborales, modulos-transversales, convalidaciones, canarias]
 relaciones:
   desarrolla_a: [NOR-080]
-  modificada_por: [NOR-082, NOR-083]
+  modificada_por: [NOR-082, NOR-083, NOR-094, NOR-096]
   modifica_a: []
   deroga_a: []
   derogada_por: []
@@ -200,6 +200,18 @@ explícita de entrada en vigor ni contiene disposición derogatoria expresa.
   detalle completo de cada uno de los 23 ciclos de Grado Básico o de los cursos de
   especialización listados en el Anexo VII; si se necesita el detalle por título, requiere una
   tarea específica de extracción curricular (CUR-NNN) o de chunking.
+
+## 11 bis. Anexos publicados por separado
+
+La Consejería republica tres de sus anexos como PDF independientes, para que un centro no tenga
+que descargar el boletín entero. Llevan impreso el pie `boc-a-2024-226-3747`, así que son extracto
+de esta misma resolución y no normas distintas (`DEC-0012`):
+
+| Anexo | Contenido | Acceso directo |
+| --- | --- | --- |
+| V | Grados D, nivel 1 (ciclos de grado básico) | [PDF](https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Estructura-modular-y-horaria-Grados-D-nivel-1.pdf) |
+| VI | Grados D, niveles 2 y 3 (grado medio y superior) | [PDF](https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Estructura-modular-y-horaria-Grados-D-nivel-2-y-3.pdf) |
+| VII | Grados E, niveles 2 y 3 (cursos de especialización) | [PDF](https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Estructura-modular-y-horaria-Grados-E.pdf) |
 
 ## 12. Fuentes
 

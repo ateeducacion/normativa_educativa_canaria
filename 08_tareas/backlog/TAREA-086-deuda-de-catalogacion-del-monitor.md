@@ -1,14 +1,15 @@
 ---
 id: TAREA-086
 titulo: "Catalogar las disposiciones que el monitor detectó y nunca se ficharon"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "catalogacion"
 responsable: "@.agents/skills/catalogacion-fuentes"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
+fecha_cierre: 2026-08-05
 relacionadas: [NOR-079, NOR-080, NOR-081, NOR-082, NOR-083, NOR-084, NOR-085, NOR-086, FTE-086, FTE-087, FTE-088, FTE-089, FTE-090, FTE-091, FTE-092, FTE-093, TAREA-064, TAREA-084, PREG-006]
-siguiente_accion: "Catalogar las siete resoluciones de 25 de febrero de 2026 sobre distribución horaria de los Grados C y B, que forman un conjunto coherente por familia profesional."
+siguiente_accion: null
 ---
 
 # TAREA-086 — La deuda silenciosa del monitor
@@ -114,3 +115,61 @@ mezclar normas con orientaciones no normativas.
 ## Coordinación con trabajo paralelo
 
 IDs consumidos: `TAREA-086`, `FTE-086` a `FTE-093`, `NOR-079` a `NOR-086`, `REL-064` a `REL-074`.
+
+## Cierre (2026-08-05)
+
+### Lo catalogado en esta segunda tanda
+
+Veinticuatro normas más, con sus fuentes, su copia local del PDF firmado y doce relaciones nuevas
+(`REL-075` a `REL-086`).
+
+**Los Grados C y B**, que el corpus no tenía representados. Las siete resoluciones de 25 de
+febrero de 2026 (`NOR-087` a `NOR-093`) reparten por familia profesional la distribución horaria
+y estructura modular de los Certificados Profesionales y de Competencia. Con ellas, el corpus
+cubre por primera vez los cinco grados del sistema.
+
+**Dos ofertas que faltaban por completo:** la Formación Profesional Adaptada (`NOR-097`, con sus
+ampliaciones `NOR-096` y `NOR-083`) y la formación dual (`NOR-099`).
+
+**La cadena estatal de FP**, que sostiene todo lo anterior: `NOR-101` —el RD 658/2024, que
+modifica el RD 659/2023 catalogado esta misma jornada—, `NOR-102`, `NOR-103` con su corrección
+`NOR-104`, `NOR-105` y `NOR-106`.
+
+**Las resoluciones que otras fichas declaraban modificar sin poder enlazarlas.** `NOR-074` decía
+en su texto que sustituía anexos de dos resoluciones que el corpus no tenía; ahora son `NOR-094`
+y `NOR-096`, y las relaciones `REL-081` y `REL-082` cierran esa afirmación.
+
+**El régimen anterior de acceso**, para poder trazar la sucesión: `NOR-098`, cursos de acceso
+directo del curso 2025-2026, y `NOR-100`, el Curso Específico previo a los CAD.
+
+### La decisión sobre los documentos del portal
+
+`DEC-0012` fija el criterio, que no es el canal de publicación sino el contenido: se cataloga lo
+que es resolución con parte dispositiva y alcance general, se rechaza el acto singular, el
+extracto de una norma ya catalogada y el documento de una etapa normativa sustituida.
+
+Aplicado a los nueve PDF pendientes: **cuatro se catalogan** (`NOR-107` a `NOR-110`) y cinco no,
+cada uno con su motivo. Los tres de «Estructura modular y horaria» resultaron ser los anexos V, VI
+y VII de `NOR-081` —llevan impreso el pie `boc-a-2024-226-3747`—, y se registran como accesos
+directos en esa ficha en lugar de duplicarse como normas.
+
+Las cuatro que sí se catalogan llevan un aviso visible de que no se publicaron en el BOC.
+
+### Lo que queda fuera del corpus, y por qué
+
+Las 27 páginas de portal del snapshot son índices de navegación, no normas. Seguirán apareciendo
+en `--pendientes` porque no tienen ficha, y eso es correcto: el informe dice qué no está
+catalogado, no qué debería estarlo.
+
+### Deuda que esta tanda deja anotada
+
+Las fichas nuevas citan a su vez normas que el corpus no tiene: los Reales Decretos de cada título
+de FP, el RD 278/2023 de calendario de implantación, los RD 499/2024 y 500/2024, el Decreto
+156/1996 de ordenación de la FP específica canaria y el Decreto 84/2024 del Reglamento Orgánico de
+la Consejería. No se abre tarea: son referencias de fundamento, no normas que otra ficha declare
+modificar, que era el criterio de urgencia de esta tanda.
+
+## Coordinación con trabajo paralelo
+
+IDs consumidos en total: `TAREA-086`, `FTE-086` a `FTE-117`, `NOR-079` a `NOR-110`, `REL-064` a
+`REL-086`, `DEC-0012`.

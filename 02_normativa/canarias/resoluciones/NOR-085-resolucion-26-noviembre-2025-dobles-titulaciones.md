@@ -22,7 +22,7 @@ etapas_afectadas: [formacion-profesional]
 temas: [formacion-profesional, dobles-titulaciones, grado-d, ciclos-formativos-grado-medio, ciclos-formativos-grado-superior, feoe-formacion-en-empresa, proyecto-intermodular, evaluacion-fp, curriculo-fp-canarias]
 relaciones:
   desarrolla_a: [NOR-080]
-  modificada_por: [NOR-075]
+  modificada_por: [NOR-075, NOR-095]
   modifica_a: []
   deroga_a: []
   derogada_por: []

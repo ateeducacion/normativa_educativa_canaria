@@ -24,7 +24,7 @@ temas: [formacion-profesional, distribucion-horaria, estructura-modular, curricu
 relaciones:
   desarrolla_a: []
   modificada_por: []
-  modifica_a: []
+  modifica_a: [NOR-094, NOR-096]
   deroga_a: []
   derogada_por: []
   relacionada_con: [NOR-073, NOR-075, NOR-081]

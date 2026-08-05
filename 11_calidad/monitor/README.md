@@ -90,3 +90,15 @@ Tanto este modo como el escaneo normal comparan por **identificador oficial**
 disposición se publica como PDF de la sede, como HTML del boletín y como texto
 consolidado, y el corpus guarda sólo una de esas formas; comparar URL contra URL
 hacía que una norma ya catalogada se contara como pendiente.
+
+### Exclusiones razonadas
+
+`descartados.yaml` recoge las URL detectadas que **no procede catalogar**, cada una con su motivo
+escrito y la decisión editorial que lo respalda (`DEC-0012`). El informe las muestra en su propia
+sección, separadas de la deuda real.
+
+Existe para que el informe siga siendo útil. Un listado que repite en cada ejecución los mismos
+cinco documentos ya descartados acaba siendo ruido que nadie lee, y entonces deja de servir para
+lo único que importa: ver lo que sí falta.
+
+Añadir una URL aquí es una decisión editorial, no un atajo. Exige motivo escrito.

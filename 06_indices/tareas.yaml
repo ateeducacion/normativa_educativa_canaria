@@ -1494,7 +1494,7 @@ TAREA-085:
 
 TAREA-086:
   titulo: "Catalogar las disposiciones que el monitor detectó y nunca se ficharon"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "catalogacion"
   responsable: '@.agents/skills/catalogacion-fuentes'

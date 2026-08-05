@@ -22,7 +22,7 @@ etapas_afectadas: [formacion-profesional, eso, educacion-adultos]
 temas: [formacion-profesional, ordenacion-fp, grados-fp, curriculo-fp, formacion-en-empresa, fct, titulos-fp, acreditacion-de-competencias, ciclos-formativos, gobernanza-fp]
 relaciones:
   desarrolla_a: [NOR-007]
-  modificada_por: []
+  modificada_por: [NOR-101]
   modifica_a: []
   deroga_a: []
   derogada_por: []

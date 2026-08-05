@@ -248,8 +248,44 @@ def identificador(url: str) -> str | None:
     return encontrado.group(1).lower() if encontrado else None
 
 
+POSICIONAL_BOC = re.compile(r"gobiernodecanarias\.org/boc/(\d{4})/(\d{3})/(\d{1,4})\.html", re.I)
+_CVE_POR_POSICION: dict[tuple[str, str, str], str | None] = {}
+
+
+def cve_de_url_posicional(url: str) -> str | None:
+    """Resuelve el CVE de una URL del BOC que sólo lleva la posición en el boletín.
+
+    Hasta 2024 el último tramo de la URL era la posición de la disposición dentro
+    del boletín, no su número, así que la URL no contiene el identificador. Se lee
+    del sumario, que sí lo publica.
+    """
+    encontrada = POSICIONAL_BOC.search(url)
+    if not encontrada:
+        return None
+    anio, boletin, tramo = encontrada.groups()
+    clave = (anio, boletin, tramo)
+    if clave in _CVE_POR_POSICION:
+        return _CVE_POR_POSICION[clave]
+    html = fetch(f"https://www.gobiernodecanarias.org/boc/{anio}/{boletin}/index.html")
+    cve = None
+    if html:
+        cves = re.findall(rf"BOC-A-{anio}-{boletin}-(\d+)", html)
+        # el sumario repite cada CVE varias veces; interesa el orden de aparición
+        vistos: list[str] = []
+        for c in cves:
+            if c not in vistos:
+                vistos.append(c)
+        posicion = int(tramo)
+        if str(posicion) in vistos:            # esquema nuevo: el tramo ES el número
+            cve = f"boc-a-{anio}-{boletin}-{posicion}"
+        elif 1 <= posicion <= len(vistos):     # esquema antiguo: el tramo es la posición
+            cve = f"boc-a-{anio}-{boletin}-{vistos[posicion - 1]}"
+    _CVE_POR_POSICION[clave] = cve
+    return cve
+
+
 def rastro_en_corpus(url: str, corpus: str, catalogadas: set[str]) -> bool:
-    ident = identificador(url)
+    ident = identificador(url) or cve_de_url_posicional(url)
     if ident:
         return ident in corpus
     return normalize_url(url) in catalogadas
@@ -285,6 +321,15 @@ def clasificar(url: str) -> str:
     return "pagina-portal"
 
 
+DESCARTADOS = pathlib.Path(__file__).resolve().parent / "descartados.yaml"
+
+
+def exclusiones() -> dict[str, str]:
+    """URL detectadas que NO procede catalogar, con su motivo (DEC-0012)."""
+    datos = load_yaml(DESCARTADOS)
+    return {normalize_url(u): (v or {}).get("motivo", "") for u, v in (datos.get("descartados") or {}).items()}
+
+
 def informe_pendientes(snapshot: dict, indices_dir: pathlib.Path, repo: pathlib.Path) -> int:
     """Lista las URL del snapshot que siguen sin rastro en el corpus.
 
@@ -294,11 +339,17 @@ def informe_pendientes(snapshot: dict, indices_dir: pathlib.Path, repo: pathlib.
     """
     corpus = texto_del_corpus(repo)
     catalogadas = collect_catalogued_urls(indices_dir)
+    descartadas = exclusiones()
     grupos: dict[str, list[tuple[str, str]]] = {
         "disposicion-boc": [], "disposicion-boe": [], "pdf-consejeria": [], "pagina-portal": [],
     }
+    excluidas: list[tuple[str, str]] = []
     for url, fecha in sorted(snapshot.items(), key=lambda par: (par[1], par[0])):
         if rastro_en_corpus(url, corpus, catalogadas):
+            continue
+        motivo = descartadas.get(normalize_url(url))
+        if motivo is not None:
+            excluidas.append((url, motivo))
             continue
         grupos[clasificar(url)].append((fecha, url))
 
@@ -315,7 +366,13 @@ def informe_pendientes(snapshot: dict, indices_dir: pathlib.Path, repo: pathlib.
         for fecha, url in entradas:
             print(f"  {fecha}  {url}")
         print()
-    # Sólo las disposiciones son deuda real; las páginas de portal son navegación.
+    if excluidas:
+        print(f"## Descartadas con motivo escrito (DEC-0012): {len(excluidas)}")
+        for url, motivo in excluidas:
+            print(f"  {url}\n      {motivo}")
+        print()
+    # Sólo las disposiciones son deuda real; las páginas de portal son navegación y
+    # las descartadas tienen ya una decisión editorial escrita.
     return 1 if (grupos["disposicion-boc"] or grupos["disposicion-boe"]) else 0
 
 
