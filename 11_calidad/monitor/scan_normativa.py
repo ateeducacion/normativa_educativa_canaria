@@ -256,9 +256,17 @@ def rastro_en_corpus(url: str, corpus: str, catalogadas: set[str]) -> bool:
 
 
 def texto_del_corpus(repo: pathlib.Path) -> str:
-    """Todo el Markdown de fichas y el YAML de índices, en minúsculas."""
+    """Las fichas que constituyen catalogación, más los índices, en minúsculas.
+
+    Se limita a fuentes, normativa, currículos e índices a propósito. Si se
+    incluyeran tareas o diario, bastaría con **mencionar** el identificador de una
+    disposición pendiente para que se contara como catalogada, que es justo lo
+    contrario de lo que este informe debe detectar.
+    """
     partes = []
-    for patron in ("0[1-9]_*/**/*.md", "06_indices/*.yaml"):
+    for patron in ("01_fuentes/**/*.md", "02_normativa/**/*.md",
+                   "03_curriculos/**/*.md", "03_curriculos/**/*.yaml",
+                   "05_relaciones/**/*.yaml", "06_indices/*.yaml"):
         for fichero in repo.glob(patron):
             try:
                 partes.append(fichero.read_text(encoding="utf-8", errors="replace"))
