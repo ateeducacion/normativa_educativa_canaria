@@ -8,11 +8,17 @@ autoridad: "Ministerio de Educación, Cultura y Deporte"
 fecha_disposicion: 2012-07-13
 fecha_publicacion: 2012-08-03
 fecha_entrada_vigor: 2012-08-04
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente (actualizado por RD 289/2023)"
 fuente_principal: FTE-054
-url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2012-10338"
+url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2012-10866"
+texto_oficial:
+  url_html: "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-10866"
+  url_pdf: "https://www.boe.es/boe/dias/2012/08/15/pdfs/BOE-A-2012-10866.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-060-rd-1074-2012-integracion-social.txt"
 etapas_afectadas: [formacion-profesional]
 temas: [servicios-socioculturales, tecnico-superior, integracion-social]
 relaciones:
@@ -51,4 +57,4 @@ nivel_evidencia: "confirmado-fuente-primaria"
 
 ## 11. Fuentes
 
-- [BOE-A-2012-10338](https://www.boe.es/buscar/act.php?id=BOE-A-2012-10338)
+- [BOE-A-2012-10866](https://www.boe.es/buscar/act.php?id=BOE-A-2012-10866)

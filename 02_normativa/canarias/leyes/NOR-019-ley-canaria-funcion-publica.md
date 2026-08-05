@@ -9,10 +9,16 @@ estado_vigencia: "Vigente"
 fecha_disposicion: 1987-03-30
 fecha_publicacion: 1987-04-03
 fecha_entrada_vigor: 1987-04-04
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 fuente_principal: FTE-022
-url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-1987-11119"
+url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-1987-11921"
+texto_oficial:
+  url_html: "https://www.boe.es/buscar/act.php?id=BOE-A-1987-11921"
+  url_pdf: "https://www.boe.es/buscar/pdf/1987/BOE-A-1987-11921-consolidado.pdf"
+  url_texto_consolidado: "https://www.boe.es/buscar/act.php?id=BOE-A-1987-11921"
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-019-ley-canaria-funcion-publica.txt"
 temas: [funcion-publica, regimen-juridico, personal-administracion]
 etapas_afectadas: [todas]
 relaciones:

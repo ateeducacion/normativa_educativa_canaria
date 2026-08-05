@@ -18,7 +18,7 @@ texto_oficial:
   url_pdf: "https://www.boe.es/boe/dias/2022/06/24/pdfs/BOE-A-2022-10452.pdf"
   url_texto_consolidado: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-10452"
   url_anexo: ""
-  ruta_texto_plano_local: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-072-curriculos-religion-catolica-2022.txt"
 etapas_afectadas: [infantil, primaria, eso, bachillerato]
 temas: [curriculo, religion-catolica, competencias-especificas, criterios-evaluacion, saberes-basicos]
 relaciones:
