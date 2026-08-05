@@ -12,9 +12,9 @@ fecha_entrada_vigor: 2020-07-03
 fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 fuente_principal: FTE-026
-url_oficial: "https://www.gobiernodecanarias.org/boc/2020/132/001.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2020/132/005.html"
 texto_oficial:
-  url_html: "https://www.gobiernodecanarias.org/boc/2020/132/001.html"
+  url_html: "https://www.gobiernodecanarias.org/boc/2020/132/005.html"
   url_pdf: "https://sede.gobiernodecanarias.org/boc/boc-a-2020-132-2095.pdf"
   url_texto_consolidado: ""
   url_anexo: ""

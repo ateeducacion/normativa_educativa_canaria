@@ -301,7 +301,7 @@ fuentes:
     fecha_consulta: 2026-04-26
     estado_acceso: enlace-oficial
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/boc/2020/132/001.html
+      url_html: https://www.gobiernodecanarias.org/boc/2020/132/005.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
@@ -510,7 +510,7 @@ fuentes:
     fecha_consulta: 2026-04-26
     estado_acceso: enlace-oficial
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/boc/2026/046/001.html
+      url_html: https://www.gobiernodecanarias.org/boc/2026/046/751.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
@@ -543,7 +543,7 @@ fuentes:
     fecha_consulta: 2026-04-26
     estado_acceso: enlace-oficial
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/boc/2025/107/005.html
+      url_html: https://www.gobiernodecanarias.org/boc/2025/107/2005.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
@@ -1019,14 +1019,14 @@ normativa:
     estado_vigencia: Superada
     estado_acceso: con-copia-local
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/boc/2020/132/001.html
+      url_html: https://www.gobiernodecanarias.org/boc/2020/132/005.html
       url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2020-132-2095.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
       ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-023-resolucion-2020-permisos.txt
-      sha256: 59c71233d50821a4a084cf299cc33f4347059c2b151920f3c3f2b6f3fd09b445
-      url_origen: https://www.gobiernodecanarias.org/boc/2020/132/001.html
+      sha256: a0af27b1fd911d6ee166d842d09889c1586da6901eb6b7ec172b0e46c8c12719
+      url_origen: https://www.gobiernodecanarias.org/boc/2020/132/005.html
       fecha_exportacion: '2026-08-05'
   NOR-024:
     titulo: Decreto 25/2018, de 26 de febrero, por el que se regula la atención a la diversidad en el ámbito de las enseñanzas no universitarias de la Comunidad Autónoma de Canarias

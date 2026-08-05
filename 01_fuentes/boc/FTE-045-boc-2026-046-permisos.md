@@ -23,4 +23,4 @@ nivel_evidencia: "confirmado-fuente-primaria"
 Sustituye a la Resolución de 16 de junio de 2020 y consolida las modificaciones legales de 2023, 2024 y 2025 en materia de conciliación y empleo público.
 
 ## Acceso
-- [Portal del BOC](https://www.gobiernodecanarias.org/boc/2026/046/001.html)
+- [Portal del BOC](https://www.gobiernodecanarias.org/boc/2026/046/751.html)

@@ -16,6 +16,7 @@ Uso:
     python3 11_calidad/reexportar_texto_oficial.py NOR-044            # sólo diagnostica
     python3 11_calidad/reexportar_texto_oficial.py NOR-044 --aplicar  # reescribe
     python3 11_calidad/reexportar_texto_oficial.py --marcadas         # todas las marcadas
+    python3 11_calidad/reexportar_texto_oficial.py --auditar          # revisa las URL de todas las NOR
 
 Requiere `pdftotext` (paquete poppler) en el PATH.
 """
@@ -97,6 +98,7 @@ def disposiciones_del_boletin(anio: str, numero: str) -> list[dict]:
         titulo = re.sub(r"^\d+\s+", "", titulo)
         salida.append(
             {
+                "posicion": len(salida) + 1,
                 "pdf": enlace,
                 "cve": cve.group(1) if cve else pathlib.Path(enlace).stem.upper(),
                 "ordinal": ordinal.group(1) if ordinal else None,
@@ -213,6 +215,29 @@ def buscar_en_archivo(titulo: str, boletines: int = 90) -> dict | None:
     return None
 
 
+def url_html_de_disposicion(anio: str, numero_boletin: str, posicion: int, cve: str) -> str | None:
+    """URL de la versión HTML de una disposición, probando los dos esquemas del BOC.
+
+    El BOC cambió de esquema alrededor de 2025: antes el último tramo de la URL era la
+    **posición** de la disposición dentro del boletín (`/boc/2023/110/001.html`) y ahora
+    es su **número de disposición** (`/boc/2026/046/751.html`). El sumario ya no publica
+    ese enlace, así que se prueban ambas formas y se usa la que responde.
+    """
+    numero = cve.rsplit("-", 1)[-1]
+    for tramo in (numero, f"{posicion:03d}"):
+        candidata = f"https://www.gobiernodecanarias.org/boc/{anio}/{numero_boletin}/{tramo}.html"
+        try:
+            peticion = urllib.request.Request(
+                candidata, headers={"User-Agent": "normativa-educativa-canaria/1.0"}
+            )
+            with urllib.request.urlopen(peticion, timeout=30) as respuesta:
+                if respuesta.status == 200:
+                    return candidata
+        except Exception:  # noqa: BLE001 — un 404 sólo descarta este esquema
+            continue
+    return None
+
+
 def texto_del_pdf(datos: bytes) -> str:
     with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
         tmp.write(datos)
@@ -309,11 +334,7 @@ def reexportar(ruta: pathlib.Path, fecha: str, aplicar: bool, buscar: bool = Tru
         resultado["estado"] = "pdf-no-corresponde"
         return resultado
 
-    nueva_url = (
-        f"https://www.gobiernodecanarias.org/boc/{anio}/{numero}/{mejor['ordinal'].split('/')[-1]}.html"
-        if mejor["ordinal"]
-        else url
-    )
+    nueva_url = url_html_de_disposicion(anio, numero, mejor["posicion"], mejor["cve"]) or url
     nueva_cabecera = []
     for linea in cabecera:
         if linea.startswith("ADVERTENCIA DE CONTENIDO"):
@@ -382,6 +403,65 @@ def sincronizar_indice(cambios: dict[str, dict]) -> list[str]:
     return tocados
 
 
+def auditar_urls() -> int:
+    """Contrasta la `url_oficial` de cada ficha NOR contra el sumario de su boletín.
+
+    Es la comprobación que descubrió, en `TAREA-085`, que tres fichas describían normas
+    inexistentes. Vive aquí y no en `validar_corpus.py` porque necesita red y el
+    validador debe poder correr sin ella.
+    """
+    import concurrent.futures
+    import yaml  # noqa: PLC0415 — dependencia opcional, sólo para este modo
+
+    patron = re.compile(r"gobiernodecanarias\.org/boc/(\d{4})/(\d{3})/(\d{1,4})\.html")
+    casos = []
+    for ficha in sorted((RAIZ / "02_normativa").rglob("NOR-*.md")):
+        frontmatter = yaml.safe_load(ficha.read_text(encoding="utf-8").split("---")[1])
+        encontrada = patron.search(frontmatter.get("url_oficial") or "")
+        if encontrada:
+            casos.append((frontmatter["id"], frontmatter["titulo"], encontrada.groups()))
+
+    def revisar(caso):
+        ident, titulo, (anio, boletin, tramo) = caso
+        try:
+            disposiciones = disposiciones_del_boletin(anio, boletin)
+        except Exception as error:  # noqa: BLE001
+            return ident, "error", str(error), ""
+        if not disposiciones:
+            return ident, "sumario-vacio", f"{anio}/{boletin}", ""
+        # El último tramo de la URL es la posición dentro del boletín en el esquema
+        # antiguo y el número de disposición desde 2025; se aceptan ambos.
+        declarada = next(
+            (d for d in disposiciones if d["cve"].rsplit("-", 1)[-1] == str(int(tramo))), None
+        )
+        if declarada is None and int(tramo) <= len(disposiciones):
+            declarada = disposiciones[int(tramo) - 1]
+        buscadas = fichas(titulo)
+        proporcion = lambda d: len(buscadas & fichas(d["titulo"])) / max(len(buscadas), 1)  # noqa: E731
+        mejor = max(disposiciones, key=proporcion)
+        correcta = declarada is not None and proporcion(declarada) >= 0.6
+        detalle = (
+            f"{anio}/{boletin}/{tramo} coincidencia={proporcion(declarada):.2f}"
+            if declarada
+            else f"{anio}/{boletin}/{tramo} fuera de rango"
+        )
+        return (
+            ident,
+            "ok" if correcta else "revisar",
+            detalle,
+            f"mejor={proporcion(mejor):.2f} [{mejor['cve']}] {mejor['titulo'][:110]}",
+        )
+
+    sospechosas = 0
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as ejecutor:
+        for ident, estado, detalle, mejor in ejecutor.map(revisar, casos):
+            if estado != "ok":
+                sospechosas += 1
+                print(f"{ident} [{estado}] {detalle}\n    {mejor}")
+    print(f"\n{len(casos)} fichas NOR contrastadas · {sospechosas} a revisar")
+    return 1 if sospechosas else 0
+
+
 def marcadas() -> list[pathlib.Path]:
     salida = []
     for fichero in sorted(TEXTOS.glob("texto-oficial-*.txt")):
@@ -395,9 +475,14 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("ids", nargs="*", help="IDs a re-exportar, p. ej. NOR-044")
     parser.add_argument("--marcadas", action="store_true", help="todas las marcadas como contaminadas")
+    parser.add_argument("--auditar", action="store_true",
+                        help="contrasta la url_oficial de cada ficha NOR contra el sumario de su boletín")
     parser.add_argument("--aplicar", action="store_true", help="reescribe los ficheros")
     parser.add_argument("--fecha", default="2026-08-05", help="fecha de consulta y exportación")
     args = parser.parse_args()
+
+    if args.auditar:
+        return auditar_urls()
 
     objetivos: list[pathlib.Path] = []
     if args.marcadas:

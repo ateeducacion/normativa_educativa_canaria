@@ -12,7 +12,7 @@ fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-048
-url_oficial: "https://www.gobiernodecanarias.org/boc/2025/107/005.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2025/107/2005.html"
 etapas_afectadas: [primaria]
 temas: [evaluacion, rubricas, objetividad]
 relaciones:
@@ -51,4 +51,4 @@ Resolución vigente que publica las "tablas" (rúbricas) que los maestros de Pri
 
 ## 11. Fuentes
 
-- [BOC 2025/107](https://www.gobiernodecanarias.org/boc/2025/107/005.html)
+- [BOC 2025/107](https://www.gobiernodecanarias.org/boc/2025/107/2005.html)

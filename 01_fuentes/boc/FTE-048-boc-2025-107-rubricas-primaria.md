@@ -19,4 +19,4 @@ estado_fuente: "Activa"
 - **Objeto:** Establecer las rúbricas de los criterios de evaluación para Educación Primaria en Canarias para asegurar una evaluación objetiva.
 
 ## Acceso
-- [Portal del BOC](https://www.gobiernodecanarias.org/boc/2025/107/005.html)
+- [Portal del BOC](https://www.gobiernodecanarias.org/boc/2025/107/2005.html)

@@ -3,7 +3,7 @@ id: FTE-026
 titulo: "BOC n.º 132 (2020): Resolución de 16 de junio de 2020 (Permisos y Licencias)"
 tipo_fuente: "boletin-oficial"
 autoridad: "Dirección General de Personal"
-url_oficial: "https://www.gobiernodecanarias.org/boc/2020/132/001.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2020/132/005.html"
 fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 estado_fuente: "Activa"
