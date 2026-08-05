@@ -449,13 +449,13 @@ FTE-050:
   estado_fuente: "Activa"
 
 FTE-051:
-  titulo: "Resolución de 20 de junio de 2025, IOF Escuelas Infantiles"
+  titulo: "[CATALOGACIÓN ERRÓNEA] Resolución de 20 de junio de 2025, IOF Escuelas Infantiles"
   tipo_fuente: "resolucion-administrativa"
   autoridad: "Viceconsejería de Educación - Gobierno de Canarias"
   url_oficial: "https://www.gobiernodecanarias.org/educacion/web/centros/organizacion_funcionamiento/instrucciones_organizacion_funcionamiento/"
   fecha_consulta: 2026-04-26
   ruta: "01_fuentes/portales-oficiales/FTE-051-instrucciones-iof-infantil-25-26.md"
-  estado_fuente: "Activa"
+  estado_fuente: "Superada"
 
 FTE-052:
   titulo: "Decreto 201/2008, requisitos centros primer ciclo Infantil"

@@ -1273,6 +1273,21 @@ tareas:
     - TAREA-076
     siguiente_accion: "Descargar el PDF oficial del Decreto 211/2022 y extraer el anexo curricular a texto plano."
 
+  TAREA-078:
+    titulo: "Catalogar la Resolución Conjunta n.º 24/2024 de instrucciones para el primer ciclo de Educación Infantil"
+    estado: "Pendiente"
+    prioridad: "Media"
+    tipo: "catalogacion"
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-009
+    - FTE-049
+    - FTE-051
+    - NOR-049
+    siguiente_accion: "Crear la ficha FTE de la Resolución 24/2024 desde su PDF oficial y decidir si procede ficha NOR."
+
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.

@@ -1356,3 +1356,18 @@ TAREA-077:
   - TAREA-067
   - TAREA-076
   ruta: 08_tareas/backlog/TAREA-077-reexportar-anexo-decreto-primaria.md
+
+TAREA-078:
+  titulo: "Catalogar la Resolución Conjunta n.º 24/2024 de instrucciones para el primer ciclo de Educación Infantil"
+  estado: "Pendiente"
+  prioridad: "Media"
+  tipo: "catalogacion"
+  responsable: '@.agents/skills/catalogacion-fuentes'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - PREG-009
+  - FTE-049
+  - FTE-051
+  - NOR-049
+  ruta: 08_tareas/backlog/TAREA-078-catalogar-resolucion-24-2024-infantil.md

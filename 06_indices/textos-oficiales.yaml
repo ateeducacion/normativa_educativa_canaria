@@ -571,7 +571,7 @@ fuentes:
       url_anexo: null
     texto_plano_local: null
   FTE-051:
-    titulo: Resolución de 20 de junio de 2025, IOF Escuelas Infantiles
+    titulo: "[CATALOGACIÓN ERRÓNEA] Resolución de 20 de junio de 2025, IOF Escuelas Infantiles"
     ruta_corpus: 01_fuentes/portales-oficiales/FTE-051-instrucciones-iof-infantil-25-26.md
     fecha_consulta: 2026-04-26
     estado_acceso: enlace-oficial
@@ -1456,7 +1456,7 @@ normativa:
   NOR-049:
     titulo: Resolución de 20 de junio de 2025, instrucciones para la organización y el funcionamiento de las escuelas infantiles y centros de Educación Infantil 2025-2026
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-049-resolucion-iof-infantil-25-26.md
-    fuente_principal: FTE-051
+    fuente_principal: FTE-049
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
     estado_acceso: con-copia-local

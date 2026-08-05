@@ -1,13 +1,13 @@
 ---
 id: FTE-051
-titulo: "Resolución de 20 de junio de 2025, IOF Escuelas Infantiles"
+titulo: "[CATALOGACIÓN ERRÓNEA] Resolución de 20 de junio de 2025, IOF Escuelas Infantiles"
 tipo_fuente: "resolucion-administrativa"
 autoridad: "Viceconsejería de Educación - Gobierno de Canarias"
 url_oficial: "https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/organizacion_funcionamiento/instrucciones/"
 fecha_consulta: 2026-08-05
-relacionadas: [NOR-049]
-nivel_evidencia: "pendiente-verificacion"
-estado_fuente: "Pendiente de verificación"
+relacionadas: []
+nivel_evidencia: "confirmado-fuente-primaria"
+estado_fuente: "Superada"
 ---
 
 # FTE-051 — Instrucciones IOF Infantil 2025-2026
@@ -20,13 +20,25 @@ estado_fuente: "Pendiente de verificación"
 ## Acceso
 - [Portal de la Consejería](https://www.gobiernodecanarias.org/educacion/web/centros/organizacion_funcionamiento/instrucciones_organizacion_funcionamiento/)
 
-## Verificación de la URL oficial (2026-08-05)
+## Catalogación errónea, resuelta (2026-08-05)
 
-La URL anterior devolvía 404. La ficha declara la «Resolución de 20 de junio de 2025, IOF
-Escuelas Infantiles», que **no se ha podido localizar** en el portal oficial: la página de
-normativa clasificada de la Inspección ofrece hoy la Resolución Conjunta n.º 24/2024, de 16 de
-julio, sobre el Primer Ciclo de Educación Infantil, que es un documento distinto.
+Esta fuente **no corresponde a ningún documento real**. Se catalogó como «Resolución de 20 de
+junio de 2025, IOF Escuelas Infantiles», pero esa resolución no existe como norma diferenciada.
 
-`url_oficial` apunta provisionalmente a esa página de la Inspección, que sí resuelve y lista los
-documentos de organización y funcionamiento. La fuente queda en `Pendiente de verificación`
-hasta localizar la resolución exacta. Seguimiento en `TAREA-070`.
+La única resolución de 20 de junio de 2025 es la **Resolución conjunta n.º 73/2025** de
+instrucciones de organización y funcionamiento 2025-2026, catalogada como `FTE-049`. Su sello de
+registro electrónico dice «RESOLUCION - Nº: 73 / 2025 - Tomo: 1 - Libro: 613 - Fecha: 20/06/2025
+08:40:38», y la cadena «escuelas infantiles» no aparece ni una vez en sus más de 2.800 líneas.
+
+La prueba concluyente estaba dentro del corpus: la copia local de `NOR-049`, la única ficha que
+referenciaba esta fuente, declara como origen el PDF de la 73/2025 y su cuerpo es **idéntico** al
+de la copia de `NOR-046`, que ya apuntaba a `FTE-049`.
+
+`NOR-049` se ha reapuntado a `FTE-049`. Esta ficha se conserva como registro del error (R9) y no
+se reutiliza su ID (R10). No la referencia ninguna entidad.
+
+Las instrucciones específicas del primer ciclo de Educación Infantil sí existen, pero son otra
+norma: la **Resolución Conjunta n.º 24/2024, de 16 de julio**, que el corpus todavía no recoge.
+Su catalogación queda en `TAREA-078`.
+
+Detalle de la investigación en `PREG-009`.

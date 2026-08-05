@@ -1,9 +1,10 @@
 ---
 id: PREG-009
 titulo: "FTE-051 declara una resolución que no existe como norma diferenciada"
-estado: "Abierta"
+estado: "Resuelta"
 fecha_registro: 2026-08-05
-relacionadas: [FTE-049, FTE-051, NOR-046, NOR-049, TAREA-070, TAREA-076]
+fecha_resolucion: 2026-08-05
+relacionadas: [FTE-049, FTE-051, NOR-046, NOR-049, TAREA-070, TAREA-076, TAREA-078]
 ---
 
 # PREG-009 — Identidad de FTE-051
@@ -63,3 +64,38 @@ Conviene revisar de paso si `NOR-046` y `NOR-049` sufren el mismo desdoblamiento
 ## Fuente o evidencia necesaria
 
 Ninguna adicional: la evidencia primaria ya está recogida. Es decisión editorial.
+
+## Respuesta (2026-08-05)
+
+La prueba concluyente estaba **dentro del corpus**, no en el portal. La copia local del texto de
+`NOR-049` —la única ficha que referenciaba `FTE-051`— declara en su cabecera como URL de origen
+el PDF de la Resolución 73/2025, su contenido lleva tres veces el sello «RESOLUCION - Nº: 73 /
+2025», y su cuerpo es **idéntico**, línea a línea, al de la copia de `NOR-046`, que ya apuntaba a
+`FTE-049`.
+
+Es decir: `NOR-046` y `NOR-049` son dos fichas de la misma resolución, desdobladas por etapa, y
+una de ellas apuntaba a una fuente inventada.
+
+Se aplica la **opción 1** de las tres planteadas, ajustada para no incumplir R9 ni R10:
+
+1. **`NOR-049` se reapunta a `FTE-049`** y se corrige su `url_oficial`, que estaba rota, al PDF
+   oficial verificado.
+2. **`FTE-051` no se borra** (R9) ni se reutiliza su ID (R10). Se marca `estado_fuente:
+   "Superada"`, se le antepone `[CATALOGACIÓN ERRÓNEA]` al título y se documenta en la ficha qué
+   se catalogó, por qué no existe y dónde está la norma real. Su `nivel_evidencia` pasa a
+   `confirmado-fuente-primaria`: ahora sí hay evidencia primaria, la de que el documento no
+   existe.
+3. **No se reidentifica como la 24/2024.** Esa norma sí existe y el corpus no la tiene, pero
+   darle el ID de otra cosa haría que `FTE-051` significase algo distinto de lo que significó.
+   Se cataloga aparte en `TAREA-078`.
+
+Ninguna entidad referencia ya a `FTE-051`.
+
+## Queda abierto: la duplicidad NOR-046 / NOR-049
+
+Al resolver esto aparece una cuestión distinta que no se decide aquí: **dos fichas normativas
+describen la misma resolución**, con el mismo contenido literal y dos copias locales idénticas.
+Puede ser deliberado —la resolución tiene anexos por etapa y separarlas facilita la consulta— o
+puede ser duplicación. Conviene decidirlo antes de que el patrón se repita con las instrucciones
+de 2026-2027, que ya están publicadas.
+

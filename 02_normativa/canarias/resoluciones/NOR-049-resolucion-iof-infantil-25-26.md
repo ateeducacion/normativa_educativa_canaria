@@ -8,11 +8,11 @@ autoridad: "Viceconsejería de Educación"
 fecha_disposicion: 2025-06-20
 fecha_publicacion: null
 fecha_entrada_vigor: 2025-09-01
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
-fuente_principal: FTE-051
-url_oficial: "https://www.gobiernodecanarias.org/educacion/web/centros/organizacion_funcionamiento/instrucciones_organizacion_funcionamiento/"
+fuente_principal: FTE-049
+url_oficial: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/r_73-2025-instrucciones_or_func_2025-2026.pdf"
 etapas_afectadas: [infantil]
 temas: [organizacion, funcionamiento, instrucciones, curso-25-26]
 relaciones:
@@ -47,3 +47,18 @@ Instrucciones oficiales para organizar las escuelas de niños pequeños (0-6 añ
 ## 11. Fuentes
 
 - [Portal de la Consejería de Educación](https://www.gobiernodecanarias.org/educacion/web/centros/organizacion_funcionamiento/instrucciones_organizacion_funcionamiento/)
+
+## Corrección de fuente (2026-08-05)
+
+Esta ficha declaraba como fuente principal `FTE-051`, que describía una «Resolución de 20 de
+junio de 2025, IOF Escuelas Infantiles» que **no existe como norma diferenciada**. Se reapunta a
+`FTE-049`, la Resolución conjunta n.º 73/2025, que es la norma real.
+
+La evidencia estaba en el propio corpus: la copia local de esta ficha
+(`07_corpus_ia/textos-completos/texto-oficial-NOR-049-resolucion-iof-infantil-25-26.txt`) declara
+como origen el PDF de la 73/2025, su contenido lleva el sello «RESOLUCION - Nº: 73 / 2025», y su
+cuerpo es **idéntico** al de la copia de `NOR-046` (IOF Primaria), que ya apuntaba a `FTE-049`.
+
+`NOR-046` y `NOR-049` son, por tanto, dos fichas de la misma resolución desdobladas por etapa.
+Si esa duplicidad debe mantenerse o fusionarse es una cuestión editorial aparte, recogida en
+`PREG-009`.
