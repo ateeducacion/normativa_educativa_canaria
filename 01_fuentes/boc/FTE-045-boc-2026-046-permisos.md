@@ -3,12 +3,12 @@ id: FTE-045
 titulo: "Resolución de 24 de febrero de 2026, por la que se actualiza el régimen de permisos y licencias del personal docente no universitario"
 tipo_fuente: "disposicion-general"
 autoridad: "Dirección General de Personal y Formación del Profesorado (Gobierno de Canarias)"
-url_oficial: "https://www.gobiernodecanarias.org/boc/2026/046/001.html"
-fecha_consulta: 2026-04-26
+url_oficial: "https://www.gobiernodecanarias.org/boc/2026/046/751.html"
+fecha_consulta: 2026-08-05
 ruta: "01_fuentes/boc/FTE-045-boc-2026-046-permisos.md"
-estado_fuente: "Pendiente de verificación"
+estado_fuente: "Activa"
 relacionadas: [NOR-042, REL-046]
-nivel_evidencia: "pendiente-verificacion"
+nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
 # FTE-045 — Resolución de 24 de febrero de 2026 (BOC 2026/046)

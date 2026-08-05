@@ -3,11 +3,11 @@ id: FTE-048
 titulo: "Resolución de 15 de mayo de 2025, por la que se establecen las rúbricas de los criterios de evaluación de la etapa de Educación Primaria"
 tipo_fuente: "resolucion-administrativa"
 autoridad: "Dirección General de Ordenación - Gobierno de Canarias"
-url_oficial: "https://www.gobiernodecanarias.org/boc/2025/107/005.html"
-fecha_consulta: 2026-04-26
+url_oficial: "https://www.gobiernodecanarias.org/boc/2025/107/2005.html"
+fecha_consulta: 2026-08-05
 relacionadas: [NOR-045]
-nivel_evidencia: "pendiente-verificacion"
-estado_fuente: "Pendiente de verificación"
+nivel_evidencia: "confirmado-fuente-primaria"
+estado_fuente: "Activa"
 ---
 
 # FTE-048 — Resolución de 15 de mayo de 2025 (Rúbricas Primaria)
