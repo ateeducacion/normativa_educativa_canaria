@@ -9,10 +9,16 @@ estado_vigencia: "Superada / En proceso de consolidación"
 fecha_disposicion: 2020-06-16
 fecha_publicacion: 2020-07-02
 fecha_entrada_vigor: 2020-07-03
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 fuente_principal: FTE-026
-url_oficial: "https://www.gobiernodecanarias.org/boc/2020/131/001.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2020/132/001.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2020/132/001.html"
+  url_pdf: "https://sede.gobiernodecanarias.org/boc/boc-a-2020-132-2095.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-023-resolucion-2020-permisos.txt"
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
 temas: [permisos, licencias, profesorado, funcion-publica]
 relaciones:
@@ -57,4 +63,4 @@ Antigua resolución de referencia para permisos docentes en Canarias (2020-2026)
 
 ## 11. Fuentes
 
-- [FTE-026](../../../01_fuentes/boc/FTE-026-boc-2020-131-permisos.md)
+- [FTE-026](../../../01_fuentes/boc/FTE-026-boc-2020-132-permisos.md)

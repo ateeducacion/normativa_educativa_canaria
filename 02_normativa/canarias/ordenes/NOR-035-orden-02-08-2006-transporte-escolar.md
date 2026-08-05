@@ -8,11 +8,17 @@ autoridad: "Consejería de Educación, Cultura y Deportes"
 fecha_disposicion: 2006-08-02
 fecha_publicacion: 2006-08-24
 fecha_entrada_vigor: 2006-08-25
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-038
-url_oficial: "https://www.gobiernodecanarias.org/boc/2006/165/001.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2006/165/008.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2006/165/008.html"
+  url_pdf: "https://www.gobiernodecanarias.org/boc/2006/165/boc-2006-165-008.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-035-orden-02-08-2006-transporte-escolar.txt"
 etapas_afectadas: [primaria, eso]
 temas: [transporte-escolar, servicios-complementarios, seguridad-escolar]
 relaciones:
@@ -66,4 +72,4 @@ Norma vigente que establece quién tiene derecho a transporte gratuito para ir a
 
 ## 11. Fuentes
 
-- [BOC 2006/165](https://www.gobiernodecanarias.org/boc/2006/165/001.html)
+- [BOC 2006/165](https://www.gobiernodecanarias.org/boc/2006/165/008.html)

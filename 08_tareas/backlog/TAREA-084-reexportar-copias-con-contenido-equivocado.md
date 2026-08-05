@@ -1,14 +1,14 @@
 ---
 id: TAREA-084
 titulo: "Re-exportar las trece copias locales que contienen una norma distinta de la que declaran"
-estado: "Pendiente"
+estado: "En progreso"
 prioridad: "Crítica"
 tipo: "corpus-ia"
 responsable: "@.agents/skills/preparacion-corpus-ia"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
 relacionadas: [NOR-044, NOR-028, NOR-050, NOR-060, TAREA-074, TAREA-077, TAREA-081]
-siguiente_accion: "Re-exportar NOR-044 desde su PDF oficial: es la norma de evaluación más citada del corpus."
+siguiente_accion: "Localizar en el BOC/BOE las cinco disposiciones que la búsqueda automática no resuelve: NOR-017, NOR-018, NOR-019, NOR-050 y NOR-060."
 ---
 
 # TAREA-084 — Copias locales con contenido equivocado
@@ -72,3 +72,66 @@ comprometen la cita del articulado y quedan como trabajo de menor prioridad dent
 ## Coordinación con trabajo paralelo
 
 IDs consumidos: `TAREA-084`. Solo se modifican copias locales de texto y su índice.
+
+## Avance 2026-08-05 — causa localizada y ocho copias sustituidas
+
+### La causa
+
+La cabecera de estas copias apunta a una URL de la forma `/boc/AAAA/NNN/001.html`. Ese último
+número **no es el número de la disposición**, sino su posición dentro del boletín. La exportación
+original lo dejó casi siempre en `001`, de modo que se llevó la primera disposición del boletín
+—cualquiera que fuese— en vez de la norma buscada. `NOR-044` es el ejemplo puro: pedía `002` y
+la orden de evaluación estaba en `001`, así que se trajo la resolución del hospital que ocupaba
+el segundo lugar.
+
+En dos casos el número de boletín era además el equivocado (`NOR-023` estaba en el 132, no en el
+131) y en uno el boletín declarado ni siquiera contiene disposiciones generales (`NOR-018`).
+
+### La herramienta
+
+Se añade `11_calidad/reexportar_texto_oficial.py`. En lugar de confiar en el ordinal, **localiza
+la disposición por su título** dentro del sumario del boletín y extrae el texto del **PDF oficial
+firmado**, no del HTML. Eso resuelve de paso el problema de los anexos publicados como imagen,
+que la versión HTML omite.
+
+Incorpora tres salvaguardas:
+
+- Si el título no casa con ninguna disposición del boletín declarado, busca en el archivo del BOC
+  a partir de la fecha que el propio título indica, localizando el boletín por búsqueda binaria
+  sobre las fechas.
+- Antes de escribir comprueba que el texto extraído habla de lo que dice el título. Esa
+  comprobación evitó un falso positivo real en `NOR-017`, donde una resolución del mismo día
+  sobre el Ayuntamiento de El Sauzal alcanzaba coincidencia suficiente por el juego de fechas.
+- Al aplicar, sincroniza `06_indices/textos-oficiales.yaml` con la URL, el PDF, el hash y las
+  fechas nuevas.
+
+El sumario del BOC ha usado tres marcados distintos a lo largo de los años y el índice anual
+otros tres; la herramienta los cubre todos, así que sirve para cualquier boletín desde 2006.
+
+### Hecho
+
+Ocho copias sustituidas desde su PDF firmado: `NOR-011`, `NOR-012`, `NOR-013`, `NOR-023`,
+`NOR-028`, `NOR-034`, `NOR-035` y `NOR-044`. `NOR-044` pasa de 0 apariciones de «promoción» a 69.
+`NOR-028`, cuyos anexos *son* la norma, pasa de cáscara a 6.734 líneas.
+
+La corrección no se quedó en la copia local: la URL equivocada estaba también en el frontmatter
+de las ocho fichas `NOR` y de cinco fichas `FTE`, y en dos índices. Todas apuntan ya a la
+disposición correcta, y las ocho fichas `NOR` incorporan el bloque `texto_oficial` con el enlace
+al PDF firmado.
+
+**Corrección adicional en `FTE-026`:** declaraba el boletín 131 cuando la resolución salió en el
+132 —la fecha de publicación que `NOR-023` ya registraba lo confirmaba—, y declaraba
+`relacionadas: [NOR-018]`, una norma sin ninguna relación con los permisos del profesorado. El
+fichero pasa a llamarse `FTE-026-boc-2020-132-permisos.md`.
+
+### Queda
+
+Cinco copias que la búsqueda automática no resuelve, y que necesitan localización manual:
+
+| Ficha | Situación |
+| --- | --- |
+| `NOR-017` | No está en el boletín declarado ni en los 90 siguientes con ese título |
+| `NOR-018` | El boletín declarado sólo contiene anuncios; la orden está en otro |
+| `NOR-050` | No aparece en el boletín declarado |
+| `NOR-019` | La URL del BOE es de otra norma: apunta a una resolución de la Diputación de Almería |
+| `NOR-060` | La URL del BOE tampoco corresponde al RD 1074/2012 |

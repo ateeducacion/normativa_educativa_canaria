@@ -9,10 +9,16 @@ estado_vigencia: "Vigente"
 fecha_disposicion: 2011-05-22
 fecha_publicacion: 2011-06-01
 fecha_entrada_vigor: 2011-06-02
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 fuente_principal: FTE-021
-url_oficial: "https://www.gobiernodecanarias.org/boc/2011/107/001.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2011/107/002.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2011/107/002.html"
+  url_pdf: "https://sede.gobiernodecanarias.org/boc/boc-a-2011-107-2977.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-013-orden-22-mayo-2011-inspeccion.txt"
 temas: [inspeccion, organizacion]
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
 relaciones:

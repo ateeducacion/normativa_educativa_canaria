@@ -8,11 +8,17 @@ autoridad: "Consejería de Educación y Universidades"
 fecha_disposicion: 2016-02-10
 fecha_publicacion: 2016-02-18
 fecha_entrada_vigor: 2016-02-19
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-031
 url_oficial: "https://www.gobiernodecanarias.org/boc/2016/033/001.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2016/033/001.html"
+  url_pdf: "https://sede.gobiernodecanarias.org/boc/boc-a-2016-033-547.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-028-orden-10-02-2016-aulas-enclave.txt"
 etapas_afectadas: [infantil, primaria, eso]
 temas: [nee, aulas-enclave, centros-educacion-especial, curriculo-adaptado]
 relaciones:

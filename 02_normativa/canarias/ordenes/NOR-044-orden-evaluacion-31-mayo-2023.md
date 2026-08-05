@@ -8,11 +8,17 @@ autoridad: "Consejería de Educación"
 fecha_disposicion: 2023-05-31
 fecha_publicacion: 2023-06-08
 fecha_entrada_vigor: 2023-06-09
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-047
-url_oficial: "https://www.gobiernodecanarias.org/boc/2023/110/002.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2023/110/001.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2023/110/001.html"
+  url_pdf: "https://sede.gobiernodecanarias.org/boc/boc-a-2023-110-1859.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-044-orden-evaluacion-31-mayo-2023.txt"
 etapas_afectadas: [infantil, primaria, eso, bachillerato]
 temas: [evaluacion, promocion, titulacion]
 relaciones:
@@ -63,7 +69,7 @@ cualitativa.
 
 ## 11. Fuentes
 
-- [BOC 2023/110](https://www.gobiernodecanarias.org/boc/2023/110/002.html)
+- [BOC 2023/110](https://www.gobiernodecanarias.org/boc/2023/110/001.html)
 
 ## Fusión de NOR-048 (2026-08-05)
 

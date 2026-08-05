@@ -9,10 +9,16 @@ estado_vigencia: "Vigente"
 fecha_disposicion: 2009-05-12
 fecha_publicacion: 2009-05-22
 fecha_entrada_vigor: 2009-05-23
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 fuente_principal: FTE-019
-url_oficial: "https://www.gobiernodecanarias.org/boc/2009/097/001.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2009/097/003.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2009/097/003.html"
+  url_pdf: "https://www.gobiernodecanarias.org/boc/2009/097/boc-2009-097-003.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-011-decreto-52-2009-inspeccion.txt"
 temas: [inspeccion, supervision, evaluacion, asesoramiento]
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
 relaciones:

@@ -9,10 +9,16 @@ estado_vigencia: "Vigente"
 fecha_disposicion: 2011-05-11
 fecha_publicacion: 2011-05-26
 fecha_entrada_vigor: 2011-05-27
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 fuente_principal: FTE-020
-url_oficial: "https://www.gobiernodecanarias.org/boc/2011/104/001.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2011/104/003.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2011/104/003.html"
+  url_pdf: "https://sede.gobiernodecanarias.org/boc/boc-a-2011-104-2866.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-012-decreto-112-2011-roc-cifp.txt"
 temas: [centros, formacion-profesional, organizacion, funcionamiento]
 etapas_afectadas: [formacion-profesional]
 relaciones:
