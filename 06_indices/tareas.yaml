@@ -1371,3 +1371,21 @@ TAREA-078:
   - FTE-051
   - NOR-049
   ruta: 08_tareas/backlog/TAREA-078-catalogar-resolucion-24-2024-infantil.md
+
+TAREA-079:
+  titulo: "Sustituir por el enunciado literal las competencias de las fichas curriculares de Infantil"
+  estado: "Pendiente"
+  prioridad: "Media"
+  tipo: "curriculo"
+  responsable: '@.agents/skills/analisis-curricular'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - DEC-0008
+  - DEC-0009
+  - CUR-034
+  - CUR-035
+  - CUR-036
+  - NOR-047
+  - TAREA-069
+  ruta: 08_tareas/backlog/TAREA-079-literalidad-enunciados-infantil.md

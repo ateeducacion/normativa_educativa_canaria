@@ -30,11 +30,12 @@ instrucciones de organización y funcionamiento 2025-2026, catalogada como `FTE-
 registro electrónico dice «RESOLUCION - Nº: 73 / 2025 - Tomo: 1 - Libro: 613 - Fecha: 20/06/2025
 08:40:38», y la cadena «escuelas infantiles» no aparece ni una vez en sus más de 2.800 líneas.
 
-La prueba concluyente estaba dentro del corpus: la copia local de `NOR-049`, la única ficha que
-referenciaba esta fuente, declara como origen el PDF de la 73/2025 y su cuerpo es **idéntico** al
+La prueba concluyente estaba dentro del corpus: la copia local de la ficha que referenciaba esta fuente —la entonces `NOR-049`, después
+fusionada en `NOR-046`— declaraba como origen el PDF de la 73/2025 y su cuerpo es **idéntico** al
 de la copia de `NOR-046`, que ya apuntaba a `FTE-049`.
 
-`NOR-049` se ha reapuntado a `FTE-049`. Esta ficha se conserva como registro del error (R9) y no
+`NOR-049` se reapuntó a `FTE-049` y después se fusionó en `NOR-046`, que describe la misma
+resolución. Esta ficha se conserva como registro del error (R9) y no
 se reutiliza su ID (R10). No la referencia ninguna entidad.
 
 Las instrucciones específicas del primer ciclo de Educación Infantil sí existen, pero son otra

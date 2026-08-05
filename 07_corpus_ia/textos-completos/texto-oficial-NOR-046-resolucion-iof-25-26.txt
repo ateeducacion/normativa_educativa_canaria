@@ -1,6 +1,6 @@
-ID interno: NOR-049
-Título oficial: Resolución de 20 de junio de 2025, instrucciones para la organización y el funcionamiento de las escuelas infantiles y centros de Educación Infantil 2025-2026
-Fuente oficial: FTE-051
+ID interno: NOR-046
+Título oficial: Resolución conjunta n.º 73/2025, de 20 de junio, por la que se dictan instrucciones de organización y funcionamiento dirigidas a los centros docentes públicos no universitarios de Canarias para el curso 2025-2026
+Fuente oficial: FTE-049
 URL origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/r_73-2025-instrucciones_or_func_2025-2026.pdf
 Fecha de consulta: 2026-04-26
 Fecha de exportación local: 2026-04-27

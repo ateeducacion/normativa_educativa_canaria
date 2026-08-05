@@ -42,4 +42,4 @@ elementos:
 relaciones:
   desarrolla_a: [NOR-047]
   relacionada_con: []
-observaciones: "Extracción literal completada el 2026-04-26 tras consulta al BOC (Decreto 196/2022). [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007)."
+observaciones: "Extracción literal completada el 2026-04-26 tras consulta al BOC (Decreto 196/2022). [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007). En Educación Infantil no existen los descriptores operativos del perfil de salida, que es de la enseñanza básica (DEC-0009), así que el cuarto elemento de DEC-0004 no aplica a esta ficha. Sigue en parcial porque los enunciados aún no son literales (DEC-0008): pendiente en TAREA-079."

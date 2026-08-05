@@ -674,8 +674,8 @@ NOR-045:
   etapas_afectadas: [primaria]
 
 NOR-046:
-  titulo: "Resolución de 20 de junio de 2025, instrucciones para la organización y el funcionamiento de los centros que imparten Educación Primaria 2025-2026"
-  nombre_corto: "Instrucciones IOF Primaria 25-26"
+  titulo: "Resolución conjunta n.º 73/2025, de 20 de junio, por la que se dictan instrucciones de organización y funcionamiento dirigidas a los centros docentes públicos no universitarios de Canarias para el curso 2025-2026"
+  nombre_corto: "Instrucciones IOF 2025-2026"
   tipo_norma: "resolucion-administrativa"
   ambito: "canarias"
   estado_vigencia: "Vigente"
@@ -684,9 +684,9 @@ NOR-046:
   fecha_entrada_vigor: 2025-09-01
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-049
-  ruta: "02_normativa/canarias/resoluciones/NOR-046-resolucion-iof-primaria-25-26.md"
+  ruta: "02_normativa/canarias/resoluciones/NOR-046-resolucion-iof-25-26.md"
   temas: [organizacion, funcionamiento, instrucciones]
-  etapas_afectadas: [primaria]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional, educacion-adultos]
 
 NOR-047:
   titulo: "Decreto 196/2022, de 13 de octubre, por el que se establece la ordenación y el currículo de la Educación Infantil en la Comunidad Autónoma de Canarias"
@@ -716,21 +716,6 @@ NOR-048:
   fuente_principal: FTE-047
   ruta: "02_normativa/canarias/ordenes/NOR-048-evaluacion-infantil.md"
   temas: [evaluacion, observacion, cualitativa]
-  etapas_afectadas: [infantil]
-
-NOR-049:
-  titulo: "Resolución de 20 de junio de 2025, instrucciones para la organización y el funcionamiento de las escuelas infantiles y centros de Educación Infantil 2025-2026"
-  nombre_corto: "Instrucciones IOF Infantil 25-26"
-  tipo_norma: "resolucion-administrativa"
-  ambito: "canarias"
-  estado_vigencia: "Vigente"
-  fecha_disposicion: 2025-06-20
-  fecha_publicacion: null
-  fecha_entrada_vigor: 2025-09-01
-  fecha_consulta: 2026-04-26
-  fuente_principal: FTE-049
-  ruta: "02_normativa/canarias/resoluciones/NOR-049-resolucion-iof-infantil-25-26.md"
-  temas: [organizacion, funcionamiento, instrucciones]
   etapas_afectadas: [infantil]
 
 NOR-050:

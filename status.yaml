@@ -1288,6 +1288,24 @@ tareas:
     - NOR-049
     siguiente_accion: "Crear la ficha FTE de la Resolución 24/2024 desde su PDF oficial y decidir si procede ficha NOR."
 
+  TAREA-079:
+    titulo: "Sustituir por el enunciado literal las competencias de las fichas curriculares de Infantil"
+    estado: "Pendiente"
+    prioridad: "Media"
+    tipo: "curriculo"
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - DEC-0008
+    - DEC-0009
+    - CUR-034
+    - CUR-035
+    - CUR-036
+    - NOR-047
+    - TAREA-069
+    siguiente_accion: "Localizar en el Decreto 196/2022 el enunciado literal de las 11 competencias y sustituir descripcion por enunciado_oficial."
+
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.

@@ -59,6 +59,18 @@ error y bloquea el cierre de tarea, con el comando de reparación en el propio m
 `07_corpus_ia/textos-completos/**` se añade a las rutas que disparan el flujo de integración
 continua, que antes no lo vigilaba.
 
+## Daño residual no recuperable
+
+Nueve de los 97 ficheros conservan caracteres `â` sueltos donde el original tenía comillas
+tipográficas o puntos suspensivos. **No lo causó esta reparación**: el recuento es idéntico antes
+y después —88 en el decreto de Infantil, por ejemplo—, así que el daño viene de la exportación
+original.
+
+Es irrecuperable por re-decodificación: solo queda el primer byte de la secuencia, y los dos
+siguientes se perdieron. Reconstruirlos exigiría inferir qué signo había en cada caso, lo que
+sería inventar. Afecta a signos de puntuación, no a palabras ni a códigos, así que no compromete
+ni la búsqueda ni la cita. Se resolverá al re-exportar cada copia desde su PDF oficial.
+
 ## Pendiente
 
 No se ha localizado la herramienta que generó estas copias: no hay ningún script de exportación
