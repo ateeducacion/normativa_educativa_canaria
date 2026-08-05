@@ -7,7 +7,7 @@ tipo: "catalogacion"
 responsable: "@.agents/skills/catalogacion-fuentes"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
-relacionadas: [PREG-009, FTE-049, FTE-051, NOR-049]
+relacionadas: [PREG-009, FTE-049, FTE-051, NOR-046]
 siguiente_accion: "Crear la ficha FTE de la Resolución 24/2024 desde su PDF oficial y decidir si procede ficha NOR."
 ---
 

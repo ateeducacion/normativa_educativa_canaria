@@ -376,6 +376,13 @@ REL-057:
   fuente: FTE-074
   ruta: "05_relaciones/normativa/REL-057-protocolo-fp-fecam-desarrolla-lofp.yaml"
 
+REL-058:
+  tipo_relacion: "desarrolla"
+  origen: NOR-068
+  destino: NOR-001
+  fuente: FTE-075
+  ruta: "05_relaciones/normativa/REL-058-decreto-120-2026-desarrolla-marco-educativo-digital.yaml"
+
 REL-059:
   tipo_relacion: "desarrolla"
   origen: NOR-069

@@ -48,9 +48,9 @@ Copia esta lista y ve marcándola:
 **1. Ejecutar el validador.** Comprueba de una vez los esquemas de `schemas/`, la
 coincidencia entre el `id` del frontmatter y el nombre del fichero, la cobertura de
 los índices de `06_indices/` en ambos sentidos, que cada `ruta` del índice resuelva
-a su propia ficha, que los campos que el índice duplica coincidan con la ficha, y
-que las copias locales de `07_corpus_ia/textos-completos/` no estén
-dobles-codificadas:
+a su propia ficha, que los campos que el índice duplica coincidan con la ficha, que
+las entidades citadas en campos de relación existan, y que las copias locales de
+`07_corpus_ia/textos-completos/` no estén dobles-codificadas:
 
 ```bash
 pip install --quiet pyyaml jsonschema   # sólo la primera vez

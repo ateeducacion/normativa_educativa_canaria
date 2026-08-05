@@ -1389,3 +1389,19 @@ TAREA-079:
   - NOR-047
   - TAREA-069
   ruta: 08_tareas/backlog/TAREA-079-literalidad-enunciados-infantil.md
+
+TAREA-080:
+  titulo: "Añadir la comprobación de integridad referencial al validador y corregir REL-058"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "calidad-documental"
+  responsable: '@.agents/skills/control-calidad-documental'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - REL-058
+  - FTE-075
+  - NOR-046
+  - NOR-068
+  - PREG-009
+  ruta: 08_tareas/backlog/TAREA-080-integridad-referencial-y-rel-058.md

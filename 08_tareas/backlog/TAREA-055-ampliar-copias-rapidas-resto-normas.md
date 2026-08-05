@@ -7,7 +7,7 @@ tipo: "corpus-ia"
 responsable: "@.agents/skills/preparacion-corpus-ia"
 fecha_creacion: 2026-04-27
 fecha_actualizacion: 2026-04-27
-relacionadas: [TAREA-053, NOR-002, NOR-039, NOR-040, NOR-041, NOR-042, NOR-045, NOR-046, NOR-049, NOR-059, NOR-060]
+relacionadas: [TAREA-053, NOR-002, NOR-039, NOR-040, NOR-041, NOR-042, NOR-045, NOR-046, NOR-059, NOR-060]
 ---
 
 # TAREA-055 — Ampliar copias rápidas de texto oficial al resto de normas

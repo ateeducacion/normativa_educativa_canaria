@@ -4,7 +4,7 @@ titulo: "FTE-051 declara una resolución que no existe como norma diferenciada"
 estado: "Resuelta"
 fecha_registro: 2026-08-05
 fecha_resolucion: 2026-08-05
-relacionadas: [FTE-049, FTE-051, NOR-046, NOR-049, TAREA-070, TAREA-076, TAREA-078]
+relacionadas: [FTE-049, FTE-051, NOR-046, TAREA-070, TAREA-076, TAREA-078]
 ---
 
 # PREG-009 — Identidad de FTE-051

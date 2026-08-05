@@ -1306,6 +1306,22 @@ tareas:
     - TAREA-069
     siguiente_accion: "Localizar en el Decreto 196/2022 el enunciado literal de las 11 competencias y sustituir descripcion por enunciado_oficial."
 
+  TAREA-080:
+    titulo: "Añadir la comprobación de integridad referencial al validador y corregir REL-058"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "calidad-documental"
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - REL-058
+    - FTE-075
+    - NOR-046
+    - NOR-068
+    - PREG-009
+    siguiente_accion: null
+
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.

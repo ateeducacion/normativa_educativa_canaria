@@ -266,6 +266,71 @@ def validar_tipo(tipo: str, cfg: dict) -> dict:
     }
 
 
+CAMPOS_REFERENCIA = [
+    "relacionadas", "fuente_principal", "fuente", "norma_base", "origen", "destino",
+    "desarrolla_a", "modificada_por", "modifica_a", "deroga_a", "derogada_por",
+    "relacionada_con",
+]
+REFERENCIA = re.compile(r"\A(?:FTE|NOR|CUR|REL|CHUNK|PREG|TAREA|DEC)-\d{3,5}\Z")
+
+
+def _referencias(objeto) -> set[str]:
+    """IDs citados en los campos estructurados de relación de una ficha."""
+    encontradas: set[str] = set()
+    if isinstance(objeto, dict):
+        for clave, valor in objeto.items():
+            if clave in CAMPOS_REFERENCIA:
+                for elemento in (valor if isinstance(valor, list) else [valor]):
+                    if isinstance(elemento, str) and REFERENCIA.match(elemento):
+                        encontradas.add(elemento)
+            encontradas |= _referencias(valor)
+    elif isinstance(objeto, list):
+        for valor in objeto:
+            encontradas |= _referencias(valor)
+    return encontradas
+
+
+def validar_referencias() -> dict:
+    """Comprueba que las entidades citadas por otras fichas existen.
+
+    Una ficha puede quedar huérfana sin que nada lo note: así se descubrió que
+    `REL-058` estaba guardada como `.md` en vez de `.yaml` y por eso escapaba tanto
+    al validador como a la sincronización de índices, pese a que `FTE-075` la citaba.
+    Solo se miran campos estructurados de relación, no el texto en prosa, que
+    legítimamente menciona entidades retiradas para dejar constancia histórica.
+    """
+    existen: set[str] = set()
+    for cfg in ENTIDADES.values():
+        for fichero in RAIZ.glob(cfg["patron"]):
+            encontrado = ID_EN_NOMBRE.match(fichero.name)
+            if encontrado:
+                existen.add(encontrado.group(1))
+    for fichero in RAIZ.glob("09_decisiones-editoriales/**/DEC-*.md"):
+        encontrado = ID_EN_NOMBRE.match(fichero.name)
+        if encontrado:
+            existen.add(encontrado.group(1))
+    for fichero in RAIZ.glob("07_corpus_ia/**/CHUNK-*.yaml"):
+        encontrado = ID_EN_NOMBRE.match(fichero.name)
+        if encontrado:
+            existen.add(encontrado.group(1))
+
+    errores = []
+    revisados = 0
+    for tipo, cfg in ENTIDADES.items():
+        for fichero in sorted(RAIZ.glob(cfg["patron"])):
+            datos, fallo = cargar(fichero, cfg["origen"])
+            if fallo or not isinstance(datos, dict):
+                continue
+            revisados += 1
+            for referencia in sorted(_referencias(datos) - existen):
+                errores.append({
+                    "fichero": fichero.relative_to(RAIZ).as_posix(),
+                    "campo": referencia,
+                    "mensaje": f"referencia a {referencia}, que no existe como ficha",
+                })
+    return {"tipo": "REFERENCIAS", "ficheros": revisados, "errores": errores, "avisos": []}
+
+
 def validar_textos_locales() -> dict:
     """Comprueba que las copias locales de texto oficial no estén dobles-codificadas.
 
@@ -301,6 +366,7 @@ def main() -> int:
     tipos = [args.tipo] if args.tipo else sorted(ENTIDADES)
     informes = [validar_tipo(t, ENTIDADES[t]) for t in tipos]
     if not args.tipo:
+        informes.append(validar_referencias())
         informes.append(validar_textos_locales())
     total_errores = sum(len(i["errores"]) for i in informes)
     total_avisos = sum(len(i["avisos"]) for i in informes)
