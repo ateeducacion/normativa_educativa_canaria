@@ -24,7 +24,7 @@ temas: [formacion-profesional, dobles-titulaciones, grado-d, distribucion-horari
 relaciones:
   desarrolla_a: []
   modificada_por: []
-  modifica_a: []
+  modifica_a: [NOR-085]
   deroga_a: []
   derogada_por: []
   relacionada_con: [NOR-074]

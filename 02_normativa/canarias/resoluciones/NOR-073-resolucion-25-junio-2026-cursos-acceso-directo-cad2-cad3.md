@@ -22,7 +22,7 @@ texto_oficial:
 etapas_afectadas: [formacion-profesional, educacion-adultos]
 temas: [formacion-profesional, acceso-ciclos-formativos, personas-adultas, cepa, cead, educacion-a-distancia, competencias-basicas]
 relaciones:
-  desarrolla_a: [NOR-007]
+  desarrolla_a: [NOR-007, NOR-080]
   modificada_por: []
   modifica_a: []
   deroga_a: []

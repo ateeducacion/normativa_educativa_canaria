@@ -232,6 +232,85 @@ def render_markdown(nuevas: list[dict], fecha: str) -> str:
 
 
 # --- Main ----------------------------------------------------------------------
+# --- Deuda de catalogación -----------------------------------------------------
+IDENTIFICADOR = re.compile(r"(boc-a-\d{4}-\d{3}-\d+|boe-a-\d{4}-\d+)", re.I)
+DISPOSICION_BOC = re.compile(r"boc-a-\d{4}-\d{3}-\d+\.pdf|/boc/\d{4}/\d{3}/\d+\.html", re.I)
+
+
+def identificador(url: str) -> str | None:
+    """Identificador oficial de la disposición (CVE del BOC o BOE-A), si lo tiene.
+
+    Comparar URL contra URL no basta: la misma disposición aparece como PDF de la
+    sede, como HTML del boletín y como texto consolidado, y el corpus guarda sólo
+    una de esas formas. El identificador es el mismo en las tres.
+    """
+    encontrado = IDENTIFICADOR.search(url)
+    return encontrado.group(1).lower() if encontrado else None
+
+
+def rastro_en_corpus(url: str, corpus: str, catalogadas: set[str]) -> bool:
+    ident = identificador(url)
+    if ident:
+        return ident in corpus
+    return normalize_url(url) in catalogadas
+
+
+def texto_del_corpus(repo: pathlib.Path) -> str:
+    """Todo el Markdown de fichas y el YAML de índices, en minúsculas."""
+    partes = []
+    for patron in ("0[1-9]_*/**/*.md", "06_indices/*.yaml"):
+        for fichero in repo.glob(patron):
+            try:
+                partes.append(fichero.read_text(encoding="utf-8", errors="replace"))
+            except OSError:
+                continue
+    return "\n".join(partes).lower()
+
+
+def clasificar(url: str) -> str:
+    if DISPOSICION_BOC.search(url):
+        return "disposicion-boc"
+    if "boe.es" in url.lower():
+        return "disposicion-boe"
+    if url.lower().endswith(".pdf"):
+        return "pdf-consejeria"
+    return "pagina-portal"
+
+
+def informe_pendientes(snapshot: dict, indices_dir: pathlib.Path, repo: pathlib.Path) -> int:
+    """Lista las URL del snapshot que siguen sin rastro en el corpus.
+
+    El snapshot silencia una URL en cuanto se ve una vez, así que una disposición
+    detectada y nunca catalogada desaparece del radar para siempre. Este modo
+    convierte esa deuda silenciosa en un informe.
+    """
+    corpus = texto_del_corpus(repo)
+    catalogadas = collect_catalogued_urls(indices_dir)
+    grupos: dict[str, list[tuple[str, str]]] = {
+        "disposicion-boc": [], "disposicion-boe": [], "pdf-consejeria": [], "pagina-portal": [],
+    }
+    for url, fecha in sorted(snapshot.items(), key=lambda par: (par[1], par[0])):
+        if rastro_en_corpus(url, corpus, catalogadas):
+            continue
+        grupos[clasificar(url)].append((fecha, url))
+
+    total = sum(len(v) for v in grupos.values())
+    print(f"{len(snapshot)} URL en el snapshot · {total} sin rastro en el corpus\n")
+    ROTULOS = {
+        "disposicion-boc": "Disposiciones del BOC sin catalogar",
+        "disposicion-boe": "Disposiciones del BOE sin catalogar",
+        "pdf-consejeria": "PDF de la Consejería sin catalogar",
+        "pagina-portal": "Páginas de portal (no son normas; no requieren ficha)",
+    }
+    for clave, entradas in grupos.items():
+        print(f"## {ROTULOS[clave]}: {len(entradas)}")
+        for fecha, url in entradas:
+            print(f"  {fecha}  {url}")
+        print()
+    # Sólo las disposiciones son deuda real; las páginas de portal son navegación.
+    return 1 if (grupos["disposicion-boc"] or grupos["disposicion-boe"]) else 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dry-run", action="store_true",
@@ -239,6 +318,9 @@ def main() -> int:
     ap.add_argument("--seed", action="store_true",
                     help="Inicializa el snapshot con TODAS las candidatas actuales "
                          "(sin descargas ni PR), para no reportar el baseline.")
+    ap.add_argument("--pendientes", action="store_true",
+                    help="Lista las URL ya vistas que siguen sin rastro en el corpus "
+                         "y termina, sin escanear el portal.")
     ap.add_argument("--snapshot", type=pathlib.Path, default=DEFAULT_SNAPSHOT)
     ap.add_argument("--indices", type=pathlib.Path, default=INDICES_DIR)
     ap.add_argument("--input-dir", type=pathlib.Path, default=DEFAULT_INPUT_DIR,
@@ -250,6 +332,11 @@ def main() -> int:
     ap.add_argument("--output", type=pathlib.Path,
                     default=REPO_ROOT / "11_calidad" / "monitor" / "nuevas.md")
     args = ap.parse_args()
+
+    if args.pendientes:
+        return informe_pendientes(
+            load_yaml_json(args.snapshot), args.indices, REPO_ROOT
+        )
 
     fecha = dt.date.today().isoformat()
     pages = watch_urls(args.indices, args.watch_ids)
@@ -276,7 +363,14 @@ def main() -> int:
         log.error("Fallaron todas las páginas vigiladas; abortando sin cambios.")
         return 1
 
-    nuevas_urls = [u for u in candidates if u not in catalogued and u not in seen]
+    # Se compara por identificador oficial además de por URL: la misma disposición
+    # se publica como PDF de la sede, como HTML del boletín y como consolidado, y el
+    # corpus guarda sólo una de esas formas.
+    corpus = texto_del_corpus(REPO_ROOT)
+    nuevas_urls = [
+        u for u in candidates
+        if u not in seen and not rastro_en_corpus(u, corpus, catalogued)
+    ]
     log.info("Candidatas: %d | catalogadas: %d | ya vistas: %d | nuevas: %d",
              len(candidates), len(catalogued), len(seen), len(nuevas_urls))
 

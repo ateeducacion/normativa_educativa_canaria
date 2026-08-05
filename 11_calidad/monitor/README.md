@@ -60,3 +60,33 @@ existir en `06_indices/fuentes.yaml` con su `url_oficial`.
 `portal-normativa-canaria.seen.json` mapea cada URL detectada a su fecha de
 primera detección. Está versionado para que el diff sea estable y auditable.
 Para forzar que una URL vuelva a reportarse, borra su entrada del snapshot.
+
+## Deuda de catalogación
+
+El snapshot silencia una URL en cuanto se ve una vez. Es lo que se quiere para no
+repetir avisos, pero tiene un efecto secundario: **una disposición detectada y
+nunca catalogada desaparece del radar para siempre**. En agosto de 2026 se
+descubrió así que 15 disposiciones del BOC y 7 del BOE llevaban meses vistas y
+sin ficha, entre ellas el Real Decreto 659/2023, que cuatro fichas del corpus
+citaban sin poder enlazar.
+
+Para que esa deuda sea visible:
+
+```bash
+python3 11_calidad/monitor/scan_normativa.py --pendientes
+```
+
+Lista las URL del snapshot que siguen sin rastro en el corpus, clasificadas en
+disposiciones del BOC, disposiciones del BOE, PDF de la Consejería y páginas de
+portal. Estas últimas son navegación, no normas, y no requieren ficha. Devuelve
+código 1 si queda alguna disposición sin catalogar.
+
+Conviene ejecutarlo de vez en cuando, no sólo al recibir un aviso de novedad.
+
+### Comparación por identificador
+
+Tanto este modo como el escaneo normal comparan por **identificador oficial**
+(`BOC-A-AAAA-NNN-NNNN`, `BOE-A-AAAA-NNNNN`) además de por URL. La misma
+disposición se publica como PDF de la sede, como HTML del boletín y como texto
+consolidado, y el corpus guarda sólo una de esas formas; comparar URL contra URL
+hacía que una norma ya catalogada se contara como pendiente.

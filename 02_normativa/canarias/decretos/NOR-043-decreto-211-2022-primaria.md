@@ -16,7 +16,7 @@ url_oficial: "https://www.gobiernodecanarias.org/boc/2022/231/001.html"
 etapas_afectadas: [primaria]
 temas: [primaria, curriculo, ordenacion]
 relaciones:
-  desarrolla_a: [NOR-004, NOR-002]
+  desarrolla_a: [NOR-004, NOR-002, NOR-079]
   modificada_por: []
   modifica_a: []
   deroga_a: []

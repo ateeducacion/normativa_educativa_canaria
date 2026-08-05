@@ -1413,6 +1413,25 @@ tareas:
     - PREG-012
     - TAREA-084
     siguiente_accion: null
+  TAREA-086:
+    titulo: Catalogar las disposiciones que el monitor detectó y nunca se ficharon
+    estado: En progreso
+    prioridad: Alta
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - NOR-079
+    - NOR-080
+    - NOR-081
+    - NOR-085
+    - FTE-086
+    - FTE-087
+    - TAREA-064
+    - TAREA-084
+    - PREG-006
+    siguiente_accion: null
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.

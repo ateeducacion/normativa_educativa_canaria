@@ -22,7 +22,7 @@ texto_oficial:
 etapas_afectadas: [formacion-profesional]
 temas: [formacion-profesional, modulo-optativo, grado-d, curriculo-fp, ingles-profesional, juegos-tradicionales-canarios]
 relaciones:
-  desarrolla_a: [NOR-007]
+  desarrolla_a: [NOR-007, NOR-080]
   modificada_por: []
   modifica_a: []
   deroga_a: []

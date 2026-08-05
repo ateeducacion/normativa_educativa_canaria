@@ -421,3 +421,90 @@ REL-063:
   nivel_evidencia: "confirmado-fuente-primaria"
   ruta: "05_relaciones/normativa/REL-063-resolucion-optativo-base-de-234-2026.yaml"
 
+REL-064:
+  tipo_relacion: "desarrolla"
+  origen: NOR-043
+  destino: NOR-079
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-064-decreto-211-2022-desarrolla-rd-157-2022.yaml"
+
+REL-065:
+  tipo_relacion: "desarrolla"
+  origen: NOR-080
+  destino: NOR-007
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-065-rd-659-2023-desarrolla-lofp.yaml"
+
+REL-066:
+  tipo_relacion: "desarrolla"
+  origen: NOR-081
+  destino: NOR-080
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-066-resolucion-30-10-2024-desarrolla-rd-659-2023.yaml"
+
+REL-067:
+  tipo_relacion: "modifica"
+  origen: NOR-082
+  destino: NOR-081
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-067-resolucion-29-11-2024-modifica-grados-d-e.yaml"
+
+REL-068:
+  tipo_relacion: "modifica"
+  origen: NOR-083
+  destino: NOR-081
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-068-resolucion-26-03-2026-amplia-grados-d-e.yaml"
+
+REL-069:
+  tipo_relacion: "corrige"
+  origen: NOR-084
+  destino: NOR-083
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-069-resolucion-17-04-2026-corrige-ampliacion.yaml"
+
+REL-070:
+  tipo_relacion: "desarrolla"
+  origen: NOR-085
+  destino: NOR-080
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-070-dobles-titulaciones-2025-desarrolla-rd-659-2023.yaml"
+
+REL-071:
+  tipo_relacion: "modifica"
+  origen: NOR-075
+  destino: NOR-085
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-071-resolucion-2-07-2026-modifica-dobles-titulaciones.yaml"
+
+REL-072:
+  tipo_relacion: "desarrolla"
+  origen: NOR-078
+  destino: NOR-080
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-072-modulo-optativo-desarrolla-rd-659-2023.yaml"
+
+REL-073:
+  tipo_relacion: "desarrolla"
+  origen: NOR-073
+  destino: NOR-080
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-073-cursos-acceso-directo-desarrolla-rd-659-2023.yaml"
+
+REL-074:
+  tipo_relacion: "relaciona"
+  origen: NOR-086
+  destino: NOR-085
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-074-primer-curso-comun-antecedente-dobles-titulaciones.yaml"
