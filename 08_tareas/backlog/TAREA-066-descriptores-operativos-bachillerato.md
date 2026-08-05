@@ -67,3 +67,11 @@ Trabajo de preparación ya hecho, aprovechable cuando se desbloquee:
 - Los bloques se repiten por curso dentro de cada materia, que es justo el origen del problema.
 - Antes de extraer hay que rellenar `cursos` en estas fichas: hoy ninguna lo declara, y sin ese
   dato la extracción no es interpretable.
+
+## Alcance ampliado (2026-08-05)
+
+`PREG-008` recoge un hallazgo posterior: el campo `descripcion` de estas fichas **es un resumen,
+no el enunciado oficial** del decreto. Cuando esta tarea se desbloquee no bastará con añadir los
+descriptores operativos: hay que sustituir también `descripcion` por el texto literal y
+renombrar el campo a `enunciado_oficial`, como en las fichas completas.
+

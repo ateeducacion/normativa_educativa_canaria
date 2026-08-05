@@ -11,9 +11,9 @@ BOC - 2018/046. Martes 6 de Marzo de 2018 - Anuncio 1008
 
 Gobierno de Canarias
 
-Comunidad AutÃ³noma de Canarias
+Comunidad Autónoma de Canarias
 
-BoletÃ­n Oficial de Canarias
+Boletín Oficial de Canarias
 
 Accesibilidad
 
@@ -21,13 +21,13 @@ Mapa web
 
 Contacto
 
-VersiÃ³n texto
+Versión texto
 
 Inicio
 
 Archivo
 
-BÃºsqueda
+Búsqueda
 
 SEDE
 
@@ -37,353 +37,353 @@ Inicio
 
 Archivo
 
-AÃ±o 2018
+Año 2018
 
 2018/046.
 Martes 6 de Marzo de 2018
 
 1008
 
-<p>MenÃº de bÃºsqueda y navegaciÃ³n</p>
+<p>Menú de búsqueda y navegación</p>
 
 Siguiente
 
-BOC NÂº 46. Martes 6 de Marzo de 2018 - 1008
+BOC Nº 46. Martes 6 de Marzo de 2018 - 1008
 
-ATENCION. La versiÃ³n HTML de este documento no es oficial. Para obtener una versiÃ³n oficial, debe descargar el archivo en formato PDF.
+ATENCION. La versión HTML de este documento no es oficial. Para obtener una versión oficial, debe descargar el archivo en formato PDF.
 
-I. DISPOSICIONES GENERALES - ConsejerÃ­a de EducaciÃ³n y Universidades
+I. DISPOSICIONES GENERALES - Consejería de Educación y Universidades
 
 1008
 
-DECRETO 25/2018, de 26 de febrero, por el que se regula la atenciÃ³n a la diversidad en el Ã¡mbito de las enseÃ±anzas no universitarias de la Comunidad AutÃ³noma de Canarias.
+DECRETO 25/2018, de 26 de febrero, por el que se regula la atención a la diversidad en el ámbito de las enseñanzas no universitarias de la Comunidad Autónoma de Canarias.
 
-16 pÃ¡ginas. Formato de archivo en PDF/Adobe Acrobat.
-TamaÃ±o: 522.93
+16 páginas. Formato de archivo en PDF/Adobe Acrobat.
+Tamaño: 522.93
 Kb.
 
 BOC-A-2018-046-1008.
 
-Firma electrÃ³nica
+Firma electrónica
 
 -
 Descargar
 
-PREÃMBULO
+PREÁMBULO
 
-La educaciÃ³n es un derecho ineludible de todas las personas que debe garantizarse en igualdad de condiciones, sin distinciÃ³n alguna por motivos personales, sociales, culturales, religiosos o de cualquier otra Ã­ndole. AdemÃ¡s, la educaciÃ³n, como una condiciÃ³n que dignifica a la persona, debe orientarse a favorecer el Ã©xito y la excelencia de todos sus alumnos y alumnas, ofreciÃ©ndoles un entorno comÃºn de aprendizaje en el que se formen y convivan en la diversidad requerida en la sociedad actual y venidera. Todo ello, teniendo en cuenta la participaciÃ³n de la familia como las primeras responsables de la educaciÃ³n de sus hijos e hijas.
+La educación es un derecho ineludible de todas las personas que debe garantizarse en igualdad de condiciones, sin distinción alguna por motivos personales, sociales, culturales, religiosos o de cualquier otra índole. Además, la educación, como una condición que dignifica a la persona, debe orientarse a favorecer el éxito y la excelencia de todos sus alumnos y alumnas, ofreciéndoles un entorno común de aprendizaje en el que se formen y convivan en la diversidad requerida en la sociedad actual y venidera. Todo ello, teniendo en cuenta la participación de la familia como las primeras responsables de la educación de sus hijos e hijas.
 
-La Ley OrgÃ¡nica 2/2006, de 3 de mayo, de EducaciÃ³n (LOE), modificada por la Ley OrgÃ¡nica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa (LOMCE), recoge en el TÃ­tulo Preliminar los principios y los fines de la educaciÃ³n, entre los que se destaca la calidad de la educaciÃ³n para todo el alumnado, independientemente de sus condiciones y circunstancias; asÃ­ como la equidad, que garantice la igualdad de oportunidades, la inclusiÃ³n educativa, la igualdad de derechos y oportunidades que ayuden a superar cualquier discriminaciÃ³n, la accesibilidad universal a la educaciÃ³n y la flexibilidad para adecuar la intervenciÃ³n educativa a la diversidad de aptitudes, intereses, expectativas y necesidades del alumnado.
+La Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE), modificada por la Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa (LOMCE), recoge en el Título Preliminar los principios y los fines de la educación, entre los que se destaca la calidad de la educación para todo el alumnado, independientemente de sus condiciones y circunstancias; así como la equidad, que garantice la igualdad de oportunidades, la inclusión educativa, la igualdad de derechos y oportunidades que ayuden a superar cualquier discriminación, la accesibilidad universal a la educación y la flexibilidad para adecuar la intervención educativa a la diversidad de aptitudes, intereses, expectativas y necesidades del alumnado.
 
-Igualmente, en el artÃ­culo 71 de la LOE se hace referencia a que las Administraciones educativas dispondrÃ¡n los medios y asegurarÃ¡n los recursos necesarios para que el alumnado con necesidades especÃ­ficas de apoyo educativo alcance el mÃ¡ximo desarrollo personal, intelectual, social y emocional, asÃ­ como los objetivos establecidos con carÃ¡cter general en la Ley. Asimismo, establecerÃ¡n los procedimientos y los recursos precisos para identificar tempranamente las necesidades educativas del alumnado.
+Igualmente, en el artículo 71 de la LOE se hace referencia a que las Administraciones educativas dispondrán los medios y asegurarán los recursos necesarios para que el alumnado con necesidades específicas de apoyo educativo alcance el máximo desarrollo personal, intelectual, social y emocional, así como los objetivos establecidos con carácter general en la Ley. Asimismo, establecerán los procedimientos y los recursos precisos para identificar tempranamente las necesidades educativas del alumnado.
 
-La Ley 6/2014, de 25 de julio, Canaria de EducaciÃ³n no Universitaria, establece en el artÃ­culo 3 los principios rectores que regirÃ¡n el sistema educativo canario, entre los que figura un sistema educativo de calidad, entendido como un sistema que garantice la equidad y la excelencia, con capacidad de ofrecer a cada persona el tipo de atenciÃ³n pedagÃ³gica que necesita, garantizar una amplia igualdad de oportunidades, facilitar la participaciÃ³n social, promover la eficacia en todos los centros para atender a las necesidades educativas del alumnado y alcanzar los mejores resultados de aprendizaje en este. Asimismo, en el artÃ­culo 4 se recoge que el sistema educativo de Canarias se configurarÃ¡ como un sistema inclusivo, orientado a garantizar a cada persona la atenciÃ³n adecuada para alcanzar el mÃ¡ximo nivel de sus capacidades y competencias.
+La Ley 6/2014, de 25 de julio, Canaria de Educación no Universitaria, establece en el artículo 3 los principios rectores que regirán el sistema educativo canario, entre los que figura un sistema educativo de calidad, entendido como un sistema que garantice la equidad y la excelencia, con capacidad de ofrecer a cada persona el tipo de atención pedagógica que necesita, garantizar una amplia igualdad de oportunidades, facilitar la participación social, promover la eficacia en todos los centros para atender a las necesidades educativas del alumnado y alcanzar los mejores resultados de aprendizaje en este. Asimismo, en el artículo 4 se recoge que el sistema educativo de Canarias se configurará como un sistema inclusivo, orientado a garantizar a cada persona la atención adecuada para alcanzar el máximo nivel de sus capacidades y competencias.
 
-La inclusiÃ³n supone, entonces, un marco de referencia amplio sobre los derechos de las personas y especialmente de aquellas que, por distintas razones puedan encontrarse en mayor riesgo de exclusiÃ³n y de abandono escolar, orientada a transformar los sistemas educativos para responder a la diversidad de alumnado, profesorado, familias y comunidad que se encuentra en los centros educativos. AsÃ­, la DeclaraciÃ³n Universal de los Derechos Humanos se convierte en el referente desde el que promover las polÃ­ticas e intervenciones educativas de carÃ¡cter inclusivo, planteadas como un derecho en condiciones de justicia y equidad social.
+La inclusión supone, entonces, un marco de referencia amplio sobre los derechos de las personas y especialmente de aquellas que, por distintas razones puedan encontrarse en mayor riesgo de exclusión y de abandono escolar, orientada a transformar los sistemas educativos para responder a la diversidad de alumnado, profesorado, familias y comunidad que se encuentra en los centros educativos. Así, la Declaración Universal de los Derechos Humanos se convierte en el referente desde el que promover las políticas e intervenciones educativas de carácter inclusivo, planteadas como un derecho en condiciones de justicia y equidad social.
 
-La atenciÃ³n a la diversidad se establece como principio fundamental que debe regir toda la enseÃ±anza bÃ¡sica, con el objetivo de proporcionar a todo el alumnado una educaciÃ³n de calidad, adecuada a sus caracterÃ­sticas y necesidades. Una educaciÃ³n de calidad es aquella capaz de promover el Ã©xito escolar y la excelencia en todo el alumnado, de acuerdo a sus potencialidades, desde un enfoque inclusivo y competencial.
+La atención a la diversidad se establece como principio fundamental que debe regir toda la enseñanza básica, con el objetivo de proporcionar a todo el alumnado una educación de calidad, adecuada a sus características y necesidades. Una educación de calidad es aquella capaz de promover el éxito escolar y la excelencia en todo el alumnado, de acuerdo a sus potencialidades, desde un enfoque inclusivo y competencial.
 
-La educaciÃ³n inclusiva consiste en mantener altas expectativas con respecto a todos los alumnos y las alumnas, y en establecer las diferentes formas en que estas se pueden alcanzar. Significa trasladar el foco de atenciÃ³n del alumnado al contexto, en el sentido de que no son tan determinantes las condiciones y las caracterÃ­sticas del alumnado como la capacidad que tenga el centro educativo para acoger, valorar y responder a la diversidad de necesidades que estos plantean.
+La educación inclusiva consiste en mantener altas expectativas con respecto a todos los alumnos y las alumnas, y en establecer las diferentes formas en que estas se pueden alcanzar. Significa trasladar el foco de atención del alumnado al contexto, en el sentido de que no son tan determinantes las condiciones y las características del alumnado como la capacidad que tenga el centro educativo para acoger, valorar y responder a la diversidad de necesidades que estos plantean.
 
-Dentro de este marco general, cobra especial relevancia la actitud y las expectativas que mantiene el profesorado hacia la diversidad del alumnado, las prÃ¡cticas educativas que se desarrollen y la disponibilidad y utilizaciÃ³n de los recursos disponibles.
+Dentro de este marco general, cobra especial relevancia la actitud y las expectativas que mantiene el profesorado hacia la diversidad del alumnado, las prácticas educativas que se desarrollen y la disponibilidad y utilización de los recursos disponibles.
 
-Muchos han sido los avances que, en los Ãºltimos aÃ±os, se han experimentado en relaciÃ³n a las culturas, prÃ¡cticas y polÃ­ticas educativas en el Ã¡mbito de la atenciÃ³n a la diversidad en esta Comunidad AutÃ³noma. De esta manera, se han venido desarrollando diversas acciones dirigidas a la formaciÃ³n y coordinaciÃ³n entre el profesorado, con el objeto de promover y facilitar la integraciÃ³n del enfoque competencial en los procesos de enseÃ±anza y aprendizaje como un elemento mÃ¡s que favorezca la atenciÃ³n inclusiva del alumnado. Es por ello que, en estos momentos, se hace necesario marcar lÃ­neas de actuaciÃ³n que amplÃ­en y mejoren estas estrategias, y que profundicen en el reto establecido en el marco de la Comunidad Europea, recogido en la actual Ley OrgÃ¡nica de EducaciÃ³n, que aboga por un cambio curricular centrado en la adquisiciÃ³n de las competencias a travÃ©s de propuestas metodolÃ³gicas inclusivas y de la asunciÃ³n de modelos de enseÃ±anza cooperativos. Asimismo, las recientes recomendaciones que la Defensora del Pueblo realiza a las Administraciones educativas abogan por el impulso de actuaciones que aseguren una atenciÃ³n educativa que se nutra de los principios de inclusividad y no segregaciÃ³n, como elementos ineludibles que deben regir la escolarizaciÃ³n de todas las personas, de manera que esta se produzca en un entorno comÃºn y con los apoyos educativos necesarios.
+Muchos han sido los avances que, en los últimos años, se han experimentado en relación a las culturas, prácticas y políticas educativas en el ámbito de la atención a la diversidad en esta Comunidad Autónoma. De esta manera, se han venido desarrollando diversas acciones dirigidas a la formación y coordinación entre el profesorado, con el objeto de promover y facilitar la integración del enfoque competencial en los procesos de enseñanza y aprendizaje como un elemento más que favorezca la atención inclusiva del alumnado. Es por ello que, en estos momentos, se hace necesario marcar líneas de actuación que amplíen y mejoren estas estrategias, y que profundicen en el reto establecido en el marco de la Comunidad Europea, recogido en la actual Ley Orgánica de Educación, que aboga por un cambio curricular centrado en la adquisición de las competencias a través de propuestas metodológicas inclusivas y de la asunción de modelos de enseñanza cooperativos. Asimismo, las recientes recomendaciones que la Defensora del Pueblo realiza a las Administraciones educativas abogan por el impulso de actuaciones que aseguren una atención educativa que se nutra de los principios de inclusividad y no segregación, como elementos ineludibles que deben regir la escolarización de todas las personas, de manera que esta se produzca en un entorno común y con los apoyos educativos necesarios.
 
-Asimismo, el artÃ­culo 28.9 de la citada Ley 6/2014, de 25 de julio, establece que: Â«La AdministraciÃ³n educativa canaria regularÃ¡ el marco general de atenciÃ³n a la diversidad del alumnado y las condiciones y recursos para la aplicaciÃ³n de las diferentes medidas que serÃ¡n desarrolladas por los centros docentes, de acuerdo con los principios rectores del sistema educativo.Â»
+Asimismo, el artículo 28.9 de la citada Ley 6/2014, de 25 de julio, establece que: «La Administración educativa canaria regulará el marco general de atención a la diversidad del alumnado y las condiciones y recursos para la aplicación de las diferentes medidas que serán desarrolladas por los centros docentes, de acuerdo con los principios rectores del sistema educativo.»
 
-El presente Decreto traza el marco general para desarrollar las propuestas metodolÃ³gicas y organizativas para atender a la diversidad, que los centros educativos han de realizar dentro de un enfoque inclusivo. No obstante, los centros educativos, en el Ã¡mbito de su autonomÃ­a y partiendo de su propia realidad, han de ajustarlas a sus circunstancias concretas, a su contexto y a la rica diversidad de su alumnado, con el objetivo de conseguir el Ã©xito escolar y, por ende, una educaciÃ³n de calidad, garantizando siempre el interÃ©s superior del menor.
+El presente Decreto traza el marco general para desarrollar las propuestas metodológicas y organizativas para atender a la diversidad, que los centros educativos han de realizar dentro de un enfoque inclusivo. No obstante, los centros educativos, en el ámbito de su autonomía y partiendo de su propia realidad, han de ajustarlas a sus circunstancias concretas, a su contexto y a la rica diversidad de su alumnado, con el objetivo de conseguir el éxito escolar y, por ende, una educación de calidad, garantizando siempre el interés superior del menor.
 
-El Decreto da cumplimiento a los principios de buena regulaciÃ³n contenidos en el artÃ­culo 129.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo ComÃºn de las Administraciones PÃºblicas. AsÃ­, la disposiciÃ³n es respetuosa con los principios de necesidad, eficacia y proporcionalidad, en tanto que con ella se consigue el fin perseguido, bÃ¡sicamente, la regulaciÃ³n de atenciÃ³n a la diversidad en el Ã¡mbito de las enseÃ±anzas no universitarias de la Comunidad AutÃ³noma de Canarias.
+El Decreto da cumplimiento a los principios de buena regulación contenidos en el artículo 129.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. Así, la disposición es respetuosa con los principios de necesidad, eficacia y proporcionalidad, en tanto que con ella se consigue el fin perseguido, básicamente, la regulación de atención a la diversidad en el ámbito de las enseñanzas no universitarias de la Comunidad Autónoma de Canarias.
 
-Asimismo, el Decreto ha sido puesto a disposiciÃ³n de la ciudadanÃ­a mediante la publicaciÃ³n en el portal web de la ConsejerÃ­a de EducaciÃ³n y Universidades, posibilitando asÃ­ su participaciÃ³n activa en la elaboraciÃ³n; la iniciativa es coherente con el resto del ordenamiento jurÃ­dico, creando un marco normativo estable, predecible, integrado, claro y de certidumbre para toda la comunidad educativa, evitando las cargas administrativas innecesarias o accesorias y procurando racionalizar la gestiÃ³n de los recursos pÃºblicos; y su objetivo se encuentra claramente definido, cumpliendo asÃ­ los principios de seguridad jurÃ­dica, transparencia y eficiencia.
+Asimismo, el Decreto ha sido puesto a disposición de la ciudadanía mediante la publicación en el portal web de la Consejería de Educación y Universidades, posibilitando así su participación activa en la elaboración; la iniciativa es coherente con el resto del ordenamiento jurídico, creando un marco normativo estable, predecible, integrado, claro y de certidumbre para toda la comunidad educativa, evitando las cargas administrativas innecesarias o accesorias y procurando racionalizar la gestión de los recursos públicos; y su objetivo se encuentra claramente definido, cumpliendo así los principios de seguridad jurídica, transparencia y eficiencia.
 
-En su virtud, a propuesta de la Consejera de EducaciÃ³n y Universidades, previo informe del Consejo Escolar de Canarias, de acuerdo con el dictamen del Consejo Consultivo de Canarias y previa deliberaciÃ³n del Gobierno en su reuniÃ³n celebrada el dÃ­a 26 de febrero de 2018,
+En su virtud, a propuesta de la Consejera de Educación y Universidades, previo informe del Consejo Escolar de Canarias, de acuerdo con el dictamen del Consejo Consultivo de Canarias y previa deliberación del Gobierno en su reunión celebrada el día 26 de febrero de 2018,
 
 D I S P O N G O:
 
-CAPÃTULO I
+CAPÍTULO I
 
 DISPOSICIONES GENERALES
 
-ArtÃ­culo 1.- Objeto y Ã¡mbito.
+Artículo 1.- Objeto y ámbito.
 
-1. El presente Decreto tiene por objeto regular la atenciÃ³n a la diversidad en el Ã¡mbito de la enseÃ±anza no universitaria de la Comunidad AutÃ³noma de Canarias en la etapa de EducaciÃ³n Infantil, en la educaciÃ³n bÃ¡sica, asÃ­ como en el Bachillerato en los tÃ©rminos previstos en esta norma. Para el resto de enseÃ±anzas no universitarias previstas en artÃ­culo 3.2 de la Ley OrgÃ¡nica 2/2006, de 3 de mayo, de EducaciÃ³n (LOE) se estarÃ¡ a lo previsto en su normativa especÃ­fica y, supletoriamente, a lo establecido en este Decreto.
+1. El presente Decreto tiene por objeto regular la atención a la diversidad en el ámbito de la enseñanza no universitaria de la Comunidad Autónoma de Canarias en la etapa de Educación Infantil, en la educación básica, así como en el Bachillerato en los términos previstos en esta norma. Para el resto de enseñanzas no universitarias previstas en artículo 3.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE) se estará a lo previsto en su normativa específica y, supletoriamente, a lo establecido en este Decreto.
 
-2. Se establecen medidas para favorecer el desarrollo de una atenciÃ³n a la diversidad, desde un enfoque inclusivo, que dÃ© respuesta a las caracterÃ­sticas y necesidades de todo el alumnado y, en especial, a aquel que pueda encontrarse en situaciÃ³n de riesgo de abandono escolar temprano y, por ende, de exclusiÃ³n social.
+2. Se establecen medidas para favorecer el desarrollo de una atención a la diversidad, desde un enfoque inclusivo, que dé respuesta a las características y necesidades de todo el alumnado y, en especial, a aquel que pueda encontrarse en situación de riesgo de abandono escolar temprano y, por ende, de exclusión social.
 
-3. SerÃ¡ de aplicaciÃ³n en los centros docentes sostenidos con fondos pÃºblicos y en los que les afecte, en los privados, que imparten enseÃ±anza no universitaria del sistema educativo espaÃ±ol en el Ã¡mbito de gestiÃ³n de la Comunidad AutÃ³noma de Canarias.
+3. Será de aplicación en los centros docentes sostenidos con fondos públicos y en los que les afecte, en los privados, que imparten enseñanza no universitaria del sistema educativo español en el ámbito de gestión de la Comunidad Autónoma de Canarias.
 
-ArtÃ­culo 2.- Principios de actuaciÃ³n.
+Artículo 2.- Principios de actuación.
 
-El contenido del presente Decreto se sustenta en los principios que a continuaciÃ³n se exponen:
+El contenido del presente Decreto se sustenta en los principios que a continuación se exponen:
 
-1. La atenciÃ³n a la diversidad como derecho de todo el alumnado, de forma que se garantice la no discriminaciÃ³n y la igualdad de oportunidades en el acceso, la permanencia, la promociÃ³n y la continuidad a travÃ©s de propuestas y procesos de enseÃ±anza de calidad.
+1. La atención a la diversidad como derecho de todo el alumnado, de forma que se garantice la no discriminación y la igualdad de oportunidades en el acceso, la permanencia, la promoción y la continuidad a través de propuestas y procesos de enseñanza de calidad.
 
-2. La inclusiÃ³n educativa como valor imprescindible y marco de actuaciÃ³n que ha de regir la prÃ¡ctica docente y el derecho del alumnado a compartir un mismo currÃ­culo y espacio para conseguir un mismo fin, adaptado a sus caracterÃ­sticas y necesidades.
+2. La inclusión educativa como valor imprescindible y marco de actuación que ha de regir la práctica docente y el derecho del alumnado a compartir un mismo currículo y espacio para conseguir un mismo fin, adaptado a sus características y necesidades.
 
-3. La adecuaciÃ³n de los procesos educativos, para lo que se favorecerÃ¡ una organizaciÃ³n del centro y del aula flexible, variada, individualizada y ajustada a las necesidades del alumnado, de forma que se propicie la equidad y excelencia en el sistema educativo.
+3. La adecuación de los procesos educativos, para lo que se favorecerá una organización del centro y del aula flexible, variada, individualizada y ajustada a las necesidades del alumnado, de forma que se propicie la equidad y excelencia en el sistema educativo.
 
-4. La prevenciÃ³n mediante una actuaciÃ³n eficaz que permita, a travÃ©s de la detecciÃ³n e identificaciÃ³n de las barreras que dificultan el aprendizaje y la participaciÃ³n, ofrecer lo mÃ¡s tempranamente posible la respuesta educativa que necesita cada alumna o alumno.
+4. La prevención mediante una actuación eficaz que permita, a través de la detección e identificación de las barreras que dificultan el aprendizaje y la participación, ofrecer lo más tempranamente posible la respuesta educativa que necesita cada alumna o alumno.
 
-5. La organizaciÃ³n y utilizaciÃ³n de los recursos, espacios y tiempos para dar una respuesta inclusiva al alumnado en los entornos mÃ¡s cercanos y significativos posibles.
+5. La organización y utilización de los recursos, espacios y tiempos para dar una respuesta inclusiva al alumnado en los entornos más cercanos y significativos posibles.
 
-6. La colaboraciÃ³n y el fomento de la participaciÃ³n de todos los sectores de la comunidad educativa, de las instituciones y de la sociedad para alcanzar una educaciÃ³n de calidad.
+6. La colaboración y el fomento de la participación de todos los sectores de la comunidad educativa, de las instituciones y de la sociedad para alcanzar una educación de calidad.
 
-7. El aprendizaje colaborativo que permita aprender de la diversidad, potenciando la adecuada autoestima y autonomÃ­a, y capaz de generar expectativas positivas en el profesorado, en el alumnado y en su entorno sociofamiliar.
+7. El aprendizaje colaborativo que permita aprender de la diversidad, potenciando la adecuada autoestima y autonomía, y capaz de generar expectativas positivas en el profesorado, en el alumnado y en su entorno sociofamiliar.
 
-CAPÃTULO II
+CAPÍTULO II
 
-ATENCIÃN A LA DIVERSIDAD EN LA EDUCACIÃN INFANTIL Y EN LA EDUCACIÃN BÃSICA
+ATENCIÓN A LA DIVERSIDAD EN LA EDUCACIÓN INFANTIL Y EN LA EDUCACIÓN BÁSICA
 
-ArtÃ­culo 3.- ActuaciÃ³n y atenciÃ³n educativa temprana.
+Artículo 3.- Actuación y atención educativa temprana.
 
-1. La ConsejerÃ­a competente en materia de educaciÃ³n propiciarÃ¡ la identificaciÃ³n temprana de las necesidades educativas del alumnado con el fin de favorecer su avance curricular, desarrollando programas preventivos dirigidos al Ã©xito desde la EducaciÃ³n Infantil y la EducaciÃ³n Primaria, de forma que le permita superar las barreras detectadas y desarrollar medidas educativas de carÃ¡cter inclusivo, para aquellos que no las superen.
+1. La Consejería competente en materia de educación propiciará la identificación temprana de las necesidades educativas del alumnado con el fin de favorecer su avance curricular, desarrollando programas preventivos dirigidos al éxito desde la Educación Infantil y la Educación Primaria, de forma que le permita superar las barreras detectadas y desarrollar medidas educativas de carácter inclusivo, para aquellos que no las superen.
 
-2. La detecciÃ³n temprana abarcarÃ¡ cualquier momento de la vida escolar del alumnado, atendiendo a los cambios, las transiciones o las barreras contextuales que le puedan suponer una dificultad para alcanzar el pleno desarrollo de sus competencias y, por ende, el Ã©xito y la continuidad escolar.
+2. La detección temprana abarcará cualquier momento de la vida escolar del alumnado, atendiendo a los cambios, las transiciones o las barreras contextuales que le puedan suponer una dificultad para alcanzar el pleno desarrollo de sus competencias y, por ende, el éxito y la continuidad escolar.
 
-3. La identificaciÃ³n temprana tendrÃ¡ como objeto la intervenciÃ³n y respuesta inmediata a las dificultades detectadas y a las ayudas que es preciso ofrecer. Para ello, los centros educativos realizarÃ¡n los ajustes y cambios organizativos, metodolÃ³gicos o de cualquier otra Ã­ndole, necesarios para dar respuesta a las necesidades de todo el alumnado.
+3. La identificación temprana tendrá como objeto la intervención y respuesta inmediata a las dificultades detectadas y a las ayudas que es preciso ofrecer. Para ello, los centros educativos realizarán los ajustes y cambios organizativos, metodológicos o de cualquier otra índole, necesarios para dar respuesta a las necesidades de todo el alumnado.
 
-4. La identificaciÃ³n y evaluaciÃ³n de las necesidades educativas del alumnado se realizarÃ¡ por los equipos de orientaciÃ³n educativa y psicopedagÃ³gicos dependientes de la ConsejerÃ­a competente en materia de educaciÃ³n. PodrÃ¡ recabarse la informaciÃ³n necesaria a travÃ©s de la colaboraciÃ³n con otros agentes y Administraciones con atribuciones para la prevenciÃ³n, detecciÃ³n e intervenciÃ³n con la poblaciÃ³n escolar, fomentÃ¡ndose planes de actuaciÃ³n con los servicios sanitarios y sociales de promociÃ³n de la autonomÃ­a personal y de atenciÃ³n a la dependencia de la zona para dar una respuesta coordinada a las necesidades detectadas, cada uno dentro de su Ã¡mbito de competencias.
+4. La identificación y evaluación de las necesidades educativas del alumnado se realizará por los equipos de orientación educativa y psicopedagógicos dependientes de la Consejería competente en materia de educación. Podrá recabarse la información necesaria a través de la colaboración con otros agentes y Administraciones con atribuciones para la prevención, detección e intervención con la población escolar, fomentándose planes de actuación con los servicios sanitarios y sociales de promoción de la autonomía personal y de atención a la dependencia de la zona para dar una respuesta coordinada a las necesidades detectadas, cada uno dentro de su ámbito de competencias.
 
-En este proceso colaborarÃ¡ el profesorado, la familia y cuantos profesionales intervengan, en los tÃ©rminos que establezca la ConsejerÃ­a con competencias en materia educativa.
+En este proceso colaborará el profesorado, la familia y cuantos profesionales intervengan, en los términos que establezca la Consejería con competencias en materia educativa.
 
-5. Cuando en los primeros aÃ±os de escolarizaciÃ³n se detecte alumnado que presente limitaciones en las habilidades acadÃ©mico-funcionales que, sin llegar a presentar una discapacidad u otro tipo de necesidades especÃ­ficas de apoyo educativo (NEAE), afecten a su desarrollo curricular y a la adquisiciÃ³n de aprendizajes bÃ¡sicos, y requiera de una atenciÃ³n especializada por parte de los profesionales de apoyo a las NEAE, se realizarÃ¡ la propuesta de intervenciÃ³n preferente de estos en el entorno de su grupo-clase. Esta prioridad se establecerÃ¡ tomando en consideraciÃ³n las necesidades de atenciÃ³n especializada para el alumnado con NEAE del centro y la opiniÃ³n de los profesionales de los equipos de orientaciÃ³n educativa y psicopedagÃ³gicos.
+5. Cuando en los primeros años de escolarización se detecte alumnado que presente limitaciones en las habilidades académico-funcionales que, sin llegar a presentar una discapacidad u otro tipo de necesidades específicas de apoyo educativo (NEAE), afecten a su desarrollo curricular y a la adquisición de aprendizajes básicos, y requiera de una atención especializada por parte de los profesionales de apoyo a las NEAE, se realizará la propuesta de intervención preferente de estos en el entorno de su grupo-clase. Esta prioridad se establecerá tomando en consideración las necesidades de atención especializada para el alumnado con NEAE del centro y la opinión de los profesionales de los equipos de orientación educativa y psicopedagógicos.
 
-ArtÃ­culo 4.- Respuesta educativa.
+Artículo 4.- Respuesta educativa.
 
-1. La atenciÃ³n a la diversidad se centrarÃ¡ en la identificaciÃ³n y eliminaciÃ³n de barreras al aprendizaje, y a la participaciÃ³n de todo el alumnado, con el objeto de planificar mejoras en las culturas, las prÃ¡cticas y las polÃ­ticas educativas.
+1. La atención a la diversidad se centrará en la identificación y eliminación de barreras al aprendizaje, y a la participación de todo el alumnado, con el objeto de planificar mejoras en las culturas, las prácticas y las políticas educativas.
 
-2. SerÃ¡ la ConsejerÃ­a competente en materia de educaciÃ³n la que establecerÃ¡ los procedimientos y mecanismos adecuados para alcanzar los objetivos reseÃ±ados. Asimismo, es de su competencia regular las diferentes medidas de atenciÃ³n a la diversidad, que pueden abarcar desde la atenciÃ³n personalizada hasta la puesta en prÃ¡ctica de programas o medidas organizativas mÃ¡s amplias que favorezcan la equidad y la excelencia.
+2. Será la Consejería competente en materia de educación la que establecerá los procedimientos y mecanismos adecuados para alcanzar los objetivos reseñados. Asimismo, es de su competencia regular las diferentes medidas de atención a la diversidad, que pueden abarcar desde la atención personalizada hasta la puesta en práctica de programas o medidas organizativas más amplias que favorezcan la equidad y la excelencia.
 
-3. En el uso de los recursos personales y especÃ­ficos para la atenciÃ³n a las necesidades educativas, los centros deberÃ¡n tender a nuevas formas de organizaciÃ³n e integraciÃ³n en el aula ordinaria mediante una actuaciÃ³n colaborativa con el profesorado de aula responsable del Ã¡rea o materia, de manera que las intervenciones especializadas fuera del grupo-clase se realicen solo para los casos absolutamente necesarios.
+3. En el uso de los recursos personales y específicos para la atención a las necesidades educativas, los centros deberán tender a nuevas formas de organización e integración en el aula ordinaria mediante una actuación colaborativa con el profesorado de aula responsable del área o materia, de manera que las intervenciones especializadas fuera del grupo-clase se realicen solo para los casos absolutamente necesarios.
 
-4. Las medidas para atender a la diversidad del alumnado serÃ¡n principalmente las siguientes:
+4. Las medidas para atender a la diversidad del alumnado serán principalmente las siguientes:
 
-a) Medidas ordinarias: las destinadas a promover el desarrollo pleno y equilibrado de las competencias explÃ­citas en los objetivos de cada una de las etapas, a travÃ©s de las modificaciones en el contexto educativo referidas a cambios en la organizaciÃ³n de la enseÃ±anza o en las interacciones que tienen lugar en dicho contexto.
+a) Medidas ordinarias: las destinadas a promover el desarrollo pleno y equilibrado de las competencias explícitas en los objetivos de cada una de las etapas, a través de las modificaciones en el contexto educativo referidas a cambios en la organización de la enseñanza o en las interacciones que tienen lugar en dicho contexto.
 
-b) Las medidas extraordinarias: estÃ¡n referidas a las adaptaciones de los medios de acceso al currÃ­culo, las adaptaciones en los diferentes elementos del currÃ­culo o a las adaptaciones que requieran de ampliaciÃ³n o enriquecimiento del mismo.
+b) Las medidas extraordinarias: están referidas a las adaptaciones de los medios de acceso al currículo, las adaptaciones en los diferentes elementos del currículo o a las adaptaciones que requieran de ampliación o enriquecimiento del mismo.
 
-c) Cuando las medidas ordinarias y extraordinarias reseÃ±adas en los apartados anteriores no hayan sido suficientes para garantizar el avance y la respuesta adecuada a las necesidades del alumnado, se podrÃ¡n establecer medidas excepcionales que pueden incluir fÃ³rmulas de escolarizaciÃ³n mixtas para el alumnado con necesidades educativas especiales (en adelante, NEE), como la escolarizaciÃ³n en centros ordinarios de atenciÃ³n educativa preferente o en aulas enclave, o cualquier otra que se proponga por la DirecciÃ³n General competente en materia de ordenaciÃ³n, con la aprobaciÃ³n de la ConsejerÃ­a competente en materia educativa. La escolarizaciÃ³n excepcional de este alumnado en los centros de educaciÃ³n especial deberÃ¡ estar fundamentada en razones que justifiquen la imposibilidad de poner en prÃ¡ctica su escolarizaciÃ³n en centros ordinarios.
+c) Cuando las medidas ordinarias y extraordinarias reseñadas en los apartados anteriores no hayan sido suficientes para garantizar el avance y la respuesta adecuada a las necesidades del alumnado, se podrán establecer medidas excepcionales que pueden incluir fórmulas de escolarización mixtas para el alumnado con necesidades educativas especiales (en adelante, NEE), como la escolarización en centros ordinarios de atención educativa preferente o en aulas enclave, o cualquier otra que se proponga por la Dirección General competente en materia de ordenación, con la aprobación de la Consejería competente en materia educativa. La escolarización excepcional de este alumnado en los centros de educación especial deberá estar fundamentada en razones que justifiquen la imposibilidad de poner en práctica su escolarización en centros ordinarios.
 
-5. El alcance de la respuesta educativa a la diversidad afectarÃ¡ al alumnado de todas las enseÃ±anzas no universitarias de rÃ©gimen general y de rÃ©gimen especial que asÃ­ lo precisen.
+5. El alcance de la respuesta educativa a la diversidad afectará al alumnado de todas las enseñanzas no universitarias de régimen general y de régimen especial que así lo precisen.
 
-ArtÃ­culo 5.- Medidas para atender a la diversidad en las etapas de EducaciÃ³n Infantil y EducaciÃ³n Primaria.
+Artículo 5.- Medidas para atender a la diversidad en las etapas de Educación Infantil y Educación Primaria.
 
-1. En las etapas de la EducaciÃ³n Infantil y la EducaciÃ³n Primaria, se pondrÃ¡ especial atenciÃ³n en el empleo de estrategias didÃ¡cticas que permitan una organizaciÃ³n flexible, asÃ­ como la prevenciÃ³n y la puesta en prÃ¡ctica de medidas desde que se detecten las barreras que dificulten el aprendizaje y la participaciÃ³n.
+1. En las etapas de la Educación Infantil y la Educación Primaria, se pondrá especial atención en el empleo de estrategias didácticas que permitan una organización flexible, así como la prevención y la puesta en práctica de medidas desde que se detecten las barreras que dificulten el aprendizaje y la participación.
 
-2. Estas medidas serÃ¡n principalmente las siguientes:
+2. Estas medidas serán principalmente las siguientes:
 
-a) Apoyo al alumnado en el grupo ordinario, procurando que el alumnado que presenta dificultades estÃ© equitativamente repartido entre los distintos grupos del mismo nivel.
+a) Apoyo al alumnado en el grupo ordinario, procurando que el alumnado que presenta dificultades esté equitativamente repartido entre los distintos grupos del mismo nivel.
 
-b) La flexibilidad y la combinaciÃ³n de diferentes tipos de agrupamientos.
+b) La flexibilidad y la combinación de diferentes tipos de agrupamientos.
 
-c) La atenciÃ³n individualizada.
+c) La atención individualizada.
 
-d) Los sistemas de refuerzo que permitan la recuperaciÃ³n curricular.
+d) Los sistemas de refuerzo que permitan la recuperación curricular.
 
-e) El apoyo idiomÃ¡tico para el alumnado no hispanohablante.
+e) El apoyo idiomático para el alumnado no hispanohablante.
 
-f) La intervenciÃ³n de otros agentes de la comunidad educativa que puedan colaborar en la implementaciÃ³n del currÃ­culo y contribuir a la mejora de la atenciÃ³n inclusiva al alumnado y a la integraciÃ³n de los aprendizajes.
+f) La intervención de otros agentes de la comunidad educativa que puedan colaborar en la implementación del currículo y contribuir a la mejora de la atención inclusiva al alumnado y a la integración de los aprendizajes.
 
-3. En aquellos casos en que sea necesario, se realizarÃ¡n adaptaciones del currÃ­culo tanto para el alumnado que presenta dificultades en el aprendizaje como para aquellos que requieren de profundizaciÃ³n o enriquecimiento en una o varias Ã¡reas del currÃ­culo, en los tÃ©rminos establecidos en la normativa vigente o en desarrollos normativos posteriores.
+3. En aquellos casos en que sea necesario, se realizarán adaptaciones del currículo tanto para el alumnado que presenta dificultades en el aprendizaje como para aquellos que requieren de profundización o enriquecimiento en una o varias áreas del currículo, en los términos establecidos en la normativa vigente o en desarrollos normativos posteriores.
 
-ArtÃ­culo 6.- Medidas para atender a la diversidad en la etapa de EducaciÃ³n Secundaria Obligatoria.
+Artículo 6.- Medidas para atender a la diversidad en la etapa de Educación Secundaria Obligatoria.
 
-1. Las medidas de atenciÃ³n a la diversidad en la etapa de la EducaciÃ³n Secundaria Obligatoria tendrÃ¡n como finalidad alcanzar los objetivos de la etapa, reducir las tasas de abandono escolar temprano y mejorar los Ã­ndices de continuidad escolar del alumnado.
+1. Las medidas de atención a la diversidad en la etapa de la Educación Secundaria Obligatoria tendrán como finalidad alcanzar los objetivos de la etapa, reducir las tasas de abandono escolar temprano y mejorar los índices de continuidad escolar del alumnado.
 
-2. Corresponde a la ConsejerÃ­a competente en materia de educaciÃ³n regular las diferentes medidas de atenciÃ³n a la diversidad, entre las que se priorizarÃ¡n en esta etapa, ademÃ¡s de las mencionadas para la EducaciÃ³n Infantil y la EducaciÃ³n Primaria, las siguientes:
+2. Corresponde a la Consejería competente en materia de educación regular las diferentes medidas de atención a la diversidad, entre las que se priorizarán en esta etapa, además de las mencionadas para la Educación Infantil y la Educación Primaria, las siguientes:
 
 a) Los desdoblamientos de grupo.
 
-b) La integraciÃ³n de materias en Ã¡mbitos.
+b) La integración de materias en ámbitos.
 
 c) Los programas para la mejora de la convivencia.
 
-d) Los programas de mejora del aprendizaje y el rendimiento para el alumnado que reÃºna los requisitos establecidos por la normativa que los desarrolla.
+d) Los programas de mejora del aprendizaje y el rendimiento para el alumnado que reúna los requisitos establecidos por la normativa que los desarrolla.
 
-3. Los equipos docentes, con la colaboraciÃ³n y el asesoramiento de los departamentos de orientaciÃ³n y con el consentimiento familiar o de las personas representantes legales del alumnado, podrÃ¡n proponer al alumnado escolarizado en la etapa de la EducaciÃ³n Secundaria Obligatoria para su incorporaciÃ³n a los ciclos de FormaciÃ³n Profesional BÃ¡sica cuando reÃºnan las condiciones de acceso y admisiÃ³n establecidas en la normativa vigente. AdemÃ¡s, podrÃ¡n proponer al alumnado con necesidades educativas especiales (NEE) para cursar programas de formaciÃ³n profesional adaptados, de acuerdo a lo recogido en la normativa al efecto. Estos programas tambiÃ©n podrÃ¡n impartirse en los centros de educaciÃ³n especial.
+3. Los equipos docentes, con la colaboración y el asesoramiento de los departamentos de orientación y con el consentimiento familiar o de las personas representantes legales del alumnado, podrán proponer al alumnado escolarizado en la etapa de la Educación Secundaria Obligatoria para su incorporación a los ciclos de Formación Profesional Básica cuando reúnan las condiciones de acceso y admisión establecidas en la normativa vigente. Además, podrán proponer al alumnado con necesidades educativas especiales (NEE) para cursar programas de formación profesional adaptados, de acuerdo a lo recogido en la normativa al efecto. Estos programas también podrán impartirse en los centros de educación especial.
 
-ArtÃ­culo 7.- Plan de atenciÃ³n a la diversidad.
+Artículo 7.- Plan de atención a la diversidad.
 
-1. Las medidas de atenciÃ³n a la diversidad que proponga el centro formarÃ¡n parte de su proyecto educativo, y seguirÃ¡n un modelo inclusivo de actuaciÃ³n.
+1. Las medidas de atención a la diversidad que proponga el centro formarán parte de su proyecto educativo, y seguirán un modelo inclusivo de actuación.
 
-2. Dichas medidas conformarÃ¡n su plan de atenciÃ³n a la diversidad, el cual ha de recoger las medidas organizativas, metodolÃ³gicas y de intervenciÃ³n que adopta el centro para dar la mejor respuesta posible a la diversidad de su alumnado. Todas estas medidas quedarÃ¡n reflejadas en el documento del plan de atenciÃ³n a la diversidad, que deberÃ¡ establecer mecanismos de revisiÃ³n que permitan la evaluaciÃ³n del impacto en la aplicaciÃ³n de estas y la realizaciÃ³n de propuestas de mejora.
+2. Dichas medidas conformarán su plan de atención a la diversidad, el cual ha de recoger las medidas organizativas, metodológicas y de intervención que adopta el centro para dar la mejor respuesta posible a la diversidad de su alumnado. Todas estas medidas quedarán reflejadas en el documento del plan de atención a la diversidad, que deberá establecer mecanismos de revisión que permitan la evaluación del impacto en la aplicación de estas y la realización de propuestas de mejora.
 
-ArtÃ­culo 8.- ParticipaciÃ³n.
+Artículo 8.- Participación.
 
-1. La ConsejerÃ­a competente en materia de educaciÃ³n fomentarÃ¡ el ejercicio efectivo de la participaciÃ³n de las familias o las personas representantes legales del alumnado como agentes fundamentales en la construcciÃ³n de una escuela inclusiva y que permanentemente estimule la participaciÃ³n en las decisiones que afecten a los procesos educativos de sus hijos e hijas.
+1. La Consejería competente en materia de educación fomentará el ejercicio efectivo de la participación de las familias o las personas representantes legales del alumnado como agentes fundamentales en la construcción de una escuela inclusiva y que permanentemente estimule la participación en las decisiones que afecten a los procesos educativos de sus hijos e hijas.
 
-2. Los centros docentes promoverÃ¡n la formaciÃ³n de padres y madres o las personas representantes legales del alumnado mediante la puesta en marcha de programas familia-escuela que favorezcan su colaboraciÃ³n en la vida de los centros y donde puedan interaccionar docentes y familias en una red de enriquecimiento mutuo que favorecerÃ¡ la mejora en la vida de los centros y el Ã©xito, la promociÃ³n, la permanencia y la continuidad escolar del alumnado.
+2. Los centros docentes promoverán la formación de padres y madres o las personas representantes legales del alumnado mediante la puesta en marcha de programas familia-escuela que favorezcan su colaboración en la vida de los centros y donde puedan interaccionar docentes y familias en una red de enriquecimiento mutuo que favorecerá la mejora en la vida de los centros y el éxito, la promoción, la permanencia y la continuidad escolar del alumnado.
 
-3. TambiÃ©n se podrÃ¡n establecer convenios de colaboraciÃ³n con organizaciones, instituciones u organismos implicados en la educaciÃ³n del alumnado para su participaciÃ³n en los centros educativos.
+3. También se podrán establecer convenios de colaboración con organizaciones, instituciones u organismos implicados en la educación del alumnado para su participación en los centros educativos.
 
-4. La ConsejerÃ­a competente en materia de educaciÃ³n podrÃ¡ conceder subvenciones o cualquier otra ayuda legalmente prevista a las familias o a las personas representantes legales del alumnado, a los centros docentes o a las asociaciones, federaciones y confederaciones de madres y padres, destinadas a facilitar un proceso educativo inclusivo del alumnado en las condiciones y requisitos que esta determine.
+4. La Consejería competente en materia de educación podrá conceder subvenciones o cualquier otra ayuda legalmente prevista a las familias o a las personas representantes legales del alumnado, a los centros docentes o a las asociaciones, federaciones y confederaciones de madres y padres, destinadas a facilitar un proceso educativo inclusivo del alumnado en las condiciones y requisitos que esta determine.
 
-ArtÃ­culo 9.- FormaciÃ³n y actualizaciÃ³n del profesorado.
+Artículo 9.- Formación y actualización del profesorado.
 
-La ConsejerÃ­a con competencias en materia de educaciÃ³n facilitarÃ¡ la formaciÃ³n y actualizaciÃ³n de sus docentes. Para ello promoverÃ¡ la formaciÃ³n continua y la actualizaciÃ³n permanente de todo el profesorado como eje de mejora de la calidad educativa, del Ã©xito escolar del alumnado, y de la reducciÃ³n del abandono escolar. En el plan canario de formaciÃ³n del profesorado deberÃ¡ contemplarse la atenciÃ³n a la diversidad desde un enfoque inclusivo, que se centrarÃ¡ en la formaciÃ³n en actitudes y valores, ademÃ¡s de en conocimientos y en habilidades, y proporcionarÃ¡ tambiÃ©n al profesorado orientaciones metodolÃ³gicas que le permitan ofrecer una respuesta educativa mÃ¡s ajustada.
+La Consejería con competencias en materia de educación facilitará la formación y actualización de sus docentes. Para ello promoverá la formación continua y la actualización permanente de todo el profesorado como eje de mejora de la calidad educativa, del éxito escolar del alumnado, y de la reducción del abandono escolar. En el plan canario de formación del profesorado deberá contemplarse la atención a la diversidad desde un enfoque inclusivo, que se centrará en la formación en actitudes y valores, además de en conocimientos y en habilidades, y proporcionará también al profesorado orientaciones metodológicas que le permitan ofrecer una respuesta educativa más ajustada.
 
-ArtÃ­culo 10.- EvaluaciÃ³n de las medidas.
+Artículo 10.- Evaluación de las medidas.
 
-1. Corresponde a la ConsejerÃ­a con competencias en materia de educaciÃ³n establecer y desarrollar la evaluaciÃ³n coordinada de las actuaciones que se reflejan en este Decreto, tomando como referencia la evoluciÃ³n del alumnado y la valoraciÃ³n del impacto de las medidas que se pongan en funcionamiento.
+1. Corresponde a la Consejería con competencias en materia de educación establecer y desarrollar la evaluación coordinada de las actuaciones que se reflejan en este Decreto, tomando como referencia la evolución del alumnado y la valoración del impacto de las medidas que se pongan en funcionamiento.
 
-2. Se establecerÃ¡, por dicha ConsejerÃ­a, los cauces de participaciÃ³n para las familias o personas representantes legales del alumnado y sus organizaciones, asÃ­ como la de otros sectores implicados, en la valoraciÃ³n de los resultados alcanzados y de las propuestas de mejora realizadas.
+2. Se establecerá, por dicha Consejería, los cauces de participación para las familias o personas representantes legales del alumnado y sus organizaciones, así como la de otros sectores implicados, en la valoración de los resultados alcanzados y de las propuestas de mejora realizadas.
 
-CAPÃTULO III
+CAPÍTULO III
 
-ALUMNADO CON NECESIDADES ESPECÃFICAS DE APOYO EDUCATIVO
+ALUMNADO CON NECESIDADES ESPECÍFICAS DE APOYO EDUCATIVO
 
-ArtÃ­culo 11.- Necesidades especÃ­ficas de apoyo educativo.
+Artículo 11.- Necesidades específicas de apoyo educativo.
 
-1. A los efectos del presente Decreto se entiende por necesidades especÃ­ficas de apoyo educativo las siguientes:
+1. A los efectos del presente Decreto se entiende por necesidades específicas de apoyo educativo las siguientes:
 
 a) Necesidades educativas especiales.
 
-Aquellas que presenta el alumnado que requiere, durante un periodo de su escolarizaciÃ³n o a lo largo de toda ella, determinados apoyos y atenciones educativas especÃ­ficas derivadas de discapacidad intelectual, motora, auditiva o visual, trastorno grave de la conducta o trastorno del espectro del autismo.
+Aquellas que presenta el alumnado que requiere, durante un periodo de su escolarización o a lo largo de toda ella, determinados apoyos y atenciones educativas específicas derivadas de discapacidad intelectual, motora, auditiva o visual, trastorno grave de la conducta o trastorno del espectro del autismo.
 
-b) Dificultades especÃ­ficas de aprendizaje.
+b) Dificultades específicas de aprendizaje.
 
-Las que presenta el alumnado que tiene dificultades en los procesos implicados en la lectura, la escritura o el cÃ¡lculo aritmÃ©tico con implicaciÃ³n relevante en su aprendizaje escolar.
+Las que presenta el alumnado que tiene dificultades en los procesos implicados en la lectura, la escritura o el cálculo aritmético con implicación relevante en su aprendizaje escolar.
 
-c) Trastornos por dÃ©ficit de atenciÃ³n con o sin hiperactividad.
+c) Trastornos por déficit de atención con o sin hiperactividad.
 
-Cuando el alumnado presenta necesidades especÃ­ficas de apoyo educativo caracterizado a una persistente desatenciÃ³n, hiperactividad o impulsividad, o por la combinaciÃ³n de ellas, que repercute negativamente en su participaciÃ³n en las actividades escolares y en su relaciÃ³n con los demÃ¡s.
+Cuando el alumnado presenta necesidades específicas de apoyo educativo caracterizado a una persistente desatención, hiperactividad o impulsividad, o por la combinación de ellas, que repercute negativamente en su participación en las actividades escolares y en su relación con los demás.
 
-d) IncorporaciÃ³n tardÃ­a al sistema educativo.
+d) Incorporación tardía al sistema educativo.
 
-Aquellas que presenta el alumnado que se ha incorporado tardÃ­amente al sistema educativo por cualquier motivo y presenta dificultades para seguir el currÃ­culo respecto a sus coetÃ¡neos o coetÃ¡neas.
+Aquellas que presenta el alumnado que se ha incorporado tardíamente al sistema educativo por cualquier motivo y presenta dificultades para seguir el currículo respecto a sus coetáneos o coetáneas.
 
 e) Especiales condiciones personales o de historia escolar.
 
-Cuando el alumnado manifiesta dificultades en la adquisiciÃ³n de los objetivos y las competencias previstos para su grupo de referencia por una escolarizaciÃ³n desajustada o insuficiente, por limitaciones socioculturales, por razones de enfermedad o problemas de salud temporales o crÃ³nicos, o por dificultades de ejecuciÃ³n funcional de tipo cognitivo o neuropsicolÃ³gico, que, sin llegar a ser un trastorno o discapacidad, influyen en el rendimiento escolar y crean dificultades en el avance curricular. Este alumnado puede presentar dificultades en la comunicaciÃ³n, el lenguaje o el habla derivadas de alguno o de la combinaciÃ³n de varios de los motivos seÃ±alados.
+Cuando el alumnado manifiesta dificultades en la adquisición de los objetivos y las competencias previstos para su grupo de referencia por una escolarización desajustada o insuficiente, por limitaciones socioculturales, por razones de enfermedad o problemas de salud temporales o crónicos, o por dificultades de ejecución funcional de tipo cognitivo o neuropsicológico, que, sin llegar a ser un trastorno o discapacidad, influyen en el rendimiento escolar y crean dificultades en el avance curricular. Este alumnado puede presentar dificultades en la comunicación, el lenguaje o el habla derivadas de alguno o de la combinación de varios de los motivos señalados.
 
-f) Dificultades en el Ã¡mbito de la comunicaciÃ³n y el lenguaje.
+f) Dificultades en el ámbito de la comunicación y el lenguaje.
 
-Aquellas dificultades, adquiridas o congÃ©nitas, que presenta el alumnado en el Ã¡mbito de la comunicaciÃ³n y el lenguaje y que resultan relevantes en su desarrollo o aprendizaje escolar.
+Aquellas dificultades, adquiridas o congénitas, que presenta el alumnado en el ámbito de la comunicación y el lenguaje y que resultan relevantes en su desarrollo o aprendizaje escolar.
 
 g) Altas capacidades intelectuales.
 
-Cuando el alumnado maneja y relaciona de manera simultÃ¡nea y eficaz mÃºltiples y variados recursos cognitivos, o bien destaca de manera excepcional en uno o varios de ellos.
+Cuando el alumnado maneja y relaciona de manera simultánea y eficaz múltiples y variados recursos cognitivos, o bien destaca de manera excepcional en uno o varios de ellos.
 
-2. A este alumnado se le han de proporcionar, junto a la enseÃ±anza ordinaria, los recursos especÃ­ficos que requiera, en parte o a lo largo de su escolaridad, para identificar y minimizar las barreras que dificultan el aprendizaje y la participaciÃ³n.
+2. A este alumnado se le han de proporcionar, junto a la enseñanza ordinaria, los recursos específicos que requiera, en parte o a lo largo de su escolaridad, para identificar y minimizar las barreras que dificultan el aprendizaje y la participación.
 
-ArtÃ­culo 12.- EvaluaciÃ³n e identificaciÃ³n de las necesidades especÃ­ficas de apoyo educativo.
+Artículo 12.- Evaluación e identificación de las necesidades específicas de apoyo educativo.
 
-1. Corresponde a los equipos de orientaciÃ³n educativa y psicopedagÃ³gicos, dependientes de la ConsejerÃ­a competente en materia de educaciÃ³n, la evaluaciÃ³n e identificaciÃ³n de las necesidades especÃ­ficas de apoyo educativo que presenta el alumnado. Para ello se tomarÃ¡n en consideraciÃ³n las aportaciones que realice el profesorado, la familia o las personas representantes legales del alumnado y cualquier otro profesional implicado en la valoraciÃ³n y respuesta a este alumnado.
+1. Corresponde a los equipos de orientación educativa y psicopedagógicos, dependientes de la Consejería competente en materia de educación, la evaluación e identificación de las necesidades específicas de apoyo educativo que presenta el alumnado. Para ello se tomarán en consideración las aportaciones que realice el profesorado, la familia o las personas representantes legales del alumnado y cualquier otro profesional implicado en la valoración y respuesta a este alumnado.
 
-2. Constituye el objetivo principal de la evaluaciÃ³n psicopedagÃ³gica determinar las ayudas, los recursos y las medidas organizativas y curriculares mÃ¡s adecuadas que posibiliten una atenciÃ³n inclusiva a la diversidad del alumnado.
+2. Constituye el objetivo principal de la evaluación psicopedagógica determinar las ayudas, los recursos y las medidas organizativas y curriculares más adecuadas que posibiliten una atención inclusiva a la diversidad del alumnado.
 
-3. La ConsejerÃ­a competente en materia de educaciÃ³n establecerÃ¡, en sus desarrollos normativos, los requisitos y procedimientos para la evaluaciÃ³n, promociÃ³n y titulaciÃ³n del alumnado que presente necesidades especÃ­ficas de apoyo educativo. AdemÃ¡s, establecerÃ¡ las condiciones de accesibilidad y las adaptaciones necesarias en los procedimientos e instrumentos de evaluaciÃ³n y, en su caso, los tiempos y apoyos que aseguren una adecuada evaluaciÃ³n de este alumnado. Asimismo, determinarÃ¡ las condiciones que permitan, cuando proceda, la eliminaciÃ³n de determinados elementos del currÃ­culo para el alumnado con discapacidad visual, auditiva o motora y para el alumnado con trastorno del espectro del autismo, en las condiciones que se determine.
+3. La Consejería competente en materia de educación establecerá, en sus desarrollos normativos, los requisitos y procedimientos para la evaluación, promoción y titulación del alumnado que presente necesidades específicas de apoyo educativo. Además, establecerá las condiciones de accesibilidad y las adaptaciones necesarias en los procedimientos e instrumentos de evaluación y, en su caso, los tiempos y apoyos que aseguren una adecuada evaluación de este alumnado. Asimismo, determinará las condiciones que permitan, cuando proceda, la eliminación de determinados elementos del currículo para el alumnado con discapacidad visual, auditiva o motora y para el alumnado con trastorno del espectro del autismo, en las condiciones que se determine.
 
-4. La evaluaciÃ³n de la eficacia de las medidas propuestas para el alumnado serÃ¡ objeto de valoraciÃ³n y seguimiento, segÃºn los procedimientos que a este fin establezca la ConsejerÃ­a competente en materia de educaciÃ³n.
+4. La evaluación de la eficacia de las medidas propuestas para el alumnado será objeto de valoración y seguimiento, según los procedimientos que a este fin establezca la Consejería competente en materia de educación.
 
-ArtÃ­culo 13.- Modalidades de escolarizaciÃ³n.
+Artículo 13.- Modalidades de escolarización.
 
-1. La escolarizaciÃ³n del alumnado con necesidades especÃ­ficas de apoyo educativo se realizarÃ¡ en los centros docentes ordinarios. Cuando esto no sea posible y se justifique de forma razonada en el dictamen de escolarizaciÃ³n realizado por los equipos de orientaciÃ³n educativa y psicopedagÃ³gicos, el alumnado con necesidades educativas especiales se podrÃ¡ escolarizar en los centros ordinarios de atenciÃ³n educativa preferente, en aulas enclave o en centros de educaciÃ³n especial. Esta escolarizaciÃ³n excepcional tiene carÃ¡cter temporal y serÃ¡ objeto de revisiÃ³n periÃ³dica, de manera que el alumnado podrÃ¡ ser propuesto para su reincorporaciÃ³n a una escolarizaciÃ³n ordinaria cuando asÃ­ lo requiera.
+1. La escolarización del alumnado con necesidades específicas de apoyo educativo se realizará en los centros docentes ordinarios. Cuando esto no sea posible y se justifique de forma razonada en el dictamen de escolarización realizado por los equipos de orientación educativa y psicopedagógicos, el alumnado con necesidades educativas especiales se podrá escolarizar en los centros ordinarios de atención educativa preferente, en aulas enclave o en centros de educación especial. Esta escolarización excepcional tiene carácter temporal y será objeto de revisión periódica, de manera que el alumnado podrá ser propuesto para su reincorporación a una escolarización ordinaria cuando así lo requiera.
 
-2. Se entiende por Â«centro ordinario de atenciÃ³n educativa preferenteÂ» aquel centro escolar de EducaciÃ³n Infantil o enseÃ±anza bÃ¡sica que, de manera excepcional, proporciona respuesta educativa al alumnado con necesidades especÃ­ficas de apoyo educativo y que precisa de recursos personales o materiales especÃ­ficos de difÃ­cil generalizaciÃ³n.
+2. Se entiende por «centro ordinario de atención educativa preferente» aquel centro escolar de Educación Infantil o enseñanza básica que, de manera excepcional, proporciona respuesta educativa al alumnado con necesidades específicas de apoyo educativo y que precisa de recursos personales o materiales específicos de difícil generalización.
 
-3. Se entiende por Â«aula enclaveÂ» aquella unidad de escolarizaciÃ³n ubicada en centros escolares ordinarios, en la que se proporciona respuesta educativa al alumnado con necesidades educativas especiales que pueda participar en las actividades realizadas por el resto del alumnado del centro educativo, y que requiera de adaptaciones que se aparten significativamente del currÃ­culo en la mayor parte o todas las Ã¡reas o materias, y que precisa de la utilizaciÃ³n de recursos extraordinarios.
+3. Se entiende por «aula enclave» aquella unidad de escolarización ubicada en centros escolares ordinarios, en la que se proporciona respuesta educativa al alumnado con necesidades educativas especiales que pueda participar en las actividades realizadas por el resto del alumnado del centro educativo, y que requiera de adaptaciones que se aparten significativamente del currículo en la mayor parte o todas las áreas o materias, y que precisa de la utilización de recursos extraordinarios.
 
-4. Se entiende por Â«centro de educaciÃ³n especialÂ» aquel donde se escolariza exclusivamente al alumnado con necesidades educativas especiales que requiera adaptaciones que se apartan significativamente del currÃ­culo en la mayor parte o todas las Ã¡reas o materias. Este alumnado precisa de la utilizaciÃ³n de recursos muy especÃ­ficos o excepcionales, de difÃ­cil generalizaciÃ³n, asÃ­ como un mayor grado de supervisiÃ³n y ayuda para el desarrollo de las actividades propias para su edad.
+4. Se entiende por «centro de educación especial» aquel donde se escolariza exclusivamente al alumnado con necesidades educativas especiales que requiera adaptaciones que se apartan significativamente del currículo en la mayor parte o todas las áreas o materias. Este alumnado precisa de la utilización de recursos muy específicos o excepcionales, de difícil generalización, así como un mayor grado de supervisión y ayuda para el desarrollo de las actividades propias para su edad.
 
-ArtÃ­culo 14.- EscolarizaciÃ³n del alumnado con necesidades especÃ­ficas de apoyo educativo.
+Artículo 14.- Escolarización del alumnado con necesidades específicas de apoyo educativo.
 
-1. La escolarizaciÃ³n del alumnado con necesidades especÃ­ficas de apoyo educativo en las distintas enseÃ±anzas se regirÃ¡ por los principios de inclusiÃ³n y no discriminaciÃ³n, garantizÃ¡ndose su acceso, la permanencia y la igualdad de oportunidades.
+1. La escolarización del alumnado con necesidades específicas de apoyo educativo en las distintas enseñanzas se regirá por los principios de inclusión y no discriminación, garantizándose su acceso, la permanencia y la igualdad de oportunidades.
 
-2. El alumnado con necesidades educativas especiales que precise de adaptaciones curriculares significativas o que requiera de recursos personales o materiales de difÃ­cil generalizaciÃ³n se escolarizarÃ¡ en el centro mÃ¡s cercano que cuente con los mencionados recursos. SerÃ¡ preceptivo que el dictamen de escolarizaciÃ³n incluya, de manera expresa, la opiniÃ³n de los padres, las madres o de los tutores o las tutoras legales con la propuesta realizada.
+2. El alumnado con necesidades educativas especiales que precise de adaptaciones curriculares significativas o que requiera de recursos personales o materiales de difícil generalización se escolarizará en el centro más cercano que cuente con los mencionados recursos. Será preceptivo que el dictamen de escolarización incluya, de manera expresa, la opinión de los padres, las madres o de los tutores o las tutoras legales con la propuesta realizada.
 
-3. La ConsejerÃ­a competente en materia de educaciÃ³n establecerÃ¡ los criterios para la escolarizaciÃ³n del alumnado con necesidades especÃ­ficas de apoyo educativo en los distintos niveles y etapas, reconociÃ©ndole derecho preferente para su admisiÃ³n en aquellos centros ordinarios sostenidos con fondos pÃºblicos. Con carÃ¡cter general, se escolarizarÃ¡ en el centro mÃ¡s cercano a su domicilio.
+3. La Consejería competente en materia de educación establecerá los criterios para la escolarización del alumnado con necesidades específicas de apoyo educativo en los distintos niveles y etapas, reconociéndole derecho preferente para su admisión en aquellos centros ordinarios sostenidos con fondos públicos. Con carácter general, se escolarizará en el centro más cercano a su domicilio.
 
-4. La ConsejerÃ­a competente en materia de educaciÃ³n podrÃ¡ flexibilizar, ampliando o reduciendo segÃºn corresponda, la permanencia del alumnado con necesidades educativas especiales o con altas capacidades intelectuales en cada una de las etapas del sistema educativo, dentro de los lÃ­mites establecidos por la normativa vigente.
+4. La Consejería competente en materia de educación podrá flexibilizar, ampliando o reduciendo según corresponda, la permanencia del alumnado con necesidades educativas especiales o con altas capacidades intelectuales en cada una de las etapas del sistema educativo, dentro de los límites establecidos por la normativa vigente.
 
-5. El alumnado con necesidades educativas especiales podrÃ¡ escolarizarse en programas de formaciÃ³n profesional adaptados que establezca la ConsejerÃ­a competente en materia de educaciÃ³n con la finalidad de facilitar la integraciÃ³n social y laboral, en los tÃ©rminos que determine.
+5. El alumnado con necesidades educativas especiales podrá escolarizarse en programas de formación profesional adaptados que establezca la Consejería competente en materia de educación con la finalidad de facilitar la integración social y laboral, en los términos que determine.
 
-6. La ConsejerÃ­a competente en materia de educaciÃ³n establecerÃ¡ las condiciones de escolarizaciÃ³n del alumnado que presenta necesidades educativas especiales en las enseÃ±anzas postobligatorias. Asimismo, establecerÃ¡ una reserva de plazas para el alumnado con discapacidad en las enseÃ±anzas de FormaciÃ³n Profesional.
+6. La Consejería competente en materia de educación establecerá las condiciones de escolarización del alumnado que presenta necesidades educativas especiales en las enseñanzas postobligatorias. Asimismo, establecerá una reserva de plazas para el alumnado con discapacidad en las enseñanzas de Formación Profesional.
 
-7. La ConsejerÃ­a competente en materia de educaciÃ³n favorecerÃ¡ la incorporaciÃ³n al sistema educativo del alumnado que, por proceder de otros paÃ­ses o por cualquier otro motivo, se incorpore de forma tardÃ­a al sistema educativo. Dicha incorporaciÃ³n se garantizarÃ¡, en todo caso, en la edad de escolarizaciÃ³n obligatoria. Esta escolarizaciÃ³n se realizarÃ¡ atendiendo a sus circunstancias, conocimientos, edad e historial acadÃ©mico, asÃ­ como a lo establecido en la normativa autonÃ³mica de cada etapa educativa.
+7. La Consejería competente en materia de educación favorecerá la incorporación al sistema educativo del alumnado que, por proceder de otros países o por cualquier otro motivo, se incorpore de forma tardía al sistema educativo. Dicha incorporación se garantizará, en todo caso, en la edad de escolarización obligatoria. Esta escolarización se realizará atendiendo a sus circunstancias, conocimientos, edad e historial académico, así como a lo establecido en la normativa autonómica de cada etapa educativa.
 
-ArtÃ­culo 15.- Permanencia en las distintas etapas educativas.
+Artículo 15.- Permanencia en las distintas etapas educativas.
 
-1. Con carÃ¡cter excepcional, el alumnado con necesidades educativas especiales podrÃ¡ permanecer un aÃ±o mÃ¡s en el segundo ciclo de la etapa de la EducaciÃ³n Infantil, tomando en consideraciÃ³n la opiniÃ³n de la familia o de las personas representantes legales del alumnado y con la autorizaciÃ³n previa de la ConsejerÃ­a competente en materia de educaciÃ³n.
+1. Con carácter excepcional, el alumnado con necesidades educativas especiales podrá permanecer un año más en el segundo ciclo de la etapa de la Educación Infantil, tomando en consideración la opinión de la familia o de las personas representantes legales del alumnado y con la autorización previa de la Consejería competente en materia de educación.
 
-2. La escolarizaciÃ³n en centros ordinarios del alumnado con necesidades educativas especiales en la etapa de la EducaciÃ³n Primaria podrÃ¡ prolongarse un aÃ±o mÃ¡s de lo previsto con carÃ¡cter general siempre que ello favorezca su integraciÃ³n socioeducativa, si esta prolongaciÃ³n no se ha realizado en la EducaciÃ³n Infantil. La escolarizaciÃ³n de este alumnado en centros ordinarios en la etapa de la EducaciÃ³n Secundaria Obligatoria podrÃ¡ prolongarse hasta los diecinueve aÃ±os, siempre que ello favorezca la obtenciÃ³n del tÃ­tulo de Graduado en EducaciÃ³n Secundaria Obligatoria.
+2. La escolarización en centros ordinarios del alumnado con necesidades educativas especiales en la etapa de la Educación Primaria podrá prolongarse un año más de lo previsto con carácter general siempre que ello favorezca su integración socioeducativa, si esta prolongación no se ha realizado en la Educación Infantil. La escolarización de este alumnado en centros ordinarios en la etapa de la Educación Secundaria Obligatoria podrá prolongarse hasta los diecinueve años, siempre que ello favorezca la obtención del título de Graduado en Educación Secundaria Obligatoria.
 
-3. La escolarizaciÃ³n en aulas enclave o en centros de educaciÃ³n especial podrÃ¡ prolongarse hasta los veintiÃºn aÃ±os, en las condiciones que la ConsejerÃ­a competente en materia de educaciÃ³n determine.
+3. La escolarización en aulas enclave o en centros de educación especial podrá prolongarse hasta los veintiún años, en las condiciones que la Consejería competente en materia de educación determine.
 
-ArtÃ­culo 16.- Recursos.
+Artículo 16.- Recursos.
 
-1. La ConsejerÃ­a competente en materia de educaciÃ³n proporcionarÃ¡ a los centros sostenidos con fondos pÃºblicos, los recursos materiales y el personal especialista necesario para favorecer y cooperar en la puesta en prÃ¡ctica de actuaciones inclusivas que den respuesta a la diversidad de su alumnado, estableciendo las normas de funcionamiento y utilizaciÃ³n.
+1. La Consejería competente en materia de educación proporcionará a los centros sostenidos con fondos públicos, los recursos materiales y el personal especialista necesario para favorecer y cooperar en la puesta en práctica de actuaciones inclusivas que den respuesta a la diversidad de su alumnado, estableciendo las normas de funcionamiento y utilización.
 
-2. La ConsejerÃ­a competente en materia de educaciÃ³n podrÃ¡ establecer criterios diferenciados en la planificaciÃ³n, organizaciÃ³n y dotaciÃ³n de recursos especÃ­ficos en centros y zonas educativas determinadas para garantizar la atenciÃ³n al alumnado con necesidades educativas especiales que no puedan ser atendidas con los medios ordinarios, de forma que se permita una mejora en su racionalizaciÃ³n y eficiencia.
+2. La Consejería competente en materia de educación podrá establecer criterios diferenciados en la planificación, organización y dotación de recursos específicos en centros y zonas educativas determinadas para garantizar la atención al alumnado con necesidades educativas especiales que no puedan ser atendidas con los medios ordinarios, de forma que se permita una mejora en su racionalización y eficiencia.
 
-3. Se consideran recursos personales especializados el profesorado de apoyo a las necesidades especÃ­ficas de apoyo educativo, el profesorado especialista en audiciÃ³n y lenguaje o logopedia, los profesionales de orientaciÃ³n educativa y psicopedagÃ³gica, y otros que, por sus competencias y funciones, puedan ser necesarios para ofrecer una adecuada respuesta al alumnado.
+3. Se consideran recursos personales especializados el profesorado de apoyo a las necesidades específicas de apoyo educativo, el profesorado especialista en audición y lenguaje o logopedia, los profesionales de orientación educativa y psicopedagógica, y otros que, por sus competencias y funciones, puedan ser necesarios para ofrecer una adecuada respuesta al alumnado.
 
-4. La ConsejerÃ­a competente en materia de educaciÃ³n garantizarÃ¡ al alumnado con necesidades educativas especiales que participe en las enseÃ±anzas de Bachillerato, FormaciÃ³n Profesional, en las EnseÃ±anzas ArtÃ­sticas que se determinen y en los ciclos formativos de FormaciÃ³n Profesional BÃ¡sica, o en aquellas otras que las sustituyan, la disposiciÃ³n de los recursos de apoyo personales especializados o de ayudas tÃ©cnicas concretas para el acceso al currÃ­culo que, con carÃ¡cter general, se prevea para este alumnado en la enseÃ±anza obligatoria.
+4. La Consejería competente en materia de educación garantizará al alumnado con necesidades educativas especiales que participe en las enseñanzas de Bachillerato, Formación Profesional, en las Enseñanzas Artísticas que se determinen y en los ciclos formativos de Formación Profesional Básica, o en aquellas otras que las sustituyan, la disposición de los recursos de apoyo personales especializados o de ayudas técnicas concretas para el acceso al currículo que, con carácter general, se prevea para este alumnado en la enseñanza obligatoria.
 
-ArtÃ­culo 17.- Medidas para favorecer la continuidad escolar.
+Artículo 17.- Medidas para favorecer la continuidad escolar.
 
-1. La ConsejerÃ­a competente en materia de educaciÃ³n promoverÃ¡ las actuaciones necesarias para proporcionar atenciÃ³n educativa al alumnado del segundo ciclo de la EducaciÃ³n Infantil y de la enseÃ±anza bÃ¡sica con internamiento hospitalario o permanencia prolongada en el domicilio, de manera que se posibilite la continuaciÃ³n de los procesos educativos en situaciÃ³n de enfermedad.
+1. La Consejería competente en materia de educación promoverá las actuaciones necesarias para proporcionar atención educativa al alumnado del segundo ciclo de la Educación Infantil y de la enseñanza básica con internamiento hospitalario o permanencia prolongada en el domicilio, de manera que se posibilite la continuación de los procesos educativos en situación de enfermedad.
 
-2. PodrÃ¡ recibir la atenciÃ³n prevista en este Decreto en el centro en el que estÃ© internado, el alumnado objeto del mismo que se encuentre escolarizado en la educaciÃ³n obligatoria y que, en cumplimiento de una medida judicial en el Ã¡mbito penal, no pueda asistir a un centro educativo.
+2. Podrá recibir la atención prevista en este Decreto en el centro en el que esté internado, el alumnado objeto del mismo que se encuentre escolarizado en la educación obligatoria y que, en cumplimiento de una medida judicial en el ámbito penal, no pueda asistir a un centro educativo.
 
-3. Las ConsejerÃ­as competentes en materia educativa y sanitaria establecerÃ¡n acuerdos para garantizar la atenciÃ³n a las necesidades que en el Ã¡mbito de la salud y el bienestar pueda presentar el alumnado durante su permanencia en el centro docente.
+3. Las Consejerías competentes en materia educativa y sanitaria establecerán acuerdos para garantizar la atención a las necesidades que en el ámbito de la salud y el bienestar pueda presentar el alumnado durante su permanencia en el centro docente.
 
-4. En los tÃ©rminos establecidos en la Ley 8/1995, de 6 de abril, de accesibilidad y supresiÃ³n de barreras fÃ­sicas y de la comunicaciÃ³n, asÃ­ como en el Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que aprueba el Texto Refundido de la Ley General de derecho de las personas con discapacidad y de su inclusiÃ³n social, se promoverÃ¡ las actuaciones necesarias para la supresiÃ³n de las barreras fÃ­sicas y de la comunicaciÃ³n en sus centros y servicios, potenciando las actuaciones que favorezcan la plena accesibilidad a los espacios, la usabilidad y accesibilidad a las nuevas tecnologÃ­as y el empleo de cuantos recursos tecnolÃ³gicos faciliten la supresiÃ³n de barreras fÃ­sicas y de la comunicaciÃ³n.
+4. En los términos establecidos en la Ley 8/1995, de 6 de abril, de accesibilidad y supresión de barreras físicas y de la comunicación, así como en el Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que aprueba el Texto Refundido de la Ley General de derecho de las personas con discapacidad y de su inclusión social, se promoverá las actuaciones necesarias para la supresión de las barreras físicas y de la comunicación en sus centros y servicios, potenciando las actuaciones que favorezcan la plena accesibilidad a los espacios, la usabilidad y accesibilidad a las nuevas tecnologías y el empleo de cuantos recursos tecnológicos faciliten la supresión de barreras físicas y de la comunicación.
 
-ArtÃ­culo 18.- Adaptaciones curriculares.
+Artículo 18.- Adaptaciones curriculares.
 
-1. La adaptaciÃ³n curricular de un Ã¡rea o materia es una medida extraordinaria para dar respuesta a las necesidades del alumnado. En la medida de lo posible y como garantÃ­a de inclusiÃ³n, el profesorado ha de mantener un marco de aprendizaje comÃºn en el que se permita y fomente la participaciÃ³n de todo el alumnado en las actividades programadas para su grupo de referencia.
+1. La adaptación curricular de un área o materia es una medida extraordinaria para dar respuesta a las necesidades del alumnado. En la medida de lo posible y como garantía de inclusión, el profesorado ha de mantener un marco de aprendizaje común en el que se permita y fomente la participación de todo el alumnado en las actividades programadas para su grupo de referencia.
 
-2. Las adaptaciones curriculares comportan la adecuaciÃ³n de los mÃ©todos, procedimientos y recursos, dependiendo del tipo de necesidad que pueda presentar el alumnado. En aquellas ocasiones en las que el currÃ­culo ordinario no responda a las necesidades de los mismos, se podrÃ¡n establecer diversas estrategias que pueden consistir en la adecuaciÃ³n, ampliaciÃ³n, modificaciÃ³n o eliminaciÃ³n de determinados elementos prescriptivos del currÃ­culo, partiendo de las situaciones de aprendizaje propuestas para el grupo clase del alumno o la alumna.
+2. Las adaptaciones curriculares comportan la adecuación de los métodos, procedimientos y recursos, dependiendo del tipo de necesidad que pueda presentar el alumnado. En aquellas ocasiones en las que el currículo ordinario no responda a las necesidades de los mismos, se podrán establecer diversas estrategias que pueden consistir en la adecuación, ampliación, modificación o eliminación de determinados elementos prescriptivos del currículo, partiendo de las situaciones de aprendizaje propuestas para el grupo clase del alumno o la alumna.
 
-3. Las adaptaciones curriculares han de ser propuestas en los correspondientes informes psicopedagÃ³gicos elaborados por los equipos de orientaciÃ³n de los centros educativos. Para su elaboraciÃ³n se partirÃ¡ de las recomendaciones recogidas en el correspondiente informe, fruto de las conclusiones alcanzadas tras el proceso de valoraciÃ³n.
+3. Las adaptaciones curriculares han de ser propuestas en los correspondientes informes psicopedagógicos elaborados por los equipos de orientación de los centros educativos. Para su elaboración se partirá de las recomendaciones recogidas en el correspondiente informe, fruto de las conclusiones alcanzadas tras el proceso de valoración.
 
-4. La ConsejerÃ­a competente en materia de educaciÃ³n establecerÃ¡ los requisitos y procedimientos necesarios para la realizaciÃ³n, el desarrollo y la evaluaciÃ³n de las adaptaciones curriculares del alumnado con NEE que se apartan de manera significativa del currÃ­culo o que requiera adaptaciÃ³n en el acceso, para las adaptaciones curriculares del alumnado con NEAE y las destinadas al alumnado con NEAE que presenta altas capacidades intelectuales.
+4. La Consejería competente en materia de educación establecerá los requisitos y procedimientos necesarios para la realización, el desarrollo y la evaluación de las adaptaciones curriculares del alumnado con NEE que se apartan de manera significativa del currículo o que requiera adaptación en el acceso, para las adaptaciones curriculares del alumnado con NEAE y las destinadas al alumnado con NEAE que presenta altas capacidades intelectuales.
 
-5. El alumnado escolarizado en aulas enclave o centros de educaciÃ³n especial dispondrÃ¡ de una concreciÃ³n curricular adaptada para la EducaciÃ³n Infantil y la EducaciÃ³n Primaria, o de una propuesta curricular para el TrÃ¡nsito a la Vida Adulta en el caso de la EducaciÃ³n Secundaria, que servirÃ¡ de base para la realizaciÃ³n y el desarrollo de su propia adaptaciÃ³n.
+5. El alumnado escolarizado en aulas enclave o centros de educación especial dispondrá de una concreción curricular adaptada para la Educación Infantil y la Educación Primaria, o de una propuesta curricular para el Tránsito a la Vida Adulta en el caso de la Educación Secundaria, que servirá de base para la realización y el desarrollo de su propia adaptación.
 
-6. Se potenciarÃ¡ el uso de las nuevas tecnologÃ­as y de aplicaciones informÃ¡ticas por parte del profesorado y del personal especialista para la programaciÃ³n de su prÃ¡ctica docente, de manera que se utilicen estas aplicaciones para la concreciÃ³n y el desarrollo de la programaciÃ³n de las Ã¡reas o materias objeto de adaptaciÃ³n, tomando como punto de partida las situaciones de aprendizaje propuestas para el grupo de referencia.
+6. Se potenciará el uso de las nuevas tecnologías y de aplicaciones informáticas por parte del profesorado y del personal especialista para la programación de su práctica docente, de manera que se utilicen estas aplicaciones para la concreción y el desarrollo de la programación de las áreas o materias objeto de adaptación, tomando como punto de partida las situaciones de aprendizaje propuestas para el grupo de referencia.
 
-DisposiciÃ³n adicional primera.- De la financiaciÃ³n.
+Disposición adicional primera.- De la financiación.
 
-Las actuaciones y los programas previstos en este Decreto se financiarÃ¡n con cargo a los crÃ©ditos ordinarios del presupuesto de la Comunidad AutÃ³noma de Canarias, asÃ­ como con fondos procedentes de entidades pÃºblicas o privadas que contribuyan a tal fin, en los tÃ©rminos de los convenios y acuerdos que se suscriban con la ConsejerÃ­a competente en materia de educaciÃ³n.
+Las actuaciones y los programas previstos en este Decreto se financiarán con cargo a los créditos ordinarios del presupuesto de la Comunidad Autónoma de Canarias, así como con fondos procedentes de entidades públicas o privadas que contribuyan a tal fin, en los términos de los convenios y acuerdos que se suscriban con la Consejería competente en materia de educación.
 
-DisposiciÃ³n adicional segunda.- De los convenios y acuerdos de colaboraciÃ³n.
+Disposición adicional segunda.- De los convenios y acuerdos de colaboración.
 
-La ConsejerÃ­a competente en materia de educaciÃ³n, dada la especificidad de algunos de los recursos que precisa la atenciÃ³n al alumnado con necesidades especÃ­ficas de apoyo educativo, promoverÃ¡ cuantas acciones, convenios y acuerdos de colaboraciÃ³n considere necesarios con las distintas ConsejerÃ­as, Administraciones pÃºblicas y otras organizaciones, instituciones y entidades, pÃºblicas o privadas, con el fin de garantizar una respuesta coordinada e integral.
+La Consejería competente en materia de educación, dada la especificidad de algunos de los recursos que precisa la atención al alumnado con necesidades específicas de apoyo educativo, promoverá cuantas acciones, convenios y acuerdos de colaboración considere necesarios con las distintas Consejerías, Administraciones públicas y otras organizaciones, instituciones y entidades, públicas o privadas, con el fin de garantizar una respuesta coordinada e integral.
 
-DisposiciÃ³n adicional tercera.- Otras medidas de atenciÃ³n educativa fuera del contexto escolar.
+Disposición adicional tercera.- Otras medidas de atención educativa fuera del contexto escolar.
 
-La ConsejerÃ­a competente en materia de educaciÃ³n podrÃ¡ establecer, de forma excepcional y con carÃ¡cter temporal, otras medidas de atenciÃ³n educativa fuera del contexto escolar para el alumnado que lo requiera, impulsando una estrecha colaboraciÃ³n con sus familias o las personas representantes legales del alumnado y con los servicios educativos, sanitarios y sociales de promociÃ³n de la autonomÃ­a personal y de atenciÃ³n a la dependencia de su entorno mÃ¡s prÃ³ximo.
+La Consejería competente en materia de educación podrá establecer, de forma excepcional y con carácter temporal, otras medidas de atención educativa fuera del contexto escolar para el alumnado que lo requiera, impulsando una estrecha colaboración con sus familias o las personas representantes legales del alumnado y con los servicios educativos, sanitarios y sociales de promoción de la autonomía personal y de atención a la dependencia de su entorno más próximo.
 
-DisposiciÃ³n adicional cuarta.- De las personas adultas.
+Disposición adicional cuarta.- De las personas adultas.
 
-La educaciÃ³n de las personas adultas con necesidades especÃ­ficas de apoyo educativo se contemplarÃ¡ dentro de la planificaciÃ³n educativa de la ConsejerÃ­a competente en materia de educaciÃ³n, contando para ello con las aportaciones de las organizaciones que les representen, asÃ­ como con las de sus padres y madres o personas representantes legales del alumnado, en su caso.
+La educación de las personas adultas con necesidades específicas de apoyo educativo se contemplará dentro de la planificación educativa de la Consejería competente en materia de educación, contando para ello con las aportaciones de las organizaciones que les representen, así como con las de sus padres y madres o personas representantes legales del alumnado, en su caso.
 
-DisposiciÃ³n transitoria primera.- Del acceso a las universidades.
+Disposición transitoria primera.- Del acceso a las universidades.
 
-Hasta la entrada en vigor de la normativa resultante del Pacto de Estado social y polÃ­tico por la educaciÃ³n, en la evaluaciÃ³n de bachillerato para el acceso a la Universidad regulada en la Ley OrgÃ¡nica 8/2013, de 9 de diciembre, para la Mejora de la Calidad Educativa, se velarÃ¡ por la adopciÃ³n de las medidas necesarias para asegurar la igualdad de oportunidades, no discriminaciÃ³n y accesibilidad universal del alumnado con necesidades especÃ­ficas de apoyo educativo.
+Hasta la entrada en vigor de la normativa resultante del Pacto de Estado social y político por la educación, en la evaluación de bachillerato para el acceso a la Universidad regulada en la Ley Orgánica 8/2013, de 9 de diciembre, para la Mejora de la Calidad Educativa, se velará por la adopción de las medidas necesarias para asegurar la igualdad de oportunidades, no discriminación y accesibilidad universal del alumnado con necesidades específicas de apoyo educativo.
 
-DisposiciÃ³n transitoria segunda.- Vigencia de la normativa que regula la atenciÃ³n al alumnado con necesidades especÃ­ficas de apoyo educativo.
+Disposición transitoria segunda.- Vigencia de la normativa que regula la atención al alumnado con necesidades específicas de apoyo educativo.
 
-Mientras no se dicten normas que desarrollen este Decreto, mantienen su vigencia, la Orden de 13 de diciembre de 2010, por la que se regula la atenciÃ³n al alumnado con necesidades especÃ­ficas de apoyo educativo en la Comunidad AutÃ³noma de Canarias (BOC nÂº 250, de 22 de diciembre), y la ResoluciÃ³n de 9 de febrero de 2011, por la que se dictan instrucciones sobre los procedimientos y los plazos para la atenciÃ³n educativa del alumnado con necesidades especÃ­ficas de apoyo educativo en los centros escolares de la Comunidad AutÃ³noma de Canarias (BOC nÂº 40, de 24 de febrero), asÃ­ como aquellas otras que tengan relaciÃ³n con el contenido de este Decreto, en tanto no contradigan lo establecido en el mismo.
+Mientras no se dicten normas que desarrollen este Decreto, mantienen su vigencia, la Orden de 13 de diciembre de 2010, por la que se regula la atención al alumnado con necesidades específicas de apoyo educativo en la Comunidad Autónoma de Canarias (BOC nº 250, de 22 de diciembre), y la Resolución de 9 de febrero de 2011, por la que se dictan instrucciones sobre los procedimientos y los plazos para la atención educativa del alumnado con necesidades específicas de apoyo educativo en los centros escolares de la Comunidad Autónoma de Canarias (BOC nº 40, de 24 de febrero), así como aquellas otras que tengan relación con el contenido de este Decreto, en tanto no contradigan lo establecido en el mismo.
 
-DisposiciÃ³n derogatoria Ãºnica.- DerogaciÃ³n normativa.
+Disposición derogatoria única.- Derogación normativa.
 
-Se deroga el Decreto 104/2010, de 29 de julio, por el que se regula la atenciÃ³n a la diversidad del alumnado en el Ã¡mbito de la enseÃ±anza no universitaria de Canarias.
+Se deroga el Decreto 104/2010, de 29 de julio, por el que se regula la atención a la diversidad del alumnado en el ámbito de la enseñanza no universitaria de Canarias.
 
-DisposiciÃ³n final primera.- Desarrollo reglamentario.
+Disposición final primera.- Desarrollo reglamentario.
 
-Las ConsejerÃ­as competentes en materia de educaciÃ³n, de sanidad y de polÃ­ticas sociales dictarÃ¡n, en el Ã¡mbito de sus competencias, cuantas disposiciones sean precisas para la ejecuciÃ³n y el desarrollo de lo previsto en este Decreto.
+Las Consejerías competentes en materia de educación, de sanidad y de políticas sociales dictarán, en el ámbito de sus competencias, cuantas disposiciones sean precisas para la ejecución y el desarrollo de lo previsto en este Decreto.
 
-DisposiciÃ³n final segunda.- Plan EstratÃ©gico de AtenciÃ³n a la Diversidad.
+Disposición final segunda.- Plan Estratégico de Atención a la Diversidad.
 
-Corresponde a la ConsejerÃ­a competente en materia de educaciÃ³n aprobar, de conformidad con lo establecido en la Ley 6/2014, de 25 de julio, Canaria de EducaciÃ³n no Universitaria, el Plan EstratÃ©gico de AtenciÃ³n a la Diversidad.
+Corresponde a la Consejería competente en materia de educación aprobar, de conformidad con lo establecido en la Ley 6/2014, de 25 de julio, Canaria de Educación no Universitaria, el Plan Estratégico de Atención a la Diversidad.
 
-DisposiciÃ³n final tercera.- Entrada en vigor.
+Disposición final tercera.- Entrada en vigor.
 
-El presente Decreto entrarÃ¡ en vigor el dÃ­a siguiente al de su publicaciÃ³n en el BoletÃ­n Oficial de Canarias.
+El presente Decreto entrará en vigor el día siguiente al de su publicación en el Boletín Oficial de Canarias.
 
 Dado en Las Palmas de Gran Canaria, a 26 de febrero de 2018.
 
@@ -393,11 +393,11 @@ DEL GOBIERNO,
 
 Fernando Clavijo Batlle.
 
-LA CONSEJERA DE EDUCACIÃN
+LA CONSEJERA DE EDUCACIÓN
 
 Y UNIVERSIDADES,
 
-Soledad MonzÃ³n Cabrera.
+Soledad Monzón Cabrera.
 
 © Gobierno de Canarias
 

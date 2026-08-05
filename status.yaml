@@ -1206,6 +1206,21 @@ tareas:
     - TAREA-072
     siguiente_accion: "Re-extraer las competencias de CUR-001 desde el Decreto 30/2023, empezando por C3 y C5."
 
+  TAREA-074:
+    titulo: "Reparar el doble encodeo de las copias locales de texto oficial"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "corpus-ia"
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - NOR-043
+    - NOR-047
+    - PREG-008
+    - TAREA-072
+    siguiente_accion: null
+
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.

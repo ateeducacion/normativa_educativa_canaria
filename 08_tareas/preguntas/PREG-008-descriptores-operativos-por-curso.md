@@ -3,7 +3,7 @@ id: PREG-008
 titulo: "Los descriptores operativos varían por curso y el modelo de ficha curricular no lo representa"
 estado: "Abierta"
 fecha_registro: 2026-08-05
-relacionadas: [CUR-001, CUR-009, DEC-0004, DEC-0007, TAREA-066, TAREA-067, TAREA-068, TAREA-069, TAREA-071, TAREA-072]
+relacionadas: [CUR-001, CUR-009, DEC-0004, DEC-0007, TAREA-066, TAREA-067, TAREA-068, TAREA-069, TAREA-071, TAREA-072, TAREA-074]
 ---
 
 # PREG-008 — Los descriptores operativos varían por curso
@@ -104,4 +104,37 @@ Lo que esto cambia respecto al planteamiento inicial de esta pregunta:
 
 Con esto, la decisión sobre el punto 2 de esta pregunta —qué hacer con las fichas ya marcadas
 `completado`— puede tomarse por ficha en lugar de en bloque.
+
+## Un quinto problema: la `descripcion` de las fichas parciales no es el enunciado oficial
+
+Al extender la comprobación a las 32 fichas en `estado_extraccion: parcial` —201 competencias—
+se ve que su campo `descripcion` **no reproduce el texto del decreto**. Caso verificado,
+`CUR-037` competencia 1:
+
+- Ficha: «Adoptar un estilo de vida activo y saludable, incorporando actividades físicas y
+  deportivas en las rutinas diarias para mejorar la calidad de vida.»
+- Decreto: «Adoptar un estilo de vida activo y saludable, seleccionando e incorporando
+  intencionalmente…»
+
+Arranca con la redacción oficial y a partir de ahí resume. Reparto aproximado:
+
+| | Competencias |
+| --- | ---: |
+| Literales (coinciden 12 palabras o más) | 9 |
+| Empiezan literales y luego resumen | 29 |
+| Solo coincide el arranque | 52 |
+| Sin coincidencia localizada | 111 |
+
+La cifra exacta depende del método y es menos fiable en Primaria e Infantil, cuyos decretos
+tienen otra estructura y donde no se ha localizado el bloque competencial. Pero el hecho
+cualitativo está verificado: **`descripcion` es un resumen, no el enunciado oficial**.
+
+Esto no es un defecto nuevo, sino la otra cara de que estas fichas sean parciales. Importa
+porque un sistema RAG que cite una de ellas estaría citando una paráfrasis como si fuera el
+texto de la norma. `DEC-0004` exige la redacción oficial.
+
+Consecuencia para `TAREA-066` a `TAREA-069`: cuando se desbloqueen, no basta con añadir los
+descriptores operativos. Hay que **sustituir también `descripcion` por el enunciado literal**,
+y previsiblemente renombrar el campo a `enunciado_oficial` para alinearlo con las fichas
+completas.
 
