@@ -8,11 +8,17 @@ autoridad: "Comunidad Autónoma de Canarias - Consejería de Educación"
 fecha_disposicion: 2003-12-03
 fecha_publicacion: 2003-12-22
 fecha_entrada_vigor: 2003-12-23
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-015
 url_oficial: "https://www.gobiernodecanarias.org/boc/2003/248/001.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2003/248/001.html"
+  url_pdf: "https://www.gobiernodecanarias.org/boc/2003/248/boc-2003-248-001.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-016-orden-03-12-2003-evaluacion-fp.txt"
 etapas_afectadas: [formacion-profesional]
 temas: [formacion-profesional, evaluacion, ensenanzas-especificas]
 relaciones:

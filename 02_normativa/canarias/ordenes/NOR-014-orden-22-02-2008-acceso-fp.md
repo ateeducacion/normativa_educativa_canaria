@@ -8,11 +8,17 @@ autoridad: "Comunidad Autónoma de Canarias - Consejería de Educación"
 fecha_disposicion: 2008-02-22
 fecha_publicacion: 2008-03-17
 fecha_entrada_vigor: 2008-03-18
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente (con aplicaciones anuales)"
 fuente_principal: FTE-015
-url_oficial: "http://www.gobiernodecanarias.org/boc/2008/055/001.html"
+url_oficial: "https://www.gobiernodecanarias.org/boc/2008/055/001.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2008/055/001.html"
+  url_pdf: "https://www.gobiernodecanarias.org/boc/2008/055/boc-2008-055-001.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-014-orden-22-02-2008-acceso-fp.txt"
 etapas_afectadas: [formacion-profesional, ensenanzas-deportivas]
 temas: [formacion-profesional, acceso, ensenanzas-deportivas]
 relaciones:
@@ -81,4 +87,4 @@ Orden de 2008 que establece cómo acceder a la FP en Canarias. Distingue entre a
 
 ## 11. Fuentes
 
-- [BOC 2008/055](http://www.gobiernodecanarias.org/boc/2008/055/001.html)
+- [BOC 2008/055](https://www.gobiernodecanarias.org/boc/2008/055/001.html)

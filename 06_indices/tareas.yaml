@@ -1455,7 +1455,7 @@ TAREA-083:
 
 TAREA-084:
   titulo: "Re-exportar las trece copias locales que contienen una norma distinta de la que declaran"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Crítica"
   tipo: "corpus-ia"
   responsable: '@.agents/skills/preparacion-corpus-ia'

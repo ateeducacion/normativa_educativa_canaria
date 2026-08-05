@@ -1,14 +1,15 @@
 ---
 id: TAREA-084
 titulo: "Re-exportar las trece copias locales que contienen una norma distinta de la que declaran"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Crítica"
 tipo: "corpus-ia"
 responsable: "@.agents/skills/preparacion-corpus-ia"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
-relacionadas: [NOR-044, NOR-028, NOR-050, NOR-060, TAREA-074, TAREA-077, TAREA-081]
-siguiente_accion: "Localizar en el BOC/BOE las cinco disposiciones que la búsqueda automática no resuelve: NOR-017, NOR-018, NOR-019, NOR-050 y NOR-060."
+fecha_cierre: 2026-08-05
+relacionadas: [NOR-044, NOR-028, NOR-050, NOR-060, TAREA-074, TAREA-077, TAREA-081, TAREA-085, PREG-010, PREG-011, PREG-012]
+siguiente_accion: null
 ---
 
 # TAREA-084 — Copias locales con contenido equivocado
@@ -135,3 +136,57 @@ Cinco copias que la búsqueda automática no resuelve, y que necesitan localizac
 | `NOR-050` | No aparece en el boletín declarado |
 | `NOR-019` | La URL del BOE es de otra norma: apunta a una resolución de la Diputación de Almería |
 | `NOR-060` | La URL del BOE tampoco corresponde al RD 1074/2012 |
+
+## Cierre (2026-08-05)
+
+### Las trece
+
+Diez sustituidas desde su fuente oficial. Las otras tres **no eran un problema de exportación**:
+las normas que declaran no existen. Se escalan a `TAREA-085` con `PREG-010`, `PREG-011` y
+`PREG-012`.
+
+| Estado | Fichas |
+| --- | --- |
+| Re-exportadas desde el PDF firmado del BOC | `NOR-011`, `NOR-012`, `NOR-013`, `NOR-023`, `NOR-028`, `NOR-034`, `NOR-035`, `NOR-044` |
+| Re-exportadas desde el BOE con el identificador corregido | `NOR-019`, `NOR-060` |
+| Escaladas: la norma no se localiza | `NOR-017`, `NOR-018`, `NOR-050` |
+
+Dos mecanismos distintos, que conviene no confundir:
+
+- **En el BOC**, la URL terminaba en la posición de la disposición dentro del boletín, casi
+  siempre dejada en `001`. Se llevaba la primera disposición del boletín, fuera cual fuese.
+- **En el BOE**, el identificador `BOE-A-` era directamente otro. La copia contenía exactamente
+  la disposición de ese identificador falso, así que el error estaba en la ficha, no en la
+  exportación. La advertencia que pusimos el 2026-08-05 decía «la cabecera es correcta»: valía
+  para las once del BOC, no para estas dos.
+
+### Los anexos accesorios
+
+Cinco de las seis copias con anexos ausentes quedan completas al extraerlas del PDF:
+
+| Ficha | Antes | Después |
+| --- | ---: | ---: |
+| `NOR-025` (Orden NEAE 2010) | 750 | 1.729 |
+| `NOR-026` (Resolución NEAE 2011) | 742 | 1.689 |
+| `NOR-014` | 544 | 722 |
+| `NOR-037` | 382 | 459 |
+| `NOR-016` | 224 | 266 |
+
+Que `NOR-025` y `NOR-026` se completen importa especialmente: con `NOR-050` en cuarentena, son el
+marco procedimental NEAE que hay que dar por vigente.
+
+**`NOR-015` no se puede completar.** El PDF del BOC 2000/148 son 19 páginas escaneadas sin capa
+de texto: `pdftotext` no extrae nada. La copia sigue procediendo del HTML, que omite los anexos
+publicados como imagen. Recuperarlos exigiría OCR, y un texto normativo transcrito por OCR
+introduce errores que no compensan. Queda anotado en la cabecera de la propia copia.
+
+### Herramienta
+
+`11_calidad/reexportar_texto_oficial.py` cubre los tres marcados de sumario que el BOC ha usado
+desde 2006, los dos esquemas de URL, la búsqueda por archivo cuando el boletín declarado es el
+equivocado y la sincronización del índice. Su modo `--auditar` contrasta la `url_oficial` de cada
+ficha `NOR` contra el sumario de su boletín: es lo que descubrió las tres normas inexistentes y
+tres enlaces más que apuntaban a otra disposición (`NOR-042`, `NOR-045`, `NOR-023`).
+
+Con eso, de las 40 fichas `NOR` con URL de disposición del BOC, **37 contrastan correctamente** y
+las 3 restantes son las de `TAREA-085`.

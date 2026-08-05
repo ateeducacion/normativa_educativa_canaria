@@ -8,11 +8,17 @@ autoridad: "Gobierno de Canarias"
 fecha_disposicion: 2007-06-07
 fecha_publicacion: 2007-06-21
 fecha_entrada_vigor: 2007-06-22
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente (complementada por Decreto 25/2018)"
 fuente_principal: FTE-040
 url_oficial: "https://www.gobiernodecanarias.org/boc/2007/124/001.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2007/124/001.html"
+  url_pdf: "https://www.gobiernodecanarias.org/boc/2007/124/boc-2007-124-001.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-037-orden-7-junio-2007-diversidad.txt"
 etapas_afectadas: [primaria, eso]
 temas: [diversidad, inclusion, eso, primaria]
 relaciones:

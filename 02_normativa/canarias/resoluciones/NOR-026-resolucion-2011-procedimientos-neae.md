@@ -8,11 +8,17 @@ autoridad: "Dirección General de Ordenación, Innovación y Promoción Educativ
 fecha_disposicion: 2011-02-09
 fecha_publicacion: 2011-02-24
 fecha_entrada_vigor: 2011-02-25
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente hasta desarrollo del Decreto 25/2018"
 fuente_principal: FTE-029
 url_oficial: "https://www.gobiernodecanarias.org/boc/2011/040/005.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2011/040/005.html"
+  url_pdf: "https://sede.gobiernodecanarias.org/boc/boc-a-2011-040-910.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-026-resolucion-2011-procedimientos-neae.txt"
 etapas_afectadas: [infantil, primaria, eso, bachillerato]
 temas: [neae, procedimientos, plazos, adaptaciones-curriculares, atencion-domiciliaria]
 relaciones:

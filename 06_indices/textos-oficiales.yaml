@@ -862,19 +862,19 @@ normativa:
     titulo: Orden de 22 de febrero de 2008, por la que se regula el acceso a la formación profesional del sistema educativo y a las enseñanzas deportivas de régimen especial
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-014-orden-22-02-2008-acceso-fp.md
     fuente_principal: FTE-015
-    fecha_consulta: 2026-04-26
+    fecha_consulta: 2026-08-05
     estado_vigencia: Vigente (con aplicaciones anuales)
     estado_acceso: con-copia-local
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional/
-      url_pdf: null
+      url_html: https://www.gobiernodecanarias.org/boc/2008/055/001.html
+      url_pdf: https://www.gobiernodecanarias.org/boc/2008/055/boc-2008-055-001.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
       ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-014-orden-22-02-2008-acceso-fp.txt
-      sha256: ef4f140246254511ca7ac8dd653993fd09f23ed79a7c41607e1236722aa217f2
-      url_origen: http://www.gobiernodecanarias.org/boc/2008/055/001.html
-      fecha_exportacion: '2026-04-27'
+      sha256: 14802af4b0c7e83fef4bf41061c6cc81871f02f084da4e3ffbd2227ee0fed5b5
+      url_origen: https://www.gobiernodecanarias.org/boc/2008/055/001.html
+      fecha_exportacion: '2026-08-05'
   NOR-015:
     titulo: Orden de 20 de octubre de 2000, por la que se regulan los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-015-orden-20-10-2000-evaluacion-fp.md
@@ -896,19 +896,19 @@ normativa:
     titulo: Orden de 3 de diciembre de 2003, por la que se modifica y amplía la Orden de 20 de octubre de 2000, que regula los procesos de evaluación de las enseñanzas de la Formación Profesional Específica en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-016-orden-03-12-2003-evaluacion-fp.md
     fuente_principal: FTE-015
-    fecha_consulta: 2026-04-26
+    fecha_consulta: 2026-08-05
     estado_vigencia: Vigente
     estado_acceso: con-copia-local
     enlaces:
-      url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/ensenanzas/formacion-profesional/
-      url_pdf: null
+      url_html: https://www.gobiernodecanarias.org/boc/2003/248/001.html
+      url_pdf: https://www.gobiernodecanarias.org/boc/2003/248/boc-2003-248-001.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
       ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-016-orden-03-12-2003-evaluacion-fp.txt
-      sha256: 648a985cbc7362fe36b046fe7b239211afa2c36f187cf11ec53677f53fe17f49
+      sha256: 32dec4da7933771f3036b9dfea3f66918169686e311194dabc9d956d75cc7b14
       url_origen: https://www.gobiernodecanarias.org/boc/2003/248/001.html
-      fecha_exportacion: '2026-04-27'
+      fecha_exportacion: '2026-08-05'
   NOR-017:
     titulo: Orden de 28 de julio de 2014, por la que se regula la organización y funcionamiento de las Escuelas Infantiles
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-017-orden-28-julio-2014-infantil.md
@@ -1049,36 +1049,36 @@ normativa:
     titulo: Orden de 13 de diciembre de 2010, por la que se regula la atención al alumnado con necesidades específicas de apoyo educativo en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-025-orden-13-12-2010-neae.md
     fuente_principal: FTE-028
-    fecha_consulta: 2026-04-26
+    fecha_consulta: 2026-08-05
     estado_vigencia: Superada parcialmente
     estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2010/250/001.html
-      url_pdf: null
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2010-250-7036.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
       ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-025-orden-13-12-2010-neae.txt
-      sha256: 20c56803d26e01a81b1cc9f2f0bf408ff068fe5bf75c0356ee08990078ee4d43
+      sha256: a60bfe35b4a70d2c7392cb2bb75566a32f47f0e85d8a4106fdfc3e041c24dfbd
       url_origen: https://www.gobiernodecanarias.org/boc/2010/250/001.html
-      fecha_exportacion: '2026-04-27'
+      fecha_exportacion: '2026-08-05'
   NOR-026:
     titulo: Resolución de 9 de febrero de 2011, por la que se dictan instrucciones sobre los procedimientos y los plazos para la atención educativa del alumnado con necesidades específicas de apoyo educativo en los centros de la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-026-resolucion-2011-procedimientos-neae.md
     fuente_principal: FTE-029
-    fecha_consulta: 2026-04-26
+    fecha_consulta: 2026-08-05
     estado_vigencia: Superada parcialmente
     estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2011/040/005.html
-      url_pdf: null
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2011-040-910.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
       ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-026-resolucion-2011-procedimientos-neae.txt
-      sha256: 49c71c5bff062b639c72122c5813971fb6bb8d4e24a1d50147e204bfd6326351
+      sha256: 757cd2b957a7b5c9ce81658aa9c28d8aa25dd50d9c65c2f217068361b4006a61
       url_origen: https://www.gobiernodecanarias.org/boc/2011/040/005.html
-      fecha_exportacion: '2026-04-27'
+      fecha_exportacion: '2026-08-05'
   NOR-027:
     titulo: Ley 12/2019, de 25 de abril, por la que se regula la atención temprana en Canarias
     ruta_corpus: 02_normativa/canarias/leyes/NOR-027-ley-12-2019-atencion-temprana.md
@@ -1253,19 +1253,19 @@ normativa:
     titulo: Orden de 7 de junio de 2007, por la que se regulan las medidas de atención a la diversidad en la enseñanza básica en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-037-orden-7-junio-2007-diversidad.md
     fuente_principal: FTE-040
-    fecha_consulta: 2026-04-26
+    fecha_consulta: 2026-08-05
     estado_vigencia: Vigente
     estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2007/124/001.html
-      url_pdf: null
+      url_pdf: https://www.gobiernodecanarias.org/boc/2007/124/boc-2007-124-001.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
       ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-037-orden-7-junio-2007-diversidad.txt
-      sha256: 0274ae6df246761b09bee95ae72a38e9da1e83e3eccbc4bbf06d2d5634f096df
+      sha256: 7b750241e4b60cdb48f905fab273bdc17b56fdc5c37ba9328ae0b8cacc8ed34a
       url_origen: https://www.gobiernodecanarias.org/boc/2007/124/001.html
-      fecha_exportacion: '2026-04-27'
+      fecha_exportacion: '2026-08-05'
   NOR-038:
     titulo: Resolución de 5 de febrero de 2026, por la que se dictan instrucciones sobre el procedimiento de admisión del alumnado en los centros docentes públicos y privados concertados para el curso escolar 2026-2027
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-038-resolucion-admision-26-27.md

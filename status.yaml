@@ -1360,7 +1360,7 @@ tareas:
     siguiente_accion: null
   TAREA-084:
     titulo: Re-exportar las trece copias locales que contienen una norma distinta de la que declaran
-    estado: En progreso
+    estado: Hecha
     prioridad: Crítica
     tipo: corpus-ia
     responsable: '@.agents/skills/preparacion-corpus-ia'

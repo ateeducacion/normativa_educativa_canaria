@@ -5,7 +5,7 @@ URL origen: https://www.gobiernodecanarias.org/boc/2000/148/001.html
 Fecha de consulta: 2026-04-26
 Fecha de exportación local: 2026-04-27
 Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
-Nota de extracción: Texto plano rápido generado desde el HTML oficial del BOC.
+Nota de extracción: Texto plano rápido generado desde el HTML oficial del BOC. [PENDIENTE] (2026-08-05, TAREA-084) No se ha podido re-exportar desde el PDF oficial: el PDF del BOC 2000/148 son 19 páginas escaneadas sin capa de texto, así que pdftotext no extrae nada. Esta copia procede de la versión HTML, que omite los anexos publicados como imagen. Recuperarlos exigiría OCR, que introduciría errores de transcripción en un texto normativo.
 ---
 BOC - 2000/148. Viernes 10 de Noviembre de 2000 - 1496
 

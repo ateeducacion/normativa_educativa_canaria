@@ -8,11 +8,17 @@ autoridad: "Consejería de Educación, Universidades, Cultura y Deportes"
 fecha_disposicion: 2010-12-13
 fecha_publicacion: 2010-12-22
 fecha_entrada_vigor: 2010-12-23
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 estado_vigencia: "Superada parcialmente"
 fuente_principal: FTE-028
 url_oficial: "https://www.gobiernodecanarias.org/boc/2010/250/001.html"
+texto_oficial:
+  url_html: "https://www.gobiernodecanarias.org/boc/2010/250/001.html"
+  url_pdf: "https://sede.gobiernodecanarias.org/boc/boc-a-2010-250-7036.pdf"
+  url_texto_consolidado: ""
+  url_anexo: ""
+  ruta_texto_plano_local: "07_corpus_ia/textos-completos/texto-oficial-NOR-025-orden-13-12-2010-neae.txt"
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
 temas: [neae, nee, adaptaciones-curriculares, evaluacion-psicopedagogica]
 relaciones:
