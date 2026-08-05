@@ -9,7 +9,8 @@
 1. **Interacción:** Interés por comunicarse y responder al entorno.
 2. **Comprensión:** Interpretación de mensajes y representaciones diversas.
 3. **Expresión Creativa:** Producción de mensajes mediante múltiples lenguajes.
-4. **Sensibilidad Artística:** Participación en la cultura literaria y artística.
+4. **Aproximación al lenguaje escrito:** Participación por iniciativa propia en actividades con textos escritos.
+5. **Diversidad lingüística y cultural:** Valoración de la pluralidad lingüística y de otras manifestaciones culturales del entorno.
 
 ## 3. Saberes Básicos (Los 9 Lenguajes)
 - Estrategias comunicativas e intención.

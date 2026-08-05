@@ -376,6 +376,67 @@ def validar_desdoblamientos() -> dict:
     return {"tipo": "DESDOBLAMIENTOS", "ficheros": len(por_norma), "errores": [], "avisos": avisos}
 
 
+GENERICAS = {
+    "de", "la", "el", "los", "las", "por", "que", "se", "y", "en", "del", "al", "a", "con",
+    "para", "un", "una", "sobre", "orden", "decreto", "resolucion", "real", "ley", "articulo",
+    "canarias", "comunidad", "autonoma", "consejeria", "educacion", "gobierno", "boletin",
+    "oficial", "no", "es", "su", "sus", "lo", "como", "mayo", "junio", "julio", "enero",
+    "febrero", "marzo", "abril", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
+}
+
+
+def _significativas(texto: str) -> list[str]:
+    palabras = re.sub(r"[^a-z0-9 ]+", " ", _sin_tildes(texto).lower()).split()
+    return [p for p in palabras if len(p) > 3 and p not in GENERICAS]
+
+
+def _sin_tildes(texto: str) -> str:
+    import unicodedata
+    texto = unicodedata.normalize("NFD", texto)
+    return "".join(c for c in texto if unicodedata.category(c) != "Mn")
+
+
+def validar_correspondencia_textos() -> dict:
+    """Comprueba que cada copia local contiene la norma que declara su cabecera.
+
+    El proceso de exportación original tomó en varios casos el ítem equivocado del
+    sumario del boletín, de modo que la cabecera R16 es correcta —título y URL— pero
+    el cuerpo es otra disposición por completo. Nada lo detectaba: el fichero está
+    bien codificado, tiene su cabecera y su tamaño es plausible.
+
+    Se comparan las palabras significativas del título declarado con el cuerpo. Un
+    título cuyo vocabulario propio no aparece señala que el cuerpo no le corresponde.
+    """
+    errores, avisos = [], []
+    ficheros = sorted(RAIZ.glob("07_corpus_ia/textos-completos/*.txt"))
+    for fichero in ficheros:
+        lineas = fichero.read_text(encoding="utf-8", errors="replace").splitlines()
+        titulo = next((l.split(":", 1)[1] for l in lineas[:12] if l.startswith("Título oficial:")), "")
+        if not titulo:
+            continue
+        cuerpo = _sin_tildes("\n".join(lineas[9:])).lower()
+        claves = _significativas(titulo)
+        if len(claves) < 4:
+            continue
+        presentes = sum(1 for p in set(claves) if p in cuerpo)
+        proporcion = presentes / len(set(claves))
+        entrada = {
+            "fichero": fichero.relative_to(RAIZ).as_posix(),
+            "campo": "(contenido)",
+            "mensaje": f"solo {presentes} de {len(set(claves))} términos propios del título "
+                       f"aparecen en el cuerpo ({proporcion:.0%}): la copia puede no corresponder "
+                       f"a la norma declarada",
+        }
+        # Una copia marcada explícitamente como contaminada es deuda documentada y
+        # con tarea abierta, no un fallo oculto: se avisa. Sin marca, es error, para
+        # que una contaminación nueva no pase inadvertida.
+        marcada = "ADVERTENCIA DE CONTENIDO" in "\n".join(lineas[:14])
+        if proporcion < 0.65:
+            (avisos if marcada else errores).append(entrada)
+    return {"tipo": "CORRESPONDENCIA", "ficheros": len(ficheros),
+            "errores": errores, "avisos": avisos}
+
+
 def validar_textos_locales() -> dict:
     """Comprueba que las copias locales de texto oficial no estén dobles-codificadas.
 
@@ -413,6 +474,7 @@ def main() -> int:
     if not args.tipo:
         informes.append(validar_referencias())
         informes.append(validar_desdoblamientos())
+        informes.append(validar_correspondencia_textos())
         informes.append(validar_textos_locales())
     total_errores = sum(len(i["errores"]) for i in informes)
     total_avisos = sum(len(i["avisos"]) for i in informes)

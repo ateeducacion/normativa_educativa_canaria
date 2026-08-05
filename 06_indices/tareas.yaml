@@ -1374,7 +1374,7 @@ TAREA-078:
 
 TAREA-079:
   titulo: "Sustituir por el enunciado literal las competencias de las fichas curriculares de Infantil"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1408,7 +1408,7 @@ TAREA-080:
 
 TAREA-081:
   titulo: "Re-exportar el anexo curricular del Decreto 196/2022 de Infantil desde el PDF oficial"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "corpus-ia"
   responsable: '@.agents/skills/preparacion-corpus-ia'
@@ -1422,7 +1422,7 @@ TAREA-081:
   ruta: 08_tareas/backlog/TAREA-081-reexportar-anexo-decreto-infantil.md
 TAREA-082:
   titulo: "Catalogar la fuente oficial del currículo de Religión en Primaria y cerrar CUR-033"
-  estado: "Pendiente"
+  estado: "En progreso"
   prioridad: "Media"
   tipo: "catalogacion"
   responsable: '@.agents/skills/catalogacion-fuentes'
@@ -1452,3 +1452,21 @@ TAREA-083:
   - FTE-047
   - FTE-051
   ruta: 08_tareas/backlog/TAREA-083-fusionar-fichas-desdobladas-por-etapa.md
+
+TAREA-084:
+  titulo: "Re-exportar las trece copias locales que contienen una norma distinta de la que declaran"
+  estado: "Pendiente"
+  prioridad: "Crítica"
+  tipo: "corpus-ia"
+  responsable: '@.agents/skills/preparacion-corpus-ia'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - NOR-044
+  - NOR-028
+  - NOR-050
+  - NOR-060
+  - TAREA-074
+  - TAREA-077
+  - TAREA-081
+  ruta: 08_tareas/backlog/TAREA-084-reexportar-copias-con-contenido-equivocado.md

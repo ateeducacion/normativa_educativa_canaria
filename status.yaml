@@ -1290,7 +1290,7 @@ tareas:
 
   TAREA-079:
     titulo: "Sustituir por el enunciado literal las competencias de las fichas curriculares de Infantil"
-    estado: "En progreso"
+    estado: "Hecha"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: '@.agents/skills/analisis-curricular'
@@ -1324,7 +1324,7 @@ tareas:
 
   TAREA-081:
     titulo: "Re-exportar el anexo curricular del Decreto 196/2022 de Infantil desde el PDF oficial"
-    estado: "Pendiente"
+    estado: "Hecha"
     prioridad: "Alta"
     tipo: "corpus-ia"
     responsable: '@.agents/skills/preparacion-corpus-ia'
@@ -1338,7 +1338,7 @@ tareas:
     siguiente_accion: "Descargar boc-a-2022-212-3215.pdf y extraer el anexo con pdftotext -layout, como se hizo en TAREA-077."
   TAREA-082:
     titulo: "Catalogar la fuente oficial del currículo de Religión en Primaria y cerrar CUR-033"
-    estado: "Pendiente"
+    estado: "En progreso"
     prioridad: "Media"
     tipo: "catalogacion"
     responsable: '@.agents/skills/catalogacion-fuentes'
@@ -1368,6 +1368,24 @@ tareas:
     - FTE-047
     - FTE-051
     siguiente_accion: null
+
+  TAREA-084:
+    titulo: "Re-exportar las trece copias locales que contienen una norma distinta de la que declaran"
+    estado: "Pendiente"
+    prioridad: "Crítica"
+    tipo: "corpus-ia"
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - NOR-044
+    - NOR-028
+    - NOR-050
+    - NOR-060
+    - TAREA-074
+    - TAREA-077
+    - TAREA-081
+    siguiente_accion: "Re-exportar NOR-044 desde su PDF oficial: es la norma de evaluación más citada del corpus."
 
 bloqueos: []
 reglas:

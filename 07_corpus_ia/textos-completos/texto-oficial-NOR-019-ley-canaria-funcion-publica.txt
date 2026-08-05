@@ -5,6 +5,7 @@ URL origen: https://www.boe.es/buscar/act.php?id=BOE-A-1987-11119
 Fecha de consulta: 2026-04-26
 Fecha de exportación local: 2026-04-27
 Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+ADVERTENCIA DE CONTENIDO (2026-08-05): esta copia local NO contiene la norma que declara su título. El cuerpo corresponde a: Resolución de 1987 de la Diputación Provincial de Almería (ni siquiera de Canarias). La cabecera es correcta; el error está en la exportación original, que tomó el ítem equivocado del sumario del boletín. NO USAR para cita ni para búsqueda hasta su re-exportación (TAREA-084).
 Nota de extracción: Texto plano rápido generado desde el HTML oficial consolidado del BOE.
 ---
 BOE-A-1987-11119 Resolución de 8 de abril de 1987, de la Diputación Provincial de Almería, por la que se hace público el nombramiento de funcionarios de esta Corporación.

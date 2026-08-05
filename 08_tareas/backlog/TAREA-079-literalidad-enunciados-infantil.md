@@ -1,12 +1,13 @@
 ---
 id: TAREA-079
 titulo: "Sustituir por el enunciado literal las competencias de las fichas curriculares de Infantil"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Media"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
+fecha_cierre: 2026-08-05
 relacionadas: [DEC-0008, DEC-0009, CUR-034, CUR-035, CUR-036, NOR-047, TAREA-069]
 siguiente_accion: "Localizar en el Decreto 196/2022 el enunciado literal de las 11 competencias y sustituir descripcion por enunciado_oficial."
 ---
@@ -58,3 +59,20 @@ página, después de que una primera lectura por lotes produjera un error de tra
 
 Sigue pendiente transcribir literalmente `criterios_evaluacion` y `saberes_basicos`, que aún son
 los del volcado anterior. Requiere primero re-exportar la copia local: `TAREA-081`.
+
+## Resultado (2026-08-05)
+
+Las tres fichas pasan a `estado_extraccion: completado`.
+
+Al verificar contra el texto ya re-exportado aparecieron **errores de la transcripción anterior**,
+la que se había hecho leyendo el PDF a mano: en `CUR-034`, la competencia 4 llevaba mezclada una
+frase del criterio 4.1; en `CUR-036`, la 2 tenía una coma sobrante y la 5 estaba truncada. Y el
+área de `CUR-036` tiene **cinco** competencias, no cuatro como declaraba la ficha.
+
+Criterios y saberes transcritos literalmente y reestructurados por ciclo. Los totales se
+verificaron contra las cifras que el propio decreto anuncia: 12+18 en `CUR-034`, 8+13 en
+`CUR-035`, 16+28 en `CUR-036`. Coinciden.
+
+Dos anomalías del texto oficial se transcriben tal cual y quedan marcadas `[PENDIENTE]`: en
+`CUR-034` el decreto numera tres saberes como «1, 3, 3», y en `CUR-036` falta un paréntesis de
+cierre. No se corrigen porque no se pueden cotejar contra la maquetación del BOC.

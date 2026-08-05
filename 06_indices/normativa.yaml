@@ -1031,3 +1031,16 @@ NOR-071:
   ruta: "02_normativa/canarias/resoluciones/NOR-071-resolucion-24-2024-primer-ciclo-infantil.md"
   temas: [infantil, primer-ciclo, organizacion, funcionamiento, instrucciones, experiencia-piloto]
   etapas_afectadas: [infantil]
+
+NOR-072:
+  titulo: "Resolución de 21 de junio de 2022, de la Secretaría de Estado de Educación, por la que se publican los currículos de las enseñanzas de religión católica correspondientes a Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato"
+  nombre_corto: "Currículos de Religión Católica 2022 (BOE)"
+  tipo_norma: "resolucion-administrativa"
+  ambito: "estatal"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2022-06-21
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-079
+  ruta: "02_normativa/estatal/resoluciones/NOR-072-resolucion-2022-curriculo-religion-catolica.md"
+  temas: [curriculo, religion-catolica, competencias-especificas, criterios-evaluacion, saberes-basicos]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato]

@@ -1,12 +1,13 @@
 ---
 id: TAREA-081
 titulo: "Re-exportar el anexo curricular del Decreto 196/2022 de Infantil desde el PDF oficial"
-estado: "Pendiente"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "corpus-ia"
 responsable: "@.agents/skills/preparacion-corpus-ia"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
+fecha_cierre: 2026-08-05
 relacionadas: [NOR-047, FTE-050, TAREA-079, TAREA-077]
 siguiente_accion: "Descargar boc-a-2022-212-3215.pdf y extraer el anexo con pdftotext -layout, como se hizo en TAREA-077."
 ---
@@ -52,3 +53,10 @@ páginas», que indica una copia incompleta aunque esté bien codificada.
 ## Coordinación con trabajo paralelo
 
 IDs consumidos: `TAREA-081`. Solo se modifica una copia local de texto y su entrada de índice.
+
+## Resultado (2026-08-05)
+
+Re-exportado desde el PDF oficial de 102 páginas con `pdftotext -layout`. El texto pasa de **405
+a 4.084 líneas** y aparecen las 36 competencias específicas con sus enunciados y criterios; los
+seis marcadores «Ver anexo en las páginas…» desaparecen. Retiradas las cabeceras y pies repetidos
+sin tocar el contenido normativo.

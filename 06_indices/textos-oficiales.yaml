@@ -1423,19 +1423,19 @@ normativa:
     titulo: Decreto 196/2022, de 13 de octubre, por el que se establece la ordenación y el currículo de la Educación Infantil en la Comunidad Autónoma de Canarias
     ruta_corpus: 02_normativa/canarias/decretos/NOR-047-decreto-196-2022-infantil.md
     fuente_principal: FTE-050
-    fecha_consulta: 2026-04-26
+    fecha_consulta: 2026-08-05
     estado_vigencia: Vigente
     estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2022/212/001.html
-      url_pdf: null
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2022-212-3215.pdf
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
       ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-047-decreto-196-2022-infantil.txt
-      sha256: 008b8734f654f6c9a3efd479262643c95647732a37f4a308aa96c6f695653469
-      url_origen: https://www.gobiernodecanarias.org/boc/2022/212/001.html
-      fecha_exportacion: '2026-04-27'
+      sha256: 035e985c83081548c45b48caee77145ba364541e1ed5a8bb0c57427fd91b69c1
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2022-212-3215.pdf
+      fecha_exportacion: '2026-08-05'
   NOR-050:
     titulo: Orden de 29 de mayo de 2023, por la que se establecen los procedimientos reguladores de la respuesta educativa al alumnado con necesidades específicas de apoyo educativo en Canarias
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-050-orden-procedimientos-neae-2023.md

@@ -699,3 +699,12 @@ FTE-078:
   fecha_consulta: 2026-08-05
   ruta: "01_fuentes/portales-oficiales/FTE-078-resolucion-24-2024-instrucciones-primer-ciclo-infantil.md"
   estado_fuente: "Activa"
+
+FTE-079:
+  titulo: "Resolución de 21 de junio de 2022, currículos de religión católica (Infantil, Primaria, ESO y Bachillerato)"
+  tipo_fuente: "normativa-estatal"
+  autoridad: "Boletín Oficial del Estado — Ministerio de Educación y Formación Profesional"
+  url_oficial: "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-10452"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boe/FTE-079-boe-resolucion-2022-curriculo-religion-catolica.md"
+  estado_fuente: "Activa"

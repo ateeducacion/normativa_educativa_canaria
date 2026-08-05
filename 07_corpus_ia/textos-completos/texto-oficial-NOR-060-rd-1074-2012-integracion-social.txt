@@ -5,6 +5,7 @@ URL origen: https://www.boe.es/buscar/act.php?id=BOE-A-2012-10338
 Fecha de consulta: 2026-04-26
 Fecha de exportación local: 2026-04-27
 Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
+ADVERTENCIA DE CONTENIDO (2026-08-05): esta copia local NO contiene la norma que declara su título. El cuerpo corresponde a: Resolución de la Universidad Carlos III sobre un Máster en Dirección de Empresas. La cabecera es correcta; el error está en la exportación original, que tomó el ítem equivocado del sumario del boletín. NO USAR para cita ni para búsqueda hasta su re-exportación (TAREA-084).
 Nota de extracción: Texto plano rápido generado desde el HTML oficial consolidado del BOE.
 ---
 BOE-A-2012-10338 Resolución de 17 de julio de 2012, de la Universidad Carlos III, por la que se publica el plan de estudios de Máster en Dirección de Empresas.

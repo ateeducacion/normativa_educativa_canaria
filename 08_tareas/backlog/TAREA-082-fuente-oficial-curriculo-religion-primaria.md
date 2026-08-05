@@ -1,7 +1,7 @@
 ---
 id: TAREA-082
 titulo: "Catalogar la fuente oficial del currículo de Religión en Primaria y cerrar CUR-033"
-estado: "Pendiente"
+estado: "En progreso"
 prioridad: "Media"
 tipo: "catalogacion"
 responsable: "@.agents/skills/catalogacion-fuentes"
@@ -45,3 +45,32 @@ por falta de trabajo, sino por falta de fuente registrada.
 ## Coordinación con trabajo paralelo
 
 IDs consumidos: `TAREA-082`. Consumirá un `FTE` y posiblemente un `NOR` al ejecutarse.
+
+## Resultado parcial (2026-08-05)
+
+**Fuente localizada con certeza:** Resolución de 21 de junio de 2022, de la Secretaría de Estado
+de Educación, por la que se publican los currículos de las enseñanzas de religión católica
+(BOE-A-2022-10452, BOE n.º 150 de 24-06-2022), dictada a propuesta de la Conferencia Episcopal
+Española. Su Anexo II es el currículo de Primaria.
+
+Catalogada como `FTE-079` y `NOR-072`. Sí procede ficha normativa: aunque el contenido lo
+determina la jerarquía eclesiástica, quien la dicta y publica con eficacia jurídica es la
+Secretaría de Estado, deroga expresamente los currículos anteriores y fija su entrada en vigor.
+
+`CUR-033` se reapunta de `FTE-046` —que en realidad describe el Decreto 211/2022, no este
+currículo— a `FTE-079`.
+
+**El contenido de `CUR-033` no coincide con la fuente.** Verificado contra el Anexo II real:
+
+- Sus seis «competencias» son paráfrasis o títulos, no el texto literal de las seis competencias
+  específicas del BOE.
+- Declara cuatro bloques de saberes —«El sentido de la vida», «La Biblia», «Jesús y la Iglesia»,
+  «El compromiso»— frente a los **tres** reales, A, B y C, con títulos y estructura distintos.
+- Registra dos criterios de evaluación por ciclo, cubriendo dos de las seis competencias, frente
+  a los **doce** reales por ciclo.
+
+No se ha corregido: es decisión editorial si se re-extrae todo desde `FTE-079` o si ese contenido
+procede de otra fuente sin identificar. Queda documentado en la ficha y la tarea sigue abierta.
+
+**Hallazgo colateral:** el RD 157/2022, de enseñanzas mínimas de Primaria, citado en el preámbulo
+de esta resolución, no tiene ficha `NOR` propia en el corpus.
