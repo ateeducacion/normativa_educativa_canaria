@@ -8,19 +8,25 @@ autoridad: "Consejería de Educación, Universidades, Cultura y Deportes"
 fecha_disposicion: 2010-09-01
 fecha_publicacion: 2010-09-10
 fecha_entrada_vigor: 2010-09-11
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
-estado_vigencia: "Vigente"
+estado_vigencia: "Pendiente de verificación — no localizada en fuente oficial (PREG-011)"
 fuente_principal: FTE-013
 url_oficial: "https://www.gobiernodecanarias.org/boc/2010/178/001.html"
 etapas_afectadas: [eso, bachillerato, formacion-profesional]
 temas: [secundaria, organizacion, centros]
 relaciones:
   desarrolla_a: [NOR-009]
-nivel_evidencia: "confirmado-fuente-primaria"
+nivel_evidencia: "pendiente-verificacion"
 ---
 
 # NOR-018 — Orden de 1 de septiembre de 2010 — Funcionamiento IES (Canarias)
+
+> **[PENDIENTE] Advertencia de verificación (2026-08-05, `PREG-011`).** Esta norma **no se ha
+> localizado en el Boletín Oficial de Canarias**. Se recorrieron los sumarios de los 257
+> boletines publicados en 2010 sin encontrarla, y el boletín que la ficha declaraba no la
+> contiene. Todo lo que sigue procede de la catalogación original y **no está verificado contra
+> fuente oficial**. No debe citarse. Ver `PREG-011`.
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 

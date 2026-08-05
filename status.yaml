@@ -159,7 +159,8 @@ tareas:
     - DEC-0004
     siguiente_accion: null
   TAREA-011:
-    titulo: Cotejar el anexo de Biología y Geología del Decreto 30/2023 contra la extracción inicial de CUR-001
+    titulo: Cotejar el anexo de Biología y Geología del Decreto 30/2023 contra la extracción inicial de
+      CUR-001
     estado: Hecha
     prioridad: Alta
     tipo: curriculo
@@ -708,7 +709,8 @@ tareas:
     - CUR-051
     siguiente_accion: null
   TAREA-041:
-    titulo: Extraer módulos profesionales FP — Familia Servicios Socioculturales y a la Comunidad (CUR-052, CUR-053)
+    titulo: Extraer módulos profesionales FP — Familia Servicios Socioculturales y a la Comunidad (CUR-052,
+      CUR-053)
     estado: Hecha
     prioridad: Media
     tipo: curriculo
@@ -1011,10 +1013,11 @@ tareas:
     - REL-057
     siguiente_accion: null
   TAREA-061:
-    titulo: "Catalogar novedades del monitor del 2026-07-20 y Decreto 120/2026 sobre competencia digital docente"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "catalogacion"
+    titulo: Catalogar novedades del monitor del 2026-07-20 y Decreto 120/2026 sobre competencia digital
+      docente
+    estado: Hecha
+    prioridad: Alta
+    tipo: catalogacion
     responsable: '@.agents/skills/catalogacion-fuentes'
     fecha_creacion: 2026-07-20
     fecha_actualizacion: 2026-08-05
@@ -1024,10 +1027,11 @@ tareas:
     - REL-058
     siguiente_accion: null
   TAREA-062:
-    titulo: "Catalogar y analizar la modificación de la FP semipresencial y virtual publicada en el BOC 2026/144"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "catalogacion"
+    titulo: Catalogar y analizar la modificación de la FP semipresencial y virtual publicada en el BOC
+      2026/144
+    estado: Hecha
+    prioridad: Alta
+    tipo: catalogacion
     responsable: '@.agents/skills/analisis-normativo'
     fecha_creacion: 2026-07-27
     fecha_actualizacion: 2026-08-05
@@ -1040,10 +1044,11 @@ tareas:
     - REL-060
     siguiente_accion: null
   TAREA-063:
-    titulo: "Hacer descubribles las skills del repositorio y poner en marcha la validación automática del corpus"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "calidad-documental"
+    titulo: Hacer descubribles las skills del repositorio y poner en marcha la validación automática del
+      corpus
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
     responsable: '@.agents/skills/control-calidad-documental'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1052,25 +1057,25 @@ tareas:
     - TAREA-061
     - TAREA-062
     siguiente_accion: null
-
   TAREA-064:
-    titulo: "Verificar la catalogación de las tres resoluciones de FP detectadas por el monitor en TAREA-061"
-    estado: "Pendiente"
-    prioridad: "Media"
-    tipo: "catalogacion"
+    titulo: Verificar la catalogación de las tres resoluciones de FP detectadas por el monitor en TAREA-061
+    estado: Pendiente
+    prioridad: Media
+    tipo: catalogacion
     responsable: '@.agents/skills/catalogacion-fuentes'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
     relacionadas:
     - TAREA-061
     - TAREA-063
-    siguiente_accion: "Identificar las tres resoluciones en el snapshot del monitor y comprobar si ya tienen ficha NOR."
-
+    siguiente_accion: Identificar las tres resoluciones en el snapshot del monitor y comprobar si ya tienen
+      ficha NOR.
   TAREA-065:
-    titulo: "Normalizar las fichas curriculares, recalibrar los avisos del validador y cerrar los huecos de índice"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "calidad-documental"
+    titulo: Normalizar las fichas curriculares, recalibrar los avisos del validador y cerrar los huecos
+      de índice
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
     responsable: '@.agents/skills/control-calidad-documental'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1084,10 +1089,11 @@ tareas:
     - TAREA-069
     siguiente_accion: null
   TAREA-066:
-    titulo: "Extraer los descriptores operativos de las fichas curriculares de bachillerato (CUR-037 a CUR-058)"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "curriculo"
+    titulo: Extraer los descriptores operativos de las fichas curriculares de bachillerato (CUR-037 a
+      CUR-058)
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
     responsable: '@.agents/skills/analisis-curricular'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1096,12 +1102,12 @@ tareas:
     - NOR-005
     - TAREA-065
     - PREG-007
-    siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 14 fichas."
+    siguiente_accion: Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 14 fichas.
   TAREA-067:
-    titulo: "Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "curriculo"
+    titulo: Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
     responsable: '@.agents/skills/analisis-curricular'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1110,12 +1116,12 @@ tareas:
     - NOR-043
     - TAREA-065
     - PREG-007
-    siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-046 a las 10 fichas."
+    siguiente_accion: Volcar los descriptores operativos del perfil de salida desde FTE-046 a las 10 fichas.
   TAREA-068:
-    titulo: "Extraer los descriptores operativos de las fichas curriculares de eso (CUR-015 a CUR-023)"
-    estado: "Hecha"
-    prioridad: "Media"
-    tipo: "curriculo"
+    titulo: Extraer los descriptores operativos de las fichas curriculares de eso (CUR-015 a CUR-023)
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
     responsable: '@.agents/skills/analisis-curricular'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1124,108 +1130,12 @@ tareas:
     - NOR-005
     - TAREA-065
     - PREG-007
-    siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 5 fichas."
+    siguiente_accion: Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 5 fichas.
   TAREA-069:
-    titulo: "Extraer los descriptores operativos de las fichas curriculares de infantil (CUR-034 a CUR-036)"
-    estado: "Hecha"
-    prioridad: "Media"
-    tipo: "curriculo"
-    responsable: '@.agents/skills/analisis-curricular'
-    fecha_creacion: 2026-08-05
-    fecha_actualizacion: 2026-08-05
-    relacionadas:
-    - FTE-050
-    - NOR-047
-    - TAREA-065
-    - PREG-007
-    siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-050 a las 3 fichas."
-
-  TAREA-070:
-    titulo: "Localizar la ubicación actual de las fuentes cuya URL oficial devuelve 404"
-    estado: "Hecha"
-    prioridad: "Media"
-    tipo: "catalogacion"
-    responsable: '@.agents/skills/catalogacion-fuentes'
-    fecha_creacion: 2026-08-05
-    fecha_actualizacion: 2026-08-05
-    relacionadas:
-    - FTE-045
-    - FTE-048
-    - FTE-049
-    - FTE-051
-    - TAREA-065
-    siguiente_accion: "Localizar la Resolución de 20 de junio de 2025 de IOF de Escuelas Infantiles que declara FTE-051."
-  TAREA-071:
-    titulo: "Preparar la extracción de descriptores operativos y verificar el conjunto de control"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "curriculo"
-    responsable: '@.agents/skills/analisis-curricular'
-    fecha_creacion: 2026-08-05
-    fecha_actualizacion: 2026-08-05
-    relacionadas:
-    - PREG-008
-    - CUR-001
-    - NOR-005
-    - TAREA-066
-    - TAREA-067
-    - TAREA-068
-    - TAREA-069
-    siguiente_accion: null
-
-  TAREA-072:
-    titulo: "Auditar los descriptores operativos de las 18 fichas de ESO marcadas como completadas"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "calidad-documental"
-    responsable: '@.agents/skills/control-calidad-documental'
-    fecha_creacion: 2026-08-05
-    fecha_actualizacion: 2026-08-05
-    relacionadas:
-    - PREG-008
-    - CUR-001
-    - CUR-009
-    - NOR-005
-    - TAREA-071
-    - TAREA-073
-    siguiente_accion: null
-  TAREA-073:
-    titulo: "Re-extraer CUR-001 y CUR-009, que concentran las divergencias con el texto oficial"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "curriculo"
-    responsable: '@.agents/skills/analisis-curricular'
-    fecha_creacion: 2026-08-05
-    fecha_actualizacion: 2026-08-05
-    relacionadas:
-    - PREG-008
-    - CUR-001
-    - CUR-009
-    - NOR-005
-    - FTE-009
-    - TAREA-072
-    siguiente_accion: "Re-extraer las competencias de CUR-001 desde el Decreto 30/2023, empezando por C3 y C5."
-
-  TAREA-074:
-    titulo: "Reparar el doble encodeo de las copias locales de texto oficial"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "corpus-ia"
-    responsable: '@.agents/skills/preparacion-corpus-ia'
-    fecha_creacion: 2026-08-05
-    fecha_actualizacion: 2026-08-05
-    relacionadas:
-    - NOR-043
-    - NOR-047
-    - PREG-008
-    - TAREA-072
-    siguiente_accion: null
-
-  TAREA-069:
-    titulo: "Migrar los descriptores operativos a mapa por curso e incorporar el extractor al repositorio"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "curriculo"
+    titulo: Migrar los descriptores operativos a mapa por curso e incorporar el extractor al repositorio
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
     responsable: '@.agents/skills/analisis-curricular'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1238,12 +1148,91 @@ tareas:
     - TAREA-072
     - TAREA-073
     siguiente_accion: null
-
+  TAREA-070:
+    titulo: Localizar la ubicación actual de las fuentes cuya URL oficial devuelve 404
+    estado: Hecha
+    prioridad: Media
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - FTE-045
+    - FTE-048
+    - FTE-049
+    - FTE-051
+    - TAREA-065
+    siguiente_accion: Localizar la Resolución de 20 de junio de 2025 de IOF de Escuelas Infantiles que
+      declara FTE-051.
+  TAREA-071:
+    titulo: Preparar la extracción de descriptores operativos y verificar el conjunto de control
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-008
+    - CUR-001
+    - NOR-005
+    - TAREA-066
+    - TAREA-067
+    - TAREA-068
+    - TAREA-069
+    siguiente_accion: null
+  TAREA-072:
+    titulo: Auditar los descriptores operativos de las 18 fichas de ESO marcadas como completadas
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-008
+    - CUR-001
+    - CUR-009
+    - NOR-005
+    - TAREA-071
+    - TAREA-073
+    siguiente_accion: null
+  TAREA-073:
+    titulo: Re-extraer CUR-001 y CUR-009, que concentran las divergencias con el texto oficial
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-008
+    - CUR-001
+    - CUR-009
+    - NOR-005
+    - FTE-009
+    - TAREA-072
+    siguiente_accion: Re-extraer las competencias de CUR-001 desde el Decreto 30/2023, empezando por C3
+      y C5.
+  TAREA-074:
+    titulo: Reparar el doble encodeo de las copias locales de texto oficial
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - NOR-043
+    - NOR-047
+    - PREG-008
+    - TAREA-072
+    siguiente_accion: null
   TAREA-076:
-    titulo: "Consolidar la extracción curricular ejecutada en paralelo y corregir el auditor de descriptores"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "curriculo"
+    titulo: Consolidar la extracción curricular ejecutada en paralelo y corregir el auditor de descriptores
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
     responsable: '@.agents/skills/control-calidad-documental'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1259,10 +1248,10 @@ tareas:
     - TAREA-077
     siguiente_accion: null
   TAREA-077:
-    titulo: "Re-exportar el anexo curricular del Decreto 211/2022 de Primaria desde el PDF oficial"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "corpus-ia"
+    titulo: Re-exportar el anexo curricular del Decreto 211/2022 de Primaria desde el PDF oficial
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
     responsable: '@.agents/skills/preparacion-corpus-ia'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1271,13 +1260,14 @@ tareas:
     - FTE-046
     - TAREA-067
     - TAREA-076
-    siguiente_accion: "Descargar el PDF oficial del Decreto 211/2022 y extraer el anexo curricular a texto plano."
-
+    siguiente_accion: Descargar el PDF oficial del Decreto 211/2022 y extraer el anexo curricular a texto
+      plano.
   TAREA-078:
-    titulo: "Catalogar la Resolución Conjunta n.º 24/2024 de instrucciones para el primer ciclo de Educación Infantil"
-    estado: "Hecha"
-    prioridad: "Media"
-    tipo: "catalogacion"
+    titulo: Catalogar la Resolución Conjunta n.º 24/2024 de instrucciones para el primer ciclo de Educación
+      Infantil
+    estado: Hecha
+    prioridad: Media
+    tipo: catalogacion
     responsable: '@.agents/skills/catalogacion-fuentes'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1286,13 +1276,13 @@ tareas:
     - FTE-049
     - FTE-051
     - NOR-049
-    siguiente_accion: "Crear la ficha FTE de la Resolución 24/2024 desde su PDF oficial y decidir si procede ficha NOR."
-
+    siguiente_accion: Crear la ficha FTE de la Resolución 24/2024 desde su PDF oficial y decidir si procede
+      ficha NOR.
   TAREA-079:
-    titulo: "Sustituir por el enunciado literal las competencias de las fichas curriculares de Infantil"
-    estado: "Hecha"
-    prioridad: "Media"
-    tipo: "curriculo"
+    titulo: Sustituir por el enunciado literal las competencias de las fichas curriculares de Infantil
+    estado: Hecha
+    prioridad: Media
+    tipo: curriculo
     responsable: '@.agents/skills/analisis-curricular'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1304,13 +1294,13 @@ tareas:
     - CUR-036
     - NOR-047
     - TAREA-069
-    siguiente_accion: "Localizar en el Decreto 196/2022 el enunciado literal de las 11 competencias y sustituir descripcion por enunciado_oficial."
-
+    siguiente_accion: Localizar en el Decreto 196/2022 el enunciado literal de las 11 competencias y sustituir
+      descripcion por enunciado_oficial.
   TAREA-080:
-    titulo: "Añadir la comprobación de integridad referencial al validador y corregir REL-058"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "calidad-documental"
+    titulo: Añadir la comprobación de integridad referencial al validador y corregir REL-058
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
     responsable: '@.agents/skills/control-calidad-documental'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1321,12 +1311,11 @@ tareas:
     - NOR-068
     - PREG-009
     siguiente_accion: null
-
   TAREA-081:
-    titulo: "Re-exportar el anexo curricular del Decreto 196/2022 de Infantil desde el PDF oficial"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "corpus-ia"
+    titulo: Re-exportar el anexo curricular del Decreto 196/2022 de Infantil desde el PDF oficial
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
     responsable: '@.agents/skills/preparacion-corpus-ia'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1335,12 +1324,13 @@ tareas:
     - FTE-050
     - TAREA-079
     - TAREA-077
-    siguiente_accion: "Descargar boc-a-2022-212-3215.pdf y extraer el anexo con pdftotext -layout, como se hizo en TAREA-077."
+    siguiente_accion: Descargar boc-a-2022-212-3215.pdf y extraer el anexo con pdftotext -layout, como
+      se hizo en TAREA-077.
   TAREA-082:
-    titulo: "Catalogar la fuente oficial del currículo de Religión en Primaria y cerrar CUR-033"
-    estado: "En progreso"
-    prioridad: "Media"
-    tipo: "catalogacion"
+    titulo: Catalogar la fuente oficial del currículo de Religión en Primaria y cerrar CUR-033
+    estado: En progreso
+    prioridad: Media
+    tipo: catalogacion
     responsable: '@.agents/skills/catalogacion-fuentes'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1349,13 +1339,13 @@ tareas:
     - NOR-043
     - FTE-046
     - TAREA-067
-    siguiente_accion: "Localizar en el BOE la resolución que publica el currículo de Religión Católica en Educación Primaria y catalogarla como FTE."
-
+    siguiente_accion: Localizar en el BOE la resolución que publica el currículo de Religión Católica
+      en Educación Primaria y catalogarla como FTE.
   TAREA-083:
-    titulo: "Fusionar las fichas normativas desdobladas por etapa y detectar el patrón en el validador"
-    estado: "Hecha"
-    prioridad: "Alta"
-    tipo: "calidad-documental"
+    titulo: Fusionar las fichas normativas desdobladas por etapa y detectar el patrón en el validador
+    estado: Hecha
+    prioridad: Alta
+    tipo: calidad-documental
     responsable: '@.agents/skills/control-calidad-documental'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
@@ -1368,15 +1358,14 @@ tareas:
     - FTE-047
     - FTE-051
     siguiente_accion: null
-
   TAREA-084:
-    titulo: "Re-exportar las trece copias locales que contienen una norma distinta de la que declaran"
-    estado: "Pendiente"
-    prioridad: "Crítica"
-    tipo: "corpus-ia"
+    titulo: Re-exportar las trece copias locales que contienen una norma distinta de la que declaran
+    estado: En progreso
+    prioridad: Crítica
+    tipo: corpus-ia
     responsable: '@.agents/skills/preparacion-corpus-ia'
     fecha_creacion: 2026-08-05
-    fecha_actualizacion: 2026-08-05
+    fecha_actualizacion: '2026-08-05'
     relacionadas:
     - NOR-044
     - NOR-028
@@ -1385,8 +1374,45 @@ tareas:
     - TAREA-074
     - TAREA-077
     - TAREA-081
-    siguiente_accion: "Re-exportar NOR-044 desde su PDF oficial: es la norma de evaluación más citada del corpus."
-
+    siguiente_accion: 'Re-exportar NOR-044 desde su PDF oficial: es la norma de evaluación más citada
+      del corpus.'
+  TAREA-075:
+    titulo: Migrar los descriptores operativos a mapa por curso e incorporar el extractor al repositorio
+    estado: Hecha
+    prioridad: Alta
+    tipo: curriculo
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - DEC-0008
+    - PREG-008
+    - CUR-001
+    - CUR-009
+    - NOR-005
+    - TAREA-072
+    - TAREA-073
+    siguiente_accion: null
+  TAREA-085:
+    titulo: Verificar o retirar las tres normas que no se han localizado en fuente oficial
+    estado: Pendiente
+    prioridad: Crítica
+    tipo: control-vigencia
+    responsable: '@.agents/skills/control-vigencia'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - NOR-017
+    - NOR-018
+    - NOR-050
+    - FTE-053
+    - REL-047
+    - REL-048
+    - PREG-010
+    - PREG-011
+    - PREG-012
+    - TAREA-084
+    siguiente_accion: null
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.

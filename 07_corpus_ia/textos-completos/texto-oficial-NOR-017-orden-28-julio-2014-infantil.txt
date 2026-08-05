@@ -5,7 +5,7 @@ URL origen: https://www.gobiernodecanarias.org/boc/2014/150/001.html
 Fecha de consulta: 2026-04-26
 Fecha de exportación local: 2026-04-27
 Advertencia: Esta copia local en texto plano facilita lectura rápida y uso por IA, pero no sustituye la fuente oficial ni altera su vigencia.
-ADVERTENCIA DE CONTENIDO (2026-08-05): esta copia local NO contiene la norma que declara su título. El cuerpo corresponde a: Resolución de subvenciones a Cofradías de Pescadores. La cabecera es correcta; el error está en la exportación original, que tomó el ítem equivocado del sumario del boletín. NO USAR para cita ni para búsqueda hasta su re-exportación (TAREA-084).
+ADVERTENCIA DE CONTENIDO (2026-08-05): esta copia local NO contiene la norma que declara su título, y la revisión posterior ha comprobado que **esa norma no se ha localizado en el BOC** (PREG-010): se recorrieron los sumarios de los 253 boletines de 2014 sin encontrarla. El problema no es sólo de exportación, sino de catalogación. NO USAR ni para cita ni para búsqueda.
 Nota de extracción: Texto plano rápido generado desde el HTML oficial del BOC.
 ---
 BOC - 2014/150. Martes 5 de Agosto de 2014 - Anuncio 3455

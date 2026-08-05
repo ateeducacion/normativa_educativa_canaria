@@ -8,9 +8,9 @@ autoridad: "Consejería de Educación"
 fecha_disposicion: 2023-05-29
 fecha_publicacion: 2023-06-01
 fecha_entrada_vigor: 2023-06-02
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
-estado_vigencia: "Vigente"
+estado_vigencia: "Pendiente de verificación — no localizada en fuente oficial (PREG-012)"
 fuente_principal: FTE-053
 url_oficial: "https://www.gobiernodecanarias.org/boc/2023/105/001.html"
 etapas_afectadas: [infantil, primaria, eso, bachillerato]
@@ -22,10 +22,16 @@ relaciones:
   deroga_a: [NOR-025]
   derogada_por: []
   relacionada_con: [NOR-044]
-nivel_evidencia: "confirmado-fuente-primaria"
+nivel_evidencia: "pendiente-verificacion"
 ---
 
 # NOR-050 — Orden de 29 de mayo de 2023 — Procedimientos NEAE (Canarias)
+
+> **[PENDIENTE] Advertencia de verificación (2026-08-05, `PREG-012`).** Esta norma **no se ha
+> localizado en el Boletín Oficial de Canarias**. Se recorrieron los sumarios de los 255
+> boletines publicados en 2023 sin encontrarla, y el boletín que la ficha declaraba no la
+> contiene. Todo lo que sigue procede de la catalogación original y **no está verificado contra
+> fuente oficial**. No debe citarse. Ver `PREG-012`.
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 

@@ -8,19 +8,25 @@ autoridad: "Consejería de Educación, Universidades y Sostenibilidad"
 fecha_disposicion: 2014-07-28
 fecha_publicacion: 2014-08-05
 fecha_entrada_vigor: 2014-08-06
-fecha_consulta: 2026-04-26
+fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
-estado_vigencia: "Vigente"
+estado_vigencia: "Pendiente de verificación — no localizada en fuente oficial (PREG-010)"
 fuente_principal: FTE-013
 url_oficial: "https://www.gobiernodecanarias.org/boc/2014/150/001.html"
 etapas_afectadas: [infantil]
 temas: [infantil, organizacion, centros]
 relaciones:
   desarrolla_a: [NOR-009]
-nivel_evidencia: "confirmado-fuente-primaria"
+nivel_evidencia: "pendiente-verificacion"
 ---
 
 # NOR-017 — Orden de 28 de julio de 2014 — ROC Escuelas Infantiles (Canarias)
+
+> **[PENDIENTE] Advertencia de verificación (2026-08-05, `PREG-010`).** Esta norma **no se ha
+> localizado en el Boletín Oficial de Canarias**. Se recorrieron los sumarios de los 253
+> boletines publicados en 2014 sin encontrarla, y el boletín que la ficha declaraba no la
+> contiene. Todo lo que sigue procede de la catalogación original y **no está verificado contra
+> fuente oficial**. No debe citarse. Ver `PREG-010`.
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 

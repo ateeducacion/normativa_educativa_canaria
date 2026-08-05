@@ -3,6 +3,13 @@ origen_id: NOR-050
 tipo: resumen-ejecutivo
 titulo: "Procedimientos de Atención a la Diversidad y NEAE (Canarias 2023)"
 contenido: |
+  [PENDIENTE] (2026-08-05, PREG-012) ESTE CHUNK NO DEBE USARSE. La norma que resume, la
+  supuesta Orden de 29 de mayo de 2023, no se ha localizado en el BOC: se recorrieron los
+  sumarios de los 255 boletines de 2023 sin encontrarla. Mientras no se verifique, el marco
+  procedimental NEAE aplicable sigue siendo el del Decreto 25/2018, la Orden de 13 de diciembre
+  de 2010 (NOR-025) y la Resolución de 9 de febrero de 2011 (NOR-026).
+
+  Contenido original sin verificar:
   La Orden de 29 de mayo de 2023 es la norma operativa vigente para la respuesta al alumnado con NEAE.
   Claves operativas:
   1. Evaluación Psicopedagógica: Regula el papel de los EOEP y los plazos para informes.
@@ -12,4 +19,4 @@ contenido: |
 fuente: FTE-053
 localizacion: Orden de 29 de mayo de 2023 (BOC 2023/105).
 fecha_registro: 2026-04-26
-<aviso>: "Sustituye los procedimientos de la Orden de 2010 (NOR-025)."
+<aviso>: "[PENDIENTE] No usar: la norma de origen no se ha localizado en fuente oficial (PREG-012). La sustitución de los procedimientos de NOR-025 que aquí se declaraba no debe darse por buena."

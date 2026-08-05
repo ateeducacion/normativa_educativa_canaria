@@ -1470,3 +1470,24 @@ TAREA-084:
   - TAREA-077
   - TAREA-081
   ruta: 08_tareas/backlog/TAREA-084-reexportar-copias-con-contenido-equivocado.md
+
+TAREA-085:
+  titulo: "Verificar o retirar las tres normas que no se han localizado en fuente oficial"
+  estado: "Pendiente"
+  prioridad: "Crítica"
+  tipo: "control-vigencia"
+  responsable: '@.agents/skills/control-vigencia'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - NOR-017
+  - NOR-018
+  - NOR-050
+  - FTE-053
+  - REL-047
+  - REL-048
+  - PREG-010
+  - PREG-011
+  - PREG-012
+  - TAREA-084
+  ruta: 08_tareas/backlog/TAREA-085-verificar-tres-normas-no-localizadas.md
