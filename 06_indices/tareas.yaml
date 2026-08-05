@@ -1164,7 +1164,7 @@ TAREA-065:
 
 TAREA-066:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de bachillerato (CUR-037 a CUR-058)"
-  estado: "Pendiente"
+  estado: "Bloqueada"
   prioridad: "Alta"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1179,7 +1179,7 @@ TAREA-066:
 
 TAREA-067:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)"
-  estado: "Pendiente"
+  estado: "Bloqueada"
   prioridad: "Alta"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1194,7 +1194,7 @@ TAREA-067:
 
 TAREA-068:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de eso (CUR-015 a CUR-023)"
-  estado: "Pendiente"
+  estado: "Bloqueada"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1209,7 +1209,7 @@ TAREA-068:
 
 TAREA-069:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de infantil (CUR-034 a CUR-036)"
-  estado: "Pendiente"
+  estado: "Bloqueada"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1221,3 +1221,37 @@ TAREA-069:
   - TAREA-065
   - PREG-007
   ruta: 08_tareas/backlog/TAREA-069-descriptores-operativos-infantil.md
+
+TAREA-070:
+  titulo: "Localizar la ubicación actual de las fuentes cuya URL oficial devuelve 404"
+  estado: "En progreso"
+  prioridad: "Media"
+  tipo: "catalogacion"
+  responsable: '@.agents/skills/catalogacion-fuentes'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - FTE-045
+  - FTE-048
+  - FTE-049
+  - FTE-051
+  - TAREA-065
+  ruta: 08_tareas/backlog/TAREA-070-localizar-fuentes-con-url-rota.md
+
+TAREA-071:
+  titulo: "Preparar la extracción de descriptores operativos y verificar el conjunto de control"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: '@.agents/skills/analisis-curricular'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - PREG-008
+  - CUR-001
+  - NOR-005
+  - TAREA-066
+  - TAREA-067
+  - TAREA-068
+  - TAREA-069
+  ruta: 08_tareas/backlog/TAREA-071-preparar-extraccion-descriptores.md

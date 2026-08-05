@@ -1085,7 +1085,7 @@ tareas:
     siguiente_accion: null
   TAREA-066:
     titulo: "Extraer los descriptores operativos de las fichas curriculares de bachillerato (CUR-037 a CUR-058)"
-    estado: "Pendiente"
+    estado: "Bloqueada"
     prioridad: "Alta"
     tipo: "curriculo"
     responsable: '@.agents/skills/analisis-curricular'
@@ -1099,7 +1099,7 @@ tareas:
     siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 14 fichas."
   TAREA-067:
     titulo: "Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)"
-    estado: "Pendiente"
+    estado: "Bloqueada"
     prioridad: "Alta"
     tipo: "curriculo"
     responsable: '@.agents/skills/analisis-curricular'
@@ -1113,7 +1113,7 @@ tareas:
     siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-046 a las 10 fichas."
   TAREA-068:
     titulo: "Extraer los descriptores operativos de las fichas curriculares de eso (CUR-015 a CUR-023)"
-    estado: "Pendiente"
+    estado: "Bloqueada"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: '@.agents/skills/analisis-curricular'
@@ -1127,7 +1127,7 @@ tareas:
     siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 5 fichas."
   TAREA-069:
     titulo: "Extraer los descriptores operativos de las fichas curriculares de infantil (CUR-034 a CUR-036)"
-    estado: "Pendiente"
+    estado: "Bloqueada"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: '@.agents/skills/analisis-curricular'
@@ -1139,6 +1139,39 @@ tareas:
     - TAREA-065
     - PREG-007
     siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-050 a las 3 fichas."
+
+  TAREA-070:
+    titulo: "Localizar la ubicación actual de las fuentes cuya URL oficial devuelve 404"
+    estado: "En progreso"
+    prioridad: "Media"
+    tipo: "catalogacion"
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - FTE-045
+    - FTE-048
+    - FTE-049
+    - FTE-051
+    - TAREA-065
+    siguiente_accion: "Localizar la Resolución de 20 de junio de 2025 de IOF de Escuelas Infantiles que declara FTE-051."
+  TAREA-071:
+    titulo: "Preparar la extracción de descriptores operativos y verificar el conjunto de control"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "curriculo"
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-008
+    - CUR-001
+    - NOR-005
+    - TAREA-066
+    - TAREA-067
+    - TAREA-068
+    - TAREA-069
+    siguiente_accion: null
 
 bloqueos: []
 reglas:

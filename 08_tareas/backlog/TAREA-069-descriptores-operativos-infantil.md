@@ -1,13 +1,13 @@
 ---
 id: TAREA-069
 titulo: "Extraer los descriptores operativos de las fichas curriculares de infantil (CUR-034 a CUR-036)"
-estado: "Pendiente"
+estado: "Bloqueada"
 prioridad: "Media"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
-relacionadas: [FTE-050, NOR-047, TAREA-065, PREG-007]
+relacionadas: [PREG-008, FTE-050, NOR-047, TAREA-065, PREG-007]
 siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-050 a las 3 fichas y pasarlas a estado_extraccion completado."
 ---
 
@@ -42,3 +42,28 @@ muestran el formato esperado dentro de `elementos.descriptores_operativos`.
 
 IDs consumidos: `TAREA-069`. No se crean entidades nuevas: solo se completan fichas `CUR`
 existentes. No tocar fichas fuera del rango CUR-034 a CUR-036.
+
+## Bloqueo (2026-08-05)
+
+Bloqueada por `PREG-008`. Al preparar la extracción se comprobó contra el texto oficial que
+**los descriptores operativos varían según el curso** en el que se imparte la materia, y el
+modelo actual solo admite una lista plana por competencia. Extraer ahora consolidaría el
+defecto.
+
+Trabajo de preparación ya hecho, aprovechable cuando se desbloquee:
+
+- El texto oficial completo está en local: `07_corpus_ia/textos-completos/`.
+- El patrón de extracción está identificado. Cada bloque competencial tiene la forma:
+
+  ```
+  Competencia específica
+  N. <enunciado oficial>
+  Descriptores operativos de las
+  competencias clave. Perfil de salida
+  <códigos, repartidos en varias líneas>
+  Criterios de evaluación
+  ```
+
+- Los bloques se repiten por curso dentro de cada materia, que es justo el origen del problema.
+- Antes de extraer hay que rellenar `cursos` en estas fichas: hoy ninguna lo declara, y sin ese
+  dato la extracción no es interpretable.

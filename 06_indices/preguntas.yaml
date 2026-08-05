@@ -52,3 +52,10 @@ PREG-007:
   relacionadas: [DEC-0007, TAREA-063, TAREA-065]
   ruta: "08_tareas/preguntas/PREG-007-convergencia-formas-ficha-curricular.md"
 
+PREG-008:
+  titulo: "Los descriptores operativos varían por curso y el modelo de ficha curricular no lo representa"
+  estado: "Abierta"
+  fecha_registro: 2026-08-05
+  relacionadas: [CUR-001, DEC-0004, DEC-0007, TAREA-066, TAREA-067, TAREA-068, TAREA-069, TAREA-071]
+  ruta: "08_tareas/preguntas/PREG-008-descriptores-operativos-por-curso.md"
+
