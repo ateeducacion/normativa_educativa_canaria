@@ -2797,4 +2797,21 @@ curriculos:
       sha256: 505edce0f4f7143e8df7a8d62e418cc6810ee00622ceafb0e6584192866e77f9
       url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2010-181-5207.pdf
       fecha_exportacion: '2026-08-05'
+  NOR-078:
+    titulo: Resolución de 25 de febrero de 2026, por la que se dictan instrucciones para la implantación y desarrollo del módulo profesional optativo en las ofertas formativas de Grados D, niveles 2 (ciclos formativos de grado medio) y 3 (ciclos formativos de grado superior), a partir del curso escolar 2026/2027, en la Comunidad Autónoma de Canarias
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-078-resolucion-25-febrero-2026-modulo-optativo.md
+    fuente_principal: FTE-085
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente; aplicable desde el curso 2026/2027
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/043/703.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-043-703.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-078-resolucion-25-febrero-2026-modulo-optativo.txt
+      sha256: 51c91081fdc1815176a2b3d7311c7d578761ad9c9ceda06089018b8822081abb
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-043-703.pdf
+      fecha_exportacion: '2026-08-05'
 

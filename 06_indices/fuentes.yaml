@@ -754,3 +754,12 @@ FTE-084:
   ruta: "01_fuentes/boc/FTE-084-boc-2010-181-eoep.md"
   estado_fuente: "Activa"
 
+FTE-085:
+  titulo: "BOC 2026/043 — Resolución de 25 de febrero de 2026, módulo profesional optativo en Grados D"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/043/703.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-085-boc-2026-043-modulo-optativo-fp.md"
+  estado_fuente: "Activa"
+

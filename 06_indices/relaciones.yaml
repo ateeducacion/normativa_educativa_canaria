@@ -413,3 +413,11 @@ REL-062:
   nivel_evidencia: "confirmado-fuente-primaria"
   ruta: "05_relaciones/normativa/REL-062-orden-2013-modifica-orden-neae-2010.yaml"
 
+REL-063:
+  tipo_relacion: "desarrolla"
+  origen: NOR-062
+  destino: NOR-078
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-063-resolucion-optativo-base-de-234-2026.yaml"
+
