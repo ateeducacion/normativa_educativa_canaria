@@ -16,27 +16,43 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Comprender y relacionar los motivos por los que ocurren los principales fenómenos fisicoquímicos del entorno."
       enunciado_oficial: "Comprender y relacionar los motivos por los que ocurren los principales fenómenos fisicoquímicos del entorno, explicándolos en términos de las leyes y teorías científicas adecuadas, para resolver problemas con el fin de aplicarlas para mejorar la realidad cercana y la calidad de vida humana."
-      descriptores: ["CCL1", "STEM1", "STEM2", "STEM4", "CD2", "CPSAA4"]
+      descriptores:
+        "2.º ESO": [CCL1, STEM1, STEM2, STEM4, CD2, CPSAA4]
+        "3.º ESO": [CCL1, STEM1, STEM2, STEM4, CD2, CPSAA4]
+        "4.º ESO": [CCL1, STEM1, STEM2, STEM4, CD2, CPSAA4]
     - codigo: "C2"
       enunciado_resumido: "Expresar observaciones, formular hipótesis y demostrarlas mediante la experimentación científica."
       enunciado_oficial: "Expresar las observaciones realizadas por el alumnado en forma de preguntas, formulando hipótesis para explicarlas y demostrando dichas hipótesis a través de la experimentación científica, la indagación y la búsqueda de evidencias, para desarrollar los razonamientos propios del pensamiento científico y mejorar las destrezas en el uso de las metodologías científicas."
-      descriptores: ["CCL1", "CCL3", "STEM1", "STEM2", "CD1", "CPSAA4", "CE1", "CCEC3"]
+      descriptores:
+        "2.º ESO": [CCL1, CCL3, STEM1, STEM2, CD1, CPSAA4, CE1, CCEC3]
+        "3.º ESO": [CCL1, CCL3, STEM1, STEM2, CD1, CPSAA4, CE1, CCEC3]
+        "4.º ESO": [CCL1, CCL3, STEM1, STEM2, CD1, CPSAA4, CE1, CCEC3]
     - codigo: "C3"
       enunciado_resumido: "Manejar las reglas y normas básicas de la física y la química."
       enunciado_oficial: "Manejar con soltura las reglas y normas básicas de la física y la química en lo referente al lenguaje de la IUPAC, al lenguaje matemático, al empleo de unidades de medida correctas, al uso seguro del laboratorio y a la interpretación y producción de datos e información en diferentes formatos y fuentes, para reconocer el carácter universal y transversal del lenguaje científico y la necesidad de una comunicación fiable en investigación y ciencia entre diferentes países y culturas."
-      descriptores: ["CP1", "STEM4", "STEM5", "CD2", "CD3", "CPSAA2", "CC1", "CCEC2", "CCEC4"]
+      descriptores:
+        "2.º ESO": [CP1, STEM4, STEM5, CD2, CD3, CPSAA2, CC1, CCEC2, CCEC4]
+        "3.º ESO": [CP1, STEM4, STEM5, CD2, CD3, CPSAA2, CC1, CCEC2, CCEC4]
+        "4.º ESO": [CP1, STEM4, STEM5, CD2, CD3, CPSAA2, CC1, CCEC2, CCEC4]
     - codigo: "C4"
       enunciado_resumido: "Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados."
       enunciado_oficial: "Utilizar de forma crítica, eficiente y segura plataformas digitales y recursos variados, tanto para el trabajo individual como en equipo, para fomentar la creatividad, el desarrollo personal y el aprendizaje individual y social, mediante la consulta de información, la creación de materiales y la comunicación efectiva en los diferentes entornos de aprendizaje."
-      descriptores: ["CCL2", "CCL3", "CP1", "STEM4", "CD1", "CD2", "CD3", "CPSAA3", "CE3", "CCEC4"]
+      descriptores:
+        "2.º ESO": [CCL2, CCL3, CP1, STEM4, CD1, CD2, CD3, CPSAA3, CE3, CCEC4]
+        "3.º ESO": [CCL2, CCL3, CP1, STEM4, CD1, CD2, CD3, CPSAA3, CE3, CCEC4]
+        "4.º ESO": [CCL2, CCL3, CP1, STEM4, CD1, CD2, CD3, CPSAA3, CE3, CCEC4]
     - codigo: "C5"
       enunciado_resumido: "Utilizar las estrategias propias del trabajo colaborativo."
       enunciado_oficial: "Utilizar las estrategias propias del trabajo colaborativo, potenciando el crecimiento entre iguales como base emprendedora de una comunidad científica crítica, ética y eficiente, para comprender la importancia de la ciencia en la mejora de la sociedad, las aplicaciones y repercusiones de los avances científicos, la preservación de la salud y la conservación sostenible del medioambiente."
-      descriptores: ["CCL5", "CP3", "STEM3", "STEM5", "CD3", "CPSAA3", "CC3", "CE2"]
+      descriptores:
+        "2.º ESO": [CCL5, CP3, STEM3, STEM5, CD3, CPSAA3, CC3, CE2]
+        "3.º ESO": [CCL5, CP3, STEM3, STEM5, CD3, CPSAA3, CC3, CE2]
+        "4.º ESO": [CCL5, CP3, STEM3, STEM5, CD3, CPSAA3, CC3, CE2]
     - codigo: "C6"
       enunciado_resumido: "Comprender y valorar la ciencia como una construcción colectiva en continuo cambio y evolución."
       enunciado_oficial: "Comprender y valorar la ciencia como una construcción colectiva en continuo cambio y evolución, en la que no solo participan las personas dedicadas a ella, sino que también requiere de una interacción con el resto de la sociedad, para obtener resultados que repercutan en el avance tecnológico, económico, ambiental y social."
-      descriptores: ["STEM2", "STEM5", "CD4", "CPSAA1", "CPSAA4", "CC4", "CCEC1"]
+      descriptores:
+        "?": [STEM2, STEM5, CD4, CPSAA1, CPSAA4, CC4, CCEC1]
   criterios_evaluacion:
     - curso: "2.º ESO"
       criterios:

@@ -16,31 +16,38 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Analizar y valorar las fortalezas y debilidades propias y de los demás, gestionando las emociones para adaptarse a entornos cambiantes y diseñar un proyecto personal único."
       enunciado_oficial: "Analizar y valorar las fortalezas y debilidades propias y de los demás, reflexionando sobre las aptitudes y gestionando de forma eficaz las emociones y las destrezas necesarias, para adaptarse a entornos cambiantes y diseñar un proyecto personal único que genere valor para los demás."
-      descriptores: [CCL1, CCL3, CD1, CD2, CPSAA1, CPSAA5, CC1, CE2, CE3, CCEC3]
+      descriptores:
+        "4.º ESO": [CCL1, CCL3, CD1, CD2, CPSAA1, CPSAA5, CC1, CE2, CE3, CCEC3]
     - codigo: "C2"
       enunciado_resumido: "Utilizar estrategias de conformación de equipos y habilidades sociales aplicándolas con autonomía a las dinámicas de trabajo para constituir grupos eficaces."
       enunciado_oficial: "Utilizar estrategias de conformación de equipos, así como habilidades sociales, de comunicación e innovación ágil, aplicándolas con autonomía y motivación a las dinámicas de trabajo en distintos contextos, para constituir grupos de trabajo eficaces y descubrir el valor de cooperar con otras personas durante el proceso de ideación y desarrollo de soluciones emprendedoras."
-      descriptores: [CCL1, CCL5, CP1, CP2, CD3, CPSAA1, CPSAA3, CC1, CE2]
+      descriptores:
+        "4.º ESO": [CCL1, CCL5, CP1, CP2, CD3, CPSAA1, CPSAA3, CC1, CE2]
     - codigo: "C3"
       enunciado_resumido: "Elaborar ideas y soluciones innovadoras y sostenibles que respondan a necesidades locales y globales utilizando metodologías ágiles de ideación."
       enunciado_oficial: "Elaborar, con sentido ético y solidario, ideas y soluciones innovadoras y sostenibles que den respuesta a las necesidades locales y globales detectadas, utilizando metodologías ágiles de ideación y analizando tanto sus puntos fuertes y débiles como el impacto que puedan generar esas ideas en el entorno, para lograr la superación de retos relacionados con la preservación y cuidado del entorno natural, social, cultural y artístico."
-      descriptores: [CCL1, CCL2, CCL3, STEM1, STEM3, CD1, CPSAA1, CC4, CE1, CE2, CE3, CCEC3]
+      descriptores:
+        "4.º ESO": [CCL1, CCL2, CCL3, STEM1, STEM3, CD1, CPSAA1, CC4, CE1, CE2, CE3, CCEC3]
     - codigo: "C4"
       enunciado_resumido: "Seleccionar y reunir los recursos disponibles aplicando estrategias de captación para poner en marcha el proyecto que lleve a la realidad la solución emprendedora."
       enunciado_oficial: "Seleccionar y reunir los recursos disponibles en el proceso de desarrollo de la idea o solución creativa propuesta, que proporcionan dichos recursos y aplicando estrategias de captación de los mismos, para poner en marcha el proyecto que lleve a la realidad la solución emprendedora."
-      descriptores: [CCL1, CCL3, STEM3, CD1, CD2, CPSAA3, CE1, CE2]
+      descriptores:
+        "?": [CCL1, CCL3, STEM3, CD1, CD2, CPSAA3, CE1, CE2]
     - codigo: "C5"
       enunciado_resumido: "Presentar y exponer ideas y soluciones creativas utilizando estrategias comunicativas ágiles para transmitir mensajes convincentes y validar las ideas presentadas."
       enunciado_oficial: "Presentar y exponer ideas y soluciones creativas, utilizando estrategias comunicativas ágiles y valorando la importancia de una comunicación efectiva y respetuosa, para transmitir mensajes convincentes adecuados al contexto y a los objetivos concretos de cada situación y validar las ideas y soluciones presentadas."
-      descriptores: [CCL1, CCL2, CCL3, CP1, CD1, CD2, CD3, CPSAA1, CC1, CE1, CE2]
+      descriptores:
+        "?": [CCL1, CCL2, CCL3, CP1, CD1, CD2, CD3, CPSAA1, CC1, CE1, CE2]
     - codigo: "C6"
       enunciado_resumido: "Comprender aspectos básicos de la economía y las finanzas, valorando críticamente la escasez de recursos y los principios de interacción social."
       enunciado_oficial: "Comprender aspectos básicos de la economía y las finanzas, valorando críticamente el problema de la escasez de recursos y la necesidad de elegir, así como los principios de interacción social desde el punto de vista económico, para relacionar dichos aspectos con la búsqueda y planificación de los recursos necesarios en el desarrollo de la idea o solución emprendedora que afronte el reto planteado de manera eficaz, equitativa y sostenible."
-      descriptores: [CCL1, STEM2, CC1, CC4, CE1, CE2, CE3]
+      descriptores:
+        "?": [CCL1, STEM2, CC1, CC4, CE1, CE2, CE3]
     - codigo: "C7"
       enunciado_resumido: "Construir y analizar de manera cooperativa, autónoma y ágil prototipos innovadores y sostenibles aplicando estrategias de diseño y ejecución."
       enunciado_oficial: "Construir y analizar de manera cooperativa, autónoma y ágil prototipos innovadores y sostenibles, aplicando estrategias eficaces de diseño y ejecución, evaluando todas las fases del proceso de manera crítica y ética, y validando los resultados obtenidos tanto para la mejora y perfeccionamiento de los prototipos creados como para el aprendizaje y el desarrollo personal y colectivo."
-      descriptores: [STEM2, STEM3, CD5, CPSAA3, CPSAA4, CPSAA5, CE2, CE3]
+      descriptores:
+        "?": [STEM2, STEM3, CD5, CPSAA3, CPSAA4, CPSAA5, CE2, CE3]
   criterios_evaluacion:
     - curso: "4.º ESO"
       criterios:

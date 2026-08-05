@@ -16,15 +16,18 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Analizar las relaciones de interdependencia entre los agentes económicos y reconocer el papel del Estado para reflexionar sobre el bienestar individual y colectivo."
       enunciado_oficial: "Analizar las relaciones de interdependencia entre los agentes económicos en el desarrollo de las distintas actividades económicas y los desequilibrios económicos que el mercado genera, reconociendo la importancia del papel del Estado en la economía y en el mantenimiento del Estado del Bienestar para reflexionar sobre la contribución personal y social al bienestar individual y colectivo."
-      descriptores: [CCL1, CCL3, STEM4, CD1, CD2, CD3, CC1, CC2, CC4]
+      descriptores:
+        "3.º ESO": [CCL1, CCL3, STEM4, CD1, CD2, CD3, CC1, CC2, CC4]
     - codigo: "C2"
       enunciado_resumido: "Diseñar y elaborar pequeños proyectos de finanzas personales gestionando ingresos, gastos y decisiones de ahorro, inversión y financiación."
       enunciado_oficial: "Diseñar y elaborar pequeños proyectos de finanzas personales, gestionando de forma eficaz los ingresos y gastos previstos y reflexionando sobre las decisiones de ahorro, inversión y financiación para mantener unas finanzas personales equilibradas en una realidad económica en continuo cambio que le permitan afrontar futuros retos personales en distintas situaciones vitales."
-      descriptores: [CCL1, CCL2, STEM1, STEM3, CD2, CD3, CPSAA5, CC1, CE2]
+      descriptores:
+        "3.º ESO": [CCL1, CCL2, STEM1, STEM3, CD2, CD3, CPSAA5, CC1, CE2]
     - codigo: "C3"
       enunciado_resumido: "Identificar patrones de consumo responsable analizando los beneficios personales y las consecuencias para la sociedad, el medioambiente y las relaciones laborales."
       enunciado_oficial: "Identificar patrones de consumo responsable, analizando los beneficios personales y las consecuencias que tiene para la sociedad, el medioambiente y las relaciones laborales, proponiendo medidas sostenibles y reconociendo los retos actuales a los que se enfrenta la transición ecológica para poner en valor la importancia de una ciudadanía responsable y preocupada por sus actos."
-      descriptores: [CCL3, STEM5, CD1, CPSAA2, CPSAA3, CC2, CC4, CE1, CE2]
+      descriptores:
+        "3.º ESO": [CCL3, STEM5, CD1, CPSAA2, CPSAA3, CC2, CC4, CE1, CE2]
   criterios_evaluacion:
     - curso: "3.º ESO"
       criterios:

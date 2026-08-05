@@ -53,8 +53,25 @@ properties:
     type: object
     additionalProperties: false
     properties:
-      # Modelo de régimen general (LOMLOE)
-      competencias_especificas: {type: array}
+      # Modelo de régimen general (LOMLOE).
+      # `descriptores` de cada competencia es un mapa de curso a lista de códigos
+      # (DEC-0008), porque el decreto asigna descriptores distintos según el curso.
+      # La lista plana se admite como forma transitoria: quedan competencias sin
+      # migrar cuya vinculación no se ha podido verificar contra la fuente, que el
+      # validador reporta como aviso y `TAREA-073` debe resolver.
+      competencias_especificas:
+        type: array
+        items:
+          type: object
+          properties:
+            descriptores:
+              oneOf:
+                - type: object
+                  additionalProperties:
+                    type: array
+                    items: {type: string}
+                - type: array
+                  items: {type: string}
       criterios_evaluacion: {type: array}
       saberes_basicos: {type: array}
       descriptores_operativos: {type: array}

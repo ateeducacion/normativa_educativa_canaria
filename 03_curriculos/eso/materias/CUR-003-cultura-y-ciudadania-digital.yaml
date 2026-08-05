@@ -16,27 +16,33 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Buscar, organizar, almacenar e interpretar información digital aplicando estrategias de búsqueda y valorando sesgos, validez, calidad y accesibilidad."
       enunciado_oficial: "Buscar, organizar, almacenar e interpretar información en distintos formatos, mediante la aplicación de estrategias de búsqueda, valorando sesgos, validez, calidad, actualidad, accesibilidad y fiabilidad de las fuentes y contenidos digitales, para organizar, almacenar y reutilizar dicha información con posterioridad y crear su propio entorno personal de aprendizaje."
-      descriptores: [CCL2, CCL3, CD1, CD2, CPSAA5, CC3]
+      descriptores:
+        "3.º ESO": [CCL2, CCL3, CD1, CD2, CPSAA5, CC3]
     - codigo: "C2"
       enunciado_resumido: "Crear y reutilizar contenidos digitales accesibles de forma individual y cooperativa respetando los derechos de autoría y la propiedad intelectual."
       enunciado_oficial: "Crear y reutilizar contenidos digitales accesibles de forma individual y cooperativa en distintos formatos, utilizando tecnologías digitales, respetando los derechos de autoría y la propiedad intelectual, para expresar ideas, conocimientos, sentimientos e inquietudes de forma inclusiva, creativa y eficaz."
-      descriptores: [CCL1, CCL2, CCL3, CCL5, CD1, CD2, CPSAA3, CE3, CCEC3, CCEC4]
+      descriptores:
+        "3.º ESO": [CCL1, CCL2, CCL3, CCL5, CD1, CD2, CPSAA3, CE3, CCEC3, CCEC4]
     - codigo: "C3"
       enunciado_resumido: "Aplicar estrategias de pensamiento computacional y programación para resolver problemas, analizando críticamente las soluciones y reformulando el procedimiento si fuera necesario."
       enunciado_oficial: "Aplicar estrategias de pensamiento computacional y programación para resolver problemas, analizando críticamente las soluciones de forma eficaz y reformulando el procedimiento, si fuera necesario."
-      descriptores: [CCL2, STEM1, STEM3, CD2, CD5, CPSAA3, CPSAA4, CPSAA5, CE3]
+      descriptores:
+        "3.º ESO": [CCL2, STEM1, STEM3, CD2, CD5, CPSAA3, CPSAA4, CPSAA5, CE3]
     - codigo: "C4"
       enunciado_resumido: "Comunicar y compartir contenidos digitales de forma colaborativa respetando la etiqueta digital, la privacidad, los derechos de autoría y la propiedad intelectual."
       enunciado_oficial: "Comunicar y compartir contenidos digitales de forma colaborativa, mediante el empleo de tecnologías digitales accesibles, utilizando estrategias de comunicación que respeten la etiqueta digital, la privacidad, los derechos de autoría y la propiedad intelectual, con la finalidad de construir una ciudadanía e identidad digital responsables."
-      descriptores: [CCL1, CCL2, CCL5, CD2, CD3, CD4, CPSAA3, CC1, CCEC4]
+      descriptores:
+        "3.º ESO": [CCL1, CCL2, CCL5, CD2, CD3, CD4, CPSAA3, CC1, CCEC4]
     - codigo: "C5"
       enunciado_resumido: "Aplicar medidas de seguridad para proteger dispositivos, datos personales, privacidad y contenidos asociados al uso de tecnologías digitales."
       enunciado_oficial: "Aplicar medidas de seguridad, para proteger los dispositivos, los datos personales, la privacidad y los contenidos asociados al uso de las tecnologías digitales, identificando los riesgos y beneficios, personales, sociales y medioambientales y haciendo un uso crítico, responsable, seguro, saludable y sostenible de ellas."
-      descriptores: [CCL2, STEM5, CD4, CPSAA2, CC1, CC2, CE1]
+      descriptores:
+        "3.º ESO": [CCL2, STEM5, CD4, CPSAA2, CC1, CC2, CE1]
     - codigo: "C6"
       enunciado_resumido: "Utilizar de manera innovadora las tecnologías digitales para comprender, resolver o derivar problemas cotidianos y los relativos al funcionamiento de dispositivos."
       enunciado_oficial: "Utilizar de manera innovadora las tecnologías digitales, evaluando, seleccionando, configurando y personalizando las distintas herramientas para comprender, resolver o derivar los problemas cotidianos, así como los relativos al funcionamiento de dispositivos, identificando las necesidades detectadas, para desenvolverse en el mundo digital en cualquier ámbito, promoviendo el desarrollo de la competencia digital propia o de otras personas."
-      descriptores: [CCL2, STEM1, STEM2, STEM4, CD2, CD5, CPSAA5, CE3]
+      descriptores:
+        "?": [CCL2, STEM1, STEM2, STEM4, CD2, CD5, CPSAA5, CE3]
   criterios_evaluacion:
     - curso: "3.º ESO"
       criterios:

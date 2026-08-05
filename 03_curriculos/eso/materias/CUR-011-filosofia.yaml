@@ -16,15 +16,18 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Investigar y seleccionar información significativa sobre interrogantes, problemas y conceptos fundamentales de la filosofía."
       enunciado_oficial: "Investigar y seleccionar información significativa sobre interrogantes, problemas y conceptos fundamentales de la filosofía, para desarrollar una actitud indagadora y crítica que reconozca el papel del pensamiento filosófico como saber crítico que aspira a fundamentar y argumentar sobre los problemas de la vida y de la realidad, tanto desde una vertiente teórica como práctica."
-      descriptores: ["CCL2", "CCL3", "STEM1", "CD1", "CD2"]
+      descriptores:
+        "4.º ESO": [CCL2, CCL3, STEM1, CD1, CD2]
     - codigo: "C2"
       enunciado_resumido: "Dialogar, debatir y argumentar de forma rigurosa, tolerante y empática."
       enunciado_oficial: "Dialogar, debatir y argumentar de forma rigurosa, tolerante y empática a través de coloquios u otras actividades para resolver supuestos prácticos contextualizados en los que se apliquen sus deliberaciones, evitando modos dogmáticos y falaces, intercambiando ideas y desarrollando un criterio propio para el ejercicio de una ciudadanía activa y democrática."
-      descriptores: ["CCL1", "CCL5", "CP3", "CD3", "CPSAA3", "CPSAA4", "CC3", "CE1"]
+      descriptores:
+        "4.º ESO": [CCL1, CCL5, CP3, CD3, CPSAA3, CPSAA4, CC3, CE1]
     - codigo: "C3"
       enunciado_resumido: "Investigar acerca de los principales interrogantes de la filosofía política."
       enunciado_oficial: "Investigar acerca de los principales interrogantes de la filosofía política, atendiendo a la utilidad del pensamiento utópico y los conceptos de justicia, libertad y creatividad, a través de la creación de proyectos o afrontando retos y problemas de interés personal y colectivo, para valorar la dimensión práctica de la razón como orientadora de la acción humana y de la libertad como condición básica de la capacidad creadora."
-      descriptores: ["CCL1", "CCL5", "STEM1", "CD3", "CPSAA3", "CPSAA4", "CC3", "CE1", "CE3", "CCEC3"]
+      descriptores:
+        "4.º ESO": [CCL1, CCL5, STEM1, CD3, CPSAA3, CPSAA4, CC3, CE1, CE3, CCEC3]
   criterios_evaluacion:
     - curso: "4.º ESO"
       criterios:

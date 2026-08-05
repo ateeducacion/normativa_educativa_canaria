@@ -16,23 +16,28 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Valorar la pervivencia del mundo clásico y producir textos orales, escritos o multimodales para reconocer la huella grecorromana en la cultura occidental."
       enunciado_oficial: "Valorar la pervivencia del mundo clásico, desarrollando producciones escritas u orales acerca de manifestaciones culturales, artísticas y literarias de la actualidad, para identificar la presencia de Grecia y Roma en el mundo occidental a través de su legado material e inmaterial y apreciarlo como fuente de inspiración permanente para la actividad creadora de todos los tiempos."
-      descriptores: [CCL1, CCL3, CP3, STEM3, CD1, CD2, CD3, CPSAA3, CPSAA5, CC4, CCEC1, CCEC2, CCEC3]
+      descriptores:
+        "3.º ESO": [CCL1, CCL3, CP3, STEM3, CD1, CD2, CD3, CPSAA3, CPSAA5, CC4, CCEC1, CCEC2, CCEC3]
     - codigo: "C2"
       enunciado_resumido: "Reconocer la procedencia griega y latina de alfabetos, lenguas romances, étimos y formantes para ampliar el repertorio lingüístico del alumnado."
       enunciado_oficial: "Reconocer la procedencia del griego y del latín, así como de sus alfabetos, y el origen común de diferentes lenguas, entre ella, las lengua romances y su mutua influencia, identificando y usando los étimos griegos y los prefijos y sufijos latinos más importantes en las lenguas del alumnado, como estrategia para mejorar y ampliar su repertorio lingüístico individual y su competencia lingüística."
-      descriptores: [CCL1, CCL3, CCL5, CP2, CP3, STEM1, CD1, CE3]
+      descriptores:
+        "3.º ESO": [CCL1, CCL3, CCL5, CP2, CP3, STEM1, CD1, CE3]
     - codigo: "C3"
       enunciado_resumido: "Describir el marco geográfico e histórico de Grecia y Roma, sus relaciones, hitos y personajes relevantes para desarrollar conciencia histórica e intercultural."
       enunciado_oficial: "Describir el marco geográfico y el contexto histórico de las civilizaciones griega y romana, reflexionando sobre las relaciones entre ambas sociedades e identificando sus hitos y personajes más relevantes que han trascendido históricamente, con el objetivo de adquirir una perspectiva abierta y global de la Antigüedad grecolatina, y de favorecer el desarrollo de una conciencia histórica e intercultural."
-      descriptores: [CCL1, CCL3, CP3, CD1, CD2, CPSAA4, CC1, CCEC1]
+      descriptores:
+        "3.º ESO": [CCL1, CCL3, CP3, CD1, CD2, CPSAA4, CC1, CCEC1]
     - codigo: "C4"
       enunciado_resumido: "Comprender la organización política, social y cotidiana de Grecia y Roma, así como sus manifestaciones religiosas, festivas y de ocio, para analizarlas críticamente en relación con el presente."
       enunciado_oficial: "Comprender las formas de organización política y social, así como la vida cotidiana en Grecia y Roma, identificando los diferentes sistemas políticos y grupos sociales, y describiendo las distintas formas de trabajo y ocio, para analizar críticamente el presente y valorar las civilizaciones griega y romana como pilares básicos sobre los que se construye la identidad y el actual contexto sociopolítico europeos. Asimismo, comparar las manifestaciones y fiestas religiosas de Grecia y Roma con las actuales, para juzgar, desde una perspectiva crítica y formal basada en la tolerancia y el respeto, la diversidad cultural y religiosa de las diferentes sociedades."
-      descriptores: [CCL1, CCL2, CCL3, CP3, CD1, CD3, CPSAA3, CC1, CC2]
+      descriptores:
+        "3.º ESO": [CCL1, CCL2, CCL3, CP3, CD1, CD3, CPSAA3, CC1, CC2]
     - codigo: "C5"
       enunciado_resumido: "Conocer personajes y relatos mitológicos grecorromanos e identificarlos en producciones literarias, musicales, plásticas y visuales antiguas o modernas."
       enunciado_oficial: "Conocer los principales personajes mitológicos grecorromanos y los mitos relacionados con estos, de manera que puedan identificarlos en fragmentos u obras literarias, musicales, plásticas y visuales, antiguas o modernas, valorando la influencia que han ejercido para el proceso creativo y disfrute de las personas y de sus diferentes producciones."
-      descriptores: [CCL1, CCL2, CCL3, CP3, STEM3, CD1, CD2, CD3, CPSAA3, CPSAA5, CC1, CCEC1, CCEC2, CCEC3]
+      descriptores:
+        "?": [CCL1, CCL2, CCL3, CP3, STEM3, CD1, CD2, CD3, CPSAA3, CPSAA5, CC1, CCEC1, CCEC2, CCEC3]
   criterios_evaluacion:
     - curso: "3.º ESO"
       criterios:

@@ -1,9 +1,10 @@
 ---
 id: PREG-008
 titulo: "Los descriptores operativos varían por curso y el modelo de ficha curricular no lo representa"
-estado: "Abierta"
+estado: "Resuelta"
 fecha_registro: 2026-08-05
-relacionadas: [CUR-001, CUR-009, DEC-0004, DEC-0007, TAREA-066, TAREA-067, TAREA-068, TAREA-069, TAREA-071, TAREA-072, TAREA-074]
+fecha_resolucion: 2026-08-05
+relacionadas: [CUR-001, CUR-009, DEC-0004, DEC-0007, TAREA-066, TAREA-067, TAREA-068, TAREA-069, TAREA-071, TAREA-072, TAREA-074, TAREA-075, DEC-0008]
 ---
 
 # PREG-008 — Los descriptores operativos varían por curso
@@ -137,4 +138,39 @@ Consecuencia para `TAREA-066` a `TAREA-069`: cuando se desbloqueen, no basta con
 descriptores operativos. Hay que **sustituir también `descripcion` por el enunciado literal**,
 y previsiblemente renombrar el campo a `enunciado_oficial` para alinearlo con las fichas
 completas.
+
+## Respuesta (2026-08-05)
+
+Resuelta en `DEC-0008`, que decide las tres cosas que esta pregunta dejaba abiertas.
+
+**1. Modelo.** `descriptores` pasa a ser un mapa de curso a lista de códigos, siempre, también
+cuando la materia se imparte en un solo curso. Una única forma evita que cada consumidor
+distinga dos tipos.
+
+**2. Alcance de la corrección.** No se degradan las 18 fichas. Rehecha la auditoría con un
+extractor que cubre 616 bloques —frente a los 308 iniciales— y que ancla en el texto de la
+competencia en lugar de en la estructura del documento, el resultado mejora sustancialmente:
+
+| Situación | Competencias |
+| --- | ---: |
+| Coinciden con los descriptores de un curso del decreto | 94 |
+| Divergen de todas las versiones de curso | 5 |
+| No comparables: el enunciado no es literal | 2 |
+
+**94 de 101, un 93,1 %.** Las 5 divergencias y los 2 enunciados no literales están todos en
+`CUR-001` y `CUR-009`, y se corrigen en `TAREA-073`.
+
+**20 de las 99 competencias comparadas tienen descriptores distintos según el curso**, casi el
+doble de lo estimado con la medición anterior. Confirma que el problema de modelo era real y no
+marginal.
+
+**3. Literalidad.** El enunciado es siempre literal y el campo se llama `enunciado_oficial` en
+todas las fichas. En las parciales, `descripcion` se sustituye durante la re-extracción.
+
+## Estado de aplicación
+
+`TAREA-075` ya ha migrado las 18 fichas al mapa por curso: 94 competencias migradas con su
+vinculación verificada contra la fuente, y las 7 problemáticas intactas, marcadas como aviso por
+el validador hasta que `TAREA-073` las resuelva. No se sustituye un dato dudoso por otro sin
+evidencia.
 

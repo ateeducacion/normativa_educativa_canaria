@@ -16,23 +16,28 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Comprender los procesos físicos y psicológicos implicados en la cognición, motivación y aprendizaje."
       enunciado_oficial: "Comprender los procesos físicos y psicológicos implicados en la cognición, la motivación y el aprendizaje, analizando sus implicaciones en la conducta y desarrollando estrategias de gestión emocional y del propio proceso de aprendizaje, para mejorar el desempeño en el ámbito personal, social y académico y lograr mayor control sobre las acciones y sus consecuencias."
-      descriptores: ["CPSAA1", "CPSAA3", "CPSAA4", "CPSAA5"]
+      descriptores:
+        "4.º ESO": [CPSAA1, CPSAA3, CPSAA4, CPSAA5]
     - codigo: "C2"
       enunciado_resumido: "Comprender las características del desarrollo evolutivo de la persona."
       enunciado_oficial: "Comprender las principales características del desarrollo evolutivo de la persona, analizando aquellos elementos de la madurez que condicionan los comportamientos e identificando las cualidades personales y de relación social propias y de los demás, para potenciar aquellas que favorecen la autonomía y permiten afrontar de forma eficaz los nuevos retos."
-      descriptores: ["CPSAA1", "CPSAA2", "CPSAA3", "CPSAA5", "CC1"]
+      descriptores:
+        "4.º ESO": [CPSAA1, CPSAA2, CPSAA3, CPSAA5, CC1]
     - codigo: "C3"
       enunciado_resumido: "Conocer y comprender al ser humano, sus sociedades y cultura."
       enunciado_oficial: "Conocer y comprender al ser humano, sus sociedades y cultura, analizando con empatía su diversidad y complejidad desde diferentes perspectivas, para fomentar el espíritu crítico sobre aspectos que dirigen el funcionamiento humano, social y cultural."
-      descriptores: ["CP3", "CPSAA3", "CC1", "CC2", "CC3", "CE3"]
+      descriptores:
+        "4.º ESO": [CP3, CPSAA3, CC1, CC2, CC3, CE3]
     - codigo: "C4"
       enunciado_resumido: "Conocer la dimensión social y antropológica del ser humano."
       enunciado_oficial: "Conocer la dimensión social y antropológica del ser humano y desarrollar estrategias y habilidad sociales adecuadas a contextos cambiantes y a grupos diferentes, considerando los factores personales y socioculturales que intervienen en la configuración psicológica de la persona, para comprenderse a uno mismo e interactuar con los demás desde el respeto a la diversidad personal, social y cultural."
-      descriptores: ["CP3", "CC1", "CC2", "CC3", "CE2"]
+      descriptores:
+        "4.º ESO": [CP3, CC1, CC2, CC3, CE2]
     - codigo: "C5"
       enunciado_resumido: "Explorar las oportunidades académicas y profesionales del entorno."
       enunciado_oficial: "Explorar las oportunidades académicas y profesionales que ofrece el entorno, descubriendo y priorizando las necesidades e intereses personales y vocacionales y desarrollando el espíritu de iniciativa y de superación y las destrezas necesarias en la toma de decisiones, para llevar a cabo un proyecto personal, académico y profesional propio y realizar una primera aproximación al diseño de un plan de búsqueda activa de empleo."
-      descriptores: ["CD3", "CPSAA4", "CPSAA5", "CE1", "CE2", "CE3"]
+      descriptores:
+        "?": [CD3, CPSAA4, CPSAA5, CE1, CE2, CE3]
   criterios_evaluacion:
     - curso: "4.º ESO"
       criterios:

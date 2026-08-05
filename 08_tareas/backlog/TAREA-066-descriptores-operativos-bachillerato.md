@@ -1,7 +1,7 @@
 ---
 id: TAREA-066
 titulo: "Extraer los descriptores operativos de las fichas curriculares de bachillerato (CUR-037 a CUR-058)"
-estado: "Bloqueada"
+estado: "Pendiente"
 prioridad: "Alta"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
@@ -43,12 +43,10 @@ muestran el formato esperado dentro de `elementos.descriptores_operativos`.
 IDs consumidos: `TAREA-066`. No se crean entidades nuevas: solo se completan fichas `CUR`
 existentes. No tocar fichas fuera del rango CUR-037 a CUR-058.
 
-## Bloqueo (2026-08-05)
+## Desbloqueada (2026-08-05)
 
-Bloqueada por `PREG-008`. Al preparar la extracción se comprobó contra el texto oficial que
-**los descriptores operativos varían según el curso** en el que se imparte la materia, y el
-modelo actual solo admite una lista plana por competencia. Extraer ahora consolidaría el
-defecto.
+`PREG-008` quedó resuelta en `DEC-0008`, así que esta tarea se desbloquea. Al preparar la extracción se comprobó contra el texto oficial que
+**los descriptores operativos varían según el curso** en el que se imparte la materia, y el modelo ya admite el mapa por curso que fija `DEC-0008`.
 
 Trabajo de preparación ya hecho, aprovechable cuando se desbloquee:
 

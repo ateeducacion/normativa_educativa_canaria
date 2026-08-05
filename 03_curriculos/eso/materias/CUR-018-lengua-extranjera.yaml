@@ -16,27 +16,45 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Comprender e interpretar el sentido general y los detalles más relevantes de textos expresados de forma clara y en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias como la inferencia de significados."
       enunciado_oficial: "Comprender e interpretar el sentido general y los detalles más relevantes de textos expresados de forma clara y en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias como la inferencia de significados, para responder a necesidades comunicativas concretas."
-      descriptores: ["CCL2", "CCL3", "CP1", "CP2", "STEM1", "CD1", "CPSAA4"]
+      descriptores:
+        "1.º ESO": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+        "2.º ESO": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+        "3.º ESO": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+        "4.º ESO": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
     - codigo: "C2"
       enunciado_resumido: "Producir textos originales, de extensión media, sencillos y con una organización clara, usando estrategias de planificación, compensación o autorreparación."
       enunciado_oficial: "Producir textos originales, de extensión media, sencillos y con una organización clara, usando estrategias tales como la planificación, la compensación o la autorreparación, para expresar de forma creativa, adecuada y coherente, mensajes relevantes y responder a propósitos comunicativos concretos."
-      descriptores: ["CCL1", "CP1", "CP2", "STEM1", "CD2", "CPSAA5", "CCEC3"]
+      descriptores:
+        "1.º ESO": [CCL1, CP1, CP2, STEM1, CD2, CPSAA5, CCEC3]
+        "2.º ESO": [CCL1, CP1, CP2, STEM1, CD2, CPSAA5, CCEC3]
+        "3.º ESO": [CCL1, CP1, CP2, STEM1, CD2, CPSAA5, CCEC3]
+        "4.º ESO": [CCL1, CP1, CP2, STEM1, CD2, CPSAA5, CCEC3]
     - codigo: "C3"
       enunciado_resumido: "Interactuar con otras personas con creciente autonomía, usando estrategias de cooperación y recursos analógicos y digitales."
       enunciado_oficial: "Interactuar con otras personas con creciente autonomía, usando estrategias de cooperación y empleando recursos analógicos y digitales, para responder a propósitos comunicativos concretos en intercambios respetuosos con las normas de cortesía."
-      descriptores: ["CCL1", "CCL5", "CP1", "CP2", "STEM1", "CD3", "CPSAA3", "CC3"]
+      descriptores:
+        "1.º ESO": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3, CC3]
+        "2.º ESO": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3, CC3]
+        "3.º ESO": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3, CC3]
+        "4.º ESO": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3, CC3]
     - codigo: "C4"
       enunciado_resumido: "Mediar en situaciones cotidianas entre distintas lenguas, usando estrategias y conocimientos sencillos orientados a explicar conceptos o simplificar mensajes."
       enunciado_oficial: "Mediar en situaciones cotidianas entre distintas lenguas, usando estrategias y conocimientos sencillos orientados a explicar conceptos o simplificar mensajes, para transmitir información de manera eficaz, clara y responsable."
-      descriptores: ["CCL5", "CP1", "CP2", "CP3", "CD2", "CPSAA1"]
+      descriptores:
+        "1.º ESO": [CCL5, CP1, CP2, CP3, CD2, CPSAA1]
+        "2.º ESO": [CCL5, CP1, CP2, CP3, CD2, CPSAA1]
+        "3.º ESO": [CCL5, CP1, CP2, CP3, CD2, CPSAA1]
+        "4.º ESO": [CCL5, CP1, CP2, CP3, CD2, CPSAA1]
     - codigo: "C5"
       enunciado_resumido: "Ampliar y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando de forma crítica sobre su funcionamiento."
       enunciado_oficial: "Ampliar y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando de forma crítica sobre su funcionamiento y tomando conciencia de las estrategias y conocimientos propios, para mejorar la respuesta a necesidades comunicativas concretas."
-      descriptores: ["CP2", "STEM1", "CD2", "CPSAA1", "CPSAA4", "CPSAA5", "CE2"]
+      descriptores:
+        "?": [CP2, STEM1, CD2, CPSAA1, CPSAA4, CPSAA5, CE2]
     - codigo: "C6"
       enunciado_resumido: "Valorar críticamente y adecuarse a la diversidad lingüística, cultural y artística a partir de la lengua extranjera."
       enunciado_oficial: "Valorar críticamente y adecuarse a la diversidad lingüística, cultural y artística a partir de la lengua extranjera, identificando y compartiendo las semejanzas y las diferencias entre lenguas y culturas, para actuar de forma empática y respetuosa en situaciones interculturales."
-      descriptores: ["CCL5", "CP3", "CPSAA1", "CC2", "CC3", "CE1", "CCEC1"]
+      descriptores:
+        "?": [CCL5, CP3, CPSAA1, CC2, CC3, CE1, CCEC1]
   criterios_evaluacion:
     - curso: "1.º ESO"
       criterios:

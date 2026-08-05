@@ -16,39 +16,63 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Buscar, seleccionar, tratar y organizar información sobre temas relevantes del presente y del pasado."
       enunciado_oficial: "Buscar, seleccionar, tratar y organizar información sobre temas relevantes del presente y del pasado, usando críticamente fuentes históricas y geográficas, para adquirir conocimientos, elaborar y expresar contenidos en varios formatos."
-      descriptores: ["CCL2", "CCL3", "STEM4", "CD1", "CD2", "CD3", "CC1"]
+      descriptores:
+        "1.º ESO": [CCL2, CCL3, STEM4, CD1, CD2, CD3, CC1]
+        "2.º ESO": [CCL2, CCL3, STEM4, CD1, CD2, CD3, CC1]
+        "3.º ESO": [CCL2, CCL3, STEM4, CD1, CD2, CD3, CC1]
+        "4.º ESO": [CCL2, CCL3, STEM4, CD1, CD2, CD3, CD4, CD5, CC1, CCEC4]
     - codigo: "C2"
       enunciado_resumido: "Indagar, argumentar y elaborar productos propios sobre problemas relevantes en la actualidad, desde lo local a lo global."
       enunciado_oficial: "Indagar, argumentar y elaborar productos propios sobre problemas geográficos, históricos y sociales que resulten relevantes en la actualidad, desde lo local a lo global, para desarrollar un pensamiento crítico, respetuoso con las diferencias, que contribuya a la construcción de la propia identidad y a enriquecer el acervo común."
-      descriptores: ["CCL1", "CCL2", "CD1", "CD2", "CC1", "CC3", "CE3", "CCEC3"]
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CD1, CD2, CC1, CC3, CE3, CCEC3]
+        "2.º ESO": [CCL1, CCL2, CD1, CD2, CC1, CC3, CE3, CCEC3]
+        "3.º ESO": [CCL1, CCL2, CD1, CD2, CC1, CC3, CE3, CCEC3]
+        "4.º ESO": [CCL1, CCL2, CCL3, CD1, CD2, CC1, CC3, CE3, CCEC3]
     - codigo: "C3"
       enunciado_resumido: "Conocer los principales desafíos de las sociedades a lo largo del tiempo y los retos de la actualidad."
       enunciado_oficial: "Conocer los principales desafíos a los que se han enfrentado distintas sociedades a lo largo del tiempo, identificando las causas y consecuencias de los cambios producidos y los problemas a los que se enfrentan en la actualidad, mediante el desarrollo de proyectos de investigación y el uso de fuentes fiables, para realizar propuestas que contribuyan al desarrollo sostenible."
-      descriptores: ["CCL2", "CCL3", "STEM3", "STEM4", "STEM5", "CPSAA3", "CC3", "CC4", "CE1", "CCEC1"]
+      descriptores:
+        "1.º ESO": [CCL2, CCL3, STEM3, STEM4, STEM5, CPSAA3, CC3, CC4, CE1, CCEC1]
+        "2.º ESO": [CCL2, CCL3, STEM3, STEM4, STEM5, CPSAA3, CC3, CC4, CE1, CCEC1]
+        "3.º ESO": [CCL2, CCL3, STEM3, STEM4, STEM5, CPSAA3, CC3, CC4, CE1, CCEC1]
+        "4.º ESO": [CCL2, CCL3, STEM3, STEM4, STEM5, CD1, CD2, CPSAA3, CC3, CC4, CE1, CCEC1]
     - codigo: "C4"
       enunciado_resumido: "Identificar y analizar los elementos del paisaje y su articulación en sistemas naturales, rurales y urbanos."
       enunciado_oficial: "Identificar y analizar los elementos del paisaje y su articulación en sistemas complejos naturales, rurales y urbanos, así como su evolución en el tiempo, interpretando las causas de las transformaciones y valorando el grado de equilibrio existente en los distintos ecosistemas, para promover su conservación, mejora y uso sostenible."
-      descriptores: ["STEM3", "CPSAA2", "CC1", "CC2", "CC3", "CC4", "CE1"]
+      descriptores:
+        "1.º ESO": [STEM3, CPSAA2, CC1, CC2, CC3, CC4, CE1]
+        "2.º ESO": [STEM3, CPSAA2, CC1, CC2, CC3, CC4, CE1]
+        "3.º ESO": [STEM3, CPSAA2, CC1, CC2, CC3, CC4, CE1]
     - codigo: "C5"
       enunciado_resumido: "Analizar planteamientos históricos y geográficos para explicar los sistemas democráticos y la convivencia."
       enunciado_oficial: "Analizar de forma crítica planteamientos históricos y geográficos explicando la construcción de los sistemas democráticos y los principios constitucionales que rigen la vida en comunidad, así como asumiendo los deberes y derechos propios de nuestro marco de convivencia, para promover la participación ciudadana y la cohesión social."
-      descriptores: ["CCL5", "CC1", "CC2", "CC3", "CCEC1"]
+      descriptores:
+        "1.º ESO": [CCL5, CC1, CC2, CC3, CCEC1]
+        "3.º ESO": [CCL5, CC1, CC2, CC3, CCEC1]
+        "4.º ESO": [CCL2, CCL5, CP3, CPSAA3, CC1, CC2, CC3, CCEC1]
+        "?": [CCL5, CC1, CC2, CC3, CCEC1]
     - codigo: "C6"
       enunciado_resumido: "Comprender los procesos que han conformado la realidad multicultural y reconocer la riqueza de la diversidad."
       enunciado_oficial: "Comprender los procesos geográficos, históricos y culturales que han conformado la realidad multicultural en la que vivimos, conociendo y difundiendo la historia y cultura de las minorías étnicas presentes en nuestro país y valorando la aportación de los movimientos en defensa de la igualdad y la inclusión, para reducir estereotipos, evitar cualquier tipo de discriminación y violencia, y reconocer la riqueza de la diversidad."
-      descriptores: ["CCL5", "CPSAA3", "CC1", "CC2", "CC3", "CCEC1"]
+      descriptores:
+        "4.º ESO": [CCL5, CP3, CPSAA3, CC1, CC2, CC3, CCEC1]
+        "?": [CCL5, CPSAA3, CC1, CC2, CC3, CCEC1]
     - codigo: "C7"
       enunciado_resumido: "Identificar los fundamentos de las identidades a través del patrimonio material e inmaterial."
       enunciado_oficial: "Identificar los fundamentos que sostienen las diversas identidades propias y las ajenas, a través del conocimiento y puesta en valor del patrimonio material e inmaterial que compartimos para conservarlo y respetar los sentimientos de pertenencia, así como para favorecer procesos que contribuyan a la cohesión y solidaridad territorial en orden a los valores del europeísmo y de la Declaración Universal de los Derechos Humanos."
-      descriptores: ["CP3", "CPSAA1", "CC1", "CC2", "CC3", "CCEC1"]
+      descriptores:
+        "?": [CP3, CPSAA1, CC1, CC2, CC3, CCEC1]
     - codigo: "C8"
       enunciado_resumido: "Tomar conciencia del papel de los ciclos demográficos, el ciclo vital y las relaciones intergeneracionales."
       enunciado_oficial: "Tomar conciencia del papel de los ciclos demográficos, el ciclo vital, las formas de vida y las relaciones intergeneracionales y de dependencia en la sociedad actual y su evolución a lo largo del tiempo, analizándolas de forma crítica, para promover alternativas saludables, sostenibles, enriquecedoras y respetuosas con la dignidad humana y el compromiso con la sociedad y el entorno."
-      descriptores: ["STEM5", "CD4", "CPSAA2", "CPSAA5", "CC1", "CC2", "CC3"]
+      descriptores:
+        "?": [STEM5, CD4, CPSAA2, CPSAA5, CC1, CC2, CC3]
     - codigo: "C9"
       enunciado_resumido: "Conocer y valorar la importancia de la seguridad integral ciudadana en la cultura de convivencia."
       enunciado_oficial: "Conocer y valorar la importancia de la seguridad integral ciudadana en la cultura de convivencia nacional e internacional, reconociendo la contribución del Estado, sus instituciones y otras entidades sociales a la ciudadanía global, a la paz, a la cooperación internacional y al desarrollo sostenible, para promover la consecución de un mundo más seguro, solidario, sostenible y justo."
-      descriptores: ["CCL2", "CC1", "CC2", "CC3", "CC4", "CE1", "CCEC1"]
+      descriptores:
+        "?": [CCL2, CC1, CC2, CC3, CC4, CE1, CCEC1]
   criterios_evaluacion:
     - curso: "1.º ESO"
       criterios:

@@ -16,43 +16,65 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Describir y apreciar la diversidad lingüística del mundo a partir del reconocimiento de las lenguas del alumnado y la realidad plurilingüe de España."
       enunciado_oficial: "Describir y apreciar la diversidad lingüística del mundo a partir del reconocimiento de las lenguas del alumnado y la realidad plurilingüe y pluricultural de España, analizando el origen y desarrollo sociohistórico de sus lenguas y las características de las principales variedades dialectales del español, para favorecer la reflexión interlingüística, para combatir los estereotipos y prejuicios lingüísticos y para valorar dicha diversidad como fuente de riqueza cultural."
-      descriptores: ["CCL1", "CCL5", "CP2", "CP3", "CD1", "CC1", "CC2", "CC3", "CCEC1", "CCEC3"]
+      descriptores:
+        "1.º ESO": [CCL1, CCL5, CP2, CP3, CD1, CC1, CC2, CC3, CCEC1, CCEC3]
+        "2.º ESO": [CCL1, CCL5, CP2, CP3, CD1, CC1, CC2, CC3, CCEC1, CCEC3]
+        "3.º ESO": [CCL1, CCL3, CCL5, CP2, CP3, CD1, CC1, CC2, CC3, CCEC1, CCEC3]
+        "4.º ESO": [CCL1, CCL3, CCL5, CP2, CP3, CD1, CC1, CC2, CC3, CCEC1, CCEC3]
     - codigo: "C2"
       enunciado_resumido: "Comprender e interpretar textos orales y multimodales recogiendo el sentido general y la información más relevante."
       enunciado_oficial: "Comprender e interpretar textos orales y multimodales recogiendo el sentido general y la información más relevante, identificando el punto de vista y la intención del emisor y valorando su fiabilidad, su forma y su contenido, para construir conocimiento, formarse opinión y ensanchar las posibilidades de disfrute y ocio."
-      descriptores: ["CCL2", "CCL5", "CP2", "STEM1", "CD1", "CD2", "CD3", "CPSAA4", "CC3"]
+      descriptores:
+        "1.º ESO": [CCL2, CCL5, CP2, STEM1, CD1, CD2, CD3, CPSAA4, CC3]
+        "2.º ESO": [CCL2, CCL5, CP2, STEM1, CD1, CD2, CD3, CPSAA4, CC3]
+        "3.º ESO": [CCL2, CCL5, CP2, STEM1, CD1, CD2, CD3, CPSAA4, CE3]
+        "4.º ESO": [CCL2, CCL3, CP2, STEM1, CD1, CD2, CD3, CPSAA4, CC3]
     - codigo: "C3"
       enunciado_resumido: "Producir textos orales y multimodales con coherencia, cohesión, fluidez y el registro adecuado, participando en interacciones orales con actitud cooperativa."
       enunciado_oficial: "Producir textos orales y multimodales con coherencia, cohesión, fluidez y el registro adecuado, atendiendo a las convenciones propias de los diferentes géneros discursivos, y participar en interacciones orales con actitud cooperativa y respetuosa, tanto para construir conocimiento y establecer vínculos personales como para intervenir de manera activa e informada en diferentes contextos sociales."
-      descriptores: ["CCL1", "CCL3", "CCL5", "STEM1", "CD1", "CD2", "CD3", "CPSAA4", "CC2", "CE1"]
+      descriptores:
+        "1.º ESO": [CCL1, CCL3, CCL5, STEM1, CD1, CD2, CD3, CPSAA4, CC2, CE1]
+        "2.º ESO": [CCL1, CCL3, CCL5, STEM1, CD1, CD2, CD3, CPSAA4, CC2, CE1]
+        "3.º ESO": [CCL1, CCL3, CCL5, STEM1, CD1, CD2, CD3, CPSAA4, CC2, CE1]
+        "4.º ESO": [CCL1, CCL3, CCL5, STEM1, CD2, CD3, CPSAA4, CC2, CE1]
     - codigo: "C4"
       enunciado_resumido: "Comprender, interpretar y valorar textos escritos, con sentido crítico y diferentes propósitos de lectura."
       enunciado_oficial: "Comprender, interpretar y valorar textos escritos, con sentido crítico y diferentes propósitos de lectura, reconociendo el sentido global y las ideas principales y secundarias, identificando la intención del emisor, reflexionando sobre el contenido y la forma y evaluando su calidad y fiabilidad, para dar respuesta a necesidades e intereses comunicativos diversos y para construir conocimiento."
-      descriptores: ["CCL2", "CCL3", "CCL5", "STEM1", "CD1", "CPSAA4", "CC3"]
+      descriptores:
+        "1.º ESO": [CCL2, CCL3, CCL5, STEM1, CD1, CPSAA4, CC3]
+        "2.º ESO": [CCL2, CCL3, CCL5, STEM1, CD1, CPSAA4, CC3]
+        "3.º ESO": [CCL2, CCL3, CCL5, STEM1, CD1, CPSAA4, CC3]
+        "?": [CCL2, CCL3, CCL5, STEM1, CD1, CPSAA4, CC3]
     - codigo: "C5"
       enunciado_resumido: "Producir textos escritos y multimodales coherentes, cohesionados, adecuados y correctos atendiendo a las convenciones propias del género discursivo elegido."
       enunciado_oficial: "Producir textos escritos y multimodales coherentes, cohesionados, adecuados y correctos atendiendo a las convenciones propias del género discursivo elegido, para construir conocimiento y dar respuesta de manera informada, eficaz y creativa a demandas comunicativas concretas."
-      descriptores: ["CCL1", "CCL3", "CCL5", "STEM1", "CD2", "CD3", "CPSAA4", "CPSAA5", "CC2"]
+      descriptores:
+        "?": [CCL1, CCL3, CCL5, STEM1, CD2, CD3, CPSAA4, CPSAA5, CC2]
     - codigo: "C6"
       enunciado_resumido: "Seleccionar y contrastar información procedente de diferentes fuentes de manera progresivamente autónoma."
       enunciado_oficial: "Seleccionar y contrastar información procedente de diferentes fuentes de manera progresivamente autónoma, evaluando su fiabilidad y pertinencia en función de los objetivos de lectura y evitando los riesgos de manipulación y desinformación, e integrarla y transformarla en conocimiento para comunicarla, adoptando un punto de vista crítico y personal a la par que respetuoso con la propiedad intelectual."
-      descriptores: ["CCL3", "CD1", "CD2", "CD3", "CD4", "CPSAA4", "CPSAA5", "CC2", "CE3"]
+      descriptores:
+        "?": [CCL3, CD1, CD2, CD3, CD4, CPSAA4, CPSAA5, CC2, CE3]
     - codigo: "C7"
       enunciado_resumido: "Seleccionar y leer de manera progresivamente autónoma obras diversas como fuente de placer y conocimiento."
       enunciado_oficial: "Seleccionar y leer de manera progresivamente autónoma obras diversas como fuente de placer y conocimiento, configurando un itinerario lector que evolucione en cuanto a diversidad, complejidad y calidad de las obras, y compartir experiencias de lectura para construir la propia identidad lectora y disfrutar de la dimensión social de la lectura."
-      descriptores: ["CCL1", "CCL4", "CD3", "CPSAA1", "CCEC1", "CCEC2", "CCEC3"]
+      descriptores:
+        "?": [CCL1, CCL4, CD3, CPSAA1, CCEC1, CCEC2, CCEC3]
     - codigo: "C8"
       enunciado_resumido: "Leer, interpretar y valorar obras o fragmentos literarios del patrimonio nacional y universal, movilizando la experiencia biográfica y los conocimientos literarios para establecer vínculos entre textos y otras manifestaciones artísticas, para conformar un mapa cultural y crear textos de intención literaria."
       enunciado_oficial: "Leer, interpretar y valorar obras o fragmentos literarios del patrimonio nacional y universal, utilizando un metalenguaje específico y movilizando la experiencia biográfica y los conocimientos literarios y culturales para establecer vínculos entre textos diversos y con otras manifestaciones artísticas, para conformar un mapa cultural, ensanchar las posibilidades de disfrute de la literatura y crear textos de intención literaria."
-      descriptores: ["CCL1", "CCL4", "CD2", "CPSAA4", "CC1", "CCEC1", "CCEC2", "CCEC3", "CCEC4"]
+      descriptores:
+        "?": [CCL1, CCL4, CD2, CPSAA4, CC1, CCEC1, CCEC2, CCEC3, CCEC4]
     - codigo: "C9"
       enunciado_resumido: "Movilizar el conocimiento sobre la estructura de la lengua y sus usos, reflexionando de manera progresivamente autónoma sobre las elecciones lingüísticas y discursivas para mejorar las destrezas de producción y comprensión."
       enunciado_oficial: "Movilizar el conocimiento sobre la estructura de la lengua y sus usos y reflexionar de manera progresivamente autónoma sobre las elecciones lingüísticas y discursivas, con la terminología adecuada, para desarrollar la conciencia lingüística, para aumentar el repertorio comunicativo y para mejorar las destrezas tanto de producción oral y escrita como de comprensión e interpretación crítica."
-      descriptores: ["CCL1", "CCL2", "CP2", "STEM1", "STEM2", "CPSAA5"]
+      descriptores:
+        "?": [CCL1, CCL2, CP2, STEM1, STEM2, CPSAA5]
     - codigo: "C10"
       enunciado_resumido: "Poner las propias prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de conflictos y la igualdad de derechos, utilizando un lenguaje no discriminatorio."
       enunciado_oficial: "Poner las propias prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, utilizando un lenguaje no discriminatorio y desterrando los abusos de poder a través de la palabra para favorecer un uso no solo eficaz sino también ético y democrático del lenguaje."
-      descriptores: ["CCL1", "CCL5", "CP3", "CD3", "CPSAA3", "CC1", "CC2", "CC3"]
+      descriptores:
+        "?": [CCL1, CCL5, CP3, CD3, CPSAA3, CC1, CC2, CC3]
   criterios_evaluacion:
     - curso: "1.º ESO"
       criterios:

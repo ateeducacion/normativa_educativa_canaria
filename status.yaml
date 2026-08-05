@@ -1085,7 +1085,7 @@ tareas:
     siguiente_accion: null
   TAREA-066:
     titulo: "Extraer los descriptores operativos de las fichas curriculares de bachillerato (CUR-037 a CUR-058)"
-    estado: "Bloqueada"
+    estado: "Pendiente"
     prioridad: "Alta"
     tipo: "curriculo"
     responsable: '@.agents/skills/analisis-curricular'
@@ -1099,7 +1099,7 @@ tareas:
     siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 14 fichas."
   TAREA-067:
     titulo: "Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)"
-    estado: "Bloqueada"
+    estado: "Pendiente"
     prioridad: "Alta"
     tipo: "curriculo"
     responsable: '@.agents/skills/analisis-curricular'
@@ -1113,7 +1113,7 @@ tareas:
     siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-046 a las 10 fichas."
   TAREA-068:
     titulo: "Extraer los descriptores operativos de las fichas curriculares de eso (CUR-015 a CUR-023)"
-    estado: "Bloqueada"
+    estado: "Pendiente"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: '@.agents/skills/analisis-curricular'
@@ -1127,7 +1127,7 @@ tareas:
     siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 5 fichas."
   TAREA-069:
     titulo: "Extraer los descriptores operativos de las fichas curriculares de infantil (CUR-034 a CUR-036)"
-    estado: "Bloqueada"
+    estado: "Pendiente"
     prioridad: "Media"
     tipo: "curriculo"
     responsable: '@.agents/skills/analisis-curricular'
@@ -1219,6 +1219,24 @@ tareas:
     - NOR-047
     - PREG-008
     - TAREA-072
+    siguiente_accion: null
+
+  TAREA-069:
+    titulo: "Migrar los descriptores operativos a mapa por curso e incorporar el extractor al repositorio"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "curriculo"
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - DEC-0008
+    - PREG-008
+    - CUR-001
+    - CUR-009
+    - NOR-005
+    - TAREA-072
+    - TAREA-073
     siguiente_accion: null
 
 bloqueos: []

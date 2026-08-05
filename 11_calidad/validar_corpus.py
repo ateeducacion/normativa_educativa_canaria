@@ -213,6 +213,15 @@ def validar_tipo(tipo: str, cfg: dict) -> dict:
             if campo not in datos or datos[campo] in (None, [], ""):
                 avisos.append({"fichero": rel, "campo": campo, "mensaje": "campo recomendado ausente o vacío"})
 
+        # DEC-0008: `descriptores` debe ser un mapa por curso. La lista plana es
+        # transitoria y señala una competencia cuya vinculación no se ha verificado.
+        for comp in (datos.get("elementos") or {}).get("competencias_especificas") or []:
+            if isinstance(comp, dict) and isinstance(comp.get("descriptores"), list):
+                avisos.append({
+                    "fichero": rel, "campo": f"{comp.get('codigo')}.descriptores",
+                    "mensaje": "lista plana sin migrar a mapa por curso (DEC-0008); pendiente de TAREA-073",
+                })
+
         # Campos que el índice duplica: la ficha es la fuente de verdad.
         entrada = entradas_del_indice(cfg["indice"]).get(datos.get("id"))
         if isinstance(entrada, dict):

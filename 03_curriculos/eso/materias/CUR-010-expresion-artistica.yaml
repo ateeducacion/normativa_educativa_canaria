@@ -16,19 +16,26 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Analizar manifestaciones artísticas contextualizándolas para educar la mirada y disfrutar del patrimonio cultural."
       enunciado_oficial: "Analizar manifestaciones artísticas, contextualizándolas, describiendo sus aspectos esenciales y valorando el proceso de creación y el resultado final, para educar la mirada, alimentar el imaginario, reforzar la confianza y ampliar las posibilidades de disfrute del patrimonio cultural y artístico."
-      descriptores: ["CCL1", "CCL2", "CCL3", "CP3", "CD1", "CD2", "CPSAA3", "CC1", "CCEC1", "CCEC2"]
+      descriptores:
+        "1.º ESO": [CCL1, CPSAA3, CC1, CC2]
+        "2.º ESO": [CCL1, CCL2, CP3, CPSAA3, CC1, CC2, CCEC1]
+        "3.º ESO": [CCL1, CPSAA3, CC1, CC2, CCEC1]
+        "4.º ESO": [CCL1, CCL2, CCL3, CP3, CD1, CD2, CPSAA3, CC1, CCEC1, CCEC2]
     - codigo: "C2"
       enunciado_resumido: "Explorar las posibilidades expresivas de diferentes técnicas gráfico-plásticas para incorporarlas al repertorio personal."
       enunciado_oficial: "Explorar las posibilidades expresivas de diferentes técnicas gráfico-plásticas, empleando distintos medios, soportes, herramientas y lenguajes, para incorporarlas al repertorio personal de recursos y desarrollar el criterio de selección de las más adecuadas a cada necesidad o intención."
-      descriptores: ["CD2", "CPSAA1", "CC1", "CC3", "CE1", "CCEC3", "CCEC4"]
+      descriptores:
+        "4.º ESO": [CD2, CPSAA1, CC1, CC3, CE1, CCEC3, CCEC4]
     - codigo: "C3"
       enunciado_resumido: "Explorar las posibilidades expresivas de medios, técnicas y formatos audiovisuales decodificando sus lenguajes."
       enunciado_oficial: "Explorar las posibilidades expresivas de diferentes medios, técnicas y formatos audiovisuales, decodificando sus lenguajes, identificando las herramientas y distinguiendo sus fines, para incorporarlos al repertorio personal de recursos y desarrollar el criterio de selección de los más adecuados a cada necesidad o intención."
-      descriptores: ["CD2", "CD5", "CPSAA1", "CPSAA3", "CE1", "CCEC3", "CCEC4"]
+      descriptores:
+        "4.º ESO": [CD2, CD5, CPSAA1, CPSAA3, CE1, CCEC3, CCEC4]
     - codigo: "C4"
       enunciado_resumido: "Crear producciones artísticas, individuales o grupales, adaptando el diseño al público destinatario."
       enunciado_oficial: "Crear producciones artísticas, individuales o grupales, realizadas con diferentes técnicas y herramientas, incluido el propio cuerpo, a partir de un motivo o intención previos, adaptando el diseño y el proceso a las necesidades e indicaciones de realización y teniendo en cuenta las características del público destinatario, para compartirlas y valorar las oportunidades de desarrollo personal, social, académico o profesional que pueden derivarse de esta actividad."
-      descriptores: ["CCL1", "STEM3", "CD3", "CPSAA3", "CPSAA5", "CC3", "CE1", "CCEC4"]
+      descriptores:
+        "4.º ESO": [CCL1, STEM3, CD3, CPSAA3, CPSAA5, CC3, CE1, CCEC4]
   criterios_evaluacion:
     - curso: "4.º ESO"
       criterios:

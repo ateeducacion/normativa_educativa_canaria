@@ -7,7 +7,7 @@ tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
-relacionadas: [PREG-008, CUR-001, CUR-009, NOR-005, FTE-009, TAREA-072]
+relacionadas: [PREG-008, DEC-0008, CUR-001, CUR-009, NOR-005, FTE-009, TAREA-072, TAREA-075]
 siguiente_accion: "Re-extraer las competencias de CUR-001 desde el Decreto 30/2023, empezando por C3 y C5."
 ---
 
@@ -51,3 +51,28 @@ dar por buenos unos datos que la auditoría ya ha desmentido.
 ## Coordinación con trabajo paralelo
 
 IDs consumidos: `TAREA-073`. Solo se modifican `CUR-001` y `CUR-009`.
+
+## Alcance acotado tras TAREA-075 (2026-08-05)
+
+El extractor corregido reduce el trabajo a **siete competencias**, las únicas que no se pudieron
+verificar contra la fuente. El resto de ambas fichas ya está migrado a mapa por curso con su
+vinculación comprobada.
+
+| Ficha | Comp. | Problema |
+| --- | --- | --- |
+| `CUR-001` | C3 | Diverge: 7 códigos ausentes de la fuente, faltan 4 presentes en los tres cursos |
+| `CUR-001` | C4 | Enunciado no literal: no se puede anclar en el decreto |
+| `CUR-001` | C5 | Diverge: declara `CC2`, que no aparece; omite `CPSAA1`, que sí |
+| `CUR-001` | C6 | Enunciado no literal |
+| `CUR-009` | C6 | Diverge: sobran `CCL1`, `CCL3`, `CD2`, `CP3` |
+| `CUR-009` | C7 | Diverge: sobran `CCL2`, `CD2`, `CE1`, `CE2`, `CPSAA3`, `CPSAA4` |
+| `CUR-009` | C8 | Diverge: sobran `CD2`, `CE3` |
+
+Las siete conservan la lista plana y el validador las reporta como aviso, así que están
+localizadas sin necesidad de volver a auditar.
+
+Para las dos con enunciado no literal, el orden correcto es **primero corregir el
+`enunciado_oficial`** con el texto del decreto y después extraer, porque el extractor se ancla
+en ese texto: con el enunciado literal, `11_calidad/extraer_descriptores.py --auditar` resolverá
+la vinculación sin trabajo manual.
+

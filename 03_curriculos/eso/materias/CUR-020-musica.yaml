@@ -16,19 +16,35 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Analizar obras musicales y dancísticas valorando el patrimonio."
       enunciado_oficial: "Analizar obras de diferentes épocas y culturas, identificando sus principales rasgos estilísticos y estableciendo relaciones con su contexto, para valorar el patrimonio musical y dancístico como fuente de disfrute y enriquecimiento personal."
-      descriptores: ["CCL2", "CCL3", "CP3", "CC1", "CC2", "CCEC1", "CCEC2"]
+      descriptores:
+        "1.º ESO": [CCL2, CCL3, CP3, CC1, CC2, CCEC1, CCEC2]
+        "2.º ESO": [CCL1, CCL2, CCL3, CP3, CC1, CC2, CCEC1, CCEC2]
+        "3.º ESO": [CCL1, CCL2, CCL3, CP3, CC1, CC2, CCEC1, CCEC2]
+        "4.º ESO": [CCL1, CCL2, CCL3, CP3, CD1, CC1, CC2, CCEC1, CCEC2]
     - codigo: "C2"
       enunciado_resumido: "Explorar técnicas musicales y dancísticas mediante improvisación."
       enunciado_oficial: "Explorar las posibilidades expresivas de diferentes técnicas musicales y dancísticas, a través de actividades de improvisación, para incorporarlas al repertorio personal de recursos y desarrollar el criterio de selección de las técnicas más adecuadas a la intención expresiva."
-      descriptores: ["CD2", "CPSAA1", "CPSAA3", "CC1", "CE3", "CCEC3"]
+      descriptores:
+        "1.º ESO": [CPSAA3, CC1, CCEC3]
+        "2.º ESO": [CD2, CPSAA1, CPSAA3, CC1, CE3, CCEC3]
+        "3.º ESO": [CD2, CPSAA1, CPSAA3, CC1, CE3, CCEC3]
+        "4.º ESO": [CD2, CPSAA1, CPSAA3, CC1, CE3, CCEC3]
     - codigo: "C3"
       enunciado_resumido: "Interpretar piezas musicales y dancísticas gestionando emociones."
       enunciado_oficial: "Interpretar piezas musicales y dancísticas, gestionando adecuadamente las emociones y empleando diversas estrategias y técnicas vocales, corporales o instrumentales, para ampliar las posibilidades de expresión personal."
-      descriptores: ["CCL1", "CCL2", "CCL5", "CPSAA1", "CPSAA3", "CC1", "CCEC2", "CCEC3"]
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CCL5, CPSAA1, CPSAA3, CC1, CCEC2, CCEC3]
+        "2.º ESO": [CCL1, CCL2, CCL5, CPSAA1, CPSAA3, CC1, CCEC2, CCEC3]
+        "3.º ESO": [CCL1, CCL2, CCL5, CPSAA1, CPSAA3, CC1, CCEC2, CCEC3]
+        "4.º ESO": [CCL1, CCL2, CCL5, CPSAA1, CPSAA3, CC1, CCEC2, CCEC3]
     - codigo: "C4"
       enunciado_resumido: "Crear propuestas artístico-musicales potenciando la creatividad."
       enunciado_oficial: "Crear propuestas artístico-musicales, empleando la voz, el cuerpo, instrumentos musicales y herramientas tecnológicas, para potenciar la creatividad e identificar oportunidades de desarrollo personal, social, académico y profesional."
-      descriptores: ["CCL1", "STEM3", "CD2", "CD3", "CPSAA3", "CC1", "CE1", "CE3", "CCEC3", "CCEC4"]
+      descriptores:
+        "1.º ESO": [CCL1, STEM3, CD2, CD3, CPSAA3, CC1, CE3, CCEC3, CCEC4]
+        "2.º ESO": [CCL1, STEM3, CD2, CD3, CPSAA3, CC1, CE1, CE3, CCEC3, CCEC4]
+        "3.º ESO": [CCL1, STEM3, CD2, CD3, CPSAA3, CC1, CE1, CE3, CCEC3, CCEC4]
+        "4.º ESO": [CCL1, STEM3, CD2, CD3, CPSAA3, CC1, CE1, CE3, CCEC3, CCEC4]
   criterios_evaluacion:
     - curso: "1.º ESO"
       criterios:

@@ -16,23 +16,43 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Adoptar un estilo de vida activo y saludable a partir de la práctica motriz."
       enunciado_oficial: "Adoptar un estilo de vida activo y saludable, seleccionando e incorporando intencionalmente actividades físicas y deportivas en las rutinas diarias a partir de un análisis crítico de los modelos corporales y del rechazo de las prácticas que carezcan de base científica, para hacer un uso saludable y autónomo del tiempo libre y así mejorar la calidad de vida."
-      descriptores: ["CCL3", "STEM2", "STEM5", "CD4", "CPSAA2", "CPSAA4"]
+      descriptores:
+        "1.º ESO": [CCL3, STEM2, STEM5, CD4, CPSAA2, CPSAA4]
+        "2.º ESO": [CCL3, STEM2, STEM5, CD4, CPSAA2, CPSAA4]
+        "3.º ESO": [CCL3, STEM2, STEM5, CD4, CPSAA2, CPSAA4]
+        "4.º ESO": [CCL3, STEM2, STEM5, CD4, CPSAA2, CPSAA4]
     - codigo: "C2"
       enunciado_resumido: "Adaptar capacidades, habilidades y destrezas motrices a retos motores de dificultad variable."
       enunciado_oficial: "Adaptar, con progresiva autonomía en su ejecución, las capacidades físicas, perceptivo-motrices y coordinativas, así como las habilidades y destrezas motrices, aplicando procesos de percepción, decisión y ejecución adecuados a la lógica interna y a los objetivos de diferentes situaciones con dificultad variable, para resolver situaciones de carácter motor vinculadas con distintas actividades físicas funcionales, deportivas, expresivas y recreativas, y para consolidar actitudes de superación, crecimiento y resiliencia al enfrentarse a desafíos físicos."
-      descriptores: ["CPSAA4", "CPSAA5", "CE2", "CE3"]
+      descriptores:
+        "1.º ESO": [CPSAA4, CPSAA5, CE2, CE3]
+        "2.º ESO": [CPSAA4, CPSAA5, CE2, CE3]
+        "3.º ESO": [CPSAA4, CPSAA5, CE2, CE3]
+        "4.º ESO": [CPSAA4, CPSAA5, CE2, CE3]
     - codigo: "C3"
       enunciado_resumido: "Compartir espacios de práctica físico-deportiva con respeto, autorregulación emocional y compromiso ético."
       enunciado_oficial: "Compartir espacios de práctica físico-deportiva con independencia de las diferencias culturales, sociales, de género y de habilidad, priorizando el respeto entre participantes y a las reglas sobre los resultados, adoptando una actitud crítica ante comportamientos antideportivos o contrarios a la convivencia y desarrollando procesos de autorregulación emocional que canalicen el fracaso y el éxito en estas situaciones, para contribuir con progresiva autonomía al entendimiento social y al compromiso ético en los diferentes espacios en los que se participa."
-      descriptores: ["CCL5", "CPSAA1", "CPSAA3", "CPSAA5", "CC3"]
+      descriptores:
+        "1.º ESO": [CCL5, CPSAA1, CPSAA3, CPSAA5, CC3]
+        "2.º ESO": [CCL5, CPSAA1, CPSAA3, CPSAA5, CC3]
+        "3.º ESO": [CCL5, CPSAA1, CPSAA3, CPSAA5, CC3]
+        "4.º ESO": [CCL5, CPSAA1, CPSAA3, CPSAA5, CC3]
     - codigo: "C4"
       enunciado_resumido: "Practicar y valorar las manifestaciones de la cultura motriz desde una perspectiva crítica, de género e intercultural."
       enunciado_oficial: "Practicar, analizar y valorar distintas manifestaciones de la cultura motriz aprovechando las posibilidades y recursos expresivos que ofrecen el cuerpo y el movimiento y profundizando en las consecuencias del deporte como fenómeno social, analizando críticamente sus manifestaciones desde la perspectiva de género y desde los intereses económico-políticos que lo rodean, para alcanzar una visión más realista, contextualizada y justa de la motricidad en el marco de las sociedades actuales."
-      descriptores: ["CC2", "CC3", "CCEC1", "CCEC2", "CCEC3", "CCEC4"]
+      descriptores:
+        "1.º ESO": [CC2, CC3, CCEC1, CCEC2, CCEC3, CCEC4]
+        "2.º ESO": [CC2, CC3, CCEC1, CCEC2, CCEC3, CCEC4]
+        "3.º ESO": [CC2, CC3, CCEC1, CCEC2, CCEC3, CCEC4]
+        "4.º ESO": [CC2, CC3, CCEC1, CCEC2, CCEC3, CCEC4]
     - codigo: "C5"
       enunciado_resumido: "Adoptar un estilo de vida sostenible y ecosocialmente responsable mediante la práctica motriz."
       enunciado_oficial: "Adoptar un estilo de vida sostenible y ecosocialmente responsable aplicando medidas de seguridad individuales y colectivas en la práctica físico-deportiva según el entorno y desarrollando colaborativa y cooperativamente acciones de servicio a la comunidad vinculadas a la actividad física y al deporte, para contribuir activamente a la conservación del medio natural y urbano."
-      descriptores: ["STEM5", "CC4", "CE1", "CE3"]
+      descriptores:
+        "1.º ESO": [STEM5, CC4, CE1, CE3]
+        "2.º ESO": [STEM5, CC4, CE1, CE3]
+        "3.º ESO": [STEM5, CC4, CE1, CE3]
+        "4.º ESO": [STEM5, CC4, CE1, CE3]
   criterios_evaluacion:
     - curso: "1.º ESO"
       criterios:

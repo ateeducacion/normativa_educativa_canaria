@@ -16,11 +16,17 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Interpretar y transmitir información y datos científicos."
       enunciado_oficial: "Interpretar y transmitir información y datos científicos, argumentando sobre ellos y utilizando diferentes formatos, para analizar conceptos y procesos de las ciencias biológicas y geológicas."
-      descriptores: ["CCL1", "CCL2", "CCL5", "STEM4", "CD2", "CD3", "CCEC4"]
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CCL5, STEM4, CD2, CD3, CCEC4]
+        "3.º ESO": [CCL1, CCL2, CCL5, STEM4, CD2, CD3, CCEC4]
+        "4.º ESO": [CCL1, CCL2, CCL5, STEM4, CD2, CD3, CCEC4]
     - codigo: "C2"
       enunciado_resumido: "Localizar, seleccionar y evaluar críticamente información."
       enunciado_oficial: "Identificar, localizar y seleccionar información, contrastando su veracidad, organizándola y evaluándola críticamente, para resolver preguntas relacionadas con las ciencias biológicas y geológicas."
-      descriptores: ["CCL3", "STEM4", "CD1", "CD2", "CD3", "CD4", "CD5", "CPSAA4"]
+      descriptores:
+        "1.º ESO": [CCL3, CD1, CD2, CD4, CPSAA4]
+        "3.º ESO": [CCL3, STEM4, CD1, CD2, CD3, CD4, CD5, CPSAA4]
+        "4.º ESO": [CCL3, STEM4, CD1, CD2, CD3, CD4, CD5, CPSAA4]
     - codigo: "C3"
       enunciado_resumido: "Planificar y desarrollar proyectos de investigación."
       enunciado_oficial: "Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías científicas y cooperando, cuando sea necesario, para indagar en aspectos relacionados con las ciencias geológicas y biológicas."

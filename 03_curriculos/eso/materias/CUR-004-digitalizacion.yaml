@@ -16,19 +16,23 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Identificar y resolver problemas técnicos sencillos, conectar y configurar dispositivos a redes domésticas aplicando conocimientos de hardware y sistemas operativos."
       enunciado_oficial: "Identificar y resolver problemas técnicos sencillos, conectar y configurar dispositivos a redes domésticas, aplicando los conocimientos de hardware y sistemas operativos, para gestionar las herramientas e instalaciones informáticas y de comunicación de uso cotidiano."
-      descriptores: [STEM1, STEM2, CD4, CD5, CPSAA1, CPSAA5, CE3]
+      descriptores:
+        "4.º ESO": [STEM1, STEM2, CD4, CD5, CPSAA1, CPSAA5, CE3]
     - codigo: "C2"
       enunciado_resumido: "Configurar el entorno personal de aprendizaje aprovechando los recursos del ámbito digital para optimizar y gestionar el aprendizaje permanente."
       enunciado_oficial: "Configurar el entorno personal de aprendizaje, interactuando y aprovechando los recursos del ámbito digital, para optimizar y gestionar el aprendizaje permanente."
-      descriptores: [CCL1, CCL3, CCL5, CD1, CD2, CD3, CPSAA4, CPSAA5, CC1, CE3, CCEC1, CCEC4]
+      descriptores:
+        "4.º ESO": [CCL1, CCL3, CCL5, CD1, CD2, CD3, CPSAA4, CPSAA5, CC1, CE3, CCEC1, CCEC4]
     - codigo: "C3"
       enunciado_resumido: "Desarrollar hábitos que fomenten el bienestar digital aplicando medidas preventivas y correctivas para proteger dispositivos, datos personales y la propia salud."
       enunciado_oficial: "Desarrollar hábitos que fomenten el bienestar digital, aplicando medidas preventivas y correctivas, para proteger dispositivos, datos personales y la propia salud."
-      descriptores: [CCL1, CCL5, STEM5, CD1, CD3, CD4, CPSAA2, CPSAA5, CC2, CC3]
+      descriptores:
+        "4.º ESO": [CCL1, CCL5, STEM5, CD1, CD3, CD4, CPSAA2, CPSAA5, CC2, CC3]
     - codigo: "C4"
       enunciado_resumido: "Ejercer una ciudadanía digital crítica conociendo las posibles acciones en la red e identificando sus repercusiones para hacer un uso activo, responsable y ético de la tecnología."
       enunciado_oficial: "Ejercer una ciudadanía digital crítica, conociendo las posibles acciones que realizar en la red, e identificando sus repercusiones, para hacer un uso activo, responsable y ético de la tecnología."
-      descriptores: [CCL1, CCL2, CCL3, CCL5, CD1, CD3, CD4, CPSAA1, CC1, CC2, CC3, CC4, CE1]
+      descriptores:
+        "4.º ESO": [CCL1, CCL2, CCL3, CCL5, CD1, CD3, CD4, CPSAA1, CC1, CC2, CC3, CC4, CE1]
   criterios_evaluacion:
     - curso: "4.º ESO"
       criterios:

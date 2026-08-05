@@ -16,23 +16,39 @@ elementos:
     - codigo: "C1"
       enunciado_resumido: "Analizar manifestaciones artísticas contextualizándolas y valorando el proceso de creación."
       enunciado_oficial: "Analizar manifestaciones artísticas, contextualizándolas, describiendo sus aspectos esenciales y valorando el proceso de creación y el resultado final, para educar la mirada, alimentar el imaginario, reforzar la confianza y ampliar las posibilidades de disfrute del patrimonio cultural y artístico."
-      descriptores: ["CCL1", "CCL2", "CP3", "CPSAA3", "CC1", "CC2", "CCEC1"]
+      descriptores:
+        "1.º ESO": [CCL1, CPSAA3, CC1, CC2]
+        "2.º ESO": [CCL1, CCL2, CP3, CPSAA3, CC1, CC2, CCEC1]
+        "3.º ESO": [CCL1, CPSAA3, CC1, CC2, CCEC1]
+        "4.º ESO": [CCL1, CCL2, CCL3, CP3, CD1, CD2, CPSAA3, CC1, CCEC1, CCEC2]
     - codigo: "C2"
       enunciado_resumido: "Explicar las producciones plásticas, visuales y audiovisuales propias comparándolas con otras."
       enunciado_oficial: "Explicar las producciones plásticas, visuales y audiovisuales propias, comparándolas con las de sus iguales y con algunas de las que conforman el patrimonio cultural y artístico, justificando las opiniones y teniendo en cuenta el progreso desde la intención hasta la realización, para valorar el intercambio, las experiencias compartidas y el diálogo intercultural, así como para superar estereotipos."
-      descriptores: ["CCL1", "CCL2", "CCL5", "CPSAA1", "CPSAA3", "CC1", "CC3", "CCEC1", "CCEC3"]
+      descriptores:
+        "1.º ESO": [CCL1, CPSAA1, CPSAA3, CC1, CC3, CCEC3]
+        "2.º ESO": [CCL1, CCL2, CCL5, CPSAA1, CPSAA3, CC1, CC3, CCEC1, CCEC3]
+        "3.º ESO": [CCL1, CPSAA1, CPSAA3, CC1, CC3, CCEC1]
     - codigo: "C3"
       enunciado_resumido: "Analizar diferentes propuestas plásticas, visuales y audiovisuales con respeto y disfrute estético."
       enunciado_oficial: "Analizar diferentes propuestas plásticas, visuales y audiovisuales, mostrando respeto y desarrollando la capacidad de observación e interiorización de la experiencia y del disfrute estético, para enriquecer la cultura artística individual y alimentar el imaginario."
-      descriptores: ["CCL1", "CCL2", "CD1", "CD2", "CPSAA4", "CC1", "CC3", "CCEC2"]
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CD1, CPSAA4, CC1, CC3, CCEC2]
+        "2.º ESO": [CCL1, CCL2, CD1, CD2, CPSAA4, CC1, CC3, CCEC2]
+        "3.º ESO": [CCL1, CCL2, CD1, CPSAA4, CC1, CC3, CCEC2]
     - codigo: "C4"
       enunciado_resumido: "Explorar técnicas, lenguajes e intenciones de producciones culturales y artísticas como fuente generadora de ideas."
       enunciado_oficial: "Explorar las técnicas, los lenguajes y las intenciones de diferentes producciones culturales y artísticas, analizando, de forma abierta y respetuosa, tanto el proceso como el producto final, su recepción y su contexto, para descubrir las diversas posibilidades que ofrecen como fuente generadora de ideas y respuestas."
-      descriptores: ["CCL1", "CCL2", "CCL3", "CP3", "CD1", "CD2", "CPSAA3", "CC3", "CCEC2"]
+      descriptores:
+        "1.º ESO": [CCL2, CD1, CD2, CPSAA3, CC3, CCEC2]
+        "2.º ESO": [CCL1, CCL2, CCL3, CP3, CD1, CD2, CPSAA3, CC3, CCEC2]
+        "3.º ESO": [CCL2, CD1, CD2, CPSAA3, CC3, CCEC2]
     - codigo: "C5"
       enunciado_resumido: "Realizar producciones artísticas con creatividad e imaginación para expresar la visión propia."
       enunciado_oficial: "Realizar producciones artísticas individuales o colectivas con creatividad e imaginación, seleccionando y aplicando herramientas, técnicas y soportes en función de la intencionalidad, para expresar la visión del mundo, las emociones y los sentimientos propios, así como para mejorar la capacidad de comunicación y desarrollar la reflexión crítica y la autoconfianza."
-      descriptores: ["CCL1", "CCL2", "CD2", "CPSAA1", "CPSAA3", "CPSAA4", "CC3", "CCEC3", "CCEC4"]
+      descriptores:
+        "1.º ESO": [CCL2, CPSAA1, CPSAA4, CC3, CCEC3, CCEC4]
+        "2.º ESO": [CCL1, CCL2, CD2, CPSAA1, CPSAA3, CPSAA4, CC3, CCEC3, CCEC4]
+        "3.º ESO": [CCL2, CPSAA3, CPSAA4, CC3, CCEC3, CCEC4]
     - codigo: "C6"
       enunciado_resumido: "Apropiarse de las referencias culturales y artísticas del entorno para enriquecer las creaciones propias."
       enunciado_oficial: "Apropiarse de las referencias culturales y artísticas del entorno, identificando sus singularidades, para enriquecer las creaciones propias y desarrollar la identidad personal, cultural y social."

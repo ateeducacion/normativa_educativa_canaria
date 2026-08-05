@@ -1164,7 +1164,7 @@ TAREA-065:
 
 TAREA-066:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de bachillerato (CUR-037 a CUR-058)"
-  estado: "Bloqueada"
+  estado: "Pendiente"
   prioridad: "Alta"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1179,7 +1179,7 @@ TAREA-066:
 
 TAREA-067:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)"
-  estado: "Bloqueada"
+  estado: "Pendiente"
   prioridad: "Alta"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1194,7 +1194,7 @@ TAREA-067:
 
 TAREA-068:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de eso (CUR-015 a CUR-023)"
-  estado: "Bloqueada"
+  estado: "Pendiente"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1209,7 +1209,7 @@ TAREA-068:
 
 TAREA-069:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de infantil (CUR-034 a CUR-036)"
-  estado: "Bloqueada"
+  estado: "Pendiente"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1304,3 +1304,21 @@ TAREA-074:
   - PREG-008
   - TAREA-072
   ruta: 08_tareas/backlog/TAREA-074-reparar-mojibake-textos-oficiales.md
+
+TAREA-075:
+  titulo: "Migrar los descriptores operativos a mapa por curso e incorporar el extractor al repositorio"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: '@.agents/skills/analisis-curricular'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - DEC-0008
+  - PREG-008
+  - CUR-001
+  - CUR-009
+  - NOR-005
+  - TAREA-072
+  - TAREA-073
+  ruta: 08_tareas/backlog/TAREA-075-migrar-descriptores-a-mapa-por-curso.md
