@@ -2709,3 +2709,57 @@ curriculos:
       sha256: c5fee365015e23a72e4d3a42c9391df37720d712ea2fc45986f33ed72ef4bf3b
       url_origen: https://www.boe.es/boe/dias/2022/06/24/pdfs/BOE-A-2022-10452.pdf
       fecha_exportacion: '2026-08-05'
+  NOR-073:
+    titulo: Resolución de 25 de junio de 2026, por la que se dictan instrucciones para la organización y el funcionamiento de los cursos de acceso directo a ciclos formativos CAD2 y CAD3 (cursos de formación preparatorios para acceder a ciclos formativos de grado medio y superior) en Canarias
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-073-resolucion-25-junio-2026-cursos-acceso-directo-cad2-cad3.md
+    fuente_principal: FTE-080
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/139/2475.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-139-2475.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-073-resolucion-25-junio-2026-cursos-acceso-directo-cad2-cad3.txt
+      sha256: 8a22756ba6278c925d8bdf0bc512da1ce3e85495e2e8347df468bb107ab0cd60
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-139-2475.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-074:
+    titulo: Resolución de 25 de junio de 2026, por la que se modifican determinadas Resoluciones que establecen la distribución horaria y estructura modular de los currículos del Ciclo Formativo de Grado Básico en Cocina y Restauración y del Ciclo Formativo de Grado Superior en Prevención de Riesgos Profesionales, en el ámbito de la Comunidad Autónoma de Canarias
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-074-resolucion-25-junio-2026-horarios-cocina-prevencion-riesgos.md
+    fuente_principal: FTE-081
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/141/2507.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-141-2507.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-074-resolucion-25-junio-2026-horarios-cocina-prevencion-riesgos.txt
+      sha256: d8f8c6d087bd4bd3f35f876a1757d0eeba692f2d6af0344c089657b83251727c
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-141-2507.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-075:
+    titulo: Resolución de 2 de julio de 2026, por la que se modifican cuadros horarios establecidos en las Resoluciones de 26 de noviembre de 2025 y de 27 de enero de 2026, por las que se dictan instrucciones para la implantación y desarrollo de la oferta de dobles titulaciones de formación profesional (Grados D) en la Comunidad Autónoma de Canarias, a partir del curso escolar 2026/2027
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-075-resolucion-2-julio-2026-cuadros-horarios-dobles-titulaciones.md
+    fuente_principal: FTE-082
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente; aplicable desde el curso 2026/2027
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/141/2508.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-141-2508.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-075-resolucion-2-julio-2026-cuadros-horarios-dobles-titulaciones.txt
+      sha256: 3515bfcf1f15ba057d2f5e47cc32d343474566098056c3e9b8c4d0e122b0e5c0
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-141-2508.pdf
+      fecha_exportacion: '2026-08-05'
+

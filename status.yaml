@@ -1059,7 +1059,7 @@ tareas:
     siguiente_accion: null
   TAREA-064:
     titulo: Verificar la catalogación de las tres resoluciones de FP detectadas por el monitor en TAREA-061
-    estado: Pendiente
+    estado: Hecha
     prioridad: Media
     tipo: catalogacion
     responsable: '@.agents/skills/catalogacion-fuentes'

@@ -708,3 +708,31 @@ FTE-079:
   fecha_consulta: 2026-08-05
   ruta: "01_fuentes/boe/FTE-079-boe-resolucion-2022-curriculo-religion-catolica.md"
   estado_fuente: "Activa"
+
+FTE-080:
+  titulo: "BOC 2026/139 — Instrucciones de los cursos de acceso directo CAD2 y CAD3"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/139/2475.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-080-boc-2026-139-cursos-acceso-directo-cad2-cad3.md"
+  estado_fuente: "Activa"
+
+FTE-081:
+  titulo: "BOC 2026/141 — Modificación de horarios de Cocina y Restauración y de Prevención de Riesgos"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/141/2507.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-081-boc-2026-141-horarios-cocina-prevencion-riesgos.md"
+  estado_fuente: "Activa"
+
+FTE-082:
+  titulo: "BOC 2026/141 — Modificación de cuadros horarios de cinco dobles titulaciones de Grado Superior"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2026/141/2508.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-082-boc-2026-141-cuadros-horarios-dobles-titulaciones.md"
+  estado_fuente: "Activa"
+

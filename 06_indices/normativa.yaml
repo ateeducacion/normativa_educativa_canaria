@@ -1044,3 +1044,43 @@ NOR-072:
   ruta: "02_normativa/estatal/resoluciones/NOR-072-resolucion-2022-curriculo-religion-catolica.md"
   temas: [curriculo, religion-catolica, competencias-especificas, criterios-evaluacion, saberes-basicos]
   etapas_afectadas: [infantil, primaria, eso, bachillerato]
+
+NOR-073:
+  titulo: "Resolución de 25 de junio de 2026, por la que se dictan instrucciones para la organización y el funcionamiento de los cursos de acceso directo a ciclos formativos CAD2 y CAD3 (cursos de formación preparatorios para acceder a ciclos formativos de grado medio y superior) en Canarias"
+  nombre_corto: "Cursos de acceso directo CAD2 y CAD3 (2026)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-06-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-080
+  ruta: "02_normativa/canarias/resoluciones/NOR-073-resolucion-25-junio-2026-cursos-acceso-directo-cad2-cad3.md"
+  temas: [formacion-profesional, acceso-ciclos-formativos, personas-adultas, cepa, cead, educacion-a-distancia, competencias-basicas]
+  etapas_afectadas: [formacion-profesional, educacion-adultos]
+
+NOR-074:
+  titulo: "Resolución de 25 de junio de 2026, por la que se modifican determinadas Resoluciones que establecen la distribución horaria y estructura modular de los currículos del Ciclo Formativo de Grado Básico en Cocina y Restauración y del Ciclo Formativo de Grado Superior en Prevención de Riesgos Profesionales, en el ámbito de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Horarios de Cocina y Restauración y de Prevención de Riesgos (2026)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2026-06-25
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-081
+  ruta: "02_normativa/canarias/resoluciones/NOR-074-resolucion-25-junio-2026-horarios-cocina-prevencion-riesgos.md"
+  temas: [formacion-profesional, distribucion-horaria, estructura-modular, curriculo-fp, cocina-y-restauracion, prevencion-de-riesgos]
+  etapas_afectadas: [formacion-profesional]
+
+NOR-075:
+  titulo: "Resolución de 2 de julio de 2026, por la que se modifican cuadros horarios establecidos en las Resoluciones de 26 de noviembre de 2025 y de 27 de enero de 2026, por las que se dictan instrucciones para la implantación y desarrollo de la oferta de dobles titulaciones de formación profesional (Grados D) en la Comunidad Autónoma de Canarias, a partir del curso escolar 2026/2027"
+  nombre_corto: "Cuadros horarios de dobles titulaciones de Grado D (2026)"
+  tipo_norma: "resolucion-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente; aplicable desde el curso 2026/2027"
+  fecha_disposicion: 2026-07-02
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-082
+  ruta: "02_normativa/canarias/resoluciones/NOR-075-resolucion-2-julio-2026-cuadros-horarios-dobles-titulaciones.md"
+  temas: [formacion-profesional, dobles-titulaciones, grado-d, distribucion-horaria, estructura-modular]
+  etapas_afectadas: [formacion-profesional]
+
