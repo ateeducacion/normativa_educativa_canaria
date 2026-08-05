@@ -1,9 +1,10 @@
 ---
 id: PREG-012
 titulo: "NOR-050 describe una Orden NEAE de 2023 que no aparece en el BOC, y de ella depende la derogación declarada de NOR-025"
-estado: "Abierta"
+estado: "Resuelta"
 fecha_registro: 2026-08-05
-relacionadas: [NOR-050, NOR-024, NOR-025, NOR-026, FTE-053, REL-047, REL-048, TAREA-084, TAREA-085, PREG-010, PREG-011]
+fecha_resolucion: 2026-08-05
+relacionadas: [NOR-050, NOR-024, NOR-025, NOR-026, FTE-053, REL-047, REL-048, NOR-077, TAREA-084, TAREA-085, PREG-010, PREG-011, DEC-0011]
 ---
 
 # PREG-012 — La Orden de procedimientos NEAE de 2023 no se localiza
@@ -53,3 +54,31 @@ retirar `NOR-050`, `FTE-053`, `REL-047`, `REL-048` y `CHUNK-00014`, y devolver a
 `NOR-050` queda en `Pendiente de verificación`. Las dos relaciones y el chunk quedan marcados y
 degradados a `pendiente-verificacion`. `NOR-025` **no** se marca como derogada: hasta que se
 demuestre lo contrario, la Orden de 13 de diciembre de 2010 sigue vigente.
+
+## Respuesta (2026-08-05)
+
+**No existe.** La búsqueda se amplió a **2022 y 2024 completos**, además del 2023 ya barrido:
+1.028 boletines. En los tres años el BOC no publica ninguna disposición sobre procedimientos de
+respuesta educativa al alumnado NEAE. Sólo convocatorias de ayudas.
+
+`NOR-050` y `FTE-053` se retiran conforme a `DEC-0011`, y `REL-047`, `REL-048` y `CHUNK-00014`
+quedan sin efecto.
+
+### Lo que se revierte
+
+Es la parte que importa. `NOR-025` figuraba como «Superada parcialmente» y `NOR-026` declaraba
+que sus procedimientos habían sido desplazados, ambas cosas por efecto de una norma que no
+existe. Las dos fichas llevan ahora una rectificación expresa de vigencia.
+
+**El marco procedimental NEAE aplicable en Canarias es el del Decreto 25/2018 (`NOR-024`), la
+Orden de 13 de diciembre de 2010 (`NOR-025`) y la Resolución de 9 de febrero de 2011
+(`NOR-026`)**, más la Orden de 1 de septiembre de 2010 sobre los EOEP (`NOR-077`), catalogada hoy
+al resolver `PREG-011`. Es lo que sostienen las propias páginas de normativa NEAE de la
+Consejería.
+
+Las tres copias locales de ese marco se completaron además desde el PDF firmado en `TAREA-084`:
+`NOR-025` pasa de 750 a 1.729 líneas y `NOR-026` de 742 a 1.689, porque a la versión HTML le
+faltaban los anexos.
+
+De dónde salió `NOR-050` sigue sin saberse. La única Orden de 29 de mayo de 2023 de la Consejería
+resuelve la provisión de un puesto de Secretario/a de Dirección.

@@ -10,7 +10,7 @@ fecha_publicacion: 2010-12-22
 fecha_entrada_vigor: 2010-12-23
 fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
-estado_vigencia: "Superada parcialmente"
+estado_vigencia: "Vigente (rectificado: la norma que se decía que la superaba no existe, PREG-012)"
 fuente_principal: FTE-028
 url_oficial: "https://www.gobiernodecanarias.org/boc/2010/250/001.html"
 texto_oficial:
@@ -33,6 +33,12 @@ nivel_evidencia: "confirmado-fuente-primaria"
 
 # NOR-025 — Orden de 13 de diciembre de 2010, regulación del alumnado con NEAE en Canarias
 
+> **Rectificación de vigencia (2026-08-05, `PREG-012`, `DEC-0011`).** Esta ficha declaraba estar
+> superada por una «Orden de 29 de mayo de 2023» (`NOR-050`) que **no existe**: no aparece en
+> ninguno de los 1.028 boletines del BOC de 2022, 2023 y 2024, y las páginas oficiales de
+> normativa NEAE de la Consejería siguen listando esta orden como marco vigente. **Se considera
+> vigente** mientras no aparezca la norma que la desplace.
+
 > Este resumen no sustituye la consulta de la fuente oficial.
 
 ## 1. Identificación
@@ -40,7 +46,7 @@ nivel_evidencia: "confirmado-fuente-primaria"
 - **Norma:** Orden de 13 de diciembre de 2010.
 - **Publicación:** BOC n.º 250, de 22 de diciembre de 2010.
 - **Corrección de errores:** BOC n.º 258, de 1 de diciembre de 2000 (corresponde a la de 2010 según el portal oficial).
-- **Estado de vigencia:** Superada parcialmente (Procedimientos y Evaluación desplazados por las Órdenes de mayo de 2023).
+- **Estado de vigencia:** vigente. Ver la rectificación al principio de esta ficha.
 
 ## 2. Objeto de la norma
 

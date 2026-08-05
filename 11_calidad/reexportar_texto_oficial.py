@@ -418,8 +418,13 @@ def auditar_urls() -> int:
     for ficha in sorted((RAIZ / "02_normativa").rglob("NOR-*.md")):
         frontmatter = yaml.safe_load(ficha.read_text(encoding="utf-8").split("---")[1])
         encontrada = patron.search(frontmatter.get("url_oficial") or "")
-        if encontrada:
-            casos.append((frontmatter["id"], frontmatter["titulo"], encontrada.groups()))
+        if not encontrada:
+            continue
+        # Las fichas retiradas por DEC-0011 no describen una norma real: por definición
+        # no van a contrastar contra ningún sumario, y repetirlo cada vez sería ruido.
+        if str(frontmatter.get("estado_vigencia", "")).startswith("No normativa"):
+            continue
+        casos.append((frontmatter["id"], frontmatter["titulo"], encontrada.groups()))
 
     def revisar(caso):
         ident, titulo, (anio, boletin, tramo) = caso

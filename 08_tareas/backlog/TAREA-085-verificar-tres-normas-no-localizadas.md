@@ -1,14 +1,15 @@
 ---
 id: TAREA-085
 titulo: "Verificar o retirar las tres normas que no se han localizado en fuente oficial"
-estado: "Pendiente"
+estado: "Hecha"
 prioridad: "Crítica"
 tipo: "control-vigencia"
 responsable: "@.agents/skills/control-vigencia"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
-relacionadas: [NOR-017, NOR-018, NOR-025, NOR-026, NOR-050, FTE-053, REL-047, REL-048, PREG-010, PREG-011, PREG-012, TAREA-084]
-siguiente_accion: "Empezar por NOR-050: de ella depende una derogación declarada de NOR-025 que probablemente no se ha producido."
+fecha_cierre: 2026-08-05
+relacionadas: [NOR-017, NOR-018, NOR-025, NOR-026, NOR-050, NOR-076, NOR-077, FTE-053, FTE-083, FTE-084, REL-047, REL-048, REL-061, REL-062, PREG-010, PREG-011, PREG-012, TAREA-084, DEC-0011]
+siguiente_accion: null
 ---
 
 # TAREA-085 — Tres fichas describen normas que no se han localizado
@@ -77,3 +78,67 @@ error posible: no una laguna, sino una afirmación falsa sobre qué está en vig
 
 IDs consumidos: `TAREA-085`, `PREG-010`, `PREG-011`, `PREG-012`. No se han creado ni retirado
 fichas `NOR`; sólo se ha degradado su nivel de evidencia.
+
+## Cierre (2026-08-05)
+
+### La búsqueda, ampliada
+
+El barrido inicial cubría el año de cada norma. Se amplió a los años adyacentes, porque una
+publicación puede desplazarse unos meses pero no dos años:
+
+| Ficha | Años barridos | Boletines | Resultado |
+| --- | --- | ---: | --- |
+| `NOR-017` | 2013, 2014, 2015 | 759 | Sólo decretos que **crean** escuelas infantiles municipales y convenios |
+| `NOR-018` | 2010 | 257 | Las dos normas reales que la ficha confundía, localizadas |
+| `NOR-050` | 2022, 2023, 2024 | 1.028 | Ninguna disposición sobre procedimientos NEAE; sólo convocatorias de ayudas |
+
+Con eso, 2.044 sumarios revisados. Ninguna de las tres normas aparece.
+
+### Lo que se decidió
+
+`DEC-0011` fija cómo se retira una ficha que no describe una norma real, generalizando el
+precedente de `FTE-051` en `DEC-0010`. Tres condiciones —búsqueda exhaustiva documentada, ninguna
+fuente oficial que la respalde, y `PREG` registrada— y tres efectos: la ficha se marca sin
+borrarse, su identificador no se reutiliza, y **lo que afirmaba sobre terceros se revierte**.
+
+Esa última parte es la que más importaba aquí.
+
+### Lo revertido
+
+`NOR-050` sostenía que había derogado los procedimientos de `NOR-025`. `NOR-025` figuraba como
+«Superada parcialmente» y `NOR-026` declaraba que sus instrucciones habían sido desplazadas.
+Ambas llevan ahora rectificación expresa: **siguen vigentes**.
+
+El marco procedimental NEAE de Canarias es, por tanto, el Decreto 25/2018 (`NOR-024`), la Orden
+de 13 de diciembre de 2010 (`NOR-025`), la Resolución de 9 de febrero de 2011 (`NOR-026`) y la
+Orden de 1 de septiembre de 2010 sobre los EOEP (`NOR-077`). Lo confirman las propias páginas de
+normativa NEAE de la Consejería.
+
+### Lo catalogado
+
+`NOR-018` no era una invención: mezclaba dos normas reales, ambas ausentes del corpus. Quedan
+catalogadas:
+
+- `NOR-076` / `FTE-083` — Orden de 9 de octubre de 2013, que desarrolla el Reglamento Orgánico de
+  centros (`NOR-009`). Es la norma de cabecera del funcionamiento diario de los centros públicos
+  canarios: horarios, órganos de coordinación docente, jornada del profesorado, absentismo.
+  `REL-061` y `REL-062` registran que desarrolla `NOR-009` y modifica el artículo 24.2 de
+  `NOR-025`.
+- `NOR-077` / `FTE-084` — Orden de 1 de septiembre de 2010, sobre los equipos de orientación
+  educativa y psicopedagógicos, que completa el marco NEAE.
+
+Las dos con copia local extraída del PDF firmado: 3.302 y 2.013 líneas.
+
+### Lo que queda dicho y no hecho
+
+El punto 4 de esta tarea —contrastar el título de cada ficha `NOR` contra el sumario de su
+boletín— se implementó como modo `--auditar` del re-exportador y se ejecutó sobre las 40 fichas
+con URL de disposición del BOC. Todas contrastan bien salvo las tres de esta tarea, ya retiradas.
+
+Queda fuera de alcance el resto del corpus: las fichas con URL de portal o de otro tipo, las 36
+fichas `NOR` sin URL de disposición del BOC y las fuentes estatales. Esa comprobación necesitaría
+otro método, porque el BOE no publica sumarios navegables del mismo modo.
+
+## Coordinación con trabajo paralelo
+
+IDs consumidos: `FTE-083`, `FTE-084`, `NOR-076`, `NOR-077`, `REL-061`, `REL-062`, `DEC-0011`.

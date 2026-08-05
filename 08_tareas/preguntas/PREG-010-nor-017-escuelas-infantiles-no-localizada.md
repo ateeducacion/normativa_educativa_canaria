@@ -1,9 +1,10 @@
 ---
 id: PREG-010
 titulo: "NOR-017 describe una Orden de 28 de julio de 2014 sobre Escuelas Infantiles que no aparece en el BOC"
-estado: "Abierta"
+estado: "Resuelta"
 fecha_registro: 2026-08-05
-relacionadas: [NOR-017, FTE-013, TAREA-084, TAREA-085, PREG-011, PREG-012]
+fecha_resolucion: 2026-08-05
+relacionadas: [NOR-017, FTE-013, TAREA-084, TAREA-085, PREG-011, PREG-012, DEC-0011]
 ---
 
 # PREG-010 — La Orden de Escuelas Infantiles de 2014 no se localiza
@@ -50,3 +51,16 @@ como catalogación errónea, conservando su identificador (R10).
 
 `NOR-017` queda en `Pendiente de verificación` y con `nivel_evidencia: pendiente-verificacion`.
 Su copia local lleva advertencia de que no debe usarse.
+
+## Respuesta (2026-08-05)
+
+**No existe.** La búsqueda se amplió a **2013 y 2015 completos**, además del 2014 ya barrido: 759
+boletines en total. En esos tres años el BOC sólo publica decretos que **crean** escuelas
+infantiles de titularidad municipal y convenios de financiación con ayuntamientos. Ninguna norma
+regula su organización y funcionamiento.
+
+`NOR-017` se retira como catalogación errónea conforme a `DEC-0011`. La hipótesis de que su
+título se tomara de la ORDEN 21/2019 de la Comunitat Valenciana sigue sin confirmarse, y ya no
+hace falta confirmarla: lo relevante es que no hay norma canaria que la respalde.
+
+Si aparece la fuente, la ficha se rehabilita con su identificador original.

@@ -10,7 +10,7 @@ fecha_publicacion: 2023-06-01
 fecha_entrada_vigor: 2023-06-02
 fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
-estado_vigencia: "Pendiente de verificación — no localizada en fuente oficial (PREG-012)"
+estado_vigencia: "No normativa — catalogación errónea, la norma no existe (DEC-0011)"
 fuente_principal: FTE-053
 url_oficial: "https://www.gobiernodecanarias.org/boc/2023/105/001.html"
 etapas_afectadas: [infantil, primaria, eso, bachillerato]
@@ -27,11 +27,14 @@ nivel_evidencia: "pendiente-verificacion"
 
 # NOR-050 — Orden de 29 de mayo de 2023 — Procedimientos NEAE (Canarias)
 
-> **[PENDIENTE] Advertencia de verificación (2026-08-05, `PREG-012`).** Esta norma **no se ha
-> localizado en el Boletín Oficial de Canarias**. Se recorrieron los sumarios de los 255
-> boletines publicados en 2023 sin encontrarla, y el boletín que la ficha declaraba no la
-> contiene. Todo lo que sigue procede de la catalogación original y **no está verificado contra
-> fuente oficial**. No debe citarse. Ver `PREG-012`.
+> **[CATALOGACIÓN ERRÓNEA] (2026-08-05, `PREG-012`, `DEC-0011`).** Esta ficha **no describe una
+> norma real**. Se recorrieron uno a uno los sumarios de los 1.028 boletines del BOC de 2022, 2023 y 2024 sin encontrar ninguna
+> disposición que le corresponda. No aparece ninguna disposición sobre procedimientos de respuesta educativa al alumnado NEAE. Sólo convocatorias de ayudas. Las páginas oficiales de normativa NEAE de la Consejería siguen listando como marco vigente el Decreto 25/2018, la Orden de 13 de diciembre de 2010 y la Resolución de 9 de febrero de 2011.
+>
+> No se ha identificado con qué pudo confundirse. La única Orden de 29 de mayo de 2023 de la Consejería resuelve la provisión de un puesto de Secretario/a de Dirección.
+>
+> La ficha se conserva sin borrar y su identificador no se reutiliza (R9 y R10). **No debe
+> citarse ni usarse como fuente.** Lo que sigue es la catalogación original, sin verificar.
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 

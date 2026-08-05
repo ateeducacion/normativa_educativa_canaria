@@ -2762,4 +2762,39 @@ curriculos:
       sha256: 3515bfcf1f15ba057d2f5e47cc32d343474566098056c3e9b8c4d0e122b0e5c0
       url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-141-2508.pdf
       fecha_exportacion: '2026-08-05'
+  NOR-076:
+    titulo: ORDEN de 9 de octubre de 2013, por la que se desarrolla el Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias, en lo referente a su organización y funcionamiento.
+    ruta_corpus: 02_normativa/canarias/ordenes/NOR-076-orden-9-octubre-2013-desarrollo-roc.md
+    fuente_principal: FTE-083
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2013/200/001.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2013-200-5076.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-076-orden-9-octubre-2013-desarrollo-roc.txt
+      sha256: 01bb2589fc4462fdddca4ee9945bc6fd4c066893bbcd827e5aaa01863358c294
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2013-200-5076.pdf
+      fecha_exportacion: '2026-08-05'
+
+  NOR-077:
+    titulo: ORDEN de 1 de septiembre de 2010, por la que se desarrolla la organización y funcionamiento de los equipos de orientación educativa y psicopedagógicos de zona y específicos de la Comunidad Autónoma de Canarias.
+    ruta_corpus: 02_normativa/canarias/ordenes/NOR-077-orden-1-septiembre-2010-eoep.md
+    fuente_principal: FTE-084
+    fecha_consulta: 2026-08-05
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2010/181/002.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2010-181-5207.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-077-orden-1-septiembre-2010-eoep.txt
+      sha256: 505edce0f4f7143e8df7a8d62e418cc6810ee00622ceafb0e6584192866e77f9
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2010-181-5207.pdf
+      fecha_exportacion: '2026-08-05'
 

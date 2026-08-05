@@ -736,3 +736,21 @@ FTE-082:
   ruta: "01_fuentes/boc/FTE-082-boc-2026-141-cuadros-horarios-dobles-titulaciones.md"
   estado_fuente: "Activa"
 
+FTE-083:
+  titulo: "BOC 2013/200 — Orden de 9 de octubre de 2013, desarrollo del Reglamento Orgánico de centros"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2013/200/001.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-083-boc-2013-200-desarrollo-roc.md"
+  estado_fuente: "Activa"
+
+FTE-084:
+  titulo: "BOC 2010/181 — Orden de 1 de septiembre de 2010, organización y funcionamiento de los EOEP"
+  tipo_fuente: "boletin-oficial"
+  autoridad: "Boletín Oficial de Canarias"
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2010/181/002.html"
+  fecha_consulta: 2026-08-05
+  ruta: "01_fuentes/boc/FTE-084-boc-2010-181-eoep.md"
+  estado_fuente: "Activa"
+

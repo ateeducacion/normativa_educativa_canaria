@@ -10,7 +10,7 @@ fecha_publicacion: 2011-02-24
 fecha_entrada_vigor: 2011-02-25
 fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
-estado_vigencia: "Vigente hasta desarrollo del Decreto 25/2018"
+estado_vigencia: "Vigente hasta desarrollo del Decreto 25/2018 (rectificado, PREG-012)"
 fuente_principal: FTE-029
 url_oficial: "https://www.gobiernodecanarias.org/boc/2011/040/005.html"
 texto_oficial:
@@ -32,6 +32,11 @@ nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
 # NOR-026 — Resolución de 9 de febrero de 2011 sobre procedimientos y plazos NEAE
+
+> **Rectificación de vigencia (2026-08-05, `PREG-012`, `DEC-0011`).** Esta ficha declaraba que sus
+> instrucciones habían sido desplazadas por una «Orden de 29 de mayo de 2023» (`NOR-050`) que **no
+> existe**. Junto con `NOR-024` y `NOR-025`, sigue siendo el marco procedimental NEAE aplicable en
+> Canarias.
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 
@@ -85,7 +90,7 @@ Resolución autonómica con instrucciones operativas para procedimientos y plazo
 
 ## 10. Notas de vigencia
 
-- **Sustitución:** Gran parte de sus instrucciones sobre procedimientos han sido actualizadas y desplazadas por la **Orden de 29 de mayo de 2023** (`NOR-050`).
+- **Sustitución:** [RECTIFICADO 2026-08-05] Esta ficha afirmaba que sus procedimientos habían sido desplazados por la Orden de 29 de mayo de 2023 (`NOR-050`). Esa orden no existe (`PREG-012`), así que no hay tal sustitución.
 - **Sustitución:** Los aspectos de evaluación han sido desplazados por la **Orden de 31 de mayo de 2023** (`NOR-044`).
 
 ## 11. Fuentes

@@ -1395,7 +1395,7 @@ tareas:
     siguiente_accion: null
   TAREA-085:
     titulo: Verificar o retirar las tres normas que no se han localizado en fuente oficial
-    estado: Pendiente
+    estado: Hecha
     prioridad: Crítica
     tipo: control-vigencia
     responsable: '@.agents/skills/control-vigencia'

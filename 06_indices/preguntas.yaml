@@ -70,25 +70,25 @@ PREG-009:
 
 PREG-010:
   titulo: "NOR-017 describe una Orden de 28 de julio de 2014 sobre Escuelas Infantiles que no aparece en el BOC"
-  estado: "Abierta"
+  estado: "Resuelta"
   fecha_registro: 2026-08-05
-  fecha_resolucion: null
+  fecha_resolucion: 2026-08-05
   relacionadas: [NOR-017, FTE-013, TAREA-084, TAREA-085, PREG-011, PREG-012]
   ruta: "08_tareas/preguntas/PREG-010-nor-017-escuelas-infantiles-no-localizada.md"
 
 PREG-011:
   titulo: "NOR-018 parece confundir dos normas reales: la Orden de EOEP de 2010 y la Orden de desarrollo del ROC de 2013"
-  estado: "Abierta"
+  estado: "Resuelta"
   fecha_registro: 2026-08-05
-  fecha_resolucion: null
+  fecha_resolucion: 2026-08-05
   relacionadas: [NOR-018, NOR-009, FTE-013, TAREA-084, TAREA-085, PREG-010, PREG-012]
   ruta: "08_tareas/preguntas/PREG-011-nor-018-desarrollo-roc-no-localizada.md"
 
 PREG-012:
   titulo: "NOR-050 describe una Orden NEAE de 2023 que no aparece en el BOC, y de ella depende la derogación declarada de NOR-025"
-  estado: "Abierta"
+  estado: "Resuelta"
   fecha_registro: 2026-08-05
-  fecha_resolucion: null
+  fecha_resolucion: 2026-08-05
   relacionadas: [NOR-050, NOR-024, NOR-025, NOR-026, FTE-053, REL-047, REL-048, TAREA-084, TAREA-085, PREG-010, PREG-011]
   ruta: "08_tareas/preguntas/PREG-012-nor-050-orden-neae-2023-no-localizada.md"
 

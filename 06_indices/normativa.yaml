@@ -243,7 +243,7 @@ NOR-017:
   nombre_corto: "ROC Escuelas Infantiles (Canarias)"
   tipo_norma: "orden-autonomica"
   ambito: "canarias"
-  estado_vigencia: "Vigente"
+  estado_vigencia: "No normativa — catalogación errónea, la norma no existe (DEC-0011)"
   fecha_disposicion: 2014-07-28
   fecha_publicacion: 2014-08-05
   fecha_entrada_vigor: 2014-08-06
@@ -258,7 +258,7 @@ NOR-018:
   nombre_corto: "Funcionamiento IES (Canarias)"
   tipo_norma: "orden-autonomica"
   ambito: "canarias"
-  estado_vigencia: "Vigente"
+  estado_vigencia: "No normativa — catalogación errónea, la norma no existe (DEC-0011)"
   fecha_disposicion: 2010-09-01
   fecha_publicacion: 2010-09-10
   fecha_entrada_vigor: 2010-09-11
@@ -363,7 +363,7 @@ NOR-025:
   nombre_corto: "Orden NEAE (Canarias)"
   tipo_norma: "orden-autonomica"
   ambito: "canarias"
-  estado_vigencia: "Superada parcialmente"
+  estado_vigencia: "Vigente (rectificado: la norma que se decía que la superaba no existe, PREG-012)"
   fecha_disposicion: 2010-12-13
   fecha_publicacion: 2010-12-22
   fecha_entrada_vigor: 2010-12-23
@@ -708,7 +708,7 @@ NOR-050:
   nombre_corto: "Procedimientos NEAE (Canarias)"
   tipo_norma: "orden-autonomica"
   ambito: "canarias"
-  estado_vigencia: "Vigente"
+  estado_vigencia: "No normativa — catalogación errónea, la norma no existe (DEC-0011)"
   fecha_disposicion: 2023-05-29
   fecha_publicacion: 2023-06-01
   fecha_entrada_vigor: 2023-06-02
@@ -1083,4 +1083,30 @@ NOR-075:
   ruta: "02_normativa/canarias/resoluciones/NOR-075-resolucion-2-julio-2026-cuadros-horarios-dobles-titulaciones.md"
   temas: [formacion-profesional, dobles-titulaciones, grado-d, distribucion-horaria, estructura-modular]
   etapas_afectadas: [formacion-profesional]
+
+NOR-076:
+  titulo: "ORDEN de 9 de octubre de 2013, por la que se desarrolla el Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias, en lo referente a su organización y funcionamiento."
+  nombre_corto: "Desarrollo del ROC de centros (Canarias, 2013)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2013-10-09
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-083
+  ruta: "02_normativa/canarias/ordenes/NOR-076-orden-9-octubre-2013-desarrollo-roc.md"
+  temas: [organizacion-centros, organos-coordinacion-docente, horarios, jornada-profesorado, absentismo-escolar, tutorias, reglamento-organico]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional, ensenanzas-deportivas]
+
+NOR-077:
+  titulo: "ORDEN de 1 de septiembre de 2010, por la que se desarrolla la organización y funcionamiento de los equipos de orientación educativa y psicopedagógicos de zona y específicos de la Comunidad Autónoma de Canarias."
+  nombre_corto: "Organización y funcionamiento de los EOEP (Canarias)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2010-09-01
+  fecha_consulta: 2026-08-05
+  fuente_principal: FTE-084
+  ruta: "02_normativa/canarias/ordenes/NOR-077-orden-1-septiembre-2010-eoep.md"
+  temas: [orientacion-educativa, eoep, neae, evaluacion-psicopedagogica, informe-psicopedagogico, atencion-a-la-diversidad]
+  etapas_afectadas: [infantil, primaria, eso, transversal]
 

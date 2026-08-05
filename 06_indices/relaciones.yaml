@@ -396,3 +396,20 @@ REL-060:
   destino: NOR-069
   fuente: FTE-077
   ruta: "05_relaciones/normativa/REL-060-resolucion-2026-modifica-fp-semipresencial-2024.yaml"
+
+REL-061:
+  tipo_relacion: "desarrolla"
+  origen: NOR-076
+  destino: NOR-009
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-061-orden-2013-desarrolla-roc.yaml"
+
+REL-062:
+  tipo_relacion: "modifica"
+  origen: NOR-076
+  destino: NOR-025
+  fecha_registro: 2026-08-05
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-062-orden-2013-modifica-orden-neae-2010.yaml"
+
