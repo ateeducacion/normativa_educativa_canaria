@@ -346,14 +346,14 @@ CUR-032:
   estado_extraccion: completado
 
 CUR-033:
-  titulo: "Religión — Primaria Canarias"
+  titulo: "Religión Católica — Primaria Canarias"
   etapa: "primaria"
-  materia: "Religión"
-  norma_base: NOR-043
+  materia: "Religión Católica"
+  norma_base: NOR-072
   fuente: FTE-079
   ruta_yaml: "03_curriculos/primaria/materias/CUR-033-religion.yaml"
   ruta_md: "03_curriculos/primaria/materias/CUR-033-religion.md"
-  estado_extraccion: parcial
+  estado_extraccion: completado
 
 CUR-034:
   titulo: "Crecimiento en Armonía — Infantil Canarias"

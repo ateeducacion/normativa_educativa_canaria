@@ -1,14 +1,15 @@
 ---
 id: TAREA-082
 titulo: "Catalogar la fuente oficial del currículo de Religión en Primaria y cerrar CUR-033"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Media"
 tipo: "catalogacion"
 responsable: "@.agents/skills/catalogacion-fuentes"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
+fecha_cierre: 2026-08-05
 relacionadas: [CUR-033, NOR-043, FTE-046, TAREA-067]
-siguiente_accion: "Localizar en el BOE la resolución que publica el currículo de Religión Católica en Educación Primaria y catalogarla como FTE."
+siguiente_accion: null
 ---
 
 # TAREA-082 — Fuente oficial del currículo de Religión en Primaria
@@ -74,3 +75,42 @@ procede de otra fuente sin identificar. Queda documentado en la ficha y la tarea
 
 **Hallazgo colateral:** el RD 157/2022, de enseñanzas mínimas de Primaria, citado en el preámbulo
 de esta resolución, no tiene ficha `NOR` propia en el corpus.
+
+## Cierre (2026-08-05)
+
+Resuelta la decisión editorial que quedaba abierta: **se re-extrae desde la fuente**. El
+contenido anterior no procedía de `FTE-079` ni de ninguna otra fuente registrada, y una ficha con
+contenido normativo sin fuente incumple R1. Mantenerlo a la espera de identificar su procedencia
+habría dejado indefinidamente en el corpus un texto que un sistema RAG podría citar como si fuera
+la norma.
+
+`CUR-033` se ha reconstruido íntegramente desde el Anexo II de la Resolución de 21 de junio de
+2022: **6 competencias específicas, 36 criterios de evaluación —doce por ciclo, dos por
+competencia— y 84 saberes básicos** repartidos en tres bloques por ciclo. Antes tenía 6
+competencias parafraseadas, 6 criterios y 4 bloques sin ciclo.
+
+La extracción se verificó carácter a carácter contra la copia local del texto oficial: coinciden
+6 de 6 competencias, 31 de 36 criterios y 81 de 84 saberes. Los ocho restantes rompen exactamente
+donde el PDF intercala su marca de página `cve: BOE-A-2022-10452`, y se comprobaron uno a uno.
+
+`norma_base` pasa de `NOR-043` a `NOR-072`, y `estado_extraccion` de `parcial` a `completado`.
+Con eso el corpus queda en **58 fichas curriculares completadas y ninguna parcial**.
+
+De dónde salía el contenido anterior sigue sin saberse. No se abre pregunta por ello: el dato ya
+no está en el corpus y la fuente correcta está registrada.
+
+### Peculiaridad de esta ficha
+
+Es la única de Primaria cuya `norma_base` no es el decreto canario, y la única del corpus cuyo
+mapa de descriptores de `DEC-0008` lleva una sola clave. La resolución publica los descriptores
+del Perfil de salida **una vez por competencia para toda la etapa**, no por ciclo. La clave es
+«Toda la etapa» y refleja la fuente, no una agregación.
+
+### Pendiente que deja abierto
+
+El Anexo II es uno de los cuatro de esta resolución. El corpus **no tiene ficha curricular de
+Religión Católica para Infantil, ESO ni Bachillerato**, y la copia local ya contiene los cuatro
+anexos. Queda como trabajo disponible, no como bloqueo.
+
+Sigue sin ficha `NOR` el RD 157/2022 de enseñanzas mínimas de Primaria, detectado al catalogar
+esta resolución.

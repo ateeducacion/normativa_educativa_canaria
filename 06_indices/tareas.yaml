@@ -1422,7 +1422,7 @@ TAREA-081:
   ruta: 08_tareas/backlog/TAREA-081-reexportar-anexo-decreto-infantil.md
 TAREA-082:
   titulo: "Catalogar la fuente oficial del currículo de Religión en Primaria y cerrar CUR-033"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "catalogacion"
   responsable: '@.agents/skills/catalogacion-fuentes'
