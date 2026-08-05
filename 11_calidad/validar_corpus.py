@@ -98,6 +98,10 @@ ENTIDADES = {
 FRONTMATTER = re.compile(r"\A---\n(.*?)\n---", re.S)
 ID_EN_NOMBRE = re.compile(r"\A([A-Z]+-[0-9]+)")
 
+# Firma del doble encodeo UTF-8 -> latin-1: `Ã` o `Â` seguidos del segundo byte
+# de la secuencia original. Se exige el par para no marcar una `Ã` legítima.
+FIRMA_MOJIBAKE = re.compile("Ã[-¿¡-ÿ]|Â[ -¿-]")
+
 
 def normalizar(valor):
     """Convierte fechas de PyYAML a cadenas ISO.
@@ -253,6 +257,31 @@ def validar_tipo(tipo: str, cfg: dict) -> dict:
     }
 
 
+def validar_textos_locales() -> dict:
+    """Comprueba que las copias locales de texto oficial no estén dobles-codificadas.
+
+    Un texto guardado como UTF-8 leído como latin-1 y vuelto a guardar deja `Ã` o
+    `Â` donde debía haber una vocal acentuada, y eso lo vuelve inservible para
+    búsqueda: `Competencia específica` pasa a `Competencia especÃ­fica` y ninguna
+    consulta lo encuentra. Ocurrió en 33 de 97 ficheros sin que nada lo detectara
+    (TAREA-074), así que se comprueba en cada validación.
+    """
+    errores = []
+    ficheros = sorted(RAIZ.glob("07_corpus_ia/textos-completos/*.txt"))
+    for fichero in ficheros:
+        texto = fichero.read_text(encoding="utf-8", errors="replace")
+        dañados = FIRMA_MOJIBAKE.findall(texto)
+        if dañados:
+            muestra = ", ".join(sorted(set(dañados))[:4])
+            errores.append({
+                "fichero": fichero.relative_to(RAIZ).as_posix(),
+                "campo": "(codificación)",
+                "mensaje": f"{len(dañados)} secuencias de doble encodeo ({muestra}); "
+                           f"repara con 11_calidad/reparar_mojibake.py",
+            })
+    return {"tipo": "TEXTOS", "ficheros": len(ficheros), "errores": errores, "avisos": []}
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Valida el corpus contra schemas/ y 06_indices/.")
     parser.add_argument("--json", action="store_true", help="salida JSON para integración continua")
@@ -262,6 +291,8 @@ def main() -> int:
 
     tipos = [args.tipo] if args.tipo else sorted(ENTIDADES)
     informes = [validar_tipo(t, ENTIDADES[t]) for t in tipos]
+    if not args.tipo:
+        informes.append(validar_textos_locales())
     total_errores = sum(len(i["errores"]) for i in informes)
     total_avisos = sum(len(i["avisos"]) for i in informes)
 

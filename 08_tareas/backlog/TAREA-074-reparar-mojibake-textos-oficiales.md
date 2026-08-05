@@ -49,11 +49,23 @@ Primaria y de 0 a 12 en el de Infantil.
 Estas copias son el material que alimenta la búsqueda y el RAG del corpus. Un tercio de ellas
 era parcialmente inservible para búsqueda por texto sin que nada lo detectara.
 
+## Prevención
+
+`11_calidad/validar_corpus.py` comprueba ahora la codificación de las 97 copias locales y las
+reporta como un tipo más, `TEXTOS`. La firma que busca es `Ã` o `Â` seguidos del segundo byte de
+la secuencia original; exigir el par evita marcar una `Ã` legítima. Un fichero dañado devuelve
+error y bloquea el cierre de tarea, con el comando de reparación en el propio mensaje.
+
+`07_corpus_ia/textos-completos/**` se añade a las rutas que disparan el flujo de integración
+continua, que antes no lo vigilaba.
+
 ## Pendiente
 
-El validador no comprueba la codificación de las copias locales. Convendría añadir esa
-comprobación para que el daño no vuelva a pasar inadvertido, y revisar el proceso de exportación
-que lo introdujo.
+No se ha localizado la herramienta que generó estas copias: no hay ningún script de exportación
+en el repositorio, y la cabecera —«Texto plano rápido generado desde el HTML oficial del BOC»—
+sugiere un proceso manual o externo. Si vuelve a usarse, conviene comprobar que lee el HTML del
+BOC declarando la codificación en lugar de dejar que la herramienta la adivine, que es de donde
+sale este daño.
 
 ## Coordinación con trabajo paralelo
 
