@@ -1,0 +1,53 @@
+---
+id: TAREA-073
+titulo: "Re-extraer CUR-001 y CUR-009, que concentran las divergencias con el texto oficial"
+estado: "Pendiente"
+prioridad: "Alta"
+tipo: "curriculo"
+responsable: "@.agents/skills/analisis-curricular"
+fecha_creacion: 2026-08-05
+fecha_actualizacion: 2026-08-05
+relacionadas: [PREG-008, CUR-001, CUR-009, NOR-005, FTE-009, TAREA-072]
+siguiente_accion: "Re-extraer las competencias de CUR-001 desde el Decreto 30/2023, empezando por C3 y C5."
+---
+
+# TAREA-073 — Re-extracción de CUR-001 y CUR-009
+
+## Objetivo
+
+`TAREA-072` encontró que las cinco divergencias de descriptores del corpus de ESO se concentran
+en estas dos fichas, junto con buena parte de los enunciados que no reproducen la fuente.
+
+## Qué corregir
+
+### `CUR-001` — Biología y Geología
+
+- **C3**: la ficha declara siete códigos que no aparecen en ninguna versión de curso del decreto
+  (CCL5, CD3, CE1, CP1, CPSAA4, CCEC3, CCEC4) y omite cuatro que están en los tres
+  (CCL3, STEM1, STEM3, CPSAA3). La lista guarda poca relación con la fuente.
+- **C5**: declara `CC2`, que no aparece, y omite `CPSAA1`, presente en los tres cursos.
+- **C4** y **C6**: el enunciado no reproduce el decreto (similitudes 0,62 y 0,52).
+
+### `CUR-009` — Educación Plástica, Visual y Audiovisual
+
+- **C6**, **C7** y **C8**: contienen códigos ausentes de la fuente.
+- **C2**: el enunciado no es literal.
+
+## Cómo hacerlo
+
+1. Abrir `FTE-009` o la copia local del Decreto 30/2023 en `07_corpus_ia/textos-completos/`.
+2. Localizar el bloque competencial de cada materia y curso.
+3. Volcar el enunciado **literal** y los descriptores que el decreto asigna a cada competencia.
+4. Si `PREG-008` ya está resuelta, aplicar el modelo que fije para la dimensión de curso; si no,
+   dejar constancia en `observaciones` de a qué curso corresponde cada lista.
+5. Validar con `python3 11_calidad/validar_corpus.py`.
+
+## Advertencia
+
+Ambas fichas están hoy en `estado_extraccion: completado`. Hasta corregirlas, ese estado no se
+sostiene contra la fuente. Si esta tarea se demora, conviene degradarlas a `parcial` para no
+dar por buenos unos datos que la auditoría ya ha desmentido.
+
+## Coordinación con trabajo paralelo
+
+IDs consumidos: `TAREA-073`. Solo se modifican `CUR-001` y `CUR-009`.

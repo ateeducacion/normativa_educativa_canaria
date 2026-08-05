@@ -1173,6 +1173,39 @@ tareas:
     - TAREA-069
     siguiente_accion: null
 
+  TAREA-072:
+    titulo: "Auditar los descriptores operativos de las 18 fichas de ESO marcadas como completadas"
+    estado: "Hecha"
+    prioridad: "Alta"
+    tipo: "calidad-documental"
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-008
+    - CUR-001
+    - CUR-009
+    - NOR-005
+    - TAREA-071
+    - TAREA-073
+    siguiente_accion: null
+  TAREA-073:
+    titulo: "Re-extraer CUR-001 y CUR-009, que concentran las divergencias con el texto oficial"
+    estado: "Pendiente"
+    prioridad: "Alta"
+    tipo: "curriculo"
+    responsable: '@.agents/skills/analisis-curricular'
+    fecha_creacion: 2026-08-05
+    fecha_actualizacion: 2026-08-05
+    relacionadas:
+    - PREG-008
+    - CUR-001
+    - CUR-009
+    - NOR-005
+    - FTE-009
+    - TAREA-072
+    siguiente_accion: "Re-extraer las competencias de CUR-001 desde el Decreto 30/2023, empezando por C3 y C5."
+
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.

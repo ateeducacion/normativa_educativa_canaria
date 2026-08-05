@@ -1255,3 +1255,37 @@ TAREA-071:
   - TAREA-068
   - TAREA-069
   ruta: 08_tareas/backlog/TAREA-071-preparar-extraccion-descriptores.md
+
+TAREA-072:
+  titulo: "Auditar los descriptores operativos de las 18 fichas de ESO marcadas como completadas"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "calidad-documental"
+  responsable: '@.agents/skills/control-calidad-documental'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - PREG-008
+  - CUR-001
+  - CUR-009
+  - NOR-005
+  - TAREA-071
+  - TAREA-073
+  ruta: 08_tareas/backlog/TAREA-072-auditar-descriptores-fichas-completadas.md
+
+TAREA-073:
+  titulo: "Re-extraer CUR-001 y CUR-009, que concentran las divergencias con el texto oficial"
+  estado: "Pendiente"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: '@.agents/skills/analisis-curricular'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - PREG-008
+  - CUR-001
+  - CUR-009
+  - NOR-005
+  - FTE-009
+  - TAREA-072
+  ruta: 08_tareas/backlog/TAREA-073-reextraer-cur-001-cur-009.md
