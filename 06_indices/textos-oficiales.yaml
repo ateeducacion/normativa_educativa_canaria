@@ -1370,7 +1370,7 @@ normativa:
       fecha_exportacion: '2026-08-05'
   NOR-044:
     titulo: Orden de 31 de mayo de 2023, por la que se regulan la evaluación y la promoción del alumnado que cursa las etapas de la Educación Infantil, la Educación Primaria, la Educación Secundaria Obligatoria y el Bachillerato
-    ruta_corpus: 02_normativa/canarias/ordenes/NOR-044-orden-evaluacion-primaria.md
+    ruta_corpus: 02_normativa/canarias/ordenes/NOR-044-orden-evaluacion-31-mayo-2023.md
     fuente_principal: FTE-047
     fecha_consulta: 2026-04-26
     estado_vigencia: Vigente
@@ -1381,7 +1381,7 @@ normativa:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local:
-      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-044-orden-evaluacion-primaria.txt
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-044-orden-evaluacion-31-mayo-2023.txt
       sha256: dfae7f8ec8bdec784586ddcf95b4e71b7f08e554fe07ca5a027fab9f1425ff1c
       url_origen: https://www.gobiernodecanarias.org/boc/2023/110/002.html
       fecha_exportacion: '2026-04-27'
@@ -1435,23 +1435,6 @@ normativa:
       ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-047-decreto-196-2022-infantil.txt
       sha256: 008b8734f654f6c9a3efd479262643c95647732a37f4a308aa96c6f695653469
       url_origen: https://www.gobiernodecanarias.org/boc/2022/212/001.html
-      fecha_exportacion: '2026-04-27'
-  NOR-048:
-    titulo: Evaluación en Educación Infantil (según Orden de 31 de mayo de 2023)
-    ruta_corpus: 02_normativa/canarias/ordenes/NOR-048-evaluacion-infantil.md
-    fuente_principal: FTE-047
-    fecha_consulta: 2026-04-26
-    estado_vigencia: Vigente
-    estado_acceso: con-copia-local
-    enlaces:
-      url_html: https://www.gobiernodecanarias.org/boc/2023/110/002.html
-      url_pdf: null
-      url_texto_consolidado: null
-      url_anexo: null
-    texto_plano_local:
-      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-048-evaluacion-infantil.txt
-      sha256: 64fe8fd09fa81b47e872170e80ba8413a02b31072d56a50b694917facbfd77cc
-      url_origen: https://www.gobiernodecanarias.org/boc/2023/110/002.html
       fecha_exportacion: '2026-04-27'
   NOR-050:
     titulo: Orden de 29 de mayo de 2023, por la que se establecen los procedimientos reguladores de la respuesta educativa al alumnado con necesidades específicas de apoyo educativo en Canarias

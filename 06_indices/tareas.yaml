@@ -1434,3 +1434,21 @@ TAREA-082:
   - FTE-046
   - TAREA-067
   ruta: 08_tareas/backlog/TAREA-082-fuente-oficial-curriculo-religion-primaria.md
+
+TAREA-083:
+  titulo: "Fusionar las fichas normativas desdobladas por etapa y detectar el patrón en el validador"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "calidad-documental"
+  responsable: '@.agents/skills/control-calidad-documental'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - DEC-0010
+  - PREG-009
+  - NOR-044
+  - NOR-046
+  - NOR-047
+  - FTE-047
+  - FTE-051
+  ruta: 08_tareas/backlog/TAREA-083-fusionar-fichas-desdobladas-por-etapa.md

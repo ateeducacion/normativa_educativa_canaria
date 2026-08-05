@@ -331,6 +331,51 @@ def validar_referencias() -> dict:
     return {"tipo": "REFERENCIAS", "ficheros": revisados, "errores": errores, "avisos": []}
 
 
+def validar_desdoblamientos() -> dict:
+    """Detecta normas descritas por más de una ficha (DEC-0010).
+
+    El desdoblamiento por etapa produjo metadatos divergentes, copias locales
+    duplicadas y hasta una fuente inventada para justificar la segunda ficha. Dos
+    señales lo delatan: fichas que comparten `fecha_disposicion` y
+    `fuente_principal`, y copias locales con el mismo contenido.
+    """
+    avisos = []
+
+    por_norma: dict[tuple, list[str]] = {}
+    for fichero in sorted(RAIZ.glob(ENTIDADES["NOR"]["patron"])):
+        datos, fallo = cargar(fichero, "frontmatter")
+        if fallo or not isinstance(datos, dict):
+            continue
+        clave = (str(datos.get("fecha_disposicion")), str(datos.get("fuente_principal")))
+        if clave[0] not in ("None", "") and clave[1] != "None":
+            por_norma.setdefault(clave, []).append(datos["id"])
+    for (fecha, fuente), ids in sorted(por_norma.items()):
+        if len(ids) > 1:
+            avisos.append({
+                "fichero": "02_normativa/",
+                "campo": ", ".join(sorted(ids)),
+                "mensaje": f"comparten fecha_disposicion {fecha} y fuente {fuente}: "
+                           f"¿describen la misma norma? (DEC-0010)",
+            })
+
+    # Copias locales con contenido idéntico: la cabecera de exportación son 9 líneas.
+    import hashlib
+    por_contenido: dict[str, list[str]] = {}
+    for fichero in sorted(RAIZ.glob("07_corpus_ia/textos-completos/*.txt")):
+        cuerpo = "\n".join(fichero.read_text(encoding="utf-8", errors="replace").splitlines()[9:])
+        huella = hashlib.sha256(cuerpo.encode()).hexdigest()
+        por_contenido.setdefault(huella, []).append(fichero.name)
+    for nombres in por_contenido.values():
+        if len(nombres) > 1:
+            avisos.append({
+                "fichero": "07_corpus_ia/textos-completos/",
+                "campo": ", ".join(sorted(nombres)),
+                "mensaje": "copias locales con contenido idéntico (DEC-0010)",
+            })
+
+    return {"tipo": "DESDOBLAMIENTOS", "ficheros": len(por_norma), "errores": [], "avisos": avisos}
+
+
 def validar_textos_locales() -> dict:
     """Comprueba que las copias locales de texto oficial no estén dobles-codificadas.
 
@@ -367,6 +412,7 @@ def main() -> int:
     informes = [validar_tipo(t, ENTIDADES[t]) for t in tipos]
     if not args.tipo:
         informes.append(validar_referencias())
+        informes.append(validar_desdoblamientos())
         informes.append(validar_textos_locales())
     total_errores = sum(len(i["errores"]) for i in informes)
     total_avisos = sum(len(i["avisos"]) for i in informes)

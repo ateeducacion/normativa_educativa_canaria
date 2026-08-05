@@ -21,7 +21,7 @@ relaciones:
   modifica_a: []
   deroga_a: [Decreto 183/2008]
   derogada_por: []
-  relacionada_con: [NOR-048]
+  relacionada_con: [NOR-044]
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 

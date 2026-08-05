@@ -91,7 +91,7 @@ Se aplica la **opción 1** de las tres planteadas, ajustada para no incumplir R9
 
 Ninguna entidad referencia ya a `FTE-051`.
 
-## Queda abierto: la duplicidad NOR-046 / NOR-049
+## Resuelto también: la duplicidad por etapa
 
 Al resolver esto aparece una cuestión distinta que no se decide aquí: **dos fichas normativas
 describen la misma resolución**, con el mismo contenido literal y dos copias locales idénticas.

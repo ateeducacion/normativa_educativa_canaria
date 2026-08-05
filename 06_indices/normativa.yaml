@@ -654,7 +654,7 @@ NOR-044:
   fecha_entrada_vigor: 2023-06-09
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-047
-  ruta: "02_normativa/canarias/ordenes/NOR-044-orden-evaluacion-primaria.md"
+  ruta: "02_normativa/canarias/ordenes/NOR-044-orden-evaluacion-31-mayo-2023.md"
   temas: [evaluacion, promocion, titulacion]
   etapas_afectadas: [infantil, primaria, eso, bachillerato]
 
@@ -701,21 +701,6 @@ NOR-047:
   fuente_principal: FTE-050
   ruta: "02_normativa/canarias/decretos/NOR-047-decreto-196-2022-infantil.md"
   temas: [infantil, curriculo, ordenacion]
-  etapas_afectadas: [infantil]
-
-NOR-048:
-  titulo: "Evaluación en Educación Infantil (según Orden de 31 de mayo de 2023)"
-  nombre_corto: "Evaluación Infantil (Canarias)"
-  tipo_norma: "resolucion-administrativa"
-  ambito: "canarias"
-  estado_vigencia: "Vigente"
-  fecha_disposicion: 2023-05-31
-  fecha_publicacion: 2023-06-08
-  fecha_entrada_vigor: 2023-06-09
-  fecha_consulta: 2026-04-26
-  fuente_principal: FTE-047
-  ruta: "02_normativa/canarias/ordenes/NOR-048-evaluacion-infantil.md"
-  temas: [evaluacion, observacion, cualitativa]
   etapas_afectadas: [infantil]
 
 NOR-050:
