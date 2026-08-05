@@ -1,12 +1,13 @@
 ---
 id: TAREA-070
 titulo: "Localizar la ubicación actual de las fuentes cuya URL oficial devuelve 404"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Media"
 tipo: "catalogacion"
 responsable: "@.agents/skills/catalogacion-fuentes"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
+fecha_cierre: 2026-08-05
 relacionadas: [FTE-045, FTE-048, FTE-049, FTE-051, TAREA-065]
 siguiente_accion: "Localizar la Resolución de 20 de junio de 2025 de IOF de Escuelas Infantiles que declara FTE-051."
 ---
@@ -57,3 +58,15 @@ Qué comprobar:
 ## Coordinación con trabajo paralelo
 
 IDs consumidos: `TAREA-070`. Solo se modifican fichas `FTE` existentes.
+
+## Resultado (2026-08-05)
+
+`FTE-051` no se ha podido localizar porque **el documento que declara no existe como norma
+diferenciada**. La única resolución de 20 de junio de 2025 es la Resolución conjunta n.º 73/2025,
+ya catalogada como `FTE-049`, verificada por su sello de registro electrónico.
+
+La ficha no se ha modificado: cualquiera de las salidas posibles cambia la identidad de la
+fuente y afecta a `FTE-049`, `NOR-046` y `NOR-049`. Queda como `PREG-009` para decisión
+editorial.
+
+Las otras tres fuentes de esta tarea quedaron resueltas y verificadas el mismo día.

@@ -1,12 +1,13 @@
 ---
 id: TAREA-068
 titulo: "Extraer los descriptores operativos de las fichas curriculares de eso (CUR-015 a CUR-023)"
-estado: "Pendiente"
+estado: "Hecha"
 prioridad: "Media"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
+fecha_cierre: 2026-08-05
 relacionadas: [PREG-008, FTE-009, NOR-005, TAREA-065, PREG-007]
 siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 5 fichas y pasarlas a estado_extraccion completado."
 ---
@@ -73,3 +74,11 @@ no el enunciado oficial** del decreto. Cuando esta tarea se desbloquee no bastar
 descriptores operativos: hay que sustituir también `descripcion` por el texto literal y
 renombrar el campo a `enunciado_oficial`, como en las fichas completas.
 
+## Resultado (2026-08-05)
+
+Las 5 fichas —`CUR-015`, `CUR-016`, `CUR-019`, `CUR-021`, `CUR-023`— pasan a
+`estado_extraccion: completado`. Enunciados literales y descriptores por curso extraídos del
+Decreto 30/2023 y verificados contra la fuente.
+
+`criterios_evaluacion` y `saberes_basicos` ya estaban presentes como selección representativa y
+no se han tocado.

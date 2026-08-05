@@ -8,7 +8,7 @@ norma_base: NOR-005
 fuente: FTE-009
 url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
 fecha_consulta: 2026-04-26
-fecha_analisis: 2026-04-26
+fecha_analisis: 2026-08-05
 estado_extraccion: "completado"
 estado_vigencia: "Vigente"
 elementos:
@@ -29,20 +29,32 @@ elementos:
         "4.º ESO": [CCL3, STEM4, CD1, CD2, CD3, CD4, CD5, CPSAA4]
     - codigo: "C3"
       enunciado_resumido: "Planificar y desarrollar proyectos de investigación."
-      enunciado_oficial: "Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías científicas y cooperando, cuando sea necesario, para indagar en aspectos relacionados con las ciencias geológicas y biológicas."
-      descriptores: ["CCL1", "CCL2", "CCL5", "CP1", "STEM2", "STEM4", "CD1", "CD2", "CD3", "CPSAA4", "CE1", "CE3", "CCEC3", "CCEC4"]
+      enunciado_oficial: "Planificar y desarrollar proyectos de investigación, siguiendo los pasos de las metodologías científicas y cooperando cuando sea necesario, para indagar en aspectos relacionados con las ciencias geológicas y biológicas."
+      descriptores:
+        "1.º ESO": [CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CPSAA3, CC3]
+        "3.º ESO": [CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CPSAA3, CE3]
+        "4.º ESO": [CCL1, CCL2, CCL3, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CPSAA3, CE3]
     - codigo: "C4"
-      enunciado_resumido: "Resolver problemas mediante el razonamiento lógico."
-      enunciado_oficial: "Utilizar el razonamiento y el pensamiento computacional, para resolver problemas o dar explicación a procesos de la vida cotidiana relacionados con la biología y la geología, analizando críticamente las respuestas y soluciones y reformulando el procedimiento, si fuera necesario."
-      descriptores: ["CCL1", "CCL2", "CCL3", "CP1", "STEM1", "STEM2", "STEM3", "STEM4", "CD1", "CD2", "CD3", "CPSAA1", "CPSAA3", "CPSAA4", "CE1", "CE3", "CCEC3"]
+      enunciado_resumido: "Utilizar el razonamiento y el pensamiento computacional para resolver problemas o explicar procesos de la vida cotidiana."
+      enunciado_oficial: "Utilizar el razonamiento y el pensamiento computacional, analizando críticamente las respuestas y soluciones y reformulando el procedimiento, si fuera necesario, para resolver problemas o dar explicación a procesos de la vida cotidiana relacionados con la biología y la geología."
+      descriptores:
+        "1.º ESO": [STEM1, STEM2, CD5, CPSAA5, CE1, CE3, CCEC4]
+        "3.º ESO": [STEM1, STEM2, CD5, CPSAA5, CE1, CE3, CCEC4]
+        "4.º ESO": [STEM1, STEM2, CD5, CPSAA5, CE1, CE3, CCEC4]
     - codigo: "C5"
       enunciado_resumido: "Analizar acciones sobre el medioambiente y la salud."
-      enunciado_oficial: "Analizar los efectos de determinadas acciones sobre el medioambiente y la salud, basándose en los fundamentos de las ciencias biológicas y de la Tierra, para promover y adoptar hábitos que eviten o minimicen los impactos medioambientales negativos, sean compatibles con un desarrollo sostenible y permitan mantener y mejorar la salud individual y colectiva."
-      descriptores: ["STEM2", "STEM5", "CD4", "CPSAA2", "CC2", "CC3", "CC4", "CE1"]
+      enunciado_oficial: "Analizar los efectos de determinadas acciones sobre el medio ambiente y la salud, basándose en los fundamentos de las ciencias biológicas y de la Tierra, para promover y adoptar hábitos que eviten o minimicen los impactos medioambientales negativos, sean compatibles con un desarrollo sostenible y permitan mantener y mejorar la salud individual y colectiva."
+      descriptores:
+        "1.º ESO": [STEM2, STEM5, CD4, CPSAA1, CPSAA2, CC3, CC4, CE1]
+        "3.º ESO": [STEM2, STEM5, CD4, CPSAA1, CPSAA2, CC3, CC4, CE1]
+        "4.º ESO": [STEM2, STEM5, CD4, CPSAA1, CPSAA2, CC3, CC4, CE1]
     - codigo: "C6"
-      enunciado_resumido: "Analizar elementos del paisaje y riesgos naturales."
-      enunciado_oficial: "Analizar los elementos de un paisaje concreto utilizando conocimientos sobre geología y ciencias de la Tierra para explicar la historia y la dinámica del relieve e identificar posibles riesgos naturales."
-      descriptores: ["STEM1", "STEM2", "STEM4", "STEM5", "CD1", "CC4", "CE1", "CCEC1"]
+      enunciado_resumido: "Analizar los elementos de un paisaje concreto como patrimonio natural, explicando su historia geológica e identificando riesgos naturales."
+      enunciado_oficial: "Analizar los elementos de un paisaje concreto valorándolo como patrimonio natural y utilizando conocimientos sobre Geología y Ciencias de la Tierra para explicar su historia geológica, proponer acciones encaminadas a su protección e identificar posibles riesgos naturales."
+      descriptores:
+        "1.º ESO": [STEM1, STEM2, STEM5, CC4, CE1, CCEC1]
+        "3.º ESO": [CCL3, STEM1, STEM2, STEM4, STEM5, CD1, CC4, CE1, CCEC1]
+        "4.º ESO": [CCL3, STEM1, STEM2, STEM4, STEM5, CD1, CC4, CE1, CCEC1]
   criterios_evaluacion:
     - curso: "1.º ESO"
       criterios:
@@ -115,10 +127,10 @@ elementos:
     - bloque: "Bloque X — La Tierra en el universo"
       cursos: ["4.º ESO"]
       detalles: "Formación del sistema solar y el tiempo geológico."
-  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP1", "STEM1", "STEM2", "STEM3", "STEM4", "STEM5", "CD1", "CD2", "CD3", "CD4", "CD5", "CPSAA1", "CPSAA2", "CPSAA3", "CPSAA4", "CC2", "CC3", "CC4", "CE1", "CE3", "CCEC1", "CCEC3", "CCEC4"]
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "STEM1", "STEM2", "STEM3", "STEM4", "STEM5", "CD1", "CD2", "CD3", "CD4", "CD5", "CPSAA1", "CPSAA2", "CPSAA3", "CPSAA4", "CPSAA5", "CC3", "CC4", "CE1", "CE3", "CCEC1", "CCEC4"]
   situaciones_aprendizaje: []
 relaciones:
   desarrolla_a: [NOR-003]
   relacionada_con: [NOR-005, NOR-002]
 resumen_ia: "Currículo de Biología y Geología en ESO Canarias (1.º, 3.º y 4.º) con seis competencias específicas (C1-C6) y una organización en bloques de saberes. Marco autonómico: Decreto 30/2023; marco estatal: RD 217/2022. Incluye vinculación detallada con descriptores operativos del Perfil de salida y criterios de evaluación por curso."
-observaciones: "Extracción completada tras cotejo con el BOC (FTE-009). Se han incorporado los enunciados literales y la vinculación oficial con los descriptores del Perfil de salida."
+observaciones: "Extracción completada tras cotejo con el BOC (FTE-009). Se han incorporado los enunciados literales y la vinculación oficial con los descriptores del Perfil de salida. Re-extracción del 2026-08-05 (TAREA-073) sobre la copia local del Decreto 30/2023: se corrigieron los enunciados literales de C3, C4, C5 y C6 y se migraron sus descriptores a mapa por curso conforme a DEC-0008, bloque a bloque contra el texto oficial. C4 y C5 comparten la misma lista en 1.º, 3.º y 4.º ESO; C3 y C6 varían entre 1.º ESO y los cursos superiores. El bloque de C6 de 4.º ESO aparece partido por un salto de página en la copia local (la marca «Competencia específica Descriptores operativos de las» queda en la página anterior), por lo que el extractor automático no lo localiza y su vinculación se ha comprobado a mano."

@@ -10,18 +10,37 @@ estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
   competencias_especificas:
-    - id: C1
-      descripcion: "Comprensión: Interpretar el sentido general y los detalles más relevantes de textos claros y en lengua estándar."
-    - id: C2
-      descripcion: "Producción: Producir textos coherentes, cohesionados y adecuados a la situación comunicativa."
-    - id: C3
-      descripcion: "Interacción: Interactuar con otras personas con creciente autonomía utilizando estrategias de cooperación."
-    - id: C4
-      descripcion: "Mediación: Mediar entre distintas lenguas o registros para explicar conceptos o simplificar mensajes."
-    - id: C5
-      descripcion: "Plurilingüismo: Ampliar y usar los repertorios lingüísticos personales reflexionando sobre su funcionamiento."
-    - id: C6
-      descripcion: "Interculturalidad: Valorar críticamente la diversidad lingüística, cultural y artística para actuar de forma empática."
+    - codigo: "C1"
+      enunciado_oficial: "Comprender e interpretar las ideas principales y las líneas argumentales básicas de textos expresados en la lengua estándar, buscando fuentes fiables y haciendo uso de estrategias de inferencia y comprobación de significados, para responder a las necesidades comunicativas planteadas."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+        "2.º Bachillerato": [CCL2, CCL3, CP1, CP2, STEM1, CD1, CPSAA4]
+    - codigo: "C2"
+      enunciado_oficial: "Producir textos originales, de creciente extensión, claros, bien organizados y detallados, usando estrategias tales como la planificación, la síntesis, la compensación o la autorreparación, para expresar ideas y argumentos de forma creativa, adecuada y coherente, de acuerdo con propósitos comunicativos concretos."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA5, CCEC3.1]
+        "2.º Bachillerato": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA5, CCEC3.1]
+    - codigo: "C3"
+      enunciado_oficial: "Interactuar activamente con otras personas, con suficiente fluidez y precisión y con espontaneidad, usando estrategias de cooperación y empleando recursos analógicos y digitales, para responder a propósitos comunicativos en intercambios respetuosos con las normas de cortesía."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3.1, CC3]
+        "2.º Bachillerato": [CCL1, CCL5, CP1, CP2, STEM1, CD3, CPSAA3.1, CC3]
+    - codigo: "C4"
+      enunciado_oficial: "Mediar entre distintas lenguas o variedades, o entre las modalidades o registros de una misma lengua, usando estrategias y conocimientos eficaces orientados a explicar conceptos y opiniones o simplificar mensajes, para transmitir información de manera eficaz, clara y responsable, y crear una atmósfera positiva que facilite la comunicación."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL5, CP1, CP2, CP3, CD2, CPSAA4]
+        "2.º Bachillerato": [CCL2, CCL5, CP1, CP2, CP3, CD2, CPSAA4]
+    - codigo: "C5"
+      enunciado_oficial: "Ampliar y usar los repertorios lingüísticos personales entre distintas lenguas y variedades, reflexionando de forma crítica sobre su funcionamiento, y haciendo explícitos y compartiendo las estrategias y los conocimientos propios, para mejorar la respuesta a sus necesidades comunicativas."
+      descriptores:
+        "1.º Bachillerato": [CP2, STEM1, CD3, CPSAA1.1, CPSAA5, CE2]
+        "2.º Bachillerato": [CP2, STEM1, CD3, CPSAA1.1, CPSAA5, CE2]
+    - codigo: "C6"
+      enunciado_oficial: "Valorar críticamente y adecuarse a la diversidad lingüística, cultural y artística a partir de la lengua extranjera, reflexionando y compartiendo las semejanzas y las diferencias entre lenguas y culturas, para actuar de forma empática, respetuosa y eficaz, y fomentar la comprensión mutua en situaciones interculturales."
+      descriptores:
+        "1.º Bachillerato": [CCL5, CP3, CPSAA3.1, CC2, CC3, CE1, CCEC1]
+        "2.º Bachillerato": [CCL5, CP3, CPSAA3.1, CCEC1]
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP1", "CP2", "CP3", "STEM1", "CD1", "CD2", "CD3", "CPSAA1.1", "CPSAA3.1", "CPSAA4", "CPSAA5", "CC2", "CC3", "CE1", "CE2", "CCEC1", "CCEC3.1"]
   saberes_basicos:
     - id: comunicacion
       nombre: "I. Comunicación"
@@ -48,4 +67,4 @@ elementos:
 relaciones:
   desarrolla_a: [NOR-005]
   relacionada_con: []
-observaciones: "Materia de oferta obligatoria en 1.º y 2.º de Bachillerato (Alemán, Francés o Italiano). Extracción literal Decreto 30/2023. [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007)."
+observaciones: "Materia de oferta obligatoria en 1.º y 2.º de Bachillerato (Alemán, Francés o Italiano). Re-extracción del 2026-08-05: las 6 competencias específicas llevan ya enunciado_oficial literal y descriptores operativos por curso (DEC-0008), tomados de texto-oficial-CUR-054-segunda-lengua-extranjera.txt. Los enunciados son idénticos en ambos cursos; los descriptores también, salvo en C6, donde 1.º Bachillerato añade CC2, CC3 y CE1 respecto de 2.º Bachillerato. [PENDIENTE] criterios_evaluacion y saberes_basicos siguen siendo una muestra parcial, no la relación literal completa del decreto; extracción marcada como parcial."

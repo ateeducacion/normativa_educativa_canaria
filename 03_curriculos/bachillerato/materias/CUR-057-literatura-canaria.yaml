@@ -10,16 +10,27 @@ estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
   competencias_especificas:
-    - id: C1
-      descripcion: "Análisis y valoración crítica: Desarrollar estrategias de análisis e interpretación de obras de la literatura canaria en sus contextos de producción y recepción."
-    - id: C2
-      descripcion: "Hábito lector e identidad: Fomentar la lectura autónoma de textos de diversos géneros y épocas, con atención a las escritoras canarias, consolidando la identidad lectora."
-    - id: C3
-      descripcion: "Creación literaria: Crear textos con intención literaria y conciencia de estilo a partir del análisis de modelos de la literatura canaria."
-    - id: C4
-      descripcion: "Análisis interdisciplinar: Relacionar la literatura canaria con otras manifestaciones artísticas y culturales del patrimonio canario."
-    - id: C5
-      descripcion: "Alfabetización informacional: Desarrollar habilidades de búsqueda y tratamiento crítico de información sobre la literatura canaria en soporte digital y analógico."
+    - codigo: "C1"
+      enunciado_oficial: "Leer, escuchar, interpretar y valorar obras de la literatura canaria, vinculando sus singularidades con el contexto, la tradición y la producción actual, para acrecentar la interpretación crítica en el alumnado y contribuir gradualmente a la construcción de su propio mapa cultural."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL2, CCL3, CCL4, STEM5, CC1, CCEC1, CCEC2]
+    - codigo: "C2"
+      enunciado_oficial: "Leer y valorar de forma autónoma obras de la literatura canaria como fuente de placer y conocimiento, vinculando estas a la tradición y a la producción actual, y compartiendo experiencias de lectura para construir una interpretación propia debidamente argumentada y desarrollar una personalidad lectora independiente."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL4, CPSAA1.1, CPSAA3.1, CCEC1, CCEC2, CCEC3.1]
+    - codigo: "C3"
+      enunciado_oficial: "Relacionar y comparar textos y obras de la literatura canaria entre sí y con los de otras tradiciones literarias, reflexionando con sentido crítico sobre los elementos genéricos y los recursos expresivos que presentan y vinculando sus singularidades con el contexto sociohistórico, la tradición y el presente, para construir y compartir interpretaciones personales y generar nuevo conocimiento."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL3, CCL4, CP3, CD1, CD2, CPSAA4, CC1, CCEC1, CCEC2]
+    - codigo: "C4"
+      enunciado_oficial: "Relacionar e integrar, con actitud crítica y perspectiva holística, textos y obras de la literatura canaria con otras manifestaciones culturales, sociales y digitales, fomentando el análisis reflexivo sobre el papel de la literatura en el marco de los sistemas de comunicación global, para favorecer el conocimiento de la relación existente entre literatura y sociedad, y construir conocimiento de manera informada y activa."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL2, CCL3, CCL5, CP3, STEM5, CD2, CD3, CPSAA3.1, CPSAA3.2, CPSAA5, CC4, CCEC2, CCEC4.1]
+    - codigo: "C5"
+      enunciado_oficial: "Expresar ideas, opiniones, sentimientos y emociones propios con creatividad, corrección y espíritu crítico, a través de la confluencia de la expresión literaria con otras herramientas y lenguajes, mostrando iniciativa e imaginación, para lograr un aprendizaje efectivo, consolidar una personalidad independiente y empática, y desarrollar la identidad personal y la inteligencia a través de la práctica artística."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CD3, CPSAA1.1, CPSAA3.1, CE1, CCEC3.1, CCEC3.2, CCEC4.1, CCEC4.2]
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL4", "CCL5", "CP3", "STEM5", "CD1", "CD2", "CD3", "CPSAA1.1", "CPSAA3.1", "CPSAA3.2", "CPSAA4", "CPSAA5", "CC1", "CC4", "CE1", "CCEC1", "CCEC2", "CCEC3.1", "CCEC3.2", "CCEC4.1", "CCEC4.2"]
   saberes_basicos:
     - id: itinerarios-lectores
       nombre: "I. Itinerarios lectores"
@@ -40,4 +51,4 @@ elementos:
 relaciones:
   desarrolla_a: [NOR-005]
   relacionada_con: []
-observaciones: "Materia de oferta obligatoria en 2.º de Bachillerato en Canarias. Extracción literal Decreto 30/2023. [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007)."
+observaciones: "Materia de oferta obligatoria en 2.º de Bachillerato en Canarias. Re-extracción del 2026-08-05: las 5 competencias específicas llevan ya enunciado_oficial literal y descriptores operativos (DEC-0008), tomados de texto-oficial-CUR-057-literatura-canaria.txt; la materia solo se imparte en 2.º de Bachillerato, así que 'descriptores' lleva una única clave de curso. [PENDIENTE] criterios_evaluacion y saberes_basicos siguen siendo una muestra parcial, no la relación literal completa del decreto; extracción marcada como parcial."

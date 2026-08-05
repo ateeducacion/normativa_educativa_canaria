@@ -10,22 +10,39 @@ estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
   competencias_especificas:
-    - id: C1
-      descripcion: "Identificar, seleccionar y analizar fuentes de información contrastando su validez y fiabilidad."
-    - id: C2
-      descripcion: "Analizar críticamente los procesos de cambio en la historia de España respetando las diferentes identidades."
-    - id: C3
-      descripcion: "Analizar la inserción de España en el contexto internacional y la construcción europea."
-    - id: C4
-      descripcion: "Valorar la Constitución de 1978 como marco de convivencia y la evolución de las libertades."
-    - id: C5
-      descripcion: "Analizar los procesos de memoria colectiva y la reparación de las víctimas de la Guerra Civil y Dictadura."
-    - id: C6
-      descripcion: "Analizar el papel de las mujeres en la historia de España visibilizando su contribución."
-    - id: C7
-      descripcion: "Valorar y proteger el patrimonio histórico y cultural de España y Canarias."
-    - id: C8
-      descripcion: "Participar constructivamente en debates sobre problemas sociales aportando argumentos históricos."
+    - codigo: "C1"
+      enunciado_oficial: "Valorar los movimientos y acciones que han promovido las libertades en la historia de España, utilizando términos y conceptos históricos, a través del análisis comparado de los distintos regímenes políticos, para reconocer el legado democrático de la Constitución de 1978 como fundamento de nuestra convivencia y garantía de nuestros derechos."
+      descriptores:
+        "2.º Bachillerato": [CCL2, CCL3, CD1, CPSAA1.2, CPSAA3.1, CPSAA4, CC1, CC2]
+    - codigo: "C2"
+      enunciado_oficial: "Reconocer y valorar la diversidad de nuestro país, por medio del contraste de la información y la revisión crítica de fuentes, tomando conciencia del papel que juega en la actualidad, para respetar los sentimientos de pertenencia, la existencia de identidades múltiples, y las normas y símbolos que establece nuestro marco común de convivencia."
+      descriptores:
+        "2.º Bachillerato": [CCL3, CD1, CPSAA3.1, CPSAA4, CC1, CC2, CC3, CCEC1, CCEC2]
+    - codigo: "C3"
+      enunciado_oficial: "Analizar y valorar la idea de progreso desde la perspectiva del bienestar social y de la sostenibilidad, a través de la interpretación de los factores modernizadores de la economía española, el uso de métodos cuantitativos y el análisis crítico de las desigualdades sociales y territoriales, para considerar el emprendimiento, la innovación y el aprendizaje permanente como elementos fundamentales en un entorno económico y profesional en constante cambio."
+      descriptores:
+        "2.º Bachillerato": [STEM1, STEM4, CD2, CPSAA1.2, CPSAA2, CC1, CC4, CE1]
+    - codigo: "C4"
+      enunciado_oficial: "Tomar conciencia de la diversidad social a través del análisis multidisciplinar de los cambios y continuidades de la sociedad española a lo largo del tiempo, la evolución de la población, los niveles y modos de vida, las condiciones laborales y los movimientos y conflictos sociales, para valorar el alcance de las medidas adoptadas y los progresos y limitaciones para avanzar en la igualdad, el bienestar, la justicia y la cohesión social."
+      descriptores:
+        "2.º Bachillerato": [CCL2, CCL3, STEM4, CD1, CPSAA3.2, CPSAA4, CC1, CC3, CCEC2]
+    - codigo: "C5"
+      enunciado_oficial: "Analizar críticamente el papel de las creencias y de las ideologías en la articulación social, en el uso del poder y en la configuración de identidades y proyectos políticos contrapuestos, a través del estudio de fuentes primarias y textos historiográficos y la fundamentación de juicios propios, para debatir sobre problemas actuales, transferir conocimiento, valorar la diversidad cultural y mostrar actitudes respetuosas ante ideas legítimas diferentes a las propias."
+      descriptores:
+        "2.º Bachillerato": [CCL2, CCL3, STEM4, CD1, CPSAA3.1, CPSAA3.2, CPSAA4, CC1, CC2, CC3, CCEC1]
+    - codigo: "C6"
+      enunciado_oficial: "Interpretar el valor geoestratégico de España y su conexión con la historia mundial, señalando las analogías y singularidades de su evolución histórica en un contexto global cambiante, por medio de la búsqueda y el tratamiento de información, para avalar los compromisos de nuestro país en materias de cooperación y seguridad, promover actitudes solidarias y asumir los valores del europeísmo."
+      descriptores:
+        "2.º Bachillerato": [CCL3, STEM4, CD1, CPSAA1.1, CPSAA3.2, CC1, CC2, CC3, CCEC1, CCEC2]
+    - codigo: "C7"
+      enunciado_oficial: "Incorporar la perspectiva de género en el análisis de la España actual y de su historia, a través de la contextualización histórica de fuentes literarias y artísticas y la investigación sobre el movimiento feminista, para reconocer su presencia en la historia y promover actitudes en defensa de la igualdad efectiva de mujeres y hombres."
+      descriptores:
+        "2.º Bachillerato": [CCL3, CCL4, CCL5, CD1, CPSAA1.1, CPSAA1.2, CPSAA3.1, CC2, CC3, CCEC1, CCEC2]
+    - codigo: "C8"
+      enunciado_oficial: "Valorar el patrimonio histórico y cultural como legado y expresión de la memoria colectiva, identificando los significados y usos públicos que reciben determinados acontecimientos y procesos del pasado, por medio del análisis de la historiografía y del pensamiento histórico para el desarrollo de la iniciativa, el trabajo en equipo, la creatividad y la implicación en cuestiones de interés social y cultural."
+      descriptores:
+        "2.º Bachillerato": [CCL1, STEM3, CD2, CPSAA1.1, CPSAA3.1, CPSAA4, CC1, CC3, CE3, CCEC3.2]
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL4", "CCL5", "STEM1", "STEM3", "STEM4", "CD1", "CD2", "CPSAA1.1", "CPSAA1.2", "CPSAA2", "CPSAA3.1", "CPSAA3.2", "CPSAA4", "CC1", "CC2", "CC3", "CC4", "CE1", "CE3", "CCEC1", "CCEC2", "CCEC3.2"]
   saberes_basicos:
     - id: sociedades-territorios
       nombre: "Sociedades y territorios"
@@ -46,4 +63,4 @@ elementos:
 relaciones:
   desarrolla_a: [NOR-005]
   relacionada_con: []
-observaciones: "Materia común de 2.º de Bachillerato. Integra la perspectiva canaria en todos los bloques. Extracción literal Decreto 30/2023. [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007)."
+observaciones: "Materia común de 2.º de Bachillerato. Integra la perspectiva canaria en todos los bloques. Re-extracción del 2026-08-05: las 8 competencias específicas llevan ya enunciado_oficial literal y descriptores operativos (DEC-0008), tomados de texto-oficial-CUR-045-historia-espana.txt; la materia solo se imparte en 2.º de Bachillerato, así que 'descriptores' lleva una única clave de curso. Aviso: la numeración C1-C8 de esta ficha ya no coincide con el orden de la versión anterior (que era un resumen no literal); ahora sigue el orden 1-8 del propio decreto. [PENDIENTE] criterios_evaluacion y saberes_basicos siguen siendo una muestra parcial, no la relación literal completa del decreto (26 criterios de evaluación en total); extracción marcada como parcial."

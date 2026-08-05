@@ -1164,7 +1164,7 @@ TAREA-065:
 
 TAREA-066:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de bachillerato (CUR-037 a CUR-058)"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1179,7 +1179,7 @@ TAREA-066:
 
 TAREA-067:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)"
-  estado: "Pendiente"
+  estado: "Bloqueada"
   prioridad: "Alta"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1194,7 +1194,7 @@ TAREA-067:
 
 TAREA-068:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de eso (CUR-015 a CUR-023)"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1209,7 +1209,7 @@ TAREA-068:
 
 TAREA-069:
   titulo: "Extraer los descriptores operativos de las fichas curriculares de infantil (CUR-034 a CUR-036)"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1224,7 +1224,7 @@ TAREA-069:
 
 TAREA-070:
   titulo: "Localizar la ubicación actual de las fuentes cuya URL oficial devuelve 404"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Media"
   tipo: "catalogacion"
   responsable: '@.agents/skills/catalogacion-fuentes'
@@ -1275,7 +1275,7 @@ TAREA-072:
 
 TAREA-073:
   titulo: "Re-extraer CUR-001 y CUR-009, que concentran las divergencias con el texto oficial"
-  estado: "Pendiente"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "curriculo"
   responsable: '@.agents/skills/analisis-curricular'
@@ -1322,3 +1322,37 @@ TAREA-075:
   - TAREA-072
   - TAREA-073
   ruta: 08_tareas/backlog/TAREA-075-migrar-descriptores-a-mapa-por-curso.md
+
+TAREA-076:
+  titulo: "Consolidar la extracción curricular ejecutada en paralelo y corregir el auditor de descriptores"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "curriculo"
+  responsable: '@.agents/skills/control-calidad-documental'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - PREG-009
+  - DEC-0008
+  - TAREA-066
+  - TAREA-067
+  - TAREA-068
+  - TAREA-069
+  - TAREA-070
+  - TAREA-073
+  - TAREA-077
+  ruta: 08_tareas/backlog/TAREA-076-consolidar-extraccion-curricular-paralela.md
+TAREA-077:
+  titulo: "Re-exportar el anexo curricular del Decreto 211/2022 de Primaria desde el PDF oficial"
+  estado: "Pendiente"
+  prioridad: "Alta"
+  tipo: "corpus-ia"
+  responsable: '@.agents/skills/preparacion-corpus-ia'
+  fecha_creacion: 2026-08-05
+  fecha_actualizacion: 2026-08-05
+  relacionadas:
+  - NOR-043
+  - FTE-046
+  - TAREA-067
+  - TAREA-076
+  ruta: 08_tareas/backlog/TAREA-077-reexportar-anexo-decreto-primaria.md

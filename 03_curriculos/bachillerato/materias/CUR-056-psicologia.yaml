@@ -10,18 +10,31 @@ estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
   competencias_especificas:
-    - id: C1
-      descripcion: "Comprender el valor que tiene el conocimiento científico en la mejora de las condiciones de vida de las personas, reconociendo la Psicología como una disciplina científica dentro de las Ciencias de la Salud."
-    - id: C2
-      descripcion: "Diferenciar entre psicología básica y psicología aplicada; y comprender la utilidad del conocimiento aportado tanto para prevenir y abordar los problemas de las personas, como para lograr un mejor funcionamiento psicológico."
-    - id: C3
-      descripcion: "Reconocer y comprender los factores que influyen en la conformación de la personalidad según las principales teorías que la explican, así como los fundamentos biológicos que están en la base de los procesos mentales complejos."
-    - id: C4
-      descripcion: "Conocer y analizar las principales teorías del aprendizaje, los procesos cognitivos que subyacen a este y su relación con la motivación y la emoción, identificando cualidades personales propias."
-    - id: C5
-      descripcion: "Reconocer y comprender los factores que explican el comportamiento humano en la sociedad, y analizar los procesos sociales y las relaciones interpersonales (incluyendo las relaciones afectivo-sexuales)."
-    - id: C6
-      descripcion: "Comprender los factores que influyen en la conducta de las personas en el contexto del trabajo y las organizaciones, y analizar su influencia en el rendimiento y la calidad de vida."
+    - codigo: "C1"
+      enunciado_oficial: "Comprender el papel de la psicología como la disciplina científica que tiene por objeto integrar los conocimientos científicos necesarios para comprender, interpretar, analizar y explicar el comportamiento humano con la finalidad de promover la salud y la calidad de vida de las personas, analizando su evolución a lo largo de la historia y reconociendo el valor del conocimiento científico frente al aportado por las pseudociencias, con la finalidad de promover el pensamiento científico, el espíritu crítico y la capacidad para tratar la información y sus fuentes en términos de fiabilidad, validez, calidad y actualidad."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL2, CCL3, STEM2, STEM4, CD1, CD2, CPSAA2, CPSAA4, CC1]
+    - codigo: "C2"
+      enunciado_oficial: "Comprender la relación entre la Psicología básica y la aplicada, analizando los procesos psicológicos básicos y reconociendo la utilidad de su conocimiento a la hora de abordar los problemas de las personas, lograr un mejor funcionamiento psicológico y una mejor calidad de vida, tanto a nivel individual como grupal, para comprender los procesos de construcción del conocimiento y su papel como motor de progreso y favorecer el desarrollo de procesos autorregulados de aprendizaje que mejoren la capacidad para transmitir conocimiento, proponer ideas creativas y resolver problemas con autonomía y responsabilidad que redunden en el bienestar social."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL2, CCL3, CCL5, STEM2, STEM4, STEM5, CD1, CPSAA2, CPSAA4, CPSAA5]
+    - codigo: "C3"
+      enunciado_oficial: "Conocer, comprender y explicar los factores que influyen en la conformación de la personalidad y las diferentes teorías que la explican, así como las bases neuronales de los procesos mentales complejos, analizando su relación con la conducta adaptativa, reconociendo su importancia a la hora del estudio, tratamiento y prevención de los trastornos mentales y la promoción de la salud mental, para mejorar el desempeño en el ámbito personal, social y académico atendiendo al bienestar físico y mental propio y ajeno y a la cohesión social."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL2, CCL3, STEM2, STEM4, STEM5, CD1, CPSAA1.2, CPSAA2, CPSAA4]
+    - codigo: "C4"
+      enunciado_oficial: "Conocer los procesos cognitivos implicados en el aprendizaje y comprender su relación con la motivación y la emoción, analizando las diferentes teorías que lo explican, identificando las habilidades, aptitudes y otras cualidades personales propias para potenciar aquellas que favorezcan la autonomía y permitan afrontar de forma eficaz nuevos retos a través de la selección y adquisición de las técnicas y estrategias de aprendizaje adecuadas tanto en el trabajo individual como colaborativo."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL2, STEM4, CPSAA1.1, CPSAA5, CC3, CE1, CE3]
+    - codigo: "C5"
+      enunciado_oficial: "Conocer y comprender los factores que explican el comportamiento humano en la sociedad, analizando los procesos sociales y las relaciones interpersonales que influyen en el comportamiento de las personas y la formación de la personalidad para comprenderse a uno mismo e interactuar con las demás personas ejerciendo una ciudadanía ética y cívica que contribuya a construir una identidad cultural, personal y colectiva."
+      descriptores:
+        "2.º Bachillerato": [CCL1, CCL5, STEM4, STEM5, CD3, CD4, CPSAA2, CPSAA3.1, CC1, CC3, CC4]
+    - codigo: "C6"
+      enunciado_oficial: "Comprender los factores que influyen en la conducta humana en el contexto del trabajo y las organizaciones analizando, desde una perspectiva ecosocial, su influencia tanto en el rendimiento y la productividad como en el desarrollo y la calidad de vida de las personas en el contexto laboral, para ser capaz de plantear y alcanzar objetivos compartidos mediante la distribución de tareas, recursos y responsabilidades de forma ecuánime."
+      descriptores:
+        "2.º Bachillerato": [CCL1, STEM4, CD3, CPSAA3.1, CPSAA3.2, CC4, CE1, CE2, CE3]
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "STEM2", "STEM4", "STEM5", "CD1", "CD2", "CD3", "CD4", "CPSAA1.1", "CPSAA1.2", "CPSAA2", "CPSAA3.1", "CPSAA3.2", "CPSAA4", "CPSAA5", "CC1", "CC3", "CC4", "CE1", "CE2", "CE3"]
   saberes_basicos:
     - id: fundamentos
       nombre: "I. Fundamentos de la Psicología"
@@ -47,4 +60,4 @@ elementos:
 relaciones:
   desarrolla_a: [NOR-005]
   relacionada_con: []
-observaciones: "Materia optativa de 2.º de Bachillerato en Canarias. Extracción literal Decreto 30/2023. [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007)."
+observaciones: "Materia optativa de 2.º de Bachillerato en Canarias. Re-extracción del 2026-08-05: las 6 competencias específicas llevan ya enunciado_oficial literal y descriptores operativos (DEC-0008), tomados de texto-oficial-CUR-056-psicologia.txt; la materia solo se imparte en 2.º de Bachillerato, así que 'descriptores' lleva una única clave de curso. [PENDIENTE] criterios_evaluacion y saberes_basicos siguen siendo una muestra parcial, no la relación literal completa del decreto; extracción marcada como parcial."

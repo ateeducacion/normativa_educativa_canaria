@@ -1,12 +1,13 @@
 ---
 id: TAREA-073
 titulo: "Re-extraer CUR-001 y CUR-009, que concentran las divergencias con el texto oficial"
-estado: "Pendiente"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
+fecha_cierre: 2026-08-05
 relacionadas: [PREG-008, DEC-0008, CUR-001, CUR-009, NOR-005, FTE-009, TAREA-072, TAREA-075]
 siguiente_accion: "Re-extraer las competencias de CUR-001 desde el Decreto 30/2023, empezando por C3 y C5."
 ---
@@ -76,3 +77,17 @@ Para las dos con enunciado no literal, el orden correcto es **primero corregir e
 en ese texto: con el enunciado literal, `11_calidad/extraer_descriptores.py --auditar` resolverá
 la vinculación sin trabajo manual.
 
+## Resultado (2026-08-05)
+
+Las siete competencias corregidas y verificadas contra el Decreto 30/2023, localizando los
+bloques por sección de materia y cabecera de curso.
+
+En `CUR-001` se corrigieron primero los enunciados no literales de C4 y C6 y, de paso, dos
+desviaciones menores de literalidad que la auditoría no había detectado: «cooperando, cuando sea
+necesario» por «cooperando cuando sea necesario» en C3, y «medioambiente» por «medio ambiente»
+en C5 —esta última era justamente la que rompía el anclaje del extractor—. Después se migraron
+C3, C4, C5 y C6 a mapa por curso.
+
+En `CUR-009` los enunciados de C6, C7 y C8 ya eran literales; lo que faltaba era el desglose por
+curso. Sus descriptores «sobrantes» resultaron ser los de **2.º de ESO**: la lista plana
+original recogía esa variante y por eso parecía divergir.

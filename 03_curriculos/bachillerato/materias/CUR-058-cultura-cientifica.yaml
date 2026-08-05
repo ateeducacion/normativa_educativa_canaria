@@ -10,16 +10,27 @@ estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
   competencias_especificas:
-    - id: C1
-      descripcion: "Gestión de información científica: Utilizar fuentes fiables para obtener y organizar conocimiento, distinguiendo ciencia de pseudociencia."
-    - id: C2
-      descripcion: "Análisis de retos actuales: Evaluar problemas científicos, ambientales y éticos de la sociedad contemporánea con razonamiento crítico."
-    - id: C3
-      descripcion: "Trabajo científico: Aplicar estrategias de investigación y experimentación para resolver problemas y comunicar resultados."
-    - id: C4
-      descripcion: "Naturaleza de la ciencia: Reconocer la ciencia como un proceso dinámico y su papel en el progreso y la calidad de vida de la humanidad."
-    - id: C5
-      descripcion: "Hábitos saludables y sostenibilidad: Adoptar conductas basadas en la ciencia para el bienestar personal y el cuidado del medio canario."
+    - codigo: "C1"
+      enunciado_oficial: "Interpretar y transmitir información y datos científicos, argumentando sobre estos con precisión y utilizando diferentes formatos para analizar procesos, métodos, experimentos o resultados relacionados con la ciencia y la tecnología."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, CCL3, CP2, STEM2, STEM4, CD1, CD3, CPSAA4, CC3, CCEC3.2]
+    - codigo: "C2"
+      enunciado_oficial: "Localizar y utilizar fuentes fiables, identificando, seleccionando y organizando información, evaluándola críticamente y contrastando su veracidad, para resolver preguntas planteadas relacionadas con la ciencia y la tecnología de forma autónoma."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL3, CP2, STEM4, CD1, CD2, CD3, CD4, CPSAA4, CC3]
+    - codigo: "C3"
+      enunciado_oficial: "Diseñar, planear y desarrollar proyectos de investigación siguiendo los pasos de las metodologías científicas, teniendo en cuenta los recursos disponibles de forma realista y buscando vías de colaboración, para indagar en aspectos relacionados con la ciencia y la tecnología."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL3, CCL5, STEM1, STEM2, STEM3, STEM4, CD1, CD2, CD3, CPSAA3.2, CE3]
+    - codigo: "C4"
+      enunciado_oficial: "Buscar y utilizar estrategias en la resolución de problemas analizando críticamente las soluciones y respuestas halladas y reformulando el procedimiento si fuera necesario, para proponer alternativas de carácter científico-tecnológico a los actuales retos de la humanidad."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, CCL3, STEM1, STEM2, CD1, CD5, CPSAA1.1, CPSAA5, CE1]
+    - codigo: "C5"
+      enunciado_oficial: "Investigar y analizar críticamente las consecuencias de determinadas acciones humanas y de los avances científico-tecnológicos sobre el medio y la vida de las personas, para proponer soluciones innovadoras que tengan en cuenta la preservación del medioambiente, la salud pública, el desarrollo económico sostenible y la búsqueda de una sociedad igualitaria, difundiendo el conocimiento científico desde una perspectiva holística."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL3, CP2, STEM1, STEM2, STEM5, CD1, CD4, CD5, CPSAA2, CC4, CE1]
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP2", "STEM1", "STEM2", "STEM3", "STEM4", "STEM5", "CD1", "CD2", "CD3", "CD4", "CD5", "CPSAA1.1", "CPSAA2", "CPSAA3.2", "CPSAA4", "CPSAA5", "CC3", "CC4", "CE1", "CE3", "CCEC3.2"]
   saberes_basicos:
     - id: cultura-cientifica-base
       nombre: "I. Cultura científica y sociedad"
@@ -40,4 +51,4 @@ elementos:
 relaciones:
   desarrolla_a: [NOR-005]
   relacionada_con: []
-observaciones: "Materia optativa de 1.º de Bachillerato en Canarias. Extracción literal Decreto 30/2023. [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007)."
+observaciones: "Materia optativa de 1.º de Bachillerato en Canarias. Re-extracción del 2026-08-05: las 5 competencias específicas llevan ya enunciado_oficial literal y descriptores operativos (DEC-0008), tomados de texto-oficial-CUR-058-cultura-cientifica.txt; la materia solo se imparte en 1.º de Bachillerato, así que 'descriptores' lleva una única clave de curso. [PENDIENTE] criterios_evaluacion y saberes_basicos siguen siendo una muestra parcial, no la relación literal completa del decreto; extracción marcada como parcial."

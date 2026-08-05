@@ -55,7 +55,9 @@ FUENTES = {
 MARCA = re.compile(
     r"Descriptores operativos de las\s*competencias clave(?:\.\s*Perfil de salida)?", re.I)
 FIN = re.compile(r"Criterios de evaluaci", re.I)
-CODIGO = re.compile(r"\b(?:CCL|CP|STEM|CD|CPSAA|CC|CE|CCEC)\d\b")
+# Bachillerato usa subcódigos decimales (CPSAA1.1, CCEC3.2) que la enseñanza
+# básica no tiene; sin el sufijo opcional se truncaban a CPSAA1 y CCEC3.
+CODIGO = re.compile(r"\b(?:CCL|CP|STEM|CD|CPSAA|CC|CE|CCEC)\d(?:\.\d)?\b")
 ENUNCIADO = re.compile(r"(?:^|\n)\s*(\d+)\.\s*([^\n].*?)\s*$", re.S)
 CURSO = re.compile(r"(\d\.º\s*(?:ESO|Bachillerato))", re.I)
 RUIDO = re.compile(
@@ -163,7 +165,16 @@ def descriptores_tras(plano: str, indice: tuple[str, list[int]], enunciado: str,
             continue
         inicio = mapa[encontrado]
         cursos = CURSO.findall(plano[max(0, inicio - 12000):inicio])
-        por_curso.setdefault(cursos[-1] if cursos else "?", codigos)
+        clave = cursos[-1] if cursos else "?"
+        # Sin cabecera de curso a la vista, todas las apariciones caerían bajo la
+        # misma clave y `setdefault` se quedaría solo con la primera, ocultando
+        # justo las variantes por curso que interesan. Se numeran para conservarlas.
+        if clave in por_curso and por_curso[clave] != codigos:
+            n = 2
+            while f"{clave} ({n})" in por_curso:
+                n += 1
+            clave = f"{clave} ({n})"
+        por_curso.setdefault(clave, codigos)
     return por_curso
 
 
@@ -186,19 +197,40 @@ def auditar(norma: str = "NOR-005") -> list[dict]:
                 continue
             union = {d for lista in por_curso.values() for d in lista}
             comun = set.intersection(*[set(v) for v in por_curso.values()])
-            ficha = comp["descriptores"]
-            if any(sorted(v) == sorted(ficha) for v in por_curso.values()):
-                estado = "coincide-con-un-curso"
-            elif sorted(union) == sorted(ficha):
-                estado = "coincide-con-la-union"
+            declarado = comp["descriptores"]
+
+            if isinstance(declarado, dict):
+                # Formato DEC-0008: se compara curso a curso, que es lo que
+                # permite detectar si se copió la lista del curso equivocado.
+                desajustes = []
+                for curso, codigos in declarado.items():
+                    oficial = por_curso.get(curso)
+                    if oficial is None:
+                        desajustes.append(f"{curso}: no localizado en la fuente")
+                    elif sorted(codigos) != sorted(oficial):
+                        sobran = sorted(set(codigos) - set(oficial))
+                        faltan = sorted(set(oficial) - set(codigos))
+                        desajustes.append(
+                            f"{curso}: sobran {sobran or '—'}, faltan {faltan or '—'}")
+                sin_declarar = sorted(set(por_curso) - set(declarado))
+                estado = "coincide-por-curso" if not desajustes and not sin_declarar else "diverge"
+                entrada = {"codigo": comp["codigo"], "estado": estado,
+                           "desajustes": desajustes, "cursos_sin_declarar": sin_declarar}
             else:
-                estado = "diverge"
-            resultado["competencias"].append({
-                "codigo": comp["codigo"], "estado": estado, "ficha": ficha,
-                "oficial_por_curso": por_curso,
-                "sobran": sorted(set(ficha) - union),
-                "faltan_en_todos": sorted(comun - set(ficha)),
-                "cursos_distintos": len({tuple(sorted(v)) for v in por_curso.values()}) > 1})
+                # Forma transitoria: lista plana pendiente de migrar.
+                if any(sorted(v) == sorted(declarado) for v in por_curso.values()):
+                    estado = "lista-plana-coincide"
+                elif sorted(union) == sorted(declarado):
+                    estado = "lista-plana-union"
+                else:
+                    estado = "diverge"
+                entrada = {"codigo": comp["codigo"], "estado": estado, "ficha": declarado,
+                           "sobran": sorted(set(declarado) - union),
+                           "faltan_en_todos": sorted(comun - set(declarado))}
+
+            entrada["oficial_por_curso"] = por_curso
+            entrada["cursos_distintos"] = len({tuple(sorted(v)) for v in por_curso.values()}) > 1
+            resultado["competencias"].append(entrada)
         informe.append(resultado)
     return informe
 
@@ -236,12 +268,17 @@ def main() -> int:
     print("\nDivergencias:")
     for ficha in informe:
         for comp in ficha["competencias"]:
-            if comp["estado"] == "diverge":
-                print(f"  {ficha['id']} {comp['codigo']} — {ficha['materia']}")
-                if comp["sobran"]:
-                    print(f"      sobran: {comp['sobran']}")
-                if comp["faltan_en_todos"]:
-                    print(f"      faltan: {comp['faltan_en_todos']}")
+            if comp["estado"] != "diverge":
+                continue
+            print(f"  {ficha['id']} {comp['codigo']} — {ficha['materia']}")
+            for linea in comp.get("desajustes", []):
+                print(f"      {linea}")
+            if comp.get("cursos_sin_declarar"):
+                print(f"      cursos en la fuente sin declarar: {comp['cursos_sin_declarar']}")
+            if comp.get("sobran"):
+                print(f"      sobran: {comp['sobran']}")
+            if comp.get("faltan_en_todos"):
+                print(f"      faltan: {comp['faltan_en_todos']}")
     return 0
 
 

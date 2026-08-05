@@ -1,12 +1,13 @@
 ---
 id: TAREA-066
 titulo: "Extraer los descriptores operativos de las fichas curriculares de bachillerato (CUR-037 a CUR-058)"
-estado: "Pendiente"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
+fecha_cierre: 2026-08-05
 relacionadas: [PREG-008, FTE-009, NOR-005, TAREA-065, PREG-007]
 siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 14 fichas y pasarlas a estado_extraccion completado."
 ---
@@ -73,3 +74,20 @@ no el enunciado oficial** del decreto. Cuando esta tarea se desbloquee no bastar
 descriptores operativos: hay que sustituir también `descripcion` por el texto literal y
 renombrar el campo a `enunciado_oficial`, como en las fichas completas.
 
+## Resultado (2026-08-05)
+
+Las 14 fichas de Bachillerato tienen ya `enunciado_oficial` literal y `descriptores` como mapa
+por curso, verificados contra la fuente oficial.
+
+Siete pasan a `estado_extraccion: completado` —`CUR-037` a `CUR-043`—, porque además se
+completaron los criterios de evaluación y los saberes básicos íntegros.
+
+Las otras siete —`CUR-044`, `CUR-045`, `CUR-054` a `CUR-058`— **siguen en `parcial`**: sus
+competencias están completas y verificadas, pero `criterios_evaluacion` y `saberes_basicos`
+siguen siendo una muestra representativa y no el anexo literal completo. Eso queda para una
+tarea posterior.
+
+Cuatro de esas materias son propias de Canarias —Historia de Canarias, Psicología, Literatura
+Canaria y Cultura Científica— y no figuran en el decreto consolidado: se extrajeron de los
+ficheros `07_corpus_ia/textos-completos/texto-oficial-CUR-0NN-*.txt`, que ya existían en el
+repositorio desde el PR 12.

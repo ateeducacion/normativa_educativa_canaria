@@ -8,7 +8,7 @@ norma_base: NOR-005
 fuente: FTE-009
 url_oficial: "https://www.gobiernodecanarias.org/boc/2023/058/001.html"
 fecha_consulta: 2026-04-26
-fecha_analisis: 2026-04-26
+fecha_analisis: 2026-08-05
 estado_extraccion: "completado"
 estado_vigencia: "Vigente"
 elementos:
@@ -52,15 +52,24 @@ elementos:
     - codigo: "C6"
       enunciado_resumido: "Apropiarse de las referencias culturales y artísticas del entorno para enriquecer las creaciones propias."
       enunciado_oficial: "Apropiarse de las referencias culturales y artísticas del entorno, identificando sus singularidades, para enriquecer las creaciones propias y desarrollar la identidad personal, cultural y social."
-      descriptores: ["CCL1", "CCL2", "CCL3", "CP3", "CD1", "CD2", "CPSAA3", "CC1", "CCEC3"]
+      descriptores:
+        "1.º ESO": [CCL2, CD1, CPSAA3, CC1, CCEC3]
+        "2.º ESO": [CCL1, CCL2, CCL3, CP3, CD1, CD2, CPSAA3, CC1, CCEC3]
+        "3.º ESO": [CCL2, CD1, CPSAA3, CC1, CCEC3]
     - codigo: "C7"
       enunciado_resumido: "Aplicar técnicas, recursos y convenciones de los lenguajes artísticos integrando diversas tecnologías."
       enunciado_oficial: "Aplicar las principales técnicas, recursos y convenciones de los lenguajes artísticos, incorporando, de forma creativa, las posibilidades que ofrecen las diversas tecnologías, para integrarlos y enriquecer el diseño y la realización de un proyecto artístico."
-      descriptores: ["CCL2", "CCL3", "STEM3", "CD1", "CD2", "CD5", "CPSAA3", "CPSAA4", "CC1", "CC3", "CE1", "CE2", "CCEC4"]
+      descriptores:
+        "1.º ESO": [CCL3, STEM3, CD1, CD5, CC1, CC3, CCEC4]
+        "2.º ESO": [CCL2, CCL3, STEM3, CD1, CD2, CD5, CPSAA3, CPSAA4, CC1, CC3, CE1, CE2, CCEC4]
+        "3.º ESO": [CCL2, CCL3, STEM3, CD1, CD5, CC1, CC3, CCEC4]
     - codigo: "C8"
       enunciado_resumido: "Compartir producciones y manifestaciones artísticas adaptándolas al público destinatario."
       enunciado_oficial: "Compartir producciones y manifestaciones artísticas, adaptando el proyecto a la intención y a las características del público destinatario, para valorar distintas oportunidades de desarrollo personal."
-      descriptores: ["CCL1", "STEM3", "CD2", "CD3", "CPSAA3", "CPSAA5", "CE3", "CCEC4"]
+      descriptores:
+        "1.º ESO": [CCL1, STEM3, CD3, CPSAA3, CPSAA5, CCEC4]
+        "2.º ESO": [CCL1, STEM3, CD2, CD3, CPSAA3, CPSAA5, CE3, CCEC4]
+        "3.º ESO": [CCL1, STEM3, CD3, CPSAA3, CPSAA5, CE3, CCEC4]
   criterios_evaluacion:
     - curso: "1.º ESO"
       criterios:
@@ -103,4 +112,4 @@ relaciones:
   desarrolla_a: [NOR-003]
   relacionada_con: [NOR-005, NOR-002]
 resumen_ia: "Currículo de Educación Plástica, Visual y Audiovisual en ESO Canarias (1.º, 2.º y 3.º), regulado por el Decreto 30/2023. Establece ocho competencias específicas (C1-C8) y se concreta en catorce criterios de evaluación para 1.º y 2.º ESO y quince para 3.º ESO, organizados en cuatro bloques de saberes. Integra explícitamente artistas canarios (Cristino de Vera, José Aguiar, Lola Massieu, Pepe Dámaso, César Manrique, Maribel Nazco, Pedro González, Martín Chirino, Óscar Domínguez, Felo Monzón) y el patrimonio histórico-artístico canario."
-observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. Se han incorporado los ocho enunciados oficiales de competencias específicas con sus descriptores, los criterios de evaluación literales para 1.º ESO y referencia al anexo oficial para 2.º y 3.º (no se reproducen aquí íntegros), y la síntesis de los cuatro bloques de saberes básicos. La materia se imparte en 1.º, 2.º y 3.º de ESO."
+observaciones: "Extracción completada el 2026-04-26 a partir del anexo curricular del Decreto 30/2023. Se han incorporado los ocho enunciados oficiales de competencias específicas con sus descriptores, los criterios de evaluación literales para 1.º ESO y referencia al anexo oficial para 2.º y 3.º (no se reproducen aquí íntegros), y la síntesis de los cuatro bloques de saberes básicos. La materia se imparte en 1.º, 2.º y 3.º de ESO. Re-extracción del 2026-08-05 (TAREA-073) sobre la copia local del Decreto 30/2023: los descriptores de C6, C7 y C8 se han migrado a mapa por curso conforme a DEC-0008 tras comprobar bloque a bloque los tres bloques competenciales de cada una. La lista plana anterior reproducía en los tres casos la vinculación de 2.º ESO, que es la más amplia; 1.º y 3.º ESO tienen listas más cortas. Los enunciados oficiales de C6, C7 y C8 ya eran literales y no se han modificado."

@@ -10,16 +10,27 @@ estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
   competencias_especificas:
-    - id: C1
-      descripcion: "Indagación y fuentes: Seleccionar y analizar fuentes de información para reconstruir el pasado de Canarias con rigor metodológico."
-    - id: C2
-      descripcion: "Configuración histórica: Analizar diacrónicamente los procesos que han conformado la realidad canaria actual, valorando su singularidad."
-    - id: C3
-      descripcion: "Patrimonio e Identidad: Interpretar el patrimonio natural, cultural e histórico como expresión de la identidad canaria y compromiso con su conservación."
-    - id: C4
-      descripcion: "Contexto Atlántico: Comprender la posición estratégica de las islas en el Atlántico y sus vínculos históricos con Europa, África y América."
-    - id: C5
-      descripcion: "Diversidad y Ciudadanía: Valorar la pluralidad social de Canarias a lo largo del tiempo para fomentar actitudes de tolerancia e igualdad."
+    - codigo: "C1"
+      enunciado_oficial: "Conocer la diversidad del patrimonio arqueológico de Canarias, las claves históricas que han configurado la sociedad canaria, desde el origen del poblamiento humano del archipiélago hasta la actualidad, promoviendo procesos de investigación y creación grupal que impliquen la búsqueda, selección, evaluación de la información en fuentes arqueológicas y documentales diversas."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, CCL3, STEM3, CD1, CD2, CD3, CPSAA3.2, CPSAA4, CC1, CE1, CCEC1]
+    - codigo: "C2"
+      enunciado_oficial: "Identificar e interpretar todos aquellos elementos de las infraestructuras, la arquitectura o los paisajes que proporcionen información sobre el pasado del archipiélago hasta la actualidad, para inferir y explicar los aspectos políticos, sociales, económicos y culturales que caracterizaron el archipiélago desde el Antiguo Régimen, y contrastar la información con la derivada de las fuentes documentales propias del período."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL3, STEM2, CD1, CPSAA4, CC1, CC2, CC3, CC4, CE1]
+    - codigo: "C3"
+      enunciado_oficial: "Analizar obras, relatos y descripciones de personalidades locales y foráneas científicas, viajeras, exploradoras y naturalistas que escribieron sobre Canarias, para conocer y valorar las características políticas, sociales, económicas y culturales y las relaciones internacionales de Canarias desde la Edad Moderna, distinguiendo entre la mirada local y la visión de quienes nos visitan, con la finalidad de construir una perspectiva crítica de la importancia de los siglos anteriores en la transformación y modernización del archipiélago canario."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, CCL3, CP3, STEM2, CD1, CD2, CPSAA3.1, CPSAA3.2, CPSAA4, CC1, CC3, CE3, CCEC1]
+    - codigo: "C4"
+      enunciado_oficial: "Investigar los principales aspectos políticos, sociales, económicos y culturales de Canarias, desde finales del siglo XIX hasta la actualidad, a partir de su reflejo en fuentes diversas, incluidas las audiovisuales y artes plásticas, para adquirir una comprensión general de la realidad histórica del Archipiélago hoy en día, reconociendo la discriminación histórica de la mujeres y la contribución del archipiélago a los Objetivos de Desarrollo Sostenible."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, CCL3, CP3, STEM2, CD1, CD2, CPSAA3.1, CPSAA4, CPSAA5, CC2, CC3, CE3]
+    - codigo: "C5"
+      enunciado_oficial: "Situar la presencia de Canarias dentro de las principales corrientes culturales y científicas del mundo occidental, así como evidenciar el impacto de estas en el desarrollo del archipiélago, a través de la biografía de personas destacadas, del estudio de sus obras, actuaciones y declaraciones públicas, y de los escenarios que transitaron o de los colectivos sociales a los que pertenecieron para comprender las relaciones e implicaciones en el desarrollo cultural del archipiélago."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL3, CCL5, CP3, CD1, CD2, CPSAA4, CC1, CC3, CC4, CCEC1, CCEC2, CCEC3.1]
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL5", "CP3", "STEM2", "STEM3", "CD1", "CD2", "CD3", "CPSAA3.1", "CPSAA3.2", "CPSAA4", "CPSAA5", "CC1", "CC2", "CC3", "CC4", "CE1", "CE3", "CCEC1", "CCEC2", "CCEC3.1"]
   saberes_basicos:
     - id: raices-conquista
       nombre: "I. De las raíces aborígenes al fin de la conquista"
@@ -40,4 +51,4 @@ elementos:
 relaciones:
   desarrolla_a: [NOR-005]
   relacionada_con: []
-observaciones: "Materia optativa de oferta obligatoria en 1.º de Bachillerato en Canarias. Extracción literal Decreto 30/2023. [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007)."
+observaciones: "Materia optativa de oferta obligatoria en 1.º de Bachillerato en Canarias. Re-extracción del 2026-08-05: las 5 competencias específicas llevan ya enunciado_oficial literal y descriptores operativos (DEC-0008), tomados de texto-oficial-CUR-055-historia-canarias.txt; la materia solo se imparte en 1.º de Bachillerato, así que 'descriptores' lleva una única clave de curso. El propio decreto usa la locución 'de la mujeres' (sic) en el enunciado literal de C4. [PENDIENTE] criterios_evaluacion y saberes_basicos siguen siendo una muestra parcial, no la relación literal completa del decreto; extracción marcada como parcial."

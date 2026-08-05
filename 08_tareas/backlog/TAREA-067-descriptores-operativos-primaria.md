@@ -1,7 +1,7 @@
 ---
 id: TAREA-067
 titulo: "Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)"
-estado: "Pendiente"
+estado: "Bloqueada"
 prioridad: "Alta"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
@@ -73,3 +73,15 @@ no el enunciado oficial** del decreto. Cuando esta tarea se desbloquee no bastar
 descriptores operativos: hay que sustituir también `descripcion` por el texto literal y
 renombrar el campo a `enunciado_oficial`, como en las fichas completas.
 
+## Bloqueo (2026-08-05): la copia local no sirve
+
+El análisis previo encontró que **el texto local de `NOR-043` no contiene ni los enunciados de
+las competencias específicas ni los descriptores operativos**. Cero códigos de descriptor
+(`CCL1`, `STEM4`…) en todo el fichero.
+
+No es un fallo de la extracción del corpus: los bloques competenciales se publican en el BOC
+como **anexo en PDF o imagen**, y la conversión a texto los sustituyó por un marcador.
+
+Antes de poder ejecutar esta tarea hay que conseguir una copia utilizable del Anexo del Decreto
+211/2022 —del PDF oficial, no del HTML— y registrarla en `06_indices/textos-oficiales.yaml`
+conforme a R16. Eso queda como `TAREA-077`.

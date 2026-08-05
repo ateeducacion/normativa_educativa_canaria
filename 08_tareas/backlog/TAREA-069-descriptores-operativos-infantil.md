@@ -1,12 +1,13 @@
 ---
 id: TAREA-069
 titulo: "Extraer los descriptores operativos de las fichas curriculares de infantil (CUR-034 a CUR-036)"
-estado: "Pendiente"
+estado: "Hecha"
 prioridad: "Media"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"
 fecha_creacion: 2026-08-05
 fecha_actualizacion: 2026-08-05
+fecha_cierre: 2026-08-05
 relacionadas: [PREG-008, FTE-050, NOR-047, TAREA-065, PREG-007]
 siguiente_accion: "Volcar los descriptores operativos del perfil de salida desde FTE-050 a las 3 fichas y pasarlas a estado_extraccion completado."
 ---
@@ -73,3 +74,16 @@ no el enunciado oficial** del decreto. Cuando esta tarea se desbloquee no bastar
 descriptores operativos: hay que sustituir también `descripcion` por el texto literal y
 renombrar el campo a `enunciado_oficial`, como en las fichas completas.
 
+## Resultado (2026-08-05): no procede
+
+En Educación Infantil **no existen los descriptores operativos**. Comprobado contra el PDF
+oficial completo del Decreto 196/2022: cero apariciones de «descriptor», cero de «perfil de
+salida» y cero códigos numerados en todo el decreto.
+
+No es una carencia del corpus ni un fallo de extracción. El Perfil de salida es de la enseñanza
+básica, y el Anexo 1 del decreto —«Competencias clave en la Educación Infantil»— describe las
+ocho competencias clave **solo en prosa**, sin descriptores asociados.
+
+Por tanto `CUR-034`, `CUR-035` y `CUR-036` no pueden ni deben tener `descriptores`. La tarea se
+cierra sin trabajo pendiente, y el criterio de completitud de `DEC-0004` **no aplica a Infantil**
+en su cuarto elemento. Conviene recogerlo en una revisión de esa decisión.

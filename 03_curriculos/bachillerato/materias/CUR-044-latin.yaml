@@ -10,16 +10,32 @@ estado_extraccion: "parcial"
 estado_vigencia: "Vigente"
 elementos:
   competencias_especificas:
-    - id: C1
-      descripcion: "Traducir e interpretar textos latinos de dificultad progresiva para valorar su pervivencia cultural."
-    - id: C2
-      descripcion: "Analizar y comparar las lenguas de flexión para comprender el funcionamiento de las lenguas romances."
-    - id: C3
-      descripcion: "Conocer y valorar los aspectos fundamentales de la civilización romana y sus raíces en Canarias."
-    - id: C4
-      descripcion: "Explicar el origen y evolución del léxico latino en las lenguas modernas y el habla canaria."
-    - id: C5
-      descripcion: "Reconocer y valorar el patrimonio arqueológico y literario de época romana y su influencia actual."
+    - codigo: "C1"
+      enunciado_oficial: "Traducir y comprender textos latinos de dificultad creciente y justificar la traducción, identificando y analizando los aspectos básicos de la lengua latina y sus unidades lingüísticas y reflexionando sobre ellas mediante la comparación con las lenguas de enseñanza y con otras lenguas del repertorio individual del alumnado, para realizar una lectura comprensiva, directa y eficaz y una interpretación razonada de su contenido."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL2, CCL3, CP2, CP3, STEM1, STEM2, CD1, CPSAA5, CC1]
+        "2.º Bachillerato": [CCL1, CCL2, CCL3, CP2, CP3, STEM1, STEM2, CD1, CPSAA5, CC1]
+    - codigo: "C2"
+      enunciado_oficial: "Distinguir los formantes latinos y explicar los cambios que hayan tenido lugar a lo largo del tiempo, comparándolos con los de las lenguas de enseñanza y otras lenguas del repertorio individual del alumnado, para deducir el significado etimológico del léxico conocido y los significados de léxico nuevo o especializado."
+      descriptores:
+        "1.º Bachillerato": [CCL5, CP2, CP3, STEM1, CPSAA4, CPSAA5]
+        "2.º Bachillerato": [CCL5, CP2, CP3, STEM1, CPSAA4, CPSAA5]
+    - codigo: "C3"
+      enunciado_oficial: "Leer, interpretar y comentar textos latinos de diferentes géneros y épocas, asumiendo el proceso creativo como complejo e inseparable del contexto histórico, social y político y de sus influencias artísticas, para identificar su genealogía y su aportación a la literatura europea."
+      descriptores:
+        "1.º Bachillerato": [CCL2, CCL4, CP3, CD1, CD2, CCEC1, CCEC2, CCEC3.2]
+        "2.º Bachillerato": [CCL2, CCL4, CP3, CD1, CD2, CCEC1, CCEC2, CCEC3.2]
+    - codigo: "C4"
+      enunciado_oficial: "Analizar las características de la civilización latina en el ámbito personal, religioso y sociopolítico, adquiriendo conocimientos sobre el mundo romano y comparando críticamente el presente y el pasado, para valorar las aportaciones del mundo clásico latino a nuestro entorno como base de una ciudadanía democrática y comprometida."
+      descriptores:
+        "1.º Bachillerato": [CCL1, CCL3, CCL5, CP3, CD1, CD2, CPSAA3.1, CC1, CC2, CC3, CCEC1]
+        "2.º Bachillerato": [CCL1, CCL3, CCL5, CP3, CD1, CD2, CPSAA3.1, CC1, CC2, CC3, CCEC1]
+    - codigo: "C5"
+      enunciado_oficial: "Valorar críticamente el patrimonio histórico, arqueológico, artístico y cultural heredado de la civilización latina, interesándose por su sostenibilidad y reconociéndolo como producto de la creación humana y como testimonio de la historia, para explicar el legado material e inmaterial latino como transmisor de conocimiento y fuente de inspiración de creaciones modernas y contemporáneas."
+      descriptores:
+        "1.º Bachillerato": [CCL3, CP3, CD2, CC1, CC2, CC4, CE1, CCEC1, CCEC2]
+        "2.º Bachillerato": [CCL3, CP3, CD2, CC1, CC2, CC4, CE1, CCEC1, CCEC2]
+  descriptores_operativos: ["CCL1", "CCL2", "CCL3", "CCL4", "CCL5", "CP2", "CP3", "STEM1", "STEM2", "CD1", "CD2", "CPSAA3.1", "CPSAA4", "CPSAA5", "CC1", "CC2", "CC3", "CC4", "CE1", "CCEC1", "CCEC2", "CCEC3.2"]
   saberes_basicos:
     - id: origen-romance
       nombre: "El latín, origen de las lenguas romances"
@@ -40,4 +56,4 @@ elementos:
 relaciones:
   desarrolla_a: [NOR-005]
   relacionada_con: []
-observaciones: "Materia de modalidad en Humanidades y Ciencias Sociales. Extracción literal Decreto 30/2023. [PENDIENTE] Faltan los descriptores operativos del perfil de salida que DEC-0004 exige; extracción marcada como parcial (DEC-0007)."
+observaciones: "Materia de modalidad en Humanidades y Ciencias Sociales. Re-extracción del 2026-08-05: las 5 competencias específicas llevan ya enunciado_oficial literal y descriptores operativos por curso (DEC-0008), tomados de texto-oficial-CUR-044-latin.txt (idénticos en 1.º y 2.º de Bachillerato para las 5 competencias). [PENDIENTE] criterios_evaluacion y saberes_basicos siguen siendo una muestra parcial, no la relación literal completa del decreto (Latín I y II tiene 12 criterios de evaluación por curso); extracción marcada como parcial."
