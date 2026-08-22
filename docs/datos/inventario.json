@@ -39,13 +39,14 @@
     },
     "tareas": {
       "primer_id": "TAREA-001",
-      "total": 88,
-      "ultimo_id": "TAREA-088"
+      "total": 90,
+      "ultimo_id": "TAREA-090"
     }
   },
   "fuente": "06_indices/",
   "tareas": {
     "por_estado": {
+      "En progreso": 2,
       "Hecha": 88
     }
   },
