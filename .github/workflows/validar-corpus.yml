@@ -13,6 +13,10 @@ on:
       - "08_tareas/**"
       - "schemas/**"
       - "11_calidad/validar_corpus.py"
+      - "11_calidad/generar_inventario.py"
+      - "README.md"
+      - "llms.txt"
+      - "docs/datos/inventario.json"
       - ".github/workflows/validar-corpus.yml"
   pull_request:
     paths:
@@ -25,6 +29,10 @@ on:
       - "08_tareas/**"
       - "schemas/**"
       - "11_calidad/validar_corpus.py"
+      - "11_calidad/generar_inventario.py"
+      - "README.md"
+      - "llms.txt"
+      - "docs/datos/inventario.json"
       - ".github/workflows/validar-corpus.yml"
   workflow_dispatch:
 
@@ -37,10 +45,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Preparar Python
-        uses: actions/setup-python@v7
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.12"
 
@@ -49,6 +57,9 @@ jobs:
 
       - name: Validar corpus contra schemas/ e índices
         run: python3 11_calidad/validar_corpus.py
+
+      - name: Comprobar inventario público generado
+        run: python3 11_calidad/generar_inventario.py --check
 
       - name: Resumen para el informe de ejecución
         if: always()
