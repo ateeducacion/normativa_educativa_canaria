@@ -1,4 +1,6 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://ateeducacion.github.io/normativa_educativa_canaria/schemas/pregunta.schema.yaml"
+title: Pregunta de investigación
 additionalProperties: false
 
 # La descripción de la duda vive en el cuerpo Markdown de la ficha, no en el
@@ -18,8 +20,10 @@ properties:
     enum: [Abierta, En revisión, Resuelta, Cerrada]
   fecha_registro:
     type: string
+    format: date
   fecha_resolucion:
     type: [string, 'null']
+    format: date
   relacionadas:
     type: array
     items:
