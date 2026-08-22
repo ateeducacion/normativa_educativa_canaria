@@ -1,8 +1,8 @@
 id: CHUNK-00011
+origen_tipo: "norma"
 origen_id: NOR-029
-tipo: resumen-ejecutivo
 titulo: "Baremo y criterios de Admisión de Alumnado (Canarias)"
-contenido: |
+texto: >-
   El Decreto 9/2022 regula el acceso a plazas en centros públicos y concertados de Canarias.
   Criterios de baremación ante falta de plazas:
   1. Hermanos en el centro (prioridad máxima para conciliación).
@@ -11,7 +11,23 @@ contenido: |
   4. Discapacidad del alumno/a, progenitores o hermanos.
   5. Otros: Familia numerosa, monoparental o acogimiento.
   Obliga a reservar plazas para alumnado NEAE en todos los grupos.
-fuente: FTE-032
-localizacion: Decreto 9/2022 (BOC 2022/020), artículos 9-18.
-fecha_registro: 2026-04-26
-<aviso>: "La puntuación específica puede variar según la Orden anual de desarrollo (NOR-030)."
+metadatos:
+  ambito: "canarias"
+  etapa: [todas]
+  temas: [admision, escolarizacion, matricula]
+  estado_vigencia: "Vigente"
+  fuente: FTE-032
+  url_oficial: "https://www.gobiernodecanarias.org/boc/2022/020/001.html"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Decreto 9/2022 (BOC 2022/020), artículos 9-18."
+relaciones:
+  normas: [NOR-029]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

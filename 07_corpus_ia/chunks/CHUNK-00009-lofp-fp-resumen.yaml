@@ -1,8 +1,8 @@
 id: CHUNK-00009
+origen_tipo: "norma"
 origen_id: NOR-007
-tipo: resumen-ejecutivo
 titulo: "Sistema integrado de Formación Profesional (LOFP 3/2022)"
-contenido: |
+texto: >-
   La Ley Orgánica 3/2022 (LOFP) establece un nuevo sistema único e integrado de Formación Profesional en España.
   Características principales:
   1. Unifica la FP del sistema educativo y la FP para el empleo.
@@ -10,7 +10,23 @@ contenido: |
   3. Generaliza el carácter dual de la formación, con estancia obligatoria en centros de trabajo.
   4. Crea un Catálogo Nacional de Ofertas de Formación Profesional.
   En Canarias, este marco se complementa con la Ley Canaria 6/2014 y desarrollos autonómicos específicos.
-fuente: FTE-016
-localizacion: Ley Orgánica 3/2022 (BOE 2022/078).
-fecha_registro: 2026-04-26
-<aviso>: "Este chunk es una síntesis para IA y no sustituye la consulta de la norma original."
+metadatos:
+  ambito: "estatal"
+  etapa: [formacion-profesional]
+  temas: [formacion-profesional, integracion, sistema-unico]
+  estado_vigencia: "Vigente"
+  fuente: FTE-016
+  url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5139"
+  fecha_consulta: 2026-04-26
+  fecha_analisis: 2026-04-26
+  localizacion: "Ley Orgánica 3/2022 (BOE 2022/078)."
+relaciones:
+  normas: [NOR-007]
+  curriculos: []
+  chunks_relacionados: []
+uso_recomendado:
+  - "rag"
+  - "busqueda-semantica"
+  - "preguntas-respuestas"
+# Este chunk es una síntesis para IA y no sustituye la consulta de la fuente original.
+nivel_evidencia: "confirmado-fuente-primaria"

@@ -69,7 +69,7 @@ CHUNK-00014:
   ruta: "07_corpus_ia/chunks/CHUNK-00014-procedimientos-neae-2023.yaml"
 
 CHUNK-00015:
-  origen_id: TRANSVERSAL
+  origen_id: NOR-005
   titulo: "Identidad lingüística canaria en el currículo (Infantil a Bachillerato)"
   ruta: "07_corpus_ia/chunks/CHUNK-00015-identidad-linguistica-canaria.yaml"
 
