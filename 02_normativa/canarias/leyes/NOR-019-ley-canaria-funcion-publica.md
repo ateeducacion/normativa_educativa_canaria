@@ -13,6 +13,7 @@ fecha_consulta: 2026-08-05
 fecha_analisis: 2026-04-26
 fuente_principal: FTE-022
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-1987-11921"
+uri_eli: "https://www.boe.es/eli/es-cn/l/1987/03/30/2/con"
 texto_oficial:
   url_html: "https://www.boe.es/buscar/act.php?id=BOE-A-1987-11921"
   url_pdf: "https://www.boe.es/buscar/pdf/1987/BOE-A-1987-11921-consolidado.pdf"

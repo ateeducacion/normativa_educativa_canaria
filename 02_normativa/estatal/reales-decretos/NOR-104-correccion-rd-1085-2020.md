@@ -12,6 +12,7 @@ fecha_analisis: 2026-08-05
 estado_vigencia: "Vigente"
 fuente_principal: FTE-111
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2021-979"
+uri_eli: "https://www.boe.es/eli/es/rd/2020/12/09/1085/corrigendum/20210123"
 texto_oficial:
   url_html: "https://www.boe.es/buscar/act.php?id=BOE-A-2021-979"
   url_pdf: "https://www.boe.es/boe/dias/2021/01/23/pdfs/BOE-A-2021-979.pdf"

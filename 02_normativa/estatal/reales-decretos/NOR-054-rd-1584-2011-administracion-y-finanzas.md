@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-054
 url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19533"
+uri_eli: "https://www.boe.es/eli/es/rd/2011/11/04/1584"
 etapas_afectadas: [formacion-profesional]
 temas: [administracion, tecnico-superior, finanzas]
 relaciones:

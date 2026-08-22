@@ -1511,3 +1511,23 @@ TAREA-086:
   - TAREA-084
   - PREG-006
   ruta: 08_tareas/backlog/TAREA-086-deuda-de-catalogacion-del-monitor.md
+
+TAREA-087:
+  titulo: "Ampliar JSON-LD, ELI y Akoma Ntoso al resto del corpus"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "corpus-ia"
+  responsable: '@.agents/skills/preparacion-corpus-ia'
+  fecha_creacion: 2026-08-22
+  fecha_actualizacion: 2026-08-22
+  relacionadas:
+  - TAREA-063
+  - NOR-001
+  - NOR-003
+  - NOR-004
+  - NOR-005
+  - NOR-006
+  - NOR-007
+  - NOR-079
+  - PREG-013
+  ruta: 08_tareas/backlog/TAREA-087-ampliar-jsonld-eli-akoma-ntoso.md

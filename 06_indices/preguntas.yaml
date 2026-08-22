@@ -93,3 +93,10 @@ PREG-012:
   relacionadas: [NOR-050, NOR-024, NOR-025, NOR-026, FTE-053, REL-047, REL-048, TAREA-084, TAREA-085, PREG-010, PREG-011]
   ruta: "08_tareas/preguntas/PREG-012-nor-050-orden-neae-2023-no-localizada.md"
 
+PREG-013:
+  titulo: "El BOC no publica permalink ELI en las disposiciones autonómicas consultadas"
+  estado: "Abierta"
+  fecha_registro: 2026-08-22
+  relacionadas: [NOR-005, NOR-043, NOR-047, TAREA-087]
+  ruta: "08_tareas/preguntas/PREG-013-eli-en-el-boc.md"
+

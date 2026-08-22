@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-035
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2021-11382"
+uri_eli: "https://www.boe.es/eli/es-cn/l/2021/06/07/2/con"
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
 temas: [igualdad, no-discriminacion, identidad-genero, convivencia]
 relaciones:

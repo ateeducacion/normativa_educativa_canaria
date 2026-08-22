@@ -13,6 +13,7 @@ fecha_analisis: 2026-08-05
 estado_vigencia: "Vigente"
 fuente_principal: FTE-113
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2021-18189"
+uri_eli: "https://www.boe.es/eli/es/o/2021/11/02/efp1210/con"
 texto_oficial:
   url_html: "https://www.boe.es/buscar/act.php?id=BOE-A-2021-18189"
   url_pdf: "https://www.boe.es/boe/dias/2021/11/08/pdfs/BOE-A-2021-18189.pdf"

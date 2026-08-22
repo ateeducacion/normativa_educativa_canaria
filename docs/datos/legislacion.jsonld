@@ -14,6 +14,20 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-006-rd-243-2022.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "curriculo",
         "ordenacion",
@@ -56,6 +70,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "ordenacion",
@@ -96,6 +116,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "centros",
         "organizacion",
@@ -138,6 +164,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "convivencia",
         "derechos-deberes",
@@ -179,6 +211,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "inspeccion",
         "supervision",
@@ -220,6 +258,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "centros",
         "formacion-profesional",
@@ -302,6 +346,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "direccion-escolar",
         "funcion-directiva",
@@ -343,6 +393,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "inclusion",
         "atencion-diversidad",
@@ -385,6 +441,16 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "admision",
         "escolarizacion",
@@ -466,6 +532,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "residencias-escolares",
         "servicios-complementarios",
@@ -506,6 +578,20 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-079-rd-157-2022-ensenanzas-minimas-primaria.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "primaria",
         "curriculo",
@@ -546,6 +632,16 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "infantil",
         "curriculo",
@@ -586,6 +682,20 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "competencia-digital-docente",
         "acreditacion",
@@ -674,6 +784,11 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-019"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es-cn/l/1987/03/30/2/con"
         }
       ],
       "inLanguage": "es",
@@ -684,7 +799,8 @@
       ],
       "legislationDate": "1987-03-30",
       "legislationIdentifier": [
-        "NOR-019"
+        "NOR-019",
+        "https://www.boe.es/eli/es-cn/l/1987/03/30/2/con"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -700,7 +816,8 @@
       "legislationType": "ley-autonomica",
       "name": "Ley 2/1987, de 30 de marzo, de la Función Pública Canaria",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-1987-11921"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-1987-11921",
+        "https://www.boe.es/eli/es-cn/l/1987/03/30/2/con"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-019-ley-canaria-funcion-publica.md"
     },
@@ -795,6 +912,11 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-032"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es-cn/l/2021/06/07/2/con"
         }
       ],
       "inLanguage": "es",
@@ -806,7 +928,8 @@
       ],
       "legislationDate": "2021-06-07",
       "legislationIdentifier": [
-        "NOR-032"
+        "NOR-032",
+        "https://www.boe.es/eli/es-cn/l/2021/06/07/2/con"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -822,7 +945,8 @@
       "legislationType": "ley-autonomica",
       "name": "Ley 2/2021, de 7 de junio, de igualdad social y no discriminación por razón de identidad de género, expresión de género y características sexuales",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2021-11382"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2021-11382",
+        "https://www.boe.es/eli/es-cn/l/2021/06/07/2/con"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-032-ley-2-2021-igualdad-identidad-genero.md"
     },
@@ -839,6 +963,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-011-decreto-52-2009-inspeccion.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "inspeccion",
         "organizacion"
@@ -878,6 +1008,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-008-decreto-156-1996-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "acceso",
@@ -918,6 +1054,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-008-decreto-156-1996-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "evaluacion",
@@ -1004,6 +1146,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-009-decreto-81-2010-roc.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "infantil",
         "organizacion",
@@ -1041,6 +1189,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-009-decreto-81-2010-roc.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "secundaria",
         "organizacion",
@@ -1078,6 +1232,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-024-decreto-25-2018-atencion-diversidad.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "neae",
         "nee",
@@ -1119,6 +1279,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/ordenes/NOR-025-orden-13-12-2010-neae.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "nee",
         "aulas-enclave",
@@ -1160,6 +1326,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-029-decreto-9-2022-admision.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "admision",
         "procedimientos",
@@ -1200,6 +1372,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "comedores",
         "subvenciones",
@@ -1241,6 +1419,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "transporte-escolar",
         "servicios-complementarios",
@@ -1281,6 +1465,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-024-decreto-25-2018-atencion-diversidad.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "diversidad",
         "inclusion",
@@ -1322,6 +1512,20 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-005-decreto-30-2023.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-043-decreto-211-2022-primaria.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-047-decreto-196-2022-infantil.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "evaluacion",
         "promocion",
@@ -1362,6 +1566,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-024-decreto-25-2018-atencion-diversidad.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "neae",
         "inclusion",
@@ -1407,6 +1617,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-009-decreto-81-2010-roc.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "organizacion-centros",
         "organos-coordinacion-docente",
@@ -1541,6 +1757,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/ordenes/NOR-025-orden-13-12-2010-neae.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "neae",
         "procedimientos",
@@ -1621,6 +1843,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-024-decreto-25-2018-atencion-diversidad.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "diversidad",
         "instrucciones"
@@ -1659,6 +1887,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-024-decreto-25-2018-atencion-diversidad.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "diversidad",
         "instrucciones"
@@ -1697,6 +1931,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-024-decreto-25-2018-atencion-diversidad.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "diversidad",
         "instrucciones"
@@ -1736,6 +1976,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/leyes/NOR-019-ley-canaria-funcion-publica.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "permisos",
         "licencias",
@@ -1784,6 +2030,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/ordenes/NOR-044-orden-evaluacion-31-mayo-2023.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "evaluacion",
         "rubricas",
@@ -1823,6 +2075,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-009-decreto-81-2010-roc.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "organizacion",
         "funcionamiento",
@@ -1864,6 +2122,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "evaluacion",
@@ -1911,6 +2175,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "evaluacion",
@@ -1954,6 +2224,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "modulos-optativos",
@@ -1995,6 +2271,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "modulos-optativos",
@@ -2084,6 +2366,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "prospeccion",
@@ -2174,6 +2462,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "formacion-en-empresa",
@@ -2216,6 +2510,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "modalidad-semipresencial",
@@ -2260,6 +2560,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "modalidad-semipresencial",
@@ -2308,6 +2614,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/decretos/NOR-009-decreto-81-2010-roc.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "infantil",
         "primer-ciclo",
@@ -2351,6 +2663,16 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "acceso-ciclos-formativos",
@@ -2496,6 +2818,16 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "modulo-optativo",
@@ -2539,6 +2871,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "grados-d-e",
@@ -2724,6 +3062,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "dobles-titulaciones",
@@ -2817,6 +3161,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "grados-c",
@@ -2864,6 +3214,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "grados-c-certificados-profesionales",
@@ -2911,6 +3267,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "grados-c-certificados-profesionales",
@@ -2957,6 +3319,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "grados-c-certificados-profesionales",
@@ -3004,6 +3372,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "grados-c",
@@ -3051,6 +3425,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "grados-c-y-b",
         "certificados-profesionales",
@@ -3098,6 +3478,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "grados-c-certificados-profesionales",
         "grados-b-certificados-competencia",
@@ -3307,6 +3693,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional-adaptada",
         "itinerarios-formativos",
@@ -3354,6 +3746,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "cursos-acceso-directo",
         "formacion-profesional-grado-d",
@@ -3401,6 +3799,12 @@
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-dual",
         "formacion-en-empresa",
@@ -3664,6 +4068,11 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-001"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/lo/2006/05/03/2/con"
         }
       ],
       "inLanguage": "es",
@@ -3674,7 +4083,8 @@
       ],
       "legislationDate": "2006-05-03",
       "legislationIdentifier": [
-        "NOR-001"
+        "NOR-001",
+        "https://www.boe.es/eli/es/lo/2006/05/03/2/con"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -3690,7 +4100,8 @@
       "legislationType": "ley-organica",
       "name": "Ley Orgánica 2/2006, de 3 de mayo, de Educación",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899",
+        "https://www.boe.es/eli/es/lo/2006/05/03/2/con"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md"
     },
@@ -3704,6 +4115,11 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-002"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/lo/2020/12/29/3"
         }
       ],
       "inLanguage": "es",
@@ -3720,7 +4136,8 @@
       ],
       "legislationDate": "2020-12-29",
       "legislationIdentifier": [
-        "NOR-002"
+        "NOR-002",
+        "https://www.boe.es/eli/es/lo/2020/12/29/3"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -3736,7 +4153,8 @@
       "legislationType": "ley-organica",
       "name": "Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de Educación",
       "sameAs": [
-        "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17264"
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17264",
+        "https://www.boe.es/eli/es/lo/2020/12/29/3"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md"
     },
@@ -3750,6 +4168,11 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-007"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/lo/2022/03/31/3/con"
         }
       ],
       "inLanguage": "es",
@@ -3761,7 +4184,8 @@
       ],
       "legislationDate": "2022-03-31",
       "legislationIdentifier": [
-        "NOR-007"
+        "NOR-007",
+        "https://www.boe.es/eli/es/lo/2022/03/31/3/con"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -3777,7 +4201,8 @@
       "legislationType": "ley-organica",
       "name": "Ley Orgánica 3/2022, de 31 de marzo, de ordenación e integración de la Formación Profesional",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5139"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5139",
+        "https://www.boe.es/eli/es/lo/2022/03/31/3/con"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md"
     },
@@ -3791,6 +4216,11 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-106"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/o/2021/11/02/efp1210/con"
         }
       ],
       "inLanguage": "es",
@@ -3803,7 +4233,8 @@
       ],
       "legislationDate": "2021-11-02",
       "legislationIdentifier": [
-        "NOR-106"
+        "NOR-106",
+        "https://www.boe.es/eli/es/o/2021/11/02/efp1210/con"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -3819,7 +4250,8 @@
       "legislationType": "orden-ministerial",
       "name": "Orden EFP/1210/2021, de 2 de noviembre, por la que se establece la equivalencia, a los efectos de acceso a enseñanzas de formación profesional, de determinados estudios y títulos anteriores al actual sistema educativo",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2021-18189"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2021-18189",
+        "https://www.boe.es/eli/es/o/2021/11/02/efp1210/con"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/ordenes/NOR-106-orden-efp-1210-2021-equivalencias-acceso-fp.md"
     },
@@ -3833,9 +4265,24 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-003"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2022/03/29/217/con"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "curriculo",
         "ordenacion",
@@ -3845,7 +4292,8 @@
       ],
       "legislationDate": "2022-03-29",
       "legislationIdentifier": [
-        "NOR-003"
+        "NOR-003",
+        "https://www.boe.es/eli/es/rd/2022/03/29/217/con"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -3861,7 +4309,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 217/2022, de 29 de marzo, por el que se establece la ordenación y las enseñanzas mínimas de la Educación Secundaria Obligatoria",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975",
+        "https://www.boe.es/eli/es/rd/2022/03/29/217/con"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md"
     },
@@ -3875,9 +4324,24 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-006"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2022/04/05/243/con"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        },
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "curriculo",
         "ordenacion",
@@ -3888,7 +4352,8 @@
       ],
       "legislationDate": "2022-04-05",
       "legislationIdentifier": [
-        "NOR-006"
+        "NOR-006",
+        "https://www.boe.es/eli/es/rd/2022/04/05/243/con"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -3904,7 +4369,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 243/2022, de 5 de abril, por el que se establecen la ordenación y las enseñanzas mínimas del Bachillerato",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5521"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5521",
+        "https://www.boe.es/eli/es/rd/2022/04/05/243/con"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-006-rd-243-2022.md"
     },
@@ -3918,6 +4384,11 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-020"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con"
         }
       ],
       "inLanguage": "es",
@@ -3929,7 +4400,8 @@
       ],
       "legislationDate": "2015-10-30",
       "legislationIdentifier": [
-        "NOR-020"
+        "NOR-020",
+        "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -3945,7 +4417,8 @@
       "legislationType": "real-decreto-legislativo",
       "name": "Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+        "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-020-trebep.md"
     },
@@ -3959,9 +4432,20 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-051"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/1995/04/07/546"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "sanidad",
         "tecnico",
@@ -3969,7 +4453,8 @@
       ],
       "legislationDate": "1995-04-07",
       "legislationIdentifier": [
-        "NOR-051"
+        "NOR-051",
+        "https://www.boe.es/eli/es/rd/1995/04/07/546"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -3985,7 +4470,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 546/1995, de 7 de abril, por el que se establece el título de Técnico en Cuidados Auxiliares de Enfermería y las enseñanzas mínimas correspondientes",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-1995-13533"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-1995-13533",
+        "https://www.boe.es/eli/es/rd/1995/04/07/546"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-051-rd-546-1995-cuidados-auxiliares-enfermeria.md"
     },
@@ -3999,9 +4485,20 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-052"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2014/09/12/770"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "sanidad",
         "tecnico-superior",
@@ -4009,7 +4506,8 @@
       ],
       "legislationDate": "2014-09-12",
       "legislationIdentifier": [
-        "NOR-052"
+        "NOR-052",
+        "https://www.boe.es/eli/es/rd/2014/09/12/770"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4025,7 +4523,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 770/2014, de 12 de septiembre, por el que se establece el título de Técnico Superior en Imagen para el Diagnóstico y Medicina Nuclear y se fijan sus enseñanzas mínimas",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2014-10067"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2014-10067",
+        "https://www.boe.es/eli/es/rd/2014/09/12/770"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-052-rd-770-2014-imagen-diagnostico-medicina-nuclear.md"
     },
@@ -4039,9 +4538,20 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-053"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2009/10/30/1631"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "administracion",
         "tecnico",
@@ -4049,7 +4559,8 @@
       ],
       "legislationDate": "2009-10-30",
       "legislationIdentifier": [
-        "NOR-053"
+        "NOR-053",
+        "https://www.boe.es/eli/es/rd/2009/10/30/1631"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4065,7 +4576,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 1631/2009, de 30 de octubre, por el que se establece el título de Técnico en Gestión Administrativa y se fijan sus enseñanzas mínimas",
       "sameAs": [
-        "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-19148"
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-19148",
+        "https://www.boe.es/eli/es/rd/2009/10/30/1631"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-053-rd-1631-2009-gestion-administrativa.md"
     },
@@ -4079,9 +4591,20 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-054"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2011/11/04/1584"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "administracion",
         "tecnico-superior",
@@ -4089,7 +4612,8 @@
       ],
       "legislationDate": "2011-11-04",
       "legislationIdentifier": [
-        "NOR-054"
+        "NOR-054",
+        "https://www.boe.es/eli/es/rd/2011/11/04/1584"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4105,7 +4629,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 1584/2011, de 4 de noviembre, por el que se establece el título de Técnico Superior en Administración y Finanzas y se fijan sus enseñanzas mínimas",
       "sameAs": [
-        "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19533"
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19533",
+        "https://www.boe.es/eli/es/rd/2011/11/04/1584"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-054-rd-1584-2011-administracion-y-finanzas.md"
     },
@@ -4119,9 +4644,20 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-055"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2010/04/16/450"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "informatica",
         "tecnico-superior",
@@ -4129,7 +4665,8 @@
       ],
       "legislationDate": "2010-04-16",
       "legislationIdentifier": [
-        "NOR-055"
+        "NOR-055",
+        "https://www.boe.es/eli/es/rd/2010/04/16/450"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4145,7 +4682,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 450/2010, de 16 de abril, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan sus enseñanzas mínimas",
       "sameAs": [
-        "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-8067"
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-8067",
+        "https://www.boe.es/eli/es/rd/2010/04/16/450"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-055-rd-450-2010-desarrollo-aplicaciones-multiplataforma.md"
     },
@@ -4159,9 +4697,20 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-056"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2010/05/20/686"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "informatica",
         "tecnico-superior",
@@ -4169,7 +4718,8 @@
       ],
       "legislationDate": "2010-05-20",
       "legislationIdentifier": [
-        "NOR-056"
+        "NOR-056",
+        "https://www.boe.es/eli/es/rd/2010/05/20/686"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4185,7 +4735,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Web y se fijan sus enseñanzas mínimas",
       "sameAs": [
-        "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-9269"
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-9269",
+        "https://www.boe.es/eli/es/rd/2010/05/20/686"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-056-rd-686-2010-desarrollo-aplicaciones-web.md"
     },
@@ -4199,9 +4750,20 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-057"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2007/10/29/1394"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "servicios-socioculturales",
         "tecnico-superior",
@@ -4209,7 +4771,8 @@
       ],
       "legislationDate": "2007-10-29",
       "legislationIdentifier": [
-        "NOR-057"
+        "NOR-057",
+        "https://www.boe.es/eli/es/rd/2007/10/29/1394"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4225,7 +4788,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 1394/2007, de 29 de octubre, por el que se establece el título de Técnico Superior en Educación infantil y se fijan sus enseñanzas mínimas",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20201"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20201",
+        "https://www.boe.es/eli/es/rd/2007/10/29/1394"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-057-rd-1394-2007-educacion-infantil.md"
     },
@@ -4239,9 +4803,20 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-058"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2023/04/18/289"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "servicios-socioculturales",
         "tecnico-superior",
@@ -4249,7 +4824,8 @@
       ],
       "legislationDate": "2023-04-18",
       "legislationIdentifier": [
-        "NOR-058"
+        "NOR-058",
+        "https://www.boe.es/eli/es/rd/2023/04/18/289"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4265,7 +4841,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 289/2023, de 18 de abril, por el que se actualizan los títulos de la formación profesional del sistema educativo de Técnico Superior en Integración Social y Técnico Superior en Mediación Comunicativa",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2023-10395"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2023-10395",
+        "https://www.boe.es/eli/es/rd/2023/04/18/289"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-058-rd-289-2023-integracion-social.md"
     },
@@ -4279,9 +4856,20 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-060"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2012/07/13/1074"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "servicios-socioculturales",
         "tecnico-superior",
@@ -4289,7 +4877,8 @@
       ],
       "legislationDate": "2012-07-13",
       "legislationIdentifier": [
-        "NOR-060"
+        "NOR-060",
+        "https://www.boe.es/eli/es/rd/2012/07/13/1074"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4305,7 +4894,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 1074/2012, de 13 de julio, por el que se establece el título de Técnico Superior en Integración Social y se fijan sus enseñanzas mínimas",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2012-10866"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2012-10866",
+        "https://www.boe.es/eli/es/rd/2012/07/13/1074"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-060-rd-1074-2012-integracion-social.md"
     },
@@ -4319,9 +4909,20 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-079"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2022/03/01/157/con"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-001-loe.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "educacion-primaria",
         "ensenanzas-minimas",
@@ -4334,7 +4935,8 @@
       ],
       "legislationDate": "2022-03-01",
       "legislationIdentifier": [
-        "NOR-079"
+        "NOR-079",
+        "https://www.boe.es/eli/es/rd/2022/03/01/157/con"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4350,7 +4952,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 157/2022, de 1 de marzo, por el que se establecen la ordenación y las enseñanzas mínimas de la Educación Primaria",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2022-3296"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2022-3296",
+        "https://www.boe.es/eli/es/rd/2022/03/01/157/con"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-079-rd-157-2022-ensenanzas-minimas-primaria.md"
     },
@@ -4364,9 +4967,20 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-080"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2023/07/18/659/con"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "ordenacion-fp",
@@ -4381,7 +4995,8 @@
       ],
       "legislationDate": "2023-07-18",
       "legislationIdentifier": [
-        "NOR-080"
+        "NOR-080",
+        "https://www.boe.es/eli/es/rd/2023/07/18/659/con"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4397,7 +5012,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889",
+        "https://www.boe.es/eli/es/rd/2023/07/18/659/con"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md"
     },
@@ -4411,6 +5027,11 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-101"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2024/07/09/658"
         }
       ],
       "inLanguage": "es",
@@ -4432,7 +5053,8 @@
       ],
       "legislationDate": "2024-07-09",
       "legislationIdentifier": [
-        "NOR-101"
+        "NOR-101",
+        "https://www.boe.es/eli/es/rd/2024/07/09/658"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4448,7 +5070,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 658/2024, de 9 de julio, por el que se modifican el Real Decreto 132/2010, de 12 de febrero, por el que se establecen los requisitos mínimos de los centros que impartan las enseñanzas del segundo ciclo de la educación infantil, la educación primaria y la educación secundaria, y el Real Decreto 659/2023, de 18 de julio, por el que se desarrolla la ordenación del Sistema de Formación Profesional",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2024-14079"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2024-14079",
+        "https://www.boe.es/eli/es/rd/2024/07/09/658"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-101-rd-658-2024-modifica-rd-659-2023.md"
     },
@@ -4462,9 +5085,20 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-102"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2025/02/04/69"
         }
       ],
       "inLanguage": "es",
+      "isBasedOn": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes-organicas/NOR-007-lofp.md",
+          "@type": "Legislation"
+        }
+      ],
       "keywords": [
         "formacion-profesional",
         "sistema-nacional-fp",
@@ -4475,7 +5109,8 @@
       ],
       "legislationDate": "2025-02-04",
       "legislationIdentifier": [
-        "NOR-102"
+        "NOR-102",
+        "https://www.boe.es/eli/es/rd/2025/02/04/69"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4491,7 +5126,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 69/2025, de 4 de febrero, por el que se desarrollan los elementos integrantes y los instrumentos de gestión del Sistema Nacional de Formación Profesional, y se modifica el Real Decreto 375/1999, de 5 de marzo, por el que se crea el Instituto Nacional de las Cualificaciones",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2025-2039"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2025-2039",
+        "https://www.boe.es/eli/es/rd/2025/02/04/69"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-102-rd-69-2025-instrumentos-sistema-nacional-fp.md"
     },
@@ -4505,6 +5141,11 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-103"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2020/12/09/1085/con"
         }
       ],
       "inLanguage": "es",
@@ -4518,7 +5159,8 @@
       ],
       "legislationDate": "2020-12-09",
       "legislationIdentifier": [
-        "NOR-103"
+        "NOR-103",
+        "https://www.boe.es/eli/es/rd/2020/12/09/1085/con"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4534,7 +5176,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 1085/2020, de 9 de diciembre, por el que se establecen convalidaciones de módulos profesionales de los títulos de Formación Profesional del sistema educativo español y las medidas para su aplicación, y se modifica el Real Decreto 1147/2011, de 29 de julio, por el que se establece la ordenación general de la formación profesional del sistema educativo",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17274",
+        "https://www.boe.es/eli/es/rd/2020/12/09/1085/con"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-103-rd-1085-2020-convalidaciones-modulos-fp.md"
     },
@@ -4548,6 +5191,11 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-104"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2020/12/09/1085/corrigendum/20210123"
         }
       ],
       "inLanguage": "es",
@@ -4565,7 +5213,8 @@
       ],
       "legislationDate": "2026-01-01",
       "legislationIdentifier": [
-        "NOR-104"
+        "NOR-104",
+        "https://www.boe.es/eli/es/rd/2020/12/09/1085/corrigendum/20210123"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4581,7 +5230,8 @@
       "legislationType": "real-decreto",
       "name": "Corrección de errores del Real Decreto 1085/2020, de 9 de diciembre, por el que se establecen convalidaciones de módulos profesionales de los títulos de Formación Profesional del sistema educativo español y las medidas para su aplicación, y se modifica el Real Decreto 1147/2011, de 29 de julio, por el que se establece la ordenación general de la formación profesional del sistema educativo",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2021-979"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2021-979",
+        "https://www.boe.es/eli/es/rd/2020/12/09/1085/corrigendum/20210123"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-104-correccion-rd-1085-2020.md"
     },
@@ -4595,6 +5245,11 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-105"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/rd/2022/01/25/62/con"
         }
       ],
       "inLanguage": "es",
@@ -4608,7 +5263,8 @@
       ],
       "legislationDate": "2022-01-25",
       "legislationIdentifier": [
-        "NOR-105"
+        "NOR-105",
+        "https://www.boe.es/eli/es/rd/2022/01/25/62/con"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4624,7 +5280,8 @@
       "legislationType": "real-decreto",
       "name": "Real Decreto 62/2022, de 25 de enero, de flexibilización de los requisitos exigibles para impartir ofertas de formación profesional conducentes a la obtención de certificados de profesionalidad, así como de la oferta de formación profesional en centros del sistema educativo y de formación profesional para el empleo",
       "sameAs": [
-        "https://www.boe.es/buscar/act.php?id=BOE-A-2022-1274"
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2022-1274",
+        "https://www.boe.es/eli/es/rd/2022/01/25/62/con"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/reales-decretos/NOR-105-rd-62-2022-certificados-profesionalidad.md"
     },
@@ -4638,6 +5295,11 @@
           "@type": "PropertyValue",
           "propertyID": "identificador interno",
           "value": "NOR-072"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ELI",
+          "value": "https://www.boe.es/eli/es/res/2022/06/21/"
         }
       ],
       "inLanguage": "es",
@@ -4650,7 +5312,8 @@
       ],
       "legislationDate": "2022-06-21",
       "legislationIdentifier": [
-        "NOR-072"
+        "NOR-072",
+        "https://www.boe.es/eli/es/res/2022/06/21/"
       ],
       "legislationJurisdiction": {
         "@type": "AdministrativeArea",
@@ -4666,7 +5329,8 @@
       "legislationType": "resolucion-administrativa",
       "name": "Resolución de 21 de junio de 2022, de la Secretaría de Estado de Educación, por la que se publican los currículos de las enseñanzas de religión católica correspondientes a Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato",
       "sameAs": [
-        "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-10452"
+        "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-10452",
+        "https://www.boe.es/eli/es/res/2022/06/21/"
       ],
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/resoluciones/NOR-072-resolucion-2022-curriculo-religion-catolica.md"
     }

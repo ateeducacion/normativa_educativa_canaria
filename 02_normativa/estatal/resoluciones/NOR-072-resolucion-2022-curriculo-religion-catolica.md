@@ -13,6 +13,7 @@ fecha_analisis: 2026-08-05
 estado_vigencia: "Vigente"
 fuente_principal: FTE-079
 url_oficial: "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-10452"
+uri_eli: "https://www.boe.es/eli/es/res/2022/06/21/"
 texto_oficial:
   url_html: "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-10452"
   url_pdf: "https://www.boe.es/boe/dias/2022/06/24/pdfs/BOE-A-2022-10452.pdf"

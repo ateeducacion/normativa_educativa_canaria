@@ -16,10 +16,12 @@ Esta sección se genera desde `06_indices/`; los huecos de identificadores se co
 - 58 currículos (CUR-001 a CUR-058, con posibles huecos reservados); bachillerato: 14, eso: 23, formacion-profesional: 8, infantil: 3, primaria: 10.
 - 83 relaciones (REL-001 a REL-086, con posibles huecos reservados).
 - 22 chunks IA (CHUNK-00001 a CHUNK-00022, con posibles huecos reservados).
-- 86 tareas; Hecha: 86.
+- 87 tareas; Hecha: 87.
 - 135 copias locales de textos oficiales (normativa: 98; currículos: 37).
 - [Inventario JSON público](docs/datos/inventario.json): resumen derivado para clientes automáticos.
 <!-- inventario-corpus:fin -->
+
+Capa semántica generada, no editorial: [catálogo JSON-LD](docs/datos/catalogo.jsonld), [legislación](docs/datos/legislacion.jsonld), [currículos](docs/datos/curriculos.jsonld) y [fuentes](docs/datos/fuentes.jsonld). Las URI ELI solo constan cuando el publicador las confirma. Los [pilotos Akoma Ntoso](docs/datos/akoma-ntoso/README.md) no sustituyen la fuente oficial.
 
 ## Cobertura Principal
 

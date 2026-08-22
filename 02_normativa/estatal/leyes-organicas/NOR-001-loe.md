@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-25
 estado_vigencia: "Vigente con modificaciones"
 fuente_principal: FTE-005
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899"
+uri_eli: "https://www.boe.es/eli/es/lo/2006/05/03/2/con"
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
 temas: [curriculo, evaluacion, organizacion-centros]
 relaciones:

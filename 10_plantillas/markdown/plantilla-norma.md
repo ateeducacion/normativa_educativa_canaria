@@ -13,6 +13,7 @@ fecha_analisis: YYYY-MM-DD
 estado_vigencia: "Pendiente de verificación"
 fuente_principal: FTE-XXX
 url_oficial: ""
+# uri_eli: "https://..."  # solo si el publicador confirma la URI ELI
 texto_oficial:
   url_html: ""
   url_pdf: ""
@@ -42,6 +43,7 @@ nivel_evidencia: "confirmado-fuente-primaria"
 - **Ámbito:**
 - **Autoridad:**
 - **Fuente oficial:**
+- **URI ELI (solo si el publicador la confirma):**
 - **Texto oficial HTML/PDF/consolidado/local:**
 - **Fecha de consulta:**
 - **Estado de vigencia:**

@@ -78,7 +78,7 @@ _Sección generada desde los índices canónicos; no se edita manualmente._
 - Currículos: **58** (CUR-001 a CUR-058, con posibles huecos reservados); bachillerato: 14, eso: 23, formacion-profesional: 8, infantil: 3, primaria: 10.
 - Relaciones: **83** (REL-001 a REL-086, con posibles huecos reservados).
 - Chunks IA: **22** (CHUNK-00001 a CHUNK-00022, con posibles huecos reservados).
-- Tareas: **86**; Hecha: 86.
+- Tareas: **87**; Hecha: 87.
 - Copias locales de textos oficiales: **135** (normativa: 98; currículos: 37).
 - Inventario legible por máquinas: [docs/datos/inventario.json](docs/datos/inventario.json).
 <!-- inventario-corpus:fin -->

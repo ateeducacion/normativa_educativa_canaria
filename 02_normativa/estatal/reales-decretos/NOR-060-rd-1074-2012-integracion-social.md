@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente (actualizado por RD 289/2023)"
 fuente_principal: FTE-054
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2012-10866"
+uri_eli: "https://www.boe.es/eli/es/rd/2012/07/13/1074"
 texto_oficial:
   url_html: "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-10866"
   url_pdf: "https://www.boe.es/boe/dias/2012/08/15/pdfs/BOE-A-2012-10866.pdf"

@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-054
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2014-10067"
+uri_eli: "https://www.boe.es/eli/es/rd/2014/09/12/770"
 etapas_afectadas: [formacion-profesional]
 temas: [sanidad, tecnico-superior, imagen-diagnostico]
 relaciones:

@@ -33,6 +33,8 @@ Los cambios se clasifican así:
 |---|---|---|
 | `datos/catalogo.jsonld` | Schema.org `Dataset` en JSON-LD | Descubrimiento del conjunto de datos y sus distribuciones. |
 | `datos/legislacion.jsonld` | Schema.org `Legislation` en JSON-LD | Metadatos semánticos de las fichas normativas. |
+| `datos/curriculos.jsonld` | Schema.org `LearningResource`/`Course` en JSON-LD | Metadatos semánticos de las fichas curriculares. |
+| `datos/fuentes.jsonld` | Schema.org `WebPage` en JSON-LD | Metadatos semánticos de las fuentes oficiales. |
 | `uri_eli` | ELI | Identificación jurídica oficial, solo cuando el publicador la confirma. |
 | `datos/akoma-ntoso/` | OASIS LegalDocML Akoma Ntoso 1.0 | Pilotos de estructura del texto legal, separados del formato editorial. |
 
