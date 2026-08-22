@@ -1,3 +1,16 @@
+---
+id: CUR-035
+titulo: "Descubrimiento y Exploración del Entorno — Infantil Canarias"
+tipo: "curriculum"
+etapa: "infantil"
+materia: "Descubrimiento y Exploración del Entorno"
+norma_base: NOR-047
+fuente: FTE-050
+fecha_consulta: 2026-08-05
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-035 — Descubrimiento y Exploración del Entorno (Infantil Canarias)
 
 ## 1. Identificación

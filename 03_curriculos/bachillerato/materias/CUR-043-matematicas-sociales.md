@@ -1,3 +1,16 @@
+---
+id: CUR-043
+titulo: "Matemáticas Aplicadas a las CCSS I y II — Bachillerato Humanidades y CCSS"
+tipo: "curriculum"
+etapa: "bachillerato"
+materia: "Matemáticas Aplicadas a las CCSS"
+norma_base: NOR-005
+fuente: FTE-009
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-043 — Matemáticas Aplicadas a las CCSS (Bachillerato Canarias)
 
 ## 1. Identificación

@@ -1,3 +1,11 @@
+---
+id: DEC-0006
+titulo: "Unificación del corpus en un repositorio multietapa"
+estado: "Aceptada"
+fecha: 2026-04-26
+relacionadas: [TAREA-047]
+---
+
 # DEC-0006: Unificación del corpus en un repositorio multietapa
 
 ## Estado

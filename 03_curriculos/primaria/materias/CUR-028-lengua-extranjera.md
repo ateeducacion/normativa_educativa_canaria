@@ -1,3 +1,16 @@
+---
+id: CUR-028
+titulo: "Lengua Extranjera — Primaria Canarias"
+tipo: "curriculum"
+etapa: "primaria"
+materia: "Lengua Extranjera"
+norma_base: NOR-043
+fuente: FTE-046
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-028 — Lengua Extranjera (Primaria Canarias)
 
 ## 1. Identificación

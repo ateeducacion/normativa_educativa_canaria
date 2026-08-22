@@ -1,3 +1,16 @@
+---
+id: CUR-055
+titulo: "Historia de Canarias — 1.º Bachillerato"
+tipo: "curriculum"
+etapa: "bachillerato"
+materia: "Historia de Canarias"
+norma_base: NOR-005
+fuente: FTE-009
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-055 — Historia de Canarias (Bachillerato)
 
 ## 1. Identificación

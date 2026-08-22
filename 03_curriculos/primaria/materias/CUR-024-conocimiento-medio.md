@@ -1,3 +1,16 @@
+---
+id: CUR-024
+titulo: "Conocimiento del Medio Natural, Social y Cultural — Primaria Canarias"
+tipo: "curriculum"
+etapa: "primaria"
+materia: "Conocimiento del Medio Natural, Social y Cultural"
+norma_base: NOR-043
+fuente: FTE-046
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-024 — Conocimiento del Medio Natural, Social y Cultural (Primaria Canarias)
 
 ## 1. Identificación

@@ -1,3 +1,16 @@
+---
+id: CUR-034
+titulo: "Crecimiento en Armonía — Infantil Canarias"
+tipo: "curriculum"
+etapa: "infantil"
+materia: "Crecimiento en Armonía"
+norma_base: NOR-047
+fuente: FTE-050
+fecha_consulta: 2026-08-05
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-034 — Crecimiento en Armonía (Infantil Canarias)
 
 ## 1. Identificación

@@ -1,3 +1,16 @@
+---
+id: CUR-038
+titulo: "Filosofía — 1.º Bachillerato Canarias"
+tipo: "curriculum"
+etapa: "bachillerato"
+materia: "Filosofía"
+norma_base: NOR-005
+fuente: FTE-009
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-038 — Filosofía (1.º Bachillerato Canarias)
 
 ## 1. Identificación

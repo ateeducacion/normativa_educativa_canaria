@@ -1,3 +1,16 @@
+---
+id: CUR-033
+titulo: "Religión Católica — Primaria Canarias"
+tipo: "curriculum"
+etapa: "primaria"
+materia: "Religión Católica"
+norma_base: NOR-072
+fuente: FTE-079
+fecha_consulta: 2026-08-05
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-033 — Religión Católica (Primaria Canarias)
 
 > Este resumen no sustituye la consulta de la fuente oficial.

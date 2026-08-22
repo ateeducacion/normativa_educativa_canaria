@@ -1,3 +1,16 @@
+---
+id: CUR-031
+titulo: "Educación en Valores Cívicos y Éticos — Primaria Canarias"
+tipo: "curriculum"
+etapa: "primaria"
+materia: "Educación en Valores Cívicos y Éticos"
+norma_base: NOR-043
+fuente: FTE-046
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-031 — Educación en Valores Cívicos y Éticos (Primaria Canarias)
 
 ## 1. Identificación

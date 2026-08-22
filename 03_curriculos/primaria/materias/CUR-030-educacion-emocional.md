@@ -1,3 +1,16 @@
+---
+id: CUR-030
+titulo: "Educación Emocional y para la Creatividad — Primaria Canarias"
+tipo: "curriculum"
+etapa: "primaria"
+materia: "Educación Emocional y para la Creatividad"
+norma_base: NOR-043
+fuente: FTE-046
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-030 — Educación Emocional y para la Creatividad (Primaria Canarias)
 
 ## 1. Identificación

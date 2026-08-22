@@ -1,3 +1,16 @@
+---
+id: CUR-042
+titulo: "Matemáticas I y II — Bachillerato Ciencias y Tecnología"
+tipo: "curriculum"
+etapa: "bachillerato"
+materia: "Matemáticas"
+norma_base: NOR-005
+fuente: FTE-009
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-042 — Matemáticas I y II (Bachillerato Ciencias y Tecnología)
 
 ## 1. Identificación

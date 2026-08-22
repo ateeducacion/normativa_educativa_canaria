@@ -1,3 +1,16 @@
+---
+id: CUR-058
+titulo: "Cultura Científica — 1.º Bachillerato"
+tipo: "curriculum"
+etapa: "bachillerato"
+materia: "Cultura Científica"
+norma_base: NOR-005
+fuente: FTE-009
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-058 — Cultura Científica (Bachillerato)
 
 ## 1. Identificación

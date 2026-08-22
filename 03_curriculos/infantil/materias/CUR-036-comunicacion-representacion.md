@@ -1,3 +1,16 @@
+---
+id: CUR-036
+titulo: "Comunicación y Representación de la Realidad — Infantil Canarias"
+tipo: "curriculum"
+etapa: "infantil"
+materia: "Comunicación y Representación de la Realidad"
+norma_base: NOR-047
+fuente: FTE-050
+fecha_consulta: 2026-08-05
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-036 — Comunicación y Representación de la Realidad (Infantil Canarias)
 
 ## 1. Identificación

@@ -1,3 +1,16 @@
+---
+id: CUR-044
+titulo: "Latín I y II — Bachillerato Humanidades y CCSS"
+tipo: "curriculum"
+etapa: "bachillerato"
+materia: "Latín"
+norma_base: NOR-005
+fuente: FTE-009
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-044 — Latín (Bachillerato Canarias)
 
 ## 1. Identificación

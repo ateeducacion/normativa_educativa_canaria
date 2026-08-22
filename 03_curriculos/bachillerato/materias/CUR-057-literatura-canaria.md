@@ -1,3 +1,16 @@
+---
+id: CUR-057
+titulo: "Literatura Canaria — 2.º Bachillerato"
+tipo: "curriculum"
+etapa: "bachillerato"
+materia: "Literatura Canaria"
+norma_base: NOR-005
+fuente: FTE-009
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-057 — Literatura Canaria (Bachillerato)
 
 ## 1. Identificación

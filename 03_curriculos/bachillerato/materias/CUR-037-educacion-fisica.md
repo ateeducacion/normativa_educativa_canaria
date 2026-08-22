@@ -1,3 +1,16 @@
+---
+id: CUR-037
+titulo: "Educación Física — Bachillerato Canarias"
+tipo: "curriculum"
+etapa: "bachillerato"
+materia: "Educación Física"
+norma_base: NOR-005
+fuente: FTE-009
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-037 — Educación Física (Bachillerato Canarias)
 
 ## 1. Identificación

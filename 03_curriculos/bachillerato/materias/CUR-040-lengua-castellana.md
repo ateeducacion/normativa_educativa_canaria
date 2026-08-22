@@ -1,3 +1,16 @@
+---
+id: CUR-040
+titulo: "Lengua Castellana y Literatura I y II — Bachillerato Canarias"
+tipo: "curriculum"
+etapa: "bachillerato"
+materia: "Lengua Castellana y Literatura"
+norma_base: NOR-005
+fuente: FTE-009
+fecha_consulta: 2026-04-26
+fecha_analisis: 2026-08-05
+estado_extraccion: "completado"
+---
+
 # CUR-040 — Lengua Castellana y Literatura I y II (Bachillerato Canarias)
 
 ## 1. Identificación
