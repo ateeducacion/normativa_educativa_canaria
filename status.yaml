@@ -1451,6 +1451,26 @@ tareas:
     - NOR-079
     - PREG-013
     siguiente_accion: null
+  TAREA-088:
+    titulo: Ampliar los pilotos Akoma Ntoso del núcleo curricular
+    estado: Hecha
+    prioridad: Alta
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-22
+    fecha_actualizacion: 2026-08-22
+    relacionadas:
+    - TAREA-087
+    - NOR-003
+    - NOR-004
+    - NOR-005
+    - NOR-006
+    - NOR-007
+    - NOR-043
+    - NOR-047
+    - NOR-079
+    - NOR-080
+    siguiente_accion: null
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.

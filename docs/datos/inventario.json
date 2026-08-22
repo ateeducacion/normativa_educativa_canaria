@@ -39,14 +39,14 @@
     },
     "tareas": {
       "primer_id": "TAREA-001",
-      "total": 87,
-      "ultimo_id": "TAREA-087"
+      "total": 88,
+      "ultimo_id": "TAREA-088"
     }
   },
   "fuente": "06_indices/",
   "tareas": {
     "por_estado": {
-      "Hecha": 87
+      "Hecha": 88
     }
   },
   "textos_oficiales_locales": {
