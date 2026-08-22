@@ -1,4 +1,6 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://ateeducacion.github.io/normativa_educativa_canaria/schemas/curriculum.schema.yaml"
+title: Ficha curricular
 additionalProperties: false
 
 # Todas las fichas curriculares comparten un único contenedor `elementos` (DEC-0007).
@@ -39,10 +41,13 @@ properties:
     pattern: '^FTE-[0-9]{3}$'
   url_oficial:
     type: string
+    format: uri
   fecha_consulta:
     type: string
+    format: date
   fecha_analisis:
     type: [string, 'null']
+    format: date
   estado_extraccion:
     type: string
     enum: [pendiente, en-analisis, parcial, completado, revisado, obsoleto]

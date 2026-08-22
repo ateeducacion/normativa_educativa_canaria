@@ -1,4 +1,6 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://ateeducacion.github.io/normativa_educativa_canaria/schemas/norma.schema.yaml"
+title: Ficha de normativa educativa
 additionalProperties: false
 
 # `temas` es vocabulario abierto: el corpus usa más de cien etiquetas y crece con
@@ -26,14 +28,19 @@ properties:
     type: string
   fecha_disposicion:
     type: [string, 'null']
+    format: date
   fecha_publicacion:
     type: [string, 'null']
+    format: date
   fecha_entrada_vigor:
     type: [string, 'null']
+    format: date
   fecha_consulta:
     type: string
+    format: date
   fecha_analisis:
     type: string
+    format: date
   estado_vigencia:
     type: string
     pattern: '^(Vigente|Derogada|Derogada parcialmente|Parcialmente vigente|Superada|Superada parcialmente|Sustituida|Histórica|Pendiente de verificación|No normativa)(\b.*)?$'
@@ -42,6 +49,11 @@ properties:
     pattern: '^FTE-[0-9]{3}$'
   url_oficial:
     type: string
+    format: uri
+  uri_eli:
+    type: string
+    format: uri
+    pattern: '^https://'
   etapas_afectadas:
     type: array
     items:
@@ -56,10 +68,10 @@ properties:
     type: object
     additionalProperties: false
     properties:
-      url_html: {type: string}
-      url_pdf: {type: string}
-      url_texto_consolidado: {type: string}
-      url_anexo: {type: string}
+      url_html: {type: string, format: uri}
+      url_pdf: {type: string, format: uri}
+      url_texto_consolidado: {type: string, format: uri}
+      url_anexo: {type: string, format: uri}
       ruta_texto_plano_local: {type: string}
   relaciones:
     type: object

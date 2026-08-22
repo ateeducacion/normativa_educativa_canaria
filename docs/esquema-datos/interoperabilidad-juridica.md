@@ -10,13 +10,17 @@ El formato editorial canónico del corpus continúa siendo Markdown/YAML. Es leg
 
 El [Identificador Europeo de Legislación (ELI)](https://eur-lex.europa.eu/eli-register/about.html) es la referencia prioritaria para identificar legislación y publicar metadatos interoperables. La [especificación técnica española](https://www.elidata.es/documentacion_tecnica/especificacion_tecnica.php) contempla su aplicación gradual a la legislación estatal, autonómica y local.
 
-ELI encaja con las fichas `NOR-NNN` como capa de identificación y metadatos. No sustituye por sí solo la estructura editorial interna ni autoriza a construir una URI oficial que el organismo publicador no haya confirmado.
+ELI encaja con las fichas `NOR-NNN` como capa de identificación y metadatos. El campo opcional `uri_eli` registra únicamente identificadores confirmados por el organismo publicador; el generador no intenta deducirlos a partir del título o de otras fechas.
 
 ### Akoma Ntoso
 
 [Akoma Ntoso 1.0](https://docs.oasis-open.org/legaldocml/akn-core/v1.0/akn-core-v1.0.html) es un estándar XML para documentos jurídicos y parlamentarios. Sería adecuado como formato de exportación cuando se necesite representar con precisión la estructura completa del texto normativo, sus bloques y referencias.
 
-No se adopta como formato de edición principal mientras el corpus mantenga fichas de análisis y copias de consulta, en vez de una edición XML estructural completa de cada disposición.
+No se adopta como formato de edición principal mientras el corpus mantenga fichas de análisis y copias de consulta, en vez de una edición XML estructural completa de cada disposición. El [piloto publicado](../datos/akoma-ntoso/README.md) limita deliberadamente la prueba a un artículo y se valida contra el XSD oficial.
+
+### Schema.org y JSON-LD
+
+El corpus publica un catálogo `Dataset` y un grafo `Legislation` mediante [Schema.org](https://schema.org/Legislation) y JSON-LD. Esta capa mejora el descubrimiento y ofrece un contrato semántico ampliamente reutilizable. No convierte las fichas en fuentes oficiales ni implica que Google ofrezca un resultado enriquecido específico para legislación.
 
 ### llms.txt
 
@@ -33,12 +37,13 @@ No se adopta como formato de edición principal mientras el corpus mantenga fich
 | URL oficial | URI de referencia | Se conserva; solo se marca como URI ELI si el publicador la ofrece como tal. |
 | Texto completo estructurado | Akoma Ntoso | Se genera únicamente desde una extracción estructural verificada. |
 
-## Implantación gradual
+## Implantación
 
-1. Añadir a las fichas normativas un campo opcional para una URI ELI oficial verificada.
-2. Definir y validar la tabla de correspondencias entre los campos internos y la ontología ELI.
-3. Generar JSON-LD/RDF desde YAML, con pruebas reproducibles y sin edición duplicada.
-4. Evaluar una exportación Akoma Ntoso sobre un conjunto pequeño de normas antes de ampliar el alcance.
+1. El esquema normativo admite una URI ELI oficial verificada y valida fechas y URI.
+2. `11_calidad/generar_interoperabilidad.py` transforma las fichas en `datos/legislacion.jsonld` y `datos/catalogo.jsonld`.
+3. El catálogo `Dataset` se inserta también en la página pública para facilitar su descubrimiento.
+4. CI comprueba que las exportaciones coincidan con las fichas canónicas.
+5. Akoma Ntoso permanece en fase piloto hasta demostrar revisión y validación suficientes para ampliar su cobertura.
 
 ## Salvaguardas
 

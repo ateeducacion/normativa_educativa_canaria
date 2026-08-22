@@ -1,4 +1,6 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://ateeducacion.github.io/normativa_educativa_canaria/schemas/tarea.schema.yaml"
+title: Tarea de mantenimiento del corpus
 additionalProperties: false
 
 # `siguiente_accion` y `fecha_cierre` son opcionales: una tarea cerrada no tiene
@@ -25,10 +27,13 @@ properties:
     type: string
   fecha_creacion:
     type: string
+    format: date
   fecha_actualizacion:
     type: string
+    format: date
   fecha_cierre:
     type: [string, 'null']
+    format: date
   relacionadas:
     type: array
     items:
