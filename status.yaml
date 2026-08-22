@@ -3,8 +3,8 @@ metadata:
   repositorio: ateeducacion/normativa_educativa_canaria
   objetivo: Corpus IA-friendly de normativa educativa y currículos en Markdown y YAML
   fase_actual: Fase 1 — Inventario y Catalogación
-  fecha_actualizacion: '2026-08-22'
-  agente_actual: '@.agents/skills/preparacion-corpus-ia'
+  fecha_actualizacion: '2026-08-23'
+  agente_actual: '@.agents/skills/control-calidad-documental'
 tareas:
   TAREA-001:
     titulo: Puesta en marcha del repositorio
@@ -1502,7 +1502,8 @@ tareas:
     siguiente_accion: null
   TAREA-091:
     titulo: Auditar y normalizar el corpus — estados de tarea, resúmenes sangrados, chunks fuera de esquema, frontmatters ausentes y puntos ciegos del validador
-    estado: En progreso
+    estado: Hecha
+    fecha_cierre: 2026-08-23
     prioridad: Alta
     tipo: calidad-documental
     responsable: '@.agents/skills/control-calidad-documental'
@@ -1515,7 +1516,7 @@ tareas:
     - TAREA-089
     - TAREA-090
     - DEC-0010
-    siguiente_accion: Ejecutar los bloques A-F de la auditoría.
+    siguiente_accion: null
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.

@@ -1594,7 +1594,8 @@ TAREA-090:
 
 TAREA-091:
   titulo: "Auditar y normalizar el corpus: estados de tarea, resúmenes sangrados, chunks fuera de esquema, frontmatters ausentes y puntos ciegos del validador"
-  estado: "En progreso"
+  estado: "Hecha"
+  fecha_cierre: 2026-08-23
   prioridad: "Alta"
   tipo: "calidad-documental"
   responsable: '@.agents/skills/control-calidad-documental'

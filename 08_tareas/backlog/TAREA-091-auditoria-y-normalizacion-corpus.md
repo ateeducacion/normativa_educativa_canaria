@@ -1,12 +1,13 @@
 ---
 id: TAREA-091
 titulo: "Auditar y normalizar el corpus: estados de tarea, resúmenes sangrados, chunks fuera de esquema, frontmatters ausentes y puntos ciegos del validador"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "calidad-documental"
 responsable: "@.agents/skills/control-calidad-documental"
 fecha_creacion: 2026-08-23
 fecha_actualizacion: 2026-08-23
+fecha_cierre: 2026-08-23
 relacionadas:
 - TAREA-010
 - TAREA-069
@@ -14,7 +15,7 @@ relacionadas:
 - TAREA-089
 - TAREA-090
 - DEC-0010
-siguiente_accion: "Ejecutar los bloques A-F de la auditoría (ver notas)."
+siguiente_accion: null
 ---
 
 # TAREA-091 — Auditoría y normalización del corpus
