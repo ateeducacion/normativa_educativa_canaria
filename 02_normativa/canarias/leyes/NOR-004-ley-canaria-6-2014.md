@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-25
 estado_vigencia: "Vigente"
 fuente_principal: FTE-008
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2014-9901"
+uri_eli: "https://www.boe.es/eli/es-cn/l/2014/07/25/6/con"
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
 temas: [curriculo, organizacion-centros, funcion-docente, inclusion]
 relaciones:
