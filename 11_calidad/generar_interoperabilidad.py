@@ -270,15 +270,49 @@ def load_pilots() -> list[dict[str, Any]]:
     return pilots
 
 
+def pilot_kind(pilot: dict[str, Any]) -> str:
+    """Return 'articulo' or the declared disposition kind of a pilot."""
+    return pilot.get("tipo", "articulo")
+
+
+def block_eid(pilot: dict[str, Any]) -> str:
+    """Return the AKN eId of the reviewed portion."""
+    kind = pilot_kind(pilot)
+    if kind == "articulo":
+        return f"art_{pilot['articulo']}"
+    suffix = "adi" if kind == "disposicion_adicional" else "fin"
+    return f"dis_{suffix}_{pilot['ordinal']}"
+
+
+def file_stem(pilot: dict[str, Any]) -> str:
+    """Return the public filename stem of a reviewed portion."""
+    kind = pilot_kind(pilot)
+    if kind == "articulo":
+        return f"{pilot['id']}-articulo-{pilot['articulo']}"
+    suffix = "adicional" if kind == "disposicion_adicional" else "final"
+    return f"{pilot['id']}-disposicion-{suffix}-{pilot['ordinal']}"
+
+
 def akn_path(pilot: dict[str, Any]) -> pathlib.Path:
     """Return the public XML path of a reviewed Akoma Ntoso portion."""
-    return AKN_DIR / f"{pilot['id']}-articulo-{pilot['articulo']}.xml"
+    return AKN_DIR / f"{file_stem(pilot)}.xml"
+
+
+def pilot_label(pilot: dict[str, Any]) -> str:
+    """Return a human-readable description of a reviewed portion."""
+    kind = pilot_kind(pilot)
+    if kind == "articulo":
+        return f"{pilot['id']} artículo {pilot['articulo']}"
+    suffix = "adicional" if kind == "disposicion_adicional" else "final"
+    return f"{pilot['id']} disposición {suffix} {pilot['ordinal']}"
 
 
 def render_akoma_ntoso(pilot: dict[str, Any], eli: str | None) -> str:
-    """Render a reviewed article as an Akoma Ntoso 3.0 portion."""
+    """Render a reviewed article or disposition as an Akoma Ntoso 3.0 portion."""
     work = pilot["work_uri"]
     author = pilot["author_eid"]
+    eid = block_eid(pilot)
+    kind = pilot_kind(pilot)
     eli_line = (
         f'          <FRBRalias name="ELI" value="{xml_text(eli)}"/>\n' if eli else ""
     )
@@ -286,22 +320,31 @@ def render_akoma_ntoso(pilot: dict[str, Any], eli: str | None) -> str:
     for index, paragraph in enumerate(pilot["parrafos"], start=1):
         num = paragraph.get("num")
         num_xml = f"\n          <num>{xml_text(num)}</num>" if num else ""
+        texts = paragraph["text"] if isinstance(paragraph["text"], list) else [paragraph["text"]]
+        body = "".join(f"<p>{xml_text(text)}</p>" for text in texts)
         paragraphs.append(
-            "        <paragraph eId="
-            f'"art_{pilot["articulo"]}__para_{index}">'
+            f"        <paragraph eId=\"{eid}__para_{index}\">"
             f"{num_xml}\n"
             "          <content>"
-            f"<p>{xml_text(paragraph['text'])}</p>"
+            f"{body}"
             "</content>\n"
             "        </paragraph>"
         )
+    if kind == "articulo":
+        block_open = f'<article eId="{eid}">'
+        block_close = "</article>"
+    else:
+        name = "disposicion-adicional" if kind == "disposicion_adicional" else "disposicion-final"
+        block_open = f'<hcontainer eId="{eid}" name="{name}">'
+        block_close = "</hcontainer>"
+    heading_xml = f"\n        <heading>{xml_text(pilot['heading'])}</heading>" if pilot.get("heading") else ""
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
   <portion includedIn="{xml_text(work)}">
     <meta>
       <identification source="#corpus">
         <FRBRWork>
-          <FRBRthis value="{xml_text(work)}/!art_{pilot["articulo"]}"/>
+          <FRBRthis value="{xml_text(work)}/!{eid}"/>
           <FRBRuri value="{xml_text(work)}"/>
 {eli_line}          <FRBRdate date="{pilot["work_date"]}" name="Generation"/>
           <FRBRauthor href="#{author}"/>
@@ -310,14 +353,14 @@ def render_akoma_ntoso(pilot: dict[str, Any], eli: str | None) -> str:
           <FRBRname value="{xml_text(pilot["frbr_name"])}"/>
         </FRBRWork>
         <FRBRExpression>
-          <FRBRthis value="{xml_text(work)}/spa@/!art_{pilot["articulo"]}"/>
+          <FRBRthis value="{xml_text(work)}/spa@/!{eid}"/>
           <FRBRuri value="{xml_text(work)}/spa@"/>
           <FRBRdate date="{pilot["expression_date"]}" name="Publication"/>
           <FRBRauthor href="#{author}"/>
           <FRBRlanguage language="spa"/>
         </FRBRExpression>
         <FRBRManifestation>
-          <FRBRthis value="{xml_text(work)}/spa@/xml/!art_{pilot["articulo"]}"/>
+          <FRBRthis value="{xml_text(work)}/spa@/xml/!{eid}"/>
           <FRBRuri value="{xml_text(work)}/spa@/xml"/>
           <FRBRdate date="2026-08-22" name="Generation"/>
           <FRBRauthor href="#corpus"/>
@@ -329,11 +372,10 @@ def render_akoma_ntoso(pilot: dict[str, Any], eli: str | None) -> str:
       </references>
     </meta>
     <portionBody>
-      <article eId="art_{pilot["articulo"]}">
-        <num>{xml_text(pilot["num"])}</num>
-        <heading>{xml_text(pilot["heading"])}</heading>
+      {block_open}
+        <num>{xml_text(pilot["num"])}</num>{heading_xml}
 {chr(10).join(paragraphs)}
-      </article>
+      {block_close}
     </portionBody>
   </portion>
 </akomaNtoso>
@@ -361,8 +403,8 @@ def build_catalog(
     for pilot in pilots:
         distributions.append(
             (
-                f"Piloto Akoma Ntoso {pilot['id']} artículo {pilot['articulo']}",
-                f"datos/akoma-ntoso/{pilot['id']}-articulo-{pilot['articulo']}.xml",
+                f"Piloto Akoma Ntoso {pilot_label(pilot)}",
+                f"datos/akoma-ntoso/{file_stem(pilot)}.xml",
                 "application/akn+xml",
             )
         )
