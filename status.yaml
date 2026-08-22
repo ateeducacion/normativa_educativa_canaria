@@ -584,8 +584,8 @@ tareas:
     - NOR-045
     - NOR-046
     - NOR-047
-    - NOR-048
-    - NOR-049
+    - NOR-044
+    - NOR-046
     siguiente_accion: null
   TAREA-032:
     titulo: Extracción literal de currículos de Educación Primaria (CUR-024 a CUR-033)
@@ -916,7 +916,7 @@ tareas:
     - NOR-042
     - NOR-045
     - NOR-046
-    - NOR-049
+    - NOR-046
     - NOR-059
     - NOR-060
     siguiente_accion: null
@@ -1132,21 +1132,20 @@ tareas:
     - PREG-007
     siguiente_accion: Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 5 fichas.
   TAREA-069:
-    titulo: Migrar los descriptores operativos a mapa por curso e incorporar el extractor al repositorio
+    titulo: Extraer los descriptores operativos de las fichas curriculares de infantil (CUR-034 a CUR-036)
     estado: Hecha
-    prioridad: Alta
+    prioridad: Media
     tipo: curriculo
     responsable: '@.agents/skills/analisis-curricular'
     fecha_creacion: 2026-08-05
     fecha_actualizacion: 2026-08-05
+    fecha_cierre: 2026-08-05
     relacionadas:
-    - DEC-0008
     - PREG-008
-    - CUR-001
-    - CUR-009
-    - NOR-005
-    - TAREA-072
-    - TAREA-073
+    - FTE-050
+    - NOR-047
+    - TAREA-065
+    - PREG-007
     siguiente_accion: null
   TAREA-070:
     titulo: Localizar la ubicación actual de las fuentes cuya URL oficial devuelve 404
@@ -1275,7 +1274,7 @@ tareas:
     - PREG-009
     - FTE-049
     - FTE-051
-    - NOR-049
+    - NOR-046
     siguiente_accion: Crear la ficha FTE de la Resolución 24/2024 desde su PDF oficial y decidir si procede
       ficha NOR.
   TAREA-079:

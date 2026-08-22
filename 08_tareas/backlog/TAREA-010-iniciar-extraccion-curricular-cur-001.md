@@ -1,7 +1,7 @@
 ---
 id: TAREA-010
 titulo: "Iniciar extracción curricular de CUR-001 (Biología y Geología, ESO Canarias)"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "curriculo"
 responsable: "@.agents/skills/analisis-curricular"

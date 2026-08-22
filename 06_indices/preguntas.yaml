@@ -66,7 +66,7 @@ PREG-009:
   estado: "Resuelta"
   fecha_registro: 2026-08-05
   fecha_resolucion: 2026-08-05
-  relacionadas: [FTE-049, FTE-051, NOR-046, NOR-049, TAREA-070, TAREA-076]
+  relacionadas: [FTE-049, FTE-051, NOR-046, NOR-044, TAREA-070, TAREA-076]
   ruta: "08_tareas/preguntas/PREG-009-identidad-de-fte-051.md"
 
 PREG-010:

@@ -591,8 +591,8 @@ TAREA-031:
   - NOR-045
   - NOR-046
   - NOR-047
-  - NOR-048
-  - NOR-049
+  - NOR-044
+  - NOR-046
   - FTE-046
   - FTE-047
   - FTE-048
@@ -989,7 +989,7 @@ TAREA-055:
   - NOR-042
   - NOR-045
   - NOR-046
-  - NOR-049
+  - NOR-046
   - NOR-059
   - NOR-060
   ruta: 08_tareas/backlog/TAREA-055-ampliar-copias-rapidas-resto-normas.md
@@ -1369,7 +1369,7 @@ TAREA-078:
   - PREG-009
   - FTE-049
   - FTE-051
-  - NOR-049
+  - NOR-046
   ruta: 08_tareas/backlog/TAREA-078-catalogar-resolucion-24-2024-infantil.md
 
 TAREA-079:
@@ -1555,7 +1555,7 @@ TAREA-088:
 
 TAREA-089:
   titulo: "Validar los pilotos Akoma Ntoso contra el XSD oficial en CI"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "calidad"
   responsable: '@.agents/skills/control-calidad-documental'
@@ -1569,7 +1569,7 @@ TAREA-089:
 
 TAREA-090:
   titulo: "Ampliar la cobertura Akoma Ntoso: artículos 3+, normas nuevas, disposiciones y LOFP art. 2"
-  estado: "En progreso"
+  estado: "Hecha"
   prioridad: "Alta"
   tipo: "corpus-ia"
   responsable: '@.agents/skills/preparacion-corpus-ia'
