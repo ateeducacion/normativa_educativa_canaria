@@ -646,7 +646,7 @@ tareas:
     fecha_actualizacion: 2026-04-26
     relacionadas:
     - CUR-023
-    siguiente_accion: Localizar anexo literal de Tecnología y Digitalización (CUR-023).
+    siguiente_accion: null
   TAREA-037:
     titulo: Catalogar RD de títulos FP más comunes en Canarias (fase acotada)
     estado: Hecha
@@ -1068,8 +1068,7 @@ tareas:
     relacionadas:
     - TAREA-061
     - TAREA-063
-    siguiente_accion: Identificar las tres resoluciones en el snapshot del monitor y comprobar si ya tienen
-      ficha NOR.
+    siguiente_accion: null
   TAREA-065:
     titulo: Normalizar las fichas curriculares, recalibrar los avisos del validador y cerrar los huecos
       de índice
@@ -1102,7 +1101,7 @@ tareas:
     - NOR-005
     - TAREA-065
     - PREG-007
-    siguiente_accion: Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 14 fichas.
+    siguiente_accion: null
   TAREA-067:
     titulo: Extraer los descriptores operativos de las fichas curriculares de primaria (CUR-024 a CUR-033)
     estado: Hecha
@@ -1116,7 +1115,7 @@ tareas:
     - NOR-043
     - TAREA-065
     - PREG-007
-    siguiente_accion: Volcar los descriptores operativos del perfil de salida desde FTE-046 a las 10 fichas.
+    siguiente_accion: null
   TAREA-068:
     titulo: Extraer los descriptores operativos de las fichas curriculares de eso (CUR-015 a CUR-023)
     estado: Hecha
@@ -1130,7 +1129,7 @@ tareas:
     - NOR-005
     - TAREA-065
     - PREG-007
-    siguiente_accion: Volcar los descriptores operativos del perfil de salida desde FTE-009 a las 5 fichas.
+    siguiente_accion: null
   TAREA-069:
     titulo: Extraer los descriptores operativos de las fichas curriculares de infantil (CUR-034 a CUR-036)
     estado: Hecha
@@ -1161,8 +1160,7 @@ tareas:
     - FTE-049
     - FTE-051
     - TAREA-065
-    siguiente_accion: Localizar la Resolución de 20 de junio de 2025 de IOF de Escuelas Infantiles que
-      declara FTE-051.
+    siguiente_accion: null
   TAREA-071:
     titulo: Preparar la extracción de descriptores operativos y verificar el conjunto de control
     estado: Hecha
@@ -1211,8 +1209,7 @@ tareas:
     - NOR-005
     - FTE-009
     - TAREA-072
-    siguiente_accion: Re-extraer las competencias de CUR-001 desde el Decreto 30/2023, empezando por C3
-      y C5.
+    siguiente_accion: null
   TAREA-074:
     titulo: Reparar el doble encodeo de las copias locales de texto oficial
     estado: Hecha
@@ -1259,8 +1256,7 @@ tareas:
     - FTE-046
     - TAREA-067
     - TAREA-076
-    siguiente_accion: Descargar el PDF oficial del Decreto 211/2022 y extraer el anexo curricular a texto
-      plano.
+    siguiente_accion: null
   TAREA-078:
     titulo: Catalogar la Resolución Conjunta n.º 24/2024 de instrucciones para el primer ciclo de Educación
       Infantil
@@ -1275,8 +1271,7 @@ tareas:
     - FTE-049
     - FTE-051
     - NOR-046
-    siguiente_accion: Crear la ficha FTE de la Resolución 24/2024 desde su PDF oficial y decidir si procede
-      ficha NOR.
+    siguiente_accion: null
   TAREA-079:
     titulo: Sustituir por el enunciado literal las competencias de las fichas curriculares de Infantil
     estado: Hecha
@@ -1293,8 +1288,7 @@ tareas:
     - CUR-036
     - NOR-047
     - TAREA-069
-    siguiente_accion: Localizar en el Decreto 196/2022 el enunciado literal de las 11 competencias y sustituir
-      descripcion por enunciado_oficial.
+    siguiente_accion: null
   TAREA-080:
     titulo: Añadir la comprobación de integridad referencial al validador y corregir REL-058
     estado: Hecha
@@ -1323,8 +1317,7 @@ tareas:
     - FTE-050
     - TAREA-079
     - TAREA-077
-    siguiente_accion: Descargar boc-a-2022-212-3215.pdf y extraer el anexo con pdftotext -layout, como
-      se hizo en TAREA-077.
+    siguiente_accion: null
   TAREA-082:
     titulo: Catalogar la fuente oficial del currículo de Religión en Primaria y cerrar CUR-033
     estado: Hecha
@@ -1338,8 +1331,7 @@ tareas:
     - NOR-043
     - FTE-046
     - TAREA-067
-    siguiente_accion: Localizar en el BOE la resolución que publica el currículo de Religión Católica
-      en Educación Primaria y catalogarla como FTE.
+    siguiente_accion: null
   TAREA-083:
     titulo: Fusionar las fichas normativas desdobladas por etapa y detectar el patrón en el validador
     estado: Hecha
@@ -1373,8 +1365,7 @@ tareas:
     - TAREA-074
     - TAREA-077
     - TAREA-081
-    siguiente_accion: 'Re-exportar NOR-044 desde su PDF oficial: es la norma de evaluación más citada
-      del corpus.'
+    siguiente_accion: null
   TAREA-075:
     titulo: Migrar los descriptores operativos a mapa por curso e incorporar el extractor al repositorio
     estado: Hecha
