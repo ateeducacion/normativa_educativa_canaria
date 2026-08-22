@@ -7,7 +7,7 @@ Este directorio contiene la versión estática y mantenible del panel público d
 - `index.html`: panel principal del corpus.
 - `assets/css/site.css`: estilos estáticos.
 - `assets/js/site.js`: filtro cliente sin backend.
-- `esquema-datos/`, `guias/`, `metodologia/`: documentación complementaria.
+- `esquema-datos/`, `guias/`, `metodologia/`: documentación complementaria, incluida la estrategia de interoperabilidad jurídica.
 
 `llms.txt`, `llms-full.txt` y `skill.md` no se almacenan aquí. Tienen su única copia canónica en la raíz del repositorio o en `skills/`, y se publican como `https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt`, `…/llms-full.txt` y `…/skill.md` mediante el flujo de trabajo `Publicar GitHub Pages`.
 
@@ -42,6 +42,7 @@ Para activar la publicación una vez:
 
 ## Notas de mantenimiento
 
+- El bloque de inventario de `README.md`, la sección «Foto Indexada» de `llms.txt` y `docs/datos/inventario.json` se generan desde `06_indices/`. Después de modificar los índices, ejecute `python3 11_calidad/generar_inventario.py --write`; el flujo de validación comprueba que no queden desactualizados.
 - Edite `llms.txt` y `llms-full.txt` solo en la raíz del repositorio, y la skill solo en `skills/experto-normativa-educativa-canaria/SKILL.md`. No existe copia en `docs/`. El despliegue las añade automáticamente al sitio publicado junto con el corpus Markdown/YAML expuesto en GitHub Pages.
 - Si necesita previsualizar el sitio en local, copie temporalmente esos dos archivos a `docs/` o use el mismo procedimiento que el workflow.
 - Para añadir páginas nuevas al sitio, añada el archivo dentro de `docs/` y actualice la navegación de `index.html` si procede.
