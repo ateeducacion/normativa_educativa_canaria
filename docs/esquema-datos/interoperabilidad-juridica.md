@@ -43,7 +43,7 @@ El corpus publica un catálogo `Dataset`, un grafo `Legislation`, un grafo `Lear
 2. `11_calidad/generar_interoperabilidad.py` transforma las fichas en `datos/legislacion.jsonld`, `datos/curriculos.jsonld`, `datos/fuentes.jsonld` y `datos/catalogo.jsonld`.
 3. El catálogo `Dataset` se inserta también en la página pública para facilitar su descubrimiento.
 4. CI comprueba que las exportaciones coincidan con las fichas canónicas.
-5. Akoma Ntoso permanece en fase piloto: solo se publican artículos revisados listados en `11_calidad/akoma_ntoso_pilotos.yaml` (hoy, artículos 1 y 2 del núcleo curricular y de la ordenación de FP).
+5. Akoma Ntoso permanece en fase piloto: solo se publican porciones revisadas listadas en `11_calidad/akoma_ntoso_pilotos.yaml` (hoy, artículos 1 a 3 del núcleo curricular y de la ordenación de FP, disposiciones breves de los reales decretos estatales y artículos 1 y 2 del ROC y del Decreto 25/2018). Cada XML se valida contra el XSD oficial en CI.
 
 ## Salvaguardas
 

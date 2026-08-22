@@ -1,14 +1,15 @@
 ---
 id: TAREA-089
 titulo: "Validar los pilotos Akoma Ntoso contra el XSD oficial en CI"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "calidad"
 responsable: "@.agents/skills/control-calidad-documental"
 fecha_creacion: 2026-08-22
 fecha_actualizacion: 2026-08-22
+fecha_cierre: 2026-08-22
 relacionadas: [TAREA-087, TAREA-088, TAREA-090]
-siguiente_accion: "Incorporar el XSD al repo y añadir el paso de validación a CI."
+siguiente_accion: null
 ---
 
 # TAREA-089 — Validación XSD de Akoma Ntoso en CI

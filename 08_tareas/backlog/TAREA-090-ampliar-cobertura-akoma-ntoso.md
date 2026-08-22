@@ -1,14 +1,15 @@
 ---
 id: TAREA-090
 titulo: "Ampliar la cobertura Akoma Ntoso: artículos 3+, normas nuevas, disposiciones y LOFP art. 2"
-estado: "En progreso"
+estado: "Hecha"
 prioridad: "Alta"
 tipo: "corpus-ia"
 responsable: "@.agents/skills/preparacion-corpus-ia"
 fecha_creacion: 2026-08-22
 fecha_actualizacion: 2026-08-22
+fecha_cierre: 2026-08-22
 relacionadas: [TAREA-088, TAREA-089, NOR-003, NOR-004, NOR-005, NOR-006, NOR-007, NOR-009, NOR-018, NOR-024, NOR-043, NOR-047, NOR-079, NOR-080]
-siguiente_accion: "Extraer y contrastar los textos oficiales de los nuevos bloques."
+siguiente_accion: null
 ---
 
 # TAREA-090 — Ampliar la cobertura Akoma Ntoso

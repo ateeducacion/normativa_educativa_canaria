@@ -14,16 +14,24 @@ El catálogo revisado vive en `11_calidad/akoma_ntoso_pilotos.yaml`. El generado
 
 ## Cobertura actual
 
-| Fichero | Norma | Artículos | Publicador |
-|---|---|---|---|
-| `NOR-003-articulo-1.xml`, `NOR-003-articulo-2.xml` | RD 217/2022 (ESO) | 1 y 2 | BOE |
-| `NOR-004-articulo-1.xml`, `NOR-004-articulo-2.xml` | Ley 6/2014 | 1 y 2 | BOE |
-| `NOR-005-articulo-1.xml`, `NOR-005-articulo-2.xml` | Decreto 30/2023 | 1 y 2 | BOC |
-| `NOR-006-articulo-1.xml`, `NOR-006-articulo-2.xml` | RD 243/2022 (Bachillerato) | 1 y 2 | BOE |
-| `NOR-007-articulo-1.xml` | Ley Orgánica 3/2022 (FP) | 1 | BOE |
-| `NOR-043-articulo-1.xml`, `NOR-043-articulo-2.xml` | Decreto 211/2022 (Primaria) | 1 y 2 | BOC |
-| `NOR-047-articulo-1.xml`, `NOR-047-articulo-2.xml` | Decreto 196/2022 (Infantil) | 1 y 2 | BOC |
-| `NOR-079-articulo-1.xml`, `NOR-079-articulo-2.xml` | RD 157/2022 (Primaria) | 1 y 2 | BOE |
-| `NOR-080-articulo-1.xml`, `NOR-080-articulo-2.xml` | RD 659/2023 (ordenación FP) | 1 y 2 | BOE |
+60 porciones publicadas (2026-08-22), generadas desde
+`11_calidad/akoma_ntoso_pilotos.yaml`:
 
-La ampliación a más artículos requiere segmentación estructural, revisión humana de cada bloque y validación XSD; no debe inferirse automáticamente a partir de saltos de línea del texto plano.
+| Norma | Porciones publicadas | Publicador |
+|---|---|---|
+| RD 217/2022 (ESO) — `NOR-003` | artículos 1, 2 y 3; DA 2.ª y 4.ª; DF 1.ª a 4.ª | BOE |
+| Ley 6/2014 de Canarias — `NOR-004` | artículos 1, 2 y 3 | BOC |
+| Decreto 30/2023 de Canarias (ESO y Bachillerato) — `NOR-005` | artículos 1, 2 y 3 | BOC |
+| RD 243/2022 (Bachillerato) — `NOR-006` | artículos 1, 2 y 3; DA 2.ª, 4.ª y 5.ª; DF 1.ª a 5.ª | BOE |
+| LOFP 3/2022 — `NOR-007` | artículos 1 y 2 (las 24 definiciones) | BOE |
+| Decreto 81/2010 ROC — `NOR-009` | artículos 1 y 2 del Reglamento Orgánico (anexo) | BOC |
+| Decreto 25/2018 atención a la diversidad — `NOR-024` | artículos 1 y 2 | BOC |
+| Decreto 211/2022 Primaria — `NOR-043` | artículos 1, 2 y 3 | BOC |
+| Decreto 196/2022 Infantil — `NOR-047` | artículos 1, 2 y 3 | BOC |
+| RD 157/2022 Primaria — `NOR-079` | artículos 1, 2 y 3 | BOE |
+| RD 659/2023 FP — `NOR-080` | artículos 1, 2 y 3; DA 1.ª a 4.ª, 7.ª, 9.ª, 10.ª, 12.ª, 13.ª, 18.ª, 20.ª a 22.ª; DF 5.ª, 7.ª y 8.ª | BOE |
+
+Quedan excluidas las disposiciones largas o que modifican íntegramente
+otras normas (p. ej., DF 1.ª a 4.ª del RD 659/2023). Todos los XML se
+validan contra el XSD oficial en CI
+(`11_calidad/validar_akoma_ntoso.py`).
