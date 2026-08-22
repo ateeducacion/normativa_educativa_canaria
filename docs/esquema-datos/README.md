@@ -1,6 +1,7 @@
 # Esquema de datos
 
 - [Interoperabilidad jurídica](interoperabilidad-juridica.md): estrategia gradual para ELI, Akoma Ntoso y `llms.txt`.
+- [Perfil YAML interoperable](perfil-yaml-interoperable.md): subconjunto portable, compatibilidad y capas JSON-LD generadas.
 
 - `fuente.schema.yaml`: fichas `FTE-NNN`.
 - `norma.schema.yaml`: fichas `NOR-NNN`.
