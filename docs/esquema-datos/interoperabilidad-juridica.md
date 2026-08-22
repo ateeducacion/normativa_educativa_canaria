@@ -10,17 +10,17 @@ El formato editorial canónico del corpus continúa siendo Markdown/YAML. Es leg
 
 El [Identificador Europeo de Legislación (ELI)](https://eur-lex.europa.eu/eli-register/about.html) es la referencia prioritaria para identificar legislación y publicar metadatos interoperables. La [especificación técnica española](https://www.elidata.es/documentacion_tecnica/especificacion_tecnica.php) contempla su aplicación gradual a la legislación estatal, autonómica y local.
 
-ELI encaja con las fichas `NOR-NNN` como capa de identificación y metadatos. El campo opcional `uri_eli` registra únicamente identificadores confirmados por el organismo publicador; el generador no intenta deducirlos a partir del título o de otras fechas.
+ELI encaja con las fichas `NOR-NNN` como capa de identificación y metadatos. El campo opcional `uri_eli` registra únicamente identificadores confirmados por el organismo publicador; el generador no intenta deducirlos a partir del título o de otras fechas. En la práctica, el BOE publica un permalink ELI en la ficha consolidada o en el documento original. El BOC no ofrece ese permalink en las páginas consultadas.
 
 ### Akoma Ntoso
 
 [Akoma Ntoso 1.0](https://docs.oasis-open.org/legaldocml/akn-core/v1.0/akn-core-v1.0.html) es un estándar XML para documentos jurídicos y parlamentarios. Sería adecuado como formato de exportación cuando se necesite representar con precisión la estructura completa del texto normativo, sus bloques y referencias.
 
-No se adopta como formato de edición principal mientras el corpus mantenga fichas de análisis y copias de consulta, en vez de una edición XML estructural completa de cada disposición. El [piloto publicado](../datos/akoma-ntoso/README.md) limita deliberadamente la prueba a un artículo y se valida contra el XSD oficial.
+No se adopta como formato de edición principal mientras el corpus mantenga fichas de análisis y copias de consulta, en vez de una edición XML estructural completa de cada disposición. Los [pilotos publicados](../datos/akoma-ntoso/README.md) limitan deliberadamente la prueba al artículo 1 de un conjunto reducido de normas y se validan contra el XSD oficial.
 
 ### Schema.org y JSON-LD
 
-El corpus publica un catálogo `Dataset` y un grafo `Legislation` mediante [Schema.org](https://schema.org/Legislation) y JSON-LD. Esta capa mejora el descubrimiento y ofrece un contrato semántico ampliamente reutilizable. No convierte las fichas en fuentes oficiales ni implica que Google ofrezca un resultado enriquecido específico para legislación.
+El corpus publica un catálogo `Dataset`, un grafo `Legislation`, un grafo `LearningResource`/`Course` de currículos y un grafo `WebPage` de fuentes mediante [Schema.org](https://schema.org/) y JSON-LD. Esta capa mejora el descubrimiento y ofrece un contrato semántico reutilizable. No convierte las fichas en fuentes oficiales ni implica que Google ofrezca un resultado enriquecido específico para legislación.
 
 ### llms.txt
 
@@ -40,10 +40,10 @@ El corpus publica un catálogo `Dataset` y un grafo `Legislation` mediante [Sche
 ## Implantación
 
 1. El esquema normativo admite una URI ELI oficial verificada y valida fechas y URI.
-2. `11_calidad/generar_interoperabilidad.py` transforma las fichas en `datos/legislacion.jsonld` y `datos/catalogo.jsonld`.
+2. `11_calidad/generar_interoperabilidad.py` transforma las fichas en `datos/legislacion.jsonld`, `datos/curriculos.jsonld`, `datos/fuentes.jsonld` y `datos/catalogo.jsonld`.
 3. El catálogo `Dataset` se inserta también en la página pública para facilitar su descubrimiento.
 4. CI comprueba que las exportaciones coincidan con las fichas canónicas.
-5. Akoma Ntoso permanece en fase piloto hasta demostrar revisión y validación suficientes para ampliar su cobertura.
+5. Akoma Ntoso permanece en fase piloto: solo se publican artículos revisados listados en `11_calidad/akoma_ntoso_pilotos.yaml`.
 
 ## Salvaguardas
 

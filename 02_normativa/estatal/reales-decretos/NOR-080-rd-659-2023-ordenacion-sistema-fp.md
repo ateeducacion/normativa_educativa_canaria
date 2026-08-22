@@ -12,6 +12,7 @@ fecha_analisis: 2026-08-05
 estado_vigencia: "Vigente"
 fuente_principal: FTE-087
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889"
+uri_eli: "https://www.boe.es/eli/es/rd/2023/07/18/659/con"
 texto_oficial:
   url_html: "https://www.boe.es/buscar/act.php?id=BOE-A-2023-16889"
   url_pdf: "https://www.boe.es/boe/dias/2023/07/22/pdfs/BOE-A-2023-16889.pdf"

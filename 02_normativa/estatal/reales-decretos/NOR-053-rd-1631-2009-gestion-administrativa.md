@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-054
 url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-19148"
+uri_eli: "https://www.boe.es/eli/es/rd/2009/10/30/1631"
 etapas_afectadas: [formacion-profesional]
 temas: [administracion, tecnico, gestion]
 relaciones:

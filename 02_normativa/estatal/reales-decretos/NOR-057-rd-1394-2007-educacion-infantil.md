@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-054
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20201"
+uri_eli: "https://www.boe.es/eli/es/rd/2007/10/29/1394"
 etapas_afectadas: [formacion-profesional]
 temas: [servicios-socioculturales, tecnico-superior, infantil]
 relaciones:

@@ -13,6 +13,7 @@ fecha_consulta: 2026-04-26
 fecha_analisis: 2026-04-26
 fuente_principal: FTE-023
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+uri_eli: "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con"
 temas: [empleo-publico, derechos-deberes, carrera-profesional, retribuciones]
 etapas_afectadas: [todas]
 relaciones:

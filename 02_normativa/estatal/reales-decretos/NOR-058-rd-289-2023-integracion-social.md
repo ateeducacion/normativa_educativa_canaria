@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-054
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2023-10395"
+uri_eli: "https://www.boe.es/eli/es/rd/2023/04/18/289"
 etapas_afectadas: [formacion-profesional]
 temas: [servicios-socioculturales, tecnico-superior, integracion-social]
 relaciones:

@@ -12,6 +12,7 @@ fecha_analisis: 2026-08-05
 estado_vigencia: "Vigente"
 fuente_principal: FTE-109
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2025-2039"
+uri_eli: "https://www.boe.es/eli/es/rd/2025/02/04/69"
 texto_oficial:
   url_html: "https://www.boe.es/buscar/act.php?id=BOE-A-2025-2039"
   url_pdf: "https://www.boe.es/boe/dias/2025/02/05/pdfs/BOE-A-2025-2039.pdf"

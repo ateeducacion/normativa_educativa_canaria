@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-054
 url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-8067"
+uri_eli: "https://www.boe.es/eli/es/rd/2010/04/16/450"
 etapas_afectadas: [formacion-profesional]
 temas: [informatica, tecnico-superior, dam]
 relaciones:

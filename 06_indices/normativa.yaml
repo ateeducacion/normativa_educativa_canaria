@@ -9,6 +9,7 @@ NOR-001:
   fecha_entrada_vigor: 2006-05-24
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-005
+  uri_eli: "https://www.boe.es/eli/es/lo/2006/05/03/2/con"
   ruta: "02_normativa/estatal/leyes-organicas/NOR-001-loe.md"
   temas: [marco-general, ordenacion, evaluacion]
   etapas_afectadas: [todas]
@@ -24,6 +25,7 @@ NOR-002:
   fecha_entrada_vigor: 2021-01-19
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-006
+  uri_eli: "https://www.boe.es/eli/es/lo/2020/12/29/3"
   ruta: "02_normativa/estatal/leyes-organicas/NOR-002-lomloe.md"
   temas: [reforma-educativa, marco-general]
   etapas_afectadas: [todas]
@@ -39,6 +41,7 @@ NOR-003:
   fecha_entrada_vigor: 2022-03-31
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-007
+  uri_eli: "https://www.boe.es/eli/es/rd/2022/03/29/217/con"
   ruta: "02_normativa/estatal/reales-decretos/NOR-003-rd-217-2022.md"
   temas: [eso, curriculo, ordenacion]
   etapas_afectadas: [eso]
@@ -54,6 +57,7 @@ NOR-004:
   fecha_entrada_vigor: 2014-07-29
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-008
+  uri_eli: "https://www.boe.es/eli/es-cn/l/2014/07/25/6/con"
   ruta: "02_normativa/canarias/leyes/NOR-004-ley-canaria-6-2014.md"
   temas: [marco-autonomico, derechos, profesorado, centros]
   etapas_afectadas: [todas]
@@ -84,6 +88,7 @@ NOR-006:
   fecha_entrada_vigor: 2022-04-07
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-011
+  uri_eli: "https://www.boe.es/eli/es/rd/2022/04/05/243/con"
   ruta: "02_normativa/estatal/reales-decretos/NOR-006-rd-243-2022.md"
   temas: [bachillerato, curriculo, ordenacion]
   etapas_afectadas: [bachillerato]
@@ -99,6 +104,7 @@ NOR-007:
   fecha_entrada_vigor: 2022-04-21
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-016
+  uri_eli: "https://www.boe.es/eli/es/lo/2022/03/31/3/con"
   ruta: "02_normativa/estatal/leyes-organicas/NOR-007-lofp.md"
   temas: [formacion-profesional, integracion, sistema-unico]
   etapas_afectadas: [formacion-profesional]
@@ -279,6 +285,7 @@ NOR-019:
   fecha_entrada_vigor: 1987-04-04
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-022
+  uri_eli: "https://www.boe.es/eli/es-cn/l/1987/03/30/2/con"
   ruta: "02_normativa/canarias/leyes/NOR-019-ley-canaria-funcion-publica.md"
   temas: [funcion-publica, regimen-juridico]
   etapas_afectadas: [todas]
@@ -294,6 +301,7 @@ NOR-020:
   fecha_entrada_vigor: 2015-11-01
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-023
+  uri_eli: "https://www.boe.es/eli/es/rdlg/2015/10/30/5/con"
   ruta: "02_normativa/estatal/reales-decretos/NOR-020-trebep.md"
   temas: [funcion-publica, regimen-juridico]
   etapas_afectadas: [todas]
@@ -474,6 +482,7 @@ NOR-032:
   fecha_entrada_vigor: 2021-06-18
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-035
+  uri_eli: "https://www.boe.es/eli/es-cn/l/2021/06/07/2/con"
   ruta: "02_normativa/canarias/leyes/NOR-032-ley-2-2021-igualdad-identidad-genero.md"
   temas: [igualdad, identidad-genero, diversidad-sexual]
   etapas_afectadas: [todas]
@@ -729,6 +738,7 @@ NOR-051:
   fecha_entrada_vigor: 1995-06-06
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/1995/04/07/546"
   ruta: "02_normativa/estatal/reales-decretos/NOR-051-rd-546-1995-cuidados-auxiliares-enfermeria.md"
   temas: [sanidad, tecnico]
   etapas_afectadas: [formacion-profesional]
@@ -744,6 +754,7 @@ NOR-052:
   fecha_entrada_vigor: 2014-10-05
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2014/09/12/770"
   ruta: "02_normativa/estatal/reales-decretos/NOR-052-rd-770-2014-imagen-diagnostico-medicina-nuclear.md"
   temas: [sanidad, tecnico-superior]
   etapas_afectadas: [formacion-profesional]
@@ -759,6 +770,7 @@ NOR-053:
   fecha_entrada_vigor: 2009-12-02
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2009/10/30/1631"
   ruta: "02_normativa/estatal/reales-decretos/NOR-053-rd-1631-2009-gestion-administrativa.md"
   temas: [administracion, tecnico]
   etapas_afectadas: [formacion-profesional]
@@ -774,6 +786,7 @@ NOR-054:
   fecha_entrada_vigor: 2011-12-16
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2011/11/04/1584"
   ruta: "02_normativa/estatal/reales-decretos/NOR-054-rd-1584-2011-administracion-y-finanzas.md"
   temas: [administracion, tecnico-superior]
   etapas_afectadas: [formacion-profesional]
@@ -789,6 +802,7 @@ NOR-055:
   fecha_entrada_vigor: 2010-05-21
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2010/04/16/450"
   ruta: "02_normativa/estatal/reales-decretos/NOR-055-rd-450-2010-desarrollo-aplicaciones-multiplataforma.md"
   temas: [informatica, tecnico-superior]
   etapas_afectadas: [formacion-profesional]
@@ -804,6 +818,7 @@ NOR-056:
   fecha_entrada_vigor: 2010-06-13
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2010/05/20/686"
   ruta: "02_normativa/estatal/reales-decretos/NOR-056-rd-686-2010-desarrollo-aplicaciones-web.md"
   temas: [informatica, tecnico-superior]
   etapas_afectadas: [formacion-profesional]
@@ -819,6 +834,7 @@ NOR-057:
   fecha_entrada_vigor: 2007-11-25
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2007/10/29/1394"
   ruta: "02_normativa/estatal/reales-decretos/NOR-057-rd-1394-2007-educacion-infantil.md"
   temas: [servicios-socioculturales, tecnico-superior]
   etapas_afectadas: [formacion-profesional]
@@ -834,6 +850,7 @@ NOR-058:
   fecha_entrada_vigor: 2023-05-21
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2023/04/18/289"
   ruta: "02_normativa/estatal/reales-decretos/NOR-058-rd-289-2023-integracion-social.md"
   temas: [servicios-socioculturales, tecnico-superior]
   etapas_afectadas: [formacion-profesional]
@@ -863,6 +880,7 @@ NOR-060:
   fecha_publicacion: 2012-08-03
   fecha_consulta: 2026-04-26
   fuente_principal: FTE-054
+  uri_eli: "https://www.boe.es/eli/es/rd/2012/07/13/1074"
   ruta: "02_normativa/estatal/reales-decretos/NOR-060-rd-1074-2012-integracion-social.md"
   temas: [formacion-profesional, titulo, curriculo-basico, servicios-socioculturales]
   familia_profesional: "Servicios Socioculturales y a la Comunidad"
@@ -1041,6 +1059,7 @@ NOR-072:
   fecha_disposicion: 2022-06-21
   fecha_consulta: 2026-08-05
   fuente_principal: FTE-079
+  uri_eli: "https://www.boe.es/eli/es/res/2022/06/21/"
   ruta: "02_normativa/estatal/resoluciones/NOR-072-resolucion-2022-curriculo-religion-catolica.md"
   temas: [curriculo, religion-catolica, competencias-especificas, criterios-evaluacion, saberes-basicos]
   etapas_afectadas: [infantil, primaria, eso, bachillerato]
@@ -1132,6 +1151,7 @@ NOR-079:
   fecha_disposicion: 2022-03-01
   fecha_consulta: 2026-08-05
   fuente_principal: FTE-086
+  uri_eli: "https://www.boe.es/eli/es/rd/2022/03/01/157/con"
   ruta: "02_normativa/estatal/reales-decretos/NOR-079-rd-157-2022-ensenanzas-minimas-primaria.md"
   temas: [educacion-primaria, ensenanzas-minimas, curriculo-basico, perfil-de-salida, competencias-clave, horario-escolar, evaluacion-de-diagnostico, lomloe]
   etapas_afectadas: [primaria]
@@ -1145,6 +1165,7 @@ NOR-080:
   fecha_disposicion: 2023-07-18
   fecha_consulta: 2026-08-05
   fuente_principal: FTE-087
+  uri_eli: "https://www.boe.es/eli/es/rd/2023/07/18/659/con"
   ruta: "02_normativa/estatal/reales-decretos/NOR-080-rd-659-2023-ordenacion-sistema-fp.md"
   temas: [formacion-profesional, ordenacion-fp, grados-fp, curriculo-fp, formacion-en-empresa, fct, titulos-fp, acreditacion-de-competencias, ciclos-formativos, gobernanza-fp]
   etapas_afectadas: [formacion-profesional, eso, educacion-adultos]
@@ -1418,6 +1439,7 @@ NOR-101:
   fecha_disposicion: 2024-07-09
   fecha_consulta: 2026-08-05
   fuente_principal: FTE-108
+  uri_eli: "https://www.boe.es/eli/es/rd/2024/07/09/658"
   ruta: "02_normativa/estatal/reales-decretos/NOR-101-rd-658-2024-modifica-rd-659-2023.md"
   temas: [requisitos-minimos-centros, ordenacion-formacion-profesional, bachillerato-general, certificados-profesionalidad, acceso-formacion-profesional, evaluacion-modulos-profesionales, docencia-formacion-profesional, instalaciones-educativas]
   etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional, educacion-adultos]
@@ -1431,6 +1453,7 @@ NOR-102:
   fecha_disposicion: 2025-02-04
   fecha_consulta: 2026-08-05
   fuente_principal: FTE-109
+  uri_eli: "https://www.boe.es/eli/es/rd/2025/02/04/69"
   ruta: "02_normativa/estatal/reales-decretos/NOR-102-rd-69-2025-instrumentos-sistema-nacional-fp.md"
   temas: [formacion-profesional, sistema-nacional-fp, catalogo-nacional-estandares-competencias, registros-formacion-profesional, instrumentos-gestion-fp, instituto-nacional-cualificaciones]
   etapas_afectadas: [formacion-profesional]
@@ -1444,6 +1467,7 @@ NOR-103:
   fecha_disposicion: 2020-12-09
   fecha_consulta: 2026-08-05
   fuente_principal: FTE-110
+  uri_eli: "https://www.boe.es/eli/es/rd/2020/12/09/1085/con"
   ruta: "02_normativa/estatal/reales-decretos/NOR-103-rd-1085-2020-convalidaciones-modulos-fp.md"
   temas: [formacion-profesional, convalidaciones, modulos-profesionales, titulos-fp, procedimiento-administrativo, reconocimiento-de-estudios]
   etapas_afectadas: [formacion-profesional]
@@ -1457,6 +1481,7 @@ NOR-104:
   fecha_disposicion: 2026-01-01
   fecha_consulta: 2026-08-05
   fuente_principal: FTE-111
+  uri_eli: "https://www.boe.es/eli/es/rd/2020/12/09/1085/corrigendum/20210123"
   ruta: "02_normativa/estatal/reales-decretos/NOR-104-correccion-rd-1085-2020.md"
   temas: [correccion-errores, formacion-profesional, convalidaciones-modulos-profesionales, real-decreto-1085-2020]
   etapas_afectadas: [formacion-profesional]
@@ -1470,6 +1495,7 @@ NOR-105:
   fecha_disposicion: 2022-01-25
   fecha_consulta: 2026-08-05
   fuente_principal: FTE-112
+  uri_eli: "https://www.boe.es/eli/es/rd/2022/01/25/62/con"
   ruta: "02_normativa/estatal/reales-decretos/NOR-105-rd-62-2022-certificados-profesionalidad.md"
   temas: [certificados-de-profesionalidad, formacion-profesional, flexibilizacion-requisitos, requisitos-centros-fp, requisitos-docentes-fp, catalogo-nacional-cualificaciones-profesionales]
   etapas_afectadas: [formacion-profesional]
@@ -1483,6 +1509,7 @@ NOR-106:
   fecha_disposicion: 2021-11-02
   fecha_consulta: 2026-08-05
   fuente_principal: FTE-113
+  uri_eli: "https://www.boe.es/eli/es/o/2021/11/02/efp1210/con"
   ruta: "02_normativa/estatal/ordenes/NOR-106-orden-efp-1210-2021-equivalencias-acceso-fp.md"
   temas: [equivalencia-titulos, acceso-fp-grado-superior, bachillerato-ley-general-educacion-1970, certificados-profesionalidad, educacion-personas-adultas]
   etapas_afectadas: [formacion-profesional, educacion-adultos]

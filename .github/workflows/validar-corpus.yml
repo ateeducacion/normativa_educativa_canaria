@@ -20,7 +20,10 @@ on:
       - "docs/datos/inventario.json"
       - "docs/datos/catalogo.jsonld"
       - "docs/datos/legislacion.jsonld"
+      - "docs/datos/curriculos.jsonld"
+      - "docs/datos/fuentes.jsonld"
       - "docs/datos/akoma-ntoso/**"
+      - "11_calidad/akoma_ntoso_pilotos.yaml"
       - "docs/index.html"
       - ".github/workflows/validar-corpus.yml"
   pull_request:
@@ -41,7 +44,10 @@ on:
       - "docs/datos/inventario.json"
       - "docs/datos/catalogo.jsonld"
       - "docs/datos/legislacion.jsonld"
+      - "docs/datos/curriculos.jsonld"
+      - "docs/datos/fuentes.jsonld"
       - "docs/datos/akoma-ntoso/**"
+      - "11_calidad/akoma_ntoso_pilotos.yaml"
       - "docs/index.html"
       - ".github/workflows/validar-corpus.yml"
   workflow_dispatch:

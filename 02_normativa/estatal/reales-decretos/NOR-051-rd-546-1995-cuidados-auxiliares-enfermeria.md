@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-054
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-13533"
+uri_eli: "https://www.boe.es/eli/es/rd/1995/04/07/546"
 etapas_afectadas: [formacion-profesional]
 temas: [sanidad, tecnico, enfermeria]
 relaciones:

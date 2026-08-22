@@ -13,6 +13,7 @@ fecha_analisis: 2026-08-05
 estado_vigencia: "Vigente"
 fuente_principal: FTE-086
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-3296"
+uri_eli: "https://www.boe.es/eli/es/rd/2022/03/01/157/con"
 texto_oficial:
   url_html: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-3296"
   url_pdf: "https://www.boe.es/boe/dias/2022/03/02/pdfs/BOE-A-2022-3296.pdf"

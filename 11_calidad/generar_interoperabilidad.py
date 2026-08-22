@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate public semantic exports from canonical normative frontmatter."""
+"""Generate public semantic exports from canonical Markdown/YAML records."""
 
 from __future__ import annotations
 
@@ -9,6 +9,7 @@ import json
 import pathlib
 import re
 import sys
+import xml.sax.saxutils
 from typing import Any
 
 import yaml
@@ -21,22 +22,20 @@ START_MARKER = "<!-- datos-estructurados:inicio -->"
 END_MARKER = "<!-- datos-estructurados:fin -->"
 FRONTMATTER = re.compile(r"\A---\n(.*?)\n---", re.S)
 LEGISLATION_PATH = ROOT / "docs" / "datos" / "legislacion.jsonld"
+CURRICULA_PATH = ROOT / "docs" / "datos" / "curriculos.jsonld"
+SOURCES_PATH = ROOT / "docs" / "datos" / "fuentes.jsonld"
 CATALOG_PATH = ROOT / "docs" / "datos" / "catalogo.jsonld"
-AKN_PATH = ROOT / "docs" / "datos" / "akoma-ntoso" / "NOR-004-articulo-1.xml"
+AKN_DIR = ROOT / "docs" / "datos" / "akoma-ntoso"
+PILOT_PATH = ROOT / "11_calidad" / "akoma_ntoso_pilotos.yaml"
 INDEX_HTML = ROOT / "docs" / "index.html"
-
-ARTICLE_1_PARAGRAPHS = (
-    "La presente ley tiene por objeto regular el sistema educativo canario y su "
-    "evaluación, de modo que pueda convertirse en un instrumento eficaz para hacer "
-    "efectivo el derecho a una educación de calidad, inclusiva e integradora, que "
-    "garantice la equidad y la excelencia, la prestación de un servicio público "
-    "esencial y convertirse, a la vez, en uno de los motores del desarrollo social, "
-    "económico y cultural del archipiélago.",
-    "El ámbito de aplicación de la presente ley es todo el sistema educativo canario, "
-    "a excepción del universitario, en consonancia con las competencias asumidas en "
-    "el Estatuto de Autonomía de Canarias y en el desarrollo de las normas básicas "
-    "aprobadas por el Estado.",
-)
+STAGE_LABELS = {
+    "infantil": "Educación Infantil",
+    "primaria": "Educación Primaria",
+    "eso": "Educación Secundaria Obligatoria",
+    "bachillerato": "Bachillerato",
+    "formacion-profesional": "Formación Profesional",
+    "regimen-especial": "Régimen especial",
+}
 
 
 def normalize(value: Any) -> Any:
@@ -50,18 +49,47 @@ def normalize(value: Any) -> Any:
     return value
 
 
+def load_frontmatter(path: pathlib.Path) -> dict[str, Any]:
+    """Load the YAML object that opens a Markdown ficha."""
+    match = FRONTMATTER.match(path.read_text(encoding="utf-8"))
+    if match is None:
+        raise ValueError(f"{path.relative_to(ROOT)} no contiene frontmatter YAML")
+    data = normalize(yaml.safe_load(match.group(1)))
+    if not isinstance(data, dict):
+        raise ValueError(f"{path.relative_to(ROOT)} no contiene un objeto YAML")
+    return data
+
+
+def load_yaml_document(path: pathlib.Path) -> dict[str, Any]:
+    """Load a standalone YAML document and require a mapping."""
+    data = normalize(yaml.safe_load(path.read_text(encoding="utf-8")))
+    if not isinstance(data, dict):
+        raise ValueError(f"{path.relative_to(ROOT)} no contiene un objeto YAML")
+    return data
+
+
 def load_norms() -> list[tuple[pathlib.Path, dict[str, Any]]]:
     """Load normative frontmatter and retain its canonical repository path."""
-    norms = []
-    for path in sorted(ROOT.glob("02_normativa/**/NOR-*.md")):
-        match = FRONTMATTER.match(path.read_text(encoding="utf-8"))
-        if match is None:
-            raise ValueError(f"{path.relative_to(ROOT)} no contiene frontmatter YAML")
-        data = normalize(yaml.safe_load(match.group(1)))
-        if not isinstance(data, dict):
-            raise ValueError(f"{path.relative_to(ROOT)} no contiene un objeto YAML")
-        norms.append((path, data))
-    return norms
+    return [
+        (path, load_frontmatter(path))
+        for path in sorted(ROOT.glob("02_normativa/**/NOR-*.md"))
+    ]
+
+
+def load_curricula() -> list[tuple[pathlib.Path, dict[str, Any]]]:
+    """Load canonical curricular YAML records."""
+    return [
+        (path, load_yaml_document(path))
+        for path in sorted(ROOT.glob("03_curriculos/**/CUR-*.yaml"))
+    ]
+
+
+def load_sources() -> list[tuple[pathlib.Path, dict[str, Any]]]:
+    """Load official-source frontmatter."""
+    return [
+        (path, load_frontmatter(path))
+        for path in sorted(ROOT.glob("01_fuentes/**/FTE-*.md"))
+    ]
 
 
 def public_url(path: pathlib.Path) -> str:
@@ -86,6 +114,11 @@ def legal_force(status: str) -> str | None:
     if status.startswith("Vigente"):
         return "https://schema.org/InForce"
     return None
+
+
+def xml_text(value: str) -> str:
+    """Escape text for Akoma Ntoso content."""
+    return xml.sax.saxutils.escape(value, {"\"": "&quot;"})
 
 
 def build_legislation() -> dict[str, Any]:
@@ -164,12 +197,153 @@ def build_legislation() -> dict[str, Any]:
             ]
             if references:
                 item[target] = references
+        developed = [
+            legislation_ref(identifier, paths_by_id)
+            for identifier in relations.get("desarrolla_a", [])
+            if identifier.startswith("NOR-")
+        ]
+        if developed:
+            item["isBasedOn"] = developed
         graph.append(item)
 
     return {"@context": SCHEMA_CONTEXT, "@graph": graph}
 
 
-def build_catalog(legislation: dict[str, Any]) -> dict[str, Any]:
+def build_curricula(paths_by_norm: dict[str, pathlib.Path]) -> dict[str, Any]:
+    """Build a Schema.org LearningResource graph for every curricular record."""
+    graph = []
+    for path, data in load_curricula():
+        item: dict[str, Any] = {
+            "@id": public_url(path),
+            "@type": ["LearningResource", "Course"],
+            "name": data["titulo"],
+            "identifier": data["id"],
+            "learningResourceType": "curriculum",
+            "educationalLevel": STAGE_LABELS.get(data["etapa"], data["etapa"]),
+            "about": data["materia"],
+            "inLanguage": "es",
+            "url": public_url(path),
+            "sameAs": data["url_oficial"],
+            "creativeWorkStatus": data["estado_extraccion"],
+        }
+        if data.get("cursos"):
+            item["educationalUse"] = data["cursos"]
+        if data.get("fecha_consulta"):
+            item["dateModified"] = data["fecha_consulta"]
+        if data.get("norma_base") and data["norma_base"] in paths_by_norm:
+            item["isBasedOn"] = legislation_ref(data["norma_base"], paths_by_norm)
+        graph.append(item)
+    return {"@context": SCHEMA_CONTEXT, "@graph": graph}
+
+
+def build_sources() -> dict[str, Any]:
+    """Build a Schema.org WebPage graph for every official source record."""
+    graph = []
+    for path, data in load_sources():
+        item: dict[str, Any] = {
+            "@id": public_url(path),
+            "@type": "WebPage",
+            "name": data["titulo"],
+            "identifier": data["id"],
+            "url": data["url_oficial"],
+            "sameAs": public_url(path),
+            "inLanguage": "es",
+            "publisher": {
+                "@type": "Organization",
+                "name": data["autoridad"],
+            },
+        }
+        if data.get("tipo_fuente"):
+            item["additionalType"] = data["tipo_fuente"]
+        if data.get("fecha_consulta"):
+            item["dateModified"] = data["fecha_consulta"]
+        graph.append(item)
+    return {"@context": SCHEMA_CONTEXT, "@graph": graph}
+
+
+def load_pilots() -> list[dict[str, Any]]:
+    """Load the reviewed Akoma Ntoso portion catalogue."""
+    data = load_yaml_document(PILOT_PATH)
+    pilots = data.get("pilotos")
+    if not isinstance(pilots, list) or not pilots:
+        raise ValueError("akoma_ntoso_pilotos.yaml debe declarar una lista de pilotos")
+    return pilots
+
+
+def akn_path(pilot: dict[str, Any]) -> pathlib.Path:
+    """Return the public XML path of a reviewed Akoma Ntoso portion."""
+    return AKN_DIR / f"{pilot['id']}-articulo-{pilot['articulo']}.xml"
+
+
+def render_akoma_ntoso(pilot: dict[str, Any], eli: str | None) -> str:
+    """Render a reviewed article as an Akoma Ntoso 3.0 portion."""
+    work = pilot["work_uri"]
+    author = pilot["author_eid"]
+    eli_line = (
+        f'          <FRBRalias name="ELI" value="{xml_text(eli)}"/>\n' if eli else ""
+    )
+    paragraphs = []
+    for index, paragraph in enumerate(pilot["parrafos"], start=1):
+        num = paragraph.get("num")
+        num_xml = f"\n          <num>{xml_text(num)}</num>" if num else ""
+        paragraphs.append(
+            "        <paragraph eId="
+            f'"art_{pilot["articulo"]}__para_{index}">'
+            f"{num_xml}\n"
+            "          <content>"
+            f"<p>{xml_text(paragraph['text'])}</p>"
+            "</content>\n"
+            "        </paragraph>"
+        )
+    return f'''<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <portion includedIn="{xml_text(work)}">
+    <meta>
+      <identification source="#corpus">
+        <FRBRWork>
+          <FRBRthis value="{xml_text(work)}/!art_{pilot["articulo"]}"/>
+          <FRBRuri value="{xml_text(work)}"/>
+{eli_line}          <FRBRdate date="{pilot["work_date"]}" name="Generation"/>
+          <FRBRauthor href="#{author}"/>
+          <FRBRcountry value="{pilot["country"]}"/>
+          <FRBRnumber value="{xml_text(str(pilot["frbr_number"]))}"/>
+          <FRBRname value="{xml_text(pilot["frbr_name"])}"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="{xml_text(work)}/spa@/!art_{pilot["articulo"]}"/>
+          <FRBRuri value="{xml_text(work)}/spa@"/>
+          <FRBRdate date="{pilot["expression_date"]}" name="Publication"/>
+          <FRBRauthor href="#{author}"/>
+          <FRBRlanguage language="spa"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="{xml_text(work)}/spa@/xml/!art_{pilot["articulo"]}"/>
+          <FRBRuri value="{xml_text(work)}/spa@/xml"/>
+          <FRBRdate date="2026-08-22" name="Generation"/>
+          <FRBRauthor href="#corpus"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#corpus">
+        <TLCOrganization eId="{author}" href="{xml_text(pilot["author_href"])}" showAs="{xml_text(pilot["author_show"])}"/>
+        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
+      </references>
+    </meta>
+    <portionBody>
+      <article eId="art_{pilot["articulo"]}">
+        <num>{xml_text(pilot["num"])}</num>
+        <heading>{xml_text(pilot["heading"])}</heading>
+{chr(10).join(paragraphs)}
+      </article>
+    </portionBody>
+  </portion>
+</akomaNtoso>
+'''
+
+
+def build_catalog(
+    legislation: dict[str, Any],
+    pilots: list[dict[str, Any]],
+) -> dict[str, Any]:
     """Describe the public corpus as a Schema.org Dataset for discovery clients."""
     dates = [
         item.get("datePublished")
@@ -179,14 +353,19 @@ def build_catalog(legislation: dict[str, Any]) -> dict[str, Any]:
     distributions = [
         ("Inventario del corpus", "datos/inventario.json", "application/json"),
         ("Metadatos de legislación", "datos/legislacion.jsonld", "application/ld+json"),
+        ("Metadatos de currículos", "datos/curriculos.jsonld", "application/ld+json"),
+        ("Metadatos de fuentes", "datos/fuentes.jsonld", "application/ld+json"),
         ("Índice normativo", "06_indices/normativa.yaml", "application/yaml"),
         ("Guía para modelos de lenguaje", "llms.txt", "text/plain"),
-        (
-            "Piloto Akoma Ntoso",
-            "datos/akoma-ntoso/NOR-004-articulo-1.xml",
-            "application/akn+xml",
-        ),
     ]
+    for pilot in pilots:
+        distributions.append(
+            (
+                f"Piloto Akoma Ntoso {pilot['id']} artículo {pilot['articulo']}",
+                f"datos/akoma-ntoso/{pilot['id']}-articulo-{pilot['articulo']}.xml",
+                "application/akn+xml",
+            )
+        )
     dataset: dict[str, Any] = {
         "@context": SCHEMA_CONTEXT,
         "@id": PUBLIC_BASE + "#dataset",
@@ -235,62 +414,6 @@ def build_catalog(legislation: dict[str, Any]) -> dict[str, Any]:
     return dataset
 
 
-def render_akoma_ntoso() -> str:
-    """Render the reviewed Article 1 pilot as an Akoma Ntoso 3.0 portion."""
-    first, second = ARTICLE_1_PARAGRAPHS
-    return f'''<?xml version="1.0" encoding="UTF-8"?>
-<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
-  <portion includedIn="/akn/es-cn/act/2014-07-25/6">
-    <meta>
-      <identification source="#corpus">
-        <FRBRWork>
-          <FRBRthis value="/akn/es-cn/act/2014-07-25/6/!art_1"/>
-          <FRBRuri value="/akn/es-cn/act/2014-07-25/6"/>
-          <FRBRalias name="ELI" value="https://www.boe.es/eli/es-cn/l/2014/07/25/6/con"/>
-          <FRBRdate date="2014-07-25" name="Generation"/>
-          <FRBRauthor href="#parlamento-canarias"/>
-          <FRBRcountry value="es-cn"/>
-          <FRBRnumber value="6"/>
-          <FRBRname value="Ley"/>
-        </FRBRWork>
-        <FRBRExpression>
-          <FRBRthis value="/akn/es-cn/act/2014-07-25/6/spa@/!art_1"/>
-          <FRBRuri value="/akn/es-cn/act/2014-07-25/6/spa@"/>
-          <FRBRdate date="2014-08-07" name="Publication"/>
-          <FRBRauthor href="#parlamento-canarias"/>
-          <FRBRlanguage language="spa"/>
-        </FRBRExpression>
-        <FRBRManifestation>
-          <FRBRthis value="/akn/es-cn/act/2014-07-25/6/spa@/xml/!art_1"/>
-          <FRBRuri value="/akn/es-cn/act/2014-07-25/6/spa@/xml"/>
-          <FRBRdate date="2026-08-22" name="Generation"/>
-          <FRBRauthor href="#corpus"/>
-        </FRBRManifestation>
-      </identification>
-      <references source="#corpus">
-        <TLCOrganization eId="parlamento-canarias" href="https://www.parcan.es/" showAs="Parlamento de Canarias"/>
-        <TLCOrganization eId="corpus" href="https://github.com/ateeducacion/normativa_educativa_canaria" showAs="Normativa Educativa Canaria"/>
-      </references>
-    </meta>
-    <portionBody>
-      <article eId="art_1">
-        <num>Artículo 1.</num>
-        <heading>Objeto y ámbito.</heading>
-        <paragraph eId="art_1__para_1">
-          <num>1.</num>
-          <content><p>{first}</p></content>
-        </paragraph>
-        <paragraph eId="art_1__para_2">
-          <num>2.</num>
-          <content><p>{second}</p></content>
-        </paragraph>
-      </article>
-    </portionBody>
-  </portion>
-</akomaNtoso>
-'''
-
-
 def replace_html_block(text: str, dataset: dict[str, Any]) -> str:
     """Replace the single generated JSON-LD block in the public home page."""
     if text.count(START_MARKER) != 1 or text.count(END_MARKER) != 1:
@@ -312,14 +435,26 @@ def replace_html_block(text: str, dataset: dict[str, Any]) -> str:
 def expected_files() -> dict[pathlib.Path, str]:
     """Return all generated semantic exports and their expected content."""
     legislation = build_legislation()
-    catalog = build_catalog(legislation)
+    paths_by_norm = {data["id"]: path for path, data in load_norms()}
+    eli_by_id = {
+        data["id"]: data.get("uri_eli")
+        for _, data in load_norms()
+    }
+    curricula = build_curricula(paths_by_norm)
+    sources = build_sources()
+    pilots = load_pilots()
+    catalog = build_catalog(legislation, pilots)
     json_options = {"ensure_ascii": False, "indent": 2, "sort_keys": True}
-    return {
+    files = {
         LEGISLATION_PATH: json.dumps(legislation, **json_options) + "\n",
+        CURRICULA_PATH: json.dumps(curricula, **json_options) + "\n",
+        SOURCES_PATH: json.dumps(sources, **json_options) + "\n",
         CATALOG_PATH: json.dumps(catalog, **json_options) + "\n",
-        AKN_PATH: render_akoma_ntoso(),
         INDEX_HTML: replace_html_block(INDEX_HTML.read_text(encoding="utf-8"), catalog),
     }
+    for pilot in pilots:
+        files[akn_path(pilot)] = render_akoma_ntoso(pilot, eli_by_id.get(pilot["id"]))
+    return files
 
 
 def write_files(files: dict[pathlib.Path, str]) -> None:
@@ -353,7 +488,7 @@ def check_files(files: dict[pathlib.Path, str]) -> int:
 def main() -> int:
     """Generate or check the public semantic export layer."""
     parser = argparse.ArgumentParser(
-        description="Genera metadatos JSON-LD y el piloto Akoma Ntoso."
+        description="Genera metadatos JSON-LD y los pilotos Akoma Ntoso."
     )
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument("--write", action="store_true", help="Actualiza los archivos.")

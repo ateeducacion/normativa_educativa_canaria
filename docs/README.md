@@ -8,8 +8,8 @@ Este directorio contiene la versión estática y mantenible del panel público d
 - `assets/css/site.css`: estilos estáticos.
 - `assets/js/site.js`: filtro cliente sin backend.
 - `esquema-datos/`, `guias/`, `metodologia/`: documentación complementaria, incluida la estrategia de interoperabilidad jurídica y el perfil YAML portable.
-- `datos/catalogo.jsonld`, `datos/legislacion.jsonld`: catálogo y grafo jurídico generados en JSON-LD.
-- `datos/akoma-ntoso/`: piloto estructural delimitado y validado de Akoma Ntoso.
+- `datos/catalogo.jsonld`, `datos/legislacion.jsonld`, `datos/curriculos.jsonld`, `datos/fuentes.jsonld`: catálogo y grafos semánticos generados en JSON-LD.
+- `datos/akoma-ntoso/`: pilotos estructurales delimitados y validados de Akoma Ntoso.
 
 `llms.txt`, `llms-full.txt` y `skill.md` no se almacenan aquí. Tienen su única copia canónica en la raíz del repositorio o en `skills/`, y se publican como `https://ateeducacion.github.io/normativa_educativa_canaria/llms.txt`, `…/llms-full.txt` y `…/skill.md` mediante el flujo de trabajo `Publicar GitHub Pages`.
 

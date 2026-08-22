@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-25
 estado_vigencia: "Vigente"
 fuente_principal: FTE-006
 url_oficial: "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-17264"
+uri_eli: "https://www.boe.es/eli/es/lo/2020/12/29/3"
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
 temas: [curriculo, evaluacion, inclusion]
 relaciones:

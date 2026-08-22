@@ -13,6 +13,7 @@ fecha_analisis: 2026-04-26
 estado_vigencia: "Vigente"
 fuente_principal: FTE-016
 url_oficial: "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5139"
+uri_eli: "https://www.boe.es/eli/es/lo/2022/03/31/3/con"
 etapas_afectadas: [formacion-profesional]
 temas: [formacion-profesional, cualificaciones, integracion-sistema, ordenacion]
 relaciones:

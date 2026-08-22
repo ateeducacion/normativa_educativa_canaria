@@ -22,6 +22,18 @@
     },
     {
       "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/curriculos.jsonld",
+      "encodingFormat": "application/ld+json",
+      "name": "Metadatos de currículos"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/fuentes.jsonld",
+      "encodingFormat": "application/ld+json",
+      "name": "Metadatos de fuentes"
+    },
+    {
+      "@type": "DataDownload",
       "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/06_indices/normativa.yaml",
       "encodingFormat": "application/yaml",
       "name": "Índice normativo"
@@ -34,9 +46,39 @@
     },
     {
       "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-003-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-003 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
       "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-004-articulo-1.xml",
       "encodingFormat": "application/akn+xml",
-      "name": "Piloto Akoma Ntoso"
+      "name": "Piloto Akoma Ntoso NOR-004 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-005-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-005 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-006-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-006 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-007-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-007 artículo 1"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://ateeducacion.github.io/normativa_educativa_canaria/datos/akoma-ntoso/NOR-079-articulo-1.xml",
+      "encodingFormat": "application/akn+xml",
+      "name": "Piloto Akoma Ntoso NOR-079 artículo 1"
     }
   ],
   "inLanguage": "es",
