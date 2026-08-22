@@ -32,7 +32,7 @@ import sys
 
 try:
     import yaml
-    from jsonschema import Draft202012Validator
+    from jsonschema import Draft202012Validator, FormatChecker
 except ImportError as exc:  # pragma: no cover - guía de instalación
     sys.exit(f"Falta una dependencia ({exc.name}). Instala con: pip install pyyaml jsonschema")
 
@@ -174,7 +174,10 @@ def errores_de_ruta(indice: str, entradas: dict, con_ficha: set[str]) -> list[di
 
 def validar_tipo(tipo: str, cfg: dict) -> dict:
     esquema_ruta = RAIZ / "schemas" / cfg["esquema"]
-    validador = Draft202012Validator(yaml.safe_load(esquema_ruta.read_text(encoding="utf-8")))
+    validador = Draft202012Validator(
+        yaml.safe_load(esquema_ruta.read_text(encoding="utf-8")),
+        format_checker=FormatChecker(),
+    )
 
     errores: list[dict] = []
     avisos: list[dict] = []
