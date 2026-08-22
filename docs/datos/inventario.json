@@ -1,0 +1,58 @@
+{
+  "curriculos": {
+    "por_estado_extraccion": {
+      "completado": 58
+    },
+    "por_etapa": {
+      "bachillerato": 14,
+      "eso": 23,
+      "formacion-profesional": 8,
+      "infantil": 3,
+      "primaria": 10
+    }
+  },
+  "entidades": {
+    "chunks": {
+      "primer_id": "CHUNK-00001",
+      "total": 22,
+      "ultimo_id": "CHUNK-00022"
+    },
+    "curriculos": {
+      "primer_id": "CUR-001",
+      "total": 58,
+      "ultimo_id": "CUR-058"
+    },
+    "fuentes": {
+      "primer_id": "FTE-001",
+      "total": 117,
+      "ultimo_id": "FTE-117"
+    },
+    "normativa": {
+      "primer_id": "NOR-001",
+      "total": 108,
+      "ultimo_id": "NOR-110"
+    },
+    "relaciones": {
+      "primer_id": "REL-001",
+      "total": 83,
+      "ultimo_id": "REL-086"
+    },
+    "tareas": {
+      "primer_id": "TAREA-001",
+      "total": 86,
+      "ultimo_id": "TAREA-086"
+    }
+  },
+  "fuente": "06_indices/",
+  "tareas": {
+    "por_estado": {
+      "Hecha": 86
+    }
+  },
+  "textos_oficiales_locales": {
+    "curriculos": 37,
+    "normativa": 98,
+    "total": 135
+  },
+  "version_esquema": 1
+}
