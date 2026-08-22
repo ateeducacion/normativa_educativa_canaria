@@ -1471,6 +1471,43 @@ tareas:
     - NOR-079
     - NOR-080
     siguiente_accion: null
+  TAREA-089:
+    titulo: Validar los pilotos Akoma Ntoso contra el XSD oficial en CI
+    estado: En progreso
+    prioridad: Alta
+    tipo: calidad
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-22
+    fecha_actualizacion: 2026-08-22
+    relacionadas:
+    - TAREA-087
+    - TAREA-088
+    - TAREA-090
+    siguiente_accion: "Incorporar el XSD al repo y añadir el paso de validación a CI."
+  TAREA-090:
+    titulo: Ampliar la cobertura Akoma Ntoso (artículos 3+, normas nuevas, disposiciones y LOFP art. 2)
+    estado: En progreso
+    prioridad: Alta
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-22
+    fecha_actualizacion: 2026-08-22
+    relacionadas:
+    - TAREA-088
+    - TAREA-089
+    - NOR-003
+    - NOR-004
+    - NOR-005
+    - NOR-006
+    - NOR-007
+    - NOR-009
+    - NOR-018
+    - NOR-024
+    - NOR-043
+    - NOR-047
+    - NOR-079
+    - NOR-080
+    siguiente_accion: "Extraer y contrastar los textos oficiales de los nuevos bloques."
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.
