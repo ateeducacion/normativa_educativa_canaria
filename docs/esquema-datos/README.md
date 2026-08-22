@@ -1,5 +1,7 @@
 # Esquema de datos
 
+- [Interoperabilidad jurídica](interoperabilidad-juridica.md): estrategia gradual para ELI, Akoma Ntoso y `llms.txt`.
+
 - `fuente.schema.yaml`: fichas `FTE-NNN`.
 - `norma.schema.yaml`: fichas `NOR-NNN`.
 - `curriculum.schema.yaml`: fichas `CUR-NNN`.
