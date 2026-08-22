@@ -93,6 +93,17 @@ ENTIDADES = {
         "indice": "tareas.yaml",
         "recomendados": [],
     },
+    # TAREA-091: los chunks 00006-00022 convivieron meses con un esquema propio
+    # (`contenido`, `fecha_registro`, `<aviso>`) sin que nada lo detectara, porque
+    # no se validaban contra `schemas/chunk.schema.yaml`. Como entidad más, reutilizan
+    # el esquema, la cobertura de índice y la comprobación referencial.
+    "CHUNK": {
+        "patron": "07_corpus_ia/chunks/CHUNK-*.yaml",
+        "esquema": "chunk.schema.yaml",
+        "origen": "documento",
+        "indice": "chunks.yaml",
+        "recomendados": [],
+    },
 }
 
 FRONTMATTER = re.compile(r"\A---\n(.*?)\n---", re.S)
@@ -271,6 +282,7 @@ def validar_tipo(tipo: str, cfg: dict) -> dict:
 
 CAMPOS_REFERENCIA = [
     "relacionadas", "fuente_principal", "fuente", "norma_base", "origen", "destino",
+    "origen_id",
     "desarrolla_a", "modificada_por", "modifica_a", "deroga_a", "derogada_por",
     "relacionada_con",
 ]
@@ -313,6 +325,10 @@ def validar_referencias() -> dict:
         if encontrado:
             existen.add(encontrado.group(1))
     for fichero in RAIZ.glob("07_corpus_ia/**/CHUNK-*.yaml"):
+        encontrado = ID_EN_NOMBRE.match(fichero.name)
+        if encontrado:
+            existen.add(encontrado.group(1))
+    for fichero in RAIZ.glob("04_analisis/**/AN-*.md"):
         encontrado = ID_EN_NOMBRE.match(fichero.name)
         if encontrado:
             existen.add(encontrado.group(1))
@@ -465,6 +481,79 @@ def validar_textos_locales() -> dict:
     return {"tipo": "TEXTOS", "ficheros": len(ficheros), "errores": errores, "avisos": []}
 
 
+def validar_frontmatter_curricular() -> dict:
+    """Comprueba que cada ficha curricular `.md` tiene frontmatter válido.
+
+    Las 23 fichas de ESO lo llevan desde el principio, pero las 27 de Infantil,
+    Primaria y Bachillerato se crearon sin él: la práctica divergió por etapa y
+    nada lo detectaba porque el validador sólo miraba los `.yaml` emparejados
+    (TAREA-091). Sin frontmatter, la ficha no cumple AGENTS.md §5.1 ni es
+    consumible por las herramientas que leen metadatos del propio Markdown.
+    """
+    errores = []
+    revisados = 0
+    for fichero in sorted(RAIZ.glob("03_curriculos/**/CUR-*.md")):
+        rel = fichero.relative_to(RAIZ).as_posix()
+        revisados += 1
+        datos, fallo = cargar(fichero, "frontmatter")
+        if fallo:
+            errores.append({"fichero": rel, "campo": "(frontmatter)", "mensaje": fallo})
+            continue
+        if not isinstance(datos, dict):
+            errores.append({"fichero": rel, "campo": "(frontmatter)", "mensaje": "el frontmatter no es un mapa YAML"})
+            continue
+        en_nombre = ID_EN_NOMBRE.match(fichero.name)
+        if en_nombre and datos.get("id") != en_nombre.group(1):
+            errores.append({
+                "fichero": rel,
+                "campo": "id",
+                "mensaje": f"el id {datos.get('id')!r} no coincide con el nombre del fichero ({en_nombre.group(1)})",
+            })
+    return {"tipo": "CURRICULARES-MD", "ficheros": revisados, "errores": errores, "avisos": []}
+
+
+def validar_resumenes() -> dict:
+    """Comprueba el formato de los resúmenes IA de `07_corpus_ia/resumenes/`.
+
+    Cuatro resúmenes estuvieron íntegramente sangrados a 4 espacios —frontmatter,
+    delimitadores y cuerpo— y `yaml.safe_load` no fallaba porque el bloque
+    sangrado se interpreta como un escalar. Se exige: delimitadores `---` en
+    columna 0, claves de primer nivel sin sangría inicial (AGENTS.md §5.1) y
+    cuerpo sin sangría sistemática.
+    """
+    errores = []
+    revisados = 0
+    for fichero in sorted(RAIZ.glob("07_corpus_ia/resumenes/*.md")):
+        rel = fichero.relative_to(RAIZ).as_posix()
+        revisados += 1
+        texto = fichero.read_text(encoding="utf-8")
+        if not texto.startswith("---\n"):
+            errores.append({"fichero": rel, "campo": "(frontmatter)", "mensaje": "no empieza con --- en columna 0"})
+            continue
+        fin = re.search(r"\n---\s*\n", texto)
+        if not fin:
+            errores.append({"fichero": rel, "campo": "(frontmatter)", "mensaje": "sin delimitador de cierre --- en columna 0"})
+            continue
+        for linea in texto[4:fin.start()].splitlines():
+            if linea[:1] in (" ", "\t"):
+                errores.append({
+                    "fichero": rel,
+                    "campo": "(frontmatter)",
+                    "mensaje": f"clave de primer nivel con sangría inicial: {linea.strip()[:40]!r}",
+                })
+                break
+        cuerpo = texto[fin.end():]
+        sangradas = [l for l in cuerpo.splitlines() if l.startswith("    ") and l.strip()]
+        # Un bloque de código indentado es legítimo; una ficha entera sangrada no.
+        if len(sangradas) > len(cuerpo.splitlines()) * 0.5:
+            errores.append({
+                "fichero": rel,
+                "campo": "(cuerpo)",
+                "mensaje": f"{len(sangradas)} líneas del cuerpo empiezan por 4 espacios: sangrado sistemático",
+            })
+    return {"tipo": "RESUMENES", "ficheros": revisados, "errores": errores, "avisos": []}
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Valida el corpus contra schemas/ y 06_indices/.")
     parser.add_argument("--json", action="store_true", help="salida JSON para integración continua")
@@ -479,6 +568,8 @@ def main() -> int:
         informes.append(validar_desdoblamientos())
         informes.append(validar_correspondencia_textos())
         informes.append(validar_textos_locales())
+        informes.append(validar_frontmatter_curricular())
+        informes.append(validar_resumenes())
     total_errores = sum(len(i["errores"]) for i in informes)
     total_avisos = sum(len(i["avisos"]) for i in informes)
 
