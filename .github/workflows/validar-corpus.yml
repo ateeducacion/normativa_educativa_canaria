@@ -13,6 +13,8 @@ on:
       - "08_tareas/**"
       - "schemas/**"
       - "11_calidad/validar_corpus.py"
+      - "11_calidad/validar_akoma_ntoso.py"
+      - "11_calidad/xsd/**"
       - "11_calidad/generar_inventario.py"
       - "11_calidad/generar_interoperabilidad.py"
       - "README.md"
@@ -37,6 +39,8 @@ on:
       - "08_tareas/**"
       - "schemas/**"
       - "11_calidad/validar_corpus.py"
+      - "11_calidad/validar_akoma_ntoso.py"
+      - "11_calidad/xsd/**"
       - "11_calidad/generar_inventario.py"
       - "11_calidad/generar_interoperabilidad.py"
       - "README.md"
@@ -79,6 +83,11 @@ jobs:
 
       - name: Comprobar exportaciones interoperables
         run: python3 11_calidad/generar_interoperabilidad.py --check
+
+      - name: Validar pilotos Akoma Ntoso contra el XSD oficial
+        run: |
+          command -v xmllint >/dev/null || sudo apt-get update -qq && sudo apt-get install -qq -y libxml2-utils
+          python3 11_calidad/validar_akoma_ntoso.py
 
       - name: Resumen para el informe de ejecución
         if: always()
