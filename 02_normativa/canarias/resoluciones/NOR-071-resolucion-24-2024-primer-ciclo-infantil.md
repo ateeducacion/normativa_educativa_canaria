@@ -106,8 +106,8 @@ años) ni a las escuelas infantiles municipales o privadas ajenas a esta experie
 - Cita también, como antecedentes, la Orden de 22 de marzo de 2022 (BOC n.º 62, de 29 de marzo
   de 2022, anuncio 1015) y la Orden de 24 de marzo de 2023 (BOC n.º 64, de 31 de marzo de 2023,
   anuncio 972; modificada por las Órdenes de 17 de mayo de 2023 —BOC n.º 101, anuncio 1683— y de
-  15 de marzo de 2024 —BOC n.º 64, de 1 de abril de 2024, anuncio 1141—). Verificado el
-  2026-08-23 (TAREA-093); su catalogación individual queda registrada en `TAREA-094`.
+  15 de marzo de 2024 —BOC n.º 64, de 1 de abril de 2024, anuncio 1141—. Resuelto el 2026-08-23
+  (TAREA-094): las cuatro están catalogadas como `NOR-113`, `NOR-114`, `NOR-115` y `NOR-116`.
 
 ## 7. Impacto en Canarias
 
@@ -147,10 +147,8 @@ organización y funcionamiento (`NOR-046`) para todo lo relativo al primer ciclo
   al curso 2024-2025), pero no hay una cláusula general que limite su vigencia a ese curso, y la
   investigación de `PREG-009`/`TAREA-078` no encontró sustituta posterior. `fecha_entrada_vigor`
   se deja en `null` en vez de inferirla (R15).
-- Las Órdenes de 22 de marzo de 2022, 24 de marzo de 2023, 17 de mayo de 2023 y 15 de marzo de
-  2024, antecedentes de la experiencia piloto, están localizadas en el BOC (verificado el
-  2026-08-23) pero no catalogadas como ficha `NOR`; su catalogación queda registrada en
-  `TAREA-094`.
+- Resuelto el 2026-08-23 (TAREA-094): las cuatro órdenes antecedentes están catalogadas como
+  `NOR-113`, `NOR-114`, `NOR-115` y `NOR-116`.
 
 ## 11. Fuentes
 

@@ -1,7 +1,8 @@
 ---
 id: TAREA-094
 titulo: "Catalogar la deuda documental verificada: órdenes del programa piloto de primer ciclo de Infantil, resoluciones anuales de programas y normativa estatal citada"
-estado: "En progreso"
+estado: "Hecha"
+fecha_cierre: 2026-08-23
 prioridad: "Media"
 tipo: "catalogacion"
 responsable: "@.agents/skills/catalogacion-fuentes"
@@ -16,7 +17,7 @@ relacionadas:
 - FTE-066
 - FTE-067
 - PREG-013
-siguiente_accion: "Catalogar las cuatro órdenes del programa piloto de primer ciclo (evidencia ya verificada en TAREA-093)."
+siguiente_accion: null
 ---
 
 # TAREA-094 — Catalogación de la deuda documental registrada en TAREA-093
@@ -41,7 +42,19 @@ identificadas al resolver los marcadores `[PENDIENTE]` del corpus.
 ## Criterios de cierre
 
 Cada entidad con ficha `NOR`/`CUR`, fuente `FTE`, entrada en índice, relaciones `REL`
-y validación con 0 errores.
+y validación con 0 errores. Cumplido el 2026-08-23.
+
+## Resultado
+
+- Órdenes piloto catalogadas: `NOR-113` a `NOR-116`, fuentes `FTE-120` a `FTE-123`,
+  relaciones `REL-090` y `REL-091`.
+- Resoluciones anuales de programas (publicadas fuera del BOC, DEC-0012): `NOR-117`
+  (PROA+ 689/2026), `NOR-118` (InnovAS 699/2026), `NOR-119` (AICLE 705/2026) y
+  `NOR-120` (intercambio OPEEC-Francia), con fuentes `FTE-124` a `FTE-127`.
+- Normativa estatal citada por portales: `NOR-121` (RGPD), `NOR-122` (LOPDGDD),
+  `NOR-123` (Ley 31/1995) y `NOR-124` (RD 39/1997), con fuentes `FTE-128` a
+  `FTE-131`. Fichas mínimas de inventario.
+- Portales FTE-057/058/061/065/066/067 vinculados a sus objetivos.
 
 ## Notas
 

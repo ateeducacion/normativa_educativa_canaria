@@ -8,7 +8,7 @@ fecha_consulta: 2026-05-01
 fecha_analisis: null
 estado_fuente: "Activa"
 nivel_evidencia: "confirmado-fuente-primaria"
-relacionadas: [FTE-013]
+relacionadas: [FTE-013, NOR-121, NOR-122]
 ---
 
 # FTE-066 — Protección de Datos en Educación
@@ -33,7 +33,7 @@ Sub-portal de la Inspección Educativa con normativa clasificada en materia de p
 ## Normas o currículos enlazados
 
 - `FTE-013` (Inspección Educativa — normativa clasificada).
-- Verificado el 2026-08-23 (TAREA-093): el objetivo de esta vinculación (vincular con normativa estatal RGPD/LOPDGDD cuando se catalogue.) sigue sin estar catalogado en el corpus; se mantiene como deuda documental registrada en TAREA-094.
+- Resuelto el 2026-08-23 (TAREA-094): vinculada con el RGPD y la LOPDGDD (`NOR-121` y `NOR-122`), ahora catalogadas en el corpus.
 
 ## Observaciones
 
