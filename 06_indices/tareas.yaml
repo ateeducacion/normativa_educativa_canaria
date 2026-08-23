@@ -1612,7 +1612,8 @@ TAREA-091:
 
 TAREA-092:
   titulo: "Resolver los avisos del validador sobre copias locales contaminadas y alinear textos-oficiales.yaml"
-  estado: "En progreso"
+  estado: "Hecha"
+  fecha_cierre: 2026-08-23
   prioridad: "Alta"
   tipo: "calidad-documental"
   responsable: '@.agents/skills/control-calidad-documental'

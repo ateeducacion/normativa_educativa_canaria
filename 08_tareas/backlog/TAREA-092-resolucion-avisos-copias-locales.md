@@ -1,7 +1,8 @@
 ---
 id: TAREA-092
 titulo: "Resolver los avisos del validador sobre copias locales contaminadas y alinear textos-oficiales.yaml"
-estado: "En progreso"
+estado: "Hecha"
+fecha_cierre: 2026-08-23
 prioridad: "Alta"
 tipo: "calidad-documental"
 responsable: "@.agents/skills/control-calidad-documental"
@@ -15,7 +16,7 @@ relacionadas:
 - PREG-010
 - PREG-011
 - PREG-012
-siguiente_accion: "Eliminar las 3 copias contaminadas, limpiar el índice y añadir comprobación de integridad."
+siguiente_accion: null
 ---
 
 # TAREA-092 — Resolución de los avisos sobre copias locales
@@ -45,8 +46,8 @@ que declaraban fueron retiradas como catalogación errónea (`DEC-0011`,
 
 ## Criterios de cierre
 
-- `python3 11_calidad/validar_corpus.py` con **0 errores · 0 avisos**.
-- Sin entradas de índice apuntando a ficheros inexistentes.
+- `python3 11_calidad/validar_corpus.py` con **0 errores · 0 avisos**. Cumplido.
+- Sin entradas de índice apuntando a ficheros inexistentes. Cumplido.
 
 ## Coordinación con trabajo paralelo
 
