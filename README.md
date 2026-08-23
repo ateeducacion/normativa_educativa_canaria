@@ -73,12 +73,12 @@ Para más detalle sobre prompts y ejemplos de uso, consulte el [Portal del Corpu
 <!-- inventario-corpus:inicio -->
 _Sección generada desde los índices canónicos; no se edita manualmente._
 
-- Fuentes: **117** (FTE-001 a FTE-117, con posibles huecos reservados).
-- Normativa: **108** (NOR-001 a NOR-110, con posibles huecos reservados).
+- Fuentes: **119** (FTE-001 a FTE-119, con posibles huecos reservados).
+- Normativa: **110** (NOR-001 a NOR-112, con posibles huecos reservados).
 - Currículos: **58** (CUR-001 a CUR-058, con posibles huecos reservados); bachillerato: 14, eso: 23, formacion-profesional: 8, infantil: 3, primaria: 10.
-- Relaciones: **83** (REL-001 a REL-086, con posibles huecos reservados).
+- Relaciones: **86** (REL-001 a REL-089, con posibles huecos reservados).
 - Chunks IA: **22** (CHUNK-00001 a CHUNK-00022, con posibles huecos reservados).
-- Tareas: **92**; Hecha: 92.
+- Tareas: **94**; En progreso: 1, Hecha: 93.
 - Copias locales de textos oficiales: **132** (normativa: 95; currículos: 37).
 - Inventario legible por máquinas: [docs/datos/inventario.json](docs/datos/inventario.json).
 <!-- inventario-corpus:fin -->
