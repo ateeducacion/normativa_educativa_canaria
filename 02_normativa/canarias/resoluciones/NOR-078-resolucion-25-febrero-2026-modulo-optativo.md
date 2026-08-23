@@ -109,8 +109,8 @@ oficial.
 
 - [INTERPRETACIÓN] El texto no declara fecha de entrada en vigor expresa; se registra el día
   siguiente a la publicación, con eficacia declarada desde el curso 2026/2027.
-- [PENDIENTE] La Resolución de 30 de octubre de 2024, cuyo catálogo actualiza, no está catalogada
-  en el corpus. Tampoco el Real Decreto 659/2023, citado por varias fichas de FP.
+- Resuelto el 2026-08-23 (TAREA-093): la Resolución de 30 de octubre de 2024 está catalogada
+  como `NOR-081` y el Real Decreto 659/2023 como `NOR-080`.
 
 ## 10. Fuentes
 

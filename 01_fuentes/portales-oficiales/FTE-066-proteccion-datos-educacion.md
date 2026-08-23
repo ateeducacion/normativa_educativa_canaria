@@ -33,7 +33,7 @@ Sub-portal de la Inspección Educativa con normativa clasificada en materia de p
 ## Normas o currículos enlazados
 
 - `FTE-013` (Inspección Educativa — normativa clasificada).
-- [PENDIENTE] vincular con normativa estatal RGPD/LOPDGDD cuando se catalogue.
+- Verificado el 2026-08-23 (TAREA-093): el objetivo de esta vinculación (vincular con normativa estatal RGPD/LOPDGDD cuando se catalogue.) sigue sin estar catalogado en el corpus; se mantiene como deuda documental registrada en TAREA-094.
 
 ## Observaciones
 

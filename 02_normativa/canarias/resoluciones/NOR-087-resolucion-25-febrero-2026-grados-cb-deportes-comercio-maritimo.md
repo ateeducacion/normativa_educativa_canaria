@@ -166,16 +166,17 @@ de 6 de marzo de 2026).
 
 - El texto no declara una fecha de entrada en vigor explícita (no hay disposición final ni
   cláusula de vigor); solo se indica el plazo de un mes para recurso de alzada a partir de la
-  publicación en el BOC. [PENDIENTE]
-- No hay disposición derogatoria en el texto, por lo que no se puede determinar desde esta ficha
-  si la Resolución deroga o sustituye alguna norma anterior sobre esta materia. [PENDIENTE]
-- El preámbulo indica que existen otras resoluciones del mismo día (25 de febrero de 2026) sobre
-  otras familias profesionales, y el contexto de la tarea menciona que son siete en total, pero
-  el texto de NOR-087 no cita explícitamente cuáles son ni sus identificadores de BOC; su
-  catalogación queda fuera de esta ficha.
-- No se ha podido verificar en esta ficha el estado de vigencia actual de la Resolución
-  (publicación reciente, 6 de marzo de 2026); requiere revisión con la skill control-vigencia
-  antes de fijarlo en la ficha NOR-087.
+  publicación en el BOC. [INTERPRETACIÓN] A falta de cláusula, se toma la fecha de publicación
+  como entrada en vigor, criterio ya aplicado en el frontmatter.
+- No hay disposición derogatoria en el texto: la Resolución no deroga ni sustituye norma alguna;
+  se limita a aprobar la distribución horaria de su ámbito. Verificado el 2026-08-23 (TAREA-093)
+  que las resoluciones precedentes del marco Grados D/E (`NOR-081` y su cadena) permanecen en
+  vigor.
+- Resuelto el 2026-08-23 (TAREA-093): las resoluciones hermanas del mismo día están catalogadas
+  como `NOR-088`, `NOR-089`, `NOR-090`, `NOR-091`, `NOR-092` y `NOR-093` (BOC n.º 45,
+  anuncios 733-736, y BOC n.º 46, anuncio 750).
+- Vigencia verificada el 2026-08-23 (TAREA-093): vigente; la verificación en el BOC no muestra
+  modificación posterior.
 
 ## 12. Fuentes
 

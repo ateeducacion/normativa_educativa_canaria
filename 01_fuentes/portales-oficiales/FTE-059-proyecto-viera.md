@@ -8,7 +8,7 @@ fecha_consulta: 2026-05-01
 fecha_analisis: null
 estado_fuente: "Activa"
 nivel_evidencia: "confirmado-fuente-primaria"
-relacionadas: []
+relacionadas: [CUR-017, CUR-027]
 ---
 
 # FTE-059 — Proyecto Viera
@@ -32,7 +32,7 @@ Programa de referencia para áreas y materias del bloque lingüístico en todas 
 
 ## Normas o currículos enlazados
 
-- [PENDIENTE] vincular con currículos de Lengua Castellana y Literatura y de PLC cuando se catalogue específicamente.
+- Resuelto parcialmente el 2026-08-23 (TAREA-093): vinculada con los currículos de Lengua Castellana y Literatura existentes (`CUR-017` ESO, `CUR-027` Primaria). El Proyecto Lingüístico de Centro no tiene ficha propia en el corpus.
 
 ## Observaciones
 

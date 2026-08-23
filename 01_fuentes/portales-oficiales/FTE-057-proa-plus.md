@@ -32,7 +32,7 @@ Marco operativo de referencia para inclusión y mejora del rendimiento educativo
 
 ## Normas o currículos enlazados
 
-- [PENDIENTE] vincular con resoluciones anuales de PROA+ cuando se catalogen.
+- Verificado el 2026-08-23 (TAREA-093): el objetivo de esta vinculación (vincular con resoluciones anuales de PROA+ cuando se catalogen.) sigue sin estar catalogado en el corpus; se mantiene como deuda documental registrada en TAREA-094.
 
 ## Observaciones
 

@@ -32,7 +32,7 @@ Programa de referencia para enseñanza bilingüe y plurilingüismo en Infantil, 
 
 ## Normas o currículos enlazados
 
-- [PENDIENTE] vincular con resoluciones de habilitación lingüística y convocatorias AICLE/PILE cuando se catalogue específicamente.
+- Verificado el 2026-08-23 (TAREA-093): el objetivo de esta vinculación (vincular con resoluciones de habilitación lingüística y convocatorias AICLE/PILE cuando se catalogue específicamente.) sigue sin estar catalogado en el corpus; se mantiene como deuda documental registrada en TAREA-094.
 
 ## Observaciones
 

@@ -32,7 +32,7 @@ Marco operativo de la internacionalización educativa canaria. Útil para locali
 
 ## Normas o currículos enlazados
 
-- [PENDIENTE] vincular con resoluciones autonómicas de movilidad y formación cuando se catalogue específicamente.
+- Verificado el 2026-08-23 (TAREA-093): el objetivo de esta vinculación (vincular con resoluciones autonómicas de movilidad y formación cuando se catalogue específicamente.) sigue sin estar catalogado en el corpus; se mantiene como deuda documental registrada en TAREA-094.
 
 ## Observaciones
 

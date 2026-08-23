@@ -1535,6 +1535,36 @@ tareas:
     - PREG-011
     - PREG-012
     siguiente_accion: null
+  TAREA-093:
+    titulo: Resolver los pendientes del corpus — PREG-013, marcadores PENDIENTE verificados y fichas históricas reconstruidas
+    estado: En progreso
+    prioridad: Alta
+    tipo: calidad-documental
+    responsable: '@.agents/skills/control-calidad-documental'
+    fecha_creacion: 2026-08-23
+    fecha_actualizacion: 2026-08-23
+    relacionadas:
+    - TAREA-094
+    - PREG-013
+    siguiente_accion: Validar, registrar diario y cerrar.
+  TAREA-094:
+    titulo: Catalogar la deuda documental verificada — órdenes del programa piloto de primer ciclo de Infantil, resoluciones anuales de programas y normativa estatal citada
+    estado: En progreso
+    prioridad: Media
+    tipo: catalogacion
+    responsable: '@.agents/skills/catalogacion-fuentes'
+    fecha_creacion: 2026-08-23
+    fecha_actualizacion: 2026-08-23
+    relacionadas:
+    - NOR-071
+    - FTE-057
+    - FTE-058
+    - FTE-061
+    - FTE-065
+    - FTE-066
+    - FTE-067
+    - PREG-013
+    siguiente_accion: Catalogar las cuatro órdenes del programa piloto de primer ciclo.
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.

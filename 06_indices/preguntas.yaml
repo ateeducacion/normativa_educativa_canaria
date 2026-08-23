@@ -95,7 +95,7 @@ PREG-012:
 
 PREG-013:
   titulo: "El BOC no publica permalink ELI en las disposiciones autonómicas consultadas"
-  estado: "Abierta"
+  estado: "Resuelta"
   fecha_registro: 2026-08-22
   relacionadas: [NOR-005, NOR-043, NOR-047, TAREA-087]
   ruta: "08_tareas/preguntas/PREG-013-eli-en-el-boc.md"

@@ -23,7 +23,7 @@ etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional,
 temas: [organizacion-centros, organos-coordinacion-docente, horarios, jornada-profesorado, absentismo-escolar, tutorias, reglamento-organico]
 relaciones:
   desarrolla_a: [NOR-009]
-  modificada_por: []
+  modificada_por: [NOR-111, NOR-112]
   modifica_a: [NOR-025]
   deroga_a: []
   derogada_por: []
@@ -134,9 +134,10 @@ no sustituye la fuente oficial.
 - [INTERPRETACIÓN] La disposición final cuarta dice que entra en vigor «al día siguiente de su
   publicación», con efectos desde el inicio del curso 2013/2014. Se registra 2013-10-17 como fecha
   de entrada en vigor a partir de la fecha de publicación.
-- [PENDIENTE] No se ha verificado si esta orden ha sido modificada por normas posteriores a 2013.
-  Su estado de vigencia se registra como vigente por figurar así en el índice de normativa
-  clasificada de la Inspección, sin comprobación de modificaciones intermedias.
+- Verificado el 2026-08-23 (TAREA-093): ha sido modificada por la Orden de 16 de julio de 2019
+  (`NOR-111`, `REL-087`) y por la Orden de 28 de septiembre de 2023 (`NOR-112`, `REL-088`).
+  Sigue vigente. Cada curso la complementan las instrucciones de organización y funcionamiento.
+  No se ha localizado modificación específica del artículo 24.2 (absentismo).
 
 ## 11. Fuentes
 

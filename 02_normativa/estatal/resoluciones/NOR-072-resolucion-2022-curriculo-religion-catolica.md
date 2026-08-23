@@ -101,11 +101,8 @@ básicos organizados en bloques, cerrando con orientaciones metodológicas y de 
 - Desarrolla, para el área de Religión Católica, la disposición adicional segunda de la LOE
   (`NOR-001`) y las disposiciones adicionales primeras de los Reales Decretos de enseñanzas mínimas
   de cada etapa: RD 95/2022 (Infantil), RD 157/2022 (Primaria), RD 217/2022 (ESO, `NOR-003`) y RD
-  243/2022 (Bachillerato, `NOR-006`). [PENDIENTE] El RD 157/2022 de Primaria no se ha localizado con
-  una ficha `NOR-NNN` propia en `02_normativa/estatal/reales-decretos/`: la única ficha con
-  "1394-2007" y "educacion-infantil" en el nombre (`NOR-057`) corresponde en realidad al RD
-  1394/2007 sobre el título de Técnico Superior en Educación Infantil (FP), no al RD 157/2022; no
-  se ha creado ni modificado ninguna ficha para resolver esta ausencia.
+  243/2022 (Bachillerato, `NOR-006`). Resuelto el 2026-08-23 (TAREA-093): el RD 157/2022 está
+  catalogado como `NOR-079` (BOE-A-2022-3296; ELI https://www.boe.es/eli/es/rd/2022/03/01/157).
 - Se relaciona con `NOR-043` (Decreto 211/2022, currículo de Educación Primaria en Canarias), cuya
   Disposición adicional primera, punto 6, remite aquí la determinación del currículo de Religión.
 
@@ -134,13 +131,12 @@ de Religión, cuya disposición adicional primera remite aquí esa competencia.
 
 ## 10. Dudas abiertas
 
-- [PENDIENTE] Confirmar la correspondencia exacta entre el RD 157/2022 (enseñanzas mínimas de
-  Primaria, citado en el preámbulo de esta resolución) y su ficha `NOR-NNN` en el corpus: no se ha
-  localizado con certeza en `02_normativa/estatal/reales-decretos/` durante esta tarea (`TAREA-082`).
-  No se ha creado ni modificado ninguna ficha para resolver esta duda.
-- [PENDIENTE] No se ha exportado copia local del texto completo a `07_corpus_ia/textos-completos/`
-  conforme a R16; queda pendiente de una tarea de exportación posterior, fuera del alcance de
-  `TAREA-082`.
+- Resuelto el 2026-08-23 (TAREA-093): la ficha del RD 157/2022 es `NOR-079`, creada con posterioridad
+  a esta tarea.
+- Resuelto el 2026-08-23 (TAREA-093): la copia local conforme a R16 existe desde el 2026-08-05 en
+  `07_corpus_ia/textos-completos/texto-oficial-NOR-072-curriculos-religion-catolica-2022.txt`
+  (pdftotext del PDF oficial BOE-A-2022-10452, con los cuatro anexos) y está registrada en
+  `06_indices/textos-oficiales.yaml`.
 
 ## 11. Fuentes
 

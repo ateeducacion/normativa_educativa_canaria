@@ -1565,3 +1565,33 @@ NOR-110:
   ruta: "02_normativa/canarias/resoluciones/NOR-110-resolucion-318-2025-oferta-bilingue-fp.md"
   temas: [modalidad-bilingue, formacion-profesional, ciclos-formativos, grado-d, autorizacion-centros, profesorado, criterios-seleccion, curso-2025-2026]
   etapas_afectadas: [formacion-profesional]
+
+NOR-111:
+  titulo: "Orden de 16 de julio de 2019, por la que se modifica la Orden de 9 de octubre de 2013, que desarrolla el Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Modificación del ROC: jornada docente (2019)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2019-07-16
+  fecha_publicacion: 2019-07-30
+  fecha_entrada_vigor: 2019-07-31
+  fecha_consulta: 2026-08-23
+  fuente_principal: FTE-118
+  ruta: "02_normativa/canarias/ordenes/NOR-111-orden-16-julio-2019-jornada-docente.md"
+  temas: [reglamento-organico-centros, jornada-docente, profesorado]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]
+
+NOR-112:
+  titulo: "Orden de 28 de septiembre de 2023, por la que se modifica la Orden de 9 de octubre de 2013, que desarrolla el Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias"
+  nombre_corto: "Modificación del ROC: jornada lectiva Maestros (2023)"
+  tipo_norma: "orden-autonomica"
+  ambito: "canarias"
+  estado_vigencia: "Vigente"
+  fecha_disposicion: 2023-09-28
+  fecha_publicacion: 2023-10-11
+  fecha_entrada_vigor: 2023-10-12
+  fecha_consulta: 2026-08-23
+  fuente_principal: FTE-119
+  ruta: "02_normativa/canarias/ordenes/NOR-112-orden-28-septiembre-2023-reduccion-jornada.md"
+  temas: [reglamento-organico-centros, jornada-docente, profesorado]
+  etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional]

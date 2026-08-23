@@ -75,10 +75,9 @@ profesionales.
 
 ## 5. Relación con otras normas
 
-Modifica anexos de la Resolución de 27 de enero de 2026 y de la Resolución de 25 de abril de
-2025, **ninguna de las dos catalogada en el corpus**, así que la relación no puede registrarse
-como `REL` sin catalogarlas antes. Ambas amplían o modifican a su vez la Resolución de 30 de
-octubre de 2024, que fija el marco de los Grados D y E y tampoco está catalogada.
+Modifica anexos de la Resolución de 27 de enero de 2026 (`NOR-094`) y de la Resolución de 25 de
+abril de 2025 (`NOR-096`), ambas catalogadas en el corpus. Las dos forman parte de la cadena de
+la Resolución de 30 de octubre de 2024, que fija el marco de los Grados D y E (`NOR-081`).
 
 ## 6. Impacto en Canarias
 
@@ -98,9 +97,9 @@ no sustituye la fuente oficial.
 
 - El texto **no declara fecha de entrada en vigor** ni contiene disposición derogatoria expresa.
   [INTERPRETACIÓN] Se registra la fecha de publicación a falta de cláusula específica.
-- [PENDIENTE] Las dos resoluciones cuyos anexos se modifican no están catalogadas en el corpus,
-  igual que la Resolución de 30 de octubre de 2024 que las precede. Sin ellas no puede trazarse
-  la cadena completa de vigencia de los cuadros horarios de FP.
+- Resuelto el 2026-08-23 (TAREA-093): las resoluciones modificadas están catalogadas como
+  `NOR-094` y `NOR-096`, y el marco de Grados D y E como `NOR-081`; la cadena de vigencia es
+  trazable en el corpus.
 
 ## 9. Fuentes
 

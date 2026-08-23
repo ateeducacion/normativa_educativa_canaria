@@ -1628,3 +1628,22 @@ TAREA-092:
   - PREG-011
   - PREG-012
   ruta: 08_tareas/backlog/TAREA-092-resolucion-avisos-copias-locales.md
+
+TAREA-094:
+  titulo: "Catalogar la deuda documental verificada: órdenes del programa piloto de primer ciclo de Infantil, resoluciones anuales de programas y normativa estatal citada"
+  estado: "En progreso"
+  prioridad: "Media"
+  tipo: "catalogacion"
+  responsable: '@.agents/skills/catalogacion-fuentes'
+  fecha_creacion: 2026-08-23
+  fecha_actualizacion: 2026-08-23
+  relacionadas:
+  - NOR-071
+  - FTE-057
+  - FTE-058
+  - FTE-061
+  - FTE-065
+  - FTE-066
+  - FTE-067
+  - PREG-013
+  ruta: 08_tareas/backlog/TAREA-094-catalogacion-deuda-documental-verificada.md

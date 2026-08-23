@@ -23,7 +23,7 @@ etapas_afectadas: [infantil, primaria, eso, transversal]
 temas: [orientacion-educativa, eoep, neae, evaluacion-psicopedagogica, informe-psicopedagogico, atencion-a-la-diversidad]
 relaciones:
   desarrolla_a: []
-  modificada_por: []
+  modificada_por: [NOR-025]
   modifica_a: []
   deroga_a: []
   derogada_por: []
@@ -124,9 +124,12 @@ oficial.
 
 - [INTERPRETACIÓN] La disposición final segunda dice que entra en vigor «el día siguiente al de su
   publicación». Se registra 2010-09-15 a partir de la fecha de publicación.
-- [PENDIENTE] No se ha verificado si ha sido modificada por normas posteriores a 2010. Cita el
-  Decreto 104/2010 de atención a la diversidad, que fue sustituido por el Decreto 25/2018
-  (`NOR-024`); conviene comprobar en qué medida esa sustitución afecta a sus referencias.
+- Verificado el 2026-08-23 (TAREA-093): fue modificada puntualmente por la disposición
+  adicional undécima de la Orden de 13 de diciembre de 2010 (`NOR-025`, `REL-089`), que redacta
+  el artículo 9.2.c). Sigue vigente y no existe norma que la sustituya; la complementan las
+  instrucciones anuales de la Dirección General. [INTERPRETACIÓN] Sus referencias literales al
+  Decreto 104/2010 deben leerse remitidas al marco actual de atención a la diversidad
+  (`NOR-024`), sin que el texto haya sido objeto de actualización formal por esa sustitución.
 
 ## 11. Fuentes
 

@@ -74,8 +74,8 @@ módulos asociados a estándares de competencias profesionales.
 
 ## 5. Relación con otras normas
 
-Modifica anexos de la Resolución de 26 de noviembre de 2025 y de la Resolución de 27 de enero de
-2026, **ninguna catalogada en el corpus**, por lo que la relación no se registra como `REL`.
+Modifica anexos de la Resolución de 26 de noviembre de 2025 (`NOR-085`) y de la Resolución de
+27 de enero de 2026 (`NOR-095`), ambas catalogadas en el corpus.
 
 ## 6. Impacto en Canarias
 
@@ -98,8 +98,8 @@ resto de sus instrucciones. Este resumen no sustituye la fuente oficial.
 
 - El texto **no declara fecha de entrada en vigor** ni contiene cláusula derogatoria; usa el
   verbo «modificar». [INTERPRETACIÓN] Se registra la fecha de publicación.
-- [PENDIENTE] Las dos resoluciones modificadas no están catalogadas, así que el corpus no puede
-  ofrecer el cuadro horario resultante ni trazar la cadena de modificaciones.
+- Resuelto el 2026-08-23 (TAREA-093): las resoluciones modificadas están catalogadas como
+  `NOR-085` y `NOR-095`; la cadena de modificaciones es trazable en el corpus.
 
 ## 9. Fuentes
 
