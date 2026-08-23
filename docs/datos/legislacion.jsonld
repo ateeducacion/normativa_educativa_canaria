@@ -1704,6 +1704,98 @@
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/ordenes/NOR-077-orden-1-septiembre-2010-eoep.md"
     },
     {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/ordenes/NOR-111-orden-16-julio-2019-jornada-docente.md",
+      "@type": "Legislation",
+      "alternateName": "Modificación del ROC: jornada docente (2019)",
+      "datePublished": "2019-07-30",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "identificador interno",
+          "value": "NOR-111"
+        }
+      ],
+      "inLanguage": "es",
+      "keywords": [
+        "reglamento-organico-centros",
+        "jornada-docente",
+        "profesorado"
+      ],
+      "legislationAmends": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/ordenes/NOR-076-orden-9-octubre-2013-desarrollo-roc.md",
+          "@type": "Legislation"
+        }
+      ],
+      "legislationDate": "2019-07-16",
+      "legislationIdentifier": [
+        "NOR-111"
+      ],
+      "legislationJurisdiction": {
+        "@type": "AdministrativeArea",
+        "name": "Comunidad Autónoma de Canarias"
+      },
+      "legislationLegalForce": {
+        "@id": "https://schema.org/InForce"
+      },
+      "legislationPassedBy": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Universidades, Cultura y Deportes"
+      },
+      "legislationType": "orden-autonomica",
+      "name": "Orden de 16 de julio de 2019, por la que se modifica la Orden de 9 de octubre de 2013, que desarrolla el Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias",
+      "sameAs": [
+        "https://www.gobiernodecanarias.org/boc/2019/145/001.html"
+      ],
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/ordenes/NOR-111-orden-16-julio-2019-jornada-docente.md"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/ordenes/NOR-112-orden-28-septiembre-2023-reduccion-jornada.md",
+      "@type": "Legislation",
+      "alternateName": "Modificación del ROC: jornada lectiva Maestros (2023)",
+      "datePublished": "2023-10-11",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "identificador interno",
+          "value": "NOR-112"
+        }
+      ],
+      "inLanguage": "es",
+      "keywords": [
+        "reglamento-organico-centros",
+        "jornada-docente",
+        "profesorado"
+      ],
+      "legislationAmends": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/ordenes/NOR-076-orden-9-octubre-2013-desarrollo-roc.md",
+          "@type": "Legislation"
+        }
+      ],
+      "legislationDate": "2023-09-28",
+      "legislationIdentifier": [
+        "NOR-112"
+      ],
+      "legislationJurisdiction": {
+        "@type": "AdministrativeArea",
+        "name": "Comunidad Autónoma de Canarias"
+      },
+      "legislationLegalForce": {
+        "@id": "https://schema.org/InForce"
+      },
+      "legislationPassedBy": {
+        "@type": "Organization",
+        "name": "Consejería de Educación, Formación Profesional, Actividad Física y Deportes"
+      },
+      "legislationType": "orden-autonomica",
+      "name": "Orden de 28 de septiembre de 2023, por la que se modifica la Orden de 9 de octubre de 2013, que desarrolla el Decreto 81/2010, de 8 de julio, por el que se aprueba el Reglamento Orgánico de los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias",
+      "sameAs": [
+        "https://www.gobiernodecanarias.org/boc/2023/201/3291.html"
+      ],
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/ordenes/NOR-112-orden-28-septiembre-2023-reduccion-jornada.md"
+    },
+    {
       "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/resoluciones/NOR-023-resolucion-2020-permisos.md",
       "@type": "Legislation",
       "alternateName": "Permisos y Licencias 2020 (Canarias)",

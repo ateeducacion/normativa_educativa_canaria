@@ -947,6 +947,36 @@
       "url": "https://www.gobiernodecanarias.org/boc/2022/087/011.html"
     },
     {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-118-boc-2019-145-modifica-roc.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-118",
+      "inLanguage": "es",
+      "name": "BOC 2019/145 — Orden de 16 de julio de 2019 que modifica la Orden de 9 de octubre de 2013 (ROC)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-118-boc-2019-145-modifica-roc.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2019/145/001.html"
+    },
+    {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-119-boc-2023-201-modifica-roc.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-08-23",
+      "identifier": "FTE-119",
+      "inLanguage": "es",
+      "name": "BOC 2023/201 — Orden de 28 de septiembre de 2023 que modifica la Orden de 9 de octubre de 2013 (ROC)",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Boletín Oficial de Canarias"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-119-boc-2023-201-modifica-roc.md",
+      "url": "https://www.gobiernodecanarias.org/boc/2023/201/3291.html"
+    },
+    {
       "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-005-loe-texto-consolidado.md",
       "@type": "WebPage",
       "additionalType": "normativa-estatal",
