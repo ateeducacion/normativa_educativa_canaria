@@ -39,21 +39,20 @@
     },
     "tareas": {
       "primer_id": "TAREA-001",
-      "total": 90,
-      "ultimo_id": "TAREA-090"
+      "total": 92,
+      "ultimo_id": "TAREA-092"
     }
   },
   "fuente": "06_indices/",
   "tareas": {
     "por_estado": {
-      "En progreso": 2,
-      "Hecha": 88
+      "Hecha": 92
     }
   },
   "textos_oficiales_locales": {
     "curriculos": 37,
-    "normativa": 98,
-    "total": 135
+    "normativa": 95,
+    "total": 132
   },
   "version_esquema": 1
 }
