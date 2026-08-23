@@ -1662,3 +1662,39 @@ TAREA-093:
   - TAREA-094
   - PREG-013
   ruta: 08_tareas/backlog/TAREA-093-pendientes-corpus.md
+
+TAREA-095:
+  titulo: "Ampliar el análisis detallado de las fichas mínimas de inventario (NOR-117 a NOR-124)"
+  estado: "Hecha"
+  fecha_cierre: 2026-08-23
+  prioridad: "Media"
+  tipo: "analisis"
+  responsable: '@.agents/skills/analisis-normativo'
+  fecha_creacion: 2026-08-23
+  fecha_actualizacion: 2026-08-23
+  relacionadas: []
+  ruta: 08_tareas/backlog/TAREA-095-analisis-detallado-fichas-minimas.md
+
+TAREA-096:
+  titulo: "Ampliar la cobertura Akoma Ntoso a nuevas normas del corpus"
+  estado: "Hecha"
+  fecha_cierre: 2026-08-23
+  prioridad: "Media"
+  tipo: "corpus-ia"
+  responsable: '@.agents/skills/preparacion-corpus-ia'
+  fecha_creacion: 2026-08-23
+  fecha_actualizacion: 2026-08-23
+  relacionadas: []
+  ruta: 08_tareas/backlog/TAREA-096-cobertura-akoma-ntoso-ampliada.md
+
+TAREA-097:
+  titulo: "Revisión periódica de vigencia: auditoría de copias locales y contraste con el BOC"
+  estado: "Hecha"
+  fecha_cierre: 2026-08-23
+  prioridad: "Media"
+  tipo: "control-vigencia"
+  responsable: '@.agents/skills/control-vigencia'
+  fecha_creacion: 2026-08-23
+  fecha_actualizacion: 2026-08-23
+  relacionadas: []
+  ruta: 08_tareas/backlog/TAREA-097-revision-vigencia-boc.md

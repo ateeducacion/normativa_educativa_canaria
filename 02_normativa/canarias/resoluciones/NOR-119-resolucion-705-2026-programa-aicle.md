@@ -22,25 +22,52 @@ relaciones:
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
+
 # NOR-119 — Programa AICLE 2026-2027
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 
 ## 1. Identificación
 
-- **Norma:** Resolución n.º 705/2026, Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación
 - **Fuente oficial:** `FTE-126`. **Fecha de consulta y análisis:** 2026-08-23.
 - **Estado de vigencia:** vigente.
 - **Publicación:** fuera del BOC (portal oficial de la Consejería), conforme a DEC-0012.
 
+- **Acceso:** PDF oficial consultado vía ruta accesible del dominio gobiernodecanarias.org (`cmsgob1/export/sites/...`) el 2026-08-23.
+
 ## 2. Objeto
 
-Regular el programa AICLE para el curso 2026-2027 en Infantil (2.º ciclo), Primaria, ESO y Bachillerato, incluida la solicitud de auxiliar de conversación y las modalidades A-D/Bilingüe.
+La Resolución 705/2026, de 12 de mayo, dicta instrucciones de la DGOEII para el
+desarrollo del programa AICLE en centros públicos de Canarias que imparten Infantil, Primaria,
+ESO y Bachillerato durante el curso 2026-2027. Véase el resumen IA-friendly para el detalle.
 
-## 3. Nota sobre su rango
+## 3. Estructura
 
-Resolución publicada solo en el portal de la Consejería; no es una disposición del BOC.
+34 folios: antecedentes (Primero a Séptimo), fundamentos de derecho (Primero a
+Octavo) y tres RESUELVO. El contenido sustantivo está en seis anexos — I (aspectos generales:
+principios metodológicos, organización, evaluación), II (idiomas y áreas autorizadas), III
+(modalidades C y D, criterios de clasificación, centros plurilingües), IV (Distrito AICLE), V
+(profesorado: perfil lingüístico, compromisos, dedicación) y VI (solicitud, certificación,
+calendario).
 
-Catalogada al amparo de `DEC-0012`: resolución dictada por órgano competente, con parte
-dispositiva y alcance general sobre centros. Su ficha es mínima de inventario; el análisis
-detallado del documento puede ampliarse sin crear entidad nueva.
+## 4. Disposiciones o puntos clave
+
+1. **Anexo III, 2.1 (modalidad C)**: Infantil con mínimo 3 sesiones semanales de 45' en lengua extranjera en el nivel de 5 años; Primaria con dos áreas en lengua extranjera o mínimo 30 % de inmersión; ESO/Bachillerato con dos materias o mínimo 25 %.
+2. **Anexo III, 2.2 (modalidad D)**: Infantil con mínimo 6 sesiones de 45'; Primaria con tres o más áreas o mínimo 40 %; ESO/Bachillerato con tres o más materias o mínimo 40 %. Los Bachibac se clasifican directamente en modalidad D (francés).
+3. **Anexo III, 3**: transitoria — los centros en las extintas modalidades A y B deben alcanzar los requisitos de C o D al inicio del curso 2027-2028.
+4. **Anexo V**: perfil idóneo del profesorado con acreditación **C1 MCER**; quienes ocupen puestos singulares deben acreditarlo antes de finalizar el curso 2027-2028.
+5. **Anexos I y VI**: evaluación del alumnado y del programa (de centro, interna y externa); calendario de solicitud (10 días hábiles) y reclamaciones (2 días hábiles).
+
+## 5. Resumen IA-friendly
+
+La Resolución 705/2026, de 12 de mayo, dicta instrucciones de la DGOEII para el
+desarrollo del programa AICLE en centros públicos de Canarias que imparten Infantil, Primaria,
+ESO y Bachillerato durante el curso 2026-2027. Organiza el programa en modalidades C y D según
+el grado de inmersión lingüística, regula la clasificación de centros plurilingües y Bachibac,
+el perfil lingüístico del profesorado (referencia C1 MCER con transitorias hasta 2027-2028) y
+los procedimientos de solicitud, renuncia, certificación y memoria anual. Este resumen no
+sustituye la fuente oficial.
+
+## 6. Nota sobre su rango
+
+Resolución publicada solo en el portal de la Consejería, catalogada al amparo de `DEC-0012`.

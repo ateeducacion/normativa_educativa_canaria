@@ -1566,6 +1566,45 @@ tareas:
     - FTE-066
     - FTE-067
     - PREG-013
+
+  TAREA-095:
+    titulo: Ampliar el análisis detallado de las fichas mínimas de inventario (NOR-117 a NOR-124)
+    estado: Hecha
+    prioridad: Media
+    tipo: analisis
+    responsable: '@.agents/skills/analisis-normativo'
+    fecha_creacion: 2026-08-23
+    fecha_actualizacion: 2026-08-23
+    fecha_cierre: 2026-08-23
+    relacionadas:
+    - TAREA-094
+    siguiente_accion: null
+  TAREA-096:
+    titulo: Ampliar la cobertura Akoma Ntoso a nuevas normas del corpus
+    estado: Hecha
+    prioridad: Media
+    tipo: corpus-ia
+    responsable: '@.agents/skills/preparacion-corpus-ia'
+    fecha_creacion: 2026-08-23
+    fecha_actualizacion: 2026-08-23
+    fecha_cierre: 2026-08-23
+    relacionadas:
+    - TAREA-090
+    - TAREA-091
+    siguiente_accion: null
+  TAREA-097:
+    titulo: Revisión periódica de vigencia — auditoría de copias locales y contraste con el BOC
+    estado: Hecha
+    prioridad: Alta
+    tipo: control-vigencia
+    responsable: '@.agents/skills/control-vigencia'
+    fecha_creacion: 2026-08-23
+    fecha_actualizacion: 2026-08-23
+    fecha_cierre: 2026-08-23
+    relacionadas:
+    - TAREA-094
+    - DEC-0011
+    siguiente_accion: null
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.

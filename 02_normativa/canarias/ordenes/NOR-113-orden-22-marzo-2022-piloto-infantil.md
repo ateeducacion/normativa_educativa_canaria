@@ -1,6 +1,6 @@
 ---
 id: NOR-113
-titulo: "Orden de 22 de marzo de 2022, por la que se autoriza la implantación piloto del tercer curso de Educación Infantil y aulas mixtas de segundo y tercer curso en escuelas infantiles de titularidad pública de la Comunidad Autónoma de Canarias para el curso escolar 2022/2023"
+titulo: "ORDEN de 22 de marzo de 2022, por la que se autoriza la implantación, con carácter de experiencia piloto, del tercer curso y aulas mixtas de segundo y tercer curso del primer ciclo de Educación Infantil, en determinados centros educativos dependientes de esta Consejería, en el curso 2022/2023"
 nombre_corto: "Piloto primer ciclo de Infantil (2022)"
 tipo_norma: "orden-autonomica"
 ambito: "canarias"

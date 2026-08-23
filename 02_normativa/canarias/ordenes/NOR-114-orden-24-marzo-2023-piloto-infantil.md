@@ -1,6 +1,6 @@
 ---
 id: NOR-114
-titulo: "Orden de 24 de marzo de 2023, por la que se desarrolla la implantación y ampliación de la experiencia piloto del tercer curso de Educación Infantil y aulas mixtas de segundo y tercer curso en las escuelas infantiles de titularidad pública de la Comunidad Autónoma de Canarias para el curso escolar 2023/2024"
+titulo: "ORDEN de 24 de marzo de 2023, por la que se autoriza la implantación, con carácter de experiencia piloto, del primer ciclo de educación infantil, en determinados centros educativos dependientes de esta Consejería, en el curso 2023/2024, dando continuidad a la experiencia piloto iniciada en los centros autorizados en el curso 2022/2023"
 nombre_corto: "Piloto primer ciclo de Infantil (2023)"
 tipo_norma: "orden-autonomica"
 ambito: "canarias"
