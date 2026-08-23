@@ -628,3 +628,19 @@ REL-089:
   fecha_registro: 2026-08-23
   nivel_evidencia: "confirmado-fuente-secundaria-oficial"
   ruta: "05_relaciones/normativa/REL-089-orden-neae-2010-modifica-eoep.yaml"
+
+REL-090:
+  tipo_relacion: "modifica"
+  origen: NOR-115
+  destino: NOR-114
+  fecha_registro: 2026-08-23
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-090-orden-2023-modifica-piloto-infantil.yaml"
+
+REL-091:
+  tipo_relacion: "modifica"
+  origen: NOR-116
+  destino: NOR-114
+  fecha_registro: 2026-08-23
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-091-orden-2024-modifica-piloto-infantil.yaml"

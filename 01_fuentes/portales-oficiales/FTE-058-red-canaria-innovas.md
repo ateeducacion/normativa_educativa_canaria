@@ -8,7 +8,7 @@ fecha_consulta: 2026-05-01
 fecha_analisis: null
 estado_fuente: "Activa"
 nivel_evidencia: "confirmado-fuente-primaria"
-relacionadas: [NOR-024]
+relacionadas: [NOR-024, NOR-118]
 ---
 
 # FTE-058 — Red Canaria-InnovAS
@@ -32,7 +32,7 @@ Marco operativo paraguas de varios programas y planes de centro (igualdad, convi
 
 ## Normas o currículos enlazados
 
-- Resuelto parcialmente el 2026-08-23 (TAREA-093): vinculada con `NOR-024` (atención a la diversidad), que es su norma canaria relacionada —el marcador original citaba NOR-027 por error; esa ficha es la Ley de atención temprana. Quedan pendientes las resoluciones anuales de InnovAS, sin catalogar (TAREA-094).
+- Resuelto parcialmente el 2026-08-23 (TAREA-093): vinculada con `NOR-024` (atención a la diversidad), que es su norma canaria relacionada —el marcador original citaba NOR-027 por error; esa ficha es la Ley de atención temprana. Resuelto también el 2026-08-23 (TAREA-094): vinculada con la resolución anual más reciente del programa (n.º 699/2026), catalogada como `NOR-118`.
 
 ## Observaciones
 

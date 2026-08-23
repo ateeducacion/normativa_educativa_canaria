@@ -24,18 +24,18 @@
     },
     "fuentes": {
       "primer_id": "FTE-001",
-      "total": 119,
-      "ultimo_id": "FTE-119"
+      "total": 131,
+      "ultimo_id": "FTE-131"
     },
     "normativa": {
       "primer_id": "NOR-001",
-      "total": 110,
-      "ultimo_id": "NOR-112"
+      "total": 122,
+      "ultimo_id": "NOR-124"
     },
     "relaciones": {
       "primer_id": "REL-001",
-      "total": 86,
-      "ultimo_id": "REL-089"
+      "total": 88,
+      "ultimo_id": "REL-091"
     },
     "tareas": {
       "primer_id": "TAREA-001",
@@ -46,8 +46,7 @@
   "fuente": "06_indices/",
   "tareas": {
     "por_estado": {
-      "En progreso": 1,
-      "Hecha": 93
+      "Hecha": 94
     }
   },
   "textos_oficiales_locales": {

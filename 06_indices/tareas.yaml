@@ -1631,7 +1631,8 @@ TAREA-092:
 
 TAREA-094:
   titulo: "Catalogar la deuda documental verificada: órdenes del programa piloto de primer ciclo de Infantil, resoluciones anuales de programas y normativa estatal citada"
-  estado: "En progreso"
+  estado: "Hecha"
+  fecha_cierre: 2026-08-23
   prioridad: "Media"
   tipo: "catalogacion"
   responsable: '@.agents/skills/catalogacion-fuentes'

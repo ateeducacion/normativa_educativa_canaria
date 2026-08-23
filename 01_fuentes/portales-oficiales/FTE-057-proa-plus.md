@@ -8,7 +8,7 @@ fecha_consulta: 2026-05-01
 fecha_analisis: null
 estado_fuente: "Activa"
 nivel_evidencia: "confirmado-fuente-primaria"
-relacionadas: []
+relacionadas: [NOR-117]
 ---
 
 # FTE-057 — Programa PROA+ — Cooperación Territorial 2024-2028
@@ -32,7 +32,7 @@ Marco operativo de referencia para inclusión y mejora del rendimiento educativo
 
 ## Normas o currículos enlazados
 
-- Verificado el 2026-08-23 (TAREA-093): el objetivo de esta vinculación (vincular con resoluciones anuales de PROA+ cuando se catalogen.) sigue sin estar catalogado en el corpus; se mantiene como deuda documental registrada en TAREA-094.
+- Resuelto el 2026-08-23 (TAREA-094): vinculada con la resolución anual más reciente del programa (n.º 689/2026, PROA+ 2026-2028), catalogada como `NOR-117`.
 
 ## Observaciones
 

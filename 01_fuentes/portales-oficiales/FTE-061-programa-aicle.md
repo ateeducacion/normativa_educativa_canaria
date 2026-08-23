@@ -8,7 +8,7 @@ fecha_consulta: 2026-05-01
 fecha_analisis: null
 estado_fuente: "Activa"
 nivel_evidencia: "confirmado-fuente-primaria"
-relacionadas: []
+relacionadas: [NOR-119]
 ---
 
 # FTE-061 — Programa AICLE
@@ -32,7 +32,7 @@ Programa de referencia para enseñanza bilingüe y plurilingüismo en Infantil, 
 
 ## Normas o currículos enlazados
 
-- Verificado el 2026-08-23 (TAREA-093): el objetivo de esta vinculación (vincular con resoluciones de habilitación lingüística y convocatorias AICLE/PILE cuando se catalogue específicamente.) sigue sin estar catalogado en el corpus; se mantiene como deuda documental registrada en TAREA-094.
+- Resuelto el 2026-08-23 (TAREA-094): vinculada con las instrucciones anuales más recientes del programa (AICLE 2026-2027), catalogada como `NOR-119`.
 
 ## Observaciones
 

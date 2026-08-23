@@ -8,7 +8,7 @@ fecha_consulta: 2026-05-01
 fecha_analisis: null
 estado_fuente: "Activa"
 nivel_evidencia: "confirmado-fuente-primaria"
-relacionadas: []
+relacionadas: [NOR-120]
 ---
 
 # FTE-065 — OPEEC, Erasmus+ y eTwinning
@@ -32,7 +32,7 @@ Marco operativo de la internacionalización educativa canaria. Útil para locali
 
 ## Normas o currículos enlazados
 
-- Verificado el 2026-08-23 (TAREA-093): el objetivo de esta vinculación (vincular con resoluciones autonómicas de movilidad y formación cuando se catalogue específicamente.) sigue sin estar catalogado en el corpus; se mantiene como deuda documental registrada en TAREA-094.
+- Resuelto el 2026-08-23 (TAREA-094): vinculada con la convocatoria más reciente (intercambio escolar con Francia 2026-2027), catalogada como `NOR-120`.
 
 ## Observaciones
 
