@@ -1537,16 +1537,17 @@ tareas:
     siguiente_accion: null
   TAREA-093:
     titulo: Resolver los pendientes del corpus — PREG-013, marcadores PENDIENTE verificados y fichas históricas reconstruidas
-    estado: En progreso
+    estado: Hecha
     prioridad: Alta
     tipo: calidad-documental
     responsable: '@.agents/skills/control-calidad-documental'
     fecha_creacion: 2026-08-23
     fecha_actualizacion: 2026-08-23
+    fecha_cierre: 2026-08-23
     relacionadas:
     - TAREA-094
     - PREG-013
-    siguiente_accion: Validar, registrar diario y cerrar.
+    siguiente_accion: null
   TAREA-094:
     titulo: Catalogar la deuda documental verificada — órdenes del programa piloto de primer ciclo de Infantil, resoluciones anuales de programas y normativa estatal citada
     estado: En progreso

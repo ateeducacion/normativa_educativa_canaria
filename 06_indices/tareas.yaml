@@ -1647,3 +1647,17 @@ TAREA-094:
   - FTE-067
   - PREG-013
   ruta: 08_tareas/backlog/TAREA-094-catalogacion-deuda-documental-verificada.md
+
+TAREA-093:
+  titulo: "Resolver los pendientes del corpus — PREG-013, marcadores PENDIENTE verificados y fichas históricas reconstruidas"
+  estado: "Hecha"
+  prioridad: "Alta"
+  tipo: "calidad-documental"
+  responsable: '@.agents/skills/control-calidad-documental'
+  fecha_creacion: 2026-08-23
+  fecha_actualizacion: 2026-08-23
+  fecha_cierre: 2026-08-23
+  relacionadas:
+  - TAREA-094
+  - PREG-013
+  ruta: 08_tareas/backlog/TAREA-093-pendientes-corpus.md
