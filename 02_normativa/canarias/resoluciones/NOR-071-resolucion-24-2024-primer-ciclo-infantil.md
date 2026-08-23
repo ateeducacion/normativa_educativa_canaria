@@ -103,9 +103,11 @@ años) ni a las escuelas infantiles municipales o privadas ajenas a esta experie
 - Es la norma a la que remite expresamente la Resolución conjunta n.º 73/2025 (`NOR-046`, IOF
   general del curso 2025-2026) en su Anexo II punto 2, para los centros autorizados a implantar
   el primer ciclo de Infantil.
-- Cita también, como antecedentes, la Orden de 22 de marzo de 2022 y la Orden de 24 de marzo de
-  2023 (modificada por las de 17 de mayo de 2023 y 15 de marzo de 2024), ninguna catalogada aún
-  en el corpus. [PENDIENTE]
+- Cita también, como antecedentes, la Orden de 22 de marzo de 2022 (BOC n.º 62, de 29 de marzo
+  de 2022, anuncio 1015) y la Orden de 24 de marzo de 2023 (BOC n.º 64, de 31 de marzo de 2023,
+  anuncio 972; modificada por las Órdenes de 17 de mayo de 2023 —BOC n.º 101, anuncio 1683— y de
+  15 de marzo de 2024 —BOC n.º 64, de 1 de abril de 2024, anuncio 1141—). Verificado el
+  2026-08-23 (TAREA-093); su catalogación individual queda registrada en `TAREA-094`.
 
 ## 7. Impacto en Canarias
 
@@ -129,7 +131,13 @@ organización y funcionamiento (`NOR-046`) para todo lo relativo al primer ciclo
 
 ## 9. Preguntas frecuentes
 
-[PENDIENTE]
+- ¿A qué centros se aplican estas instrucciones? A los centros públicos canarios autorizados a
+  implantar la experiencia piloto del primer ciclo de Infantil; las IOF generales (`NOR-046`)
+  remiten aquí expresamente (Anexo II, punto 2).
+- ¿Qué jornada tiene el alumnado? Cuatro horas de obligada permanencia, con periodo de acogida
+  de diez días al incorporarse.
+- ¿Qué personal atiende cada aula? Un equipo formado por maestro/a o educador/a infantil,
+  auxiliar educativo y, según ratio, tutor/a con disponibilidad horaria diferenciada.
 
 ## 10. Dudas abiertas
 
@@ -140,8 +148,9 @@ organización y funcionamiento (`NOR-046`) para todo lo relativo al primer ciclo
   investigación de `PREG-009`/`TAREA-078` no encontró sustituta posterior. `fecha_entrada_vigor`
   se deja en `null` en vez de inferirla (R15).
 - Las Órdenes de 22 de marzo de 2022, 24 de marzo de 2023, 17 de mayo de 2023 y 15 de marzo de
-  2024, citadas como antecedentes de la experiencia piloto, no están catalogadas en el corpus.
-  [PENDIENTE]
+  2024, antecedentes de la experiencia piloto, están localizadas en el BOC (verificado el
+  2026-08-23) pero no catalogadas como ficha `NOR`; su catalogación queda registrada en
+  `TAREA-094`.
 
 ## 11. Fuentes
 

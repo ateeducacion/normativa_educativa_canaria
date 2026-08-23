@@ -8,7 +8,7 @@ fecha_consulta: 2026-05-01
 fecha_analisis: null
 estado_fuente: "Activa"
 nivel_evidencia: "confirmado-fuente-primaria"
-relacionadas: []
+relacionadas: [CUR-019, CUR-029]
 ---
 
 # FTE-063 — Matemáticas Newton Canarias
@@ -32,7 +32,7 @@ Programa metodológico de referencia para la competencia matemática en la etapa
 
 ## Normas o currículos enlazados
 
-- [PENDIENTE] vincular con CUR de Matemáticas (Primaria, ESO) cuando se catalogue.
+- Resuelto el 2026-08-23 (TAREA-093): vinculada con los currículos de Matemáticas de ESO (`CUR-019`) y Primaria (`CUR-029`).
 
 ## Observaciones
 

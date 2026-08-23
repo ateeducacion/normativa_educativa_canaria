@@ -604,3 +604,27 @@ REL-086:
   fecha_registro: 2026-08-05
   nivel_evidencia: "confirmado-fuente-primaria"
   ruta: "05_relaciones/normativa/REL-086-grados-cb-desarrollan-rd-659-2023.yaml"
+
+REL-087:
+  tipo_relacion: "modifica"
+  origen: NOR-111
+  destino: NOR-076
+  fecha_registro: 2026-08-23
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-087-orden-2019-modifica-roc.yaml"
+
+REL-088:
+  tipo_relacion: "modifica"
+  origen: NOR-112
+  destino: NOR-076
+  fecha_registro: 2026-08-23
+  nivel_evidencia: "confirmado-fuente-primaria"
+  ruta: "05_relaciones/normativa/REL-088-orden-2023-modifica-roc.yaml"
+
+REL-089:
+  tipo_relacion: "modifica"
+  origen: NOR-025
+  destino: NOR-077
+  fecha_registro: 2026-08-23
+  nivel_evidencia: "confirmado-fuente-secundaria-oficial"
+  ruta: "05_relaciones/normativa/REL-089-orden-neae-2010-modifica-eoep.yaml"

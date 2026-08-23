@@ -101,8 +101,9 @@ mínima de formación en empresa.
 
 ## 7. Derogaciones expresas
 
-[PENDIENTE] El texto no contiene cláusula derogatoria expresa ni menciona derogar ninguna norma
-anterior.
+El texto no contiene cláusula derogatoria expresa ni menciona derogar ninguna norma anterior:
+no deroga norma alguna. Verificado el 2026-08-23 (TAREA-093); es la primera distribución
+horaria de Grados C/B para estas familias en Canarias.
 
 ## 8. Relación con otras normas
 
@@ -162,8 +163,9 @@ oficial (BOC).
 
 - No se declara fecha de entrada en vigor. El resolutivo Octavo solo ordena la publicación en el
   BOC 'para su general conocimiento' y habilita recurso de alzada en el plazo de un mes desde la
-  publicación, pero no fija expresamente cuándo entra en vigor la Resolución. Registrar como
-  [PENDIENTE].
+  publicación, pero no fija expresamente cuándo entra en vigor la Resolución.
+  [INTERPRETACIÓN] A falta de cláusula, se toma la fecha de publicación como entrada en vigor,
+  criterio ya aplicado en otras fichas del corpus.
 - No hay disposición derogatoria: el texto no deroga expresamente ninguna norma anterior (ni la
   Resolución de 30 de octubre de 2024 de Grados D/E, ni ninguna otra).
 - Anomalía tipográfica en el rótulo de los anexos: el Anexo de Edificación y Obra Civil aparece

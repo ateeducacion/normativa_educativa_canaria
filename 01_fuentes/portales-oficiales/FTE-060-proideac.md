@@ -8,7 +8,7 @@ fecha_consulta: 2026-05-01
 fecha_analisis: null
 estado_fuente: "Activa"
 nivel_evidencia: "confirmado-fuente-primaria"
-relacionadas: [NOR-005]
+relacionadas: [NOR-005, NOR-043, NOR-047]
 ---
 
 # FTE-060 — ProIDEAC
@@ -33,7 +33,7 @@ Marco metodológico operativo de referencia que aterriza el currículo (Decreto 
 ## Normas o currículos enlazados
 
 - `NOR-005` (Decreto 30/2023, ESO y Bachillerato en Canarias).
-- [PENDIENTE] vincular con NOR de Primaria e Infantil cuando proceda.
+- Resuelto el 2026-08-23 (TAREA-093): vinculada con los decretos curriculares de Primaria (`NOR-043`) e Infantil (`NOR-047`).
 
 ## Observaciones
 

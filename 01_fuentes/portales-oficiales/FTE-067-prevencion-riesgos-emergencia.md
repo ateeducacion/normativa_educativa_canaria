@@ -32,7 +32,7 @@ Marco operativo de referencia cuando una consulta gira sobre obligaciones de los
 
 ## Normas o currículos enlazados
 
-- [PENDIENTE] vincular con normativa estatal de prevención (Ley 31/1995, RD 39/1997) cuando se catalogue.
+- Verificado el 2026-08-23 (TAREA-093): el objetivo de esta vinculación (vincular con normativa estatal de prevención (Ley 31/1995, RD 39/1997) cuando se catalogue.) sigue sin estar catalogado en el corpus; se mantiene como deuda documental registrada en TAREA-094.
 
 ## Observaciones
 

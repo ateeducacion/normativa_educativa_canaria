@@ -162,7 +162,9 @@ vigente con estas modificaciones.
 ## 11. Dudas abiertas
 
 - El texto no declara una fecha expresa de entrada en vigor (ni 'el mismo día de su publicación'
-  ni otra fórmula); se registra fecha_entrada_vigor vacía. [PENDIENTE]
+  ni otra fórmula); se registra fecha_entrada_vigor vacía. Verificado el 2026-08-23 (TAREA-093):
+  la búsqueda en el BOC no muestra cláusula de vigor ni modificación posterior de esta
+  resolución.
 - No hay mención de derogación, ni total ni parcial, de la Resolución n.º 395/2024: es una
   modificación puntual de tres instrucciones de su Anexo I; el resto de esa Resolución permanece
   inalterado según el propio texto.

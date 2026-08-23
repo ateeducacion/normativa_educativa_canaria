@@ -8,7 +8,7 @@ fecha_consulta: 2026-05-01
 fecha_analisis: null
 estado_fuente: "Activa"
 nivel_evidencia: "confirmado-fuente-primaria"
-relacionadas: [FTE-058]
+relacionadas: [CUR-027, CUR-035, FTE-058]
 ---
 
 # FTE-062 — Programa EnSeñas
@@ -33,7 +33,7 @@ Programa específico de la Red Canaria-InnovAS (FTE-058). Útil para conectar co
 ## Normas o currículos enlazados
 
 - `FTE-058` (Red Canaria-InnovAS).
-- [PENDIENTE] vincular con currículos donde el patrimonio canario aparezca como contenido específico.
+- Resuelto parcialmente el 2026-08-23 (TAREA-093): vinculada con currículos donde el patrimonio natural y cultural canario es contenido explícito (`CUR-027` Lengua —Literatura Canaria—, `CUR-035` Descubrimiento y Exploración del Entorno de Infantil). La lista completa de materias sería más amplia.
 
 ## Observaciones
 

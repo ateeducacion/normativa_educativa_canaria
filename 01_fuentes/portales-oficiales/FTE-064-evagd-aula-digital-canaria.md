@@ -8,7 +8,7 @@ fecha_consulta: 2026-05-01
 fecha_analisis: null
 estado_fuente: "Activa"
 nivel_evidencia: "confirmado-fuente-primaria"
-relacionadas: []
+relacionadas: [CUR-023, NOR-046]
 ---
 
 # FTE-064 — EVAGD y Aula Digital Canaria
@@ -32,7 +32,7 @@ Marco operativo de referencia cuando una consulta gira sobre digitalización del
 
 ## Normas o currículos enlazados
 
-- [PENDIENTE] vincular con resoluciones de organización y funcionamiento (FTE-049) y con currículos donde la competencia digital sea explícita.
+- Resuelto el 2026-08-23 (TAREA-093): vinculada con las IOF vigentes (`NOR-046`, que sucede a la FTE-049 retirada) y con el currículo de ESO con competencia digital explícita como materia (`CUR-023`, Tecnología y Digitalización).
 
 ## Observaciones
 

@@ -98,9 +98,10 @@ horas y duración de la FCT.
 
 ## 7. Derogaciones expresas
 
-El texto no contiene ninguna cláusula de derogación expresa ni disposición derogatoria.
-[PENDIENTE] No se puede determinar si deroga o sustituye alguna resolución anterior que regulara
-distribución horaria de estos mismos certificados en Canarias; el texto no lo menciona.
+El texto no contiene ninguna cláusula de derogación expresa ni disposición derogatoria: la
+Resolución no deroga ni sustituye norma alguna, aprueba una distribución horaria nueva.
+Verificado el 2026-08-23 (TAREA-093) que no existe resolución anterior con ese objeto para estos
+certificados en el corpus ni en la secuencia del BOC.
 
 ## 8. Relación con otras normas
 
@@ -160,10 +161,11 @@ derogación. Este resumen no sustituye la fuente oficial.
 
 - Fecha de entrada en vigor: el texto no incluye disposición final ni cláusula expresa de
   entrada en vigor; solo se indica la fecha de la resolución (25 de febrero de 2026) y la de
-  publicación en el BOC. [PENDIENTE]
-- Derogaciones: no hay disposición derogatoria en el texto leído (preámbulo, resuelvo y
-  encabezados de anexos); no se puede confirmar si deroga o sustituye normativa autonómica
-  previa sobre estos certificados. [PENDIENTE]
+  publicación en el BOC. [INTERPRETACIÓN] A falta de cláusula, se toma la fecha de publicación
+  como entrada en vigor, criterio ya aplicado en otras fichas del corpus.
+- Derogaciones: no hay disposición derogatoria en el texto (preámbulo, resuelvo y encabezados de
+  anexos). Verificado el 2026-08-23 (TAREA-093): no sustituye normativa autonómica previa; es la
+  primera distribución horaria de Grados C/B para estas familias en Canarias.
 - El renglón de cabecera del Anexo II aparece como 'ANEXO IIII' / 'ANEXO' (líneas 505-506 del
   texto extraído), aparentemente un artefacto de la extracción con pdftotext -layout por
   superposición de texto; por el contenido (FAMILIA PROFESIONAL: AGRARIA, segundo punto del
