@@ -22,25 +22,51 @@ relaciones:
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
+
 # NOR-118 — Red Canaria InnovAS 2026-2027
 
 > Este resumen no sustituye la consulta de la fuente oficial.
 
 ## 1. Identificación
 
-- **Norma:** Resolución n.º 699/2026, Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación
 - **Fuente oficial:** `FTE-125`. **Fecha de consulta y análisis:** 2026-08-23.
 - **Estado de vigencia:** vigente.
 - **Publicación:** fuera del BOC (portal oficial de la Consejería), conforme a DEC-0012.
 
+- **Acceso:** El PDF oficial de la ruta `_galerias` requiere el host interno; espejo oficial consultado: `https://www3.gobiernodecanarias.org/medusa/procedimientos/wp-content/uploads/formidable/6/20260512-res-699-convocatoria-red-innovas-2026-2027.pdf` (consultado el 2026-08-23).
+
 ## 2. Objeto
 
-Desarrollar la Red Educativa Canaria InnovAS para la mejora de los aprendizajes en el curso 2026-2027. Corregida por la Resolución n.º 714/2026, de 15 de mayo de 2026.
+La Resolución 699/2026, de 12 de mayo, publica las instrucciones para el desarrollo de
+la Red Educativa Canaria-InnovAS durante el curso 2026-2027, dirigida a centros sostenidos con
+fondos públicos de Infantil, Primaria, ESO y Bachillerato. Véase el resumen IA-friendly para el detalle.
 
-## 3. Nota sobre su rango
+## 3. Estructura
 
-Resolución publicada solo en el portal de la Consejería; no es una disposición del BOC.
+27 folios sin artículos: antecedentes (Primero a Quinto), fundamentos de derecho
+(Primero a Séptimo), dos puntos RESUELVO y ocho anexos — I (finalidad, ámbito, objetivos y
+diseño del PIDAS), II (compromisos), III (ejes temáticos y horario de coordinación), IV
+(calendario de inscripción), V (funciones), VI (procedimiento de certificación), VII (contacto)
+y VIII (descripción de ejes).
 
-Catalogada al amparo de `DEC-0012`: resolución dictada por órgano competente, con parte
-dispositiva y alcance general sobre centros. Su ficha es mínima de inventario; el análisis
-detallado del documento puede ampliarse sin crear entidad nueva.
+## 4. Disposiciones o puntos clave
+
+1. **Anexo I, ámbito**: centros no universitarios sostenidos con fondos públicos que impartan Infantil, Primaria o Secundaria; los concertados pueden inscribirse si disponen de horario y personal docente.
+2. **Anexo I, diseño del PIDAS**: proyecto de innovación incluido en la PGA, cumplimentado en aplicativo del 1 al 30 de octubre de 2026.
+3. **Anexo III**: ejes obligatorios — Eje 1 (Comunicación Lingüística, Bibliotecas y Periodismo Escolar) y Eje 2 (STEAM); opcionales Ejes 3 (Salud), 4 (Ambiental) y 5 (Arte y Cooperación); mínimo 2 ejes (Infantil-Primaria) o 3 (resto).
+4. **Anexo III, horario**: máximo 5 horas lectivas para ejes más 1 hora adicional de coordinación PIDAS; máximo 4 reuniones virtuales por curso.
+5. **Anexo VI, certificación**: requisitos (75 % de asistencia, formulario PIDAS, memoria, certificado por portafirmas) y tabla de horas certificables (30 h coordinación PIDAS; 70 h PIDAS + eje; 40 h coordinación de eje; 20 h participación).
+
+## 5. Resumen IA-friendly
+
+La Resolución 699/2026, de 12 de mayo, publica las instrucciones para el desarrollo de
+la Red Educativa Canaria-InnovAS durante el curso 2026-2027, dirigida a centros sostenidos con
+fondos públicos de Infantil, Primaria, ESO y Bachillerato. Los centros elaboran un proyecto
+PIDAS sobre ejes temáticos (dos obligatorios: comunicación lingüística y STEAM; tres
+opcionales), con horas lectivas de coordinación, calendario de inscripción y procedimiento de
+certificación de horas de formación del profesorado. Corregida por la Resolución 714/2026, de
+15 de mayo. Este resumen no sustituye la fuente oficial.
+
+## 6. Nota sobre su rango
+
+Resolución publicada solo en el portal de la Consejería, catalogada al amparo de `DEC-0012`.

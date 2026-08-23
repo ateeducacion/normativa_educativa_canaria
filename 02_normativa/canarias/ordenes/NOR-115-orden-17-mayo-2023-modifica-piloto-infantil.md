@@ -1,6 +1,6 @@
 ---
 id: NOR-115
-titulo: "Orden de 17 de mayo de 2023, por la que se modifica la Orden de 24 de marzo de 2023, que desarrolla la implantación y ampliación de la experiencia piloto del tercer curso de Educación Infantil y aulas mixtas en las escuelas infantiles de titularidad pública de la Comunidad Autónoma de Canarias"
+titulo: "ORDEN de 17 de mayo de 2023, por la que se modifica la Orden de 24 de marzo de 2023, que autoriza la implantación, con carácter de experiencia piloto, del primer ciclo de Educación Infantil, en determinados centros educativos dependientes de esta Consejería, en el curso 2023/2024, dando continuidad a la experiencia piloto iniciada en los centros autorizados en el curso 2022/2023"
 nombre_corto: "Modificación del piloto de Infantil (mayo 2023)"
 tipo_norma: "orden-autonomica"
 ambito: "canarias"
