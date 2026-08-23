@@ -1609,3 +1609,22 @@ TAREA-091:
   - TAREA-090
   - DEC-0010
   ruta: 08_tareas/backlog/TAREA-091-auditoria-y-normalizacion-corpus.md
+
+TAREA-092:
+  titulo: "Resolver los avisos del validador sobre copias locales contaminadas y alinear textos-oficiales.yaml"
+  estado: "Hecha"
+  fecha_cierre: 2026-08-23
+  prioridad: "Alta"
+  tipo: "calidad-documental"
+  responsable: '@.agents/skills/control-calidad-documental'
+  fecha_creacion: 2026-08-23
+  fecha_actualizacion: 2026-08-23
+  relacionadas:
+  - TAREA-084
+  - TAREA-085
+  - TAREA-091
+  - DEC-0011
+  - PREG-010
+  - PREG-011
+  - PREG-012
+  ruta: 08_tareas/backlog/TAREA-092-resolucion-avisos-copias-locales.md

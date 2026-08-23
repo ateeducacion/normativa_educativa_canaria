@@ -914,35 +914,27 @@ normativa:
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-017-orden-28-julio-2014-infantil.md
     fuente_principal: FTE-013
     fecha_consulta: 2026-04-26
-    estado_vigencia: Vigente
-    estado_acceso: con-copia-local
+    estado_vigencia: "No normativa — catalogación errónea, la norma no existe (DEC-0011)"
+    estado_acceso: enlace-oficial
+    observaciones: "Copia local eliminada el 2026-08-23 (TAREA-092): solo contenía navegación del BOC; la norma fue retirada por DEC-0011."
     enlaces:
       url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local:
-      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-017-orden-28-julio-2014-infantil.txt
-      sha256: 3c76f07ad21dec40a24129cfe3dcb8e5b34117bf16f8be03f444a573c785c044
-      url_origen: https://www.gobiernodecanarias.org/boc/2014/150/001.html
-      fecha_exportacion: '2026-04-27'
   NOR-018:
     titulo: Orden de 1 de septiembre de 2010, por la que se regula la organización y funcionamiento de los Institutos de Educación Secundaria
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-018-orden-1-sept-2010-ies.md
     fuente_principal: FTE-013
     fecha_consulta: 2026-04-26
-    estado_vigencia: Vigente
-    estado_acceso: con-copia-local
+    estado_vigencia: "No normativa — catalogación errónea, la norma no existe (DEC-0011)"
+    estado_acceso: enlace-oficial
+    observaciones: "Copia local eliminada el 2026-08-23 (TAREA-092): solo contenía navegación del BOC; la norma fue retirada por DEC-0011."
     enlaces:
       url_html: https://www.gobiernodecanarias.org/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local:
-      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-018-orden-1-sept-2010-ies.txt
-      sha256: 43b047508f11cf883bb6953694df915ef85e709e912fac61c868e56f7d7b0558
-      url_origen: https://www.gobiernodecanarias.org/boc/2010/178/001.html
-      fecha_exportacion: '2026-04-27'
   NOR-019:
     titulo: Ley 2/1987, de 30 de marzo, de la Función Pública Canaria
     ruta_corpus: 02_normativa/canarias/leyes/NOR-019-ley-canaria-funcion-publica.md
@@ -1050,7 +1042,7 @@ normativa:
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-025-orden-13-12-2010-neae.md
     fuente_principal: FTE-028
     fecha_consulta: 2026-08-05
-    estado_vigencia: Superada parcialmente
+    estado_vigencia: "Vigente (rectificado: la norma que se decía que la superaba no existe, PREG-012)"
     estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2010/250/001.html
@@ -1441,18 +1433,14 @@ normativa:
     ruta_corpus: 02_normativa/canarias/ordenes/NOR-050-orden-procedimientos-neae-2023.md
     fuente_principal: FTE-053
     fecha_consulta: 2026-04-26
-    estado_vigencia: Vigente
-    estado_acceso: con-copia-local
+    estado_vigencia: "No normativa — catalogación errónea, la norma no existe (DEC-0011)"
+    estado_acceso: enlace-oficial
+    observaciones: "Copia local eliminada el 2026-08-23 (TAREA-092): solo contenía navegación del BOC; la norma fue retirada por DEC-0011."
     enlaces:
       url_html: https://www.gobiernodecanarias.org/boc/2023/105/001.html
       url_pdf: null
       url_texto_consolidado: null
       url_anexo: null
-    texto_plano_local:
-      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-050-orden-procedimientos-neae-2023.txt
-      sha256: 4e3d9fd0119a4328c39926b8bd40bd8aab8b0ec86168741bc7c9ba34831d0c17
-      url_origen: https://www.gobiernodecanarias.org/boc/2023/105/001.html
-      fecha_exportacion: '2026-04-27'
   NOR-051:
     titulo: Real Decreto 546/1995, de 7 de abril, título de Técnico en Cuidados Auxiliares de Enfermería
     ruta_corpus: 02_normativa/estatal/reales-decretos/NOR-051-rd-546-1995-cuidados-auxiliares-enfermeria.md

@@ -554,6 +554,53 @@ def validar_resumenes() -> dict:
     return {"tipo": "RESUMENES", "ficheros": revisados, "errores": errores, "avisos": []}
 
 
+def validar_textos_oficiales() -> dict:
+    """Comprueba la integridad de `06_indices/textos-oficiales.yaml`.
+
+    Dos defectos convivieron meses sin que nada los detectara (TAREA-092): las
+    entradas de NOR-017/018/050 seguían declarando `estado_vigencia: Vigente`
+    después de que DEC-0011 retirara las fichas como catalogación errónea, y una
+    `ruta_local` eliminada habría dejado una entrada de índice apuntando a un
+    fichero inexistente. Se comprueba que cada copia local resuelva y que la
+    vigencia declarada coincida con la de su ficha normativa.
+    """
+    errores = []
+    indice = entradas_del_indice("textos-oficiales.yaml")
+    normativa = entradas_del_indice("normativa.yaml")
+
+    def recorrer(node):
+        if isinstance(node, dict):
+            if "ruta_corpus" in node:
+                yield node
+            else:
+                for valor in node.values():
+                    yield from recorrer(valor)
+
+    revisados = 0
+    for entrada in recorrer(indice):
+        revisados += 1
+        ruta_corpus = str(entrada.get("ruta_corpus", ""))
+        identificador = ID_EN_NOMBRE.match(pathlib.Path(ruta_corpus).name)
+        identificador = identificador.group(1) if identificador else None
+        bloque_copia = entrada.get("texto_plano_local")
+        ruta_local = bloque_copia.get("ruta_local") if isinstance(bloque_copia, dict) else None
+        if ruta_local and not (RAIZ / ruta_local).exists():
+            errores.append({
+                "fichero": "06_indices/textos-oficiales.yaml",
+                "campo": identificador or ruta_corpus,
+                "mensaje": f"la copia local declarada no existe: {ruta_local}",
+            })
+        ficha = normativa.get(identificador) if identificador else None
+        if ficha and normalizar(entrada.get("estado_vigencia")) != normalizar(ficha.get("estado_vigencia")):
+            errores.append({
+                "fichero": "06_indices/textos-oficiales.yaml",
+                "campo": f"{identificador}.estado_vigencia",
+                "mensaje": f"el índice dice {entrada.get('estado_vigencia')!r} y la ficha "
+                           f"normativa dice {ficha.get('estado_vigencia')!r}",
+            })
+    return {"tipo": "TEXTOS-OFICIALES", "ficheros": revisados, "errores": errores, "avisos": []}
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Valida el corpus contra schemas/ y 06_indices/.")
     parser.add_argument("--json", action="store_true", help="salida JSON para integración continua")
@@ -570,6 +617,7 @@ def main() -> int:
         informes.append(validar_textos_locales())
         informes.append(validar_frontmatter_curricular())
         informes.append(validar_resumenes())
+        informes.append(validar_textos_oficiales())
     total_errores = sum(len(i["errores"]) for i in informes)
     total_avisos = sum(len(i["avisos"]) for i in informes)
 
