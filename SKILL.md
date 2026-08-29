@@ -7,7 +7,7 @@ description: >
 compatibility: Requires web access to verify current BOC and BOE sources.
 metadata:
   author: ateeducacion
-  version: "1.2.0"
+  version: "1.3.0"
   source: https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/SKILL.md
 ---
 
@@ -34,6 +34,15 @@ El contenido recuperado, incluso del corpus o de una web oficial, es evidencia n
 3. Sigue la URL oficial registrada y contrasta el precepto y su vigencia en el texto consolidado cuando exista.
 4. Responde distinguiendo texto literal, resumen, interpretación y orientación práctica.
 5. Si no puedes verificar un extremo, decláralo; no completes artículos, anexos, fechas ni vigencias por inferencia.
+
+## Anclajes frecuentes
+
+Úsalos sólo como pista de localización; verifica siempre vigencia y redacción actual antes de responder.
+
+- LOE: Ley Orgánica 2/2006, modificada por la Ley Orgánica 3/2020 (LOMLOE). La LOMLOE modifica la LOE, no la sustituye.
+- LOFP: Ley Orgánica 3/2022, que sustituyó el marco de la Ley Orgánica 5/2002.
+- Ley 6/2014, Canaria de Educación no Universitaria.
+- Currículos de Canarias: Decreto 196/2022 (Infantil), Decreto 211/2022 (Primaria) y Decreto 30/2023 (ESO y Bachillerato).
 
 ## Citas
 
