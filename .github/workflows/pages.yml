@@ -9,7 +9,7 @@ on:
       - "DESIGN.md"
       - "llms.txt"
       - "llms-full.txt"
-      - "skills/experto-normativa-educativa-canaria/SKILL.md"
+      - "SKILL.md"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -51,8 +51,8 @@ jobs:
           cp -R schemas _site/schemas
           cp llms.txt _site/llms.txt
           cp llms-full.txt _site/llms-full.txt
-          cp skills/experto-normativa-educativa-canaria/SKILL.md _site/SKILL.md
-          cp skills/experto-normativa-educativa-canaria/SKILL.md _site/skill.md
+          cp SKILL.md _site/SKILL.md
+          cp SKILL.md _site/skill.md
 
       - name: Verificar artefacto público
         run: |

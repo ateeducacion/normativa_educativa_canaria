@@ -146,10 +146,9 @@ ln -sfn ../../.agents/skills/<nombre> .claude/skills/<nombre>
 - `perfil-docente`: revisión de claridad para profesorado.
 - `publicacion-portal`: cambios en el portal público de `docs/` y en su publicación.
 
-No confundir `.agents/skills/experto-normativa-canaria` (skill interna, aporta contexto
-autonómico al trabajar sobre el corpus) con `skills/experto-normativa-educativa-canaria`
-(skill pública y copiable, que se publica como `SKILL.md` en GitHub Pages para uso en
-asistentes externos).
+No confundir `.agents/skills/experto-normativa-canaria` (skill interna para trabajar
+sobre el corpus) con `SKILL.md` en la raíz (skill pública y copiable para asistentes
+externos).
 
 ## 15. Criterios de cierre de tarea
 

@@ -176,7 +176,7 @@ Consultas priorizadas:
 ## Reglas De Uso Para IA
 
 - [Skill copiable "Experto en normativa educativa de Canarias"](https://ateeducacion.github.io/normativa_educativa_canaria/SKILL.md)
-- [Skill canónica en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/skills/experto-normativa-educativa-canaria)
+- [Skill canónica en el repositorio](https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/SKILL.md)
 - [Disciplina de evidencia](https://ateeducacion.github.io/normativa_educativa_canaria/metodologia/disciplina-evidencia.md)
 - [Metodología, criterios y glosario](https://github.com/ateeducacion/normativa_educativa_canaria/tree/main/00_gobierno-repositorio)
 - [Guía de validación](https://ateeducacion.github.io/normativa_educativa_canaria/guias/validacion.md)
