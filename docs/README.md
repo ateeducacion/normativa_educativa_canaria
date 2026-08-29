@@ -28,7 +28,7 @@ Para activar la publicación una vez:
 2. Entre en **Pages**.
 3. En **Build and deployment**, seleccione **GitHub Actions** como origen.
 4. Guarde los cambios.
-5. El primer push a `main` que toque `docs/`, `llms.txt`, `llms-full.txt`, `skills/experto-normativa-educativa-canaria/SKILL.md` o el propio workflow lanzará el despliegue. También se puede lanzar a mano desde la pestaña **Actions** con **Run workflow**.
+5. El primer push a `main` que toque `docs/`, `llms.txt`, `llms-full.txt`, `SKILL.md` o el propio workflow lanzará el despliegue. También se puede lanzar a mano desde la pestaña **Actions** con **Run workflow**.
 
 ## URLs públicas esperadas
 
@@ -49,6 +49,6 @@ Para activar la publicación una vez:
 
 - El bloque de inventario de `README.md`, la sección «Foto Indexada» de `llms.txt` y `docs/datos/inventario.json` se generan desde `06_indices/`. Después de modificar los índices, ejecute `python3 11_calidad/generar_inventario.py --write`; el flujo de validación comprueba que no queden desactualizados.
 - El catálogo JSON-LD, el grafo de legislación, el bloque estructurado de `index.html` y el piloto Akoma Ntoso se generan desde las fichas normativas. Después de modificarlas, ejecute `python3 11_calidad/generar_interoperabilidad.py --write`; CI comprueba su correspondencia exacta.
-- Edite `llms.txt` y `llms-full.txt` solo en la raíz del repositorio, y la skill solo en `skills/experto-normativa-educativa-canaria/SKILL.md`. No existe copia en `docs/`. El despliegue las añade automáticamente al sitio publicado junto con el corpus Markdown/YAML expuesto en GitHub Pages.
+- Edite `llms.txt`, `llms-full.txt` y `SKILL.md` sólo en la raíz. No existe una segunda copia en `docs/`; el despliegue los añade al sitio publicado.
 - Si necesita previsualizar el sitio en local, copie temporalmente esos dos archivos a `docs/` o use el mismo procedimiento que el workflow.
 - Para añadir páginas nuevas al sitio, añada el archivo dentro de `docs/` y actualice la navegación de `index.html` si procede.
