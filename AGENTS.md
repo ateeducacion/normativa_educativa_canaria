@@ -64,7 +64,7 @@ Los que se cargan solos:
 
 Las lentes de etapa y de ámbito están en `references/` de `analisis-normativo` y de `analisis-curricular`. Los directorios `experto-*` y `perfil-docente` que quedan al lado solo tienen un `LEEME.md`, para las rutas que ya citan las tareas. No son skills.
 
-`SKILL.md` en la raíz es la skill pública para asistentes de fuera. No es lo mismo que `experto-normativa-canaria`.
+La skill pública para asistentes de fuera está en [`skills/experto-normativa-educativa-canaria/SKILL.md`](skills/experto-normativa-educativa-canaria/SKILL.md), la ruta que reconoce `gh skill install`. El portal la sirve como `SKILL.md`. No es lo mismo que `experto-normativa-canaria`.
 
 Los skills de terceros se instalan con `gh skill install OWNER/REPO PATH --dir .agents/skills`. El origen está en [`.agents/upstream-skills.txt`](.agents/upstream-skills.txt). Se mantienen verbatim. [`.github/workflows/update-agent-skills.yml`](.github/workflows/update-agent-skills.yml) los actualiza cada lunes y abre un PR. No fusiona solo.
 

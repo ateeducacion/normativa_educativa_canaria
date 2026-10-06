@@ -10,4 +10,4 @@ rsync -a --delete --exclude .DS_Store --exclude .venv .agents/skills/ .claude/sk
 
 Cada skill es un directorio con `SKILL.md`. `name` coincide con el directorio. `description` dice qué hace y cuándo usarla: es el texto que el modelo ve antes de abrir el fichero.
 
-`SKILL.md` en la raíz del repositorio es la skill pública para asistentes externos. No es una de estas skills internas.
+La skill pública para asistentes externos está en `skills/experto-normativa-educativa-canaria/SKILL.md`, no en esta carpeta. No es una de estas skills internas.

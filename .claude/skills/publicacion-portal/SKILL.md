@@ -72,7 +72,7 @@ desborda en horizontal y que las interacciones responden. Cierra el servidor al 
 
 `.github/workflows/pages.yml` compone el sitio: copia `docs/` a la raíz publicada y añade
 `README.md`, `DESIGN.md`, `index.md`, `status.yaml`, `AGENTS.md`, `llms.txt`, `llms-full.txt`,
-las carpetas del corpus y `SKILL.md` (dos veces, como `SKILL.md` y como `skill.md`).
+las carpetas del corpus y la skill pública `skills/experto-normativa-educativa-canaria/SKILL.md` (dos veces, como `SKILL.md` y como `skill.md`).
 
 Al borrar o renombrar una página de `docs/`, busca antes quién la enlaza:
 
