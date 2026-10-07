@@ -687,11 +687,11 @@ NOR-046:
   nombre_corto: "Instrucciones IOF 2025-2026"
   tipo_norma: "resolucion-administrativa"
   ambito: "canarias"
-  estado_vigencia: "Vigente"
+  estado_vigencia: "Histórica — aplicación al curso 2025-2026; referencia anual 2026-2027 en NOR-127"
   fecha_disposicion: 2025-06-20
   fecha_publicacion: null
   fecha_entrada_vigor: 2025-09-01
-  fecha_consulta: 2026-04-26
+  fecha_consulta: 2026-10-07
   fuente_principal: FTE-049
   ruta: "02_normativa/canarias/resoluciones/NOR-046-resolucion-iof-25-26.md"
   temas: [organizacion, funcionamiento, instrucciones]
@@ -1751,3 +1751,158 @@ NOR-121:
   ruta: "02_normativa/europeas/NOR-121-rgpd-2016-679.md"
   temas: [proteccion-datos]
   etapas_afectadas: [todas]
+
+NOR-125:
+  titulo: Instrucciones de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, para la evaluación
+    y calificación del alumnado en las etapas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria
+    y Bachillerato, de aplicación en los centros educativos de la Comunidad Autónoma de Canarias a partir del curso 2026/2027
+  nombre_corto: Evaluación y calificación desde 2026-2027
+  tipo_norma: instrucciones-administrativas
+  ambito: canarias
+  estado_vigencia: Vigente
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-132
+  temas:
+  - evaluacion
+  - calificacion
+  - instrucciones
+  - lomloe
+  etapas_afectadas:
+  - infantil
+  - primaria
+  - eso
+  - bachillerato
+  ruta: 02_normativa/canarias/resoluciones/NOR-125-instrucciones-evaluacion-calificacion-2026-2027.md
+NOR-126:
+  titulo: Resolución de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, por la que se establecen
+    las rúbricas de los criterios de evaluación de las etapas de Educación Infantil y de los ámbitos del Programa de Diversificación
+    Curricular, para orientar y facilitar la evaluación y la calificación objetiva del alumnado, en la Comunidad Autónoma
+    de Canarias, en el marco de la LOMLOE
+  nombre_corto: Rúbricas Infantil y Diversificación Curricular (1141/2026)
+  tipo_norma: resolucion-administrativa
+  ambito: canarias
+  estado_vigencia: Pendiente de verificación — acto publicado en el portal; publicación BOC y efectos pendientes (PREG-014)
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-133
+  temas:
+  - evaluacion
+  - calificacion
+  - rubricas
+  - diversificacion-curricular
+  - lomloe
+  etapas_afectadas:
+  - infantil
+  - eso
+  ruta: 02_normativa/canarias/resoluciones/NOR-126-resolucion-1141-2026-rubricas-infantil-diversificacion.md
+NOR-127:
+  titulo: Resolución conjunta de la Viceconsejería de Educación y la Viceconsejería de Formación Profesional y Cualificaciones
+    Profesionales por la que se dictan instrucciones de organización y funcionamiento dirigidas a los centros docentes públicos
+    no universitarios de la Comunidad Autónoma de Canarias para el curso 2026-2027
+  nombre_corto: Instrucciones IOF 2026-2027
+  tipo_norma: resolucion-administrativa
+  ambito: canarias
+  estado_vigencia: Vigente con modificaciones — NOR-128 y NOR-129; curso 2026-2027
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-134
+  temas:
+  - organizacion
+  - funcionamiento
+  - instrucciones
+  - curso-2026-2027
+  etapas_afectadas:
+  - infantil
+  - primaria
+  - eso
+  - bachillerato
+  - formacion-profesional
+  - educacion-adultos
+  - regimen-especial
+  ruta: 02_normativa/canarias/resoluciones/NOR-127-resolucion-73-2026-organizacion-funcionamiento.md
+NOR-128:
+  titulo: Resolución conjunta de la Viceconsejería de Educación y la Viceconsejería de Formación Profesional y Cualificaciones
+    Profesionales por la que se modifica la Resolución de 27 de mayo de 2026 por la que se dictan instrucciones de organización
+    y funcionamiento dirigidas a los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias para
+    el curso 2026-2027
+  nombre_corto: 'Corrección IOF: horas de innovación FP (95/2026)'
+  tipo_norma: resolucion-administrativa
+  ambito: canarias
+  estado_vigencia: Vigente
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-135
+  temas:
+  - organizacion
+  - formacion-profesional
+  - innovacion
+  - horario-docente
+  etapas_afectadas:
+  - formacion-profesional
+  ruta: 02_normativa/canarias/resoluciones/NOR-128-resolucion-95-2026-modificacion-iof-fp.md
+NOR-129:
+  titulo: Resolución conjunta de la Viceconsejería de Educación y la Viceconsejería de Formación Profesional y Cualificaciones
+    Profesionales por la que se modifica la Resolución de 27 de mayo de 2026 por la que se dictan instrucciones de organización
+    y funcionamiento dirigidas a los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias para
+    el curso 2026-2027
+  nombre_corto: 'Corrección IOF: recogida por hermanos menores (110/2026)'
+  tipo_norma: resolucion-administrativa
+  ambito: canarias
+  estado_vigencia: Vigente
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-136
+  temas:
+  - organizacion
+  - alumnado
+  - familias
+  - recogida-menores
+  etapas_afectadas:
+  - infantil
+  - primaria
+  - eso
+  - bachillerato
+  - formacion-profesional
+  - educacion-adultos
+  - regimen-especial
+  ruta: 02_normativa/canarias/resoluciones/NOR-129-resolucion-110-2026-recogida-hermanos-menores.md
+NOR-130:
+  titulo: Orden de 6 de agosto de 2026, por la que se actualiza la configuración de los Colectivos de Escuelas Rurales del
+    ámbito de la Comunidad Autónoma de Canarias, para el curso escolar 2026-2027
+  nombre_corto: Configuración CER 2026-2027
+  tipo_norma: orden-autonomica
+  ambito: canarias
+  estado_vigencia: Vigente con modificaciones — anexo modificado por NOR-131; curso 2026-2027
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-137
+  temas:
+  - centros
+  - escuelas-rurales
+  - organizacion
+  - curso-2026-2027
+  etapas_afectadas:
+  - infantil
+  - primaria
+  ruta: 02_normativa/canarias/ordenes/NOR-130-orden-6-agosto-2026-colectivos-escuelas-rurales.md
+NOR-131:
+  titulo: Orden de 25 de septiembre de 2026, por la que se modifica el anexo de la Orden de 6 de agosto de 2026, que actualiza
+    la configuración de los Colectivos de Escuelas Rurales del ámbito de la Comunidad Autónoma de Canarias, para el curso
+    escolar 2026-2027
+  nombre_corto: 'Modificación CER: CEIP San Vicente 2026-2027'
+  tipo_norma: orden-autonomica
+  ambito: canarias
+  estado_vigencia: Vigente
+  fecha_consulta: '2026-10-07'
+  fecha_analisis: '2026-10-07'
+  fuente_principal: FTE-138
+  temas:
+  - centros
+  - escuelas-rurales
+  - organizacion
+  - curso-2026-2027
+  etapas_afectadas:
+  - infantil
+  - primaria
+  ruta: 02_normativa/canarias/ordenes/NOR-131-orden-25-septiembre-2026-modifica-colectivos-escuelas-rurales.md

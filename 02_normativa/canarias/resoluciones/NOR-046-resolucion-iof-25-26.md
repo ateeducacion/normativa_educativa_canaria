@@ -8,9 +8,9 @@ autoridad: "Viceconsejería de Educación"
 fecha_disposicion: 2025-06-20
 fecha_publicacion: null
 fecha_entrada_vigor: 2025-09-01
-fecha_consulta: 2026-08-05
-fecha_analisis: 2026-04-26
-estado_vigencia: "Vigente"
+fecha_consulta: 2026-10-07
+fecha_analisis: 2026-10-07
+estado_vigencia: "Histórica — aplicación al curso 2025-2026; referencia anual 2026-2027 en NOR-127"
 fuente_principal: FTE-049
 url_oficial: "https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/r_73-2025-instrucciones_or_func_2025-2026.pdf"
 etapas_afectadas: [infantil, primaria, eso, bachillerato, formacion-profesional, educacion-adultos]
@@ -21,7 +21,7 @@ relaciones:
   modifica_a: []
   deroga_a: []
   derogada_por: []
-  relacionada_con: [NOR-043, NOR-047]
+  relacionada_con: [NOR-043, NOR-047, NOR-127]
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 
@@ -33,7 +33,7 @@ nivel_evidencia: "confirmado-fuente-primaria"
 
 - **Norma:** Resolución conjunta n.º 73/2025, de 20 de junio.
 - **Ámbito:** Canarias (Centros Públicos).
-- **Estado de vigencia:** Vigente para el curso 2025-2026.
+- **Estado de vigencia:** Histórica; aplicación al curso 2025-2026. Para 2026-2027, consultar `NOR-127` y sus modificaciones. No se afirma derogación expresa.
 
 ## 2. Objeto de la norma
 
@@ -89,3 +89,7 @@ personas adultas 9.
 
 El identificador `NOR-049` queda retirado y no se reutiliza (R10). Decisión registrada en
 `PREG-009`.
+
+## Revisión temporal (2026-10-07)
+
+El título limita su aplicación a 2025-2026. Se conserva el documento como histórico. [INTERPRETACIÓN] Para la organización del curso 2026-2027, la referencia anual es `NOR-127`; esto no acredita derogación expresa. Fuente de contraste: `FTE-134`, resolución conjunta 73/2026, resuelvo primero.

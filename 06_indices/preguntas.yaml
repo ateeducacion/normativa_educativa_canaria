@@ -100,3 +100,11 @@ PREG-013:
   relacionadas: [NOR-005, NOR-043, NOR-047, TAREA-087]
   ruta: "08_tareas/preguntas/PREG-013-eli-en-el-boc.md"
 
+PREG-014:
+  titulo: Publicación BOC y efectos de la Resolución 1141/2026 de rúbricas de Infantil y PDC
+  estado: Abierta
+  fecha_registro: '2026-10-07'
+  relacionadas:
+  - NOR-126
+  - FTE-133
+  ruta: 08_tareas/preguntas/PREG-014-publicacion-boc-rubricas-1141-2026.md

@@ -1,12 +1,12 @@
 meta:
   descripcion: Accesos rápidos a texto oficial y copias locales rápidas cuando existan.
-  fecha_actualizacion: '2026-04-27'
+  fecha_actualizacion: '2026-10-07'
   advertencia: Este índice no sustituye la fuente oficial. Prioriza siempre la publicación oficial y usa la copia local solo como apoyo de lectura rápida o RAG.
   lote_local_inicial:
   - NOR-001
   - NOR-003
   - NOR-005
-  copias_locales_totales: 97
+  copias_locales_totales: 138
 fuentes:
   FTE-001:
     titulo: Normativa educativa — Gobierno de Canarias
@@ -636,6 +636,112 @@ fuentes:
       url_texto_consolidado: null
       url_anexo: null
     texto_plano_local: null
+  FTE-132:
+    titulo: Texto oficial — Evaluación y calificación desde 2026-2027
+    ruta_corpus: 01_fuentes/portales-oficiales/FTE-132-instrucciones-evaluacion-calificacion-2026-2027.md
+    fecha_consulta: '2026-10-07'
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: null
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261006-instrucciones-evaluacion-calificacion-lomloe-26-27.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-125-instrucciones-evaluacion-calificacion-2026-2027.txt
+      sha256: 7540a2e2e560129b44c73f786942843a0c211e809a7d22a71ce40a479afb8752
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261006-instrucciones-evaluacion-calificacion-lomloe-26-27.pdf
+      fecha_exportacion: '2026-10-07'
+  FTE-133:
+    titulo: Texto oficial — Rúbricas Infantil y Diversificación Curricular (1141/2026)
+    ruta_corpus: 01_fuentes/portales-oficiales/FTE-133-resolucion-1141-2026-rubricas-infantil-diversificacion.md
+    fecha_consulta: '2026-10-07'
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: null
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261005-res-1141-rubricas-educacion-infantil-programa-diversificacion-curricular-26-27.pdf
+      url_texto_consolidado: null
+      url_anexo: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/otros/anexo-1-20261005-res-1141-rubricas-educacion-infantil-26-27.pdf
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-126-resolucion-1141-2026-rubricas-infantil-diversificacion.txt
+      sha256: 5afea9e2d50076e3fd42e341881b0bcb608e35a5bfc201133f4b1188969615ee
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261005-res-1141-rubricas-educacion-infantil-programa-diversificacion-curricular-26-27.pdf
+      fecha_exportacion: '2026-10-07'
+  FTE-134:
+    titulo: Texto oficial — Instrucciones IOF 2026-2027
+    ruta_corpus: 01_fuentes/portales-oficiales/FTE-134-resolucion-73-2026-organizacion-funcionamiento.md
+    fecha_consulta: '2026-10-07'
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: null
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion-73-instrucciones-organizacion-funcionamiento-centros-curso-26-27.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-127-resolucion-73-2026-organizacion-funcionamiento.txt
+      sha256: 3ebe977a4c13812f9aad43f562eb9224535bb24b96be5f837f8aee2b41dcfff9
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion-73-instrucciones-organizacion-funcionamiento-centros-curso-26-27.pdf
+      fecha_exportacion: '2026-10-07'
+  FTE-135:
+    titulo: 'Texto oficial — Corrección IOF: horas de innovación FP (95/2026)'
+    ruta_corpus: 01_fuentes/portales-oficiales/FTE-135-resolucion-95-2026-modificacion-iof-fp.md
+    fecha_consulta: '2026-10-07'
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: null
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20260717-res-95-modificacion-instrucciones-organizacion-funcionamiento-centros-publicos-curso-26-27.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-128-resolucion-95-2026-modificacion-iof-fp.txt
+      sha256: 8c59f548ab2cf59448fc21048ddf638497fd601ef5a790a68e2f40d0eeaa1955
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20260717-res-95-modificacion-instrucciones-organizacion-funcionamiento-centros-publicos-curso-26-27.pdf
+      fecha_exportacion: '2026-10-07'
+  FTE-136:
+    titulo: 'Texto oficial — Corrección IOF: recogida por hermanos menores (110/2026)'
+    ruta_corpus: 01_fuentes/portales-oficiales/FTE-136-resolucion-110-2026-recogida-hermanos-menores.md
+    fecha_consulta: '2026-10-07'
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: null
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion-conjunta-110-2026_modificacion-instrucciones_organizacion_centros_curso-26_27.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-129-resolucion-110-2026-recogida-hermanos-menores.txt
+      sha256: d1d796edf2fb32c2e6b615a0ca605f7064ec647bb010be2103f9bd67d49b81f7
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion-conjunta-110-2026_modificacion-instrucciones_organizacion_centros_curso-26_27.pdf
+      fecha_exportacion: '2026-10-07'
+  FTE-137:
+    titulo: Texto oficial — Configuración CER 2026-2027
+    ruta_corpus: 01_fuentes/portales-oficiales/FTE-137-orden-6-agosto-2026-colectivos-escuelas-rurales.md
+    fecha_consulta: '2026-10-07'
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/166/2986.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-166-2986.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-130-orden-6-agosto-2026-colectivos-escuelas-rurales.txt
+      sha256: f3e21cb4f19afa9081bfea3236b2d5e5dfa9d762e3644e7f89100f92a7887ac4
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-166-2986.pdf
+      fecha_exportacion: '2026-10-07'
+  FTE-138:
+    titulo: 'Texto oficial — Modificación CER: CEIP San Vicente 2026-2027'
+    ruta_corpus: 01_fuentes/portales-oficiales/FTE-138-orden-25-septiembre-2026-modifica-colectivos-escuelas-rurales.md
+    fecha_consulta: '2026-10-07'
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/201/3465.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-201-3465.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-131-orden-25-septiembre-2026-modifica-colectivos-escuelas-rurales.txt
+      sha256: cc7ce6c6ac6f301f20f2d3ac44115d82f861ed83b7623fb8c341d3e9fbf8e15e
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-201-3465.pdf
+      fecha_exportacion: '2026-10-07'
+
 normativa:
   NOR-001:
     titulo: Ley Orgánica 2/2006, de 3 de mayo, de Educación
@@ -1398,8 +1504,8 @@ normativa:
     titulo: Resolución conjunta n.º 73/2025, de 20 de junio, por la que se dictan instrucciones de organización y funcionamiento dirigidas a los centros docentes públicos no universitarios de Canarias para el curso 2025-2026
     ruta_corpus: 02_normativa/canarias/resoluciones/NOR-046-resolucion-iof-25-26.md
     fuente_principal: FTE-049
-    fecha_consulta: 2026-04-26
-    estado_vigencia: Vigente
+    fecha_consulta: 2026-10-07
+    estado_vigencia: Histórica — aplicación al curso 2025-2026; referencia anual 2026-2027 en NOR-127
     estado_acceso: con-copia-local
     enlaces:
       url_html: https://www.gobiernodecanarias.org/educacion/web/centros/gestion_centros/organizacion-funcionamiento/inf-prim-eso-bach/index1.html
@@ -1611,6 +1717,142 @@ normativa:
       sha256: e925f608de06146e39c7426e8f6f5067b939759feddcd2d367c56607396069c8
       url_origen: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-10866
       fecha_exportacion: '2026-08-05'
+  NOR-125:
+    titulo: Instrucciones de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, para la evaluación
+      y calificación del alumnado en las etapas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria
+      y Bachillerato, de aplicación en los centros educativos de la Comunidad Autónoma de Canarias a partir del curso 2026/2027
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-125-instrucciones-evaluacion-calificacion-2026-2027.md
+    fuente_principal: FTE-132
+    fecha_consulta: '2026-10-07'
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: null
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261006-instrucciones-evaluacion-calificacion-lomloe-26-27.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-125-instrucciones-evaluacion-calificacion-2026-2027.txt
+      sha256: 7540a2e2e560129b44c73f786942843a0c211e809a7d22a71ce40a479afb8752
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261006-instrucciones-evaluacion-calificacion-lomloe-26-27.pdf
+      fecha_exportacion: '2026-10-07'
+  NOR-126:
+    titulo: Resolución de la Dirección General de Ordenación de las Enseñanzas, Inclusión e Innovación, por la que se establecen
+      las rúbricas de los criterios de evaluación de las etapas de Educación Infantil y de los ámbitos del Programa de Diversificación
+      Curricular, para orientar y facilitar la evaluación y la calificación objetiva del alumnado, en la Comunidad Autónoma
+      de Canarias, en el marco de la LOMLOE
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-126-resolucion-1141-2026-rubricas-infantil-diversificacion.md
+    fuente_principal: FTE-133
+    fecha_consulta: '2026-10-07'
+    estado_vigencia: Pendiente de verificación — acto publicado en el portal; publicación BOC y efectos pendientes (PREG-014)
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: null
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261005-res-1141-rubricas-educacion-infantil-programa-diversificacion-curricular-26-27.pdf
+      url_texto_consolidado: null
+      url_anexo: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/otros/anexo-1-20261005-res-1141-rubricas-educacion-infantil-26-27.pdf
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-126-resolucion-1141-2026-rubricas-infantil-diversificacion.txt
+      sha256: 5afea9e2d50076e3fd42e341881b0bcb608e35a5bfc201133f4b1188969615ee
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20261005-res-1141-rubricas-educacion-infantil-programa-diversificacion-curricular-26-27.pdf
+      fecha_exportacion: '2026-10-07'
+  NOR-127:
+    titulo: Resolución conjunta de la Viceconsejería de Educación y la Viceconsejería de Formación Profesional y Cualificaciones
+      Profesionales por la que se dictan instrucciones de organización y funcionamiento dirigidas a los centros docentes públicos
+      no universitarios de la Comunidad Autónoma de Canarias para el curso 2026-2027
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-127-resolucion-73-2026-organizacion-funcionamiento.md
+    fuente_principal: FTE-134
+    fecha_consulta: '2026-10-07'
+    estado_vigencia: Vigente con modificaciones — NOR-128 y NOR-129; curso 2026-2027
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: null
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion-73-instrucciones-organizacion-funcionamiento-centros-curso-26-27.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-127-resolucion-73-2026-organizacion-funcionamiento.txt
+      sha256: 3ebe977a4c13812f9aad43f562eb9224535bb24b96be5f837f8aee2b41dcfff9
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion-73-instrucciones-organizacion-funcionamiento-centros-curso-26-27.pdf
+      fecha_exportacion: '2026-10-07'
+  NOR-128:
+    titulo: Resolución conjunta de la Viceconsejería de Educación y la Viceconsejería de Formación Profesional y Cualificaciones
+      Profesionales por la que se modifica la Resolución de 27 de mayo de 2026 por la que se dictan instrucciones de organización
+      y funcionamiento dirigidas a los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias para
+      el curso 2026-2027
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-128-resolucion-95-2026-modificacion-iof-fp.md
+    fuente_principal: FTE-135
+    fecha_consulta: '2026-10-07'
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: null
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20260717-res-95-modificacion-instrucciones-organizacion-funcionamiento-centros-publicos-curso-26-27.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-128-resolucion-95-2026-modificacion-iof-fp.txt
+      sha256: 8c59f548ab2cf59448fc21048ddf638497fd601ef5a790a68e2f40d0eeaa1955
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/20260717-res-95-modificacion-instrucciones-organizacion-funcionamiento-centros-publicos-curso-26-27.pdf
+      fecha_exportacion: '2026-10-07'
+  NOR-129:
+    titulo: Resolución conjunta de la Viceconsejería de Educación y la Viceconsejería de Formación Profesional y Cualificaciones
+      Profesionales por la que se modifica la Resolución de 27 de mayo de 2026 por la que se dictan instrucciones de organización
+      y funcionamiento dirigidas a los centros docentes públicos no universitarios de la Comunidad Autónoma de Canarias para
+      el curso 2026-2027
+    ruta_corpus: 02_normativa/canarias/resoluciones/NOR-129-resolucion-110-2026-recogida-hermanos-menores.md
+    fuente_principal: FTE-136
+    fecha_consulta: '2026-10-07'
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: null
+      url_pdf: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion-conjunta-110-2026_modificacion-instrucciones_organizacion_centros_curso-26_27.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-129-resolucion-110-2026-recogida-hermanos-menores.txt
+      sha256: d1d796edf2fb32c2e6b615a0ca605f7064ec647bb010be2103f9bd67d49b81f7
+      url_origen: https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/_galerias/descargas/normativa-internas/resolucion-conjunta-110-2026_modificacion-instrucciones_organizacion_centros_curso-26_27.pdf
+      fecha_exportacion: '2026-10-07'
+  NOR-130:
+    titulo: Orden de 6 de agosto de 2026, por la que se actualiza la configuración de los Colectivos de Escuelas Rurales del
+      ámbito de la Comunidad Autónoma de Canarias, para el curso escolar 2026-2027
+    ruta_corpus: 02_normativa/canarias/ordenes/NOR-130-orden-6-agosto-2026-colectivos-escuelas-rurales.md
+    fuente_principal: FTE-137
+    fecha_consulta: '2026-10-07'
+    estado_vigencia: Vigente con modificaciones — anexo modificado por NOR-131; curso 2026-2027
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/166/2986.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-166-2986.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-130-orden-6-agosto-2026-colectivos-escuelas-rurales.txt
+      sha256: f3e21cb4f19afa9081bfea3236b2d5e5dfa9d762e3644e7f89100f92a7887ac4
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-166-2986.pdf
+      fecha_exportacion: '2026-10-07'
+  NOR-131:
+    titulo: Orden de 25 de septiembre de 2026, por la que se modifica el anexo de la Orden de 6 de agosto de 2026, que actualiza
+      la configuración de los Colectivos de Escuelas Rurales del ámbito de la Comunidad Autónoma de Canarias, para el curso
+      escolar 2026-2027
+    ruta_corpus: 02_normativa/canarias/ordenes/NOR-131-orden-25-septiembre-2026-modifica-colectivos-escuelas-rurales.md
+    fuente_principal: FTE-138
+    fecha_consulta: '2026-10-07'
+    estado_vigencia: Vigente
+    estado_acceso: con-copia-local
+    enlaces:
+      url_html: https://www.gobiernodecanarias.org/boc/2026/201/3465.html
+      url_pdf: https://sede.gobiernodecanarias.org/boc/boc-a-2026-201-3465.pdf
+      url_texto_consolidado: null
+      url_anexo: null
+    texto_plano_local:
+      ruta_local: 07_corpus_ia/textos-completos/texto-oficial-NOR-131-orden-25-septiembre-2026-modifica-colectivos-escuelas-rurales.txt
+      sha256: cc7ce6c6ac6f301f20f2d3ac44115d82f861ed83b7623fb8c341d3e9fbf8e15e
+      url_origen: https://sede.gobiernodecanarias.org/boc/boc-a-2026-201-3465.pdf
+      fecha_exportacion: '2026-10-07'
+
 curriculos:
   CUR-001:
     titulo: Biología y Geología — ESO Canarias
