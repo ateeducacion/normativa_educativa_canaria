@@ -1605,6 +1605,26 @@ tareas:
     - TAREA-094
     - DEC-0011
     siguiente_accion: null
+  TAREA-098:
+    titulo: Revisar e incorporar novedades de evaluación y organización para 2026-2027
+    estado: Hecha
+    prioridad: Alta
+    tipo: analisis-normativo
+    responsable: '@.agents/skills/analisis-normativo'
+    fecha_creacion: '2026-10-07'
+    fecha_actualizacion: '2026-10-07'
+    fecha_cierre: '2026-10-07'
+    relacionadas:
+    - NOR-125
+    - NOR-126
+    - NOR-127
+    - NOR-128
+    - NOR-129
+    - NOR-130
+    - NOR-131
+    - NOR-046
+    - PREG-014
+    siguiente_accion: null
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.

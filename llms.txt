@@ -11,13 +11,13 @@ Las rutas internas Markdown/YAML citadas en este archivo quedan publicadas en Gi
 <!-- inventario-corpus:inicio -->
 Esta sección se genera desde `06_indices/`; los huecos de identificadores se conservan y no implican entidades ausentes.
 
-- 131 fuentes (FTE-001 a FTE-131, con posibles huecos reservados).
-- 122 normas (NOR-001 a NOR-124, con posibles huecos reservados).
+- 138 fuentes (FTE-001 a FTE-138, con posibles huecos reservados).
+- 129 normas (NOR-001 a NOR-131, con posibles huecos reservados).
 - 58 currículos (CUR-001 a CUR-058, con posibles huecos reservados); bachillerato: 14, eso: 23, formacion-profesional: 8, infantil: 3, primaria: 10.
-- 88 relaciones (REL-001 a REL-091, con posibles huecos reservados).
+- 100 relaciones (REL-001 a REL-103, con posibles huecos reservados).
 - 22 chunks IA (CHUNK-00001 a CHUNK-00022, con posibles huecos reservados).
-- 97 tareas; Hecha: 97.
-- 132 copias locales de textos oficiales (normativa: 95; currículos: 37).
+- 98 tareas; Hecha: 98.
+- 139 copias locales de textos oficiales (normativa: 102; currículos: 37).
 - [Inventario JSON público](docs/datos/inventario.json): resumen derivado para clientes automáticos.
 <!-- inventario-corpus:fin -->
 

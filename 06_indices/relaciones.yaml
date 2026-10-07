@@ -644,3 +644,88 @@ REL-091:
   fecha_registro: 2026-08-23
   nivel_evidencia: "confirmado-fuente-primaria"
   ruta: "05_relaciones/normativa/REL-091-orden-2024-modifica-piloto-infantil.yaml"
+
+REL-092:
+  tipo_relacion: desarrolla
+  origen: NOR-125
+  destino: NOR-044
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-092-nor-125-desarrolla-nor-044.yaml
+REL-093:
+  tipo_relacion: desarrolla
+  origen: NOR-126
+  destino: NOR-044
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-093-nor-126-desarrolla-nor-044.yaml
+REL-094:
+  tipo_relacion: aplica
+  origen: NOR-127
+  destino: NOR-009
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-094-nor-127-aplica-nor-009.yaml
+REL-095:
+  tipo_relacion: modifica
+  origen: NOR-128
+  destino: NOR-127
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-095-nor-128-modifica-nor-127.yaml
+REL-096:
+  tipo_relacion: modifica
+  origen: NOR-129
+  destino: NOR-127
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-096-nor-129-modifica-nor-127.yaml
+REL-097:
+  tipo_relacion: modifica
+  origen: NOR-131
+  destino: NOR-130
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-097-nor-131-modifica-nor-130.yaml
+REL-098:
+  tipo_relacion: sustituye
+  origen: NOR-127
+  destino: NOR-046
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: inferido
+  ruta: 05_relaciones/normativa/REL-098-nor-127-sustituye-nor-046.yaml
+REL-099:
+  tipo_relacion: relaciona
+  origen: NOR-125
+  destino: NOR-047
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-099-nor-125-relaciona-nor-047.yaml
+REL-100:
+  tipo_relacion: relaciona
+  origen: NOR-125
+  destino: NOR-043
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-100-nor-125-relaciona-nor-043.yaml
+REL-101:
+  tipo_relacion: relaciona
+  origen: NOR-125
+  destino: NOR-005
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-101-nor-125-relaciona-nor-005.yaml
+REL-102:
+  tipo_relacion: relaciona
+  origen: NOR-126
+  destino: NOR-047
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-102-nor-126-relaciona-nor-047.yaml
+REL-103:
+  tipo_relacion: relaciona
+  origen: NOR-126
+  destino: NOR-005
+  fecha_registro: '2026-10-07'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-103-nor-126-relaciona-nor-005.yaml
