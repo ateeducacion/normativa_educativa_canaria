@@ -5,3 +5,4 @@
 - Revisada la tarjeta y comprobada la portada en Chromium a 1280 y 320 px, sin desbordamiento horizontal.
 - La tarjeta recuerda que el corpus no sustituye la consulta de las fuentes oficiales.
 - Retirado el rótulo «CORPUS ABIERTO · CANARIAS» a petición del usuario, conservando el resto de la composición.
+- Añadida la imagen enlazada a su URL pública debajo del título y el resumen del README.

@@ -2,6 +2,8 @@
 
 Repositorio IA-friendly para recopilar, analizar, resumir, indexar y relacionar normativa educativa y currículos aplicables a Canarias.
 
+[![Normativa Educativa Canaria para tu inteligencia artificial](docs/assets/img/og-image.jpg)](https://ateeducacion.github.io/normativa_educativa_canaria/assets/img/og-image.jpg)
+
 > Los resúmenes de este repositorio no sustituyen la consulta de las fuentes oficiales.
 
 ## Propósito
