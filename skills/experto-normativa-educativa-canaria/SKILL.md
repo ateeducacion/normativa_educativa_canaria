@@ -7,7 +7,7 @@ description: >
 compatibility: Requires web access to verify current BOC and BOE sources.
 metadata:
   author: ateeducacion
-  version: "1.3.0"
+  version: "1.3.1"
   source: https://github.com/ateeducacion/normativa_educativa_canaria/blob/main/skills/experto-normativa-educativa-canaria/SKILL.md
 ---
 
