@@ -7,9 +7,9 @@ ambito: "canarias"
 autoridad: "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial"
 fecha_disposicion: 2024-10-30
 fecha_publicacion: 2024-11-13
-fecha_consulta: 2026-08-05
-fecha_analisis: 2026-08-05
-estado_vigencia: "Vigente"
+fecha_consulta: 2026-10-19
+fecha_analisis: 2026-10-19
+estado_vigencia: "Vigente con modificaciones"
 fuente_principal: FTE-088
 url_oficial: "https://www.gobiernodecanarias.org/boc/2024/226/3747.html"
 texto_oficial:
@@ -22,7 +22,7 @@ etapas_afectadas: [formacion-profesional]
 temas: [formacion-profesional, grados-d-e, distribucion-horaria, curriculo-fp, evaluacion-fp, titulacion-fp, prevencion-riesgos-laborales, modulos-transversales, convalidaciones, canarias]
 relaciones:
   desarrolla_a: [NOR-080]
-  modificada_por: [NOR-082, NOR-083, NOR-094, NOR-096]
+  modificada_por: [NOR-082, NOR-083, NOR-094, NOR-096, NOR-132]
   modifica_a: []
   deroga_a: []
   derogada_por: []
@@ -40,8 +40,8 @@ nivel_evidencia: "confirmado-fuente-primaria"
 - **Publicación:** `BOC-A-2024-226-3747`, 2024-11-13.
 - **Ámbito:** Comunidad Autónoma de Canarias.
 - **Fuente oficial:** `FTE-088`.
-- **Fecha de consulta y análisis:** 2026-08-05.
-- **Estado de vigencia:** vigente.
+- **Fecha de consulta y análisis:** 2026-10-19 (ampliación; análisis del texto original: 2026-08-05).
+- **Estado de vigencia:** vigente con modificaciones.
 
 ## 2. Por qué esta ficha llega ahora
 
@@ -212,6 +212,10 @@ de esta misma resolución y no normas distintas (`DEC-0012`):
 | V | Grados D, nivel 1 (ciclos de grado básico) | [PDF](https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Estructura-modular-y-horaria-Grados-D-nivel-1.pdf) |
 | VI | Grados D, niveles 2 y 3 (grado medio y superior) | [PDF](https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Estructura-modular-y-horaria-Grados-D-nivel-2-y-3.pdf) |
 | VII | Grados E, niveles 2 y 3 (cursos de especialización) | [PDF](https://www.gobiernodecanarias.org/cmsgob1/export/sites/educacion/web/servicios/inspeccion_educativa/normativa_clasificada/descargas/Estructura-modular-y-horaria-Grados-E.pdf) |
+
+## Ampliación comprobada el 2026-10-19
+
+NOR-132 añade las instrucciones decimosexta y decimoséptima sobre certificaciones de prevención y los modelos X y XI (REL-104). Fuente: [FTE-139](../../../01_fuentes/boc/FTE-139-resolucion-22-septiembre-2026-certificaciones-prevencion-riesgos.md). La descripción anterior de nueve anexos corresponde al texto original de 2024.
 
 ## 12. Fuentes
 

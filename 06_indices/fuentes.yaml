@@ -1233,3 +1233,12 @@ FTE-138:
   fecha_consulta: '2026-10-07'
   estado_fuente: Activa
   ruta: 01_fuentes/portales-oficiales/FTE-138-orden-25-septiembre-2026-modifica-colectivos-escuelas-rurales.md
+
+FTE-139:
+  titulo: BOC 205/2026 — Certificaciones de prevención de riesgos en FP
+  tipo_fuente: boletin-oficial
+  autoridad: Dirección General de Formación Profesional y Enseñanzas de Régimen Especial
+  url_oficial: https://sede.gobiernodecanarias.org/boc/boc-a-2026-205-3539.pdf
+  fecha_consulta: '2026-10-19'
+  estado_fuente: Activa
+  ruta: 01_fuentes/boc/FTE-139-resolucion-22-septiembre-2026-certificaciones-prevencion-riesgos.md

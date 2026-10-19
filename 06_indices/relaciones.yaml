@@ -729,3 +729,11 @@ REL-103:
   fecha_registro: '2026-10-07'
   nivel_evidencia: confirmado-fuente-primaria
   ruta: 05_relaciones/normativa/REL-103-nor-126-relaciona-nor-005.yaml
+
+REL-104:
+  tipo_relacion: modifica
+  origen: NOR-132
+  destino: NOR-081
+  fecha_registro: '2026-10-19'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-104-nor-132-amplia-nor-081.yaml
