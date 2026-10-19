@@ -24,29 +24,29 @@
     },
     "fuentes": {
       "primer_id": "FTE-001",
-      "total": 138,
-      "ultimo_id": "FTE-138"
+      "total": 139,
+      "ultimo_id": "FTE-139"
     },
     "normativa": {
       "primer_id": "NOR-001",
-      "total": 129,
-      "ultimo_id": "NOR-131"
+      "total": 130,
+      "ultimo_id": "NOR-132"
     },
     "relaciones": {
       "primer_id": "REL-001",
-      "total": 100,
-      "ultimo_id": "REL-103"
+      "total": 101,
+      "ultimo_id": "REL-104"
     },
     "tareas": {
       "primer_id": "TAREA-001",
-      "total": 98,
-      "ultimo_id": "TAREA-098"
+      "total": 99,
+      "ultimo_id": "TAREA-099"
     }
   },
   "fuente": "06_indices/",
   "tareas": {
     "por_estado": {
-      "Hecha": 98
+      "Hecha": 99
     }
   },
   "textos_oficiales_locales": {

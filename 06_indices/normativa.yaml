@@ -1175,9 +1175,9 @@ NOR-081:
   nombre_corto: "Instrucciones de los Grados D y E (Canarias, 2024)"
   tipo_norma: "resolucion-autonomica"
   ambito: "canarias"
-  estado_vigencia: "Vigente"
+  estado_vigencia: "Vigente con modificaciones"
   fecha_disposicion: 2024-10-30
-  fecha_consulta: 2026-08-05
+  fecha_consulta: 2026-10-19
   fuente_principal: FTE-088
   ruta: "02_normativa/canarias/resoluciones/NOR-081-resolucion-30-octubre-2024-grados-d-e.md"
   temas: [formacion-profesional, grados-d-e, distribucion-horaria, curriculo-fp, evaluacion-fp, titulacion-fp, prevencion-riesgos-laborales, modulos-transversales, convalidaciones, canarias]
@@ -1906,3 +1906,24 @@ NOR-131:
   - infantil
   - primaria
   ruta: 02_normativa/canarias/ordenes/NOR-131-orden-25-septiembre-2026-modifica-colectivos-escuelas-rurales.md
+
+NOR-132:
+  titulo: Resolución de 22 de septiembre de 2026, por la que se amplía la Resolución de 30 de octubre de 2024, que
+    dicta instrucciones y orientaciones para la implantación y desarrollo de los grados D y E, a partir del curso
+    escolar 2024/2025, y se establece la distribución horaria y modular de los currículos, en el ámbito de la Comunidad
+    Autónoma de Canarias
+  nombre_corto: Certificaciones de prevención de riesgos en FP (2026)
+  tipo_norma: resolucion-autonomica
+  ambito: canarias
+  estado_vigencia: Vigente
+  fecha_consulta: '2026-10-19'
+  fecha_analisis: '2026-10-19'
+  fuente_principal: FTE-139
+  temas:
+  - formacion-profesional
+  - prevencion-riesgos-laborales
+  - certificacion
+  - grados-d-e
+  etapas_afectadas:
+  - formacion-profesional
+  ruta: 02_normativa/canarias/resoluciones/NOR-132-resolucion-22-septiembre-2026-certificaciones-prevencion-riesgos.md

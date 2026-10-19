@@ -4781,6 +4781,53 @@
       "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/resoluciones/NOR-129-resolucion-110-2026-recogida-hermanos-menores.md"
     },
     {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/resoluciones/NOR-132-resolucion-22-septiembre-2026-certificaciones-prevencion-riesgos.md",
+      "@type": "Legislation",
+      "alternateName": "Certificaciones de prevención de riesgos en FP (2026)",
+      "datePublished": "2026-10-14",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "identificador interno",
+          "value": "NOR-132"
+        }
+      ],
+      "inLanguage": "es",
+      "keywords": [
+        "formacion-profesional",
+        "prevencion-riesgos-laborales",
+        "certificacion",
+        "grados-d-e"
+      ],
+      "legislationAmends": [
+        {
+          "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/resoluciones/NOR-081-resolucion-30-octubre-2024-grados-d-e.md",
+          "@type": "Legislation"
+        }
+      ],
+      "legislationDate": "2026-09-22",
+      "legislationIdentifier": [
+        "NOR-132"
+      ],
+      "legislationJurisdiction": {
+        "@type": "AdministrativeArea",
+        "name": "Comunidad Autónoma de Canarias"
+      },
+      "legislationLegalForce": {
+        "@id": "https://schema.org/InForce"
+      },
+      "legislationPassedBy": {
+        "@type": "Organization",
+        "name": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial"
+      },
+      "legislationType": "resolucion-autonomica",
+      "name": "Resolución de 22 de septiembre de 2026, por la que se amplía la Resolución de 30 de octubre de 2024, que dicta instrucciones y orientaciones para la implantación y desarrollo de los grados D y E, a partir del curso escolar 2024/2025, y se establece la distribución horaria y modular de los currículos, en el ámbito de la Comunidad Autónoma de Canarias",
+      "sameAs": [
+        "https://sede.gobiernodecanarias.org/boc/boc-a-2026-205-3539.pdf"
+      ],
+      "url": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/canarias/resoluciones/NOR-132-resolucion-22-septiembre-2026-certificaciones-prevencion-riesgos.md"
+    },
+    {
       "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/02_normativa/estatal/leyes/NOR-123-ley-31-1995-prevencion-riesgos.md",
       "@type": "Legislation",
       "alternateName": "Ley de Prevención de Riesgos Laborales",

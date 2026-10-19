@@ -1037,6 +1037,21 @@
       "url": "https://www.gobiernodecanarias.org/boc/2024/064/pda/006.html"
     },
     {
+      "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-139-resolucion-22-septiembre-2026-certificaciones-prevencion-riesgos.md",
+      "@type": "WebPage",
+      "additionalType": "boletin-oficial",
+      "dateModified": "2026-10-19",
+      "identifier": "FTE-139",
+      "inLanguage": "es",
+      "name": "BOC 205/2026 — Certificaciones de prevención de riesgos en FP",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dirección General de Formación Profesional y Enseñanzas de Régimen Especial"
+      },
+      "sameAs": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boc/FTE-139-resolucion-22-septiembre-2026-certificaciones-prevencion-riesgos.md",
+      "url": "https://sede.gobiernodecanarias.org/boc/boc-a-2026-205-3539.pdf"
+    },
+    {
       "@id": "https://ateeducacion.github.io/normativa_educativa_canaria/01_fuentes/boe/FTE-005-loe-texto-consolidado.md",
       "@type": "WebPage",
       "additionalType": "normativa-estatal",

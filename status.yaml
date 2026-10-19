@@ -1625,6 +1625,20 @@ tareas:
     - NOR-046
     - PREG-014
     siguiente_accion: null
+  TAREA-099:
+    titulo: Catalogar la ampliación de certificaciones PRL detectada en el PR 60
+    estado: Hecha
+    prioridad: Alta
+    tipo: catalogacion
+    responsable: '@.agents/skills/analisis-normativo'
+    fecha_creacion: '2026-10-19'
+    fecha_actualizacion: '2026-10-19'
+    relacionadas:
+    - FTE-139
+    - NOR-132
+    - NOR-081
+    - REL-104
+    fecha_cierre: '2026-10-19'
 bloqueos: []
 reglas:
 - No crear contenido normativo sin fuente oficial.
