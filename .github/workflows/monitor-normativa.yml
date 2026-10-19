@@ -125,10 +125,12 @@ jobs:
           cp 11_calidad/monitor/portal-normativa-canaria.seen.json \
             "$artifact_dir/11_calidad/monitor/"
 
-          if compgen -G "07_corpus_ia/_borradores-monitor/*.md" > /dev/null; then
-            cp 07_corpus_ia/_borradores-monitor/*.md \
-              "$artifact_dir/07_corpus_ia/_borradores-monitor/"
-          fi
+          # Include only Markdown generated in this run, not tracked files like README.md.
+          shopt -s nullglob
+          for converted in output/*.md; do
+            draft="07_corpus_ia/_borradores-monitor/$(basename "$converted")"
+            cp "$draft" "$artifact_dir/07_corpus_ia/_borradores-monitor/"
+          done
 
           if find "$artifact_dir" -type l -print -quit | grep -q .; then
             echo "::error::El artefacto contiene enlaces simbólicos."
