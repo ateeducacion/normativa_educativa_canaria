@@ -1242,3 +1242,12 @@ FTE-139:
   fecha_consulta: '2026-10-19'
   estado_fuente: Activa
   ruta: 01_fuentes/boc/FTE-139-resolucion-22-septiembre-2026-certificaciones-prevencion-riesgos.md
+
+FTE-140:
+  titulo: BOC 210/2026 — Certificación académica de la formación específica en prevención de riesgos laborales en FP de Grado D
+  tipo_fuente: boletin-oficial
+  autoridad: Dirección General de Formación Profesional y Enseñanzas de Régimen Especial
+  url_oficial: https://sede.gobiernodecanarias.org/boc/boc-a-2026-210-3623.pdf
+  fecha_consulta: '2026-11-03'
+  estado_fuente: Activa
+  ruta: 01_fuentes/boc/FTE-140-resolucion-6-octubre-2026-certificacion-academica-prl-grado-d.md

@@ -1,0 +1,11 @@
+id: REL-105
+tipo_relacion: desarrolla
+origen: NOR-133
+destino: NOR-080
+descripcion: Desarrolla los artículos 9.6.e) y 158.b) del RD 659/2023 sobre la formación en prevención de riesgos laborales previa a la formación en empresa.
+evidencia:
+  fuente: FTE-140
+  localizacion: Fundamentos de derecho, primero, y anexo I, instrucción primera.2; BOC 210/2026, páginas 37929 y 37932.
+fecha_registro: '2026-11-03'
+nivel_evidencia: confirmado-fuente-primaria
+observaciones: null

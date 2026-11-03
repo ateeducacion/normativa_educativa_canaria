@@ -737,3 +737,27 @@ REL-104:
   fecha_registro: '2026-10-19'
   nivel_evidencia: confirmado-fuente-primaria
   ruta: 05_relaciones/normativa/REL-104-nor-132-amplia-nor-081.yaml
+
+REL-105:
+  tipo_relacion: desarrolla
+  origen: NOR-133
+  destino: NOR-080
+  fecha_registro: '2026-11-03'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-105-nor-133-desarrolla-nor-080.yaml
+
+REL-106:
+  tipo_relacion: relaciona
+  origen: NOR-133
+  destino: NOR-099
+  fecha_registro: '2026-11-03'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-106-nor-133-relaciona-nor-099.yaml
+
+REL-107:
+  tipo_relacion: relaciona
+  origen: NOR-133
+  destino: NOR-061
+  fecha_registro: '2026-11-03'
+  nivel_evidencia: confirmado-fuente-primaria
+  ruta: 05_relaciones/normativa/REL-107-nor-133-relaciona-nor-061.yaml
