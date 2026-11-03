@@ -1927,3 +1927,26 @@ NOR-132:
   etapas_afectadas:
   - formacion-profesional
   ruta: 02_normativa/canarias/resoluciones/NOR-132-resolucion-22-septiembre-2026-certificaciones-prevencion-riesgos.md
+
+NOR-133:
+  titulo: Resolución de 6 de octubre de 2026, por la que se establece el procedimiento para la certificación académica
+    de la formación específica en prevención de riesgos laborales asociada al perfil profesional de los diferentes títulos
+    de las ofertas de Formación Profesional de Grado D
+  nombre_corto: Certificación académica de PRL específica en FP de Grado D (2026)
+  tipo_norma: resolucion-autonomica
+  ambito: canarias
+  estado_vigencia: Vigente
+  fecha_disposicion: '2026-10-06'
+  fecha_publicacion: '2026-10-21'
+  fecha_consulta: '2026-11-03'
+  fecha_analisis: '2026-11-03'
+  fuente_principal: FTE-140
+  temas:
+  - formacion-profesional
+  - prevencion-riesgos-laborales
+  - certificacion
+  - formacion-en-empresa
+  - grado-d
+  etapas_afectadas:
+  - formacion-profesional
+  ruta: 02_normativa/canarias/resoluciones/NOR-133-resolucion-6-octubre-2026-certificacion-academica-prl-grado-d.md

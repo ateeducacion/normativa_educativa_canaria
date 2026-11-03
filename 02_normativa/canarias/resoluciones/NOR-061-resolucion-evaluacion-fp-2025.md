@@ -27,7 +27,7 @@ relaciones:
   modifica_a: []
   deroga_a: []
   derogada_por: []
-  relacionada_con: [NOR-015]
+  relacionada_con: [NOR-015, NOR-133]
 nivel_evidencia: "confirmado-fuente-primaria"
 ---
 

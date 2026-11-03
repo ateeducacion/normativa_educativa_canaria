@@ -1,0 +1,11 @@
+id: REL-107
+tipo_relacion: relaciona
+origen: NOR-133
+destino: NOR-061
+descripcion: Exige para el alumnado de primer curso la valoración positiva de las competencias preventivas conforme al anexo V de la resolución de evaluación.
+evidencia:
+  fuente: FTE-140
+  localizacion: Anexo I, instrucción segunda.5.b); BOC 210/2026, página 37933.
+fecha_registro: '2026-11-03'
+nivel_evidencia: confirmado-fuente-primaria
+observaciones: null

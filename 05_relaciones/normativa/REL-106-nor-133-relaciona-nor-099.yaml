@@ -1,0 +1,11 @@
+id: REL-106
+tipo_relacion: relaciona
+origen: NOR-133
+destino: NOR-099
+descripcion: Cita la instrucción cuarta, apartados 4 a 6, del anexo I sobre la adquisición de competencias preventivas antes de la formación en empresa.
+evidencia:
+  fuente: FTE-140
+  localizacion: Fundamentos de derecho, segundo; BOC 210/2026, página 37930.
+fecha_registro: '2026-11-03'
+nivel_evidencia: confirmado-fuente-primaria
+observaciones: null
