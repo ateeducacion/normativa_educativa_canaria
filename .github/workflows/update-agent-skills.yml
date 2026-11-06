@@ -24,25 +24,16 @@ jobs:
           ref: main
           persist-credentials: false
 
-      - id: update
-        uses: erseco/update-agent-skills@v1
+      - uses: erseco/update-agent-skills@v1
         with:
           dir: .agents/skills
 
       - name: Copiar skills a .claude/skills
-        id: mirror
         run: |
-          set -euo pipefail
           mkdir -p .claude/skills
           rsync -a --delete --exclude .DS_Store --exclude .venv .agents/skills/ .claude/skills/
-          if ! git diff --quiet -- .claude/skills || [ -n "$(git ls-files --others --exclude-standard -- .claude/skills)" ]; then
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          fi
 
       - name: Open pull request
-        if: steps.update.outputs.changed == 'true' || steps.mirror.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8
         with:
           base: main
